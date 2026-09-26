@@ -1,0 +1,114 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+184   The exponential function
+
+                                 Example 8.14 Find
+                                     
+                                           2x − 1
+                                 (a)                  dx
+                                       (x − 3)(x + 1)
+                                     
+                                              x2
+                                 (b)                    dx.
+                                       (x + 2)(2x − 1)2
+
+                                 Solution
+                                     
+                                            2x − 1
+                                 (a)                   dx.
+                                        (x − 3)(x + 1)
+                                 Rewrite the expression using partial fractions. We need to find A and B
+                                 so that:
+                                      2x − 1           A          B
+                                                 =          +
+                                 (x − 3)(x + 1)     (x − 3) (x + 1)
+
+
+ww                               where this should be true for all values of x.
+                                   Multiplying by (x − 3)(x + 1) gives 2x − 1 = A(x + 1) + B(x − 3).
+                                 This is an identity, so we can substitute values for x:
+
+   w             .Ea
+                                 substitute x = −1
+                                 substitute x = 3
+                                                       giving − 3 = B(−4)
+                                                      giving 5 = A(4)    ⇔
+                                                                               ⇔
+                                                                              A = 5/4
+                                                                                     B = 3/4
+
+
+
+
+                    syE          Hence,
+                                     2x − 1
+                                 (x − 3)(x + 1)
+                                                =
+                                                     5
+                                                          +
+                                                              3
+                                                  4(x − 3) 4(x + 1)
+                                                                    .
+
+                                 So
+                                              ngi           
+                                           2x − 1
+                                                   n
+                                       (x − 3)(x + 1)
+                                                      dx =
+
+                                                                 eer
+                                                                    5
+                                                                         +
+                                                                             3
+                                                                 4(x − 3) 4(x + 1)
+                                                                                   dx.
+
+                                 As (x − 3) and (x + 1) are linear functions of x, we can find each part of
+
+                                  
+                                                                           ing
+                                 this integral using substitutions of u = x − 3 and u = x + 1:
+                                         5
+                                                +
+                                                       3           5             3
+                                                            dx = ln(x − 3) + ln(x + 1) + C
+
+                                  
+                                     4(x − 3) 4(x + 1)             4             4
+                                                                                         .ne
+                                 Check:
+                                    
+                                          2x − 1
+                                     (x − 3)(x + 1)
+                                                            5              3
+                                                      dx = ln(x − 3) + ln(x + 1) + C.
+                                                            4
+
+                                                                 
+                                                                           4
+                                                                                             t
+                                  d 5              3                   5        3
+                                        ln(x − 3) + ln(x + 1) + C =         +
+                                 dx 4              4                4(x − 3) 4(x + 1)
+                                 writing this over a common denominator gives
+                                                                  
+                                  d 5                  3                 5(x + 1) + 3(x − 3)
+                                         ln(x − 3) + ln(x + 1) + C =
+                                 dx 4                  4                   4(x − 3)(x + 1)
+                                                                            5x + 5 + 3x − 9
+                                                                          =
+                                                                            4(x − 3)(x + 1)
+                                                                                8x − 4
+                                                                          =
+                                                                            4(x − 3)(x + 1)
+                                                                                2x − 1
+                                                                          =
+                                                                            (x − 3)(x + 1)
+                                       
+                                                  x2
+                                 (b)                        dx
+                                           (x + 2)(2x − 1)2
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

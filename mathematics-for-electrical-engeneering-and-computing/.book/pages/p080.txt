@@ -1,0 +1,74 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+                                       Problem solving and the art of the convincing argument                     67
+
+
+
+
+Figure 3.4 Solving x 2 − 5x + 6 > 0.
+
+
+
+                                       (using the formula for solution of quadratic equations)
+                                                5+1      5−1
+                                       ⇔     x=     ∨x =
+                                                 2        2
+                                       ⇔     x =3∨x =2
+
+                                          Using the fact that the function is continuous, we can substitute values
+
+ww                                     for x which lie on either side of the roots of f (x) = 0 in order to find the
+                                       sign of the function in that region. Here, we choose 0, 2.5, and 4 and find
+                                       that
+
+   w                .Ea                when x = 0:
+                                       when x = 2.5:
+                                                         f (x) = x 2 − 5x + 6 = 6, so f (x) > 0
+                                                         f (x) = x 2 − 5x + 6 = 6.25 − 12.5 + 6
+
+
+                       syE             when x = 4:
+                                                               = −0.25, so f (x) < 0
+                                                         f (x) = x 2 − 5x + 6 = 16 − 20 + 6 = 2,
+
+
+                                                  ngi    so f (x) > 0
+
+
+
+                                                      n
+                                          These regions are marked on the number line as in Figure 3.4 and this
+                                       gives the solution to f (x) > 0 as x < 2 ∨ x > 3.
+
+                                                                     eer
+                                       Check: A check is to substitute some values from the solution set x <
+
+
+                                                                                  ing
+                                       2 ∨ x > 3 into the original predicate x 2 − 5x > −6
+                                       Substitute x = 1, this gives 1 − 5 > −6 ⇔ −4 > −6 ⇔ T
+                                       Substitute x = 5, this gives 25 − 25 > −6 ⇔ 0 < −6 ⇔ T
+                                         It therefore appears that this solution is correct.   .ne
+3.6 Implication
+                                                                                                   t
+                                       We previously described one method of finding equivalent equations as
+                                       that of ‘doing the same thing to both sides’. This was rather simplistic but a
+                                       useful way of seeing it at the time. There are only certain things that can be
+                                       ‘done to both sides’ like adding, subtracting, multiplying by a non-zero
+                                       expression, or dividing by a non-zero expression that always maintain
+                                       equivalence. There are also many operations that can be performed to
+                                       both sides of an equation which do not give an equivalent equation but
+                                       give an equation with the same solutions and yet more besides. In this
+                                       situation we say that the first equation implies the second equation. The
+                                       symbol for implies is ⇒.
+                                          An example of implication is given by squaring both sides of the
+                                       equation
+
+                                       x − 2 = 2 ⇒ (x − 2)2 = 4
+
+                                       The first predicate x − 2 = 2 has only one solution, x = 4, the second
+                                       predicate has two solutions x = 4 and x = 0. By squaring the equation
+                                       we have found a new equation which includes all the solutions of the first
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,82 @@
+              Downloaded From : www.EasyEngineering.net
+
+
+                                                                         Sets and functions   23
+
+                   Example 1.23          Find the inverse of
+                               1
+                   g(x) =                where x  = 2
+                              2−x
+                       Set
+                             1
+                   y=           ⇔ y(2 − x) = 1
+                            2−x
+                                ⇔ 2y − xy = 1
+                                   ⇔ 2y = 1 + xy
+                                   ⇔ 2y − 1 = xy
+                                   ⇔ xy = 2y − 1
+                                       2y − 1
+                                   ⇔x=                   where y  = 0
+
+ww                                 ⇔x =2−
+                                         y
+                                           1
+                                           y
+
+   w    .Ea        Swap x and y to give y = 2 − (1/x)
+                     So
+
+
+           syE     g −1 (x) = 2 −
+                                     1
+                                     x
+                                           x = 0
+
+                   To check, try a couple of values of x.
+                     Try x = 4,
+                                   ngi
+                   g(x) =
+                               1
+                              2−x
+                                  =
+                                     1
+                                    2−4
+                                       n=−
+                                           1
+                                           2
+                                                    eer
+                   Perform g −1 on the output value −(1/2).
+                     Substitute g(4) = −(1/2) into g −1 (x):
+                                                                   ing
+                   g   −1
+                             −
+                               1
+                               2
+                                   =2−
+                                         1
+                                       −(1/2)
+                                              = 2 + 2 = 4.
+                                                                                .ne
+                                                                                    t
+                       The function followed by its inverse has given us the original value of x.
+
+
+
+
+                   The range of a function
+                   When combining functions, for example, f (g(x)), we have to ensure that
+                   g(x) will only output values that are allowed to be input to f . The set of
+                   images of g(x) becomes an important consideration. The set of images
+                   of a function is called its range. The range of a function is a subset of its
+                   codomain.
+
+
+
+1.6 Summary         1. Functions are used to express relationships between physical
+                       quantities.
+                    2. The allowed inputs to a function are grouped into a set, called the
+                       domain of the function. The set including all the outputs is called
+                       the codomain.
+                    3. A set is a collection of objects called elements.
+
+                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

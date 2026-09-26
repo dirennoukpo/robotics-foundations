@@ -1,0 +1,30 @@
+                             Downloaded From : www.EasyEngineering.net
+
+
+14   Sets and functions
+
+
+
+
+ ww
+    w              .Ea
+                      syE
+                                           ngi
+                                               n           eer
+                                                                     ing
+                                                                               .ne
+                                                                                   t
+
+Figure 1.24  The digital signals
+                               described in Example 1.11.
+                               
+                               0            t ⩽4
+          1
+(a) x =       t > 2 (b) y = 1/t − 0.25 4 < t < 10 (c) z = 4t − 2 t > 0
+        t −1                   
+                               −0.15        t ⩾ 10
+
+
+
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

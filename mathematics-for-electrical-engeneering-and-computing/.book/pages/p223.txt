@@ -1,0 +1,71 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+210    Complex numbers
+
+                                     Example 10.5       Find (4 − j2)(8 − j).
+                                     Solution   Multiplying as before gives
+
+                                     (4 − j2)(8 − j) = 32 − j16 − j4 + (−j2)(−j)
+                                                       = 32 − j20 + j2 2
+
+                                     Using j2 = −1 gives 32 − j20 − 2 = 30 − j20
+
+
+                                     The complex conjugate
+                                     The complex conjugate of a number, z = x +jy, is the number with equal
+                                     real part and the imaginary part negated. This is represented by z∗ :
+
+                                     z∗ = x − jy
+
+ ww                                  A number multiplied by its conjugate is always real and positive (or zero).
+                                     For example, z = 3 + j4 ⇔ z∗ = 3 − j4.
+
+    w                 .Ea            zz∗ = (3 + j4)(3 − j4) = (3)(3) + ( j4)3 + 3(−j4) + ( j4)(−j4)
+                                         = 9 + j12 − j12 − j2 16
+
+
+                         syE             = 9 − j2 16 = 9 + 16 = 25         (using j2 = −1).
+
+                                     Note that the conjugate of the conjugate takes you back to the original
+                                     number.
+                                                ngi
+Figure 10.7 The complex
+conjugate of a number can be
+found by reflecting the
+                                       z = 3 + j4
+                                      z∗ = 3 − j4   n
+                                     z∗∗ = 3 + j4 = z              eer
+number in the real axis in the
+diagram are shown. The
+diagram shows 1 − j2 and its                                                     ing
+                                     The conjugate of a number can be found on an Argand diagram by
+conjugate 1 + j2.
+
+                                                                                              .ne
+                                     reflecting the position of the number in the real axis (see Figure 10.7).
+
+
+                                     zz∗ is real and positive, or zero, in each case
+                                                                                                  t
+                                     Example 10.6 Find complex conjugates of the following and show that
+
+
+                                     (a) 2 − j5 (b) − 4 + j2 (c) − 5            (d) j6
+                                     (e) a + jb, where a and b are real.
+
+                                     Solution   (a) The conjugate of 2 − j5 is
+
+                                     (2 − j5)∗ = 2 + j5
+
+                                     Hence
+
+                                     zz∗ = (2 − j5)(2 + j5) = (2)(2) + (−j5)2 + 2( j5) + (−j5)( j5)
+                                         = 4 − j10 + j10 − j2 25
+                                         = 4 − j2 25     (using j2 = −1)
+                                         = 4 + 25 = 29
+
+                                     which is real and positive. We have shown that 2 − j5 multiplied by its
+                                     conjugate 2 + j5 gives a real, positive number.
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

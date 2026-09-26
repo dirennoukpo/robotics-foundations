@@ -1,0 +1,83 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                       Language theory     487
+
+                                                                       )
+                                                       (           S           H           B                   N    H
+                                                   S                                           (
+                                                                                                       )
+                                                           N               H               S                   H
+
+                                                                           (           )
+                                                                   B               S               H
+
+                                                                               N           H
+
+                                                               +       H                       1           H
+Figure 20.3 Forest used for                                B                               N
+parsing a context-free                                         .                                   0
+                                                                       H                                   H
+grammar as in Example 20.6.
+
+
+
+
+ww                                 “(” so we follow that to the node marked S. We enter the sub-graph for
+                                   S, back at the original incoming arc, and take the next symbol from the
+                                   string “1”. The only possibility is to follow the arc to N. We check that N
+
+   w               .Ea
+                                   will accept “1” by going into its sub-graph. The sub-graph for N has an
+                                   arc labelled “1” leading to a halt state and therefore N accepts “1”. We
+                                   take the next symbol from the string “·” and move on from N to B. We
+                                   check that B accepts “·” which it does because the sub-graph for B has an
+
+                      syE          arc labelled “·” leading to a halt symbol. We take the next symbol from
+                                   the string “1” and move on from B to N. We check that N will accept
+                                   “1” by going into its sub-graph. We have now reached a halt state in S
+
+                                             ngi
+                                   so we have shown that the sub-string “1 · 1” has been accepted by S. We
+                                   are back into the main graph at the S node following the “(”. We take the
+
+
+                                   accepted.     n
+                                   next symbol from the string “)” and this leads to a halt state. As we have
+
+
+                                                                       eer
+                                   reached the end of the string we have shown that the string “(1 · 1)” is
+
+                                      This parsing algorithm is called LR parsing where LR stands for ‘Left
+
+                                                                                           ing
+                                   to Right Rightmost’. This is a bottom-up parsing technique which derives
+                                   the parsing tree for a string in reverse, reducing the string by replacing
+                                   right-hand sides of a production by its left-hand side until the string has
+                                   been reduced to the start symbol of the grammar. This particular example
+                                                                                                                   .ne
+                                                                                                                       t
+                                   is LR(1) because it is only ever necessary to lookahead by one symbol in
+                                   order to take the decision as to which production should be used for the
+                                   reduction.
+                                      There are programs that will take a context-free grammar as input
+                                   and output the code for the corresponding parser. Such parser genera-
+                                   tors are called compiler compilers. Some examples of these are YACC
+                                   (Yet Another Compiler Compiler) developed by Bell labs. The GNU
+                                   version is called Bison. The Java Compiler Compiler, JavaCC, origi-
+                                   nally developed by Sun Microsystems, can be downloaded free from
+                                   http://www.webgain.com/products/java_cc/ and runs on most systems.
+
+
+
+                                   Embedding mark-up in a document is not a new idea. Proof-
+20.5 Extensible                    readers refer to marking up a document in order to indicate the
+markup                             changes that are to be made. Using a precise set of symbols
+                                   makes the interpretation of the proofreaders instructions much eas-
+language (XML)                     ier. Early word processing languages made extensive use of mark-up
+                                   to define how the document was to be laid out. Markup became an
+                                   expression that entered into almost everyone’s (non-formal) vocabu-
+                                   lary with the introduction of Hypertext Markup Language (HTML)
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

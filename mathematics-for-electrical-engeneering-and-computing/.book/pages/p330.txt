@@ -1,0 +1,82 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+                                 Systems of linear equations, matrices, and determinants                   317
+
+
+
+
+Figure 13.14 A system of
+two equations in two
+unknowns: 3x + 4y = 7 and
+x + 2y = 2.
+
+
+
+                                 Now substitute x = 2 − 2y into Equation (13.1) to give
+
+
+
+ww                               3(2 − 2y) + 4y = 7
+                                    ⇔     6 − 6y + 4y = 7
+
+
+   w               .Ea
+                                    ⇔
+                                    ⇔
+
+                                    ⇔
+                                          6 − 2y = 7
+                                          −2y = 1
+
+                                          y=−
+                                               1
+                                                       (subtracting 6 from both sides)
+
+                                                   (dividing both sides by −2)
+
+                      syE           ⇔
+                                               2
+                                          y = −0.5
+
+
+                                           ngi
+                                 Now we can use x = 2 − 2y to find x by substituting y = −0.5 to give
+
+                                 x = 2 − 2(−0.5)
+                                    ⇔
+                                    ⇔
+                                               n
+                                          x =2+1
+                                          x=3                eer
+                                                                          ing
+                                 The solution is given by x = 3 and y = −0.5, which can be represented
+                                 by the pair of values for (x, y) of (3, 0.5).
+
+                                                                                         .ne
+                                   An alternative method of solution is to use elimination.
+
+                                 Example 13.21
+                                 nation:                                                     t
+                                                    Solve the following system of equations using elimi-
+
+
+                                 3x + 4y = 7
+                                 x + 2y = 2.
+
+                                 Solution To solve the system of equations we look for a way of adding or
+                                 subtracting multiples of one equation from the other in order to eliminate
+                                 one of the variables. Multiply the second equation by 3 and leave the first
+                                 the same. We choose these numbers in order to get the coefficients of x
+                                 in both equations to be the same.
+
+                                 3x + 4y = 7
+                                 3x + 6y = 6.
+
+                                 Subtract the equations to give
+
+                                                      1
+                                 −2y = 1 ⇔ y = −        = −0.5.
+                                                      2
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,132 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+                                                                                          Boolean algebra        83
+
+                                          by term. Figure 4.5(c) shows that the map is like a Venn diagram of the
+                                          sets a and b. In Figure 4.5(a) we put a 0 or 1 in the square depending on
+                                          whether that term is present in our expression. Adjacent 1s indicate that
+                                          we can simplify the expression. Figure 4.6 indicates how we go about the
+                                          minimization. We draw a line around any two adjacent 1s and write down
+                                          the term representing that section of the map. We are able to encircle the
+Figure 4.6 A two-variable                 second row, representing a, and the second column, representing b. As
+Karnaugh map representing                 all the 1s have now been included we know that a + b is a minimization
+ab + āb + a b̄.                          of the expression. Notice that it does not matter if one of the squares
+                                          with a 1 in it has been included twice but we must not leave any out. The
+                                          implementation of a + b is drawn in Figure 4.7.
+
+Figure 4.7 An                             Example 4.10 Minimize c(b + (ab)) + c̄ab and draw the implementa-
+implementation of a + b.                  tion of the resulting expression as a logic circuit.
+                                          Solution First, we need to find the expression as a sum of products.
+
+ww                                        This can be done by finding the truth table and then copying the result
+                                          into the Karnaugh map. The truth table is found in Table 4.5. Notice
+
+
+   w
+                                          that we calculate various parts of the expression and build up to the final
+                                          expression. With practice, the expression can be calculated directly for
+
+                     .Ea                  instance when a = 0, b = 0, and c = 0 then c(b + (ab)) + c̄ab =
+                                          0(0 + (0.0)) + 0̄.0.0
+
+
+                        syE               = 0(0 + 1) + 1.0 = 0.
+
+                                             Draw a Karnaugh map as in Figure 4.8(a) and copy in the expres-
+
+                                                       ngi
+                                          sion values as found in Table 4.5. There are three variables in the
+                                          expression, therefore, there are 23 = 8 squares in the Karnaugh map.
+
+
+                Table 4.5                                  n
+                               A truth table to find ab + āb + a b̄
+                                                                         eer
+                a   b      c   ab   c̄   (ab)   c̄ab   b + (ab)    c(b + (ab))
+                                                                                    ing
+                                                                                 c(b + (ab)) + c̄ab
+
+                0
+                0
+                0
+                    0
+                    0
+                    1
+                           0
+                           1
+                           0
+                               0
+                               0
+                               0
+                                    1
+                                    0
+                                    1
+                                          1
+                                          1
+                                          1
+                                                 0
+                                                 0
+                                                 0
+                                                           1
+                                                           1
+                                                           1
+                                                                         0
+                                                                         1
+                                                                         0
+                                                                                         0
+                                                                                         1
+                                                                                         0      .ne
+                0
+                1
+                1
+                1
+                    1
+                    0
+                    0
+                    1
+                           1
+                           0
+                           1
+                           0
+                               0
+                               0
+                               0
+                               1
+                                    0
+                                    1
+                                    0
+                                    1
+                                          1
+                                          1
+                                          1
+                                          0
+                                                 0
+                                                 0
+                                                 0
+                                                 1
+                                                           1
+                                                           1
+                                                           1
+                                                           1
+                                                                         1
+                                                                         0
+                                                                         1
+                                                                         0
+                                                                                         1
+                                                                                         0
+                                                                                         1
+                                                                                         1
+                                                                                                    t
+                1   1      1   1    0     0      0         1             1               1
+
+
+
+
+                                          Figure 4.8 (a) A three-variable Karnaugh map representing
+                                          c(b + (ab)) + c̄ab. (b) A three-variable Karnaugh map with all the
+                                          boxes labelled. (c) A Karnaugh map is like a Venn diagram. The third
+                                          and fourth rows represent the set a and the second and third rows
+                                          represent the set b. c is represented by the second column.
+
+                                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

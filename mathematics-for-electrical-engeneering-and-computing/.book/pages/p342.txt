@@ -1,0 +1,83 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                     329
+                                             40        16            24
+            Check: To check, substitute I1 =    , I2 =    , and I3 =    into the
+                                             41        41            41
+            original equations
+
+            I1 − I2 − I3 = 0
+            3I2 − 2I3 = 0
+            7I1 + 2I3 = 8
+
+            giving
+
+            40 16 24
+               −  −    = 0, which is true
+            41 41 41
+                    
+               16     24
+            3     −2      = 0, which is true
+               41     41
+
+ww          7
+               
+               40
+               41
+                  +2
+                      
+                      24
+                      41
+                          = 8, which is true.
+
+
+   w.Ea     Indeterminacy and inconsistency
+       syE  When we analysed systems of equations in Section 13.5, we saw that one
+            of the equations reducing to 0 = 0, indicates that we have an indetermi-
+
+                       ngi
+            nate system; that is that there will be many solutions. If, in the process of
+            performing Gauss elimination, we find a row of zeros then we know that
+
+
+                           n
+            we have an indeterminate system. We can use the remaining equations to
+
+
+                                         eer
+            eliminate as many of the unknowns as possible, giving a solution which
+            will still involve one or more of the variables. This will give a whole line
+            or possibly (in three dimensions) a plane of solutions.
+
+                                                      ing
+               If we come across a row that is zero everywhere in the matrix of coeffi-
+            cients but has a non-zero constant term we have found an equation 0 = c,
+
+
+                                                                    .ne
+            which is false. This is an inconsistent system and has no solutions.
+
+
+            Order of the equations
+                                                                        t
+            At the beginning of each stage in Gauss elimination, the order of the
+            rows may be swapped (other than those already used in previous stages
+            as the pivotal equation). We will have to swap the equations if the next
+            ‘pivotal’ equation has a zero coefficient for the next variable to be elim-
+            inated. It is usual, although we have not illustrated this point, to always
+            consider swapping the order of the equations, in order to choose the
+            equation with the largest absolute value of the coefficient in the term to
+            be used for eliminating, as the pivotal equation. This is called partial piv-
+            oting. This procedure as an attempt to avoid problems with equations that
+            may become ill conditioned in the course if performing the elimination.
+            The equations are ill conditioned when a small change in the coefficients
+            of the equations causes a large change in the values of the solutions, and
+            in such equations rounding errors can become large and cause significant
+            inaccuracies in the solutions. We have not performed partial pivoting in
+            these examples as they are only presented to give an idea of the method.
+            It is assumed that for any real life problem a computer algorithm will
+            be used to solve the system of equations, and such an algorithm will
+            incorporate partial pivoting.
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,58 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                    Differential equations and difference equations                361
+
+            The complementary function is
+            q = A e−t/RC
+            Step 2
+            Try a particular solution of the form q = a, where a is a constant. Then
+            q  = 0, substituting into
+            R dq/dt + q/C = v0
+            we get
+            a/C = v0
+               ⇔      a = v0 C
+            Step 3
+            The general solution is therefore the sum of the complementary function
+            (found in Step 1) and a particular solution (found from Step 2), so the
+
+ww          general solution for q is given by
+            q = A e−t/RC + Cv0
+
+   w.Ea
+            Step 4
+            Finally, we use the initial conditions to find the arbitrary constant A. We
+            are told that initially the circuit was relaxed meaning that all voltages
+
+
+       syE  and currents are zero. In this case, this means that when t = 0, q = 0.
+            Substituting this condition into
+            q = A e−t/RC + Cv0
+            we get     ngi
+            0 = A + Cv0
+               ⇔           n
+                      A = −Cv0
+                                         eer
+            Therefore, the solution is
+            q = −Cv0 e−t/RC + Cv0                      ing
+               ⇔      q = Cv0 (1 − e−t/RC ).
+                                                                   .ne
+            (1 − e−t/RC ) where v0 is the applied DC voltage.
+                                                                       t
+            This gives the voltage across the capacitor vc = q/C as vc = v0 ×
+
+            Check:
+              To check that q = Cv0 (1 − e−t/RC ) is in fact a solution to
+            R dq/dt + q/C = v0
+            we carry out the following steps:
+            q = Cv0 (1 − e−t/RC )
+               ⇒ dq/dt = (Cv0 /RC)e−t/RC           ⇔     dq/dt = (v0 /R)e−t/RC
+            Substituting into
+            R dq/dt + q/C = v0
+            gives
+            (Rv0 /R)e−t/RC + (v0 C/C)(1 − e−t/RC ) = v0
+               ⇔      v0 = v0
+
+            which is an identity for t, showing that q = Cv0 (1 − e−t/RC ) is a solution
+            to the differential equation.
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,87 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+68   Problem solving and the art of the convincing argument
+
+                                      equation, and has one more beside. Implication is expressed in English
+                                      by using phrases like ‘If . . . then . . .’.
+                                         An expression involving an implication cannot always be turned the
+                                      other way around in the same way as those involving equivalence can.
+                                      An example of this is given by the following statement. It is true that: ‘If
+                                      I am going to work then I take the car’ which can be written using the
+                                      implication symbol as:
+
+                                      ‘I am going to work’ ⇒ ‘I take the car’
+
+                                      However, it is not true that:
+
+                                      ‘If I take the car then I am going to work’
+
+
+
+ ww                                   This is because there are more occasions when I take the car than simply
+                                      going to work.
+
+
+    w                   .Ea
+                                        More examples are:
+
+                                      ‘I only clean the windows if it is sunny’
+                                      ‘I am cleaning the windows’ ⇒ ‘it is sunny’
+
+                           syE        This does not mean that ‘If it is sunny then I clean the windows’, as there
+
+                                                  ngi
+                                      are some sunny days when I have to go to work or just laze in the garden,
+                                      or I am on holiday.
+
+
+                                                      n
+                                         An implication sign can be written, and read, from left to right
+
+
+                                                                      eer
+                                           ‘It is sunny’ ⇐ ‘I am cleaning the windows’
+
+
+
+                                      the windows’.                               ing
+                                      which I can still read as ‘I am cleaning the windows therefore it is sunny’
+                                      or I could try rearranging the sentence as ‘Only if it is sunny will I clean
+
+
+                                                                                               .ne
+                                         The various ways of expressing these sentiments can get quite involved.
+                                      The important point to remember is that p ⇒ q means that q must be true
+
+
+
+
+Figure 3.5 P is the solution
+                                      besides. Going back to equations or inequalities:
+                                                                                                   t
+                                      for all the occasions that p is true, but q could be true on more occasions
+
+
+
+                                      p⇒q
+set of p, Q is the solution set
+of q. p ⇒ q means that
+P ⊆ Q. D is the domain of p           means that the solution set, P, of p is a subset of the solution set, Q, of q.
+and q.                                This is pictured in Figure 3.5.
+                                         We can now see that for two equations or inequalities to be equivalent
+                                      then p ⇒ q and q ⇒ p. This means that their solution sets are exactly
+                                      the same (Figure 3.6).
+
+
+                                      Example 3.8     Fill in the correct symbol in each case either ⇒, ⇐ or ⇔
+
+                                      (a) x 2 − 9 = 0 . . . x = −3
+                                      (b) x = − 21 . . . (1/(2x − 5)(x + 1)) = − 13 where x ∈ R, x = 5,
+Figure 3.6 P is the solution              x = −1
+set of p and Q is the solution
+set of q. Then p ⇔ q means
+                                      (c) (x − 3)(x − 1) > 0 · · · x > 3 ∨ x < 1
+that P = Q.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

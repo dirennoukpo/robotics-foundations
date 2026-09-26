@@ -1,0 +1,101 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                             331
+
+                The calculations were as follows:
+                Row 3 − (−1) × Row 2
+
+                    0      −1 0             0.25          0      1
+            −(−1) (0       1 1.25          −0.1875       0.25    0)
+                      0       0     1.25       0.0625    0.25    1
+            Stage 3
+            Step 1: Divide the third row by a33 (1.25):
+                                                 
+              1 0 −1           0.25       0     0
+            0 1 1.25 −0.1875 0.25 0 
+              0 0      1       0.05     0.2 0.8
+
+            Step 2: Turn the problem metaphorically upside down and use the third
+            row to eliminate elements in the third column above a33 by subtracting
+
+ww          multiples of the third row from the first row and the second row
+                                           
+
+
+   w.Ea
+              1 0 0        0.3
+            0 1 0 −0.25 0 −1
+              0 0 1
+                                    0.2 0.8
+
+                           0.05 0.2 0.8
+
+
+
+       syE
+                The calculations were as follows:
+                Row 1 − (−1) × Row 3
+
+                    1 0
+            −(−1) (0 0
+                          ngi     −1 0.25 0
+                                  1 0.05 0.2
+                                                         0
+                                                        0.8)
+                      1    0
+                              n    0
+                Row 2 − 1.25 × Row 3
+                                         0.3     0.2
+
+                                               eer
+                                                        0.8
+
+
+
+                   0
+            −1.25 (0
+                          1
+                          0
+                                  1.25
+                                    1
+                                         −0.1875 0.25
+                                          0.05   0.2
+                                                       0
+                                                      0.8)
+                                                               ing
+                      0   1        0     −0.25          0       −1
+                                                                         .ne
+              The matrix on the right-hand side is now the inverse of the original
+            matrix.
+
+            
+              The inverse is
+
+               0.3    0.2 0.8
+                              
+                                                                             t
+            −0.25 0 −1
+              0.05 0.2 0.8
+
+            Check: Multiply the original matrix by its inverse
+                                          
+              4    0 −4         0.3 0.2 0.8
+                                          
+            3     4    2  −0.25 0 −1
+              −1 −1 1          0.05 0.2 0.8
+                                                                                               
+                   4(0.3) + 0(−0.25) − 4(0.05)  4(0.2) + 0(0) − 4(0.2)  4(0.8) + 0(−1) − 4(0.8)
+                                                                                               
+              =  3(0.3) + 4(−0.25) + 2(0.05)  3(0.2) + 4(0) + 2(0.2)  3(0.8) + 4(−1) + 2(0.8) 
+                  −1(0.3) − 1(−0.25) + 1(0.05) −1(0.2) − 1(0) + 1(0.2) −1(0.8) − 1(−1) + 1(0.8)
+                         
+                  1 0 0
+                         
+              = 0 1 0
+                  0 0 1
+
+
+                Therefore we have correctly found the inverse of the matrix.
+
+                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

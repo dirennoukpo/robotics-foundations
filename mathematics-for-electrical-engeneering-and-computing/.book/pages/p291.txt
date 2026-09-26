@@ -1,0 +1,90 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+278   Sequences and series
+
+                             result when calculated to five decimal places:
+                                                 (0.1)3   (0.1)5
+                             sin(0.1) = 0.1 −           +        − ···
+                                                   3!       5!
+                                        = 0.1 − 0.00016̇ + 0.00000083̇ − . . .
+                                        = 0.09983 (to five decimal places).
+
+
+
+
+                             Taylor series
+                             Maclaurin’s series is just a special case of Taylor series. A Taylor series
+                             is a series expansion of a function not necessarily taken around x = 0.
+                             This is given by:
+                                If a function f (x) is defined for values of x around x = a, within some
+
+ww                           radius R, that is, for a − R < x < a + R (or |x − a| < R) and if all its
+                             derivatives are defined, then:
+
+
+   w             .Ea
+                             f (x) = f (a) + f  (a)(x − a) +
+
+                                     + ··· +
+                                                f (n) (a)
+                                                                  f  (a)
+                                                                     2!
+
+                                                          (x − a)n + · · ·
+                                                                           (x − a)2 +
+                                                                                      f  (a)
+                                                                                         3!
+                                                                                                (x − a)3
+
+                                                                                                     (12.13)
+                                                   n!
+
+                    syE      or substituting x = a + h, where h is usually considered to be a small
+                             value, this gives
+
+                                          ngi
+                             f (a + h) = f (a) + f  (a)h +
+                                                                f  (a) 2 f  (a) 3
+                                                                   2!
+                                                                        h +
+                                                                              3!
+                                                                                    h
+
+
+                                              n
+                                           + ··· +
+                                                     f (n) (a) n
+                                                        n!
+                                                             eer
+                                                              h + ···                                (12.14)
+
+                                                                      √
+                                                                             ing      √
+                             Example 12.31 Given sin(45◦ ) = 1/ 2 and cos(45◦ ) = 1/ 2,
+                             approximate sin(44◦ ) by using a power series expansion.
+                             Solution
+                                                                                         .ne
+                             sin(44◦ ) = sin(45◦ − 1◦ ).
+                                                                                             t
+                             Remember that the sine function is defined as a function of radians so
+                             we must convert the angles to radians in order to use the Taylor series:
+                             45◦ = π/4 and 1◦ = π/180.
+                               Expand using the Taylor series for sin(a +h) where a = π/4 and using
+                             Equation (12.14)
+                                                                f  (a) 2 f  (a) 3
+                             f (a + h) = f (a) + f  (a)h +             h +         h
+                                                                   2!         3!
+                                                 f (n) (a) n
+                                           + ··· +        h + ···
+                                                    n!
+                                 f (x) = sin(x), f  (x) = cos(x),
+                                f  (x) = − sin(x),     f  (x) = cos(x)
+                                            1                    1
+                               f (π/4) = √ ,       f  (π/4) = √ ,
+                                             2                    2
+                                            1                     1
+                              f  (π/4) = √ ,     f  (π/4) = √ ,
+                                             2                     2
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

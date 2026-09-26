@@ -1,0 +1,70 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+                                Differential equations and difference equations               363
+
+                        Step 3
+                        The general solution is given by the sum of the complementary function
+                        and a particular solution giving
+
+                        y = A e3t − (18/13) cos(2t) + (12/13) sin(2t).
+
+                        Step 4
+                        Use the initial condition to find A.
+                          When t = 0, y = 2. Substituting this into
+
+                        y = A e3t − (18/13) cos(2t) + (12/13) sin(2t)
+
+                        gives
+
+                        2 = A − (18/13) cos(0) + (12/13) sin(0)
+                           ⇔      2 = A − 18/13       ⇔   A = 44/13.
+
+ww                      Therefore, the solution is
+
+
+   w      .Ea
+                        y = (44/13)e3t − (18/13) cos(2t) + (12/13) sin(2t).
+
+                        Check: Substitute
+
+
+             syE        y = (44/13)e3t − (18/13) cos(2t) + (12/13) sin(2t)
+
+                        and
+
+                                   ngi
+                        y  = (132/13)e3t + (36/13) sin(2t) + (24/13) cos(2t)
+
+                        into
+                                       n
+                        y  − 3y = 6 cos(2t) giving   eer
+                                                                ing
+                        (132/13)e3t + (36/13) sin(2t) + (24/13) cos(2t)
+
+
+                           ⇔                                                .ne
+                           − 3(44/13)e3t − (18/13) cos(2t) + (12/13) sin(2t) = 6 cos(2t)
+                                  (78/13) cos(2t) = 6 cos(2t)
+
+                        which is correct.
+                                                                                t
+                          We also check the initial condition by substituting t = 0, y = 2 into
+
+                        y = (44/13)e3t − (18/13) cos(2t) + (12/13) sin(2t).
+
+                        We find
+
+                        2 = (44/13)e0 − (18/13) cos(0) + (12/13) sin(0)
+                           ⇔      2 = (44/13) − (18/13)
+                           ⇔      2 = 26/13, which is true.
+
+
+                        We can solve a second-order system in a manner similar to first-order
+14.5 Solution of        systems. To solve ay  + by  + cy = f (t) we solve the homogeneous
+a second-order          equation
+LTI systems             ay  + by  + cy = 0.
+
+                        The solution to this equation is called the complementary function.
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,81 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+272   Sequences and series
+
+                             Solution Find the binomial expansion of (a + b)n
+
+                                                          n(n − 1) n−2 2
+                             (a + b)n = a n + na n−1 b +          a b
+                                                             2!
+                                             n(n − 1)(n − 2) n−3 3
+                                           +                a b + · · · + bn .
+                                                   3!
+
+                             This gives the expansion of (a + b)5 as
+
+                                                             5(4) 3 2 5(4)(3) 2 3
+                             (a + b)5 = a 5 + 5a 4 b +           a b +       a b
+                                                              2!        3!
+                                               5(4)(3)(2) 4
+                                           +             ab + b5
+                                                   4!
+                                        = a 5 + 5a 4 b + 10a 3 b2 + 10a 2 b3 + 5ab4 + b5 .
+
+ww                           Now, substitute a = 2 and b = −1/x to give
+
+
+   w             .Ea
+                              = (2)5 + 5(2)4 (−1/x) + 10(2)3 (−1/x)2 + 10(2)2 (−1/x)3
+                                + 5(2)(−1/x)4 + (−1/x)5
+
+
+                    syE       = 32 −
+                                        80 80 40 10
+                                        x
+                                                        1
+                                          + 2 − 3 + 4 − 5.
+                                           x   x   x   x
+
+
+
+                                          ngi
+                             Example 12.23
+                                              n    Find to 4 s.f without using a calculator: (2.95)4
+
+
+                                                                eer
+                             Solution Write 2.95 = 3 − 0.05 so we need to find (3 − 0.05)4 . Using
+                             the expansion
+
+
+                             (a + b)4 = a 4 + 4a 3 b +
+                                                             4(3) 2 2 4(3)(2) 3
+                                                                 a b +         ing
+                                                                             ab + b4 .
+
+                             Substitute a = 3 and b = −0.05:
+                                                              2!        3!
+                                                                                                  .ne
+                             (3 − 0.5)4 = (3)4 + 4(3)3 (−0.5) +
+                                                                           4(3) 2
+                                                                            2!
+                                                                               (3) (−0.5)2
+                                                                                                      t
+                                              4(3)(2)
+                                             +        (3)(−0.5)3 + (−0.5)4
+                                                 3!
+                                          = 81 − 5.4 + 0.135 − 0.0015 + 0.00000625
+                                          = 75.73 to 4 s.f.
+
+
+
+
+12.6 Power                   A power series is of the form
+
+series                       a0 + a 1 x + a 2 x 2 + a 3 x 3 + a 4 x 4 + · · · + a n x n + · · ·
+
+                               Many functions can be approximated by a power series. To find a series,
+                             we use repeated differentiation. Supposing we wanted to find a power
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

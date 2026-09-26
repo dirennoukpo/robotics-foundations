@@ -1,0 +1,89 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+302   Systems of linear equations, matrices, and determinants
+
+                                 An upper triangular matrix is a square matrix which has zeros below
+                              the leading diagonal, for example
+                                            
+                               1   1       2
+                              0   6       6
+                               0   0       8
+
+                                A lower triangular matrix has zeros above the leading diagonal, for
+                              example
+                                    
+                               1 0 0
+                              3 −1 0
+                               6 8 2
+
+                                A symmetric matrix is such that AT = A, that is, the elements are
+
+
+ww
+                              symmetric about the leading diagonal, for example
+                                                           
+                                  1               6      −3                     
+                                                                         1   6
+                              A= 6                      −2 ,
+
+   w              .Ea
+                                 −3
+                                                 0
+                                                 −2       8
+                                                                   B=
+                                                                         6   1
+
+                              are symmetric matrices. If you take the transpose of one of these matrices
+
+
+                     syE      they result in the original matrix.
+                                 A skew-symmetric matrix is such that AT = −A.
+
+                              Example 13.8
+                                           ngi  
+                                                      Show that
+
+                              A=
+                                 0
+                                 −6
+                                             6
+                                             0
+
+                              is skew symmetric.
+                                                n                   eer
+                              Solution
+                                                 
+                                                                                 ing
+                              AT =
+                                      0
+                                      6
+                                             −6
+                                             0                                                .ne
+                              Multiplying A by −1, we get
+
+                              −A =
+                                   0
+                                       
+                                             −6
+                                                     
+                                                                                                  t
+                                   6         0
+
+                              We can see that AT = −A and hence we have shown that A is skew
+                              symmetric.
+
+
+                              Hermitian matrix
+                                                                         ∗
+                              A Hermitian matrix is such that A T = A.
+
+                              Example 13.9            Show that
+                                                                                           
+                                   3                 7 + j2                  2       3 e−j2
+                              A=                                  and   B=
+                                 7 − j2               −2                   3 ej2        1
+
+                              are Hermitian.
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

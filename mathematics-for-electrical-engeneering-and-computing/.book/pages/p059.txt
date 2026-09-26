@@ -1,0 +1,60 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+46   Functions and their graphs
+
+
+
+
+ ww
+    w
+Figure 2.27
+or x ⩾ 0.             .Ea
+              (a) x ⩾ 3 and x < 5. (b) x > 6 and x > 2 combines to give x > 6. (c) x < 5 or x ⩾ 7. (d) x < 2
+
+
+
+                         syE          in Figure 2.27(a) and we can see that for both inequalities to hold simulta-
+                                      neously x must lie in the overlapping region where 3 ⩽ x < 5. 3 ⩽ x < 5
+
+
+                                      then x > 6.
+                                                  ngi
+                                      is a way of expressing that x lies between 3 and 5 or is equal to 3. In the
+                                      example in Figure 2.27(b), x > 6 and x > 2, and for them both to hold
+
+
+                                                      n             eer
+                                         Another possible way of combining inequalities is to say that one or
+                                      another inequality holds. Examples of this are given in Figure 2.27(c)
+                                      where x < 5 or x ⩾ 7 and this gives the set of values less than 5 or
+
+                                                                                ing
+                                      greater than or equal to 7. Figure 2.27(d) gives the example where x < 2
+                                      or x ⩾ 0 and in this case it results in all numbers lying on the number
+                                      line, that is, x ∈ R.
+
+                                                                                              .ne
+                                      ities and represent them on a number line.
+                                                                                                  t
+                                      Example 2.9 Find solutions to the following combinations of inequal-
+
+
+                                      (a) x + 3 > 4 and x − 1 < 5,
+                                      (b) 1 − u < 3u + 2 or u + 2 ⩾ 6,
+                                      (c) t + 5 > 12 and −t > 24.
+
+
+                                      Solution
+                                       (a) x + 3 > 4 and x − 1 < 5 We solve both inequalities separately
+                                           and then combine their solution sets
+
+                                            x+3>4        ⇔      x>1      (subtracting 3 from both sides)
+                                            x−1<5        ⇔      x<6      (adding 1 to both sides)
+
+                                          So the combined inequality giving the solution is x > 1 and x < 6,
+                                          which from Figure 2.28(a) we can see is the same as 1 < x < 6.
+                                      (b) 1 − u < 3u + 2 or u + 2 ⩾ 6
+                                          We solve both inequalities separately and then combine their
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

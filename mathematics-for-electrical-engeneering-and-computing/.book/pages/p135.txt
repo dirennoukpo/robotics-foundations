@@ -1,0 +1,95 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+122    Differentiation
+
+                                      (c)   1/x 3 = x −3 (using properties of negative powers given in Chapter 4
+                                            of the Background Mathematic Notes available on the companion
+                                            website for this book), so n = −3
+
+                                             d −3                          −3
+                                               (x ) = (−3)x −3−1 = −3x −4 = 4
+                                            dx                             x
+                                            √
+                                      (d)     x = x 1/2 (using properties of roots given in Chapter 4 of the
+                                            Background Mathematic Notes available on the companion website
+                                            for this book), so n = 1/2
+
+                                             d 1/2   1         1         1 1      1
+                                               (x ) = x 1/2−1 = x −1/2 =        = √
+                                            dx       2         2         2x 1/2  2 x
+
+                                      (e)
+
+
+ ww                                          1     1
+                                            √ = 3/2 = x −3/2
+                                             x 3 x
+
+
+    w                  .Ea
+                                            so n = −3/2. Hence,
+
+                                             d −3/2
+                                               (x
+                                                         3            3          3 1     3 1
+                                                    ) = − x −3/2−1 = − x −5/2 = − 5/2 = − √
+
+                          syE               dx           2            2          2x      2 x5
+
+
+
+
+                                                  ngi
+                                      Example 6.3 The energy stored in a stretched spring of extension x m
+                                      is found to be E = x 2 J (Figure 6.5). The force exerted by hanging
+
+                                                      n
+                                      a weight on the spring is given by mg where g is the acceleration due
+
+                                                                     eer
+                                      to gravity g ≈ 10 m s−1 and m is the mass. Given that the spring is
+                                      extended by 0.5 m and that F = dE/dx find the mass hanging on the
+
+Figure 6.5 A spring has a
+weight hanging from it of
+                                      spring.
+
+                                                                                   ing
+                                      Solution Find the expression for the force by differentiating E = x 2 :
+unknown mass m. The spring
+extends by an amount x and
+the energy stored in the
+                                      F =
+                                            dE
+                                            dx
+                                               = 2x
+                                                                                                .ne
+spring is known to be E = x 2 .
+The force due to gravity is
+F = mg where g is the
+acceleration due to gravity.
+                                                                                                    t
+                                        As x = 0.5, F = 2(0.5) = 1 N. Now, F = mg, and as g ≈ 10 then
+
+                                      1 = m × 10 ⇔ m = 10
+                                                        1
+                                                          = 0.1 kg
+
+                                      Thus, the mass on the spring is 0.1 kg.
+
+
+
+                                      To find the derivative of functions that are the sum, difference quotient,
+6.5 Finding the                       product, or composite of any of the functions given in Table 6.2, we use
+derivative of                         the entries given in Table 6.2 the rules given in this section.
+combinations of
+functions                             Derivatives of af (x ) where a is
+                                      a constant
+                                       d
+                                         (af (x)) = af  (x)
+                                      dx
+                                      This is only true if a is a constant, not if it is a function of x.
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

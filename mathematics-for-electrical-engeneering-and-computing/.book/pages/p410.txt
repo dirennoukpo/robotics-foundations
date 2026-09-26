@@ -1,0 +1,89 @@
+                 Downloaded From : www.EasyEngineering.net
+
+
+                                                          Laplace and z transforms          397
+
+
+15.6 Laplace          The transfer function and impulse
+transforms and        response function
+systems theory        An important role is played in systems theory by the impulse response
+                      function, the Laplace transform of which is called the Transfer Func-
+                      tion (or system function). We remember from Chapter 14 that a linear,
+                      time-invariant system is represented by a linear differential equation with
+                      constant coefficients. We will stick to second-order equations although
+                      the results can be generalized to any order.
+                         An LTI system can be represented by
+
+                          d2 y    dy
+                      a        +b    + cy = f (t).
+                          dt 2    dt
+
+
+ww                    If we take f (t) as the delta function δ(t), then we get
+
+
+
+   w     .Ea
+                      a
+                          d2 y
+                          dt 2
+                               +b
+                                  dy
+                                  dt
+                                     + cy = δ(t).
+
+
+
+
+            syE       By definition of the impulse response function we consider all initial
+                      conditions to be 0.
+                        Taking the Laplace transform we get
+
+
+                                    ngi
+                      as 2 Y (s) + bsY (s) + cY (s) = 1
+
+
+
+                      Y (s) =
+                                2
+
+                                        n
+                      Y (s)(as + bs + c) = 1
+                                      1
+                                as 2 + bs + c
+                                              .      eer
+                                                               ing
+                      Notice that the poles of this function are found by solving as 2 +bs+c = 0,
+
+                      from Chapter 14.                                       .ne
+                      which we recognize as the auxiliary equation or characteristic equation
+
+
+
+
+                                      1
+                                                                                 t
+                         This function, the Laplace transform of the impulse response function,
+                      is called the transfer function and is usually denoted by H (s), so we have
+
+
+                      H (s) =
+                                as 2 + bs + c
+
+                      and L{H (s)} = h(t), where h(t) is the impulse response function.
+                        Note that the impulse response function describes the behaviour of the
+                      system after it has been given an idealized kick.
+
+
+                      Example 15.18 Find the transfer function and impulse response of the
+                      system described by the following differential equation:
+
+                          dy
+                      3      + 4y = f (t).
+                          dt
+
+                      Solution To find the transfer function replace f (t) by δ(t) and take
+                      the Laplace transform of the resulting equation assuming zero initial
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

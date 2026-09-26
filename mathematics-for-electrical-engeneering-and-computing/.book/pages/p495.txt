@@ -1,0 +1,70 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+482   Language theory
+
+                            Example 20.2 The language of the Boolean expressions over the set
+                            {0,1} with the binary operations of + and · with brackets, (,), can be
+                            defined with the following grammar rules
+
+                            S → (S)B(S)
+                            S → (S)
+                            S → NBN
+                            S → (S)BN
+                            S → NB(S)
+                            S→N
+                            N→0
+                            N→1
+                            B→+
+
+ww                          B→·
+
+
+   w            .Ea
+                            (a) Show that 1 · 10 is not a sentence.
+                            (b) Show that (1 · 1) is a sentence.
+                            Solution (a) We will find all the sentences of four terminal symbols. To
+
+
+                   syE      do this, we repeatedly use the given grammar rules. For convenience, we
+                            can summarize the grammar rules by using ‘|’ to represent ‘or’. Then we
+                            can combine rules with the same left-hand side as follows:
+
+
+                            N→0|1
+                                         ngi
+                            S → (S)B(S) | (S)BN | NB(S) | (S) | NBN | N
+
+
+                            B→+|·
+                                             n           eer
+                                                                      ing
+                               As none of the production rules have more symbols on the left than on
+                            the right and as we are looking for sentences of four terminal symbols,
+                            we only need to consider production rules with up to four symbols on the
+
+                                                                                 .ne
+                            right-hand side. For this reason we only need to consider:
+
+                            S → (S) | NBN | N
+                            N → 0|1
+                            B → + |·
+                                                                                     t
+                            Substituting + or · for B and 0 or 1 for N in S → NBN gives the following
+                            derivations:
+
+                            S ⇒∗ 0 + 0         S ⇒∗ 0 + 1         S ⇒∗ 1 + 0       S ⇒∗ 1 + 1
+                            S ⇒∗ 0 · 0         S ⇒∗ 0 · 1         S ⇒∗ 1 · 0       S ⇒∗ 1 · 1
+
+                            Substituting for B and N in S → N gives the following derivations:
+
+                            S ⇒∗ 0    S ⇒∗ 1
+
+                            If we start with the production S → (S) and then apply S → NBN to give
+                            S ⇒∗ (NBN) we can substitute for NBN as found above which gives:
+
+                            S ⇒∗ (0 + 0)       S ⇒∗ (0 + 1)       S ⇒∗ (1 + 0)     S ⇒∗ (1 + 1)
+                            S⇒∗ (0 · 0)        S⇒∗ (0 · 1)        S⇒∗ (1 · 0)      S⇒∗ (1 · 1)
+
+
+                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

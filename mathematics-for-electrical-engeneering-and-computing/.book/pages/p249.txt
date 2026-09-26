@@ -1,0 +1,61 @@
+                                         Downloaded From : www.EasyEngineering.net
+
+
+236    Complex numbers
+
+       proportion of the output which has been fed back (see      10.19. Given z1 = 12 ej(3π/4) and z2 = 3 ej(2π/5) , find:
+       Figure 10.24)
+       (a) If at 30 Hz A = 500∠180◦ and β = 0.005∠160◦ ,                 (a) z1 z2   (b) z1 /z2    (c) z1 + z2     (d) z2 − z1
+           calculate A .                                                (e) z1∗     (f) z1∗ /z2   (g) z1 z1∗
+       (b) At a particular frequency it is desired to have A =
+           300∠100◦ where it is known that A = 400∠110◦ .                giving the results in exponential form.
+           Find the value of β necessary to achieve this gain     10.20. If z = 3 ej0.46 , find z3 in polar and exponential forms.
+           modification.
+                                                                  10.21. Find all the solutions of the following and show them
+10.16. Write the following in exponential form:                          on an Argand diagram
+
+       (a) 3 + j5        (b) − 6 + j3                                     (a) z4 = 1          (b) z6 = −1
+       (c) − 4 − j5      (d) 8∠22◦                                        (c) z5 + 32 = 0     (d) 3z3 + 2 = 0.
+       (e) 3∠ − 4.15     (f ) 6(cos(1.9) + j sin(1.9))
+                                                                  10.22. Find cos(3θ) in powers of sin(θ) and cos(θ).
+10.17. Express the following in polar form and in the form
+                                                                  10.23. Express sin3 (θ) in terms of sines of multiples of θ.
+       a + jb:
+
+
+ ww    (a) 4 ej2
+       (c) 2 e−jπ
+                                  (b) e−j(π/2)
+                                  (d) − 6 ej4
+                                                                  10.24. Find the fifth roots of −2+j3 and represent the results
+                                                                         on an Argand diagram.
+                                                                  10.25. Solve the following equations:
+
+    w      1
+       (e) e−j5
+           2j(π/6)
+       (g) e
+                          .Ea
+                   + 3 ej(3π/4)
+                                  (f ) ej(π/6) 3 ej3(π/4)
+                                                                           (a) z2 + 2jz − 2 = 0      (b) z2 − 3jz = j.
+
+                                                                  10.26. Show that the following are solutions to the differen-
+
+
+                             syE
+10.18. Find the real and imaginary parts of the following:               tial equation d2 z/dt 2 = −ω2 z and find the value of
+                                                                         ω in each case:
+       (a) 2 e−jπ      (b) − 3 ej0.5       (c) 2.5 e−2+j
+       (d) 5 ej(3+j)   (e) (3 − j4)2+j                                     (a) z = 2 e−j4t    (b) z = 4 ej0.5t .
+
+                                                            ngi
+                                                                n             eer
+                                                                                             ing
+                                                                                                             .ne
+                                                                                                                 t
+
+
+
+
+                                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

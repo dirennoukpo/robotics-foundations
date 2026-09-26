@@ -1,0 +1,63 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                              Trigonometric functions and waves                97
+
+
+
+
+ww
+   w                 .Ea
+Figure 5.11
+
+                        syE
+              (a) y = cos(5πx + (π/2)); (b) y = 3 cos(2x − 1).
+
+
+
+
+                                                 ngi
+                                         The phase is given by the number, b, in the expression A cos(ax + b).
+                                      The phase is related to the amount the function A cos(ax + b) is shifted
+
+
+                                                     n
+                                      to the left or right with respect to the function A cos(ax). It expresses the
+
+
+                                                                   eer
+                                      proportion of a standard cycle (maximum 2π ) that the graph has been
+                                      shifted by and therefore a phase can always be expressed between 0 and
+                                      2π or more often between −π and π. Various phase shifts are given in
+                                      Figure 5.12.
+                                                                                ing
+                                         The cycle rate or frequency is the number of cycles in one unit can be
+
+
+                                                                                              .ne
+                                      found by relating this to the length of the cycle. The longer the cycle the
+                                      less cycles there will be in one unit. If the length of one cycle is P (the
+                                      fundamental period) then there is 1 cycle in P units and 1/P cycles in
+                                      1 unit.
+                                                                                                  t
+                                         The cycle rate is the reciprocal of the fundamental period. As for the
+                                      function y = A cos(ax + b) the fundamental period is P = 2π/a, the
+                                      number of cycles is 1/P , that is, a/2π . Examples are given in Figure 5.13.
+
+
+
+
+                                      A wave allows energy to be transferred from one point to another without
+5.4 Wave                              any particles of the medium moving between the two points. Water waves
+functions of                          move along the surface of a pond in response to a child rhythmically
+                                      splashing a hand in the water. The child’s boat floating in the path of the
+time and                              wave merely bobs up and down without moving in the direction of the
+distance                              wave. See Figure 5.14.
+                                        If we look at the position of the boat as the wave passes, it moves
+                                      up and down with the height expressed against time giving a sinusoidal
+                                      function. This is then a wave function of time and in the expression
+                                      y = A cos(ωt + φ), the letter A represents the amplitude, φ represents
+                                      the phase, and ω is related to the wave frequency. This is explained in
+                                      detail in the next section. If we take a snapshot picture of the surface of
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

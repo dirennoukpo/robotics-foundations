@@ -1,0 +1,126 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+312   Systems of linear equations, matrices, and determinants
+
+                              indicate that the translation is performed first. As before
+                                                                                 
+                                     cos(50◦ ) − sin(50◦ )          0.643 −0.766
+                              R=                                ≈
+                                     sin(50◦ ) cos(50◦ )            0.766 0.643
+
+                              and
+                                                               
+                                     −1             x              x
+                              t=         ,   p =       ,     p=
+                                     2              y              y
+
+                              So we have
+                                                            
+                               x        0.643     −0.766       x   −1
+                                    =                            +
+                               y        0.766     0.643        y   2
+
+                              which is the same as
+                                                        
+
+ww                             x
+                               y
+                                    =
+                                         0.643 −0.766
+                                         0.766 0.643
+                                                         x−1
+                                                        y+2
+
+
+   w              .Ea
+                                For the coordinates of A , substitute x = 0 and y = 0 giving
+                                
+                               x
+                                    =
+                                         0.643 −0.766
+                                                        
+                                                            0−1
+                                                                   
+                                                                     =
+                                                                         0.643 −0.766
+                                                                                        
+                                                                                           −1
+                               y                            0+2
+
+                     syE
+                                         0.766 0.643                     0.766 0.643        2
+                                               
+                                         −2.175
+                                    =
+                                           0.52
+
+                              for B      ngi
+                                
+                                x
+                                y
+                                    =
+                                      
+                                        0.643 −0.766
+                                        0.766
+                                       −1.532
+                                             n 
+                                                0.643
+                                                      
+                                                         1−1
+                                                        0+2
+                                                              
+
+
+                                                            eer
+                                                              =
+                                                                 0.643
+                                                                 0.766
+                                                                                   −0.766
+                                                                                   0.643
+                                                                                             
+                                                                                              0
+                                                                                              2
+
+                                    =
+                                         1.286
+                                                                        ing
+                              for C
+                                
+                                x      0.643 −0.766
+                                                    
+                                                       1−1
+                                                                                   .ne
+                                                                                   −0.766
+                                                                                             
+
+
+                                                                                         t
+                                                               0.643                          0
+                                    =                       =
+                                y      0.766 0.643    1+2      0.766               0.643      3
+                                              
+                                        −2.298
+                                    =
+                                         1.929
+
+                              for D
+                                                                                             
+                                x      0.643 −0.766    0−1     0.643               −0.766        −1
+                                    =                       =
+                                y      0.766 0.643     1+2     0.766               0.643          3
+                                              
+                                        −2.941
+                                    =
+                                         1.163
+
+                              The image of the unit square is pictured in Figure 13.9(b).
+                                Note that the order of the transformations is important.
+                                Sometimes, we might need to use a trick of temporarily moving the
+                              axes in order to perform certain transformations. Supposing we want to
+                              scale by 2 along the line x = y we can rotate the axes temporarily so
+                              that the new X-axis lies along the line that was previously x = y, then
+                              perform X scaling, and then rotate back again, so the axes are back in
+                              their original position. This is done in the next example.
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

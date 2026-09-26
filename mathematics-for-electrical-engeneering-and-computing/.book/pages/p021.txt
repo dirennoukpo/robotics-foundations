@@ -1,0 +1,85 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                Sets and functions 7
+
+
+
+
+  Figure 1.11 The              Figure 1.12 The                                                  Figure 1.14 The
+  shaded area                  union of two sets:            Figure 1.13 The                    union of the two sets:
+  represents to union          {1, 2, 4} ∪ {1, 5, 6} =       union of two sets:                 {−3, −2, −1} ∪
+  of sets A and B.             {1, 2, 4, 5, 6}.              {a, b, c, d, e} ∪                  {1, 2} =
+                                                             {a, b, c, d, e, f, g, h, i, j} =   {−3, −2, −1, 1, 2}.
+                                                             {a, b, c, d, e, f, g, h, i, j}.
+
+
+
+
+                                          Cardinality of a finite set
+
+ww
+                                          The number of elements in a set is called the cardinality of the set and is
+                                          written as n(A) or |A|.
+Figure 1.15 The shaded
+
+
+   w
+area represents the union of a
+set with its complement giving            Example 1.8
+the universal set.
+
+                        .Ea               n(∅) = 0,      n({2}) = 1,     n({a, b}) = 2
+
+
+                           syE               For finite sets, the cardinality must be a natural number.
+
+
+
+                                                         ngi
+                                          Example 1.9 In a survey, 100 people were students and 720 owned a
+
+
+                                                             n
+                                          video recorder; 794 people owned a video recorder or were students. How
+
+
+                                                                          eer
+                                          many students owned a video recorder?
+
+                                          E = {x | x is a person included in the survey}
+
+                                                                                           ing
+                                          Setting S = {x | x is a student} and V = {x | x owns a video recorder},
+
+                                                                                                       .ne
+                                          we can solve this problem using a Venn diagram as in Figure 1.16.
+                                            x is the number of students who own a video recorder. From the diagram
+Figure 1.16 S is the set of
+students in a survey and V is
+the set of people who own a
+video. The numbers in the
+                                          we get
+
+                                          100 − x + x + 720 − x = 794
+                                             ⇔ 820 − x = 794
+                                                                                                           t
+sets give the cardinality of the
+sets, n(S) = 100, n(S ∪ V) =                 ⇔ x = 26
+794, n(V) = 720,
+n(S ∩ V) = x .
+                                          Therefore, 26 students own a video recorder.
+
+
+
+
+1.4 Relations                             Relations
+and functions                             A relation is a way of pairing up members of two sets. This is just like
+                                          the idea of family relations. For instance, a child can be paired with its
+                                          mother, brothers can be paired with sisters, etc. A relation is such that it
+                                          may not always be possible to find a suitable partner for each element in
+                                          the first set whereas sometimes there will be more than one. For instance,
+                                          if we try to pair every boy with his sister there will be some boys who have
+                                          no sisters and some boys who have several. This is pictured in Figure 1.17.
+
+                                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

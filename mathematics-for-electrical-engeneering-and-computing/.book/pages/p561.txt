@@ -1,0 +1,109 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+548   Index
+
+                    Rectangular coordinates, conversion to      Simpson’s rule, 156–7
+                         polar, 193                             Sine:
+                    Rectangular form:                              graph, 87
+                      conversion to exponential, 223–4             relationship with cosine, 87, 89
+                      conversion to polar, 215–16                  symmetry of, 88, 89
+                      of vectors, 190                           Single input, single output system (SISO),
+                    Rectangular pulse functions, 386                  343
+                    Recurrence relations, 16, 255–7, 261, 264   sinh, hyperbolic sine, 173
+                    Recursion, 485                              Sinusoidal functions, 100–3
+                    Reflection, 309                                of distance, 100–1
+                    Reflection, of graphs, 36, 37                  of time, 100
+                    Relations, 7                                Sine (sin), 90
+                    Relative frequency, 496                     Slope:
+                    Resonance, 370                                 direction of maximum, 447
+                    Resultant:                                     of a curve, 240
+                      admittance, 218                              of a surface, 447
+                      impedance, 218                            Spring, damped forced motion of, 248–9,
+                      of vectors, 191                                 347–9
+
+
+ww                  Rewriting rules, 480
+                    Right-angles, 198–9
+                    Root mean squared (r.m.s.) value, 156
+                                                                Square matrices, 301
+                                                                Square numbers, 255
+                                                                Square wave, 10–11
+
+
+
+   w          .Ea
+                    Roots:
+                      of a quadratic equation, 32–3
+                      of unity, 229–30
+                    Rotation:
+                      of axes, 307, 310–11, 314
+                                                                Stack, 485
+                                                                Standard deviation, 496, 499
+                                                                   of a continuous distribution, 523
+                                                                Standing waves, 107–8
+                                                                Start symbol, 480
+
+
+                 syE  of coordinates, 307
+                    Row vector, 303
+                                                                State transition diagrams, 474–6
+                                                                State variables, 347–53
+                                                                Stationary points, 238–42, 249–51
+
+
+
+                                 ngi    S                       Statistical modelling, 516, 517
+                    Sample, 494                                    see also Binomial, Exponential, Normal
+                    Sample mean, 498                                     and Poisson distribution
+                    Sample space, 500
+                    Sampling:
+                                     n
+                      interval, 10, 258
+                      theorem, 258                    eer
+                                                                Straight line, 26–30, 50–3
+                                                                String, 480
+                                                                Subsets, 5
+                                                                Subtraction:
+                    Scalar:
+                      product, 198–9
+                      quantities, 188, 191                         ing
+                                                                   of matrices, 296–7
+                                                                   of vectors, 191
+                                                                Sum of products, Boolean algebra, 82
+                    Scalar line integral, 451–4
+                    Scaling, 310, 312–14, 335–7
+                                                                                   .ne
+                                                                Superposition of solutions, 354–5
+                                                                Superposition of waves, 107–9
+                                                                Surface integrals, 454–6
+
+
+                                                                                       t
+                      of graphs, 38–9
+                    Scatter diagram, 341                        Surfaces, 435–6
+                    Secant (sec), 90                            Symmetry:
+                    sech, hyperbolic secant, 174                   of functions, 41–3, 423–4
+                    Sentence, 480–3                                of matrices, 302
+                      grammatical, 481–3                        System, 346–7
+                    Sequences, 11, 254–9                           resonance, 370
+                      general term, 255                            response, 346–7
+                      see also Arithmetic progressions and         stability, 368–9
+                            Geometric progressions              Systems of linear equations, 314–29
+                    Series, 259–60                                 consistent, 318–22
+                      binomial, 267–72                             in three unknowns, 323
+                      see also Fourier series                      in two unknowns, 323
+                    Sets, 4–7                                      inconsistent, 318–22
+                      as a Boolean Algebra, 77–8                   indeterminate, 318–22
+                      cardinality, 7                               matrix form, 320
+                      complement, 5                                solving using elimination, 324–6
+                      intersection, 6                              solving using substitution, 316–17
+                      union, 6                                     see also Gaussian elimination
+                      see also Algebra and Functions
+                    Shortest path problem, 468–71                                   T
+                    Sigma notation, 259                         Tangent, gradient of, 118
+                    Signals, 9                                  Tangent function (tan), 90
+                    Simple harmonic motion, 222                   symmetry of, 92
+
+
+                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

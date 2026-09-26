@@ -1,0 +1,79 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                  Probability and statistics            523
+
+            where λ is the failure rate, that is, the proportion that will fail in unit time.
+            The probability distribution can be found from the cumulative distribution
+            by differentiating, giving
+                  dF
+            f =      = λ e−λt
+                  dt
+
+            Mean and standard deviation of
+            a continuous distribution
+            We can find the mean and standard deviation of a continuous distribution
+            by using integration to replace the summation over all values. The mean
+            is given by
+                  
+            µ = xf (x) dx
+
+
+
+ww          where the integration is over all values in the sample space for x. For the
+            exponential distribution this gives
+                
+
+
+   w.Ea
+            µ = xλ e−λx dx.
+
+            which can be found by using integration by parts (Chapter 7) to be 1/λ.
+              The standard deviation is given by
+
+       syE  σ =
+                
+                     (x − µ)2 f (x) dx
+
+
+                          ngi
+            where the integration is over all values of x. For the exponential
+            distribution this gives
+
+            σ =
+                  
+                      ∞
+
+                      0
+                              n              eer
+                         (x − 1/λ)2 λ e−λx dx.
+
+
+                                                        ing
+            Again using integration by parts, we obtain σ = 1/λ.
+              So we see that the mean is 1/λ, as is the standard deviation for the
+            exponential distribution.
+                                                                      .ne
+            Comparison of the data with the model
+                                                                          t
+            We can now compare a statistical model with the data given in Table 21.4.
+            To do this we calculate the cumulative frequencies for the maximum
+            value in each of the class intervals. The mean of the sample is 638.3.
+            We calculated that the mean of the exponential distribution is given by
+            1/λ the inverse of the failure rate.
+                      1
+            638.3 =     ⇒ λ = 1.567 × 10−3 .
+                      λ
+            Using F (t) = 1 − e−λt
+                                        −3
+            F (200) = 1 − e−1.567×10 ×200 ≈ 0.269
+            P (0 < x < 200) = F (200) − F (0) = 0.269
+                                        −3
+            F (400) = 1 − e−1.567×10 ×400 ≈ 0.466
+            P (200 < x < 400) = F (400) − F (200) = 0.197
+            and so on, giving the values as in Table 21.5. The model’s predictions
+            agree quite well with the data. To find the model predicted frequencies
+            and cumulative frequencies we multiply by the number in the sample,
+            1000.
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

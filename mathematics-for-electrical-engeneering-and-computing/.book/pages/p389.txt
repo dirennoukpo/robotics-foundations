@@ -1,0 +1,79 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+376   Differential equations and difference equations
+
+
+14.7 Difference                Discrete systems are designed using digital adders, multipliers, and shift
+                               registers and are represented mathematically by difference equations.
+equations                      Difference equations are used in the design of digital filters and also
+                               to approximately model continuous systems.
+                                  The system has an input which is a sequence of values f0 , f1 , f2 , . . .
+                               and the output is a sequence y0 , y1 , y2 , . . . If yn depends solely on the
+                               values of the input, then
+                               yn = b0 fn + b1 fn−1 + b2 fn−2 + · · · .
+                               This is a non-recursive system as we do not need previous knowledge
+                               of y to determine yn . It is called a finite impulse response (FIR) system
+                               (the meaning of ‘impulse response’ will be explained in Chapter 15).
+                               If, however, the output y depends on the previous state of the system
+                               as well as the input then we have a recursive system, modelled by a
+                               difference equation (also called a recurrence relation). This is called a
+
+ww                             infinite impulse response (IIR) system.
+                                  We shall look at linear time-invariant discrete systems. We shall
+
+
+   w              .Ea
+                               consider the solution of a second order difference equation
+                               ayn + byn−1 + cyn−2 = fn .
+                               The method of solution, as for differential equations, is to solve the
+
+
+                     syE       homogeneous system and find a particular solution. The sum of these
+                               gives the general solution to the difference equation. We employ the
+                               initial conditions to find the value of the arbitrary constants.
+
+
+                                          ngi
+                               Example 14.11      Solve the difference equation (n ⩾ 2):
+
+
+
+                               Solution       n
+                               6yn − 5yn−1 + yn−2 = 1,       y0 = 4.5 and y1 = 2.
+
+
+                                                             eer
+                               Step 1
+                                                                          ing
+                                  Solve the homogeneous difference equation
+                               6yn − 5yn−1 + yn−2 = 0.
+                                                                                       .ne
+                               We know from Chapters 8 and 12 that the yn+1 = ryn defines a geometric
+
+
+
+                               substitute yn = aλn into 6yn − 5yn−1 + yn−2 = 0. This gives
+                                                                                           t
+                               series yn = ar n−1 , where a is the first term of the sequence and r is the
+                               common ratio. If we start at the zeroth term, then we have yn = a0 r n .
+                               We therefore try a solution of this form to the homogeneous equation and
+
+
+                               6 aλn − 5 aλn−1 + aλn−2 = 0.
+                               Assuming that a and λn−2 are non-zero, we can divide by aλn−2 to give
+                               6λ2 − 5λ + 1 = 0.
+                               This is called the auxiliary equation and solving this we find
+                                         √
+                                    5 ± 25 − 24                   1         1
+                               λ=                       ⇔ λ= ∨λ= .
+                                           12                     3         2
+                               Hence, the general solution of the homogeneous equation is
+                                       n        n
+                                        1          1
+                               yn = a        +b         .
+                                        3          2
+                               As in the case of differential equations, there are three possible types
+                               of solution, depending on whether the roots for λ are real and distinct,
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

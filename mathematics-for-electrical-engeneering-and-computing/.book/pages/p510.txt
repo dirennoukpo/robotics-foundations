@@ -1,0 +1,77 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                 Probability and statistics           497
+
+            we take the square, so that all the numbers are positive. For the sixth class
+            interval the class midpoint is 1450; subtracting the mean, 1682.7, gives
+            −232.7, which when squared is 54149.2. This value is the square of the
+            deviation from the mean, or just the squared deviation.
+
+
+            Column 7: fi (xi − x̄ )2 , the variance and
+            the standard deviation
+            For each class we multiply the frequency by the squared deviation, cal-
+            culated in column 6. This gives an approximation to the total squared
+            deviation for that class. For the sixth class we multiply the squared devia-
+            tion of 54 149 by the frequency 103 to get 5 577 347. The sum of this
+            column gives the total squared deviation from the mean for the whole
+            sample. Dividing by the number of sample points gives an idea of the
+            average squared deviation. This is called the variance. It is found by sum-
+
+ww          ming column 7 and dividing by 1000, the number in the sample, giving a
+            variance of 39 120. A better measure of the spread of the data is given by
+            the square root of this number, √ called the standard deviation and usually
+
+   w.Ea
+            represented by σ . Here σ = 39 120 ≈ 198.
+
+
+            Column 8: the relative frequency
+
+       syE  If instead of 1000 data values in the sample we had 2000, 10 000, or 500,
+            we might expect that the proportion falling into each class interval would
+
+
+                          ngi
+            remain roughly the same. This proportion of the total number is called
+            the relative frequency and is found by dividing the frequency by the total
+            number in the sample. Hence, for the third class, 1100–1200, we find
+            5/1000 = 0.005.
+                              n           eer
+            Column 9: the cumulative relative
+            frequency
+                                                       ing
+                                                                     .ne
+            By the same argument as above we would expect the proportion with a
+            lifetime of less than 1900 h to be roughly the same whatever the sample
+
+
+
+            of the sample has a lifetime of less than 2000 h.
+                                                                         t
+            size. This cumulative relative frequency can be found by dividing the
+            cumulative frequency by the number in the sample. Notice that the cumu-
+            lative relative frequency for the final class interval is 1. That is, the whole
+
+               The data can be represented in a histogram as in Figure 21.3, which
+            gives a simple pictorial representation of the data. The right-hand side
+            has a scale equal to the left-hand scale divided by the number in the
+            sample. These readings, therefore, give the relative frequencies and the
+            cumulative relative frequency as given in Table 21.1.
+               We may want to sum up our findings with a few simple statistics.
+            To do this we use a measure of the central tendency and the dispersion
+            of the data, which are calculated as already described above. These are
+            summarized below.
+
+
+            Central tendency – the mean
+            The most commonly used measure of the central tendency is the mean, x̄
+
+                   1           fi x i
+            x̄ =      fi x i =
+                   n              n
+                      i           i
+
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

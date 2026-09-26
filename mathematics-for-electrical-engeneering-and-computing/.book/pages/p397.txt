@@ -1,0 +1,85 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+384    Laplace and z transforms
+
+
+15.3 The unit                        The unit step function and delta function are very useful in systems theory.
+
+step function
+and the                              The unit step function
+(impulse) delta                      The unit step function is defined as follows:
+
+function                                      
+                                                  1   t ⩾0
+                                     u(t) =
+                                                  0   t <0
+
+                                     and its graph is as shown in Figure 15.1.
+                                        The function is used to represent an idealized switch. It switches on at
+                                     time t = 0. If it is multiplied by any other function then it acts to switch
+                                     that function on at t = 0. That is, the function
+
+ ww                                  f (t)u(t) =
+                                                      
+                                                       0       t <0
+
+
+    w
+Figure 15.1 The graph of
+
+
+                        .Ea
+the unit step function u(t ).
+                                                       f (t)   t ⩾ 0.
+
+
+                                     An example for f (t) = t 2 is given in Figure 15.2.
+
+
+                           syE          As the Laplace transform only involves the integral from t = 0, all
+                                     functions can be thought of as multiplied by the unit step function because
+                                     f (t) = f (t)u(t) as long as t > 0.
+
+
+                                                      ngi
+                                     Shifting the unit step function
+                                                          n             eer
+                                     As we saw in Chapter 2, the graph of f (t − a) can be found by taking
+                                     the graph of f (t) and moving it a units to the right. There is an example
+
+
+                                                                                 ing
+                                     of a shifted unit step function in Figure 15.3.
+                                        Notice that the unit step function ‘switches on’ where the argument
+                                     of u is zero. Multiplying any function by the shifted unit step function
+
+Figure 15.2 Any function
+                                     changes where it is switched on. That is
+                                                                                              .ne
+                                                                                                   t
+when multiplied by the unit
+step function is ‘switched on’                       0             t <a
+                                     f (t)u(t − a) =
+at t = 0. (a) the function                           f (t)         t ⩾ a.
+y = t 2 ; (b) the function
+y = t 2 u(t ).
+                                     The example of sin(t)u(t − 1) is shown in Figure 15.4.
+
+
+                                     The delta function
+                                     The impulse function, or delta function, is a mathematical representation
+                                     of a kick. It is an idealized kick that lasts for no time at all and has energy
+                                     of exactly 1.
+
+
+
+
+Figure 15.3 (a) The graph
+of y = u(t ). (b) The graph of
+y = u(t − 2) is found by
+shifting the graph of u(t) two
+units to the right.
+
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,89 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+422   Fourier series
+
+                                You will notice that there is an overshoot of the value near the jump
+                                discontinuities. This is an example of Gibb’s phenomenon. However
+                                many terms we take in the partial sum this overshoot remains sig-
+                                nificant, at about 10% of the function value. It is also interesting to
+                                see the value that the Fourier series takes at the discontinuous points,
+                                for example, t = 1. Substituting t = 1 into S3 , S5 , and S7 gives
+                                0. This is half way between the values of f at either side of the
+                                point t = 1.
+
+
+
+                                Example 16.2 Find the Fourier series for the periodic function, defined
+                                in the interval 0 < t < 1 by
+                                           
+                                            t      0 < t < 1/2
+                                f (t) =
+                                                   1/2 < t < 1
+
+ ww
+                                            0
+
+
+
+
+    w               .Ea
+                                Solution
+
+                                Step 1
+
+
+
+                       syE      We plot the graph as shown in Figure 16.4.
+
+                                Step 2
+
+
+                                                ngi
+                                The fundamental period of this is τ = 1 so that ω0 = 2π/1 = 2π .
+
+                                Step 3
+                                                    n
+                                Calculate a0 , an , and bn . We find
+                                                                          eer
+                                a0 =
+                                       2
+                                       1
+                                            1/2
+                                                      f (t) dt = 2
+                                                                      1/2
+                                                                                        ing
+                                                                                          1/2
+                                                                             t dt = [t 2 ]0     = (1/4) − 0 = 1/4
+
+
+                                                                                                      .ne
+                                            −1/2                      0
+                                            τ/2
+                                     2
+                                an =                  f (t) cos(ω0 nt) dt
+
+
+                                   =2
+                                     τ         −τ/2
+                                            τ/2
+
+                                            −τ/2
+                                                   f (t) cos(2π nt) dt = 2
+                                                                                   1/2
+
+                                                                                    0
+                                                                                          t cos(2π nt) dt.
+                                                                                                          t
+                                To find this integral we perform integration by parts. The formula, as
+                                given in Chapter 7, is ∫ u dv = uv − ∫ v du. In this case, we choose
+
+
+
+
+Figure 16.4 The graph for
+Example 16.2.
+
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

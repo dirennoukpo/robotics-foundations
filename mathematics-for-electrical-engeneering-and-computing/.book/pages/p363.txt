@@ -1,0 +1,89 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+350   Differential equations and difference equations
+
+                               Then, from KVL:
+                                   di       q
+                               L      + Ri + = v(t)
+                                   dt       C
+                               Since
+                                        dq
+                               i(t) =
+                                        dt
+                               we have
+                                                 
+                               di   d        dq           d2 q
+                                  =                   =
+                               dt   dt       dt           dt 2
+                               So we can write this differential equation in terms of q:
+
+                                   d2 q    dq  q
+                               L        +R    + = v(t).
+
+ww                                 dt 2    dt  C
+                               Here, the system input is v and the output is the charge on the capacitor q.
+                                 To obtain a differential equation in terms of i we can differentiate the
+
+   w              .Ea
+                               whole of this equation and use i = dq/dt, giving
+
+                               L
+                                   d2 i
+                                      2
+                                          di i
+                                        +R + =
+                                             C
+                                               dv
+                                                  .
+
+
+                     syE
+                                   dt     dt   dt
+                               Here the input is dv/dt and the output is i. Notice that L, R, and 1/C are
+                               constants.
+
+                                             ngi
+                                  Should we wish to solve the system as a system of first order differential
+                               equations then we choose some state variables. The general procedure is
+                               to choose capacitor voltages and inductor currents. Hence, we choose
+                               x1 = i            n                 eer
+                                                                             ing
+                               and
+                               x2 = vc = q/C.
+                               We can obtain one equation relating x1 and x2 by using
+                                                                                        .ne
+                               dq
+                               dt
+                                  =i
+                                             1 dq
+                                             C dt
+                                                  =
+                                                    i
+                                                    C
+                                                                 dx2
+                                                                  dt
+                                                                      x1
+                                                                     = .
+                                                                      C
+                               Now we use KVL to give the other equation
+                                                                                            t
+                                   di       q
+                               L      + Ri + = v(t)
+                                   dt       C
+                               substituting i = x1 and x2 = q/C gives
+                               dx1    R    1    1
+                                   = − x1 − x2 + v(t).
+                                dt    L    L    L
+                               So the system of equations that give the state variables are
+                               dx1     R   1    1
+                                   = − x1 − x2 + v(t)
+                                dt     L   L    L
+                               dx2   1
+                                   = x1 .
+                                dt   C
+                               The first equation expresses Kirchoff’s voltage law the second equation
+                               expresses the relationship between the current and the voltage across the
+                               capacitor.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

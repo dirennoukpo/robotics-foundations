@@ -1,0 +1,127 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                     Differential equations and difference equations               375
+
+            Step 3
+            The general solution is the sum of the complementary function and a
+            particular solution. This gives
+                                                              
+                     1      −4t       1     −t   0.25        −0.3125
+            x=a           e     +b         e +          t+             .
+                    −4               −1           0           0.25
+
+            Step 4
+            We can apply the initial conditions. We are told that at t = 0 both the
+            displacement and velocity is zero. These are the state variables x1 and x2 .
+            Therefore, we have
+                  
+                   0
+            x=          when t = 0
+                   0
+
+            and substituting into the solution we find
+                                                
+
+ww           0
+             0
+                 =a
+                         1
+                        −4
+                              +b
+                                     1
+                                    −1
+                                         +
+                                              −0.3125
+                                                0.25
+
+
+   w.Ea
+            0 = a + b − 0.3125
+            0 = −4a − b + 0.25.
+
+
+
+       syE  Solving these two equations gives
+
+            a ≈ −0.02083
+            b ≈ 0.3333
+                        ngi
+            and therefore, the particular solution to this initial value problem is
+
+            x∼= 0.02083
+                          
+                            n
+                           −4
+                             1
+                                         eer
+                                 e−4t + 0.3333
+                                                 
+                                                   1
+                                                  −1
+                                                        e−t +
+                                                               
+                                                                 0.25
+                                                                   0
+                                                                      
+                                                                        t+
+                                                                           
+                                                                             −0.3125
+                                                                               0.25
+                                                                                     
+                                                                                       .
+
+
+            Check:
+                                                  ing
+                                                            
+            dx
+            dt
+               = −0.08332
+                            1
+                           −4
+                              e−4t − 0.3333
+                                              1
+                                             −1
+                                                e−t +
+                                                        0.25
+                                                         0
+                                                               .
+                                                                   .ne
+            Substitute into
+            dx
+            dt
+               =
+                  
+                     0
+                    −4 −5
+                            1
+                              
+                                x+
+                                    
+                                    0
+                                    1
+                                       t
+                                                                       t
+            giving
+                         
+                                                     
+                       1     −4t            1  −t   0.25
+            − 0.08332      e     − 0.3333     e +
+                      −4                   −1        0
+                                                                     
+              0 1          0.02083 e−4t + 0.3333 e−t + 0.25t − 0.3125    0
+            =                                                          +    t.
+              −4 −5            −0.08332 e−4t − 0.3333 e−t + 0.25         1
+
+            Multiplying out and simplifying, we get
+                                                
+              −0.08332 e−4t − 0.3333 e−t + 0.25
+                   0.3333 e−4t + 0.3333 e−t
+                                                    
+                   −0.08332 e−4t + 0.3333 e−t + 0.25
+               =
+                        0.3333 e−4t + 0.3333 e−t
+            which is true for all t.
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

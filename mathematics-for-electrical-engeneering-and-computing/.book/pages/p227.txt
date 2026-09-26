@@ -1,0 +1,78 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+214   Complex numbers
+
+                            real, must be the complex conjugates of each other. This is true for all the
+                            cases we looked at in Example 10.9.
+
+                            x 2 + 3x + 5 = 0
+
+                            has solutions x = −1.5 + j1.658 and x = −1.5 − j1.658.
+
+                            x2 − x + 1 = 0
+
+                            has solutions x = 0.5 + j0.866 and x = 0.5 − j0.866.
+
+                            4x 2 + 1 = 0
+
+                            has solutions x = j0.5 and x = −j0.5.
+                              We can show that if the coefficients a, b, and c are real in the equation
+
+
+ww                          ax 2 + bx + c = 0, then the roots of the equation must either be real or
+                            complex conjugates of each other. We know from the formula that
+                                                                       √
+
+   w            .Ea
+                            ax + bx + c = 0
+                                 2
+                                                      ⇔    x=
+                                                                −b ±     b2 − 4ac
+                                                                        2a
+                                                                                    √
+                            If x has an imaginary part, then b2 − 4ac < 0, so that b2 − 4ac is an
+
+                   syE      imaginary number. We can write this is terms of j as follows:
+                                                     √ 
+
+                                            ngi
+                             b2 − 4ac = −(4ac − b2 ) = −1 (4ac − b2 )
+                                                        
+                                                     = j (4ac − b2 )
+
+
+
+                                     √
+                                                n           eer
+                            So the solutions, in the case, b2 − 4ac < 0 are
+
+
+                            x=
+                               −b ± j 4ac − b2
+                                     2a                                 ing
+                            which can be written, using
+                                                                                    .ne
+                            p=
+
+                            and
+                               −b
+                               2a                                                       t
+                                     √
+                                         4ac − b2
+                            q=                    ,
+                                           2a
+                            as
+
+                            x = p ± jq ⇔ x = p − jq ∨ x = p + jq
+
+                            where p and q are real.
+                              This shows that the two solutions are complex conjugates of each other.
+                            This fact can be used to find the other root when one root is known.
+
+
+                            Example 10.10 Given that the equation x 2 − kx + 8 = 0, where k ∈ R
+                            has one solution x = 2 − j2 then find the other solution and also the
+                            value of k.
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,67 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+502   Probability and statistics
+
+
+
+
+Figure 21.4   Histogram of the frequency distribution of the resistances given in Table 21.2.
+
+
+
+
+ ww                                    Relative frequency and probability
+                                       The probability of an event is related to its relative frequency. If I chose
+
+    w                 .Ea
+                                       a light bulb from the sample in Section 21.2, then the probability of its
+                                       lifetime being between 1400 and 1500 h is 0.103. This is the same as the
+                                       relative frequency for that class interval, that is, the number in the class
+                                       interval divided by the total number of light bulbs in the sample. Here,
+
+                         syE           we have assumed that we are no more likely to pick any one light bulb
+                                       than any other, that is, each outcome is equally likely. The histogram of
+                                       the relative frequencies (Figure 21.3 using the right-hand scale) gives the
+
+                                                   ngi
+                                       probability distribution function (or simply the probability function) for
+                                       the lifetimes of the sample of light bulbs.
+
+
+                                                       n
+                                          As an introduction to probability, examples are often quoted involving
+
+
+                                                                      eer
+                                       throwing dice or dealing cards from a pack of playing cards. These are
+                                       used because the probabilities of events are easy to justify and not because
+                                       of any particular predilection on the part of mathematicians to a gambling
+                                       vocation!
+                                                                                     ing
+                                       from one throw of the die, assuming it is fair.          .ne
+                                       Example 21.2 A die has the numbers one to six marked on its sides.
+                                       Draw a graph of the probability distribution function for the outcome
+
+
+                                                                                                    t
+                                       Solution If we throw the die 10 000 times we would expect the number
+                                       of times each number appeared face up to be roughly the same. Here, we
+                                       have assumed that the die is fair; that is, any one number is as likely to
+                                       be thrown as any other. The relative frequencies would be approximately
+                                       1/6. The probability distribution function, therefore, is a flat function with
+                                       a value of 1/6 for each of the possible outcomes of 1, 2, 3, 4, 5, 6. This is
+                                       shown in Figure 21.5
+                                          Notice two important things about the probabilities in the probability
+                                       distribution for the die:
+                                       1.   each probability is less than 1;
+                                       2.   the sum of all the probabilities is 1:
+                                       1/6 + 1/6 + 1/6 + 1/6 + 1/6 + 1/6 = 1.
+
+
+                                       Example 21.3 A pack of cards consists of four suits, hearts, diamonds,
+                                       spades, and clubs. Each suit has 13 cards; that is, cards for the numbers
+                                       1 (the ace) to 10 and a Jack, Queen, and King. Draw a graph of the
+                                       probability distribution function for the outcome when dealing one card
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

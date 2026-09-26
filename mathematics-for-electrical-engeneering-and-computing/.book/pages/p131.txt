@@ -1,0 +1,85 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+118   Differentiation
+
+                            (1.1, 15.95). The triangle containing the chord joining these two points
+                            has height δs = change in s = 15.95 − 15 = 0.95 and base length δt =
+                            change in t = 1.1 − 1.0 = 0.1. This means that the gradient = δs/δt =
+                            0.95/0.1 = 9.5. Another chord can be drawn from t = 1 to t = 1.01.
+                            When t = 1.01 and s = 15.0995 we mark the point (1.01, 15.0995).
+                            The triangle containing the chord joining (1, 15) to (1.01, 15.0995) has
+                            height δs = change in s = 15.0995 − 15 = 0.0995 and base length
+                            δt = change in t = 1.01 − 1.0 = 0.1. This means that the gradient =
+                            δs/δt = 0.0995/0.01 = 9.95.
+                               As the ends of the chord are put nearer together the gradient of the chord
+                            gives a very good approximation to the instantaneous rate of change.
+                            Unfortunately, the chord becomes so small that we can hardly see it! To
+                            get round this problem we can extend the line at either end. So a chord
+                            between two points that are very close together appears to only just touch
+                            the function curve. A line that just touches at one point is called a tangent.
+                            As the two points on the chord approach each other the line of the chord
+
+ww                          approaches the tangent. Therefore, the gradient of the chord must also
+                            give a good approximation to the gradient of the tangent.
+                               We can guess from Table 6.1 that the instantaneous velocity at t = 1
+
+   w               .Ea
+                            is 10 m s−1 . Although the length of time over which we take the average
+                            gets smaller and smaller, that is, tends towards zero, the average veloc-
+                            ity does not get nearer to zero but instead approaches the value of the
+                            instantaneous velocity.
+
+                      syE      The instantaneous velocity is represented by ds/dt, the derivative of s
+                            with respect to t, and can defined using
+
+
+                                        ngi
+                            Instantaneous velocity =
+                                                        ds
+                                                        dt
+                                                           = lim
+                                                             δt→0
+                                                                  δs
+                                                                  δt
+
+
+                            delta t’.
+                                            n             eer
+                            read as ‘ds by dt equals the limit, as delta t tends to zero, of delta s over
+
+
+                                                                       ing
+                               Note that ds/dt is read as ‘ds by dt’ (not ‘ds over dt’) because the line
+                            between the ds and the dt does not mean ‘divided by’. However, because
+
+
+                                                                                     .ne
+                            it does represent a rate of change it usually ‘works’ to treat ds/dt like
+                            a fractional expression. This is because we can always approximate the
+                            instantaneous rate of change by the average rate of change (which is a
+                            fraction)
+
+                            ds
+                               ≈
+                                 δs
+                                        for small δt
+                                                                                         t
+                            dt   δt
+
+                            ‘ds by dt is approximately delta s over delta t for small delta t’.
+                              δs/δt represents the gradient of a chord and ds/dt represents the gra-
+                            dient of the tangent. If δs/δt is used as an approximation to ds/dt then
+                            we are using the chord to approximate the tangent.
+
+
+
+                            We saw in Section 6.2 that if the ends of the chord are put closer together
+6.3 The                     the gradient of the chord approaches the gradient of a tangent. The tangent
+derivative                  to a curve is a line that only touches the curve at one point. The gradient
+                            of the tangent is also more simply referred to as the slope of the curve at
+function                    that point. If the slope of the curve is found for every point on the curve
+                            then we get the derivative function.
+
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,126 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                       Graph theory                 471
+
+                                                            Table 19.6 The lengths of paths using up to
+                                                            six edges from s
+
+                                                            Reference     a       b        c       d         e        f         t
+                                                            vertex
+
+
+                                                            s            
+                                                                         4 11              7       100       100      100       100
+                                                            a                     11       
+                                                                                           7 12 100                    14       100
+                                                            c                     11                   11        
+                                                                                                                 10 14 100
+Figure 19.24 Stage 6 of solving the                         e                 
+                                                                              11                       11                 14        15
+shortest path problem.                                      b                                          11                 14        15
+                                                            d                                                             14        13
+
+
+
+
+ww                                                      Table 19.7 The algorithm to find the shortest path
+                                                        stops as soon as t receives a permanent label
+
+
+
+   w                 .Ea
+                                                        Reference vertex
+
+
+                                                        s
+                                                        a
+                                                                              a
+
+
+                                                                              
+                                                                              4 11
+                                                                                       b
+
+
+
+                                                                                       11
+                                                                                               c
+
+
+                                                                                               7
+                                                                                               
+                                                                                               7 12
+                                                                                                        d
+
+
+                                                                                                        100
+                                                                                                                  e
+
+
+                                                                                                                  100
+                                                                                                                  100
+                                                                                                                           f
+
+
+                                                                                                                           100
+                                                                                                                            14
+                                                                                                                                     t
+
+
+                                                                                                                                     100
+                                                                                                                                     100
+
+
+                        syE                             c
+                                                        e                             
+                                                                                       11
+                                                                                      11
+                                                                                                        
+                                                                                                            11
+                                                                                                            11
+                                                                                                                   
+                                                                                                                   10 14 100
+                                                                                                                               14        15
+
+
+                                                  ngi
+Figure 19.25 The solution to the
+shortest path problem. Vertex t now has a               b                                               11                     14        15
+permanent label, showing that the length                d                                                                      14        
+                                                                                                                                         13
+of the shortest path from s to t is 13. By
+working backwards from t to s we find that
+the actual path must be scdt.                         n              eer
+                                                                                       ing
+                                       process, we find that the shortest path is scdt and is of length 13. The final
+                                       solution is shown in Figure 19.25 and Table 19.7.
+
+
+
+                                                                                                             .ne
+19.6 Networks
+and maximum
+flow
+                                       A network is a digraph with a weight function. The weight function
+                                       represents the number of links between the vertices, for example the
+                                       units of traffic (channels) in a communication network, or the maximum
+                                       capacity of a network of one way streets in a busy town. This weight
+                                                                                                                 t
+                                       function value is called the capacity of the arc. An example of a network
+                                       is shown in Figure 19.26. s is the source and t is the sink. The capacity
+                                       of an arc, ak will be referred to as c(ak ). We wish to find the maximum
+                                       possible flow from s the source to the sink t. That is we want to find a
+                                       flow function f (ak ) assigning a flow to each of the arcs which gives this
+                                       maximum flow.
+
+
+                                       Flow function
+                                       A valid flow function must be such that:
+                                       1. f (ak ) ⩽ c(ak ).
+                                       2. The out-flow at any vertex equals the in-flow except at the source or
+                                          the sink.
+                                          An arc is saturated if f (ak ) = c(ak ). The total flow is then the flow out
+                                       of s (which equals the flow into t).
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

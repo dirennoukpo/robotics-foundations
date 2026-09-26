@@ -1,0 +1,92 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+296   Systems of linear equations, matrices, and determinants
+
+                                as follows:
+                                                                        Milk   Bread   Yoghurt
+                                                           Monday       3      2       4
+                                                           Tuesday      4      1       0
+                                                           Wednesday    2      2       4
+                                                           Thursday     5      1       0
+                                                           Friday       1      1       4
+                                This information forms a matrix.
+                                  Transformations in a plane can be represented by using matrices, for
+                                example, a reflection about the x-axis can be represented by the matrix
+
+                                                
+                                       1    0
+                                       0    −1
+
+
+ww                              and rotation through the angle by
+
+
+   w              .Ea
+                                
+                                       cos(θ)
+                                       sin(θ )
+                                                     − sin(θ )
+                                                      cos(θ)
+                                                              
+                                                                .
+
+
+
+
+                     syE           We shall return to these examples later. Also in the chapter we will see
+                                that linear equations can be written in matrix form.
+
+
+                                Notation             ngi
+                                                         n
+                                A matrix is represented by a capital letter A (bold) or by [aij ] where aij
+
+                                                                       eer
+                                represents a typical element in the ith row and j th column of the matrix.
+                                We represent a general matrix in the following form:
+
+                                                  column number
+                                                                ... n
+                                                                                   ing
+                                                                                            .ne
+                                                1     2    3
+                                                                        
+                                           1    a11 a12 a13 . . . a1n
+
+
+                              row number
+                                           2  a21 a22 a23 . . . a2n 
+                                           3 
+                                           ..
+                                            .
+                                            m
+                                               a31 a32 a33 . . . a2n 
+                                              
+                                               ...    ..
+                                                        .
+                                                            ..
+                                                             .
+                                                                ..
+                                                                   .
+                                                am1 am2 am3 . . . amn
+                                                                         
+                                                                      .. 
+                                                                       .                       t
+                                  In order to refer to the element which is in the third row and the second
+                                column we can say a32 . The matrix
+
+                                             
+                                 3          2
+                                6          1
+                                 8          2
+
+                                is a 3 × 2 matrix (read as 3 by 2) as it has 3 rows and 2 columns.
+
+
+                                The sum and difference of matrices
+                                The sum and difference of matrices is found by adding or subtracting
+                                corresponding elements of the matrix. Only matrices of exactly the same
+                                dimension can be added or subtracted.
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

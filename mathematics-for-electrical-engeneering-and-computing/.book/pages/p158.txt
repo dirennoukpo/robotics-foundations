@@ -1,0 +1,77 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                             Integration       145
+
+                       In Section 6.7, we listed the applications of differentiation that are impor-
+7.4                    tant in engineering. Here, we list the equivalent relationships using
+Applications of        integration.
+integration
+                       Mechanics
+                            
+                       x = v dt, where v = velocity, x = distance, t = time
+                            
+                       v = a dt, where a = acceleration, v = velocity, t = time
+                              
+                       W = F dx, where F = force, W = work done (or energy used),
+                          x = distance moved in the direction of the force
+                            
+                       p = F dt, where F = force, p = momentum, t = time
+                              
+                       W = P dt, where P = power, W = work done (or energy used),
+                          t = time
+                            
+                       p = E dv, where E = kinetic energy, v = velocity, p = momentum.
+
+ww                     Gases
+   w      .Ea
+                            
+                       p = W dV , where p = pressure, W = work done under isothermal
+                       expansion, V = volume.
+
+
+
+             syE       Electrical circuits
+                            
+                       Q = I dt,where I = current, Q = charge, t = time
+
+                                    ngi
+                       I = (1/L) V dt, where V = voltage drop across an inductor, L =
+                       inductance, I = current, t = time.
+
+                       Electrostatics
+                            
+                                        n              eer
+                                                                 ing
+                       V = − E dx, where V = potential, E = electric field, x = distance.
+
+                       Example 7.15 A car moving with a velocity of 12 m s−1 acceler-
+
+                       Calculate:                                              .ne
+                       ated uniformly for 10 s at 1 m s−2 and then kept a constant velocity.
+
+                       (a)
+                       (b)
+                       (c)
+                             the distance travelled during the acceleration,
+                             the velocity reached after 20 m,                      t
+                             the time taken to travel 100 m from the time that the acceleration
+                             first started.
+
+                       Solution Take as time 0 the time when the car begins to accelerate.
+                       Fromt = 0 to t = 10, the acceleration is 1 m s−2 dv/dt = 1. Therefore,
+                       v = 1 dt = t + C. For 0 ≤ t ≤ 10, this gives v = t + C. To find
+                       the constant C, we need to use other information given in the problem.
+                       We know that at t = 0 the velocity is 12 m s−1 . Substituting this into
+                       v = t + C gives
+
+                       12 = 0 + C         ⇔    C = 12
+
+                       so, v = t + 12. For t > 10, the velocity is constant, therefore v =
+                       10 + 12 = 22 m s−1 for t > 10. The velocity function is therefore
+                             
+                                 t + 12   0 ≤ t ≤ 10
+                       v=
+                                 22       t > 10.
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

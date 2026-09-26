@@ -1,0 +1,48 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                       Systems of linear equations, matrices, and determinants                    339
+
+
+
+
+ww
+Figure 13.18 A scatter diagram of the data for Example 13.33.
+
+
+
+
+   w                 .Ea
+                        syE
+                                                 ngi
+                                                     n               eer
+                                                                                 ing
+The method of least squares minimises the sum of the squares of these errors.                 .ne
+Figure 13.19 Vertical distances between the data points and the line represent the error for each point.
+
+
+
+                                                                                                  t
+                                       respect to one variable, which we looked at in Chapter 11. We shall look in
+                                       more detail at functions of two variables in Chapter 17. To minimize with
+                                       respect to two variables we begin by differentiating with respect to each
+                                       variable in turn keeping the other variable constant. This is called partial
+                                       differentiation. The ideas used in finding stationary values are the same
+                                       as that for one variable although the method of distinguishing between
+                                       types of stationary values is slightly more involved because the function
+                                       represents a two-dimensional surface drawn in three dimensions rather
+                                       than a simple curve. A partial derivative is indicated by using a curly d,
+                                       ∂, for the derivative and ∂E/∂a is read as ‘partial dE by da’
+
+
+                                       ∂E      
+                                          = −2  (yi − a − bxi )
+                                       ∂a
+                                                   i
+                                       ∂E         
+                                          = −2         xi (ti − a − bxi )
+                                       ∂b
+                                                   i
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,73 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+92   Trigonometric functions and waves
+
+                              That is, adding or subtracting any multiple of 2π from the value of t gives
+                              the same value of the functions x = cos(t) and y = sin(t).
+                                 The other important thing to remember about cos(t) and sin(t) is that
+                              although the domain of the functions is all the real numbers, the function
+                              values themselves lie between −1 and +1
+
+                              −1 ⩽ cos(t) ⩽ 1
+                              −1 ⩽ sin(t) ⩽ 1.
+
+                              We say that the functions are bounded by −1 and +1 or, in other words,
+                              the range of the cosine and sine functions is [−1, 1].
+                                z = tan(t) has fundamental period π. If the graph is translated by
+                              π to the left or right, then the resulting graph will fit exactly on top of
+                              the original graph. This periodic property can be expressed using n to
+                              represent any integer, giving
+
+ww                            tan(t + πn) = tan(t).
+
+
+   w             .Ea             The values of tan(t) are not bounded. We can also say that −∞ <
+                              tan(t) < ∞.
+
+
+
+                    syE       Symmetry
+
+                                         ngi
+                              Other important properties of these functions are the symmetry of the
+                              functions. cos(t) is even, while sin(t) and tan(t) are odd. Unlike the
+                              terms odd and even when used to describe numbers, not all functions
+
+                                             n
+                              are either odd or even, most are neither. To show that cos(t) is even,
+
+                                                            eer
+                              reflect the graph along the vertical axis. The resulting graph is exactly the
+                              same as the original graph. This shows that swapping positive t values
+
+
+                              cos(−t) = cos(t).
+                                                                         ing
+                              for negative ones has no difference on the function values, that is,
+
+
+
+                                                                                      .ne
+                                                                                          t
+                                Other examples of even functions were given in Chapter 2 and the
+                              general property of even functions was given there as f (t) = f (−t). The
+                              functions sine and tangent are odd. If they are reflected along the vertical
+                              axis then the resulting graph is an upside down version of the original.
+                              This shows that swapping positive t values for negative ones gives the
+                              negative of the original function. This property can be expressed by
+
+                              sin(−t) = − sin(t)
+                              tan(−t) = − tan(t).
+
+                                For a general function, y = f (t), the property of being odd can be
+                              expressed by f (−t) = −f (t).
+
+
+                              The relationships between
+                              the sine and cosine
+                              Take the graph of sin(t) and translate it to the left by 90◦ or π/2 and
+                              we get the graph of cos(t). Equivalently, take the graph of cos(t) and
+                              translate it to the right by π/2 and we get the graph of sin(t). Using the
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

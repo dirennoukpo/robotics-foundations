@@ -1,0 +1,76 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+
+
+      6                Differentiation
+
+6.1 Introduction       We have used functions to express relationships between variables. For
+                       instance, in an electrical circuit the current and the voltage through a
+                       resistor can be related by V = IR. Here, one physical relationship can
+
+
+ww                     be found by simply substituting in the formula the known value of the
+                       other. Another common relationship between physical quantities is that
+                       one quantity is the rate of change of another: for instance, speed is defined
+
+
+   w      .Ea
+                       as rate of change of distance with respect to time. It is simple to find the
+                       average speed of a moving object if we know how far it has travelled in a
+                       certain length of time, which is given by
+
+
+
+             syE       Distance travelled
+                          Time taken
+
+
+                                  ngi
+                       This does not give an idea of the speed at any particular instant. If
+                       I am travelling by coach from London to Birmingham the journey takes
+
+
+                                      n
+                       about 2.75 h to go about 110 miles. This means that the average speed
+
+
+                                                     eer
+                       is about 40 mph. However, I know that the coach by no means travels at
+                       a constant speed. Through central London it travels at around 12 mph
+                       and on the motorway at around 70 mph. Is there a way that we can
+
+                                                                  ing
+                       estimate the speed at any particular moment as accurately as possible,
+                       armed only with a mileometer, to give the distance travelled, and a stop
+
+
+                                                                               .ne
+                       watch? I can measure the distance travelled in a 10 s interval and find
+                       that it is 0.2 miles. This means that the average speed is 0.2/10 miles per
+                       second = 0.02 miles per second = 0.02 × 60 × 60 mph = 72 mph.
+
+                                                                                   t
+                       This gives a pretty good idea of the speed at any moment within that
+                       10 s interval, as the length of time is small enough that the speed prob-
+                       ably has not changed too much. The smaller the period of time over
+                       which we take the measurement, the more accurately we should be
+                       able to estimate the speed at any one instant. The speed is found by
+                       looking at the ratio of the distance travelled over the time taken where
+                       the time interval is taken as small as possible. This is an approxi-
+                       mation to the instantaneous rate of change of distance with respect
+                       to time.
+                          The rate of change of one quantity with respect to another is called
+                       its derivative. If we know the expression defining the function then we
+                       are able to find its derivative. The techniques used for differentiating are
+                       described in this chapter.
+                          Many physical quantities are related through differentiation. Some
+                       of these are current and charge, acceleration and velocity, force and
+                       work done, momentum and force, and power and energy. Applica-
+                       tions of differentiation are, therefore, very widespread in all areas of
+                       engineering.
+
+
+
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

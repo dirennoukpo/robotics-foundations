@@ -1,0 +1,81 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+                                                                              Complex numbers           207
+
+
+
+
+  Figure 10.2 (a) An electrical
+  system made up of resistors,
+
+wwcapacitors, and inductors with
+  voltage as input and output.
+  (b) A mechanical system
+                                      Figure 10.3 (a) A system which produces a phase shift
+                                      of π/2, that is, rotates a phasor by π/2. This may be
+
+
+   w
+  made up of masses, springs,
+  and dampers. The input is the
+
+                 .Ea
+  external force and the output
+  is tension in the spring.
+                                      represented as a multiplication by j. (b) A system
+                                      consisting of two sub-systems, both of which produce a
+                                      phase shift of π/2 giving a combined shift of π. As a phase
+                                      shift of π inverts a wave, that is, cos(ωt + π) = − cos(ωt )
+                                      this is equivalent to multiplication by −1. Hence, j × j = −1.
+
+
+                    syE
+                                             ngi
+                                   tension in the spring. An example of such a mechanical system is shown
+                                   in Figure 10.2(b).
+
+
+                                                 n
+                                      We saw in Chapter 9 that a single frequency wave can be characterized
+
+
+                                                               eer
+                                   by its amplitude and phase and these can be represented by vectors, called
+                                   phasors. The advantage of complex numbers is that a phasor can be
+
+
+                                                                            ing
+                                   treated as a number and the system can be represented also by a number
+                                   multiplying the input phasor.
+                                      Consider a single frequency input of 0 phase and amplitude 1. If there
+
+                                                                                         .ne
+                                   is a system which has the effect of simply shifting the phase by π/2,
+                                   then we represent this by the imaginary number j. So j × 1∠0 = 1∠π/2.
+
+
+                                                                                             t
+                                   This system is shown in Figure 10.3(a). Supposing now we consider a
+                                   system which can be broken into two components both of which shift the
+                                   phase by π2 as shown in Figure 10.3(b). The combined effect of the two
+                                   systems is to multiply the input by j × j. The final output wave, shifted
+                                   now by π, is the cos(ωt + π ) = − cos(ωt) so it is −1 times the initial
+                                   input. For this to be so then j × j = −1.
+                                      This is the central definition for complex numbers:
+
+                                   j × j = −1
+                                                     √
+                                   meaning that j = −1, where j is an operator which rotates a phasor
+                                   by π/2.
+                                     We will return to these linear time-invariant systems in Chapter 16.
+
+
+                                   Complex numbers allow us to find solutions to all quadratic equations.
+10.3 Complex                       Equations like x 2 + 4 = 0 do not have real roots because
+numbers and
+                                   x 2 + 4 = 0 ⇔ x 2 = −4
+operations
+                                   and there is no real number, which if squared will give −4.
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

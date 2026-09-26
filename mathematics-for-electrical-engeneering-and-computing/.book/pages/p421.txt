@@ -1,0 +1,97 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+408   Laplace and z transforms
+
+                                 Solution Notice that most of the values of the transform in Table 15.2
+                                 have a factor of z in the numerator. We write
+                                                                           
+                                         z2                       z
+                                                    =z
+                                 (z − 1)(z − 0.5)          (z − 1)(z − 0.5)
+
+                                 We use the ’cover up’ rule to write
+                                        z               1         1
+                                                  =           −
+                                 (z − 1)(z − 0.5)   0.5(z − 1) z − 0.5
+                                                      2       1
+                                                  =       −
+                                                    z − 1 z − 0.5
+                                 So
+                                        z2            2z     z
+                                                  =      −
+
+ww                               (z − 1)(z − 0.5)   z − 1 z − 0.5
+                                 and using Table 15.2 we find
+
+
+   w             .Ea             Z−1
+                                     
+                                         2z
+                                             −
+                                                   z
+                                       z − 1 z − 0.5
+                                                          = 2un − (0.5)n
+
+
+
+
+15.8 Solving
+                    syE          The scheme for solving difference equations is very similar to that for
+
+linear difference                           ngi
+                                 solving differential equations using Laplace transforms and is outlined
+                                 below. The z transform transforms the linear difference equation with
+equations
+with constant
+coefficients
+                                                n
+                                 constant coefficients to an algebraic equation in z. This can be solved
+
+
+                                                               eer
+                                 and then the inverse transform of this solution gives the solution to the
+                                 original difference equation.
+
+
+using z
+                                       Difference equation
+                                                ↓
+                                                                     Solution
+                                                                         ↑    ing   n-Domain
+
+
+transforms                                 z transform
+                                                ↓
+                                                              →
+                                                                Inverse z transform
+                                                                         ↑
+                                                                                      .ne
+                                                                                     z-space
+                                       Algebraic equation
+
+
+                                 Example 15.30
+                                                                     Solution
+
+
+                                                    Solve the difference equation
+                                                                                          t
+                                 yn + 2yn−1 = 2un
+
+                                 for n ⩾ 0 given y−1 = 1.
+                                 Solution We take the z transform of both sides of the difference equation
+
+                                 yn + 2yn−1 = 2un
+
+                                 and using the right shift property to find
+
+                                 Z{yn−1 } = z−1 Y (z) + y−1
+
+                                 we get
+
+                                                                  2z
+                                 Y (z) + 2 z−1 Y (z) + y−1 =         .
+                                                                 z−1
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

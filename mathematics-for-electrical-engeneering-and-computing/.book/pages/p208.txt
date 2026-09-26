@@ -1,0 +1,69 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                               Vectors     195
+
+                       Adding two vectors expressed in
+                       polar co-ordinates
+                       To add two vectors expressed in polar co-ordinates, first express them in
+                       rectangular co-ordinates, then find the sum and then convert back into
+                       polar co-ordinates.
+
+                       Example 9.5    Find 2 ∠20◦ + 4 ∠50◦ .
+                       Solution Using x = r cos(θ) and y = r sin(θ), we can express the two
+                       vectors in rectangular co-ordinates, giving
+                       2 ∠20◦ ≈ (1.879, 0.684)
+                       4 ∠50◦ ≈ (2.5711, 3.064).
+                       Therefore, 2 ∠20◦ + 4 ∠50◦ ≈ (1.879, 0.684) + (2.571, 3.064) =
+                       (4.45, 3.748).
+
+ww                        Finally, this can be represented in polar co-ordinates by using
+                       r = x 2 + y 2 and θ = tan−1 (y/x) (+π , if x is negative) giving
+                       (4.45, 3.748) ≈ 5.818 ∠40.106◦ .
+
+   w      .Ea          Example 9.6    Find 4 ∠1 + 2 ∠−1.6.
+                       Solution Using x = r cos(θ) and y = r sin(θ), we can express the two
+
+             syE       vectors in rectangular co-ordinates, giving 4 ∠1 ≈ (2.161, 3.366):
+                       2 ∠−1.6 ≈ (−0.058, −1.999).
+
+                                 ngi
+                       Therefore, 4 ∠1 + 2 ∠ − 1.6 ≈ (2.161, 3.366) + (−0.058, −1.999) =
+                       (2.103, 1.367).
+
+                                     n
+                          Finally, this can be represented in polar co-ordinates by using
+
+                                                   eer
+                       r = x 2 + y 2 and θ = tan−1 (y/x) (+π , if x is negative), giving
+                       (2.103, 1.367) ≈ 2.508 ∠0.576.
+
+
+                                                               ing
+9.5 Application
+of vectors to                                                               .ne
+                       In Section 5.3, we found the amplitude, phase, and cycle rate (frequency)
+                       of a wave. f (t) = A cos(ωt + φ) has amplitude A, angular frequency ω,
+                       and phase φ. Suppose we consider waves of a fixed frequency (say 50 Hz
+represent
+waves
+                                                                                t
+                       giving ω = 50 × 2π ≈ 314); then, different waves can be represented
+                       by the amplitude and phase, giving y = A∠φ. The ideas of vectors can
+                       then be used to add and subtract waves and find their combined effect.
+                          If a wave can be represented in polar form by A∠φ, then what does
+(phasors)              the rectangular form of the vector represent? We find that if the wave
+                       is split into cosine and sine terms by using the trigonometric identity
+                       cos(A + B) = cos(A) cos(B) − sin(A) sin(B), we get:
+                       f (t) = A cos(ωt + φ) = A cos(φ) cos(ωt) − A sin(φ) sin(ωt).
+                       As A cos(φ) is a constant, not involving an expression in t, this can be
+                       replaced by c and similarly A sin(φ) can be replaced by d giving
+                       f (t) = c cos(ωt) − d sin(ωt)
+                       where c = A cos(φ) and d = A sin(φ).
+                           So the vector (c, d) used to represent a wave represents the func-
+                       tion f (t) = c cos(ωt) − d sin(ωt) and if expressed in polar form A∠φ
+                       it represents the equivalent expression
+                       f (t) = A cos(ωt + φ)
+
+
+                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

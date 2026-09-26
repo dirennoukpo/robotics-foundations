@@ -1,0 +1,58 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+108    Trigonometric functions and waves
+
+
+
+
+ ww
+    w                   .Ea
+                           syE
+Figure 5.18 (a) Incident wave in a string at some instant in time. (b) The reflected wave. (c) The sum of the
+incident and reflected waves.
+
+
+
+                                                   ngi
+                                        vibration of the string. λ = 2l is called the fundamental mode and is
+
+
+Figure 5.19 The
+                                                       n
+                                        shown in Figure 5.19.
+
+                                                                      eer
+                                          The standing wave can be explained using
+
+fundamental mode for a
+standing wave in a string of
+length % has wavelength 2% so
+                                                                                   ing
+                                        cos(X) + cos(Y ) = 2 cos 21 (X + Y ) cos 21 (X − Y ).
+that half a cycle fits into the
+length of the string. This is the                                                               .ne
+                                                                                                    t
+longest wavelength possible.              The example given in Figure 5.18 has a wavelength of 4 giving
+                                        wavenumber 360◦ /4 = 90◦ . The incident wave (phase 18◦ ) is y =
+                                        cos(90◦ x + 18◦ ) and the reflected wave is y = cos(90◦ x + 162◦ ).
+                                          Summing these gives
+
+
+                                        cos(90◦ x + 18◦ ) + cos(90◦ x + 162◦ )
+                                                                                    
+                                          = 2 cos 21 (90◦ x + 18◦ + 90◦ x + 162◦ ) cos 21 (90◦ x + 18◦
+                                                                
+                                             − (90◦ x + 162◦ ))
+                                           = 2 cos(90◦ x + 90◦ ) cos(72◦ ).
+
+
+                                        As a 90◦ phase-shifted version of a cosine gives a negative sine, this gives
+                                        −2 cos(72◦ ) sin(90◦ x). We see that the result is a sine wave of the same
+                                        spatial frequency as the incident and reflected wave but with an amplitude
+                                        of 2 cos 72◦ ≈ 0.62.
+                                           This result can also be found for a general situation – now expressing
+                                        the phases, etc. in radians. The initial wave is cos(kx +δ) and the reflected
+                                        wave is cos(kx + π − δ). The standing wave is given by summing these,
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,66 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+260   Sequences and series
+
+                             showing that the common difference is 4.
+
+                             2.     25, 15, 5, −5, −15, . . .
+
+                             Notice that successive terms can be found by adding −10 to the previous
+                             term
+
+                              25 − 10 = 15
+                              15 − 10 = 5
+                                  5 − 10 = −5
+                             −5 − 10 = −15
+
+                             showing that the common difference is −10.
+                               It is not difficult to obtain the recurrence relation for the arithmetic
+                             progression. If we call the common difference d, then the (n + 1)th term
+
+ww                           can be found by the previous term, the nth, by adding on d, that is
+
+                             an+1 = an + d.
+
+   w             .Ea         This can also be expressed using the difference operator,  (the Greek
+                             capital letter delta) so that an = d, where an = an+1 − an .
+                               If the first term is a and the common difference is d then the sequence is
+
+                    syE      a, a + d, a + 2d, a + 3d, a + 4d, a + 5d, a + 6d, . . .
+
+
+                                           ngi
+                             The second term is a + d, the fourth is a + 3d, the seventh term is a + 6d
+                             and the general term
+
+                             an = a + (n − 1)d.
+                                               n                eer
+                                                                        ing
+                             Example 12.7 The seventh term of an AP is 11 and the sixteenth term
+                             is 29. Find the common difference, the first term of the sequence, and the
+                             nth term.
+                                                                                       .ne
+                             Solution If the first term of the sequence is a and the common difference
+                             is d, then the seventh term is given by
+
+                             an = a + (n − 1)d         with n = 7                          t
+                             so
+
+                             a + 6d = 11.                                                         (12.1)
+
+                             Similarly, the sixteenth term is a + 15d and as we are given that this is
+                             29, we have
+
+                             a + 15d = 29.                                                        (12.2)
+
+                               Subtracting Equation (12.1) from Equation (12.2) gives 9d = 18 ⇔
+                             d = 2, and substituting this into Equation (12.1) gives
+
+                             a + 6 × 2 = 11         ⇔      a = 11 − 12 ⇔ a = −1.
+
+                             That is, the first term is −1 and the common difference is 2. Hence, the
+                             nth term is a + (n − 1)d = −1 + (n − 1)2 = −1 + 2n − 2 giving,
+                             an = 2n − 3.
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

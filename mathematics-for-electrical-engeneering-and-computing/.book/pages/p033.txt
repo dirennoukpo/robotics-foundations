@@ -1,0 +1,64 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                        Sets and functions         19
+
+            to x under the function g ◦ f . Another way of saying that is we need to
+            find g(f (x)). To do this call f (x) a new letter, say y.
+
+            y = f (x) = 2x + 1
+
+            Rewrite g as a function of y
+
+            g(y) = y 2
+
+            Now substitute y = 2x + 1 giving
+
+            g(2x + 1) = (2x + 1)2
+
+            Hence,
+
+ww          g(f (x)) = (2x + 1)2
+
+   w.Ea
+            (g ◦ f )(x) = (2x + 1)2 .
+
+               2. A composite function can be formed by performing g first and then
+
+       syE  f , that is, f ◦ g. To describe this function, we want to find what happens
+            to x under the function f ◦ g. Another way of saying that is we need to
+            find f (g(x)). To do this call g(x) a new letter, say y.
+
+                       ngi
+            y = g(x) = x 2
+
+
+                           n
+            Rewrite f as a function of y
+                                          eer
+            f (y) = 2y + 1
+                                                     ing
+            Now substitute y = x 2 giving
+                                                                  .ne
+            f (x 2 ) = 2x 2 + 1
+
+            Hence,
+                                                                      t
+            f (g(x)) = 2x 2 + 1
+            (f ◦ g)(x) = 2x 2 + 1.
+
+
+
+            Example 1.18 Supposing u(t) = 1/(t − 2) and v(t) = 3 − t then,
+            again, we can combine the functions in two ways.
+
+               1. A composite function can be formed by performing u first and then
+            v, that is, v ◦ u. To describe this function, we want to find what happens
+            to t under the function v ◦ u. Another way of saying that is we need to
+            find v(u(t)). To do this call u(t) a new letter, say y.
+
+                           1
+            y = u(t) =
+                         t −2
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,74 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+174    The exponential function
+
+                                         function, respectively. A point (x, y) on the circle can be defined using
+                                         x = r cos(α), y = r sin(α). These are called parametric equations for
+                                         the circle and α is the parameter. If the parameter is eliminated then we
+                                         get the equation of the circle
+
+                                         x2   y2
+                                            +    =1
+                                         r2   r2
+
+                                         (shown in Figure 8.4(a)). Any point on a hyperbola can similarly be
+                                         defined in terms of a parameter, α, and thus we get x = a cosh(α) and
+                                         y = b sinh(α).
+                                            If the parameter is eliminated from the equations we get the equation
+                                         for the hyperbola as
+
+                                         x2   y2
+                                             − 2 =1
+
+ ww                                      a    b
+                                           2
+
+
+                                         Figure 8.5(b) shows the graph of the hyperbola.
+                                           The function y = tanh(x) is defined, similarly to the tan(x), as
+
+    w                  .Ea               tanh(x) =
+                                                     sinh(x)
+                                                     cosh(x)
+
+
+                          syE            and the reciprocal of these three main functions may be defined as
+
+                                         cosech(x) =
+                                                     ngi1
+                                                     sinh(x)
+                                                               (the hyperbolic cosecant)
+
+                                         sech(x) =
+
+                                         coth(x) =
+                                                      1
+
+                                                         n
+                                                   cosh(x)
+                                                      1
+                                                             (the hyperbolic secant)
+
+                                                                       eer
+                                                                                    ing
+                                                             (the hyperbolic cotangent)
+                                                   tanh(x)
+
+
+
+                                                                                                  .ne
+                                         The graphs of cosh(x), sinh(x), and tanh(x) are shown in Figure 8.6.
+
+
+
+
+                                                                                                      t
+
+
+
+Figure 8.5 (a) x = r cos(α), y = r sin(α) defines a point on the circle x 2 /r 2 + y 2 /r 2 = 1. (b) x = a cosh(α)
+and y = b sinh(α) defines a point on the hyperbola x 2 /a 2 − y 2 /b 2 = 1.
+
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

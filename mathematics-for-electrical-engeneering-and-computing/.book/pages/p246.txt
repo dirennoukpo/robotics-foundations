@@ -1,0 +1,74 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                       Complex numbers           233
+
+                 length of the vector representing the complex number and θ is the
+                 angle made with the positive real axis.
+
+                 z = x + jy = r∠θ,
+                                                y 
+                 r = x 2 + y 2 and θ = tan−1          (+π if x < 0)
+                                                  x
+                 x = r cos(θ ) and y = r sin(θ )
+
+                   To add or subtract complex numbers expressed in polar form, first
+                 convert to rectangular form. To multiply, multiply the moduli and
+                 add the arguments and to divide, divide the moduli and subtract the
+                 arguments:
+
+                 r1 ∠θ1 r2 ∠θ2 = r1 r2 ∠(θ1 + θ2 )
+
+
+ww                     r1 ∠θ1
+                       r2 ∠θ2
+                               r1
+                              = ∠(θ1 − θ2 )
+                               r2
+
+
+   w.Ea
+            8.   Complex numbers are used in the analysis of alternating current (AC)
+                 circuits. ω is the angular frequency of the source. Resistors, capac-
+                 itors, and inductors have associated impedances, Z, where for a
+                 resistor Z = R, for a capacitor Z = 1/jωC, and for an inductor
+
+       syE       Z = jωL, where R is the resistance, C is the capacitance, and L is
+                 the inductance. The voltage and the current are related by
+
+                 V = ZI
+                       ngi
+                           n
+                 and the impedances of circuit elements obey
+
+                 ZR = Z1 + Z2             eer
+                 for elements in series, and          ing
+                  1
+                    =
+                      1
+                         +
+                           1
+                                                                 .ne
+                 ZR   Z1   Z2
+
+                                                                     t
+               for elements in parallel, where ZR is the resultant impedance. The
+               admittance Y is the reciprocal of the impedance: Y = 1/Z.
+            9. d2 y/dt 2 = −ω2 y is the differential equation that defines waves
+               as a function of time. This is an equation of motion where the
+               acceleration is proportional to the distance from the origin. This
+               is called simple harmonic motion. By examining the case of circu-
+               lar motion, at constant angular velocity, where the rotating vector
+               z = x + jy = r cos(ωt) + jr sin(ωt) obeys this equation, we can
+               show the equivalence of the polar representation of a complex wave
+               and the exponential form:
+
+                 r ejωt = r cos(ωt) + jr sin(ωt) = r∠ωt
+
+                 as θ = ωt, we have
+
+                 r ejθ = r cos(θ) + jr sin(θ) = r∠θ
+
+                 Here, r is the modulus of the complex number and θ is the argument.
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

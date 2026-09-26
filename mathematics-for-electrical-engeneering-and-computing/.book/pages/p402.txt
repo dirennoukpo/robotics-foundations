@@ -1,0 +1,82 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                Laplace and z transforms           389
+
+            Solution   f (t) can be expressed using the unit step function
+                                                                    
+                                       2                   2             2
+            f (t) = sin(3t − 2)u t −       = sin 3 t −           u t−        .
+                                       3                   3             3
+
+            Using L{f (t − a)u(t − a)} = e−as F (s) and as
+
+                              3
+            L{sin(3t)} =
+                           s2 + 9
+            we have
+                            
+                      2        2    3e−2s/3
+            sin 3 t −     u t−     = 2
+                      3        3     s +9
+
+
+
+
+ww
+            Example 15.8 (Second translation – inverse transform)        Find
+                
+                     e−s
+            L−1            .
+
+   w.Ea
+                  (s + 2)2
+            Solution As
+                 
+                      1
+            L−1                   = t e−2t
+
+       syE         (s + 2)2
+
+            (using first translation), the factor of e−s will translate in the t domain,
+
+                      ngi
+            t → t − 1. Then
+                      e−s
+            L−1
+                   (s + 2)2
+                           n    = (t − 1)e−2(t−1) u(t − 1)
+
+            by second translation.           eer
+            Example 15.9 (Change of scale)            ing
+                                                  Given
+
+            L{cos(t)} =
+                              s
+                           s2 + 1                                  .ne
+            transform
+                                                                       t
+            find L{cos(3t)} using the change of scale property of the Laplace
+
+                          1 s
+            L{f (at)} =    F .
+                          a a
+
+            Solution As
+                              s
+            L{cos(t)} =              = F (s)
+                           s2 + 1
+            to find cos(3t) we put a = 3 into the change of scale property
+
+                          1 s
+            L{f (at)} =    F
+                          a a
+            giving
+
+                            1    s/3        s
+            L{cos(3t)} =                = 2
+                            3 (s/3) + 1
+                                   2     s +9
+
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

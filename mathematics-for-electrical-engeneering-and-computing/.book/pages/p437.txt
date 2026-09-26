@@ -1,0 +1,101 @@
+                       Downloaded From : www.EasyEngineering.net
+
+
+424   Fourier series
+
+
+                           We looked at even functions and odd functions in Chapter 2.
+16.4 Fourier
+series of                  Even functions
+symmetric                  We find that even functions, which have the property that f (−t) = f (t),
+periodic                   have all bn = 0 in their Fourier series. They are represented by cosine
+                           terms only. This is not surprising as the cosine is an even function and
+functions                  the sine function is odd. We would expect that an even function would
+                           be expressed in terms of other even functions. Another simplification in
+                           this case is
+                                    
+                                  2 τ/2
+                           an =           f (t) cos(nω0 t) dt
+                                  τ −τ/2
+                                                                
+                                  2 0                           2 τ/2
+                              =           f (t) cos(nω0 t) dt +        f (t) cos(nω0 t) dt
+
+ww                            =
+                                  τ −τ/2
+                                    
+                                  4 τ/2
+                                         f (t) cos(nω0 t) dt
+                                                                τ 0
+
+
+
+
+   w              .Ea
+                                  τ 0
+
+                           and it is therefore only necessary to integrate over a half cycle.
+                           To summarize, for an even function
+
+
+                     syE   a0 =
+                                  
+                                4 τ/2
+                                τ 0
+                                        f (t) dt
+
+
+                           an =
+                                  
+                                4 τ/2
+                                τ 0   ngi
+                                        f (t) cos(nω0 t) dt
+
+                           bn = 0    all n
+
+                           Odd functions
+                                          n              eer
+                                                                     ing
+                           Odd functions, where f (−t) = −f (t) have all an = 0 and only have
+
+                           because
+                                                                                   .ne
+                           sine terms in their Fourier series. We only need to consider the half cycle,
+
+                                   
+                           bn =
+
+
+                              =
+                                  2 τ/2
+                                  τ −τ/2
+                                   
+                                  2 0
+                                          f (t) sin(nω0 t)
+
+
+                                          f (t) sin(nω0 t) dt +
+                                                                  
+                                                                2 τ/2
+                                                                                       t
+                                                                        f (t) sin(nω0 t) dt
+                                  τ −τ/2                        τ 0
+                                   
+                                  4 1/2
+                              =           f (t) sin(nω0 t) dt
+                                  τ 0
+
+                           To summarize, for an odd function
+
+                           an = 0  all n
+                                   τ/2
+                                4
+                           bn =         f (t) sin(nω0 t) dt.
+                                τ 0
+
+                           Half-wave symmetry
+                           There is another sort of symmetry that has an important effect on the
+                           Fourier series representation. This is called half-wave symmetry. A func-
+                           tion with half-wave symmetry obeys f (t + 21 τ ) = −f (t), that is, the
+
+                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

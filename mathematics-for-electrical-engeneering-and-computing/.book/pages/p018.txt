@@ -1,0 +1,76 @@
+                                        Downloaded From : www.EasyEngineering.net
+
+
+4 Sets and functions
+
+
+                                            A set is a collection of objects, called elements, in which the order is not
+1.2 Sets                                    important and an object cannot appear twice in the same set.
+
+
+                                            Example 1.1      Explicit definitions of sets, that is, where each element is
+                                            listed, are:
+
+                                            A = {a, b, c}
+                                            B = {3, 4, 6, 7, 8, 9}
+                                            C = {Linda, Raka, Sue, Joe, Nigel, Mary}
+
+                                            a ∈ A means ‘a is an element of A’ or ‘a belongs to A’; therefore in the
+                                            above examples:
+
+
+
+ ww                                         3∈B
+                                            Linda ∈ C
+
+
+    w                       .Ea
+                                              The universal set is the set of all objects we are interested in and will
+                                            depend on the problem under consideration. It is represented by E .
+                                              The empty set (or null set) is the set with no elements. It is represented
+                                            by ∅ or { }.
+
+                               syE            Sets can be represented diagrammatically – generally as circular
+                                            shapes. The universal set is represented as a rectangle. These are called
+                                            Venn diagrams.
+
+                                                        ngi
+                                                            n
+                                            Example 1.2
+                                            E = {a, b, c, d, e, f, g},
+                                                                           eer
+                                                                         A = {a, b, c},   B = {d, e}
+
+                                             This can be shown as in Figure 1.2.
+                                                                                          ing
+                                               We shall mainly be concerned with sets of numbers as these are more
+                                            often used as inputs to functions.
+                                                                                                       .ne
+                                               Some important sets of numbers are (where ‘. . .’ means continue in
+
+
+Figure 1.2 A Venn diagram
+of the sets E =
+                                            the same manner):
+                                                  The set of natural numbers N = {1, 2, 3, 4, 5, . . .}    t
+                                                  The set of integers Z = {. . . −3, −2, −1, 0, 1, 2, 3 . . .}
+                                                  The set of rationals (which includes fractional numbers) Q
+{a, b, c, d, e, f, g}, A = {a, b, c},
+                                                  The set of reals (all the numbers necessary to represent points on a
+and B = {d, e}.
+                                                  line) R
+                                              Sets can also be defined using some rule, instead of explicitly.
+
+
+                                            Example 1.3 Define the set A explicitly where E                 = N and
+                                            A = {x | x < 3}.
+                                            Solution The A = {x | x < 3} is read as ‘A is the set of elements x, such
+                                            that x is less than 3’. Therefore, as the universal set is the set of natural
+                                            numbers, A = {1, 2}
+
+
+                                            Example 1.4 E = days of the week and A = {x | x is after
+                                            Thursday and before Sunday}. Then A = {Friday, Saturday}.
+
+
+                                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

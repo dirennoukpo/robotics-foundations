@@ -1,0 +1,85 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+480   Language theory
+
+                            grammars with simple parsing procedures is an important consideration
+                            when designing a new computer language.
+                               We look at eXtensible Markup Language (XML) as a method of
+                            defining a markup language. There are many easily accessible tools for
+                            checking whether an XML document is well formed and it is therefore
+                            ideal as a way of communicating data.
+
+
+
+20.2 Languages              Definitions
+and grammars                A language is a set of sequences of symbols. A sequence of symbols is
+                            called a string.
+                               An element of the language set is called a sentence. Some texts refer
+                            to the element of the language as a word or sometimes a well-formed
+                            formula or well-formed document depending on the type of language
+
+
+ww                          being discussed. For instance, logical expressions involving propositions
+                            or predicates, which we looked at in Chapter 3, can be regarded as sen-
+                            tences in the language of logic. In this case an expression which makes
+
+
+   w            .Ea
+                            sense is called a well-formed formula or wff (pronounced ‘woof’). An
+                            example of a logical sentence or wff is ‘p∧q⇒p’ but ‘p⇔∧q’ is not
+                            a sentence.
+                               A symbol which forms part of a sentence is called a terminal symbol.
+
+
+                   syE      For instance, the terminal symbols in the sentence ‘The cat sat on the
+                            mat’ are ‘The’, ‘cat’, ‘sat’, ‘on’, ‘the’ and ‘mat’. The terminal symbols
+                            in ‘p ∧ q⇒p’ are ‘p’, ‘∧’, ‘q’ and ‘⇒’.
+
+
+                                        ngi
+                               Other symbols are used to express the grammar rules for the language.
+                            These symbols are called non-terminal symbols. In a natural language we
+                            could say that a simple sentence is made up of a noun phrase followed
+
+                                            n
+                            by a verb phrase possibly followed by a noun phrase. Then symbols
+
+                                                          eer
+                            representing ‘simple sentence’, ‘noun phrase’ and ‘verb phrase’ would
+                            be amongst our non-terminal symbols. In logic, we could say that a binary
+
+
+                                                                       ing
+                            operation consists of a proposition followed by a binary operator followed
+                            by a proposition. Then symbols representing ‘proposition’ and ‘binary
+                            operator’ would be amongst our non-terminal symbols.
+
+                                                                                    .ne
+                               The grammar rules for the language give rules for replacing symbols
+                            by other symbols. For instance, in a natural language we might replace
+
+                            are called rewriting rules or productions.
+                                                                                        t
+                            ‘noun phrase’ by ‘article’, ‘adjective’, and ‘noun’. These grammar rules
+
+                               When we write the rewriting rules or productions we will write
+                            one symbol followed by another. This indicates the operation of
+                            concatenation. Concatenation is the process of writing two or more
+                            symbols as one.
+                               We carry on using rewriting rules or productions to replace symbols
+                            until we find a sequence of symbols that only contains terminal symbols.
+                            Then we have found a sentence.
+                               In order to use the rewriting rules we must have a starting point. The
+                            starting point of the grammar is called the initial or start symbol. This is
+                            a symbol which represents an entire sentence. For a computer program it
+                            would represent the whole program.
+                               We can now state that a grammar consists of four things:
+                            1.   A set of terminal symbols.
+                            2.   A set of non-terminal symbols.
+                            3.   A set of rewriting rules or productions. Every rule has a left-hand side
+                                 and right-hand side. The meaning of a rule is that you can substitute
+                                 its right-hand side for its left-hand side.
+                            4.   A designated start symbol.
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

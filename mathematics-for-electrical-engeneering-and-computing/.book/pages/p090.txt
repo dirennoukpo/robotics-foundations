@@ -1,0 +1,76 @@
+              Downloaded From : www.EasyEngineering.net
+
+
+                                                                      Boolean algebra          77
+
+                   and we could combine any two numbers in this way and we would always
+                   get another real number.
+
+
+                   Example 4.2       Consider the set of sets in some universal set E , for
+                   example,
+
+                   E = {a, b, c, d, e}
+
+                   A = {a, d},     B = {a, b, c}
+
+                   then
+
+                   A ∩ B = {a}      and   A ∪ B = {a, b, c, d}.
+
+
+ww                    The operations of ∩ and ∪ also result in another set contained in E .
+                      In both of these examples, the operations are binary operations because
+                   they use two inputs to give one output.
+
+   w     .Ea
+                      There is another sort of operation which is important, called a unary
+                   operation, because it only has one input to give one output. Consider
+                   Example 4.2: A = {b, c, e} gives the complement of A. This is a unary
+                   operation as only one input, A, was needed to define the output A .
+
+            syE       If we can find a rule which is always true for an algebra then that is called
+                   a property, (law or axiom) of that algebra. For example, (3 + 5) + 4 =
+                   3 + (5 + 4) is an application of the associative law of addition which can
+
+                              ngi
+                   be expressed in general in the following way for the set of real numbers:
+
+                   ∀a, b, c ∈ R,
+                                  n (a + b) + c = a + (b + c)
+
+                                                   eer
+                      If we can list all the properties of a particular algebra then we can give
+
+                   of + and . form a field.
+                                                               ing
+                   that algebra a name. For instance, the real numbers with the operations
+
+
+
+                                                                             .ne
+4.3 Boolean
+algebras
+                   Sets as a Boolean algebra
+                                                                                 t
+                   The sets contained in some universal set display a number of properties
+                   which can be shown using Venn diagrams.
+
+
+                   Example 4.3 Show, using Venn diagrams, that, for any 3 sets A, B, C
+                   in some universal set E ,
+
+                   A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C).
+
+
+                   Solution This can be shown to be true by drawing a Venn diagram
+                   of the left-hand side of the expression and another of the right-hand
+                   side of the expression. Operations are performed in the order indicated
+                   by the brackets and the result of each operation is given a different
+                   shading. This is done in Figure 4.1(a) and (b). The region shaded in
+                   Figure 4.1(a) representing A ∩ (B ∪ C) is the same as that representing
+                   (A ∩ B) ∪ (A ∩ C) in Figure 4.1(b), hence, showing that A ∩ (B ∪ C) =
+                   (A ∩ B) ∪ (A ∩ C).
+
+
+                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

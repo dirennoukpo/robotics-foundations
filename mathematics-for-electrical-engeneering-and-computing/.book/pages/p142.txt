@@ -1,0 +1,73 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                              Differentiation       129
+
+            (b)   The ball returns to the ground on the second occasion so that the
+                  distance travelled, s, is equal to 0. This time is given by solving the
+                  equation for t when s = 0.
+
+                  0 = 3t − 5t 2 ⇔ t(3 − 5t) = 0
+                                ⇔ t = 0 or 3 − 5t = 0
+                                ⇔ t = 0 or t = 3/5
+
+                  Therefore, it must return to the ground when t = 3/5 = 0.6 s.
+            (c)   When t = 0.6, using v = ds/dt = 3 − 10t
+
+                  v = 3 − 10(0.6) = 3 − 6 = −3 m s−1
+
+                  Therefore, the velocity as it hits the ground is, −3 m s−1 .
+
+
+
+ww          Example 6.17 A rocket is moving with a velocity of v = 4t 2 +
+            10 000 m s−1 over a brief period of time while leaving the Earth’s
+
+   w.Ea
+            atmosphere. Find its acceleration after 2 s.
+            Solution Use a = dv/dt as v = 4t 2 + 10 000. Then, a = 8t, and at
+            t = 2 this gives a = 16, so the acceleration after 2 s is 16 m s−2 .
+
+       syE  Example 6.18 The potential due to a point charge Q at a position r
+
+                       ngi
+            from the charge is given by
+
+            V =
+                  Q
+                4πε0 r     n             eer
+            where ε0 , the permittivity of free space, ≈ 8.85 × 10−12 F m−1 and
+            π ≈ 3.14.
+                                                      ing
+              Given that Q = 1 C, find the electric field strength at a distance of 5 m
+            using E = −dV /dr.
+                                                                    .ne
+                                                                        t
+            Solution
+
+                    Q
+            V =
+                  4πε0 r
+
+            substituting for ε0 and π and using Q = 1, we get
+
+                              1               9 × 109
+            V =                             ≈         = 9 × 109 r −1
+                  4 × 3.14 × 8.85 × 10−12 r      r
+
+            Now
+
+                    dV
+            E=−        = −9 × 109 (−r −2 ) = 9 × 109 r −2
+                    dr
+
+            When r = 5 m,
+
+                  9 × 109
+            E=            = 3.6 × 108 V m−1 .
+                    25
+
+
+
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

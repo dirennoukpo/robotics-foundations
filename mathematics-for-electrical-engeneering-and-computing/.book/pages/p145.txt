@@ -1,0 +1,77 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+
+
+      7                Integration
+
+7.1 Introduction       In Chapter 6, we saw that many physical quantities are related by one
+                       being the rate of change, the derivative, of the other. It follows that there
+                       must be a way of expressing the ‘inverse’ relationship. This is called
+                       integration. Velocity is the rate of change of distance with time, distance
+
+ww                     is the integral of velocity with respect to time.
+                          Unfortunately, there are two issues that complicate the simple idea
+
+
+   w
+                       that ‘integration is the inverse of differentiation’. First, we find that there
+                       are many different functions which are the integral of the same function.
+
+           .Ea         Luckily, these functions only differ from each other by a constant. To
+                       find all the possible integrals of a function we can find any one of them
+
+
+              syE
+                       and add on some constant, called the constant of integration. This type of
+                       integral is called the indefinite integral. As it is not satisfactory to have an
+                       unknown constant left in the solution to a problem we employ some other
+
+
+                                   ngi
+                       information to find its value. Once the unknown constant is replaced by
+                       some value to fit a certain problem, we have the particular integral.
+                          The second problem with integration is that most functions cannot be
+
+                                       n
+                       integrated exactly, even apparently simple functions like sin(x)/x.
+
+                                                      eer
+                          For this reason, numerical methods of integration are particularly
+                       important. These methods all depend on understanding the idea of integra-
+                       tion as area under the graph. The definite integral of a function, y = f (x),
+
+                                                                    ing
+                       is the integral between two values of x and therefore gives a number (not
+                       a function of x) as a result. There is no uncertainty, hence it is called the
+                       definite integral.
+                                                                                  .ne
+                          This chapter is concerned with methods of finding the integral, the for-
+
+
+                       indefinite integrals and at applications of integration.       t
+                       mulas that can be used for finding exact integrals and also with numerical
+                       integration. We also look more closely at the definitions of definite and
+
+
+
+
+                       Integration is the inverse process to differentiation. Consider the follow-
+7.2 Integration        ing examples (where C is a constant):
+
+
+                                                Function → derivative
+                                                Integral ← function
+
+                                                   x2 + C          2x
+                                                sin(x) + C       cos(x)
+
+
+                       The derivative of x 2 + C with respect to x is 2x, therefore, the integral
+                       of 2x with respect to x is x 2 + C. This can be written as
+                                                 
+                        d 2
+                          (x + C) = 2x ⇔             2x dx = x 2 + C
+                       dx
+
+                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

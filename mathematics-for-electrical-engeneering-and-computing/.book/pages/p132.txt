@@ -1,0 +1,58 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                            Differentiation        119
+
+                                           The derivative of a function, y = f (x) is defined as
+
+                                         dy       δy
+                                            = lim
+                                         dx  δx→0 δx
+
+
+                                         provided that this limit exists. As δy is the change in y and y = f (x)
+                                         then, at the points x and x + δx, y has values f (x) and f (x + δx), the
+                                         increase in y is given by δy = f (x + δx) − f (x). We have
+
+                                         dy       δy       f (x + δx) − f (x)
+                                            = lim    = lim                    .
+                                         dx       δx  δx→0         δx
+
+                                         The derivative of y = f (x), dy/dx, ‘dy by dx’ can also be represented
+                                         as f  (x) (read as ‘f dashed of x’). f  (a) is the gradient of the tangent to
+                                         the curve f (x) at the point x = a. This is found by finding the gradient
+
+ww                                       of the chord between two points at x = a + δx and x = a and taking the
+                                         limit as δx tends to zero.
+
+
+   w                  .Ea
+                                            The gradient of a chord gives the average rate of change of a function
+                                         over an interval and the gradient of the tangent, the derivative, gives the
+                                         instantaneous rate of change of the function at a point. These definitions
+                                         are shown in Figure 6.2.
+
+
+                         syE                Derivative functions can be found by evaluating the limit shown in
+                                         Figure 6.2. This is called differentiating from first principles.
+
+
+
+                                                    ngi
+                                                        n              eer
+                                                                                    ing
+                                                                                                  .ne
+                                                                                                      t
+
+
+Figure 6.2 The gradient of the chord δy /δx approaches the gradient of the tangent (or the slope of the
+curve) as the ends of the chord get closer together (i.e. δx tends to zero). This is written as
+dy        δy
+   = lim
+dx  δx →0 δx
+
+read as ‘dy by dx equals the limit, as the change in x (delta x) tends to zero, of the change in y (delta y)
+divided by the change in x (delta x)’.
+
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

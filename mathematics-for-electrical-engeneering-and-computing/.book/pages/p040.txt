@@ -1,0 +1,65 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+
+
+              2                          Functions and
+                                         their graphs
+
+2.1 Introduction
+ ww
+                                         The ability to produce a picture of a problem is an important step towards
+                                         solving it. From the graph of a function, y = f (x), we are able to predict
+                                         such things as the number of solutions to the equation f (x) = 0, regions
+
+
+    w                   .Ea
+                                         over which it is increasing or decreasing, and the points where it is not
+                                         defined.
+                                            Recognizing the shape of functions is an important and useful skill.
+                                         Oscilloscopes give a graphical representation of voltage against time,
+
+
+                           syE           from which we may be able to predict an expression for the voltage. The
+                                         increasing use of signal processing means that many problems involve
+                                         analysing how functions of time are effected by passing through some
+
+
+                                                     ngi
+                                         mechanical or electrical system.
+                                            In order to draw graphs of a large number of functions, we need only
+                                         remember a few key graphs and appreciate simple ideas about transforma-
+
+                                                         n
+                                         tions. A sketch of a graph is one which is not necessarily drawn strictly
+
+                                                                        eer
+                                         to scale but shows its important features. We shall start by looking at
+                                         special properties of the straight line (linear function) and the quadratic.
+                                         Then we look at the graphs of y = x, y = x 2 , y = 1/x, y = a x and how
+
+                                         y = (x − 2)2 , y = 3/x, and y = a −x .      ing
+                                         to transform these graphs to get graphs of functions like y = 4x − 2,
+
+
+                                                                                                   .ne
+2.2 The straight
+line: y = mx + c
+                                                                                                       t
+                                         y = mx + c is called a linear function because its graph is a straight
+                                         line. Notice that there are only two terms in the function; the x term, mx,
+                                         where m is called the coefficient of x and c which is the constant term. m
+                                         and c have special significance. m is the gradient, or the slope, of the line
+                                         and c is the value of y when x = 0, that is, when the graph crosses the
+                                         y-axis. This graph is shown in Figure 2.1(a) and two particular examples
+                                         shown in Figure 2.1(b) and (c).
+
+
+
+
+Figure 2.1 (a) The graph of the function y = mx + c. m is the slope of the line, if m is positive then travelling
+from left to right along the line of the function is an uphill climb, if m is negative then the journey is downhill.
+The constant c is where the graph crosses the y-axis. (b) m = 2 and c = 3 (c) m = −1 and c = 2.
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

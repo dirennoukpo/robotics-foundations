@@ -1,0 +1,99 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+390   Laplace and z transforms
+
+                                 Example 15.10 (Derivatives)                     Given
+
+                                                         s
+                                 L{cos(2t)} =
+                                                     s2 + 4
+
+                                 find L{sin(2t)} using the derivative rule.
+                                 Solution      If f (t) = cos(2t) then f (t) = −2 sin(2t):
+
+                                                         s
+                                 L{cos(2t)} =
+                                                     s2 + 4
+
+                                 and f (0) = cos(0) = 1. From the derivative rule L{f (t)} =
+                                 sF (s) − f (0),
+                                                                         
+                                                                    s                   s2         s2 − s2 − 4
+                                 L{−2 sin(2t)} = s                            −1=            − 1 =
+
+ww                                                   =
+                                                             −4
+                                                          s2 + 4
+                                                                 s2 + 4
+
+                                                                    .
+                                                                                      s2 + 4          s2 + 4
+
+
+
+
+   w             .Ea             By linearity,
+
+                                                      1
+                                                          
+                                                                −4
+                                                                         
+                                                                                    2
+
+                    syE          L{sin(2t)} =
+                                                     −2       s2 + 4
+                                                                             =
+                                                                                 s2 + 4
+                                                                                        .
+
+
+
+
+                                      t
+                                               ngi
+                                 Example 15.11 (Integrals)                   Using
+
+
+                                 L
+                                        0          n
+                                            f (τ ) dτ     =
+                                                              F (s)
+                                                                s
+                                                                          eer
+                                 and
+
+                                              2                                              ing
+                                 L{t 2 } =
+                                              s3
+                                                                                                           .ne
+                                 find
+
+                                 L
+                                    3
+                                    t
+                                     3
+                                       .
+                                                                                                               t
+                                 Solution      As
+                                  t        3 t
+                                            τ       t3
+                                    τ dτ =
+                                        2
+                                                  =
+                                  0          3 0    3
+
+                                 and
+
+                                              2
+                                 L{t 2 } =
+                                              s3
+
+                                 then
+                                      t                                                     3                   
+                                                          2/s 3   2                           t        1       2            2
+                                 L          τ 2 dτ   =          = 4              ⇒       L         =                    =      .
+                                        0                  s     s                             3       s       s3           s4
+
+
+                                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

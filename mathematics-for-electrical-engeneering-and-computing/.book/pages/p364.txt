@@ -1,0 +1,87 @@
+                       Downloaded From : www.EasyEngineering.net
+
+
+                                    Differential equations and difference equations              351
+
+                                 This system of equations may be expressed in matrix form as
+                                                                
+                            d     x1   −R/L          −1/L     x1   1/L
+                                     =                           +       v.
+                            dt    x2    1/C           0       x2    0
+
+                            Writing
+                                    
+                                    x1
+                            x=
+                                    x2
+
+                                                    
+                                       −R/L   −1/L
+                            A=
+                                        1/C    0
+
+                            and
+
+
+ww                          B=
+                               1/L
+                                0
+                                        
+
+
+
+   w             .Ea        This can be written as a matrix differential equation
+
+                            dx
+
+                    syE     dt
+                               = Ax + Bv.
+
+
+
+
+                                         ngi
+                                             n
+                            A rotational mechanical system
+
+                                                           eer
+                            A rotor of moment of inertia J is supported by a shaft of torsional stiff-
+                            ness k and the motion is damped by a rotational damper of torque c per
+
+                            to the rotor.                            ing
+                            unit angular velocity (see Figure 14.4). T is the external torque applied
+
+
+
+                                                                                    .ne
+                               The torque due to the rotational spring is proportional to the angle
+                            through which it has been twisted, giving TS = −kθ . The damper pro-
+                            vides a torque of −cω and the total rotational torque of the system is
+Figure 14.4 A damped
+rotational system.
+                                                                                        t
+                            given by J dω/dt where ω is the angular velocity and J is the moment
+                            of inertial of the rotating body.
+
+                              dω
+                            J    = −cω − kθ + T
+                              dt
+                              dω
+                            J    + cω + kθ = T .
+                              dt
+
+                            Using ω = dθ/dt, we can write this equation in terms of the angle of
+                            rotation as
+
+                                d2 θ    dθ
+                            J        +c    + kθ = T
+                                dt 2    dt
+
+                            Alternatively, we can choose state variables as x1 = θ and x2 = ω =
+                            dx1 /dt. This gives the system of equations
+                                                                
+                            d     x1    0             1       x1    0
+                                     =                           +       T.
+                            dt    x2   −k/J          −c/J     x2   1/J
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

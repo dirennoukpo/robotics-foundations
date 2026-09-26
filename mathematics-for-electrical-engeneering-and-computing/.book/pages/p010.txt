@@ -1,0 +1,98 @@
+                    Downloaded From : www.EasyEngineering.net
+
+
+viii   Contents
+
+                                 Part 2   Systems
+                        13 Systems of linear equations, matrices, and
+                           determinants                                               295
+                           13.1 Introduction                                          295
+                           13.2 Matrices                                              295
+                           13.3 Transformations                                       306
+                           13.4 Systems of equations                                  314
+                           13.5 Gauss elimination                                     324
+                           13.6 The inverse and determinant of a 3 × 3
+                                  matrix                                              330
+                           13.7 Eigenvectors and eigenvalues                          335
+                           13.8 Least squares data fitting                            338
+                           13.9 Summary                                               342
+                           13.10 Exercises                                            343
+
+
+
+ ww                     14 Differential equations and difference equations
+                           14.1 Introduction
+                           14.2 Modelling simple systems
+                                                                                      346
+                                                                                      346
+                                                                                      347
+
+    w             .Ea
+                           14.3 Ordinary differential equations
+                           14.4 Solving first-order LTI systems
+                           14.5 Solution of a second-order LTI systems
+                           14.6 Solving systems of differential equations
+                                                                                      352
+                                                                                      358
+                                                                                      363
+                                                                                      372
+
+                     syE   14.7 Difference equations
+                           14.8 Summary
+                           14.9 Exercises
+                                                                                      376
+                                                                                      378
+                                                                                      380
+
+                                  ngi
+                        15 Laplace and z transforms                                   382
+
+                                      n
+                           15.1 Introduction
+
+                                                    eer
+                           15.2 The Laplace transform – definition
+                           15.3 The unit step function and the (impulse) delta
+                                                                                      382
+                                                                                      382
+
+                                  function
+
+                                                              ing
+                           15.4 Laplace transforms of simple functions and
+                                  properties of the transform
+                                                                                      384
+
+                                                                                      386
+
+                                  coefficients                            .ne
+                           15.5 Solving linear differential equations with constant
+                                                                                      394
+                           15.6 Laplace transforms and systems theory
+                           15.7 z transforms
+                                                                              t
+                           15.8 Solving linear difference equations with constant
+                                  coefficients using z transforms
+                                                                                      397
+                                                                                      403
+
+                                                                                      408
+                           15.9 z transforms and systems theory                       411
+                           15.10 Summary                                              414
+                           15.11 Exercises                                            415
+
+                        16 Fourier series                                             418
+                           16.1 Introduction                                          418
+                           16.2 Periodic Functions                                    418
+                           16.3 Sine and cosine series                                419
+                           16.4 Fourier series of symmetric periodic
+                                  functions                                           424
+                           16.5 Amplitude and phase representation of a Fourier
+                                  series                                              426
+                           16.6 Fourier series in complex form                        428
+                           16.7 Summary                                               430
+                           16.8 Exercises                                             431
+
+
+
+                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

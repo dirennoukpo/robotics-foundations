@@ -1,0 +1,73 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                                                        Sequences and series             291
+
+12.20. Use sin(5θ ) = Im(ej5θ ) = Im((cos(θ)+j sin(θ ))5 ) to     12.26. Using a series expansion and the given value of the
+       find sin(5θ ) in terms of powers of cos(θ) and sin(θ).            function at x = a, evaluate the following correct to
+                                                                         four significant figures:
+12.21. Find the real and imaginary parts of the following:
+       (a) (1 − j)6 (b) (1 + j2)4 (c) (3 + j)5
+                                                                         (a) cos(7π/16)
+                                                                             √           √ cos(π/2) = 0,
+                                                                                        using
+                                                                         (b) 4.02 using 4 = 2.
+12.22. Use a binomial expansion to find the following correct     12.27. Find the following limits:
+       to four decimal places:
+                                                                         (a) lim ((x 2 − x − 2)/(4x 3 − 4x − 7x − 2))
+                                                                               x→2
+       (a) (0.99)8    (b) (1.01)7    (c) (2.05)6 .                       (b) lim (x 3 /(x − sin(x)))
+                                                                               x→0
+
+12.23. Find the first 4 non-zero terms in a power series expan-          (c) lim ((x 2 + 6x + 9)/(4x 2 + 11x − 3))
+                                                                               x→−3
+       sion of the following functions and state for what
+                                                                         (d)    lim ((π/2 − x)/ cos(x))
+       values of x they are valid in each case.                                x→π/2
+                                                                         (e) lim (tan(x))/x)
+       (a) cos(x) (b) cosh(x) (c) ln(1 + x)                                    x→0
+
+       (d) (1+x)1.5 (e) (1 + x)−2 .                                      (f) lim (sin(x − 2)/(x 2 − 4x + 4)).
+
+ww
+12.24. Find the first 4 non-zero terms in a power series expan-
+       sion for the following functions:
+                                                                               x→0
+
+                                                                  12.28. Use the Newton–Raphson method to find a solution
+                                                                         to the following equations correct to six significant
+
+
+   w                     .Ea
+       (a) cos2 (x) (b) tan−1 (x)
+       (d) (1 − x)1.5 /(1 + x).
+                                       (c) ex sin(x)
+                                                                         figures:
+                                                                         (a) x 3 − 2x = 1    (b) x 4 = 5   (c) cos(x) = 2x.
+                                                                  12.29. Suggest a test for convergence that could be used
+
+
+
+           √
+                            syE
+12.25. Using a series expansion find the following correct to
+       4 significant figures:
+                                                                         in a computer program so that the limit of a
+                                                                         sequence, defined by some recurrence relation, could
+                                                                         be assumed to be correct to
+       (a) √ 1.05 (b) tan−1 (0.1)
+       (d) 1/ 1.06
+                                       (c) sin(0.03)
+                                                         ngi             (a) six decimal places,
+                                                                         (b) six significant figures.
+
+
+                                                             n                 eer
+                                                                                           ing
+                                                                                                           .ne
+                                                                                                               t
+
+
+
+
+                                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

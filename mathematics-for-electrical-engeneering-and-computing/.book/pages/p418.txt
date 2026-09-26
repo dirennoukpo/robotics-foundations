@@ -1,0 +1,83 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                        Laplace and z transforms                405
+
+            Properties of the z transform
+            For the following
+                         ∞                                               ∞
+            Z {fn } =         fn z   −n
+                                          = F (z),          Z {gn } =          gn z−n = G(z).
+                        n=0                                              n=0
+
+
+            1.   Linearity:
+                 Z{afn + bgn } = aF (z) + bG(z).
+            2.   Left shifting property:
+                                                  k
+                 Z{fn+k } = zk F (z) −                 zk−i fi .
+                                                 i=0
+
+                 Right shifting property (although usually we assume fn = 0 for n <
+
+ww
+            3.
+                 0 we use f−1 , f−2 for the initial conditions when solving difference
+                 equations using z transforms):
+
+
+   w.Ea
+                 Z{fn−1 } = z−1 Z{fn } + f−1
+                 Z{fn−2 } = z−2 Z{fn } + f−2 + z−1 f−1
+                                                      k−1
+
+
+       syE       Z{fn−k } = z−k L{fn } +
+                                                      i=0
+                                                            fi−k z−i .
+
+            4.
+
+                        ngi
+                 Change of scale:
+
+                 Z{a n fn } = F
+                                 a
+                                  z
+
+
+            5.              n
+                 where a is a constant.
+                 Convolution:
+                    n                          eer
+                 Z
+                        k=0
+                              gk fn−k       = G(z)F (z).
+                                                                   ing
+                 The convolution of f and g can be written as
+                                n                                                 .ne
+                 g∗f =
+                               k=0
+                                     gk fn−k .
+
+                 where gn and fn are sequences defined for n ⩾ 0.
+                                                                                      t
+            6.   Derivatives of the transform:
+                                 dF
+                 Z {nfn } = −z       (z).
+                                 dz
+
+            Example 15.24 (Linearity)                Find the z transform of 3n + 2 × 3n .
+            Solution From the linearity property
+            Z{3n + 2 × 3n } = 3Z{n} + 2Z{3n }
+            and from the Table 15.2
+                        z                    z
+            Z{n} =             and Z{3n } =
+                    (z − 1)2                z−3
+            (r n with r = 3). Therefore
+                                         3z        2z
+            Z{3n + 2 × 3n } =                   +
+                                      (z − 1) 2   z−3
+
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

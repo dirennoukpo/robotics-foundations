@@ -1,0 +1,84 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                   The exponential function                  179
+
+            Check: Use the inverse function of the sinh,                        that is,     find
+            sinh−1 (2.0008152). From the logarithmic equivalence
+                                                                     
+              (a) sinh−1 (2.0008152) = ln(2.0008152 +                    (2.0008152)2 + 1)
+                                            = 1.444
+
+            As this is the original number input into the sinh function we have
+            found sinh−1 (sinh(1.444)) = 1.444, which confirms the accuracy of
+            our calculation.
+              (b) To calculate tanh−1 (−0.5) use the logarithmic equivalence giving
+                                               
+                   −1          1     1 + (−0.5)    1 
+            tanh        (0.5) = ln                = ln 13 ≈ −0.5493061
+                               2     1 − (−0.5)    2
+                            = −0.5493 to 4 s.f.
+
+
+ww          Check: Use the inverse function of tanh−1 , that is, find
+
+
+   w.Ea     tanh(−0.5493061) =
+                                      e−0.5493061 − e0.5493061
+                                      e−0.5493061 + e0.5493061
+                                                               ≈ −0.5
+
+
+            This is the original number input to the tanh−1 function and this confirms
+
+       syE  the accuracy of our calculation.
+
+
+
+                          ngi
+              (c) cosh(−1) =
+                                  e−1 + e1
+                                      2
+                                            ≈ 1.5430806
+
+
+
+                              n = 1.543 to 4 s.f.
+
+
+                                               eer
+            Check: Use the inverse function of cosh, that is, cosh−1 :
+
+            cosh−1 (1.5430806) = ln(1.5430806 +         ing
+                                                        
+                                                            1.54308062 − 1) ≈ 1
+
+
+                                                                            .ne
+            This is not the number that we first started with, which was −1. However,
+            we know that cosh−1 (x) is only a true inverse of cosh(x) if the domain
+
+
+               (d) To calculate cosh−1 (3), use
+                                                                                t
+            of cosh(x) is limited to positive values and zero. We did not expect the
+            inverse to ‘work’ in this case where we started with a negative value.
+
+                                                           √
+            cosh−1 (3) = ln(3 +          32 − 1) = ln(3 +       8)
+                           ≈ 1.7627472
+                           = 1.763 to 4 s.f.
+
+
+            Check: The inverse function to cosh−1 is cosh, so we find
+
+                                     e1.7627472 + e−1.7627472
+            cosh(1.7627472) =                                 ≈3
+                                                 2
+            This confirms the accuracy of our calculation as we have shown
+            cosh(cosh−1 (3)) = 3.
+               (e) Using the logarithmic definition of cosh−1 leads to an attempt to
+            take the square root of a negative number. This confirms that cosh−1 (0)
+            is not defined in R.
+
+                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

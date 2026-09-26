@@ -1,0 +1,74 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                         Fourier series      419
+
+
+
+
+Figure 16.1     Some periodic functions with their fundamental periods marked.
+
+
+ww
+   w
+Figure 16.2 The periodic
+square wave defined by:
+
+
+f (t) =
+        
+         1/2     0<t <1.Ea
+         −1/2    1<t <2
+
+                          syE
+                                                     ngi
+16.3 Sine and
+cosine series                                            n
+                                        If f (t) is periodic with period τ = 2π/ω0 , then the Fourier series for f
+                                        is given by:
+
+                                                   1       ∞            eer
+                                        f (t) =
+                                                   2
+                                                     a0 +
+                                                                                  ing
+                                                            an cos(nω0 t) + bn sin(nω0 t)
+                                                            n=1
+
+                                        where the coefficients are given by
+                                                    τ/2                                      .ne
+                                        a0 =
+
+
+                                        an =
+                                               2
+                                               τ
+                                               2
+                                                    −τ/2
+                                                    τ/2
+                                                           f (t) dt
+
+
+                                                           f (t) cos(nω0 t) dt
+                                                                                                  t
+                                               τ    −τ/2
+                                                    τ/2
+                                               2
+                                        bn =               f (t) sin(nω0 t) dt
+                                               τ    −τ/2
+
+                                        The steps for finding the Fourier series are:
+                                        Step 1: Plot the periodic function f (t).
+                                        Step 2: Determine its fundamental period τ and its fundamental angular
+                                                frequency ω0 = 2π/τ .
+                                        Step 3: Evaluate a0 , an , and bn as given above.
+                                        Step 4: Write down the resulting Fourier series.
+
+
+                                        Example 16.1 Find the Fourier series for
+                                                
+                                                   1/2 0 < t < 1
+                                        f (t) =
+                                                  −1/2 1 < t < 2
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

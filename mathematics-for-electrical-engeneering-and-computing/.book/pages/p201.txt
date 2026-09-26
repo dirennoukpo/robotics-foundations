@@ -1,0 +1,75 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+
+
+              9                        Vectors
+
+                                       Many things can be represented by a simple number, for instance, time,
+9.1 Introduction                       distance, mass, which are then called scalar quantities. Others, however,
+                                       are better represented by both their size, or magnitude, and a direction.
+                                       Some of these are velocity, acceleration, and force. These quantities are
+
+ ww                                    called vector quantities because they are represented by vectors.
+                                          A simple example of a vector is one that describes displacement. Sup-
+                                       posing someone is standing in a room with floor tiles (as in Figure 9.1)
+
+    w                  .Ea
+                                       and moving from one position to another can be described by the number
+                                       of tiles to the right and the number of tiles towards the top of the page.
+                                          In the example, to move from the door to the cupboard can be repre-
+                                       sented by (4, 2). This vector consists of two numbers, where the order
+
+                          syE          of the numbers is important. Moving (4, 2) results in a different final
+                                       position to that if we move (2, 4). The magnitude of the displacement can
+                                       be found by drawing a straight line from the starting position to the final
+
+                                                  ngi
+                                       position and
+                                                  √ measuring√the length. From Pythagoras theorem this can be
+                                       found as 42 + 22 = 20 ≈ 4.47. The direction can be described by an
+
+
+                                                      n
+                                       angle, for instance, the angle made to the wall with the window on it.
+
+
+                                                                     eer
+                                          This example shows that a two-dimensional vector (2D) can be used
+                                       to represent movement on a flat surface. A 2D vector is two numbers,
+
+
+                                                                                  ing
+                                       where the order of the numbers is important.
+                                          If the room in Figure 9.1 also had wall tiles then we could represent a
+                                       position above the floor by the number of tiles towards the ceiling. This
+
+
+                                                                                               .ne
+                                       three-dimensional (3D) vector can be represented by three numbers. It
+                                       can also be represented by the distance travelled and the direction, angles
+                                       made to the floor and the angle made to the wall.
+
+                                                                                                   t
+                                          Velocity is an example of a vector quantity. This can be described by
+                                       two things, the speed, which is the rate of change of distance travelled with
+                                       respect to time, and also the direction in which it is travelling. Similarly,
+                                       force can be described by the size of magnitude of the force and also the
+                                       direction in which it operates.
+                                          Vectors have their own rules for addition and subtraction. If two forces
+                                       of equal magnitude operate on one object then the net effect will depend
+                                       on the direction of the forces. If the forces operate in opposite directions
+
+
+
+
+Figure 9.1 A tiled room.
+To reach the cupboard from
+the door we need to move four
+tiles to the right and two tiles
+towards the top of the page.
+This can be represented by
+the vector (4, 2).
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,70 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                       Vectors      197
+
+
+
+
+                                           Figure 9.14    The vector (1, −2): (a) multiplied by 3; (b) multiplied
+                                           by 0.5.
+
+
+
+ww
+9.6                                        Multiplying a vector by a scalar has the effect of changing the length
+
+   w
+Multiplication of
+a vector by a            .Ea
+                                           without affecting the direction. Each number in the vector is multiplied
+                                           by the scalar
+
+                                           Example 9.11      If a = (1, −2) then
+scalar and unit
+vectors                     syE            3a = 3(1, −2) = (3 × 1, 3 × (−2)) = (3, −6)
+                                           0.5a = 0.5(1, −2) = (0.5 × 1, 0.5 × (−2)) = (0.5, −1).
+
+                                                      ngi
+                                           This is shown in Figure 9.14.
+
+
+                                           Unit vectors   n              eer
+                                                                                      ing
+                                           Unit vectors have length 1. They are often represented by vectors with a
+                                           cap on them r̂. Hence, r̂ means the unit vector in the same direction as r.
+
+                                                                                                   .ne
+                                              To find the unit vector in the same direction as r, divide r by its length:
+                                           r̂ = r/|r|, where |r| represents the magnitude of vector r.
+
+
+                                              x 2 + y 2 + z2 .                                         t
+                                              In Section 9.5, we found the length of a 2D vector (x, y) is x 2 + y 2 ,
+                                           similarly it can be shown that in three dimensions (x, y, z) the length is
+
+
+                                           Example 9.12       Find unit vectors in the direction of the following
+                                           vectors:
+
+                                           (a) (1, −1) (b) (3, 4)    (c) (0.5, 1, 0.2).
+
+
+
+                                           Solution
+                                           √         (a)√Find the length of (1, −1) given by               x2 + y2 =
+                                             12 + 12 = 2. Therefore, the unit vector is
+
+Figure 9.15 The vector                     √1 (1, −1) ≈ (0.707, −0.707)
+                                             2
+r = (3, 4) has
+            √ modulus, or
+length r = 32 + 42 = 5. The                                                                            √
+unit vector in the same                      (b) Find the length of (3, 4) given by x 2 + y 2 =         32 + 42 = 5.
+direction is found by dividing             Therefore, the unit vector (see Figure 9.15) is
+the vector r by its length
+                                           5 (3, 4) = (0.6, 0.8).
+                                           1
+giving r̂ = 51 (3, 4) = (0.6, 0.8).
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

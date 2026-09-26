@@ -1,0 +1,73 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+322   Systems of linear equations, matrices, and determinants
+
+                              vector of constant terms are non-zero, then this shows that the system is
+                              inconsistent and there are no solutions.
+                                 We can summarize the results of this section as follows. For a system
+                              of equations (assuming we have as many equations as unknowns) there
+                              are three possibilities
+                              Case 1: A determined system has a unique solution which can be found
+                              by using elimination. Geometrically, the solution is a single point which
+                              (in the case a a system in two unknowns) represents the intersection of
+                              the two lines. The determinant of the coefficients is non-zero. The system
+                              is both consistent and determined.
+                              Case 2: An undetermined system has many solutions. If elimination
+                              is used to solve the system it will result in a condition like 0 = 0,
+                              which is always true. Geometrically the solutions lie (for a system in
+                              two unknowns) anywhere along a line. The determinant of the coeffi-
+                              cients is zero, as are any determinants found by replacing a column in
+
+ww                            the matrix of coefficients by the vector of constant terms. The system is
+                              undetermined but consistent (as there are solutions).
+
+
+   w
+                              Case 3: An inconsistent system has no solutions. If elimination is used
+                              to solve the system it will result in a condition like 0 = 3, which is
+
+                  .Ea         always false. Geometrically, for a system in two unknowns, the system is
+                              represented by parallel lines which have no points in common, hence no
+
+
+                     syE
+                              solutions. The determinant of the coefficients is zero but at least one of
+                              the determinants found by replacing a column in the matrix of coefficients
+                              by the vector of constant terms is non-zero. The system is inconsistent.
+
+
+                                          ngi
+                                 For Case 1, the solution of the system can be found by using the inverse
+                              of the matrix of coefficients. We can represent the system by
+
+                              Av = b.
+                                              n            eer
+                              A−1 Av = A−1 b                            ing
+                              As the determinant of A is non-zero, we know that A has an inverse
+                              A−1 . We pre-multiply both sides of the matrix equation by A−1 giving
+
+
+                              as A−1 A = I, the unit matrix and Iv = v                .ne
+                              we get
+
+                                v = A−1 b
+                                                                                          t
+                              Av = b ∧ |A| = 0 ⇔ v = A−1 b.
+
+
+
+                              Example 13.24      Solve
+
+                              3x + 4y = 7
+                               x + 2y = 2
+
+                              by finding the inverse of the matrix of coefficients.
+                              Solution The system can be expressed as
+                                          
+                                3   4     x   7
+                                            =    .
+                                1   2     y   2
+
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

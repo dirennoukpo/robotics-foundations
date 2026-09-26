@@ -1,0 +1,77 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+528   Probability and statistics
+
+                                   The mean and variance of
+                                   the Poisson distribution
+                                   The Poisson distribution was introduced by considering the probability
+                                   of a single event in a small interval of length h as (λh). We then used
+                                   the binomial distribution, with θ = λh and h = t/n and n tending to
+                                   ∞, to derive the expression for the Poisson distribution. As the mean of
+                                   the binomial distribution is nθ , it would make sense that the mean of the
+                                   Poisson distribution is nλh. Using n = t/h we get the mean as λt over
+                                   an interval of length t and therefore the mean is λ over an interval of unit
+                                   length.
+                                      By a similar argument we know that the variance of the Binomial
+                                   distribution is nθ (1 − θ). Substituting θ = λh we get the variance as
+                                   nλh(1 − λh). As n tends to infinity and h to 0 we get the limit λt.
+                                   Therefore, the variance in unit time is λ.
+
+
+ww                                 Example 21.16 The average number of ‘page not found’ errors on a
+                                   web server is 36 in a 24-h period. Find the probability in a 60-min period
+
+
+   w
+                                   that:
+
+
+                  .Ea              (a)
+                                   (b)
+                                   (c)
+                                          there are no errors;
+                                          there is exactly one error;
+                                          There are at most two errors;
+
+                     syE           (d)    there are more than three errors.
+
+                                   Solution Assuming that the above process is a Poisson process, then
+
+                                                 ngi
+                                   we have that the average number of errors in 24 h is 36 and therefore the
+                                   average is 1.5 in 1 h. As the mean is λ, we can now assume that the number
+                                   of errors in 1 h follows a Poisson distribution with λ = 1.5, giving
+
+                                   Pr =
+                                          (1.5)r −1.5
+                                            r!
+                                                e    n.
+                                                                  eer
+                                   (a)                                        ing
+                                       We want to find P (no errors) = P0 = ((1.5)0 /0!)e−1.5 = e−1.5 ≈
+                                       0.2231.
+                                                                                            .ne
+                                   (b) We want to find P (exactly one error) = P1 = (1.5)1 /1! e−1.5 =
+                                       1.5e−1.5 ≈ 0.3347.
+                                   (c) P (at most two errors) = P0 + P1 + P2 = 0.2231 + 0.3347 +
+                                       (1.5)2 /2! e−1.5 = 0.8088.                               t
+                                   (d) P (more than three errors) = 1 − P (at most three errors) =
+                                       1 − (P0 + P1 + P2 + P3 ).
+                                   Using the result from Part (c) we get
+                                   P (more than three errors) = 1 − 0.8808 − (1.5)3 /3! e−1.5
+                                                               ≈ 1 − 0.8808 − 0.1255 = 0.0657.
+
+
+
+
+21.14 Summary                       1.    The mean of a sample of data can be found by using
+                                                 1
+                                          x̄ =      xi
+                                                 n
+                                                   i
+
+                                          where the summation is over all sample values and n is the number
+                                          of values in the sample. If the sample is divided into class intervals
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

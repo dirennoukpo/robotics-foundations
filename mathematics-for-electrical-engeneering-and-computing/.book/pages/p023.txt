@@ -1,0 +1,67 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                     Sets and functions 9
+
+                                       Continuous functions and discrete
+                                       functions applied to signals
+                                       Functions of particular interest to engineers are either functions of a real
+                                       number or functions of an integer. The function given in Figure 1.19 is
+                                       an example of a real function and the function given in Figure 1.20 is an
+                                       example of a function of an integer, also called a discrete function.
+                                          Often, we are concerned with functions of time. A variable voltage
+                                       source can be described by giving the voltage as it depends on time, as also
+                                       can the current. Other examples are: the position of a moving robot arm,
+                                       the extension or compression of car shock absorbers and the heat emission
+                                       of a thermostatically controlled heating system. A voltage or current
+                                       varying with time can be used to control instrumentation or to convey
+                                       information. For this reason it is called a signal. Telecommunication
+                                       signals may be radio waves or voltages along a transmission line or light
+                                       signals along an optical fibre.
+
+ww                                        Time, t, can be represented by a real number, usually non-negative.
+                                       Time is usually taken to be positive because it is measured from some
+
+
+   w
+                                       reference instant, for example, when a circuit switch is closed. If time is
+                                       used to describe relative events then it can make sense to refer to negative
+
+                      .Ea              time. If lightning is seen 1 s before a thunderclap is heard then this can
+                                       be described by saying the lightning happened at −1 s or alternatively
+
+
+                         syE
+                                       that the thunderclap was heard at 1 s. In the two cases, the time origin
+                                       has been chosen differently. If time is taken to be continuous and rep-
+                                       resented by a real variable then functions of time will be continuous or
+
+
+                                                 ngi
+                                       piecewise continuous. Examples of graphs of such functions are given in
+                                       Figure 1.21.
+
+
+
+                                                     n              eer
+                                                                                 ing
+                                                                                              .ne
+Figure 1.19 The function
+y = 2x + 1 where x can take
+any real value (any number
+                                                                                                  t
+on the number line). (a) is the
+arrow diagram and (b) is the
+graph.
+
+
+
+
+Figure 1.20 The function
+q = t − 3 where t can take any
+integer value (a) is the arrow
+diagram and (b) is the graph.
+
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

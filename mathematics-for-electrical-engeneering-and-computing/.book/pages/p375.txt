@@ -1,0 +1,77 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+362   Differential equations and difference equations
+
+                                 We also check that the solution satisfies the given initial condition by
+                               substituting q = 0 and t = 0 into q = Cv0 (1 − e−t/RC ). We find
+
+                               0 = Cv0 (1 − 1)      ⇔     0 = 0,
+
+                               which is true.
+
+
+                               Example 14.7       Solve the differential equation
+
+                               y  − 3y = 6 cos(2t),
+
+                               given y(0) = 2.
+                               Step 1
+                               To find the complementary function we solve the homogeneous equation
+
+                               y  − 3y = 0
+
+ww                             substitute y = A eλt so that dy = Aλ eλt , giving
+
+
+   w              .Ea
+                               Aλ eλt − 3A eλt = 0.
+
+                               Therefore, we get the auxiliary equation
+
+
+                     syE       λ−3=0          ⇔     λ = 3.
+
+                               The complementary function is y = A e3t
+                               Step 2
+                                            ngi
+                               Try a particular solution (chosen from Table 14.1) of the form y =
+
+                                                n
+                               c cos(2t) + d sin(2t) then y  = −2c sin(2t) + 2d cos(2t). Substituting
+
+                                                             eer
+                               into y  − 3y = 6 cos(2t) we get
+
+
+                                  ⇔                                       ing
+                                − 2c sin(2t) + 2d cos(2t) − 3(c cos(2t) + d sin(2t)) = 6 cos(2t)
+                                        (−2c − 3d) sin(2t) + (2d − 3c) cos(2t) = 6 cos(2t).
+
+
+                                                                                        .ne
+                               We want this to be true for all values of t, so we can equate the coefficients
+                               of the sin(2t) terms on both sides of the equation and also the cos(2t)
+                               terms.
+                                  Equating the coefficients of sin(2t) gives:
+
+                               −2c − 3d = 0.
+                                                                                            t
+                               Equating the coefficients cos(2t) gives:
+
+                               −2d − 3c = 6.
+
+                               Therefore,
+
+                               −2c − 3d = 0
+                               −3c + 2d = 6.
+
+                               Solving these equations simultaneously gives
+
+                               c = −18/13       d = 12/13.
+
+                               Hence, a particular solution is
+
+                               y = −(18/13) cos(2t) + (12/13) sin(2t).
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

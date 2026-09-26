@@ -1,0 +1,77 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+                                                                                     Boolean algebra         81
+
+                                    Solution
+                                    (a)   We use the convention that . is performed first:
+
+                                          1.1.0 + 0̄.1 = 0 + 1.1 = 0 + 1 = 1
+
+                                    (b) (1.1̄) + 1 = (1.0) + 1 = 0 + 1 = 1
+                                    (c) (1̄ + 1).0 + (1 + 1).0 = 1.0 + 1.0 = 0 + 0 = 0
+                                      The algebraic laws can be used to simplify a Boolean expression.
+
+
+                                    Example 4.7     Simplify
+
+                                    abc + ābc + bc̄
+
+                                    Solution
+
+ww                                 abc + āb + bc̄
+                                     = (a + ā)bc + bc̄     (using a distributive law)
+
+
+   w                .Ea
+                                     = 1.bc + bc̄
+                                     = bc + bc̄
+                                     = b(c + c̄)
+                                     =b
+                                                            (using a complement law)
+                                                            (using an identity law)
+                                                            (by one of the distributive laws)
+                                                            (using a complement and identity law)
+
+
+                       syE             Although it is possible to simplify in this way, it can be quite difficult
+                                    to spot the best way to perform the simplification; hence, there are special
+                                    techniques used in the design of digital circuits which are more efficient.
+
+                                               ngi
+4.4 Digital                                        n             eer
+                                    Switching circuits form the basis of computer hardware. Usually, a high
+
+
+                                                                              ing
+                                    voltage represents TRUE (or 1) while a low voltage represents a FALSE
+circuits                            (or 0). Digital circuits can be represented using letters for each input.
+                                       There are three basic gates which combine inputs and represent the
+
+                                                                                             .ne
+                                    operators NOT(−), AND (.), and OR (+). These are shown in Figure 4.2.
+
+                                    Other gates
+                                                                                                 t
+                                    Other common gates used in the design of digital circuits are the NAND
+                                    gate, (ab), that is, not(ab), the NOR gate, (a + b), that is, not(a + b) and
+                                    the EXOR gate, a ⊕ b, (exclusive or) a ⊕ b = a b̄ + ab
+Figure 4.2 The three basic
+gates; NOT (−), AND (.), and           These gates are shown in Figure 4.3.
+OR (+).
+                                    Implementing a logic circuit
+                                    First, we need to simplify the expression. Each letter represents an input
+                                    that can be on or off (1 or 0). The operations between inputs are rep-
+                                    resented by the gates. The output from the circuit represents the entire
+                                    Boolean expression.
+
+
+
+
+Figure 4.3 Three other
+common gates; NAND (ab),
+NOR (a + b), and EXOR
+(a ⊕ b).
+
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

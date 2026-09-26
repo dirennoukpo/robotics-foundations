@@ -1,0 +1,82 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                        Complex numbers           223
+
+            twice. So we can try a solution of the form z = r ekt for the equation
+
+            d2 z
+                 = −ω2 z
+            dt 2
+               z = r ekt
+                    dz
+                   ⇒    = rk ekt
+                    dt
+                    d2 z
+                   ⇒ 2 = rk 2 ekt
+                    dt
+            Substituting into
+
+            d2 z
+                 = −ω2 z
+            dt 2
+
+
+ww          we get
+
+            rk 2 ekt = −ω2 r ekt
+
+
+   w.Ea
+            Dividing both sides by r ekt gives k 2 = −ω2 ⇔ k = ±jω.
+               This gives two possible solutions: z = r ejωt when k = jω and z =
+            r e−jωt when k = −jω. Again, we can use the initial velocity to determine
+
+
+       syE  the solution. Using z = r ejωt we get
+            dz
+               = jrω ejωt
+            dt
+
+                       ngi
+            at t = 0 then we get the velocity as j ωr, which was one of the conditions
+
+
+                           n
+            we wanted to fulfil.
+
+
+                                           eer
+               This shows that the two expression z = r ejωt and z = r cos(ωt) +
+            jr sin(ωt) both satisfy
+
+            d2 z
+            dt 2
+                   = −ω2 z and z = r       when t = 0
+                                                        ing
+            and
+                                                                  .ne
+            dz
+            dt
+               = jωr       when t = 0.
+                                                                      t
+              We have stated that these initial conditions are enough to determine
+            the solution of the differential equation. So, the only possibility is that
+
+            r ejωt = r cos(ωt) + jr sin(ωt)
+
+            This shows the equivalence of the polar form of a complex number and the
+            exponential form. Replacing ωt by θ, we get r ejθ = r cos(θ ) + jr sin(θ ),
+            which we recognize as the polar form for a complex number z = r∠θ
+            where r is the modulus and θ is the argument. We can represent any
+            complex number z = x + jy in the form r ejθ . r and θ are found, as given
+            before for the polar form, by
+                 
+            r = x2 + y2
+                       y 
+            θ = tan−1          (+π if x is negative)
+                         x
+            Conversely, to express a number given in exponential form in rectangular
+            (Cartesian) form, we can use r ejθ = r cos(θ) + jr sin(θ).
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

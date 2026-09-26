@@ -1,0 +1,87 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                       Maxima and minima and sketching functions                 249
+
+            are no real solutions of this equation for ω. This means that there are no
+            points where H is undefined. However, for case (d), where c = 0 we get
+            the equation
+
+            ω4 − 2ω2 + 1 = 0 ⇔ (ω2 − 1)2 = 0
+            ω2 − 1 = 0 ⇔ ω2 = 1 ⇔ ω = 1 or ω = −1
+
+            As the frequency of the forcing function is positive then we just have
+            the one value where H is discontinuous, at ω = 1. For case (d), where
+            c = 0, H is undefined when ω = 1. This is an infinite ‘divide by zero’
+            discontinuity. We have already noted that H is always positive where it
+            is defined and so we know that as ω → 1− , H → +∞ and as ω →
+            1+ , H → +∞.
+               Step 3. To find the stationary points solve dH /dω = 0
+
+                             1
+
+ww          H =
+                     ω2 c2 + (ω2 − 1)2
+
+
+
+   w.Ea
+            is easier to differentiate if we use the rules of powers to give
+
+            H = (ω2 c2 + (ω2 − 1)2 )−1/2
+
+
+
+       syE  Using the function of a function rule we get
+
+            dH    1
+               = − (ω2 c2 + (ω2 − 1)2 )−3/2 (2ωc2 + 2(ω2 − 1)(2ω))
+            dω
+            dH
+               =−
+                  2
+
+                        ngi
+                  2ωc2 + 2(ω2 − 1)(2ω)
+                  2(ω c + (ω − 1) )
+                                           =−
+                                                  2ωc2 + 4ω3 − 4ω
+                                               2(ω2 c2 + (ω2 − 1)2 )3/2
+
+                            n
+            dω       2  2     2     2  3/2
+
+
+
+            the top line gives            eer
+               Dividing the top and bottom lines by 2 and rearranging the terms on
+
+
+            dH     2ω3 + ω(c2 − 2)
+               =− 2 2
+                 (ω c + (ω2 − 1)2 )3/2
+                                                      ing
+            dω
+
+            Setting dH /dω = 0 gives                               .ne
+            −
+                  2ω3 + ω(c2 − 2)
+                (ω2 c2 + (ω2 − 1)2 )3/2
+                                          =0                           t
+            multiplying both sides by −1 times the denominator of the left-hand side
+            gives
+
+            2ω3 + ω(c2 − 2) = 0
+                ⇔     ω(2ω2 + c2 − 2) = 0
+                ⇔     ω = 0 ∨ 2ω2 + c2 − 2 = 0
+                ⇔     ω = 0 ∨ 2ω2 = 2 − c2
+                ⇔     ω = 0 ∨ ω2 = (2 − c2 )/2
+                                    
+                ⇔     ω = 0 ∨ ω = ± (2 − c2 )/2
+
+            As we assume that the frequency
+                                        is positive (or zero) there are two possi-
+            bilities and ω = 0 and ω = (2 − c2 )/2. The second case does not give
+            a real solution if c = 2.
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

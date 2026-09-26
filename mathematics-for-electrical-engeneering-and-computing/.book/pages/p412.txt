@@ -1,0 +1,95 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                               Laplace and z transforms            399
+
+            system with zero initial conditions to any input function f (t) is given by
+            the convolution of f (t) with the system’s impulse response:
+            y(t) = L−1 {F (s)H (s)} = f (t) ∗ h(t).
+            We can use this result to solve two types of problems, given zero initial
+            conditions. If we know the impulse response function of the system then
+            we can find the system response to any input f (t) either by convolving in
+            the time domain y(t) = f (t) ∗ h(t) or by finding the Laplace transform
+            of f (t), F (s), and finding the transfer function of the system L{h(t)} =
+            H (s) and then finding Y (s) = H (s)F (s) and taking the inverse transform
+            of this to find y(t). This type of problem is called a convolution problem.
+            The other type of problem is that given any output, y(t), and given the
+            input, f (t), we can deduce the impulse response of the system. This
+            we do by finding F (s) = L{f (t)}, Y (s) = L{y(t)} and then H (s) =
+            Y (s)/F (s), thus giving the transfer function. To find the impulse response
+            we find h(t) = L−1 {H (s)}
+
+ww          Example 15.19 The impulse response of a system is known to be h(t) =
+            e3t . Find the response of the system to an input of f (t) = 6 cos(2t) given
+
+   w.Ea
+            zero initial conditions.
+            Solution Method 1. We can take Laplace transforms and use Y (s) =
+            H (s)F (s). In this case
+
+
+       syE  h(t) = e3t ⇔ H (s) = L{e3t } =
+                                                    1
+                                                   s−3
+
+
+                      ngi
+                                                                6s
+            f (t) = 6 cos(2t) ⇔ F (s) = L{6 cos(2t)} =               .
+                                                              4 + s2
+
+
+                          n
+            Hence
+
+            Y (s) = H (s)F (s) =
+                                         eer
+                                         6s
+                                   (s − 3)(4 + s 2 )
+                                                     .
+
+
+                  6s                                     ing
+              As we want to find y(t), we use partial fractions:
+
+                              =
+                                           6s
+            (s − 3)(4 + s 2 )
+
+                              =
+                                (s − 3)(s + j2)(s − j2)
+                                    18
+                                           +
+                                                     3             .ne
+                                13(s − 3) ( j2 − 3)(s − j2)
+
+                                −
+                                          3
+                                  ( j2 + 3)(s + j2)
+                                                                       t
+                                                     (using the ‘cover up’ rule)
+
+                                  18      3(6s − 8)
+                             =          −
+                               13(s − 3) 13(s 2 + 4)
+                                  18         18s       12   2
+                             =          −            +        .
+                               13(s − 3) 13(s + 4) 13 (s + 4)
+                                              2           2
+
+              We can now take the inverse transform to find the system response:
+            y(t) = L−1 {Y (s)}
+                     
+                            18       18s     12    2
+               = L−1             −         +
+                        13(s − 3) 13(s + 4) 13 (s + 4)
+                                      2          2
+
+                   18 3t 18              12
+               =      e −     cos(2t) +     sin(2t).
+                   13      13            13
+               Alternative method. Find y(t) by taking the convolution of f (t) with
+            the impulse response function
+            y(t) = f (t) ∗ h(t) = (6 cos(2t)) ∗ (e3t )
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

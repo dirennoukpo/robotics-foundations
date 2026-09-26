@@ -1,0 +1,37 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+98   Trigonometric functions and waves
+
+
+
+
+ ww
+    w                  .Ea
+                          syE
+                                                   ngi
+                                                       n             eer
+                                                                                 ing
+                                                                                              .ne
+                                                                                                  t
+Figure 5.12 Examples of phase shifting. (a) A graph y = cos(πx ). (b) y = cos(πx − (π/4)) has phase of
+−π/4 and is shifted by 1/8 of a cycle (given by the proportion that the phase, −π/4, represents of a standard
+cycle of 2π). (c) y = cos(πx + (π/3)) has phase of π/3 and is shifted by 1/6 of a cycle (given by the
+proportion that the phase, π/3, represents of a standard cycle of 2π). (d) y = cos(π x + π) has phase of π and
+is shifted by 1/2 of a cycle (given by the proportion that the phase, π, represents of a standard cycle of 2π).
+
+
+
+
+                                        the water at a particular point in time then we will also get a wave shape
+                                        where we now have an graph of the height of the water expressed against
+                                        the distance from the waves origin. In this case where y = A cos(kx +φ),
+                                        A still represents the amplitude, φ the phase but the coefficient of x, k,
+                                        is now related to the wavelength. Ideally, we want an expression that
+                                        can give the height, y, at any position x at any time t. This function is
+                                        called the progressive wave function and we can combine the two ideas
+                                        of waves as a function of time and distance to obtain an expression for
+                                        this function.
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

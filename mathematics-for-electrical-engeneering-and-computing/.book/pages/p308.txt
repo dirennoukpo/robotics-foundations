@@ -1,0 +1,61 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+
+
+     13              Systems of linear
+                     equations,
+                     matrices, and
+                     determinants
+ww
+   w      .Ea
+13.1         syE     The widespread use of computers to solve engineering problems means
+                     that it is important to be able to represent problems in a form suitable for
+Introduction
+                               ngi
+                     solution by a computer. Matrices are used to represent: systems of lin-
+                     ear equations; transformations used in computer graphics or for robotic
+
+
+                                   n
+                     control; road, electrical and communication networks, and stresses and
+
+
+                                                  eer
+                     strains in materials. A matrix is a rectangular array of numbers of dimen-
+                     sion m×n where m is the number of rows and n is the number of columns
+                     in the matrix. Matrices are also useful because they enable us to consider
+
+                                                               ing
+                     an array of numbers as a single object, represent it by a single symbol,
+                     and manipulate these symbols conveniently. In this chapter, we look at
+
+
+                                                                            .ne
+                     applications of matrices and arithmetic operations on matrices and some
+                     common numerical methods. We shall also look at the problem of solv-
+                     ing systems of linear equations. The methods of solving linear systems
+
+                                                                                t
+                     of equations are well understood and we only need to be able to solve
+                     simple cases of such problems ‘by hand’. However, it is important to
+                     be able to express a problem in matrix form and also appreciate situa-
+                     tions where no solution exists or where more than one solution exists.
+                     This allows to analyse the problems of ill-conditioning of systems of
+                     equations, which can lead to instability in the solution and the problem of
+                     over- or under-determinacy, where either we have too much information,
+                     leading to possibly contradictory conditions, or we have not got enough
+                     to produce a single set of solutions for the unknowns.
+                        We shall also look at the eigenvalue problem. The technique of finding
+                     eigenvalues will become particularly important when applied to systems
+                     of differential equations which we meet in Chapter 14.
+
+
+
+
+                     A matrix is a rectangular array of numbers. They may also be used as a
+13.2 Matrices        simple store of information as in the following example.
+                       Every weekday a household orders pints of milk, loaves of bread, and
+                     yoghurt from a milk lorry. The orders for the week can be displayed
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

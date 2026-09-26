@@ -1,0 +1,130 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                                 Index       545
+
+              symmetry, 41–3                           Hyperbolic functions, 172–4
+              trigonometric, 88–117                      cosech, 174
+              unit step, 384–5, 405                      cosh, 173
+            Fundamental period, 91–2, 94, 96, 97, 99     coth, 174
+                                                         graphs of, 175
+                                                         identities, 175
+                                G                        relationship with Trigonometric
+            Gauss-Jordan elimination, 332–4                    functions, 230
+            Gaussian elimination, 326–31, 344–5          sech, 174
+              partial pivoting, 331                      sinh, 173
+              pivotal equation, 326–31                   tanh, 174
+            Generalized functions, 385
+            Geometric growth, 163
+            Geometric progressions, 263–9
+                                                                            I
+              common ratio, 264–5
+                                                       Idempotent Law, 78–80
+              general term, 264
+                                                       Identity Laws:
+              sum of n terms, 265–7
+                                                          Boolean Algebra, 78–80
+              sum to infinity, 267–9
+                                                       Image, under a function, 8
+
+
+ww          Geometrical vectors, 198
+            Gibb’s phenomenon, 421–2
+            Gradient, 26–30
+              of a chord, 117–18
+                                                       Imaginary part, of a complex number,
+                                                             208–11, 218, 221, 224, 225, 229
+                                                       Impedance, 219–21
+
+
+   w.Ea
+              of the tangent, 238
+            Grammar, 480
+              classification, 483
+              context free, 484
+                                                       Implication, 67–9
+                                                       Impulse function, 384–5, 404
+                                                       Impulse response function, 397–400,
+                                                             411–14
+                                                       Incidence matrix, 461
+
+
+       syE  Graph sketching:
+              by analysing the function’s behaviour,
+                    244–52
+              linear functions, 30–1
+                                                       Inconsistent system, 319–20, 322–3, 329
+                                                       Independent variable, 8
+                                                       Indeterminate point, 279
+
+
+                        ngi
+              using transformations, 34–40, 94–6
+            Graphical user interface (GUI), 306
+                                                       Indeterminate system, 314, 316, 324
+                                                       Inequalities, 43–8
+                                                          combining, 45–6
+
+
+                            n
+            Graphs of functions, 8–13, 26–43
+                                                          solving, 43–4, 47–8
+              area bounded by, 154–5
+              area under, 147–51
+              hyperbolic functions, 274
+                                              eer      Infinite impulse response (IIR), 376, 412
+                                                       Infinity:
+                                                          sum to, 267–9
+
+
+                                                         ing
+              inverse hyperbolic functions, 177
+                                                          tending to, 245–6, 286
+            Graphs, 461–78
+                                                       Initial conditions, 352, 358, 360, 361, 364,
+              bipartite, 463
+                                                             366, 375–6, 378
+
+
+                                                                          .ne
+              complete, 463
+                                                       Instantaneous velocity, 118
+              connected, 464
+                                                       Integers, 4
+              definition, 461
+
+
+                                                                              t
+                                                       Integral operator, 354
+              directed, see digraphs
+                                                       Integral:
+              isomorphism of, 462
+                                                          round a closed curve, 453–4
+              matrix representation of, 465
+                                                          scalar line, 451–3
+              planar, 465
+                                                          surface, 454–6
+              simple, 461
+                                                       Integrals:
+              subgraph, 463
+              weighted, 462                               definite, 147–53
+              see also Edges; Trees; Vertices             indefinite, 132
+            Greedy algorithm for the minimum              of the form ∫ f(ax + b)dx, 138
+                 spanning tree, 467–8                     of the form ∫ f(u)du/dx dx, 139
+            Growth:                                       standard, 134, 181
+              constant, 163                            Integrating vector fields, 451–6
+              exponential, 162–6                       Integration, 132–61, 181–5,
+              geometric, 163                              applications of, 145–7
+                                                          as the inverse of differentiation, 133
+                                                          by parts, 142, 183, 383
+                                H                         changing the variable of, 135–8
+            Half-wave symmetry, 424–5                     constant of, 133
+            Harmonics, 418                                numerical, 156–9
+            Hermitian matrix, 302–3                       of a composite function, 136–42
+            Homogeneous equation, 358–60, 362,            of a product, 139–43
+                 363–5, 367, 371–2, 376–8                 of a sum, 135
+            HTML, 488                                     of af(x), 135
+            Hyperbola, 33, 173                            using partial fractions, 183–5
+
+
+                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,78 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                          Functions and their graphs             45
+
+
+
+
+Figure 2.24   The solution to 2t + 3 < t − 6 is given by t < −9.
+
+
+
+
+Figure 2.25   The solution to x + 5 ⩾ 4x − 10 is found to be x ⩽ 5, here represented on a number line.
+
+
+
+
+Figure 2.26   The solution to 16 − y > −5y is found to be y > −4, here pictured on a number line.
+
+
+
+ww                                     Example 2.8 Find a range of values for t, x, and y such that the
+                                       following inequalities hold
+
+   w                 .Ea
+                                       (a) 2t + 3 < t − 6
+                                       (b) x + 5 ⩾ 4x − 10
+                                       (c) 16 − y > −5y
+
+
+                        syE            Solution
+
+                                       (a)
+                                                  ngi
+                                             2t + 3 < t − 6
+
+                                                  ⇔   t < −6 − 3
+                                                                ⇔      2t − t + 3 < −6       (subtract t from both
+                                                                                             sides)
+
+
+                                                      n
+                                                                      (subtract 3 from both sides)
+                                                  ⇔   t < −9.
+                                                                     eer
+                                                                                 ing
+                                       This solution can be represented on a number line as in Figure 2.24.
+
+                                       (b)   x + 5 ⩾ 4x − 10
+                                                  ⇔
+                                                  ⇔
+                                                      +5 ⩾ 3x − 10
+                                                      15 ⩾ 3x                                   .ne
+                                                                          (subtract x from both sides)
+                                                                    (add 10 to both sides)
+                                                  ⇔
+                                                  ⇔
+                                                      5⩾x
+                                                      x ⩽ 5.
+                                                                (divide both sides by 3)
+                                                                                                    t
+                                       This solution in represented in Figure 2.25.
+
+                                       (c)   16 − y > −5y
+                                                  ⇔   16 > −4y       (add y to both sides)
+                                                  ⇔   −4 < y       (divide by − 4and reverse the sign)
+                                                  ⇔   y > −4.
+
+                                       This solution is represented in Figure 2.26.
+
+
+                                       Representing compound inequalities
+                                       on a number line
+                                       We sometimes need a picture of the range of values given if two inequal-
+                                       ities hold simultaneously, for instance x ⩾ 3 and x < 5. This is analysed
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,97 @@
+                                       Downloaded From : www.EasyEngineering.net
+
+
+114     Trigonometric functions and waves
+
+
+
+
+Figure 5.29 Graphs for
+Exercise 5.5.
+
+
+
+ ww
+ 5.3. Given that cos(π/3) = 1/2, without using a calculator,           (c) Find the wave velocity and use your graphs to
+
+
+    w
+      find:                                                                justify it.
+
+
+
+                         .Ea
+                                                                  5.9. A pneumatic drill produces a sound pressure of
+      (a) sin(π/3)     (b) tan(π/3)    (c) cos(2π/3)
+                                                                       6 N m−2 . Given that the reference pressure is 2 ×
+      (d) sin(7π/3)    (e) tan(4π/3)                                   10−5 N m−2 , find the sound pressure level in decibels.
+
+
+                            syE
+      Check your answers using a calculator.
+ 5.4. By considering transformations of the graphs of
+                                                                 5.10. The reference level on a voltmeter is set as 0.775 V.
+                                                                       Calculate the reading in decibels when the voltage
+                                                                       reading is 0.4 V.
+
+      following:
+                                                         ngi
+      sin(x), cos(x), and tan(x), sketch the graphs of the       5.11. Show, using trigonometric identities, that
+                                                                       (a) cos(X + δ) − cos(X − δ) = −2 sin(δ) sin(X)
+                                                                       (b) sin(X + δ) + sin(X − δ) = 2 sin(X) cos(δ)
+      (a) y = sin(x + (π/4))
+      (c) y = 3 sin(x)
+      (e) y = sin(πx)
+      (g) y = sin(x) + 3
+                                 (b) y = tan(x − (π/2))
+                                 (d) y = 21 cos(x)
+                                 (f) y = 2 sin( 21 x + (π/6))
+                                 (h) y = − cos(x).
+                                                             n               eer
+                                                                 5.12. Two wave trains have very close frequencies and can
+                                                                       be expressed by the sinusoids y = 2 sin(6.14t) and
+                                                                       y = 2 sin(6.19t). Their sum is sketched in Figure 5.30.
+
+ 5.5. From the graphs in Figure 5.29, find the phase, ampli-                               ing
+                                                                       Use the expression for the summation of two sines to
+                                                                       find the beat frequency (the number of times the mag-
+                                                                       nitude of the amplitude envelope reaches a maximum
+      tude, period (cycle length), and number of cycles in
+      one unit.
+                                                                       each second).
+                                                                                                         .ne
+                                                                 5.13. A single frequency of 200 Hz (message signal)
+ 5.6. For the following functions of time, find the amplitude,
+      period, angular frequency, and phase:
+
+      (a) y = 3 cos(4t + (π/2)) (b) V = sin(377t + 0.4)
+      (c) p = 40 cos(3000t − 0.8).
+                                                                                                             t
+                                                                       is amplitude modulated with a carrier frequency
+                                                                       of 2 MHz. Express the message signal as m =
+                                                                       a cos (ω1 t) and the carrier as c = b cos(ω2 t) and
+                                                                       assume that the modulation gives the product mc =
+                                                                       ab cos(ω1 t) cos(ω2 t). Use trigonometric identities to
+                                                                       show that the modulated signal can be represented by
+ 5.7. For the following functions of distance, x, find
+                                                                       the sum of two frequencies at 2 × 106 ± 200 Hz.
+      the amplitude, wavelength, spatial frequency, and
+      wavenumber:                                                5.14. (a) Give the wavelengths of three modes of vibration
+                                                                           on a string of length 0.75 m.
+        (a) y = 0.5 cos(2x − (π/2))                                        √ velocity v is approximately given by v =
+                                                                       (b) The
+        (b) y = 2 cos(72x + 0.33)                                            T /m where T is the tension and m is the mass per
+        (c) y = 52 sin(80x)                                                unit length of the string. Given that T = 2200 N
+                                                                           and m = 0.005 kg m−1 , find the frequency of the
+ 5.8. Given a progressive wave t > 0                                       fundamental mode.
+                                                                5.15. Use a cos(ωt +δ) = a cos(ωt) sin(δ)−a sin(ωt) sin(δ)
+            3 cos(2t − 5x)     for 5x ⩽ 2t                             to find c and d in the expression 2 cos(3t + (π/3)) =
+      y=
+            0                  otherwise                               c cos(3t) + d sin(3t).
+                                                                 5.16. Express as single sines or cosines:
+      (a) Sketch the waves for t = 1, t = 5, and t = 10.               (a) sin(43◦ ) cos(61◦ ) + cos(43◦ ) sin(61◦ )
+      (b) Sketch the wave as a function of time for: (i) x =           (b) sin(22◦ ) cos(18◦ ) − cos(22◦ ) cos(18◦ )
+          2 (t > 5); and (ii) x = 4 (t > 10).                          (c) cos(63◦ ) cos(11◦ ) + sin(63◦ ) sin(11◦ )
+
+
+                                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

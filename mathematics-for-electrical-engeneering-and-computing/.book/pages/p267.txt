@@ -1,0 +1,73 @@
+                 Downloaded From : www.EasyEngineering.net
+
+
+
+
+     12              Sequences and
+                     series
+
+12.1
+ww
+Introduction
+                     Sequences have two main applications: serving as a digital representation
+                     of a signal after analog to digital (A/D) conversion or as a method of
+                     solving a numerical problem by getting a sequence of answers, each one
+
+
+   w      .Ea
+                     being closer to the exact, correct solution.
+                        The advance of digital communications has resulted from the increased
+                     accuracy in reproduction of the stored or transmitted signal in digital form.
+                     For instance, the reproduction of the stored signal by a compact disc player
+
+
+             syE     is far superior to the analog reproduction of the old vinyl records. It is also
+                     very convenient to be able to apply filters and other processing techniques
+                     in digital form using computers or dedicated microprocessors.
+
+
+                                   ngi
+                        Sequences are often defined in the form of a recurrence relation, special
+                     sorts of which are also called difference equations. Recurrence relations
+                     can be found which will solve certain problems numerically or they may
+
+                                       n
+                     be derived by modelling the physical processes in a digital system.
+
+                                                    eer
+                        The sum of a sequence of terms is called a series. An important example
+                     of a series is the Taylor series which can be used to approximate a function.
+
+                     transforms and Fourier series.
+                                                                 ing
+                     Later in the book, we will look at other examples of series such as z
+
+                        Many problems involving sequences and series are solved using a com-
+
+                                                                               .ne
+                     puter. However, it is useful to be able to solve a few simple cases without
+                     the aid of a computer, as this can often help check a result for some special
+
+                     and the geometric progression.
+                                                                                   t
+                     cases. Some examples of special sequences are the arithmetic progression
+
+
+
+                     A sequence is a collection of objects (not necessarily all different)
+12.2 Sequences       arranged in a definite order. Some examples of sequences are:
+and series           1.   The numbers 1 to 10, that is, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+definitions          2.   Red, Red and Amber, Green, Amber, Red
+                     3.   3, 6, 9, 12, 15, 18.
+                        When a sequence follows some ‘obvious’ rule then three dots (. . .) are
+                     used to indicate ‘and so on’, for example, list 1 above may be rewritten as
+                     1, 2, 3, . . . , 10.
+                        The examples so far have all been finite sequences. Infinite sequences
+                     may use dots at the end, meaning carry on indefinitely in the same fashion,
+                     for example,
+                     2, 4, 6, 8, 10, . . .
+                     1, 2, 4, 8, 16, . . .
+                     4, 9, 16, 25, 36, . . .
+                     1, 1, 2, 3, 5, 8, . . .
+
+                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

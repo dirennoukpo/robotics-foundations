@@ -1,0 +1,92 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+392   Laplace and z transforms
+
+                                 Example 15.14 (Derivatives of the transform and the inverse transform)
+                                 Find
+                                      
+                                            s
+                                 L−1
+                                        (s + 4)2
+                                          2
+
+
+                                 Solution   We notice that
+                                                            
+                                      s         1 d        1
+                                            = −                .
+                                 (s 2 + 4)2     2 ds s 2 + 4
+                                 Using the derivatives of the transform property
+                                 L{t n f (t)} = (−1)n F (n) (s)
+                                 and setting n = 1 we have
+                                 L−1 {(−1)dF /ds} = tf (t)
+
+
+ww                               and as
+
+                                 L−1
+                                      
+                                               1
+                                                      =
+                                                          1
+
+
+   w
+                                                            sin(2t)
+                                          (s 2 + 4)       2
+
+
+                 .Ea             we have
+
+                                 L−1
+                                     
+                                            s
+                                                      =
+                                                           1
+                                                             t
+                                                                 
+                                                                     1
+                                                                              
+                                                                                t
+                                                                       sin(2t) = sin(2t)
+
+                    syE                (s 2 + 4)2          2         2          4
+
+
+
+                                              ngi
+                                 Using partial fractions to find the
+                                 inverse transform
+
+                                 like             n                   eer
+                                 Partial fractions can be used to find the inverse transform of expressions
+
+                                 11s + 7
+                                  s2 − 1
+                                                                                ing
+                                 by expressing F (s) as a sum of fractions with a simple factor in the
+                                 denominator.
+                                                                                           .ne
+                                 Example 15.15
+                                 11s + 7
+                                  s2 − 1
+                                                      Find the inverse Laplace transform of
+                                                                                               t
+                                 Solution Factorize the denominator. This is equivalent to finding the
+                                 values of s for which the denominator is 0, because if the denominator
+                                 has factors s1 and s2 we know that we can write it as c(s − s1 )(s − s2 )
+                                 where c, is some number. In this case we could solve for s 2 − 1 = 0.
+                                 However, it is not difficult to spot that s 2 − 1 = (s − 1)(s + 1). The values
+                                 for which the denominator is zero are called the poles of the function.
+                                 11s + 7      11s + 7
+                                         =                .
+                                  s2 − 1   (s − 1)(s + 1)
+                                 We assume that there is an identity such that
+                                 11s + 7      A   B
+                                           =    +    .
+                                 (s 2 − 1)   s−1 s+1
+                                 Multiply both sides of the equation by (s − 1)(s + 1) to get
+                                 11s + 7 = A(s + 1) + B(s − 1).
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

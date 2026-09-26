@@ -1,0 +1,76 @@
+                      Downloaded From : www.EasyEngineering.net
+
+
+136   Integration
+
+                             We can use this to integrate in very special cases by making a substi-
+                          tution for a new variable. The idea is to rewrite the integral so that we
+                          end up with one of the functions in Table 7.1. To see when this might
+                          work as a method of integration, we begin by looking at differentiating
+                          a composite function. Consider the derivative of
+
+
+                          y = (3x + 2)3 .
+
+
+                          We differentiate this using the chain rule, giving
+
+                          dy              d
+                             = 3(3x + 2)2 (3x + 2) = 3(3x + 2)2 3.
+                          dx             dx
+
+
+
+ww                        As integration is backwards differentiation, therefore
+
+                          
+
+   w                .Ea
+                              3(3x + 2)2 3 dx = (3x + 3)3 + C.
+
+
+                             Supposing then we had started with the problem to find the following
+
+                       syEintegral
+
+                          
+
+                                        ngi
+                              3(3x + 2)2 3 dx.
+
+
+                                            n          eer
+                          If we could spot that the expression to be integrated comes about from
+                          differentiating using the chain rule then we would be able to perform the
+
+                          integral becomes:
+                                                                    ing
+                          integration. We can substitute u = 3x + 2 to give du/dx = 3, and the
+
+
+                          
+                              3u2
+                                    du
+                                       du                                          .ne
+                                    dx
+
+                          we then use the ‘trick’ of replacing (du/dx) dx by du giving
+                                                                                       t
+                          
+                              3u2 du.
+
+
+                          As the expression to be integrated only involves the variable u, we can
+                          perform the integration and we get
+
+                          
+                              3u2 du = u3 + C.
+
+
+                          Substituting again for u = 3x + 2, we get the integral as
+
+                          
+                              3(3x + 2)2 3 dx = (3x + 2)3 + C.
+
+
+                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

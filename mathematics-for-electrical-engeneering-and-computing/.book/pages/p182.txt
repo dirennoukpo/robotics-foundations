@@ -1,0 +1,60 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                          The exponential function            169
+
+                                      for large n to calculate e on a calculator. This is done in Table 8.1 to five
+                                      decimal places.
+ Table 8.1 Estimating e                  We have shown that e = 2.71828 to five decimal places. e is an irra-
+ using (1 + 1/n)n gives               tional number which means that it cannot be written exactly as a fraction
+ e = 2.71828 to five decimal          (or as a decimal). The function et is often referred to as exp(t). et and its
+ places                               derivative are shown in Figure 8.4.
+                                         By definition of the logarithm (as given in Chapter 4 of the Background
+ n             (1 + (1/n))n to five   Mathematics notes available on the companion website for this book), we
+                 decimal places       know that the inverse function to et is loge (t) (log, base e, of t). This is
+                                      often represented by the short hand of ln(t) and called the natural or
+ 1000               2.71692           Napierian logarithm.
+ 10 000             2.71815
+                                         We are now able to solve the differential equation dy/dt = y as we
+ 100 000            2.71827
+ 1 000 000          2.71828           know that one solution is y = et because the derivative of y = et is et .
+ 10 000 000         2.71828           When we discussed differential equations in Chapter 7, we noticed that
+                                      there was an arbitrary constant that was involved in the solution of a
+                                      differential equation. In this case the constant represents the initial size
+
+ww                                    of the population, or the initial charge or the initial number of atoms or
+                                      the initial temperature. The general solution to dy/dt = y is y = y0 et
+                                      where y0 is the value of y at time t = 0. We can show that this is, in fact,
+
+   w                 .Ea
+                                      the general solution by substituting into the differential equation.
+
+
+
+
+                        syE           Example 8.5
+
+                                      (a)
+
+                                                 ngi
+                                            Show that any function of the form y = y0 et , where y0 is a constant,
+                                            is a solution to the equation
+
+
+                                            dy
+                                            dt
+                                               =y    n             eer
+                                      (b)                                       ing
+                                            Show that in the function y = y0 et , y = y0 when t = 0.
+
+
+                                                                                              .ne
+                                                                                                  t
+
+
+
+Figure 8.4 (a) The graph of y = et with some tangents marked. (b) The graph of the derivative (the gradient
+of the tangent at any point on et plotted against t).
+
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

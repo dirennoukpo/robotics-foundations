@@ -1,0 +1,83 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                   Differentiation   123
+
+            Example 6.4 Differentiate y = 2x 3 . Notice that this a constant, 2,
+            multiplied by x 3 . The derivative of x 3 is found by looking Table 6.2. The
+            derivative of x n is given by nx n−1 . In this case n = 3 so
+             d 3
+               (x ) = 3x 2
+            dx
+            and hence
+            dy
+                = 2(3x 2 ) = 6x 2
+            dx
+
+
+            Derivatives of a sum (or a difference) of
+            functions
+            If y can be written as the sum of two functions, that is, y = u + v where
+            u and v are functions of x then
+
+ww          dy
+            dx
+               =
+                 du dv
+                 dx
+                    +
+                      dx
+
+   w.Ea     Example 6.5
+            Solution
+                             Differentiate y = sin(t) +
+                                                          √
+                                                              t.
+
+
+
+       syE  y = sin(t) +
+                           √
+                            t ⇔ y = sin(t) + t 1/2
+            To differentiate a sum differentiate each part
+            dy
+            dt         ngi
+                         1
+               = cos(t) + t −1/2
+                         2
+            dy
+            dt
+               = cos(t) + √
+                           n
+                           1
+                         2 t
+                                         eer
+            Derivatives of composite functions        ing
+            (function of a function)
+                                                                       .ne
+            If y = f (x) is a composite function, so that we can write y = h(u) where
+            u = g(x), then
+            dy
+            dx
+               =
+                 dy du
+                 du dx
+                                                                           t
+            This is called the chain rule.
+
+            Example 6.6      Differentiate y = sin(2x).
+            Solution     We can substitute u = 2x giving y = sin(u):
+            du                dy
+               =2      and       = cos(u).
+            dx                du
+            Therefore,
+            dy   dy du
+               =       = 2 cos(u).
+            dx   du dx
+            Finally, resubstitute for u giving
+            dy
+               = 2 cos(2x).
+            dx
+
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

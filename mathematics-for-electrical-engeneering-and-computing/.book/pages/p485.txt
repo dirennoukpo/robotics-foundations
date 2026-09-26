@@ -1,0 +1,77 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+472    Graph theory
+
+
+
+
+Figure 19.26 A network.
+The weights on the arcs
+represent the capacity of the
+arc. s is the source and t is
+the sink.
+
+
+
+
+ ww                                 Finding a maximum flow
+                                     1. Assign an initial flow to each edge (this will probably be 0 flow on
+
+    w                 .Ea
+                                        each arc).
+                                     2. Find a flow-augmenting path from s to t. Any arc along this flow-
+                                        augmenting path may be either in the forward direction, that is,
+                                        in the same direction as the path, or in the backward direction,
+
+                         syE            that is, in the opposite direction to the path. If the arc along the
+                                        path is in the forward direction, then it must have some ‘extra’
+                                        capacity c(ak ) ⩾ f (ak ) then the extra capacity is represented by
+
+                                               ngi
+                                        k = c(ak ) − f (ak ). If the arc along the path is in the backward
+                                        direction, then f (ak ) must be greater than 0 and we assign the
+
+
+                                                   n
+                                        possible increase in flow k = f (ak ). We can then calculate the
+
+
+                                                                  eer
+                                        amount that this path can augment the flow by as  = minimum
+                                        (k ), where we consider all the values of along the path.
+                                     3. We can now change the value of the flow function along the flow-
+
+                                                                              ing
+                                        augmenting path to f (ak ) +  (for arcs in the forward direction
+                                        along the path) and f (ak ) −  (for arcs in the backward direction
+
+
+                                                                                            .ne
+                                        along the path). We then repeat the second stage and look for another
+                                        flow-augmenting path. If no more flow-augmenting paths exist, then
+
+
+                                                                                                t
+                                        we have found the maximum flow. This algorithm is due to Ford
+                                        and Fulkerson. It can take a long while to terminate on complicated
+                                        networks and better algorithms have been developed, for example,
+                                        the Dinic algorithm which is not given here. We can check that we
+                                        have in fact found the maximum flow in the network by finding
+                                        the minimum cut. The max-flow, min-cut theorem states that the
+                                        maximum value of a flow from s to t in a network is equal to the
+                                        minimum capacity of a cut separating s and t.
+
+
+
+
+                                    Example 19.3 Find the maximum flow from s to t in the network shown
+                                    in Figure 19.27(a). The weights on the arcs represent their capacities.
+
+
+                                    Solution We begin by identifying a flow-augmenting path s, e, t. As
+                                    initially we consider the flow function to be zero then the spare capacities
+                                    along the arcs are 12 and 14, the minimum of which is 12. We therefore
+                                    assign a flow of 12 along the path to get Figure 19.27(b).
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,78 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+496   Probability and statistics
+
+                                   though there were 47 values at 1350. This is an approximation that is not
+                                   too serious if the classes are not too wide.
+
+                                   Column 3: class frequency and the
+                                   total number in the sample
+                                   The class frequency is found by counting the number of data values that
+                                   fall within that class range. For instance, there are 47 values between
+                                   1300 and 1400. You have to decide whether to include values that fall
+                                   exactly on the class boundary in the class above or the class below. It
+                                   does not usually matter which you choose as long as you are consistent
+                                   within the whole data set.
+                                      The total number of values in the sample is given by the sum of the
+                                   frequencies for each class interval.
+
+
+
+ww                                 Column 4: fi xi and the mean of the
+                                   sample, x̄
+
+   w              .Ea
+                                   This is the product of the frequency and the class midpoint. If the class
+                                   midpoint is taken as a representative value for the class then fi xi gives
+                                   the sum of all the values in that class. For instance, in the eighth class,
+                                   with class midpoint 1650, there are 190 values. If we say that each of the
+
+                     syE           values is approximately 1650 then the total of all the values in that class is
+                                   1650×190 = 313 500. Summing this column gives the approximate total
+                                   value for the whole sample = 1 682 700 h. If we only used one light bulb
+
+                                               ngi
+                                   at a time and changed it when it failed then the 1000 light bulbs would last
+                                   approximately 1 682 700 h. The mean of the sample is this total divided
+
+
+                                                   n
+                                   by the number in the sample, 1000. Giving 1 682 700/1000 = 1682.7 h.
+
+
+                                                                 eer
+                                   The mean is a measure of the central tendency. That is, if you wanted a
+                                   simple number to sum up the lifetime of these light bulbs you would say
+
+
+                                                                              ing
+                                   that the average life was 1683 h.
+
+                                   Column 5: the cumulative frequency
+                                                                                            .ne
+                                   The cumulative frequency gives the number that falls into the current
+
+
+                                                                                                t
+                                   class interval or any class interval that comes before it. You could think
+                                   of it as ‘the number so far’ function. To find the cumulative frequency
+                                   for a class, take the number in the current class and add on the previous
+                                   cumulative frequency for the class below, for example, for 1900–2000
+                                   we have a frequency of 92. The cumulative frequency for 1800–1900 is
+                                   859. Add 859 + 92 to get the cumulative frequency of 951. That is, 951
+                                   light bulbs in the sample have a lifetime below 2000 h. Notice that the
+                                   cumulative frequency of the final class must equal the total number in the
+                                   sample. This is because the final class must include the maximum value
+                                   in the sample and all the others have lifetimes less than this.
+
+                                   Column 6: (xi − x̄ )2 , the squared
+                                   deviation
+                                   This column is used in the process of calculating the standard deviation
+                                   (see column 7). (xi − x̄) represents the amount that the class midpoint
+                                   differs from the mean of the sample. If we want to measure how spread
+                                   out around the mean the data are, then this would seem like a useful
+                                   number. However, adding up (xi − x̄) for the whole sample will just give
+                                   zero, as the positive and negative values will cancel each other. Hence,
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

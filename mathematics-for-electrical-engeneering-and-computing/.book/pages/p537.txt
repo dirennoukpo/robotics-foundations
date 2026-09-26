@@ -1,0 +1,91 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+  524     Probability and statistics
+Table 21.5 Time to failure of a sample of light bulbs compared with values obtained by modelling with the
+exponential distribution
+
+                             Data                                                     Model predictions
+
+ Time of       Class       Frequency      Cumulative         fi xi   F (x )   Probabilities   Cumulative      Frequency
+ failure (h)   mid-point                  frequency                                           frequency
+
+    0–200         100          260             260         26 000 0.269          0.269            269            269
+  200–400         300          194             454         58 200 0.466          0.197            466            197
+  400–600         500          154             608         77 000 0.609          0.143            609            143
+  600–800         700          100             708         70 000 0.714          0.105            714            105
+ 800–1000         900           80             788         72 000 0.791          0.077            719             77
+1000–1200        1100           60             848         66 000 0.847          0.056            847             56
+1200–1400        1300           38             886         49 400 0.888          0.041            888             41
+1400–1600        1500           33             919         49 500 0.918           0.03            918             30
+1600–1800        1700           23             942         39 100 0.940          0.022            940             22
+
+
+   ww
+1800–2000        1900           14             956         26 600 0.956          0.016            956             16
+2000–2200        2100           12             968         25 200 0.968          0.012            968             12
+2200–2400        2300           10             978         23 000 0.977          0.009            977              9
+2400–2600        2500            9             987         22 500 0.983          0.006            983              6
+
+
+      w
+2600–2800        2700
+
+
+                           .Ea
+                                13            1000         33 800 0.988
+
+                                                          638 300
+                                                                                 0.005            988              5
+
+
+
+
+                              syE
+  21.12 The
+  binomial                                           ngi
+                                         Consider a random system with a sequence of trials, the trials being
+                                         such that:
+
+  distribution
+                                         1.
+                                                         n
+                                            Each trial has two possible outcomes (e.g. non-defective, defective),
+
+
+                                                                        eer
+                                            which we assign the outcomes of 1 (success) and 0 (failure). This
+                                            type of trial is called a Bernoulli trial.
+                                         2. On each trial p(1) = θ and p(0) = 1 − θ and θ is the same on all
+                                            trials.
+                                                                                     ing
+                                         3. The outcome of the n trails are mutually independent.
+                                         pn (r) is the outcome of r successes in n trials and
+                                                                                                .ne
+                                         pn (r) =
+
+                                         where
+                                                   n r
+                                                   r
+                                                      θ (1 − θ)n−r
+                                                                                                      t
+                                          
+                                          n               n!       n(n − 1) . . . (n − r + 1)
+                                             = n Cr =            =                            .
+                                          r           (n − r)!r!               r!
+
+                                         Setting α = 1 − θ , the probability of r successes in n trials is given by
+                                         the rth term in the binomial expansion:
+
+                                                                          n(n − 1). 2 n−2
+                                         (θ + α)n = α n + nθ α n−1 +               θ α
+                                                                             2!
+                                                         n(n − 1) . . . (n − r + 1) r n−r
+                                                       +                           θ α    . . . + θ n.
+                                                                     r!
+                                         Hence, the term binomial distribution.
+
+                                         Example 21.14       In five tosses of a coin find the probability of obtaining
+                                         three heads.
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,81 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+398   Laplace and z transforms
+
+                                 conditions:
+                                     dy
+                                 3      + 4y = δ(t).
+                                     dt
+                                 Taking the Laplace transform of both sides of the equation we get
+
+                                 3(sY − y(0)) + 4Y = 1
+
+                                 As y(0) = 0,
+                                           1
+                                 Y =           = H (s).
+                                        3s + 4
+                                 To find the impulse response function we take the inverse transform of
+                                 the transfer function to find
+                                               
+                                                               −4t
+
+
+ww
+                                                    1
+                                 h(t) = L−1               =e 3 .
+                                                 3s + 4
+
+
+
+   w             .Ea
+                                 We now discover that we can find the system response to any input func-
+                                 tion f (t), with zero initial conditions, by using the transfer function.
+
+
+                                 Response of a system with zero initial
+                    syE          conditions to any input f (t )
+                                 Assuming all initial conditions are zero, that is, y (0) = 0 and y(0) = 0,
+
+                                              ngi
+                                 then the equation
+
+                                  d2 y
+                                 a 2 +b
+                                  dt
+                                        dy
+                                        dt        n
+                                           + cy = f (t)
+
+                                 transforms to become               eer
+                                 (as 2 + bs + c)Y (s) = F (s) ⇔ Y (s) =          ing      F (s)
+                                                                                                   .
+
+                                                                                               .ne
+                                                                                     as 2 + bs + c
+                                 We have just discovered that the transfer function, H (s), is given by
+
+                                 H (s) =
+                                                  1
+                                            as 2 + bs + c
+                                                          .                                        t
+                                 Then we find that
+
+                                 Y (s) = F (s)H (s).
+
+                                 In order to find the response of the system to the function f (t) we take the
+                                 inverse transform of this expression. We are able to use the convolution
+                                 property of Laplace transforms which states:
+                                     t
+                                 L       f (τ )g(t − τ ) dτ = F (s)G(s)
+                                        0
+
+                                 or equivalently
+                                                        t
+                                 L−1 {F (s)G(s)} =            f (τ )g(t − τ ) dτ .
+                                                        0
+                                              t
+                                 The integral 0 f (t) g(t − τ ) dτ is called the convolution of f and g
+                                 and can be expressed as f (t) ∗ g(t). So we find that the response of the
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

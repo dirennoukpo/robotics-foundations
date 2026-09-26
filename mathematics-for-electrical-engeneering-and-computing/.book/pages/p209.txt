@@ -1,0 +1,80 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+196   Vectors
+
+                      Example 9.7 Express the following as a single cosine term and give the
+                      amplitude and phase of the resultant function:
+                      x = 3 cos(2t) + 2 sin(2t).
+
+                      Solution Comparing x = 3 cos(2t) + 2 sin(2t) with the expression
+                      f (t) = c cos(ωt) − d sin(ωt) gives c = 3, d = −2 and ω = 2. Express-
+                      ing the vector (3, −2) in polar form gives 3.605∠−0.588 and hence
+                      x = 3.605 cos(2t − 0.588) giving the amplitude as 3.605 and phase
+                      as −0.588.
+                      Check: Expand x = 3.605 cos(2t − 0.588) using
+                      cos(A − B) = cos(A) cos(B) + sin(A) sin(B)
+                      3.605 cos(2t − 0.588) = 3.605 cos(2t) cos(0.588)
+                                                 + 3.605 sin(2t) sin(0.588)
+
+
+ww                                           = 3 cos(2t) + 2 sin(2t)
+                      which is the original expression.
+
+   w            .Ea   Example 9.8 Express the following as a single cosine term and hence
+                      give the magnitude and phase of the resultant function:
+
+
+                   syEy = −2 cos(t) − 4 sin(t)
+
+                      Solution Comparing y = −2 cos(t) − 4 sin(t) with the expression
+
+                                 ngi
+                      f (t) = c cos(ωt) − d sin(ωt) gives c = −2, d = 4, and ω = 1.
+                      Expressing the vector (−2, 4) in polar form gives 4.472 ∠ 2.034 and
+
+
+                                     n
+                      hence y = 4.472 cos(t + 2.034).
+
+
+                                                    eer
+                      Check: Expand y = 4.472 cos(t + 2.034) using cos(A + B) =
+                      cos(A) cos(B) − sin(A) sin(B) : 4.472 cos(t + 2.034) = 4.472 cos(t)
+
+
+                                                                ing
+                      cos(2.034) − 4.472 sin(t) sin(2.034) = −2 cos(t) − 4 sin(t).
+
+                      Example 9.9
+                      terms.
+                                                                              .ne
+                                      Express x = 3 cos(20t + 5) as the sum of cosine and sine
+
+
+
+
+                      d sin(ωt), giving x = 0.851 cos(20t) + 2.877 sin(20t).
+                                                                                  t
+                      Solution On representing x as the phasor 3 ∠5 with angular frequency
+                      20, 3 ∠5 converts to rectangular form as the vector (0.851, −2.877) and
+                      this now gives the values of (c, d) in the expression f (t) = c cos(ωt) −
+
+
+                      Example 9.10 Find the resultant wave found from combining the
+                      following into one term:
+                      f (t) = 3 cos(314t + 0.5) + 2 cos(314t + 0.9).
+
+                      Solution As both terms are of the same angular frequency,
+                      314 radians s−1 , we can express the two component parts by their
+                      amplitude and phase and then add the two vectors, giving 3 ∠0.5+2 ∠0.9.
+                         Expressing these in rectangular form gives (2.633, 1.438) +
+                      (1.243, 1.567) = (3.876, 3.005).
+                         Finally, expressing this again in polar form gives 4.904 ∠ 0.659, so the
+                      resultant expression is f (t) = 4.904 cos(314t + 0.659).
+                         This method is a shorthand version of writing out all the trigonomet-
+                      ric identities. It is even quicker if you use the polar – rectangular and
+                      rectangular – polar conversion facility on a calculator.
+
+
+                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

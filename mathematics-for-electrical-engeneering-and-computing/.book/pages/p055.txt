@@ -1,0 +1,65 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+42   Functions and their graphs
+
+
+
+
+Figure 2.19 The graph of the modulus function y = |x | obtained from the graph of y = x . (a) The graph of
+
+
+ ww
+y = x with the negative part of the graph displayed as a dotted line. This is reflected about the x-axis to give
+y = −x for x < 0. (b) The graph of y = |x |.
+
+
+
+    w
+2.8 Symmetry
+of functions and       .Ea              Functions can be classified as even, odd, or neither of these.
+
+
+
+their graphs              syE           Even functions
+                                        Even functions are those that can be reflected in the y-axis and then result
+
+
+                                        y = x2,     ngi
+                                        in the same graph. Examples of even functions are (see Figure 2.20):
+
+                                                    y = |x|,   y = x4.
+
+                                                        n               eer
+                                        As previously discussed, reflecting in the y-axis results from replacing x
+                                        by −x in the function expression and hence the condition for a function
+                                        to be even is that substituting −x for x does not change the function
+                                        expression, that is, f (x) = f (−x).
+                                                                                   ing
+                                        Example 2.6
+                                                                                                .ne
+                                                         Show that 3x 2 − x 4 is an even function. Substitute −x
+                                        for x in the expression f (x) = 3x 2 − x 4 and we get
+
+                                                                                                    t
+                                        f (−x) = 3(−x)2 − (−x)4 = 3(−1)2 (x)2 − (−1)4 (x)4 = 3x 2 − x 4 .
+
+                                        So, we have found that f (−x) = f (x) and therefore the function is even.
+
+
+
+                                        Odd functions
+                                        Odd functions are those that when reflected in the y-axis result in an
+                                        upside down version of the same graph. Examples of odd functions are
+                                        (see Figure 2.21):
+
+                                                                    1
+                                        y = x,    y = x3,      y=
+                                                                    x
+                                        Reflecting in the y-axis results from replacing x by −x in the function
+                                        expression and the upside down version of the function f (x) is found by
+                                        multiplying the function by −1. Hence, the condition for a function to be
+                                        odd is that substituting −x for x gives −f (x), that is,
+
+                                        f (−x) = −f (x).
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

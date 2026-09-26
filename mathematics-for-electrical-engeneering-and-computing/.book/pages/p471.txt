@@ -1,0 +1,57 @@
+                                       Downloaded From : www.EasyEngineering.net
+
+
+458       Vector calculus
+
+18.2. φ and ψ are scalar field functions of (x, y, z). Show             (a) F = xi + y 2 j, where C is the perimeter of a
+      the following vector identities:                                      rectangle ABCD where A = (0, 0), B = (0, 2),
+                                                                            C = (1, 2), and D = (1, 0);
+      (a) ∇(φψ) = φ∇ψ + ψ∇φ
+                                                                        (b) F = (x − y)i + (−x − y)j where C is the perimeter
+      (b) ∇ × (∇φ) = 0.
+                                                                            of the square given by 1 ⩽ x ⩽ 3 and 0 ⩽ y ⩽ 2;
+18.3. Calculate                                                         (c) F = (cos(y), sin(x)) where C is the region
+                                                                            bounded by the lines x = 0, x = 1, y = −π/2,
+          F · dr                                                            and y = π/2.
+      C
+
+      where                                                       18.6. For the following vector fields, F, use the divergence
+                                                                        theorem to evaluate the surface integrals over the
+      (a) F = (y 2 , x, zy) and C is along the line joining the         surface, S, indicated:
+          points A (2,0,0) and B (1,1,0),
+      (b) F = x 2 yi + 2xyj + 3xyzk and C is along the path
+          given by r = ti + (1 − t)j + tk for t from 1 to 3.            (a) F = xyi + yzj + xzk, where S is the surface of
+                                                                            the cube given by 0 ⩽ x ⩽ a, −a/2 ⩽ y ⩽ a/2,
+18.4. Find the work done by the force F = (3x, −2y, z) in
+                                                                            and −a ⩽ z ⩽ 0;
+      the displacement along the curve y = x, z = 2x 2 as x
+
+ ww   goes from 1 to 2.
+18.5. Use Green’s theorem in the plane to evaluate the
+                                                                        (b) F = zi − y 2 j and S is the surface of 0 ⩽ x ⩽ 4,
+                                                                            0 ⩽ y ⩽ 1 and 0 ⩽ z ⩽ y;
+                                                                        (c) F = (x + y, x − z, x 2 + z2 ) where S is the surface
+
+
+    w following line integrals clockwise around the given
+      closed curve
+
+
+                         .Ea
+                                                                            of a tetrahedron defined by the vertices (0,0,0),
+                                                                            (1,0,0), (0,1,0), and (0,0,1).
+
+
+
+
+                            syE
+                                                          ngi
+                                                              n              eer
+                                                                                           ing
+                                                                                                          .ne
+                                                                                                              t
+
+
+
+
+                                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

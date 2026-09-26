@@ -1,0 +1,85 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+238    Maxima and minima and sketching functions
+
+                                      We have shown that the maximum height is reached after 2 s. But what
+                                      is that height? Substituting t = 2 into the equation for s gives
+
+
+                                      s = 20(2) − 5(2)2 = 20 m
+
+
+                                      giving the maximum value of s as 20 m.
+                                        This example illustrates the important step in finding maximum and
+                                      minimum values of a function, y = f (x). That is, we differentiate and
+                                      solve
+
+                                      dy
+                                         =0
+                                      dx
+
+                                      This may give various values of x. The points where dy/dx = 0 are
+
+ ww                                   called the stationary points but having found these we still need a way
+                                      of deciding whether they could be maximum or minimum values. In the
+
+
+    w                  .Ea
+                                      example, we knew that a stone thrown into the air must reach a maximum
+                                      height and then return to the ground, and so by solving ds/dt = 0 we
+                                      would find the time at the maximum. Other problems may not be so clear
+                                      cut and thus we need a method of distinguishing between different types
+
+
+                          syE         of stationary points.
+                                         A stationary point is classified as either a local maximum, a local
+                                      minimum, or a point of inflexion. The plural of maximum is maxima
+
+
+                                                 ngi
+                                      and the plural of minimum is minima. The word ‘local’ is used in the
+                                      description, because local maxima or local minima do not necessarily give
+                                      the overall maximum or minimum values of the function. For instance,
+
+                                                     n
+                                      in Figure 11.1 there is a local maximum at B, but the value of y at x = x1
+
+                                                                   eer
+                                      is actually bigger; hence, the overall maximum value of the function in
+                                      the range is given by y at x1 .
+
+
+                                                                               ing
+                                         To see how to classify stationary points, examine Figure 11.1, where
+                                      points A, B, and C are all stationary points.
+                                         In order to analyse the slope of the function, imagine the function as
+
+                                      from left to right.                                   .ne
+                                      representing the cross-section of a mountain range and we are crossing it
+
+
+
+                                      curve is zero, that is, dy/dx = 0.                        t
+                                      At points A, B, and C in Figure 11.1, the gradient of the tangent to the
+
+                                      At A there is a local minimum, where the graph changes from going
+                                      downhill to going uphill.
+                                      At B there is a local maximum, where the graph changes from going
+                                      uphill to going downhill.
+
+
+
+
+Figure 11.1 A graph of
+some function y = f (x )
+plotted from x = x1 to x = x2 .
+Points A, B, and C in the
+graph are stationary points.
+They are points where the
+gradient of the tangent to the
+curve is zero, that is,
+dy/dx = 0.
+
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

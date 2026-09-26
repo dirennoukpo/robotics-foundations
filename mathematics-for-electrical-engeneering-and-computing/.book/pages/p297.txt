@@ -1,0 +1,95 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+284   Sequences and series
+                                         √
+                             Solution         5 is one solution to the equation x 2 = 5
+
+                             Step 1: Write the equation in the form f (x) = 0
+
+                             x2 = 5     ⇔         x2 − 5 = 0
+                                                                                      √
+                             Step √
+                                  2: Take a guess at the solution. We know that        5 is slightly bigger
+                             than 4 so take a first guess as x = 2.
+
+                             Steps 3 and 4: Calculate
+
+                                        f (x)
+                             x←x−
+                                        f  (x)
+
+
+
+ww                           until some convergence criterion is satisfied.
+                               As f (x) = x 2 − 5, f  (x) = 2x
+
+
+
+   w             .Ea
+                             x←x−
+                                        f (x)
+                                        f  (x)
+
+
+
+                    syE      gives
+
+                                        x2 − 5
+                             x←x−
+
+                                         ngi
+                                          2x
+                                               .
+
+
+
+
+                             x←
+                                     x2 + 5
+                                             n
+                             This can be written over a common denominator, giving
+
+
+                                                               eer
+                                       2x
+                                                                          ing
+                             which is the Newton–Raphson formula for solving x 2 − 5 = 0.
+
+                                                                    4+5                   .ne
+                             Start with x = 2
+
+
+                             Substitute x = 2.25
+                                                               x←
+
+
+                                                               x←
+                                                                     4
+
+                                                                    (2.25)2 + 5
+                                                                                              t
+                                                                                          x = 2.25
+
+
+                                                                                          x = 2.2361111
+                                                                      2(2.25)
+
+                                                                    (2.2361111)2 + 5
+                             Substitute x = 2.2361111          x←                         x = 2.236068
+                                                                      2(2.2361111)
+
+                                                                    (2.236068)2 + 5
+                             Substitute x = 2.236068           x←                         x = 2.236068
+                                                                      2(2.236068)
+                             We notice that in the last iteration there has been no change in the value
+                             of x, so we assume that the algorithm has converged, giving
+
+                             √
+                              5 = 2.236068 to 7 s.f.
+
+                               The sequence of values we have found is:
+                               2, 2.25, 2.2361111, 2.236068, 2.236068, and we need to stop at this
+                             point because the value of x has not changed in the last iteration.
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

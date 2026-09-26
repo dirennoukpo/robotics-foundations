@@ -1,0 +1,77 @@
+                       Downloaded From : www.EasyEngineering.net
+
+
+                                                     Trigonometric functions and waves               109
+
+                            which gives
+
+
+                            cos(kx + δ) + cos(kx + π − δ)
+                                                                                       
+                                        kx + δ + kx + π − δ         kx + δ − (kx + π − δ)
+                              = 2 cos                         cos
+                                                 2                            2
+                                            π         π
+                              = 2 cos kx +      cos δ −     .
+                                             2           2
+
+
+                               The standing wave has the same spatial frequency as the original waves.
+                            As cos(kx + π/2) = − sin(kx) and cos(δ − π/2) = sin(δ), this becomes
+                            −2 sin(kx) sin(δ). So, the instantaneous amplitude of the standing wave
+                            is 2 sin(δ) where δ is the phase of the incident wave.
+
+
+ww
+   w
+5.7 Inverse
+trigonometric     .Ea       From the graphs of the trigonometric functions, y = sin(x), y = cos(x),
+                            and y = tan(x), we notice that for any one value of y there are several
+                            possible values of x. This means that there are no inverse functions if all
+functions
+                     syE    input values for x are allowed. However, we can see on a calculator that
+                            there is a function listed above the sine button and marked as sin−1 , so is
+                            it in fact the inverse function?
+
+                                      ngi
+                                Try the following with the calculator in degree mode. Enter 60 and
+                            press sin, then press sin−1 . This is shown in Table 5.2(a). The same
+                            process is repeated for 120◦ and for −120◦ . However, for the latter two
+
+                                          n               eer
+                            cases the inverse function does not work.
+                                If we can restrict the range of values allowed into sin(x) to the range
+                            −90◦ to +90◦ , then sin−1 (x) is a true inverse.
+
+                                                                       ing
+                                The inverse function of y = sin(x) is defined as f (x) = sin−1 (x)
+                            (often written as arcsin(x) to avoid confusion with 1/ sin(x)). It is the
+
+Figure 5.20 Graph of
+y = sin−1 (x ).                                                                    .ne
+                            inverse function only if the domain of the sine function is limited to
+                            −π/2 ⩽ x ⩽ π/2. Thus, sin−1 (sin(x)) = x if x lies within the limits
+                            given above and sin(sin−1 (x)) = x if −1 ⩽ x ⩽ 1. The graph of
+                            y = sin−1 (x) is given in Figure 5.20.
+                                                                                       t
+                                f (x) = cos−1 (x) is the inverse of y = cos(x) if the domain of cos(x)
+                            is limited to 0 ⩽ x ⩽ π . cos−1 (cos(x)) = x if x is limited to the interval
+                            above and cos(cos−1 (x)) = x if −1 ⩽ x ⩽ 1. The graph of y = cos−1 (x)
+                            is given in Figure 5.21.
+                                f (x) = tan−1 (x) is the inverse of y = tan(x) if the domain of tan(x)
+                            is limited to −π/2 < x < π/2. Thus, tan−1 (tan(x)) = x if x is limited
+                            as above and tan(tan−1 (x)) = x for all x. The graph of y = tan−1 (x) is
+                            given in Figure 5.22.
+
+Figure 5.21 Graph of
+y = cos−1 (x ).               Table 5.2    sin and sin −1 on a calculator
+
+                                        (a)                    (b)                     (c)
+                              sin−1            sin     sin−1          sin     sin−1            sin
+
+                              60◦     →       0.8660   120◦    →     0.8660   −120◦   →      −0.8660
+                              60◦     ←       0.8660    60◦    ←     0.8660    −60◦   ←      −0.8660
+
+
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

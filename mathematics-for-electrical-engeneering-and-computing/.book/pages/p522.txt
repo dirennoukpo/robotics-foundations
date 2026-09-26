@@ -1,0 +1,65 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                             Probability and statistics             509
+
+
+
+
+ww
+   w
+Figure 21.11 A probability tree for three tosses of a coin.
+
+
+                      .Ea              The fourth property is one that is only true when the various repeated
+
+                         syE           trials are independent, that is, the result of the first trial has no effect on
+                                       the possible result of the second trial, etc.
+                                        4.
+
+                                                  ngi
+                                             For independent trials, the tree keeps repeating the same structure
+                                             with the same probabilities associated with the branches. Here, the
+                                             event of getting a head on the third toss is independent of the event
+
+
+
+                                       Example 21.7.
+                                                      n
+                                             of getting a head on the first or second toss.
+
+                                                                      eer
+                                       Using the tree we can find various probabilities, as we see in
+
+
+                                                                                    ing
+                                       Example 21.7 What is the probability on three tosses of the coin that
+                                       exactly two of them will be heads?
+
+                                                                                                  .ne
+                                       Solution Count up all the ways that we could have two heads and one
+
+                                       three possibilities:
+                                                                                                      t
+                                       tail, looking at the foot of the probability tree in Figure 21.11. We find
+
+
+                                       HHT, HTH, THH
+
+                                       each of these has probability of 18 . Therefore, the probability of exactly
+                                       two heads is 38 .
+
+
+                                       Picking balls from a bag without
+                                       replacement
+                                       We have 20 balls in a bag. Ten are red and ten are black. A ball is picked
+                                       out of the bag, its colour recorded and then it is not replaced into the bag.
+                                       There are two possible outcomes of each trial, red (R) or black (B). Let us
+                                       consider three trials and their associated outcomes in a probability tree,
+                                       as shown in Figure 21.12.
+                                          To find the probabilities we consider how many balls remain in each
+                                       case. If the first ball chosen is red then there are only 19 balls left of which 9
+                                       are red and 10 are black; therefore, the probability of picking a red ball on
+                                       the second trial is only 9/19 and the probability of picking black is 10/19.
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,148 @@
+                       Downloaded From : www.EasyEngineering.net
+
+
+420   Fourier series
+
+                           Solution
+
+                           Step 1
+
+                           We have already plotted the graph as shown in Figure 16.2.
+
+                           Step 2
+
+                           The fundamental period of this is τ = 2, so that ω0 = 2π/2 = π .
+
+                           Step 3
+
+                           Calculate a0 , an , and bn . We find
+
+                                                      
+
+ww                         a0 =
+                                2 τ/2
+                                τ −τ/2
+                                 0
+                                         f (t) dt =
+                                              1
+                                                     2 1
+                                                     2 −1
+                                                            f (t) dt
+
+
+
+   w              .Ea
+                              =
+                                
+                                 −1
+
+
+                              = − t
+                                     1
+                                     2
+                                    1 0
+                                       dt +
+                                       
+                                           +
+                                              0   2
+                                               −1
+                                                1
+                                                  1
+
+
+                                                  t
+                                                    dt
+
+                                                             1 1
+                                                       =− + =0
+
+                     syE   an =
+                                  
+                                    2 −1
+                                2 τ/2
+                                                2 0          2 2
+
+                                         f (t) cos(nω0 t) dt =
+                                                                   
+                                                                 2 1
+                                                                        f (t) cos(nπ t) dt
+
+
+                              =
+                                τ −τ/2
+                                 0
+                                       ngi
+                                       1
+                                     − cos(nπ t) dt +
+                                                          1
+                                                              1
+                                                                 2 −1
+
+                                                                cos(nπ t) dt
+                                
+                              = −
+                                 −1    2
+                                           n    
+                                    1 sin(nπ t) 0
+                                    2 nπ
+                                                     +
+                                                       
+                                                          0
+
+
+                                                          eer
+                                                              2
+                                                                     
+                                                         1 sin(nπ t) 1
+                                                         2 nπ
+
+                              =−
+                                                  −1
+
+                                                                      ing
+                                                                       0
+                                  1 sin(0) sin(−nπ ) 1 sin(nπ ) 1 sin(0)
+                                  2 nπ
+                                            +
+                                                   nπ
+                                                           +
+                                                              2 nπ
+                                                                         −
+                                                                             2 nπ
+                              = −0 + 0 + 0 − 0 = 0
+                                                                                   .ne
+                           bn =
+
+
+                              =
+                                2 τ/2
+                                τ −τ/2
+                                  
+                                2 1
+                                         f (t) sin(nω0 t) dt
+
+
+                                       f (t) sin(nπ t) dt
+                                                                                        t
+                                2 −1
+                                 0                        1
+                                       1                      1
+                              =      − sin(nπ t) dt +           sin(nπ t) dt
+                                 −1 2                      0 2
+                                                                  
+                                  1 cos(nπ t) 0           1 cos(nπ t) 1
+                              =                    + −
+                                  2 nπ          −1        2 nπ         0
+                                  1                          1
+                              =      (cos(0) − cos(−nπ )) +      (− cos(nπ ) + cos(0))
+                                2nπ                         2π n
+                                  1                  1
+                              =      (1 − (−1)n ) +     (−(−1)n + 1)
+                                2nπ                 2nπ
+                                 1
+                              =     (1 − (−1)n )
+                                nπ
+
+                           since cos(nπ ) = (−1)n .
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

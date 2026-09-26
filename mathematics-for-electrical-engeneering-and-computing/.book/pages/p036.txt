@@ -1,0 +1,79 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+22    Sets and functions
+
+                                      Example 1.20
+
+                                      f (x) = 2x + 1
+                                                   x−1
+                                      f −1 (x) =
+                                                    2
+
+                                      To show this is true, look at the combined function f −1 (f (x)) =
+                                      (2x + 1 − 1)/2 = x.
+
+
+
+                                      Finding the inverse of a linear function
+                                      One simple way of finding the inverse of a linear function is to:
+
+
+ ww                                   1.
+                                      2.
+                                           Decompose the operations of the function.
+                                           Combine the inverse operations (performed in the reverse order) to
+                                           give the inverse function.
+
+    w                   .Ea             This is a method similar to that used to solve linear equations in
+                                      Chapter 3 of the Background Mathematics Notes available on the
+                                      companion website for this book.
+
+                           syE        Example 1.21 Find the inverse of the function f (x) = 5x − 2.
+
+Figure 1.29 The top line                           ngi
+                                         The method of solution is given in Figure 1.29.
+                                         The inverse operations give that x = (y + 2)/5. Here y is the input
+represents the function
+f (x ) = 5x − 2 (read from left
+to right) and the bottom line
+the inverse function.
+                                                       n
+                                      value into the inverse function and x is the output value. To use x and y
+
+
+                                                                    eer
+                                      in the more usual way, where x is the input and y the output, swap the
+                                      letters giving the inverse function as
+
+
+                                      y=
+                                           x+2
+                                                                                ing
+                                            5
+
+                                                                                               .ne
+                                                                                                   t
+                                      This result can be achieved more quickly by rearranging the expression
+                                      so that x is the subject of the formula and then swap x and y.
+
+
+
+                                      Example 1.22       Find the inverse of f (x) = 5x − 2.
+
+                                      y = 5x − 2     ⇔      y + 2 = 5x
+                                                            y+2
+                                                     ⇔          =x
+                                                             5
+                                                               y+2
+                                                     ⇔      x=
+                                                                5
+
+                                      Now swap x and y to give y = (x + 2)/5. Therefore,
+
+                                      f −1 (x) = (x + 2)/5.
+
+
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

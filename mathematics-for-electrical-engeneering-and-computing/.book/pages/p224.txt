@@ -1,0 +1,71 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                           Complex numbers        211
+
+              (b)      (−4 + j2)∗ = −4 − j2
+            (−4 + j2)(−4 − j2) = (−4)(−4) + ( j2)(−4)
+                                       + (−4)(−j2) + ( j2)(−j2)
+                                   = 16 − j8 + j8 − j2 4
+                                   = 16 − j2 4   (using j2 = −1)
+                                   = 16 + 4 = 20
+            which is real and positive.
+              (c) −5 is a real number and therefore its complex conjugate is the same:
+            −5. (−5)∗ = −5 and (−5)(−5) = 25, which is real and positive.
+             (d) (j6)∗ = −j6
+            (j6)(−j6) = −j2 36 = 36
+
+
+ww          which is real and positive.
+              (e)
+                   (a + jb)∗ = a − jb
+
+   w.Ea
+            (a + jb)(a − jb) = (a)(a) + (jb)(a) + (a)(−jb) + (jb)(−jb)
+                               = a 2 + jab − jab − j2 b2 = a 2 − j2 b2
+
+
+       syE             using j2 = −1, this gives a 2 + b2
+            As a and b are real, this must be a real number. Also, we know that the
+            square of a real number is greater than or equal to 0. So a 2 + b2 is real,
+
+                        ngi
+            and it is positive if a = 0, b = 0 or zero if both a and b are zero.
+               It is a good idea to remember this last result that a + jb multiplied by
+
+
+                            n
+            its conjugate, a − jb, gives a 2 + b2 . That is, any number multiplied by
+
+
+                                           eer
+            its complex conjugate gives the sum of the square of the real part and the
+            square of the imaginary part. This is the same as the value of the modulus
+            of z squared,that is,
+            zz∗ = |z|2 .
+                                                      ing
+                                                                   .ne
+            Division of complex numbers
+                                                                       t
+            To divide complex numbers, we use the fact that a number times its
+            conjugate is real to transform the bottom line of the fraction to a real
+            number. If we multiply the bottom line by its complex conjugate, we must
+            also multiply the top line in order not to change the value of the number.
+
+            Example 10.7       Given z1 = 3 + j4 and z2 = 1 − j2, find z1 /z2 .
+            Solution
+            z1   3 + j4
+               =
+            z2   1 − j2
+                    (3 + j4)(1 + j2)
+               =
+                    (1 − j2)(1 + j2)
+            Here, we have multiplied the top and bottom line by z2∗ to make the bottom
+            line entirely real. Hence, we get
+            (3 + j4 + j6 + j2 8)   (−5 + j10)   −5 j10
+                                 =            =   +    = −1 + j2.
+                 (1 + 2 )
+                        2              5        5   5
+
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

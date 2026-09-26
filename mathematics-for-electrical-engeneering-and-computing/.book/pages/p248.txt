@@ -1,0 +1,106 @@
+                                             Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                         Complex numbers             235
+
+10.10 Exercises
+ 10.1. Given z1 = 1 − 2j, z2 = 3 + 3j, and z3 = −1 + 4j.                            (a) What is the other root?
+       (a) Represent z1 , z2 , and z3 , on an Argand diagram.                       (b) Find b and c.
+       (b) Find the following and show the results on the
+                                                                              10.8. Convert the following to polar form:
+           Argand diagram
+                                                                                    (a) 3 + j5       (b) − 6 + j3
+           (i) z1 + z2        (ii) z3 − z1     (iii) z1∗
+                                                                                    (c) − 4 − j5     (d) − 5 − j3.
+       (c) Calculate                                                          10.9. Express in rectangular (Cartesian) form
+            (i) z1 + z2 + z3        (ii) z1 − z3 + z2       (iii) z1 z1∗            (a) 5∠225◦      (b) 4∠330◦
+            (iv) z1 /z2             (v) z1 z3 .                                     (c) 2∠2.723     (d) 5∠ − 0.646.
+
+ 10.2. Simplify                                                              10.10. If x and y are real and 2x + y + j(2x − y) = 15 + j6,
+                                                                                    find x and y
+       (a) j8   (b) j11       (c) j28
+
+ww
+ 10.3. Find each of the following complex numbers in the
+       form a + jb, where a and b are real:
+                                                                             10.11. If z1 = 12∠3π/4 and z2 = 3∠2π/5, find:
+
+                                                                                    (a) z1 z2      (b) z1 /z2
+                                                                                                   (e) z1∗
+                                                                                                                (c) z1 + z2
+
+
+   w   (a) (3 − 7j)(2 + j4)
+
+       (d)
+             5 + j3
+                     −
+                       6
+                              .Ea   (b) (−1 + 2j)2         (c)
+                                                                 4 − j3
+                                                                  5−j
+                                                                                    (d) z2 − z1                 (f) z22 .
+
+                                                                                    giving the results in polar form.
+                                                                             10.12. If z = 2∠0.8, find z4 .
+           j(4 − j9)   j
+
+                                 syE
+ 10.4. Find the real and imaginary parts of z + 1/z , where
+       z = (3 + j)/(2 − j)
+                                                      2          2
+                                                                             10.13. Find the impedance of the circuit shown in
+                                                                                    Figure 10.23(a) at 90 kHz, where L = 4 mH, C =
+                                                                                    2 pF, and R = 400 k. Assuming a current source of
+
+ 10.5. Given that x and y are real and that 2x −3+j(y −x) =
+       x + j2, find x and y.                                         ngi            amplitude 5 A, calculate the voltage V and its relative
+                                                                                    phase.
+
+
+ 10.6. Find the roots x1 and x2 of the following quadratic
+       equations. In each case, find the product (x − x1 )(x −
+       x2 ) and show that the original equation is equivalent
+                                                                         n   10.14. Find the admittance of the circuit given in
+
+
+                                                                                        eer
+                                                                                    Figure 10.23(b) at 20 kHz given that R = 250 k,
+                                                                                    L = 20 mH, and C = 50 pF. Given that the voltage
+                                                                                    source has amplitude 10 V find the current, I , and its
+       to (x − x1 )(x − x2 ) = 0.
+
+       (a) x 2 − 3x + 2 = 0             (b) − 6 + 2x − x 2 = 0
+                                                                                    relative phase.
+
+                                                                                                      ing
+                                                                             10.15. Feedback is applied to an amplifier such that
+       (c) 3x 2 − x + 1 = 0
+       (e) 2x 2 + 3 = 0.
+                                        (d) 4x 2 − 7x − 2 = 0
+                                                                                    A =
+                                                                                              A
+                                                                                           1 − βA                    .ne
+ 10.7. The equation x + bx + c = 0 where b and c are real
+                          2
+
+       numbers, has one complex root, x = −1 + j3.
+                                                                                             
+                                                                                                                         t
+                                                                                    where A , A, and β are complex quantities. A is the
+                                                                                    amplifier gain, A the gain with feedback, and β the
+
+
+
+
+Figure 10.23 (a) Circuit for
+Exercise 10.13. (b) Circuit for
+Exercise 10.14.
+
+
+
+
+                                                     Figure 10.24          An amplifier with feedback, as in Exercise 10.15.
+
+
+                                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

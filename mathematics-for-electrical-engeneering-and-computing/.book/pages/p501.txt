@@ -1,0 +1,80 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+488   Language theory
+
+                                which allowed easy exchange of document information over the
+                                Internet which could be displayed by browsers specially built to
+                                interpret HTML.
+                                   eXtensible Markup Language (XML) is a meta-language, a tool for
+                                defining markup languages using tags enclosed in angle brackets < · · · >
+                                to start an element of the language and < / · · · > to close an ele-
+                                ment. The elements may have properties, called attributes, and child
+                                elements. The main reasons for the importance of the development
+                                of XML is:
+
+                                1.   XML is a tool for defining markup languages.
+                                2.   XML languages can be used to develop standards for the interchange
+                                     of data.
+                                3.   There are many XML parsers available which will check an XML
+                                     document for well-formedness and validity.
+                                4.   The structure of XML lends itself easily to a tree representation –
+
+ ww                                  showing the derivation tree of the document.
+
+                                   An XML document has an associated definition of the allowed
+
+    w               .Ea
+                                elements, element embeddings, that is, the possible parent-child relation-
+                                ships, and attributes. This is called a document type definition (DTD).
+                                The parser can check any XML document in two possible ways, either
+                                simply for well-formedness or it can also validate it against its DTD. A
+
+                       syE      well-formed document must follow the general rules for any XML doc-
+                                ument whereas a valid document must also agree with the constraints
+                                defined in its DTD. We give an example here of a well-formed document
+
+                                           ngi
+                                and not concern ourselves at present with the structure of a DTD.
+                                   We might want to represent the following information about books:
+
+
+                                               n
+                                Publisher, Title, Author, ISBN, Category. As all books have a publisher
+
+
+                                                              eer
+                                then we could say that a book is a child of the publisher. In this case, we
+                                could represent some information in the following XML fragment.
+
+                                      <publisher name=“The Book Company”>
+                                                                           ing
+                                         <book ISBN=“0–07–707975–2” category=“Engineering
+                                         Mathematics”>
+                                                <author>
+                                                                                        .ne
+                                                      <forename>Mary</forename>
+                                                      <surname>Attenborough</surname>
+                                                </author>
+                                                <title>
+                                                                                            t
+                                                      Engineering Mathematics for All
+                                                </title>
+                                         </book>
+                                         <book ISBN=“1–873432–07–0” category=“Food Hygiene”>
+                                                <author>
+                                                      <forename>John</forename>
+                                                      <surname>O’Brien</surname>
+                                                </author>
+                                                <title>
+                                                      Understanding Food Hygiene
+                                                </title>
+                                         </book>
+                                      </publisher>
+
+                                This fragment would constitute a well-formed XML document. We have
+Figure 20.4 Tree                indented it so it is clear the structure of document. We can see it as a tree
+representation of a             displayed with the root of the tree on the left-hand side – this is pictured
+well-formed XML document.
+                                in Figure 20.4.
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

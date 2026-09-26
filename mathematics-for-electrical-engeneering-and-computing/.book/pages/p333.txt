@@ -1,0 +1,71 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+320   Systems of linear equations, matrices, and determinants
+
+                                If we used elimination to attempt to solve an inconsistent system of
+                              equations like these, then we will find that we will get an impossible
+                              condition, such as
+
+                              0=3
+
+                              which is false. This situation indicates that there are no solutions and the
+                              equations are inconsistent.
+
+                              Example 13.23      Solve, using elimination
+
+                               x + 2y = 1
+                              2x + 4y = 5.
+
+                              Solution Multiply the first equation by 2 to give
+
+
+ww                             2x + 4y = 2
+                              2x + 4y = 5.
+
+   w              .Ea         Subtracting the equations, we get
+
+                              0 = −3.
+
+                     syE      This condition is false. This indicates that the system of equations are
+                              inconsistent and there are no solutions.
+
+                                          ngi
+                                We can express systems of equations in matrix form as
+
+                              Av = b
+                                              n             eer
+                              where A is the matrix of coefficients,
+
+                              v=
+                                   
+                                   x
+                                   y                                    ing
+                                                                                      .ne
+                              and b is the vector of constants on the right-hand side of the equations.
+                              For the three cases we have looked at in Examples 13.21–13.23, we get
+                              the following:
+                                 Case 1:
+
+                              3x + 4y = 7
+                                                                                          t
+                               x + 2y = 2
+
+                              which can be represented in matrix form as
+                                      
+                                3 4    x        7
+                                            =      .
+                                1 2    y        2
+
+                                Case 2:
+
+                               x + 2y = 1
+                              2x + 4y = 2
+
+                              which can be represented in matrix form as
+                                      
+                                1 2    x        1
+                                            =      .
+                                2 4    y        2
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

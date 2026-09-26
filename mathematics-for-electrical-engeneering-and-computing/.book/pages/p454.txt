@@ -1,0 +1,84 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                  Functions of more than one variable              441
+
+            so taking the limits in the expression above we get:
+
+            du   ∂u dx   ∂u dy
+               =       +       .
+            dt   ∂x dt   ∂y dt
+
+            This is the second version of the chain rule, where we are not just making a
+            change of variables but now we are limiting the direction of the derivative
+            to be along a particular path, such that x = g(t) and y = h(t). This is
+            the total derivative function along the path and du/dt is the gradient of
+            the tangent along the path defined by (x(t), y(t)).
+
+
+
+            Approximations
+            As we now have a way of determining the gradient along any given path as
+
+ww          du
+               =
+                 ∂u dx
+                       +
+                         ∂u dy
+                               .
+
+   w.Ea
+            dt   ∂x dt   ∂y dt
+
+            We can use this to estimate the value of the function near some known
+            value (x, y). In Chapter 7, we used the approximation that for small
+
+       syE  δx, δy/δx ≈ dy/dx. Therefore, along some known path we can use
+            δx/δt ≈ dx/dt, δy/δt ≈ dy/dt, and δu/δt ≈ du/dt. Substitute these
+            into the above chain rule above to get: δu/δt ≈ (∂u/∂x)(δx/δt) +
+
+                        ngi
+            (∂u/∂y)(δy/δt). As long as δt is not actually equal to 0, we can multiply
+            both sides of this equation by δt to get
+
+
+            δu ≈
+                   ∂u
+                   ∂x
+                      δx +  n
+                           ∂u
+                           ∂y
+                              δy.
+                                         eer
+            a known value.                            ing
+            This expression can be used to approximate the value of a function near
+
+
+                                                                   .ne
+            Example 17.4
+
+            1  1  1
+                                                                       t
+                             The focal length of a convex lens is given by
+
+
+              = +
+            f  p q
+
+            where p is the distance of some object and q the distance of its image,
+            measured in both case from the position of the lens. The maximum error
+            in measurement of distances is known to be 5%. If p and q are measured
+            as 10 and 2.5 cm, respectively, estimate the focal length of the lens and
+            the maximum error in your estimate.
+
+            Solution    We have p = 0.1 m and q = 0.025 m. Substituting for f gives
+
+            1    1     1
+              =     +
+            f   0.1 0.025
+                   1
+              ⇒      = 10 + 40 = 50
+                   f
+               ⇔       f = 0.02
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

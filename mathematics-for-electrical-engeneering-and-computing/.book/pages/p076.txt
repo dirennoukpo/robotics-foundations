@@ -1,0 +1,106 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                     Problem solving and the art of the convincing argument                     63
+
+Table 3.1 Truth table                Therefore, to express the fact that both L ⩾ 0 and L = LW + LG we can
+for the operation ‘and’.             write
+This table can also be
+expressed by                         L ⩾ 0 ∧ L = LW + LG
+T ∧ T ⇔ T,
+T ∧ F ⇔ F,
+F ∧ T ⇔ F,                           and the compound statement is true if each part is also true.
+F ∧ F ⇔ F . T stands                    As propositions can only be either true (T) or false (F), all possible
+for ‘true’ and F stands              outcomes of the operation can easily be listed in a small table called a
+for ‘false’                          truth table. The truth table for the operation of ‘and’ is given in Table 3.1.
+                                     p and q represent any two propositions, for instance, for some given
+p          q          p∧q            values of L, LW , and LG , p and q could be defined by:
+
+T          T               T         p: ‘L ⩾ 0’
+T          F               F
+F          T               F         q: ‘L = LW + LG ’
+F          F               F
+
+
+ww
+                                        Another important operation is that of ‘or’. One example of the use of
+                                     this operation comes about by solving a quadratic equation. One way of
+                                     solving quadratic equations is to factorize an expression which is equal
+
+
+   w              .Ea
+Table 3.2 Truth table
+                                     to 0.
+                                        To solve x 2 − x − 6 = 0, the left-hand side of the equation can be
+                                     factorized to give (x − 3)(x + 2) = 0.
+                                        Now we use the fact that for two numbers multiplied together to equal
+
+
+                     syE
+for ‘or’, This table can             0 then one of them, at least, must be 0, to give:
+also be expressed by
+T ∨ T ⇔ T,                           (x − 3)(x + 2) = 0      ⇔      (x − 3) = 0     or (x + 2) = 0
+T ∨ F ⇔ T,
+F ∨ T ⇔ T,
+F ∨F ⇔F
+                                                ngi
+                                     ‘or’ can be written using the symbol ∨. The compound statement is true
+                                     if either x − 3 = 0 is true or if x + 2 = 0 is true. Therefore, to express
+p
+
+T
+           q
+
+           T
+                      p∨q
+
+                           T
+                                                    n
+                                     the statement that either x − 3 = 0 or x + 2 = 0 we can write:
+
+                                     (x − 3) = 0 ∨ (x + 2) = 0
+                                                                   eer
+T
+F
+F
+           F
+           T
+           F
+                           T
+                           T
+                           F                                                    ing
+                                     ∨ is also called ‘non-exclusive or’ because it is also true if both parts of
+                                     the compound statement are true. This usage is unlike the frequent use of
+
+                                                                                              .ne
+                                     ‘or’ in the English language, where it is often used to mean a choice, for
+                                     example, ‘you may have either an apple or a banana’ implies either one
+
+                                     ‘exclusive or’.
+                                                                                                  t
+                                     or the other but not both. This everyday usage of the word ‘or’ is called
+
+                                        The truth table for ‘or’ is given in Table 3.2.
+                                        A further operation is that of ‘not’ which is represented by the
+                                     symbol ¬. For instance, we could express the sentence ‘x is not bigger
+                                     than 4’ as ¬(x > 4).
+Table 3.3 The truth                     The truth table for ‘not’ is given in Table 3.3.
+table for ‘not’, ¬. This
+table can also be
+expressed by                         Example 3.4      Assign truth values to the following:
+¬T ⇔ F , ¬F ⇔ T
+                                     (a)   x − 2 = 3 ∧ x 2 = 4 when x = 2
+                                     (b)   x − 2 = 3 ∨ x 2 = 4 when x = 2
+p                          ¬p
+                                     (c)   ¬(x − 4 = 0) when x = 4
+                                     (d)   ¬((a − b) = 4) ∨ (a + b) = 2 when a = 5, b = 3
+T                          F
+F                          T
+                                     Solution
+
+                                     (a) x − 2 = 3 ∧ x 2 = 4 when x = 2
+
+                                     Substitute x = 2 into the predicate, x − 2 = 3 ∧ x 2 = 4 and we get
+                                     2 − 3 = 3 ∧ 22 = 4.
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

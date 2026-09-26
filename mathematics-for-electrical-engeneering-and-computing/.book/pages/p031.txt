@@ -1,0 +1,74 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+                                                                        Sets and functions    17
+
+                     Example 1.14 Find a table of values for the function defined by the
+                     recurrence relation:
+
+                     f (n) = f (n − 1) + 2                                                   (1.1)
+
+                     where f (0) = 0.
+                     Solution Assuming that the function is defined for n = 0, 1, 2, . . . then
+                     we can take successive values of n and find the values taken by the
+                     function. n = 0 gives f (0) = 0 as given.
+                       Substituting n = 1 into Equation (1.1) gives
+
+                     f (1) = f (1 − 1) + 2
+                        ⇔     f (1) = f (0) + 2 = 0 + 2 = 2 (using f (0) = 0)
+
+                     hence, f (1) = 2.
+
+ww                     Substituting n = 2 into Equation (1.1) gives
+
+                     f (2) = f (2 − 1) + 2
+
+   w     .Ea
+                     ⇔ f (2) = f (1) + 2
+                     ⇔ f (2) = f (1) + 2 = 2 + 2 = 4 (using f (1) = 2)
+
+
+
+            syE      hence, f (2) = 4.
+                       Substituting n = 3 into Equation (1.1) gives
+
+
+
+                               ngi
+                     f (3) = f (3 − 1) + 2
+                     ⇔ f (3) = f (2) + 2 = 4 + 2 (using f (2) = 4)
+
+
+                                   n
+                     hence, f (3) = 6.
+
+                                                   eer
+                       Continuing in the same manner gives the following table:
+
+                            n 0 1 2 3 4 5 6 7 8 9 10 · · · n · · ·
+                                                                     ing
+                            f 0 2 4 6 8 10 12 14 16 18 20 . . . 2n · · ·
+
+                                                                               .ne
+                        Notice we have filled in the general term f (n) = 2n. This was found
+                     in this case by simple guess work.
+
+                                                                                   t
+1.5 Combining        The sum, difference, product, and
+functions            quotient of two functions, f and g
+                     Two functions with R as their domain and codomain can be combined
+                     using arithmetic operations. We can define the sum of f and g by
+
+                     (f + g) : x  → f (x) + g(x)
+
+                       The other operations are defined as follows:
+
+                     (f − g) : x  → f (x) − g(x)         difference,
+                     (f × g) : x  → f (x) × g(x)         product,
+                                      f (x)
+                     (f /g) : x  →           quotient.
+                                      g(x)
+
+
+
+                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

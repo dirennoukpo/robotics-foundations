@@ -1,0 +1,76 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                     Complex numbers          221
+
+
+
+
+Figure 10.16 If we observe the ball from the position of the eye in Figure 10.16(a), we can only see the
+motion in the vertical direction and the ball appears to oscillate up and down as shown in Figure 10.16(b).
+Also shown is the graph of y against time, t : y = r sin(ωt ).
+
+
+                                         We differentiate y = r sin(ωt) to get the component of velocity in the
+                                       y-direction:
+
+
+ww                                      dy
+                                        dt
+                                           = rω cos(ωt)
+
+
+
+   w                  .Ea               d2 y
+                                        dt 2
+                                            Differentiate again to find the acceleration:
+
+                                             = −rω2 sin(ωt)
+
+
+                         syE           and as y = r sin(ωt)
+
+                                        d2 y
+                                        dt 2
+                                             = −ω2 y
+
+                                                    ngi
+                                          Notice that this is the same equation as we had for x. We can represent
+
+                                                        n
+                                       the motion, both in the x- and y-directions by using a complex number
+
+                                                                      eer
+                                       to represent the rotating vector. The real part of z represents the position
+                                       in the x-direction and the imaginary part of z represents the position in
+                                       the y-direction:
+
+                                       z = x + jy = r cos(ωt) + jr sin(ωt)         ing
+                                       Then
+                                                                                              .ne
+                                        dz
+                                        dt
+                                           = −rω sin(ωt) + jrω cos(ωt)
+                                                                                                  t
+                                       The real part of dz/dt represents the component of velocity in the
+                                       x-direction and the imaginary part represents the velocity in the y-
+                                       direction. Again, we can differentiate to find the acceleration
+
+                                        d2 z
+                                             = −rω2 cos(ωt) − jrω2 sin(ωt)
+                                        dt 2
+                                              = −ω2 (r cos(ωt) + jr sin(ωt)) = −ω2 z
+
+                                       as
+
+                                       z = r cos(ωt) + jr sin(ωt)
+
+                                       So, we get
+
+                                        d2 z
+                                             = −ω2 z
+                                        dt 2
+                                          This shows that the acceleration operates along the length of the vector
+                                       z towards the origin and it must be of magnitude |−ω2 z| = ω2 r where r is
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

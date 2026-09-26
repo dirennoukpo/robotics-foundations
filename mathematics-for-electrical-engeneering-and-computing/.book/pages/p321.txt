@@ -1,0 +1,94 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+308    Systems of linear equations, matrices, and determinants
+
+                                      Solution The effect of rotating the axes through 30◦ is found by
+                                      multiplying the position vectors of the points by
+                                                                                
+                                         cos(30◦ )     sin(30◦ )     0.866    0.5
+                                                                  =                  .
+                                        sin(−30◦ )     cos(30◦ )     −0.5    0.866
+
+                                       To find the coordinates of the unit square relative to the new axes, we
+                                      multiply the position vectors of the vertices by this matrix
+                                                          
+                                       0.866        0.5    0    0
+                                                             =
+                                        −0.5       0.866   0    0
+                                                                 
+                                        0.866       0.5    1    0.866
+                                                             =
+                                        −0.5       0.866   0    −0.5
+                                                                 
+                                        0.866       0.5    1    1.366
+                                                             =
+                                        −0.5
+
+ ww
+                                                   0.866   1    0.366
+Figure 13.4 (a) The unit                                         
+square with vertices A(0,0),            0.866       0.5    0      0.5
+                                                             =          .
+B(1,0), C (1,1) D(0,1) relative         −0.5       0.866   1    0.866
+
+    w
+to axes Ox, Oy. (b) The same
+
+
+                       .Ea
+unit square shown relative to
+axes OX, OY found by rotating
+Ox, Oy through 30◦ .
+                                      This is shown in Figure 13.4.
+
+
+
+                          syE         Reflection
+                                      To perform a reflection in the x-axis, we multiply the position vectors of
+                                      the points
+                                       
+                                       x               ngi
+                                       y
+
+                                      by the matrix
+                                                           n       eer
+                                      
+                                          1   0
+                                              −1
+                                                   
+                                                                               ing
+                                                                                            .ne
+                                          0
+
+                                      This has the effect of keeping the x-coordinate the same whilst changing
+
+
+                                      of the points
+                                                                                                t
+                                      the sign of the y-coordinate, hence turning the object upside down.
+
+
+                                       
+                                         To perform a reflection in the y-axis, we multiply the position vectors
+
+
+                                       x
+                                       y
+
+                                      by the matrix
+                                           
+                                       −1 0
+                                        0 1
+
+                                      which keeps the y-value constant while changing the sign of the
+                                      x-coordinate. The effect on the unit square is shown in Figure 13.5.
+
+Figure 13.5 (a) The unit
+square with vertices A(0,0),          Translation
+B(1,0), C (1,1) D(0,1). (b) The
+same unit square after                Translation in the plane cannot be represented by multiplying by a 2 × 2
+reflection in the x axis. (c)         matrix. To perform a translation, we add the vector representing the
+After reflection in the y axis.       translation to the original position vectors of the points.
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

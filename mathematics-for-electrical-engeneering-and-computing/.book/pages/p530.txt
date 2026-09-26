@@ -1,0 +1,80 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+                                                                       Probability and statistics         517
+
+
+21.10 The                           The normal distribution is symmetric about its mean. It is bell-shaped
+                                    and the fatness of the bell depends on its standard deviation. Examples
+normal                              are given in Figure 21.20 and 21.21.
+distribution                           The normal distribution is very important because of the following
+                                    points:
+                                    1.   Many practical distributions approximate to the normal distribution.
+                                         Look at the histograms of lifetimes given in Figure 21.3 and of resis-
+                                         tances given in Figure 21.4 and you will see that they resemble the
+                                         normal distribution. Another common example is the distribution
+                                         of errors. If you were to get a large group of students to measure
+                                         the diameter of a washer to the nearest 0.1 mm, then a histogram of
+                                         the results would give an approximately normal distribution. This is
+                                         because the errors in the measurement are normally distributed.
+                                    2.   The central limit theorem. If we take a large number of samples from
+
+
+ww                                       a population and calculate the sample means then the distribution of
+                                         the sample means will behave like the normal distribution for all pop-
+                                         ulations (even those populations which are not distributed normally).
+
+
+   w                  .Ea
+                                         This is as a result of what is called the central limit theorem. There
+                                         is a project exploring the behaviour of sample means given in the
+                                         Projects and Investigations available on the companion website for
+                                         this book.
+
+
+                         syE        3.   Many other common distributions become like the normal distribu-
+                                         tion in special cases. For instance, the binomial distribution, which
+                                         we shall look at in Section 21.12, can be approximated by the normal
+
+
+                                               ngi
+                                         when the number of trials is very large.
+
+
+
+                                                   n
+                                    Finding probabilities from
+                                    a continuous graph
+                                                                 eer
+                                                                             ing
+                                    Before we look at the normal distribution in more detail we need to find
+                                    out how to relate the graph of a continuous function to our previous idea
+                                    of probability. In Section 21.3, we identified the probability of a class
+
+                                                                                          .ne
+                                    with its relative frequency in a frequency distribution. That was all right
+                                    when we had already divided the various sample values into classes.
+
+
+                                                                                              t
+                                    The problem with the normal distribution is that is has no such divisions
+                                    along the x-axis and no individual class heights, just a nice smooth curve.
+
+
+
+
+Figure 21.20 A normal
+distribution with µ = 0 and
+σ = 1 (called the standard
+normal distribution N(0,1)).
+
+
+
+
+Figure 21.21 Normal
+distribution with µ = 2 and
+σ = 3.
+
+
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

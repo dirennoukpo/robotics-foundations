@@ -1,0 +1,85 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+498   Probability and statistics
+
+
+
+
+Figure 21.3   Histogram of the lifetimes of a sample of light bulbs
+
+
+
+
+ ww                                    where xi is a representative value for the class and fi is the class frequency.
+                                       The summation is over all classes.
+                                          If the data have not been grouped into classes then the mean is found
+
+    w                 .Ea
+                                       by summing all the individual data values and dividing by the number in
+                                       the sample:
+
+                                       x̄ =
+                                             1
+                                                   xi
+
+                         syE                 n
+                                                i
+
+                                       where the summation is now over all sample values
+
+
+                                                    ngi
+                                       Dispersion – the standard deviation
+
+
+                                       v = σ2 =
+                                                 1     n
+                                       The variance is the mean square deviation given by
+
+
+                                                 n                    eer
+                                                        fi (xi − x̄)2 =
+                                                                         fi
+                                                                           n
+                                                                             (xi − x̄)2
+                                                        i                  i
+
+                                                                                   ing
+                                       where x̄ is the sample mean, xi is a representative value for the class, fi
+
+                                       is the same as
+                                                                                                 .ne
+                                       is the class frequency, and the summation is over all classes. This value
+
+                                                   1
+                                       v = σ2 =
+                                                   n
+                                                        i
+                                                         fi xi2 − x̄ 2
+
+                                       which can some times be quicker to calculate.
+                                                                                                     t
+                                         For data not grouped into classes we have
+                                                  1
+                                       v = σ2 =        (xi − x̄)2
+                                                 n
+                                                        i
+                                       or
+                                                    1 2
+                                       v = σ2 =       xi − x̄ 2
+                                                    n
+                                                        i
+
+                                       where the summation is now over all sample values.
+                                         The standard deviation is given by the square root of the variance:
+                                           
+                                              1
+                                       σ =         fi (xi − x̄)2 .
+                                              n
+                                                    i
+
+                                          We have already calculated the average lifetime and the standard devia-
+                                       tion of the lifetimes of the sample of light bulbs. We repeat the calculation
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,69 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+258    Sequences and series
+
+                                       picture is scanned 30 times per second whereas the wheel on the car is
+                                       probably revolving in excess of 30 times per second. The sample rate is
+                                       insufficient to give a good representation of the movement of the wheel.
+                                       The sampling theorem states that the sampling interval must be less than
+                                       T = 1/(2f ) seconds in order to be able to represent a frequency of
+                                       f hertz.
+                                       Example 12.4 Represent the function y = 4 cos(10π t) as a sequence
+                                       using a sampling interval of T = 0.01. What is the maximum sampling
+                                       interval that could be used to represent this signal?
+                                       Solution The digital representation of y = 4 cos(10π t) is given by
+                                       y(0.01n) = 4 cos(0.1π n).
+                                       Substituting some values for n gives (to 3 s.f.)
+
+                                       n 01      2     3     4     5 6       7      8      9      10
+                                       y 1 0.951 0.809 0.588 0.309 0 −0.309 −0.588 −0.809 −0.951 −1
+
+ ww                                    The maximum sampling interval that could be used is 1/(2f ) where f ,
+
+    w                   .Ea
+                                       the frequency in this case, is 5, giving T = 1/(2 × 5) = 0.1.
+                                       Example 12.5 A triangular wave of period 2 is given by the function
+                                       f (t) = t   0⩽t <1
+
+
+                           syE         f (t) = 2 − t 1 ⩽ t < 2.
+                                          Draw a graph of the function and give a sequence of values for t ⩾ 0
+
+
+                                                   ngi
+                                       at a sampling interval of 0.1.
+                                       Solution To draw the continuous function, use the definition y = t
+                                       between t = 0 and 1 and draw the function y = 2 − t in the region where
+
+                                                       n
+                                       t lies between 1 and 2. The function is of period 2 so that section of the
+
+                                                                      eer
+                                       graph is repeated between t = 2 and 4, t = 4 and 6, etc.
+                                          The sequence of values found by using a sampling interval of 0.1 is
+
+                                       a(n) = 0.1n                                  ing
+                                       given by substituting t = T n = 0.1n into the function definition, giving
+                                                           0 ⩽ 0.1n < 1 (for n between 0 and 10)
+                                       a(n) = 2 − 0.1n 1 ⩽ 0.1n < 2 (for n between 10 and 20).
+                                       The sequence then repeats periodically.                    .ne
+                                          This gives the sequence:
+                                                                                                      t
+                                       0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4,
+                                       0.3, 0.2, 0.1, 0, 0.1, 0.2, . . .
+                                          The continuous function is plotted in Figure 12.4(a) and the digital
+                                       function in Figure 12.4(b).
+
+
+
+
+Figure 12.4 (a) A triangular
+wave of period 2 given by
+f (t ) = t , 0 < t ⩽ 1, f (t ) =
+2 − t , 1 < t < 2. (b) The
+function sampled at a
+sampling interval of 0.1.
+
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

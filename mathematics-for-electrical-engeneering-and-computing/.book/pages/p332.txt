@@ -1,0 +1,68 @@
+                             Downloaded From : www.EasyEngineering.net
+
+
+                                  Systems of linear equations, matrices, and determinants                      319
+
+                                    If we try to use elimination to solve the equations
+
+                                  x + 2y = 1
+                                  2x + 4y = 2
+
+                                  we find that one equation reduces to 0 = 0, that is, a condition that is
+                                  always true.
+
+                                  Example 13.22      Solve, using elimination:
+
+                                   x + 2y = 1
+                                  2x + 4y = 2.
+
+
+                                  Solution
+
+ww                                 x + 2y = 1
+                                  2x + 4y = 2
+
+   w               .Ea            multiply the first equation by 2 to give
+
+
+
+                      syE         2x + 4y = 2
+                                  2x + 4y = 2
+
+                                             ngi
+                                  On subtraction we get
+
+                                  0=0
+                                                 n              eer
+                                  which is always true, thus indicating that the system of equations is
+
+                                  x + 2y = 1.                                ing
+                                  indeterminate. The solutions are therefore any points lying on the line
+
+
+
+                                  solutions at all. Such a system is as follows:          .ne
+                                    The third possibility for a system of equations is one that has no
+
+
+                                   x + 2y = 1
+                                  2x + 4y = 5
+                                                                                              t
+                                  If we plot these equations we find that they are parallel, as in Figure 13.16.
+                                     From the geometrical interpretation, it is therefore clear that no solution
+                                  exists to this system of equations as no point on the line x +2y = 1 lies on
+                                  the line 2x + 4y = 5. We say that the system of equations is inconsistent
+                                  because no solutions exist.
+
+
+
+
+Figure 13.16 The graphs of
+x + 2y = 1 and 2x + 4y = 5
+are parallel. There are no
+points in common between
+the two graphs.
+
+
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

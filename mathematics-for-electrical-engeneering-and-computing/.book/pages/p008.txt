@@ -1,0 +1,105 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+vi   Contents
+
+                          3.8    Other applications of predicates                   72
+                          3.9    Summary                                            73
+                          3.10   Exercises                                          74
+
+                      4   Boolean algebra                                           76
+                          4.1    Introduction                                       76
+                          4.2    Algebra                                            76
+                          4.3    Boolean algebras                                   77
+                          4.4    Digital circuits                                   81
+                          4.5    Summary                                            86
+                          4.6    Exercises                                          86
+
+                      5   Trigonometric functions and waves                          88
+                          5.1    Introduction                                        88
+                          5.2    Trigonometric functions and radians                 88
+
+
+ ww                       5.3
+                          5.4
+                          5.5
+                                 Graphs and important properties
+                                 Wave functions of time and distance
+                                 Trigonometric identities
+                                                                                     91
+                                                                                     97
+                                                                                    103
+
+    w           .Ea
+                          5.6
+                          5.7
+                          5.8
+                                 Superposition
+                                 Inverse trigonometric functions
+                                 Solving the trigonometric equations sin x = a,
+                                 cos x = a, tan x = a
+                                                                                    107
+                                                                                    109
+
+                                                                                    110
+
+                   syE    5.9    Summary
+                          5.10 Exercises
+                                                                                    111
+                                                                                    113
+
+                      6
+                                 ngi
+                          Differentiation
+                          6.1    Introduction
+                                                                                    116
+                                                                                    116
+                          6.2
+
+                          6.3
+                          6.4
+                                     n
+                                 The average rate of change and the gradient of a
+                                 chord
+                                                 eer
+                                 The derivative function
+                                 Some common derivatives
+                                                                                    117
+                                                                                    118
+                                                                                    120
+                          6.5
+                                                             ing
+                                 Finding the derivative of combinations of
+                                 functions                                          122
+                          6.6
+                          6.7
+                                 Applications of differentiation
+                                 Summary
+                                                                         .ne        128
+                                                                                    130
+
+
+                                                                             t
+                          6.9    Exercises                                          131
+
+                      7   Integration                                               132
+                           7.1   Introduction                                       132
+                           7.2   Integration                                        132
+                           7.3   Finding integrals                                  133
+                           7.4   Applications of integration                        145
+                           7.5   The definite integral                              147
+                           7.6   The mean value and r.m.s. value                    155
+                           7.7   Numerical Methods of Integration                   156
+                           7.8   Summary                                            159
+                           7.9   Exercises                                          160
+
+                      8   The exponential function                                  162
+                          8.1    Introduction                                       162
+                          8.2    Exponential growth and decay                       162
+                          8.3    The exponential function y = et                    166
+                          8.4    The hyperbolic functions                           173
+                          8.5    More differentiation and integration               180
+                          8.6    Summary                                            186
+                          8.7    Exercises                                          187
+
+                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

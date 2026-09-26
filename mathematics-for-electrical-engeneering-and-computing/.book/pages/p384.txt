@@ -1,0 +1,88 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                    Differential equations and difference equations               371
+
+            On dividing both sides by ejωt (which is non-zero), we get
+
+            c(−mω2 + jrω + k) = F0 .
+
+            Hence
+
+            c = F0 /(−mω2 + jrω + k)
+
+            giving the steady state solution as
+
+                     F0 ejωt
+            x=
+                  −mω2 + jrω + k
+
+            We are interested in the magnitude of the oscillations, which is given by
+                              
+                   F0         
+                              
+             −mω2 + jrω + k  .
+
+ww          We can find this by taking the magnitude of the top and bottom lines.
+
+
+   w
+            From Chapter 14 we know that    the magnitude of a complex number,
+            z = x + jy, is given by r = x 2 + y 2 . Hence, we find the amplitude
+
+    .Ea     of the oscillations in response to a single frequency of input of angular
+            frequency is given by
+
+
+       syE  
+                       F0
+                (mω2 − k)2 + r 2 ω2
+                                      .
+
+
+
+                          ngi
+            This was plotted in Figure 11.10 for the case m = k = 1 and various
+            values of r (there called c). If the damping, r, is quite small then we can
+
+                     F       n
+            set it to be effectively 0. In this case
+
+                    
+                    
+                      k −
+                           0
+                           ω 2m             eer
+                                   for ω2 < k/m
+            |x| =
+                     F0
+                    
+                      ω2 m − k
+                                   for ω2 > k/m
+                                                      ing
+            In which case there is an infinite discontinuity at
+                                                                  .ne
+            ω=
+                    k
+                    m
+                      .
+                          √
+                                                                      t
+            We see that k/m represents the natural angular frequencies of m the
+            system in the case where r is 0. We can show this by examining the
+            solution to the homogeneous in the case where r = 0.
+
+            mx  + kx = 0 has auxiliary equation
+            mλ2 + k = 0
+                ⇔     λ2 = −k/m
+
+            and setting λ = jω0 we find that ω02 = k/m and the complementary
+            function x = A cos(ω0 t) + B sin(ω0 t).
+               We can see from this limiting case that if the damping constant is
+            small and the oscillations of the forcing function are near to the natu-
+            ral oscillations of the underdamped system then we have a situation of
+            resonance where the magnitude of the response can become very large.
+            This effect has led to the destruction of some physical systems before the
+            phenomenon of resonance was well understood.
+
+                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

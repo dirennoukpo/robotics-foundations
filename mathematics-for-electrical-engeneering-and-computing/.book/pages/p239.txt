@@ -1,0 +1,71 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+226   Complex numbers
+
+
+                            We have shown that
+10.8 The
+importance of               r ejθ = r cos(θ) + jr sin(θ) = r∠θ
+being                       Here r is the modulus of the complex number and θ is the argument.
+exponential                 Therefore, the exponential form is simply another way of writing the polar
+                            form. The advantage of the exponential form is its simplicity. For circular
+                            motion, at constant angular velocity, it can represent the motion both in
+                            the real and imaginary (x and y) directions in one simple expression
+                            r ejωt . The rules for multiplication and powers of complex numbers in
+                            exponential form are given by the rules of powers, as for any other number,
+                            given in Chapter 4 of the Background Notes in Mathematics available on
+                            the companion website for this book, thus confirming the rules that we
+                            gave for the polar form.
+                               Multiplication:
+
+ww                          r1 ejθ1 r2 ejθ2 = r1 r2 ej(θ1 +θ2 )
+
+
+   w            .Ea
+                            That is, we multiply the moduli and add the arguments.
+                              Division:
+
+                            r1 ejθ1  r1
+                                    = e(θ1 −θ2 )
+
+                   syE      r2 ejθ2  r2
+                               That is, we divide the moduli and subtract the arguments.
+
+
+                            is r e−jθ
+                                          ngi
+                               The complex conjugate is of a number r ejθ is the number of same
+                            modulus and negative argument. That is, the complex conjugate of r ejθ
+
+                               Powers:
+                                              n
+                            (r ejθ )n = r ejnθ .                  eer
+                                                                         ing
+                            That is, to raise a complex number to the power n, take the nth power of
+                            its modulus and multiply its argument by n.
+
+                                                                                    .ne
+                            Example 10.18 Given z1 = 3 ej(π/6) z2 = 2 ej(π/4) , Find z1 +z2 , z1 −z2 ,
+                            z1 z2 , z1 /z2 , z1∗ z2∗ and z13 .
+                            Solution To find z1 + z2 , use r ejθ = r(cos(θ ) + j sin(θ))
+                                               π               π 
+                                                                                        t
+                            z1 = 3 ej(π/6) = 3 cos       + j sin        ≈ 2.5981 + j1.5
+                                                    6              6
+                                               π               π 
+                            z2 = 2 ej(π/4) = 2 cos       + j sin        ≈ 1.4142 + j1.4142
+                                                    4              4
+                            Therefore,
+
+                            z1 + z2 ≈ 2.5981 + j1.5 + 1.4142 + j1.4142 = 4.0123 + j2.9142
+                                                                                   
+                               To express z1 + z2 back in exponential form, use r = x 2 + y 2 and
+                            θ = tan−1 (y/x) (+π if x is negative)
+                                 
+                            r = (4.0123)2 + (2.9142)2 ≈ 4.959 and
+                            θ = tan−1 (2.9142/4.0123) ≈ 0.6282
+
+                            Hence, z1 + z2 ≈ 4.959 ej0.6282
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

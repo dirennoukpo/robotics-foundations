@@ -1,0 +1,67 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                   Differential equations and difference equations                  365
+
+            Example 14.8 Solve the differential equation 5y  +6y  +5y = 6 cos(t),
+            where y(0) = 0 and y  (0) = 0.
+            Step 1
+            To find the complementary function we solve the homogeneous equation
+            5y  + 6y  + 5y = 0. Trying solutions of the form y = A eλt leads to the
+            auxiliary equation 5λ2 + 6λ + 5 = 0. Notice that a quick way to get
+            the auxiliary equation is to ‘replace’ y  by λ2 , y  by λ, and y by 1. The
+            auxiliary equation has solutions
+                     √
+                  −6 ± 36 − 100
+            λ=
+                      10
+                     √
+               −6 ± −64
+             =
+                    10
+             = −0.6 ± j0.8.
+
+
+ww          Comparing this with λ = k ± jω0 gives k = −0.6, ω0 = 0.8. This means
+            that the complementary function has the form
+
+   w.Ea
+            y = ekt (A cos(ω0 t) + B sin(ω0 t))
+
+            (given as Case (2) in the general method), with k = −0.6 and ω0 = 0.8.
+
+       syE  This gives
+
+            y = e−0.6t (A cos(0.8t) + B sin(0.8t)).
+
+            Step 2     ngi
+                           n
+            As f (t) = 6 cos(t), from Table 14.1 we decide to try a particular solution
+
+                                           eer
+            of the form y = c cos(t) + d sin(t). Then
+
+            y  = −c sin(t) + d cos(t)
+
+            and                                       ing
+            y  = −c cos(t) − d sin(t).                            .ne
+            Substituting in
+
+            5y  + 6y  + 5y = 6 cos(t)
+                                                                        t
+            we find
+
+            5(−c cos(t) − d sin(t)) + 6(−c sin(t) + d cos(t))
+               + 5(c cos(t) + d sin(t)) = 6 cos(t)
+               ⇔      (−5c + 6d + 5c) cos(t) + (−5d − 6c + 5d) sin(t) = 6 cos(t)
+               ⇔      6d cos(t) − 6c sin(t) = 6 cos(t).
+
+            As we want this to be an identity we equate the coefficients of cos(t) and
+            the coefficients of sin(t) and get the two equations
+
+            6d = 6     ⇔      d=1
+            6c = 0     ⇔      c = 0.
+
+            Hence, a particular solution is y = sin(t).
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

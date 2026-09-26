@@ -1,0 +1,54 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+
+
+     11                Maxima and
+                       minima and
+                       sketching
+                       functions
+ww
+   w
+11.1      .Ea          Differentiation can be used to examine the behaviour of a function and find
+                       regions where it is increasing or decreasing, and where it has maximum
+Introduction
+             syE       and minimum values. For instance, we may be interested in finding the
+                       maximum height, maximum power, or generating the maximum profit, or
+                       in finding ways to use the minimum amount of energy or minimum use of
+
+                                  ngi
+                       materials. Maximum and minimum points can also help in the process of
+                       sketching a function.
+
+
+                                      n              eer
+11.2 Stationary
+points, local                                                     ing
+                       Example 11.1 Throw a stone in the air and initially it will have a positive
+                       velocity as the height, s, increases; that is, ds/dt > 0. At some point it
+                       will start to fall back to the ground, the distance from the ground is then
+maxima and                                                                      .ne
+                       decreasing, and the velocity is negative, ds/dt < 0. In order to go from
+                       a positive velocity to a negative velocity there must be a turning point,
+minima
+                                                                                    t
+                       where the stone is at its maximum height and the velocity is zero. If the
+                       stone has initial velocity 20 ms−1 , how can we find the maximum height
+                       that it reaches?
+                          In order to express the velocity of the stone we can make the assumption
+                       that air resistance is negligible and use the relationship between distance
+                       and time for motion under constant acceleration, giving
+                       s = ut + 21 at 2
+                       where s is the distance travelled, u the initial velocity, t is time, and a the
+                       acceleration. In this case, u = 20 ms−1 and a = −g (acceleration due to
+                       gravity ≈ 10 ms−2 ), so s = 20t − 5t 2 .
+                          At the maximum height, the rate of change of distance with time
+                       must be 0, that is, the velocity is 0. Therefore, we differentiate to find
+                       the velocity:
+                            ds
+                       v=      = 20 − 10t
+                            dt
+                       Putting v = 0 gives
+                       0 = 20 − 10t ⇔ 10t = 20 ⇔ t = 2
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

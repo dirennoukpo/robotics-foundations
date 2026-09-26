@@ -1,0 +1,68 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+316   Systems of linear equations, matrices, and determinants
+
+                                  is a straight line, as we saw in Chapter 2. Examples of graphs of linear
+                                  equations in two unknowns are given in Figure 13.13.
+                                     We call a solution to the equation a pair of values for x and y which
+                                  satisfy the equation; that is, when they are substituted they give a true
+                                  expression. A solution to the equation x + y = 1 is x = 0.5, y = 0.5
+                                  because if we substitute these values we obtain a true expression:
+
+                                  0.5 + 0.5 = 1.
+
+                                     However, there are many other solutions to x + y = 1, for instance
+                                  x = 2, y = −1 or x = 2.5, y = −1.5, etc. We say that the equation is
+                                  indeterminate because there are any number of solutions to the equation
+                                  x + y = 1. In fact, any point on the line x + y = 1 is a solution
+                                  to the equation. We can express the solutions in terms of x or y (e.g.
+                                  x = 1 − y) therefore the solutions are (1 − y, y) where y can be any
+                                  number. Alternatively y = 1 − x gives solutions (x, 1 − x) where x can
+
+ ww                               be any number.
+
+                                  A system of two linear equations with
+    w                 .Ea
+                                  two unknowns
+                                  We want to find values for x and y which solve both a1 x + b1 y = c1 and
+
+
+                         syE      a2 x + b2 y = c2 simultaneously. The problem could be expressed as
+
+                                  (a1 x + b1 y = c1 ) ∧ (a2 x + b2 y = c2 )
+
+
+                                             ngi
+                                     When we talk of systems of equations it is understood that we want all
+                                  of the equations to hold simultaneously so they are usually just listed as
+
+                                                 n
+                                  a1 x + b1 y = c1
+                                  a2 x + b2 y = c2               eer
+                                                                              ing
+                                    Each equation can be represented geometrically by a straight line.
+                                  For example, the system
+
+                                  3x + 4y = 7                                            .ne
+                                  x + 2y = 2
+                                                                                             t
+                                  can be represented by the pair of straight lines as in Figure 13.14.
+                                    We can find the point where the two straight lines cross by using
+                                  substitution as follows.
+
+                                  Example 13.20        Solve the following system of equations using substi-
+                                  tution:
+                                   3x + 4y = 7
+                                    x + 2y = 2.
+Figure 13.13 An equation          Solution   We begin by numbering the equations in order to identify them
+with two unknowns can be
+represented as a line in a        3x + 4y = 7                                                         (13.1)
+plane: (a) x + y = 1;
+(b) 2x − y = 5; (c) 2y = 3;       x + 2y = 2                                                          (13.2)
+(d) 3x = −1.
+                                  From Equation (13.2) we can express x in terms of y as
+
+                                  x + 2y = 2       ⇔     x = 2 − 2y     (subtracting 2y from both sides)
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,81 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+358   Differential equations and difference equations
+
+                               is, y = 2(t − 2)2 . To show that the equation does not represent a time-
+                               invariant system we just need to show that y = 2(t − 2)2 is not a solution
+
+                               y = 2(t − 2)2
+                                     ⇒ dy/dt = 4(t − 2)
+
+                               Substitution into
+
+                               t dy/dt + y = 6(t − 2)2
+
+                               gives
+
+                               t(4(t − 2)) + 2(t − 2)2 = 6(t − 2)2
+                                 ⇔ 4t(t − 2) + 2(t − 2)2 − 6(t − 2)2 = 0
+
+
+ww                               ⇔
+                                 ⇔
+                                        (t − 2)(4t + 2t(t − 2) − 6(t − 2)) = 0
+                                        (t − 2)(4t + 2t − 4 − 6t + 12) = 0
+
+
+   w              .Ea
+                                 ⇔ 8(t − 2) = 0
+
+                               which is not true for all values of t, showing that y = 2(t − 2)2 is not a
+                               solution to t dy/dt + y = 6(t − 2)2 and therefore we have shown that
+
+                     syE       t dy/dt + y = f (t) does not represent a time-invariant system.
+                                  We have seen that linear differential equations with constant coeffi-
+                               cients represent linear time invariant (LTI) systems.
+
+                                           ngi
+14.4 Solving
+first-order LTI
+                                               n
+                               To solve ay  + by = f (t), we begin by ignoring the forcing function
+
+                                                               eer
+                               setting it equal to 0. This is then called the homogeneous equation
+
+
+systems
+                                 
+                               ay + by = 0.
+                                                                             ing
+                               function.
+                                                                                           .ne
+                               The general solution to this equation is called the complementary
+
+
+
+                                                                                               t
+                                  We then find any particular solution and the sum of the complemen-
+                               tary function and the particular solution gives us the general solution to
+                               the differential equation. Summing the two solutions in this way we are
+                               making use of the linearity property of the differential equation.
+                                  It may seem strange that a system with no input, as represented
+                               by the homogeneous equation ay  + by = 0 may have a non-zero
+                               output! This is due to the fact that the initial conditions may be non-
+                               zero. For instance, a pendulum released from rest and performing small
+                               oscillations, approximately obeys the differential equation
+
+                               d2 y/dt 2 + ω2 y = 0
+
+                               where y is the distance the tip of pendulum has moved from its rest
+                               position and ω is its angular velocity. The pendulum will only begin to
+                               move if either it is given a non-zero initial velocity of if it is lifted slightly
+                               and then released. This means that either the initial position or the initial
+                               velocity or both must be non-zero for y to be non-zero.
+                                  The method we shall use for solving the complementary function relies
+                               on the fact that we know that y  = ky has the solution y = C ekt . That
+                               is, the derivative of an exponential function is a scaled version of the
+                               original function. This was discussed in Chapter 8. We can also show
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

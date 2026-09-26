@@ -1,0 +1,218 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+                                                                                          Boolean algebra         85
+
+
+
+
+                                          Figure 4.13   An implementation of ab + bd + a c̄d .
+Figure 4.12 A four-variable
+Karnaugh map representing
+ab c̄ + ābd + abc d̄ + a b̄ c̄d +
+abc.
+
+
+
+
+ww                                        Figure 4.14 To display the digits 0–9 a seven-segment LED display
+                                          may be used. For instance, the number 1 requires the segments
+                                          labelled q and r to light up and the other segments to be off.
+
+
+   w                    .Ea
+                                          Table 4.6 A truth table giving the logic control signals for the lamp
+                                          drivers for the LED segments pictured in Figure 4.14
+
+
+
+                           syE            Digit
+                                          displayed
+                                                         a
+                                                             Circuit inputs
+
+                                                                b     c       d   p   q    r
+                                                                                            Segments
+
+                                                                                                 s     t     u    v
+
+                                          0
+                                          1           ngi0
+                                                         0
+                                                                0
+                                                                0
+                                                                      0
+                                                                      0
+                                                                              0
+                                                                              1
+                                                                                  1
+                                                                                  0
+                                                                                      1
+                                                                                      1
+                                                                                           1
+                                                                                           1
+                                                                                                 1
+                                                                                                 0
+                                                                                                       1
+                                                                                                       0
+                                                                                                             1
+                                                                                                             0
+                                                                                                                  0
+                                                                                                                  0
+                                          2
+                                          3
+                                          4
+                                          5
+                                                         0
+                                                         0
+                                                         0
+                                                         0
+                                                          n     0
+                                                                0
+                                                                1
+                                                                1
+                                                                      1
+                                                                      1
+                                                                      0
+                                                                      0   eer
+                                                                              0
+                                                                              1
+                                                                              0
+                                                                              1
+                                                                                  1
+                                                                                  1
+                                                                                  0
+                                                                                  1
+                                                                                      1
+                                                                                      1
+                                                                                      1
+                                                                                      0
+                                                                                           0
+                                                                                           1
+                                                                                           1
+                                                                                           1
+                                                                                                 1
+                                                                                                 1
+                                                                                                 0
+                                                                                                 1
+                                                                                                       1
+                                                                                                       0
+                                                                                                       0
+                                                                                                       0
+                                                                                                             0
+                                                                                                             0
+                                                                                                             1
+                                                                                                             1
+                                                                                                                  1
+                                                                                                                  1
+                                                                                                                  1
+                                                                                                                  1
+                                          6
+                                          7
+                                                         0
+                                                         0
+                                                                1
+                                                                1
+                                                                      1
+                                                                      1
+                                                                              0
+                                                                              1
+                                                                                  0
+                                                                                  1
+                                                                                      ing
+                                                                                      0
+                                                                                      1
+                                                                                           1
+                                                                                           1
+                                                                                                 1
+                                                                                                 0
+                                                                                                       1
+                                                                                                       0
+                                                                                                             1
+                                                                                                             0
+                                                                                                                  1
+                                                                                                                  0
+
+
+                                                                                                 .ne
+                                          8              1      0     0       0   1   1    1     1     1     1    1
+                                          9              1      0     0       1   1   1    1     1     0     1    1
+                                          –              1      0     1       0   X   X    X     X     X     X    X
+                                          –
+                                          –
+                                          –
+                                          –
+                                          –
+                                                         1
+                                                         1
+                                                         1
+                                                         1
+                                                         1
+                                                                0
+                                                                1
+                                                                1
+                                                                1
+                                                                1
+                                                                      1
+                                                                      0
+                                                                      0
+                                                                      1
+                                                                      1
+                                                                              1
+                                                                              0
+                                                                              1
+                                                                              0
+                                                                              1
+                                                                                  X
+                                                                                  X
+                                                                                  X
+                                                                                  X
+                                                                                  X
+                                                                                      X
+                                                                                      X
+                                                                                      X
+                                                                                      X
+                                                                                      X
+                                                                                           X
+                                                                                           X
+                                                                                           X
+                                                                                           X
+                                                                                           X
+                                                                                                 X
+                                                                                                 X
+                                                                                                 X
+                                                                                                 X
+                                                                                                 X
+                                                                                                     t X
+                                                                                                       X
+                                                                                                       X
+                                                                                                       X
+                                                                                                       X
+                                                                                                             X
+                                                                                                             X
+                                                                                                             X
+                                                                                                             X
+                                                                                                             X
+                                                                                                                  X
+                                                                                                                  X
+                                                                                                                  X
+                                                                                                                  X
+                                                                                                                  X
+
+
+
+
+                                          Example 4.12 To display the digits 0–9, a seven-segment light emitting
+                                          diode (LED) display may be used as shown in Figure 4.14. The various
+                                          states may be represented using a four-variable digital circuit. The logic
+                                          control signals for the lamp drivers are given by the truth table given in
+                                          Table 4.6. The X indicates a ‘don’t care’ condition in the truth table. The
+                                          column for the segment labelled p can be copied into a Karnaugh map as
+                                          given in Figure 4.15. Wherever a 1 appears in the truth table representa-
+                                          tion for p there is a 1 copied to the Karnaugh map. Similarly, the 0s and
+                                          the ‘don’t care’ crosses are copied. Minimize the Boolean expression for
+                                          p using the Karnaugh map.
+                                          Solution The minimization is represented in Figure 4.15(b). We first
+                                          look for any eight adjacent squares with a 1 or a X in them. The bottom
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

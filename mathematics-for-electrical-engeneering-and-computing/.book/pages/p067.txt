@@ -1,0 +1,85 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+54   Functions and their graphs
+
+
+2.11 Summary                      1. The linear function y = mx + c has gradient (slope) m and crosses
+                                     the y-axis at y = c.
+                                  2. The gradient, m, of a straight line y = mx + c is given by:
+
+                                             change in y
+                                       m=
+                                             change in x
+
+                                       and this is the same along the length of the line.
+                                  3.   The equation of a line which goes through two points, (x1 , y1 ) and
+                                       (x2 , y2 ) is:
+                                       y − y1     x − x1
+                                                =              where y2  = y1 .
+                                       y2 − y 1   x2 − x 1
+
+                                  4. The graph of the quadratic function y = ax 2 + bx + c is called a
+
+
+ww                                   parabola. The graph crosses the y-axis (when x = 0) at y = c.
+                                  5. There are three possibilities for the roots of the quadratic equation
+                                     a x 2 + bx + c = 0
+
+
+   w              .Ea
+                                        Case I: two real roots when b2 − 4ac > 0,
+                                       Case II: only one unique root when b2 − 4ac = 0,
+                                     Case III: no real roots when b2 − 4ac < 0.
+                                  6. By considering the graphs of known functions y = f (x), for
+
+
+                     syE             instance, those given in Figure 2.10, and the following transfor-
+                                     mations, many other graphs can be drawn.
+                                     (a) Replacing x by x + a in the function y = f (x) results in
+
+
+                                             ngi
+                                           shifting the graph a units to the left.
+                                     (b) Replacing f (x) by f (x) + A results in shifting the graph A
+                                           units upwards.
+
+                                                 n
+                                     (c) Replacing x by −x reflects the graph in the y-axis.
+
+                                                               eer
+                                     (d) Replacing f (x) by −f (x) reflects the graph in the x-axis
+                                           (turning it upside down).
+
+
+                                                                            ing
+                                     (e) Replacing x by ax squashes the graph horizontally if a > 1
+                                           or stretches it horizontally if 0 < a < 1.
+                                      (f) Replacing f (x) by Af (x) stretches the graph vertically if A >
+                                           1 or squashes it vertically if 0 < A < 1.
+                                                                                        .ne
+                                     (g) Reflecting the graph of y = f (x) in the line y = x results in
+                                           the graph of the inverse relation.
+                                  7. A function may be even, or odd, or neither of these.
+                                                                                            t
+                                     (a) An even function is one whose graph remains the same if
+                                           reflected in the y-axis, that is, when x → −x. This can also
+                                           be expressed by the condition
+
+                                             f (−x) = f (x)
+
+                                             Examples of even functions are y = x 2 , y = |x|, and y = x 4 .
+                                       (b)   An odd function is one which when reflected in the y-axis,
+                                             that is, when x → −x, gives an upside down version of the
+                                             original graph (i.e. −f (x)). This can also be expressed as the
+                                             condition:
+
+                                             f (−x) = −f (x)
+
+                                            Examples of odd functions are y = x and y = x 3 .
+                                  8.   Not all functions have true inverses. Only one-to-one functions have
+                                       inverse functions. A function is one-to-one if any line y = constant
+                                       drawn on the graph y = f (x) crosses the function only once. This
+                                       means there is exactly one value of x that gives each value of y.
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

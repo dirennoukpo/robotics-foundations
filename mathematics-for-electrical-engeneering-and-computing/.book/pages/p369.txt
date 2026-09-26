@@ -1,0 +1,65 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+356    Differential equations and difference equations
+
+                                  Linear equations with constant
+                                  coefficients
+                                  A linear equation is said to have constant coefficients if the coefficients
+                                  multiplying y and the derivatives of y (the dependent variable) are all
+                                  constants, that is, do not involve functions of t.
+                                  3 d2 y/dt 2 + 2 dy/dt + 4y = f (t)
+                                  has constant coefficients
+                                  t 2 d2 y/dt 2 + 3t dy/dt + 4y = f (t)
+                                  does not have constant coefficients as t 2 and 3t are functions of time.
+
+
+                                  Time invariance
+ ww                               A linear differential equation with constant coefficients displays time
+                                  invariance. If we use the same input and starting conditions for a system
+
+    w                  .Ea
+                                  now or at some later time then the result relative to the initial starting time
+                                  will be identical. Another way of expressing this is that if the input is time
+                                  shifted then so is the output. This idea is represented in Figure 14.5.
+
+Figure 14.5 If a system
+is time invariant, then a syE
+time-shifted input yields a
+                                  Example 14.4        For the differential equation
+                                  d y/dt + 4y = sin(3t)
+                                   2       2
+
+time-shifted output.
+                                  show that
+                                                 ngi
+                                  y = sin(2t) − 15 sin(3t)
+
+                                                     n             eer
+                                  is a solution and find a solution for the equation with the same input
+                                  function delayed by 1 s, that is, find a solution to
+                                  d y/dt + 4y = sin(3(t − 1))
+                                   2       2
+
+                                                                              ing
+                                  Solution      First, we check that
+                                  y = sin(2t) − 15 sin(3t)                                  .ne
+                                  is a solution to the differential equation.
+                                     To do this, we must find the first and second derivatives
+                                    dy/dt = 2 cos(2t) − (3/5) cos(3t)
+                                                                                                t
+                                  d y/dt 2 = −4 sin(2t) + (9/5) sin(3t)
+                                   2
+
+
+                                  Substitute into
+                                  d2 y/dt 2 + 4y = sin(3t)
+                                  giving
+                                  −4 sin(2t) + (9/5) sin(3t) + 4(sin(2t) − 15 sin(3t)) = sin(3t)
+                                       ⇔       sin(3t) = sin(3t)
+                                  which is true for all t. Hence,
+                                  y = sin(2t) − 15 sin(3t)
+                                  is a solution to
+                                  d2 y/dt 2 + 4y = sin(3t).
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

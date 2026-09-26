@@ -1,0 +1,73 @@
+                             Downloaded From : www.EasyEngineering.net
+
+
+8 Sets and functions
+
+
+
+
+Figure 1.17 The relation
+boy → sister. Some boys
+have more than one sister
+and some have none at all.
+
+
+
+
+                                 Functions
+                                 Functions are relations where the pairing is always possible. Functions
+                                 are like mathematical machines. For each input value there is always
+
+ ww                              exactly one output value.
+                                    Calculators output function values. For instance, input 2 into a cal-
+                                 culator, press 1/x and the calculator will display the number 0.5. The
+
+    w                 .Ea
+                                 output value is called the image of the input value. The set of input values
+                                 is called the domain and the set containing all the images is called the
+                                 codomain.
+                                    The function y = 1/x is displayed in Figure 1.18 using arrows to link
+
+                         syE     input values with output values.
+                                    Functions can be represented by letters. If the function of the above
+                                 example is given the letter f to represent it then we can write
+
+
+                                 f : x →
+                                            1ngi
+                                            x
+                                                 n             eer
+                                 This can be read as ‘f is the function which when input a value for x gives
+Figure 1.18 An arrow
+diagram of the function
+y = 1/x .                                                                   ing
+                                 the output value 1/x’ . Another way of giving the same information is:
+
+
+                                 f (x) =
+                                         1
+                                         x
+                                                                                         .ne
+                                 It does not mean the same as f times x.                     t
+                                 f (x) represents the image of x under the function f and is read as ‘f of x’.
+
+                                    f (x) = 1/x means ‘the image of x under the function f is given by
+                                 1/x’ but is usually read as ‘f of x equals 1/x’.
+                                    Even more simply, we usually use the letter y to represent the output
+                                 value, the image, and x to represent the input value. The function is
+                                 therefore summed up by y = 1/x.
+                                    x is a variable because it can take any value from the set of values in
+                                 the domain. y is also a variable but its value is fixed once x is known.
+                                 So x is called the independent variable and y is called the dependent
+                                 variable.
+                                    The letters used to define a function are not important. y = 1/x is the
+                                 same as z = 1/t is the same as p = 1/q provided that the same input
+                                 values (for x, t, or q) are allowed in each case.
+                                    More examples of functions are given in arrow diagrams in
+                                 Figures 1.19(a) and 1.20(a). Functions are more usually drawn using
+                                 a graph, rather than by using an arrow diagram. To get the graph the
+                                 codomain is moved to be at right angles to the domain and input and
+                                 output values are marked by a point at the position (x, y). Graphs are
+                                 given in Figures 1.19(b) and 1.20(b).
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

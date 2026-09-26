@@ -1,0 +1,94 @@
+                                         Downloaded From : www.EasyEngineering.net
+
+
+                                                                                  Laplace and z transforms                    417
+
+15.15. Find inverse z transforms of the following using                 (f) 10yn − 3yn−1 − yn−2 = 4, y−1 = −1, y−2 = 2.
+       Table 15.2:
+                                                                 15.20. Find the response of a system with zero initial con-
+            2z                  z          1                           ditions, to an input of fn = 2(0.3)n , given that the
+       (a)     +2       (b)           +                                impulse response of the system is hn = (0.1)n +
+           z−1              2(z − 1)2   1 + 3/z
+                                                                       (−0.5)n .
+               2z     4z               z2 + z(sin(1) − cos(1))
+       (c)         +             (d)                             15.21 (a) The impulse response of a discrete system is given
+             2z − 3 2z + 3                z2 − 2z cos(1) + 1
+                                                                           by hn = (0.8)n . Find the system’s step response,
+15.16. Find z transforms of the following using the properties             that is, the response of the system to an input of
+       of the transform:                                                   the step function, un .
+                            n                                        (b) Use the result that Y (z) = H (z)F (z), where Y is
+       (a) un+2 3n+2 (b) 21 n (c) nejn (d) n3                              the z transform of the system output, F (z) is the
+                                                                           z transform of the input and H (z) is the system
+15.17. Find inverse z transforms of the following using the                transfer function to show that the step response
+       properties of the transform:                                        can be found by
+                z                   z                   z                              
+        (a)                (b)                (c)                                          H (z)z
+            (z − 4)2             z − 2ej4           (z − 0.4)2              yn = Z−1
+
+ww      (d)
+              z
+            z−1z−2
+                   2z                                                                      z−1
+
+                                                                        (c) Given that the step response of a discrete system
+
+
+   w
+15.18. Find inverse z transforms using partial fractions
+
+        (a)
+                  z2
+                        .Ea
+            (z − 1)(z + 1)
+                                   (b)
+                                             z3
+                                       (z − 1)(z2 − 2)
+                                                                            is
+                                                                             1
+                                                                            24
+                                                                                       10
+                                                                               (0.2)n + un
+                                                                                       48
+
+        (c)
+                    z2
+
+                           syE
+            (z − 0.1)(5z − 2)
+        (e) 2
+              z2
+                                   (d)
+                                             z2
+                                       (z − 1)2 (z + 2)
+                                                                            then
+                                                                             (i) find the system’s transfer functions; and
+                                                                            (ii) find its response to an input of 6(0.5)n .
+            z +1
+
+                                                            ngi
+15.19. In each case solve the given difference equation using
+                                                                 15.22. A system has a known impulse response of hn =
+                                                                       (0.5)n . Find the input function fn that would produce
+                                                                        an output of 2(0.5)n + 2n − 2un given zero initial
+       z transforms, n ⩾ 0
+      (a) yn + 5yn−1 = 0, where y−1 = 3;
+      (b) yn + yn−1 = n, where y−1 = 0;
+      (c) yn + 4yn−1 = 9, where y−1 = 1;
+                                                                n           eer
+                                                                        conditions.
+                                                                 15.23. A system has transfer function H (z) = z/(10z−3)
+
+
+                                                                                           ing
+                                                                         (i) find its steady state response to a single frequency
+      (d) yn − 3yn−1 + 2yn−2 = 4 × 2n , where y−1 =                          input of ej5n ;
+          −3, y−2 = 5;                                                  (ii) find the steady state response to an input of
+      (e) yn + yn−1 = n, where y−1 = 0, y−2 = 0                              cos(5n) and sin(5n).
+
+                                                                                                         .ne
+                                                                                                             t
+
+
+
+
+                                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

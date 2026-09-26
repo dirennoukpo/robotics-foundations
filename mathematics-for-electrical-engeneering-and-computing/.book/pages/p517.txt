@@ -1,0 +1,83 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+504   Probability and statistics
+
+                                      Notice that in the case of a continuous sample space an event is also
+                                   a continuous set, represented by an interval of values. For example, C is
+                                   the event that the resistance lies in the interval 2000 ± 1.5.
+
+
+                                   Probability
+                                   The way that probability is defined is slightly different for the case of a
+                                   discrete sample space or a continuous sample space.
+
+
+                                   Discrete sample space
+                                   The outcome of any trial is uncertain; however, in a large number of trials
+                                   the proportion showing a particular outcome approaches a certain number.
+                                   We call this the probability of that outcome. The probability distribution
+
+
+ww
+                                   function, or simply probability function, gives the value of the probability
+                                   that is associated with each outcome. The probability function obeys two
+                                   important conditions:
+
+
+   w              .Ea
+                                   1.
+
+                                   2.
+                                        all probabilities are less than, or equal to 1, that is, 0 ⩽ p(x) ⩽ 1,
+                                        where x is any outcome in the sample space;
+                                        the
+                                         probabilities of the individual outcomes sum to 1, that is,
+                                            p(x) = 1.
+
+                     syE           Continuous sample space
+                                              ngi
+                                   Considering a continuous sample space. We assign probabilities to inter-
+
+
+                                                  n
+                                   vals. We find the probability of, for instance, the resistance being in the
+                                   interval 2000 ± 0.5. Hence, we assign probabilities to events and not to
+
+                                                                  eer
+                                   individual outcomes. In this case, the function that gives the probabilities
+                                   is called the probability density function and we can find the probability of
+
+                                                                              ing
+                                   some event by integrating the probability density function over the inter-
+                                   val. For instance, if we have a probability density function f (x), where
+                                   x can take values from a continuous sample space, then the probability
+
+                                                                                           .ne
+                                   of x being in the interval a to b is given by, for example,
+
+
+                                   P (a < x < b) =
+                                                       b
+
+                                                        a
+                                                            f (x) dx.                          t
+                                   The probability density function obeys the condition:
+                                    ∞
+                                         f (x) dx = 1
+                                    −∞
+
+
+                                   that is, the total area under the graph of the probability density function
+                                   must be 1.
+
+
+                                   Equally likely events
+                                   If all outcomes are equally likely then the probability of an event E from
+                                   a discrete sample set is given by
+
+                                     The number of outcomes in E
+                                                                     .
+                                   The total number of outcomes in S
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

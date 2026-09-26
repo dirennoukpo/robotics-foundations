@@ -1,0 +1,79 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+90   Trigonometric functions and waves
+
+                                     (f)    Express 0.5 radians in degrees.
+                                            Multiply 0.5 by 180/π giving 28.6. Hence, 0.5 radians ≈28.6◦ .
+
+                                        The trigonometric functions can also be defined using a rotating rod of
+                                     length r as in Figure 5.4.
+                                        The function values are given by:
+                                                 x                y                    y   sin(α)
+                                     cos(α) =      ,   sin(α) =     ,   tan(α) =         =
+                                                 r                r                    x   cos(α)
+                                     Also
+                                                   1                           1                       1
+                                     sec(α) =           ,    cosec(α) =            ,     cot(α) =
+                                                 cos(α)                     sin(α)                  tan(α)
+                                     where α is measured in radians (one complete revolution is 2π radians).
+Figure 5.4 The                          Notice that the definitions are exactly the same as the trigonometric
+
+ ww
+trigonometric functions
+defined in terms of a rotating
+rod of length r.
+                                     ratios, where r is the hypotenuse and x and y are the adjacent and opposite
+                                     sides to the angle, except that x and y can now take both positive and
+                                     negative values and the angles can be as big as we like or negative (if the
+
+    w                  .Ea
+                                     rod rotates clockwise):
+
+                                     cos(α) =
+                                                  adjacent
+                                                 hypotenuse
+
+                          syE        sin(α) =
+                                                  opposite
+                                                 hypotenuse
+
+                                     tan(α) =
+                                                 ngi
+                                                 opposite
+                                                 adjacent
+
+
+                                                     n                  eer
+                                        To get the correct function values from the calculator, it should be in
+                                     ‘radian’ mode. However, by custom, engineers often use degrees, so we
+                                     will use the convention that if the ‘units’ are not specified then radians
+
+                                     marked, for example cos(30◦ ).                ing
+                                     must be used and for the input to be in degrees that must be expressly
+
+
+
+                                     Important relationship between the                             .ne
+                                     sine and the cosine
+                                     From Pythagoras’s theorem, looking at the diagram in Figure 5.4, we
+                                     have x 2 + y 2 = r 2 . Dividing both sides by r 2 we get:
+                                                                                                        t
+                                     x2   y2
+                                        +    =1
+                                     r2   r2
+                                     and using the definitions of
+                                                 x                      y
+                                     cos(α) =          and   sin(α) =
+                                                 r                      r
+                                     we get
+
+                                     (cos(α))2 + (sin(α))2 = 1
+
+                                     and this is written in shorthand as
+
+                                     cos2 (α) + sin2 (α) = 1
+
+                                     where cos2 (α) means (cos(α))2 .
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

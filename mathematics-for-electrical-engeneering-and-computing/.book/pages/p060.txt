@@ -1,0 +1,68 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                       Functions and their graphs           47
+
+
+
+
+ww
+Figure 2.28   Solutions to compound inequalities as given in Example 2.8 represented on a number line.
+
+
+
+
+   w                 .Ea
+                                           solution sets.
+
+                                           1 − u < 3u + 2
+                                              ⇔     −1 < 4u
+
+                        syE
+                                                                (subtracting 2 from both sides)
+                                                  1
+                                              ⇔     <u
+                                                    −          (dividing both sides by 4)
+                                                  4
+
+                                                ngi
+                                              ⇔ u>−
+                                                     1
+                                                     4
+                                              u+2⩾6
+                                              ⇔     n
+                                                    u⩾4
+                                                                  eer
+                                                             (subtracting 2 from both sides)
+
+
+
+                                          see that it is the same as u > −1/4.
+                                                                              ing
+                                             Combining the two solutions gives u > −1/4 or u ⩾ 4 and this
+                                          is represented on the number line in Figure 2.28(b) where we can
+
+                                      (c) t + 5 > 12 and − t > 24
+                                                                                            .ne
+                                           t + 5 > 12
+                                              ⇔
+                                            − t > 24
+                                                    t >7    (subtracting 5 from both sides)     t
+                                              ⇔     t < −24    (multiply both sides by −1 and reverse the
+                                                                inequality sign)
+
+                                           Combining the two solutions sets gives t > 7 and t < −24 and we
+                                           can see from Figure 2.28(c) that this is impossible and hence there
+                                           are no solutions.
+
+
+
+                                      Solving more difficult inequalities
+                                      To solve more difficult inequalities, our ideas about equivalence are not
+                                      enough on their own, we also use our knowledge about continuous func-
+                                      tions. In the previous chapter, we defined a continuous function as one
+                                      that could be drawn without taking the pen off the paper. If we wish to
+                                      solve the inequality f (x) > 0 and we know that f (x) is continuous then
+                                      we can picture the problem graphically as in Figure 2.29. From the graph
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

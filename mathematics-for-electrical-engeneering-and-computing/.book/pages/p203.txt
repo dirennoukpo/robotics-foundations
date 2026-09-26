@@ -1,0 +1,71 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+190    Vectors
+
+
+
+
+                                       Figure 9.4 (a) A two-dimensional rectangular set of axes and the
+                                       vector (1, 5). The axes are at right angles and the numbers in the
+                                       vector give the x, y translation it represents. (b) A three-dimensional
+                                       rectangular set of axes and the vector (2, 3, 1). The axes are at right
+                                       angles and the numbers in the vector correspond to the x, y, z
+                                       translation it represents.
+
+
+
+
+ ww
+    w                   .Ea
+                           syE
+                                                  ngi                                       −→
+                                       Figure 9.5 (a) The position vector p = (2, 3) or OP = (2, 3) is used
+                                       to represent a point in the plane. The point can be found by
+
+                                                      n
+                                       translating from the origin by 2 in the x-direction followed by 3 in the
+
+
+                                                                     eer
+                                       y-direction; hence, p = (2, 3). (b) The position vector p = (2, 3, 4) is
+                                       used to represent a point in space. The point can be found by
+                                       translating from the origin by 2 in the x-direction, followed by 3 in the
+
+                                                                                  ing
+                                       y-direction, and by 4 in the z-direction; hence, p = (2, 3, 4).
+
+
+
+Figure 9.6 (a) The vector                                                                       .ne
+                                       This means that the numbers in the vectors correspond to the x, y, z values
+t = (2, 3) is used to represent
+a translation of the figure
+ABCD. Each of the points
+defining the figure have been
+translated by (2,3).
+                                                                                                    t
+                                       for a set of rectangular axes, as shown in Figure 9.4. This assumption is
+                                       important for many of the geometrical interpretations presented here.
+
+
+                                       Position vectors and
+                                       translation vectors
+                                       Vectors can represent points in a plane, as in Figure 9.5(a), or points in
+                                       space, as in Figure 9.5(b). These are called position vectors. They can be
+                                       thought of as representing a translation from the origin.
+                                         Vectors can represent a translation that can be applied to figures. In
+                                       Figure 9.6, a four-sided figure ABCD has been translated through the
+Figure 9.7 The object is               vector (2, 3).
+being pulled up the slope
+using a force F which has a
+direction parallel with the
+slope of the hill. There is also       Vector quantities
+a force due to gravity Fg
+acting vertically downwards            Vectors can represent physical quantities that have both a magnitude and
+and a force at right angles to
+                                       a direction. In Figure 9.7, there is an example of the forces acting on a
+the plane, FN .
+                                       body that is being pulled up a slope. By using vectors and vector addition
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

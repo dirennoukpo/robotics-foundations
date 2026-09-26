@@ -1,0 +1,80 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+202    Vectors
+
+
+
+
+                                      Figure 9.22 The magnitude of the vector product of two vectors
+Figure 9.21 The vector                gives the area of the parallelogram formed by the vectors. The area of
+product of two vectors lying in       OABC is given by |(4, 3) × (7, 0)| = |(4.0) − (3.7)| = |0 − 21| = 21
+the x , y plane,                      square units.
+(1, 2, 0) × (−3, −1, 0) =
+(0, 0, 5).
+                                        If a and b are vectors that lie in the x, y plane, the vector product will
+                                      be a vector normal to that plane, that is, wholly in the z-direction. It can
+                                      be found from the following expression:
+                                      (a1 , a2 , 0) × (b1 , b2 , 0) = (0, 0, a1 b2 − a2 b1 ) = (a1 b2 − a2 b1 )k
+
+
+ ww                                   where k is the unit vector in the z-direction.
+
+                                      Example 9.19 (1, 2, 0) × (−3, −1, 0) = (0, 0, (1)(−1) − (2)(−3)) =
+
+    w                  .Ea
+                                      (0, 0, 5). This is shown in Figure 9.21.
+
+
+                                      Applications of the vector product
+                          syE         The vector product can be used to find the area of a parallelogram with
+                                      sides OA and OB (see Figure 9.22).
+
+
+                                                  ngi
+                                         The area of a parallelogram is given by ab sin(θ), where a and b
+                                      are the lengths of the sides and θ is the angle between them. Consider
+                                      vectors a and b representing the sides of the parallelogram. We know
+
+                                                      n
+                                      that a × b = ab sin(θ)n̂, where n̂ is a unit vector normal to the plane
+
+                                                                       eer
+                                      of a and b. As n̂ is a unit vector it has a magnitude of 1, so |a × b| =
+                                      ab sin(θ), which is exactly the same as the formula for the area of the
+
+
+                                      sides of the parallelogram.                    ing
+                                      parallelogram. Therefore, the area of the parallelogram can be found by
+                                      taking the magnitude of the vector product of the vectors that define the
+
+
+                                                                                                   .ne
+                                         As sin(θ) = 0 when θ = 0 or θ = 180◦ , the vector product can also
+                                      be used to test for parallel vectors (vectors pointing in the same direction
+
+                                      magnitude of the vector product.
+                                                                                                       t
+                                      or in exactly opposing directions). Again we only need to consider the
+
+
+                                      Example 9.20       Show that the vectors (0.2, −5) and (−1, 25) are parallel.
+                                      Solution Find |(0.2, −5) × (−1, 25)| = |(0.2 × 25) − (−5 × −1)| =
+                                      |5 − 5| = 0.
+                                         As we know that |a × b| = ab sin(θ), then as a and b are of non-zero
+                                      length, |a × b| = 0 ⇔ sin(θ ) = 0. This shows that the vectors are
+                                      parallel.
+
+
+
+                                      In Chapter 2, we looked at the equation of a line that we found to be
+9.9 Vector                            y = mx + c, where the gradient of the line is m and the line goes through
+equation of a                         the point (0, c). We also found that the equation of a line that goes through
+                                      two points, (x1 , y1 ) and (x2 , y2 ), is
+line
+                                      y − y1     x − x1
+                                               =          .
+                                      y2 − y 1   x2 − x 1
+                                      We would like to be able to express the equation of a line as a vector
+                                      equation. If we know that the two points A and B represented by the
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

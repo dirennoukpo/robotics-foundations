@@ -1,0 +1,66 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                          Language theory           481
+
+            Terminal symbols are often represented by lowercase letters and
+            non-terminal symbols by uppercase letters.
+              A sentence is grammatical if it can be produced by a series of rewritings
+            such that
+            1.   It starts with the start symbol.
+            2.   It uses grammar rules to get from one rewriting to the next.
+            3.   It does not contain any non-terminals.
+            A grammar rule or production is a pair of strings of terminal and
+            non-terminal symbols (P, Q). P is called the left-hand side of the rule
+            and Q the right-hand side. This means that P may be replaced by Q. This
+            is often represented as
+            P→Q
+               A derivation, of one string of symbols, Y, from another string of sym-
+
+
+ww
+            bols, X, is a sequence of application of productions which derives one
+            string from another. If Y can be derived from X then we can write X⇒∗ Y.
+            The notation ‘⇒∗ ’ indicates zero or more steps and ‘⇒’ indicates a
+
+
+   w.Ea
+            single step.
+               A string of terminal symbols is a sentence if it can be derived from the
+            start symbol.
+
+
+
+       syE  Example 20.1 A language, L, over the symbols a and b, is defined by
+            the following grammar rules, where S is the start symbol.
+            S→aSb
+            S→ab
+                        ngi
+                            n
+            Find a definition of the set L.
+
+
+                                         eer
+            Solution We start with the symbol S and use either one of the grammar
+            rules to make a replacement. We choose the rule
+            S→aSb
+                                                      ing
+            to get
+                                                                    .ne
+            S⇒aSb
+            Using the rule S→aSb again to give
+            S⇒aSb⇒aaSbb
+                                                                        t
+            continuing using the same rule and we can see that we get
+            S⇒∗ an−1 S bn−1
+            after n − 1 applications of the rule. Here, an−1 has been used as shorthand
+            for the repetition of ‘a’ n-1 times. There is still at least one non-terminal
+            symbol in the right-hand side. We would need to use the second rule
+            S→ab
+            to obtain
+            S⇒∗ an bn
+            We can see that the language consists of a number of ‘a’s followed by the
+            same number of ‘b’s and so
+            L = {an bn where n > 0}.
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

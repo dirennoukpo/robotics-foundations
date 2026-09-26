@@ -1,0 +1,75 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                           Complex numbers             227
+
+              To find z1 − z2 , we already have found (above) that
+
+            z1 = 3 ej(π/6) ≈ 2.5981 + j1.5 and
+            z2 = 2 ej(π/4) ≈ 1.4142 + j1.4142
+
+            Therefore
+
+            z1 − z2 ≈ 2.5981 + j1.5 − (1.4142 + j1.4142) = 1.1839 + j0.0858
+                                                             
+               To express z1 − z2 back in polar form, use r = x 2 + y 2 and θ =
+            tan−1 (y/x) (+π if x is negative):
+
+            z1 − z2 ≈ 1.1839 + j0.0858 ≈ 1.187 ej0.0723 .
+
+              To find z1 z2 , multiply the moduli and add the arguments
+
+            z1 z1 = 3 ej(π/6) 2ej(π/4) = 3.2 ej ((π/6)+(π/4)) = 6 e−j(5π/12) .
+
+ww            To find z1 /z2 , divide the moduli and subtract the arguments
+
+
+   w.Ea
+            z1
+            z2
+               =
+                 3 ej(π/6)
+                 2 ej(π/4)
+                            3
+                           = ej((π/6)−(π/4)) = 1.5 e−j(π/12) .
+                            2
+              To find z1∗ z2∗ , we find the complex conjugate of z1 and z2
+
+       syE    z1∗ = (3 ej(π/6) )∗ = 3 e−j(π/6)
+
+
+                        ngi
+              z2∗ = (2 ej(π/4) )∗ = 2 e−j(π/4)
+            z1∗ z2∗ = 3 e−j(π/6) 2 e−j(π/4) = 3.2 e−j((π/6)+(π/4)) = 6 e−j(5π/12) .
+
+              To find z13
+                            n              eer
+            z13 = (3 ej(π/6) )3 = 33 (ej(π/6) )3 = 27 ej(π/6)×3 = 27 ej(π/2) .
+
+                                                        ing
+            Expressions for the trigonometric                         .ne
+            functions
+                                                                          t
+            From the exponential form, we can find expressions for the cosine or sine
+            in terms of complex numbers. We begin with a complex number z of
+            modulus 1 and its complex conjugate
+
+             ejθ = cos(θ) + j sin(θ )                                                 (10.1)
+            e−jθ = cos(θ) − j sin(θ )                                                 (10.2)
+
+            From these, we can find the expression for the cosine and sine in terms
+            of the complex exponential. Adding Equation (10.1) and (10.2), we have
+
+            ejθ + e−jθ = cos(θ) + j sin(θ) + cos(θ) − j sin(θ )
+               ⇔      ejθ + e−jθ = 2 cos(θ )
+
+            Dividing both sides by 2 gives
+                     −jθ)
+            2 (e + e      = cos(θ )
+            1 jθ
+
+
+                ⇔ cos(θ) = 21 (ejθ + e−jθ )
+
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

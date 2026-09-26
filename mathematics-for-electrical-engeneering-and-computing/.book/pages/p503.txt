@@ -1,0 +1,48 @@
+                                        Downloaded From : www.EasyEngineering.net
+
+
+490    Language theory
+
+      Use a top-down method to show that                    20.6. Represent the data given in the table below as a well-
+      (a) (1 · 0) + 1 is a sentence                               formed XML document. (Note: there is no need to
+      (b) 1 · 0 + 1 is not a sentence.                            define the DTD for your XML.) There are several pos-
+                                                                  sible ways of presenting this data in XML – presenting
+20.3. For the grammar
+                                                                  one is sufficient.
+      S → a | b | c | aSa | bSb | cSc
+                                                              Subject                Student ID            Marks
+      find derivation trees for the following:
+      (a) aaa                                                                                        First      Second
+      (b) abbcbba.                                                                                 semester    semester
+20.4. Write the following grammar in EBNF
+                                                              Electronics 1             121           40           58
+      S → Ab C → c                                                                      122           35           38
+      A → AC C → a                                                                      123           75           65
+                                                              Engineering Maths         121           66           54
+      A→a                                                                               122           54           45
+                                                                                        123           72           22
+
+
+ ww
+20.5. For the grammar in Exercise 20.4 use a bottom-up        Communications            121           58           60
+      parsing technique to show that                                                    122           44           55
+      (a) accb is a sentence                                                            123           70           68
+
+
+    w
+      (c) abc is not a sentence.
+
+
+
+                          .Ea
+                             syE
+                                                      ngi
+                                                          n             eer
+                                                                                     ing
+                                                                                                   .ne
+                                                                                                       t
+
+
+
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

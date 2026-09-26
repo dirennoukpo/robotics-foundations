@@ -1,0 +1,91 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+186   The exponential function
+
+                                 1. Many physical situations involve exponential growth or decay where
+8.6 Summary                         the rate of change of y is proportional to its current value.
+                                 2. All exponential functions, y = a t , are such that dy/dt = ky, that
+                                    is, the derivative of an exponential function is also an exponential
+                                    function scaled by a factor k.
+                                 3. The exponential function y = et has the property that dy/dt = y,
+                                    that is, its derivative is equal to the original function:
+                                     d t
+                                        (e ) = et ,
+                                     dt
+                                    where e ≈ 2.71828. The inverse function to et is loge (t), which
+                                    is abbreviated to ln(t). This is called the natural or Napierian
+                                    logarithm.
+                                 4. The general solution to dy/dt = ky is y = y0 ekt , where y0 is the
+                                    value of y at t = 0.
+
+ww                               5.
+                                     d t
+                                    dt
+                                       (a ) = ln(a)a t and
+
+
+
+   w             .Ea
+                                     d
+                                     dt
+                                        (loga (t)) =
+                                                       1
+                                                     ln(a)t
+                                                            .
+
+                                 6. The hyperbolic cosine (cosh) and hyperbolic sine (sinh) are the even
+
+                    syE             and odd parts of the exponential function:
+
+                                     ex = cosh(x) + sinh(x)
+
+
+                                           ngi
+                                     cosh(x) =
+                                               ex + e−x
+                                                   2
+
+                                     sinh(x) =
+                                               n
+                                               e − e−x
+                                                x
+
+                                                  2
+                                                                eer
+                                                                          ing
+                                     These functions get the name hyperbolic because of their relation-
+                                     ship to a hyperbola. The hyperbolic tangent is defined by
+
+                                     tanh(x) =
+                                               sinh(x)
+                                               cosh(x)
+                                                        ex − e−x
+                                                       = x
+                                                        e + e−x
+                                                                                       .ne
+                                    trigonometric identities (Table 8.2).                  t
+                                    There are various hyperbolic identities, which are similar to the
+
+                                 7. The inverse hyperbolic functions cosh−1 (x)(x ⩾ 1), sinh−1 (x),
+                                    tanh−1 (x)(−1 < x < 1) have the following logarithmic identities:
+                                                          
+                                     sinh−1 (x) = ln(x + x 2 + 1) for all x ∈ R
+                                                          
+                                    cosh−1 (x) = ln(x + x 2 − 1) x ⩾ 1
+                                                              
+                                                  1      1+x
+                                    tanh−1 (x) = ln                 −1<x <1
+                                                  2      1−x
+
+                                    cosh−1 (x) is the inverse of cosh(x) if the domain of cosh(x) is
+                                    limited to the positive values of x and zero.
+                                 8. Adding the derivatives and integrals of the exponential, ln, hyper-
+                                    bolic and inverse hyperbolic functions to the tables of standard
+                                    derivatives and integrals gives Tables 8.3 and 8.4.
+                                 9. Partial fractions can be used to integrate fractional functions such as
+                                         x+1
+                                                    .
+                                     (x − 1)(x + 2)
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

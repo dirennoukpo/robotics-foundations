@@ -1,0 +1,102 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+126      Differentiation
+
+                                         Differentiating w = sin(y) with respect to y gives
+                                       dw
+                                          = cos(y)
+                                       dy
+                                       Hence,
+                                       dw   dw dy
+                                          =
+                                       dx   dy dx
+                                       becomes
+                                                    dy
+                                       1 = cos(y)
+                                                    dx
+                                       Dividing both sides by cos(y) (if cos(y) = 0) gives
+
+
+
+  ww
+                                       dy     1
+                                          =
+                                       dx   cos(y)
+
+
+
+     w                .Ea
+                                       This is an expression for the derivative we want to find but it is a
+                                       function of y instead of x. Use sin(y) = x and thetrigonomet-
+                                       ric identity cos2 (y) = 1 − sin2 (y), giving cos(y) =
+                                                                                       1 − sin2 (y)
+                                                                                         √
+                                       for (−π/2 ≤ y ≤ π/2). As sin(y) = x and cos(y) = 1 − x 2 ,
+
+                         syE           we get
+                                       dy      1
+
+Table 6.3 The derivatives
+                                       dx
+                                          =√
+
+                                                  ngi
+                                             1 − x2
+                                                    .
+
+
+of some simple functions
+
+f (x )                f  (x )
+                                                      n
+                                       The same method can be used to find the derivatives of cos−1 (x) and
+
+                                                                    eer
+                                       tan−1 (x) and we can now add these functions to the list, giving a new
+                                       table of standard derivatives, as in Table 6.3.
+C
+xn
+                      0
+                      nx n−1           Derivatives of a product of two functionsing
+cos(x )
+sin(x )
+tan(x )
+                      − sin(x )
+                      cos(x )
+                        √(x )
+                      sec 2                                                                   .ne
+                                       If y can be written as the product of two functions so that
+
+sin−1 (x )
+cos−1 (x )
+tan−1 (x )
+                      1 √
+                      −1
+                          
+                            1 − x2
+                              1 − x2
+                      1 (1 + x 2 )
+                                       y = uv
+
+                                       where u and v are functions of x, then
+                                                                                                  t
+                                       dy    dv    du
+                                          =u    +v
+                                       dx    dx    dx
+
+
+
+                                       Example 6.12      Find the derivative of y = 5x sin(x).
+                                       Solution   y = uv, where u = 5x and v = sin(x).
+                                       du                dv
+                                          = 5 and           = cos(x)
+                                       dx                dx
+                                       Using the derivative of a product formula:
+                                       dy
+                                          = 5x cos(x) + 5 sin(x)
+                                       dx
+
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

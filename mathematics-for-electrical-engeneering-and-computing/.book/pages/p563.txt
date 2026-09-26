@@ -1,0 +1,28 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+550   Index
+
+                                       Z                      definition, 403–4
+                    z transforms, 403–17                      existence of, 405–8
+                       and systems theory, 411–15             properties, 405–8
+                       application to solving difference      table of, 404
+                            equations, 408–10
+                       convolution property, 405–6, 412–13
+
+
+
+
+ww
+   w          .Ea
+                 syE
+                                 ngi
+                                     n                eer
+                                                               ing
+                                                                              .ne
+                                                                                  t
+
+
+
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

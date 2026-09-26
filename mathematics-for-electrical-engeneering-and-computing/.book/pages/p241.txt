@@ -1,0 +1,83 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+228   Complex numbers
+
+                              Now, subtracting Equation (10.2) from Equation (10.1), we get
+
+                            ejθ − e−jθ = cos(θ) + j sin(θ) − (cos(θ) − j sin(θ))
+                               ⇔        ejθ − e−jθ = 2j sin(θ)
+
+                            Dividing both sides by 2j gives
+
+                            1 jθ
+                               (e − e−jθ ) = sin(θ)
+                            2j
+                                              1
+                                ⇔ sin(θ ) = (ejθ − e−jθ )
+                                              2j
+
+                            So, we have
+
+
+ww                          cos(θ ) = 21 (ejθ + e−jθ )
+                                         1 jθ
+
+   w            .Ea
+                            sin(θ ) =
+                                         2j
+                                            (e − e−j θ )
+
+
+                              Using tan(θ ) = sin(θ )/ cos(θ ), we get
+
+
+                   syE      tan(θ ) =
+                                        (1/2j)(ejθ − e−jθ )
+                                        (1/2)(e + e )
+                                                jθ    −jθ
+                                                            =
+                                                              1
+                                                              j
+                                                                   jθ
+                                                                   e − e−jθ
+                                                                   ejθ + e−jθ
+                                                                              
+
+
+
+                                          ngi
+                               Compare these with the definition of the sinh, cosh, and tanh functions
+
+
+                                              n
+                            given in Chapter 8:
+
+                            cosh(θ ) = 21 (eθ + e−θ )        eer
+                            sinh(θ) = 21 (eθ − e−θ )
+                                      eθ − e−θ
+                                                                        ing
+                            tanh(x) =
+                                          eθ + e−θ
+                                                                                   .ne
+                              We see that:
+
+                            cos( jθ ) = cosh(θ)
+                                                                                       t
+                            sin( jθ ) = j sinh(θ)
+                            tan( jθ ) = j tanh(θ )
+
+
+                            De Moivre’s theorem
+                            Using the expression for the cmoplex number in terms of a sine and cosine,
+                            rejθ = r(cos(θ) + j sin(θ )), and using this in r ejθn = r ejnθ , we get
+
+                            (r(cos(θ ) + j sin(θ))n = r n (cos(nθ ) + j sin(nθ))
+
+                            This is called De Moivre’s theorem and can be used to obtain multiple
+                            angle formulae.
+
+
+                            Example 10.19        Find sin(3θ) in terms of powers of sin(θ) and cos(θ).
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

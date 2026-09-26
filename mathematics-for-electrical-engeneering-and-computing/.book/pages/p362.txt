@@ -1,0 +1,82 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                             Differential equations and difference equations                   349
+
+                                     Writing
+                                           
+                                            x
+                                     x= 1
+                                           x2
+                                                               
+                                              0           1
+                                     A=
+                                            −k/m         −r/m
+
+                                     and
+                                                 
+                                         0
+                                     B=
+                                        1/m
+
+                                     we can give the system of equations as a matrix differential equation
+
+                                     dx
+                                        = Ax + Bf .
+
+
+ww
+                                     dt
+                                        The system input is f and the output y = x1 .
+                                        To write the derivative of a variable when it is clear that it is in respect
+
+   w                 .Ea
+                                     to its independent variable we may write x  (read as ‘x dashed’) or x 
+                                     (read as ‘x double dashed’). In addition, when the independent variable
+                                     is time we often write ẋ (read as ‘x dot’) and for the second derivative ẍ
+                                     (read as ‘x double dot’). Using this notation we have
+
+                        syE          ẋ = Ax + Bf
+
+
+                                                  ngi
+                                     as the matrix differential equation.
+
+
+
+                                                      n
+                                     Modelling electrical circuits
+                                                                      eer
+                                     assumptions:
+                                                                                ing
+                                     We can model an LRC circuit as shown in Figure 14.3 using the following
+
+Figure 14.3   An LRC circuit.        1.
+
+                                     2.                                                       .ne
+                                           Kirchoff’s voltage law (KVL): the sum of all the voltage drops around
+                                           any closed loop is zero.
+                                           The voltage drop vR across a resistor is proportional to the current i
+                                           i.e.
+
+                                           vR = Ri       (Ohm’s law)
+                                                                                                  t
+                                           where the constant of proportionality R is called the resistance of the
+                                           resistor.
+                                     3.    The voltage drop across a capacitor is proportional to the electric
+                                           charge q on the capacitor
+
+                                                  1
+                                           vc =     q
+                                                  C
+                                        where C is the capacitance and is measured in farads, the charge q
+                                        is measured in coulombs.
+                                     4. The voltage drop across an inductor is proportional to the rate of
+                                        change of the current i
+
+                                                    di
+                                           vL = L
+                                                    dt
+                                           where L is the inductance, measured in henries.
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

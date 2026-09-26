@@ -1,0 +1,76 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                                Integration   147
+
+                        (c)   The time taken to travel 100 m from when the acceleration first
+                              started can be found from x = 100
+
+                              100 = t 2 + 12t     ⇔   t 2 + 12t − 100 = 0.
+
+                                Using the quadratic formula gives
+                                             √
+                                   −12 ±     144 + 400   −12 ± 23.2
+                              t=                       ≈
+                                             2               2
+
+                              t ≈ −17.66 or t ≈ 5.66.
+                                The time taken to travel 100 m is 5.66 s.
+
+
+
+
+ww                      Example 7.16 The current across a 1 µF capacitor from time t = 3 ms
+                        to t = 4 ms is given by I (t) = −2t. Find the voltage across the capacitor
+                        during that period of time given that V = −0.1 V when t = 3 ms.
+
+   w      .Ea
+                                                                              
+                        Solution For a capacitor V = Q/C, where Q = I dt and C is the
+                        capacitance, V the voltage drop across the capacitor, Q the charge, and
+                        I the current. So
+
+             syE        V =
+                                  1
+                              1 × 10−6
+                                         
+                                             −2t dt
+
+
+                                   ngi
+                          = 106 (−t 2 ) + C
+
+
+                                       n
+                        when t = 3 ms, V = 0.1, so V = 0.1 when t = 3 × 10−3
+
+                        0.1 = 106 (−10−6 × 9) + C     eer
+                                                        ⇔     C = 0.1 + 9        ⇔    C = 9.1.
+
+                        So V = −106 t 2 + 9.1.                  ing
+                                                                                .ne
+7.5 The definite
+integral
+                                                                                    t
+                        The definite integral from x = a to x = b is defined as the area under
+                        the curve between those two points. In the graph in Figure 7.1, the area
+                        under the graph has been approximated by dividing it into rectangles. The
+                        height of each is the value of y and if each rectangle is the same width
+                        then the area of the rectangle is yδx.
+                           If the rectangle is very thin, then y will not vary very much over its
+                        width and the area can reasonably be approximated as the sum of all of
+                        these rectangles.
+                           The symbol for a sum is  (read as capital Greek letter sigma). The
+                        area under the graph is approximately
+
+                                                                      x=b−δx
+                        A = y1 δx + y2 δx + y3 δx + y4 δx + · · · =            yδx.
+                                                                       x=a
+
+
+                        We would assume that if δx is made smaller, the approximation to the
+                        exact area would improve. An example is given for the function y = x in
+                        Figure 7.2. Between the values of 1 and 2, we divide the area into strips,
+                        first of width 0.1, then 0.01, then 0.001.
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

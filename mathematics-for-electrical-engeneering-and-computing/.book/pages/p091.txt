@@ -1,0 +1,103 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+78   Boolean algebra
+                                           Table 4.1 The truth tables defining the
+                                           logical operators
+
+                                           p     q     p∧q       p     q     p∨q        p     ¬p
+
+                                           T     T       T       T     T        T       T      F
+                                           T     F       F       T     F        T       F      T
+                                           F     T       F       F     T        T
+                                           F     F       F       F     F        F
+
+
+
+
+                                 In the same way, other properties can be shown to be true. A full list
+                              of the properties gives:
+                                 For every A, B, C ⊆ E
+
+
+
+ ww                            (B1) A ∪ A = A
+                               (B2) A ∪ (B ∪ C)
+                                     = (A ∪ B) ∪ C
+                                                         A∩A =A
+                                                         A ∩ (B ∩ C)
+                                                          = (A ∩ B) ∩ C
+                                                                             Idempotent
+                                                                             Associative
+
+
+    w
+Figure 4.1 (a) A Venn
+
+                     .Ea
+diagram of A ∩ (B ∪ C).
+(b) A Venn diagram of
+(A ∩ B) ∪ (A ∩ C).
+                               (B3) A ∪ B = B ∪ A
+                               (B4) A ∪ (A ∩ B) = A
+                               (B5) A ∪ (B ∩ C)
+                                                         A∩B=B∩A
+                                                         A ∩ (A ∪ B) = A
+                                                         A ∩ (B ∪ C)
+                                                                             Commutative
+                                                                             Absorption
+                                                                             Distributive
+                                     = (A ∪ B) ∩ (A ∪ C) = (A ∩ B) ∪ (A ∩ C) laws
+
+                        syE    (B6) A ∪ E = E
+                               (B7) A ∪ ∅ = A
+                               (B8) A ∪ A = E
+                                                         A∩∅=∅
+                                                         A∩E =A
+                                                         A∩A =∅
+                                                                             Bound laws
+                                                                             Identity law
+                                                                             Complement
+
+                               (B9) ∅ = E ngi            E =∅
+                                                                              laws
+                                                                             0 and 1 laws
+
+
+                                              n
+                               (B10) (A ∪ B) = A ∩ B     (A ∩ B) = A ∪ B
+
+
+                                                              eer
+                                                                             De Morgan’s
+                                                                              laws
+
+
+
+                                                                           ing
+                                 Notice that all the laws come in pairs (called duals). A dual of a rule
+                              is given by replacing ∪ by ∩ and ∅ by E and vice versa.
+
+
+                              Propositions                                               .ne
+                                                                                             t
+                              We looked at propositions in Chapter 3. Propositions can either be given
+                              a value of TRUE (T) or FALSE (F). Examples of propositions are 3 = 5
+                              which is false and 2 < 3 which is true. The logical operators of AND, OR,
+                              and NOT are defined using truth tables, which we repeats in Table 4.1.
+                                 Properties of propositions and their operations can be shown using
+                              truth tables.
+
+                              Example 4.4      Show, using truth tables, that for any propositions p, q, r
+                                (p ∧ q) ∧ r = p ∧ (q ∧ r)
+                              Solution The truth tables are given in Table 4.2. Note that there are eight
+                              lines in the truth table in order to represent all the possible states (T, F) for
+                              the three variables p, q, and r. As each can be either TRUE or FALSE, in
+                              total there are 23 = 8 possibilities. To find (p ∧ q) ∧ r, p ∧ q is performed
+                              first and the result of that is ANDed with r. To find p ∧(q ∧r) then q ∧r is
+                              performed first and p is ANDed with the result. As the resulting columns
+                              are equal we can conclude that
+                                (p ∧ q) ∧ r      ⇔      p ∧ (q ∧ r)
+
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

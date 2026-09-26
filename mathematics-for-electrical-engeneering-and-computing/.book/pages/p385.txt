@@ -1,0 +1,89 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+372   Differential equations and difference equations
+
+
+                               To solve a system of differential equations we can combine the equations
+14.6 Solving                   into a single differential equation using substitution. In this case we can
+systems of                     use the method as outlined in Section 14.5. Alternatively, we can solve
+                               the system directly using matrices.
+differential                      We follow the same pattern as in Section 14.4 for first-order systems.
+equations                      We solve the homogeneous equation, to find the complementary function
+                               and then find a particular solution. The sum of these two terms gives a
+                               general solution to the system.
+
+                               Example 14.10 Find the displacement of the spring after time t
+                               described by the system of differential equations
+                                                                    
+                                d x1           0        1       x1      0
+                                        =                                    f (t)
+                               dt x2         −k/m −r/m          x2     1/m
+                               in the case where the mass on the spring is 1, the damping constant r = 5,
+
+ww                             the spring constant k = 4, the forcing function f (t) = t, and the initial
+                               extension of the spring is 0 with 0 initial velocity.
+
+
+   w              .Ea
+                               Solution Substituting the given values for m, r, k, and f , we have the
+                               system
+                                    
+                                d x1
+                                        =
+                                           0      1
+                                                       
+                                                        x1
+                                                             +
+                                                                0
+                                                                    f (t).
+                               dt x2      −4 −5         x2
+
+                     syE
+                                                                1
+
+                               Step 1
+                                  Solve the homogeneous system with f (t) = 0, giving
+                               dx         ngi
+                                   = Ax where A =
+                                                     
+                                                       0     1
+                                                               
+                                                                 .
+                               dt
+                                              n        −4 −5
+
+
+                                                            eer
+                               Try solutions of the form x = v eλt , where v is a constant vector. Then
+                               dx/dt = λv eλt . Substitute for x and dx/dt into dx/dt = Ax, giving
+                               λv eλt = Av eλt
+                                                                         ing
+                               as eλt = 0, we have
+                               λv = Av                                                .ne
+                               Av = λv
+                                                                                          t
+                               which we recognize as the eigenvalue problem of Chapter 13. In this case,
+                               however, we shall allow the possibility of complex eigenvalues.
+                                 The solutions for λ are found by solving |A − λI| = 0 as
+                                             
+                                      0     1
+                               A=
+                                     −4 −5
+                               this gives
+                                            
+                                −λ       1 
+                                
+                                −4 −5 − λ = 0
+
+                                  ⇔      λ(5 + λ) + 4 = 0
+                                  ⇔      λ2 + 5λ + 4 = 0
+                                                   √
+                                             −5 ± 25 − 16
+                                  ⇔      λ=
+                                                    2
+                                             −5 ± 3
+                                  ⇔      λ=            ⇔ λ = −4 ∨ λ = −1.
+                                                2
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

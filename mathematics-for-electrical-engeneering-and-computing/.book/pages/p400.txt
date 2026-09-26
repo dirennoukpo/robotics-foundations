@@ -1,0 +1,89 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                          Laplace and z transforms       387
+
+             4.   Change of scale:
+                                  1 s
+                  L{f (at)} =      F .
+                                  a a
+             5.   Laplace transforms of derivatives:
+
+                    L{f (t)} = sF (s) − f (0)
+                  L{f (t)} = s 2 F (s) − sf (0) − f (0)
+
+                  and
+
+                  L{f (n) (t)} = s n F (s) − s n−1 f (0) − · · · − sf (n−2) (0) − f (n−1) (0)
+
+             6.   Integrals:
+                      t
+                                                F (s)
+
+ww                L
+                        0
+                          f (τ ) dτ     =
+                                                  s
+                                                      .
+
+
+
+   w.Ea
+             7.   Convolution:
+
+                  L{f ∗ g} = L
+                                     t
+
+                                        0
+                                            f (τ )g(t − τ ) dτ        = F (s)G(s).
+
+
+
+       syE   8.   Derivatives of the transform:
+
+                  L{t n f (t)} = (−1)n F (n) (s)
+
+                  where
+                        ngi
+                  F n (s) =
+                            n dn F (n)
+                               ds n
+                                       (s).
+
+                                                 eer
+            Example 15.3 (Linearity)
+                                                                 ing
+                                                  Find L{3t 2 + sin(2t)}.
+            Solution From Table 15.1
+               2
+                t     1                                                       .ne
+            L
+
+            and
+              
+                 2
+                    = 3
+                      s
+                                                                                  t
+                sin(2t)             1
+            L               =               .
+                   2            (s 2 + 4)
+
+            Therefore
+                                         2                 
+                                         t                      sin(2t)       6      2
+            L{3t 2 + sin(2t)} = 6L                  + 2L                  =      + 2
+                                          2                        2          s3  s +4
+
+            using
+
+            L{af1 (t) + bf2 (t)} = aF1 (s) + bF2 (s).
+
+            Example 15.4 (Linearity and the inverse transform)                  Find
+                
+                   2        4s
+            L−1        + 2
+                  s+4 s +9
+
+
+                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

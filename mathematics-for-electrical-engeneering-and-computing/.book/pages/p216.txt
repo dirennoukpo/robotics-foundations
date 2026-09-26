@@ -1,0 +1,78 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                  Vectors      203
+
+                                      position vectors a and b lie on the line, then a vector in the direction of
+                                      the line will be a vector joining those two points, that is, b − a. As the
+                                      line must go through A, we can see that any multiple of b − a added to
+                                      the position vector a must lie on the line. This is shown in Figure 9.23
+ y                                       If we call the position vector of any point on the line r where r = (x, y),
+       A                              we now have the vector equation of the line as r = a + λ(b − a) where
+      a
+             b–a
+                         B            λ ∈ R.
+                r
+                        b                This can be rewritten as r = a(1 − λ) + λb.
+
+                                      Example 9.21 Find the vector equation of a line through the points
+                             x
+                                      (2, 4) and (0, 6) and show that your result agrees with the equation of the
+                                      line y = −x + 6, as found in Example 2.3.
+Figure 9.23 The vector
+equation of the line. The             Solution   Using r = a(1 − λ) + λb and a = (2, 4), b = (0, 6), we find
+vector r represents points on
+the line joining A and B.
+                                      r = (2, 4)(1 − λ) + λ(0, 6) = (2(1 − λ) + λ(0), 4(1 − λ) + λ6)
+
+ww                                    r = (2 − 2λ, 4 + 2λ)
+
+
+
+   w                 .Ea
+                                      To show that this is the same as equation y = −x + 6 use r = (x, y)
+
+                                      (x, y) = (2 − 2λ, 4 + 2λ) ⇔ x = 2 − 2λ and y = 4 + 2λ
+
+
+
+                        syE           This is a parametric equation for the line with parameter λ.
+                                        Eliminate λ by rewriting the equation for x so that λ is the subject and
+                                      substitute into the equation for y:
+
+
+                                                 ngi
+                                      x = 2 − 2λ ⇔ λ = 21 (2 − x)
+
+
+                                                     n
+                                      Substituting for λ in y = 4 + 2λ gives
+
+                                      y = 4 + 2 21 (2 − x)          eer
+                                            ⇔
+                                            ⇔
+                                                 y =6−x
+                                                 y = −x + 6                      ing
+                                                                                              .ne
+                                      This shows that the vector equation of the line is equivalent to y = −x +6.
+
+
+                                                                                                  t
+9.10 Summary                           1.   A vector is a string of numbers where the length of the string is
+                                            called the dimension of the vector.
+                                       2.   Vectors are used to represent points on a plane or in space, transla-
+                                            tions and physical quantities that have both magnitude and direction
+                                            (called vector quantities).
+                                       3.   The vector sum is found by adding corresponding elements of the
+                                            vectors, or from a diagram by using a parallelogram.
+                                       4.   To subtract vectors, subtract corresponding elements of the vectors.
+                                            A triangle may be used to perform vector subtraction in a diagram.
+                                       5.   Two-dimensional vectors r = (x, y) can be expressed in polar
+                                            co-ordinates using
+
+                                            r=     x2 + y2
+
+                                            and θ = tan−1 (y) (+π , if x is negative), so that (x, y) = r∠θ ,
+                                            where r or |r|is the magnitude, or length, of the vector and θ is the
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

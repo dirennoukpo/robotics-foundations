@@ -1,0 +1,78 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                   The exponential function            163
+
+               Both options are examples of growth. Option (b) gives a constant
+            growth rate of e2. If yn is the amount received on day n, the way that this
+            grows could be expressed by yn+1 = yn + 2. This is expressing the fact
+            that the amount received on day n+1 is e2 more than the amount received
+            on day n. This also means that the change each day in the amount received
+            is 2, which can be expressed as yn = 2, where yn = yn+1 − yn and
+            represents the change in y from day n to day n + 1.
+               Option (a) is an example of exponential growth (or geometric growth).
+            The amount received each day is proportional to the amount received the
+            day before, in this case twice as much. yn can be expressed by yn+1 = 2yn .
+            The change in y is equal to the value of y itself, yn = yn .
+               Because of the nature of exponential growth it is unlikely that you
+            would be given such an attractive award as option (a) represents. However,
+            exponential growth is not beyond the reach of the everyday person as
+            savings accounts offer this opportunity. Unfortunately, the amount you
+            receive does not increase as quickly as doubling each day but it is based
+
+ww          on how much you have already in the bank; hence, it is exponential.
+            Supposing you opened an account that paid an annual interest of 6%
+            and the annual rate of inflation was 3%, then the real rate of growth is
+
+   w.Ea
+            approximately 3% per annum. If yn is the value of the amount you have
+            in the bank after n years then yn+1 = 1.03yn . We can also express this by
+            saying that the interest received each year, that is, the change in yn , yn ,
+            is 3% of yn , that is, yn = 0.03yn , where yn = yn+1 − yn . If the rate
+
+       syE  of interest remains constant then if you deposit e1 tomorrow then your
+            descendents, in only 500 years time, will receive an amount worth over
+            e2.5 million in real terms.
+
+                       ngi
+               The models of growth that we have discussed so far give examples of
+            recurrence relations, also called difference equations. Their solutions are
+
+
+                           n
+            not difficult to find. For instance, if yn+1 = 2yn and we know that on day 1
+
+
+                                            eer
+            we received 1 c, that is, y1 = 0.01 then we can substitute n = 1, 2, 3, . . .
+            (as we did in Section 1.4) to find values of the function giving
+
+            0.01, 0.02, 0.04, 0.08, 0.16, 0.32, . . .
+                                                        ing
+                                                                      .ne
+            Clearly, there is a power of 2 involved in the expression for yn , so we
+            can guess that y = 0.01 (2n−1 ). By checking a few values of n we
+
+                                                                          t
+            can confirm that this is indeed the amount received each day. When we
+            deposit e1 in the bank at a real rate of growth of 3% we get the recur-
+            rence relation yn+1 = 1.03yn , where yn is the current day value of the
+            amount in the savings account after n years. Substituting a few values
+            beginning with y0 = 1 (the amount we initially deposit) we then get
+            1, 1.03, 1.06, 1.09, 1.13, 1.16, 1.19, . . . (to the nearest cent). Each time we
+            multiply the amount by 1.03, there must be a power of 1.03 in the solution
+            for y. We can guess the solution as yn = (1.03)n . By checking a few val-
+            ues of n we can confirm that this is, in fact, the amount in the bank after
+            n years.
+               The models we have looked at so far are discrete models. In the case
+            of the money in the bank the increase occurs at the end of each year.
+            However, if we consider population growth, for instance, then it is not
+            possible to say that the population grows at the end of a certain period, the
+            growth could happen at any moment of time. In this case, providing the
+            population is large enough, it is easier to model the situation continuously,
+            using a differential equation. Such models take the form of dy/dt = ky.
+            dy/dt is the rate of growth, if k is positive, or the rate of decay, if k
+            is negative. The equation states that the rate of growth or decay of a
+            population of size y is proportional to the size of the population.
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

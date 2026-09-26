@@ -1,0 +1,88 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                      The exponential function        183
+                    2
+                 (d) 1 ln(x)dx. Write ln(x) = 1 ln(x) and use integration by parts with
+            u = ln(x)      and    dv = 1 dx
+                                      
+                           dx
+                 ⇒ du =           v = 1 dx = x
+                           x
+
+             2                              2
+                                                1
+                  ln(x)dx = [x ln(x)]21 −         x
+                                                  dx
+             1                              1   x
+                                                  2
+                           = 2 ln(2) − 1 ln(1) −     1dx
+                                                       1
+
+                           = 2 ln(2) − [x]21
+                           = 2 ln(2) − (2 − 1) ≈ 0.3863 to 4 s.f.
+
+
+
+ww
+                 (e) We rewrite
+                                   
+                  3x 2 + 2x
+                             dx =       (3x 2 + 2x)(x 3 + x 2 + 2)−1 dx.
+                 x3 + x2 + 2
+
+   w.Ea     Notice that there are two brackets. To decide what to substitute we notice
+            that
+
+
+       syE
+             d 3
+               (x + x 2 + 2) = 3x 2 + 2x.
+            dx
+            so it should work to substitute u = x 3 + x 2 + 2
+
+                  du    ngi              dx
+            ⇒
+                  dx
+                            n
+                     = 3x 2 + 2x ⇒ dx = 2
+
+            The integral becomes
+            
+                                       3x + 2x
+
+                                            eer
+                                               .
+
+
+
+
+            
+              (3x 2 + 2x)u−1 2
+                                 du
+                             3x + 2x                       ing
+               du
+                u
+                   = ln(u) + C.
+                                                                    .ne
+            Resubstituting for u gives
+            
+                3x 2 + 2x
+              x3 + x2 + 2
+                            dx = ln(x 3 + x 2 + 2) + C.
+                                                                        t
+            Integration using partial fractions
+            The fact that expressions like 1/(3x + 2) can be integrated using a
+            substitution which results in an integral of the form:
+            
+               1
+                 du = ln(u) + C
+               u
+            is exploited when we perform the integration of fractional expressions
+            like
+                2x − 1
+                           .
+            (x − 3)(x + 1)
+            We first rewrite the function to be integrated using partial fractions.
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

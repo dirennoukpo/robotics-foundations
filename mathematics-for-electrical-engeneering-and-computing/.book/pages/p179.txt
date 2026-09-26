@@ -1,0 +1,79 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+166   The exponential function
+
+                                 simple differential equations such as dy/dt = 3t by integrating both sides
+                                 with respect to t, for example,
+                                                      
+                                 dy                                      3t 2
+                                    = 3t ⇔ y =            3t dt ⇔ y =         + C.
+                                 dt                                       2
+
+                                 However, we cannot solve the equation dy/dt = ky in this way because
+                                 the right-hand side is a function of y not of t. If we integrate both sides
+                                 with respect to t we get
+                                                      
+                                 dy
+                                    = ky ⇔ y =            ky dt.
+                                 dt
+
+                                                                       solving for y as we need to know
+                                 Although this is true we are no nearer
+                                 y as a function of t in order to find ky dt.
+
+ww                                  When we solved equations in Chapter 3 of the Background Mathe-
+                                 matics notes available on the companion website for this book, we said
+                                 that one method was to guess a solution and substitute that value for the
+
+   w             .Ea
+                                 unknown into the equation to see if it gave a true statement. This would
+                                 be a very long method to use unless we are able to make an informed
+                                 guess. We can use this method with this differential equation as we know
+                                 from our experience with problems involving discrete growth that a solu-
+
+                    syE          tion should involve an exponential function of the form y = a t . The
+                                 main problem is to find the value of a, which will go with any particular
+                                 equation. To do this we begin by looking for an exponential function that
+
+                                             ngi
+                                 would solve the equation dy/dt = y, that is, we want to find the function
+                                 whose derivative is equal to itself.
+
+
+                                                 n             eer
+8.3 The                                                                    ing
+                                 Figures 8.2(a) and 8.3(a) give graphs of y = 2t and y = 3t , which are
+
+exponential
+function y = et
+                                                                                        .ne
+                                 two exponential functions. We can sketch their derivative functions by
+                                 drawing tangents to the graph and measuring the gradient of the tan-
+                                 gent at various different points. The derivative functions are pictured in
+
+                                 y = 3t .                                                   t
+                                 Figure 8.2(b), dy/dt where y = 2t , and in Figure 8.3(b), dy/dt where
+
+                                   We can see that for these exponential functions the derivative has
+                                 the same shape as the original function but has been scaled in the
+                                 y-direction, that is, multiplied by a constant, k, so that dy/dt = ky as we
+                                 expected:
+
+                                 d t                         d t
+                                    (2 ) = (C)(2t )   and       (3 ) = (D)(3t )
+                                 dt                          dt
+
+                                 where C and D are constants. We can see from the graphs that C < 1 and
+                                 D > 1. Thus, the derivative of 2t gives a squashed version of the original
+                                 graph and the derivative of 3t gives a stretched version of the original
+                                 graph.
+                                   It would seem reasonable that there would be a number somewhere
+                                 between 2 and 3 that we can call e, which has the property that the
+                                 derivative of et is exactly the same as the original graph. That is,
+
+                                 d t
+                                    (e ) = et .
+                                 dt
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

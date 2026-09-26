@@ -1,0 +1,82 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                Sequences and series         267
+
+                        Solution   The formula for the sum to infinity gives
+
+                                a
+                        S∞ =       .
+                               1−r
+
+                        Substituting a = −10 and r = 0.1 gives
+
+                                −10      −10      1
+                        S∞ =           =     = −11 .
+                               1 − 0.1   0.9      9
+
+
+
+                        Example 12.15      Express the recurring decimal 0.02̇ = (0.0222222 . . .)
+                        as a fraction.
+
+                        Solution
+
+
+ww                      0.02̇ = 0.02 + 0.002 + 0.0002 + · · ·
+
+
+   w      .Ea
+                        This is the sum to infinity of a GP with first term 0.02 and common ratio
+                        0.1. The sum to infinity is therefore
+
+                                0.02     0.02   2
+
+             syE        S∞ =
+                               1 − 0.1
+                                       =
+                                          0.9
+                                              =
+                                                90
+
+
+
+                                   ngi
+                        giving 0.02̇ = 2/90.
+
+
+                        Example 12.16
+                                       n   Find the sum to infinity of
+
+                        1 + z − z2 + z3 − z4 · · ·     eer
+                        where 0 < z < 1.                         ing
+                        giving the sum to infinity as                          .ne
+                        Solution The first term of this series is 1 and the common ratio is −z
+
+
+
+                        S∞ =
+                                  1
+                               1 − (−z)
+                                        =
+                                           1
+                                          1+z
+                                              .                                    t
+                        Note that in the case of a GP with common ratio |r| ⩾ 1, the series sum
+                        will not tend to a finite limit. For instance, the sum of the GP
+
+                        2 + 4 + 8 + 16 + 32 + · · · + 2n
+
+                        gets much larger each time a new term is added. We say that the sum of
+                        this series tends to infinity.
+
+
+
+
+                        Expressions like (3 + 2y)5 are called binomial expressions. Expanding
+12.5 Pascal’s           these expressions can be very tedious as we need to multiply out (3 + 2y)
+triangle and the        (3 + 2y)(3 + 2y)(3 + 2y)(3 + 2y) term by term. To speed up this process,
+                        we analyse the coefficients of the terms in the expansion and find that
+binomial series         they make a triangular pattern, called Pascal’s triangle.
+
+                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

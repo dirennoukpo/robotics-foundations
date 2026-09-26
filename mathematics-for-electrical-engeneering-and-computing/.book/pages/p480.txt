@@ -1,0 +1,59 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                                       Graph theory        467
+
+
+
+
+       Figure 19.15 Graphs with spanning trees shaded.
+
+
+
+
+                                                               Figure 19.16 A weighted complete
+                                                               graph. The vertices represent
+                                                               offices and the edges represent
+
+ww                                                             possible communication links. The
+                                                               weights on the edges represent the
+                                                               cost of construction of the link.
+
+
+   w                 .Ea             Minimum spanning tree
+
+                        syE          Supposing we have a group of offices which need to be connected by
+                                     a network of communication lines. The offices may communicate with
+                                     each other directly or through another office. In order to decide on which
+
+                                               ngi
+                                     offices to build links between we firstly work out the cost of all possible
+                                     connections. This will then give us a weighted complete graph as shown
+
+
+                                                   n
+                                     in Figure 19.16.
+
+
+                                                                 eer
+                                        The minimum spanning tree is then the spanning tree that represents
+                                     the minimum cost.
+
+
+                                                                              ing
+                                                                                           .ne
+                                                                                               t
+Figure 19.17 The graph of
+Figure 19.16 with its minimum
+spanning tree marked.
+
+
+
+
+                                     The greedy algorithm for the minimum
+                                     spanning tree
+                                     1. Choose any start vertex to form the initial partial tree (vi ).
+                                     2. Add the cheapest edge, ei , to a new vertex to form a new partial tree.
+                                     3. Repeat Step 2 until all vertices have been included in the tree.
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

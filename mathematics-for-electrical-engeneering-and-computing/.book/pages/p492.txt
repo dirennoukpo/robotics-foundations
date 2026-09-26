@@ -1,0 +1,73 @@
+               Downloaded From : www.EasyEngineering.net
+
+
+
+
+     20             Language theory
+
+20.1                We all use natural language to communicate. In a natural language, there is
+                    no strictly formal way of deciding exactly what is or is not an acceptable
+
+ww
+Introduction        sentence. This is because natural language is constantly evolving and
+                    subject to cultural diversities. The meaning of a sentence in a natural
+                    language is yet another problem. A sentence may have different meanings
+
+   w      .Ea
+                    in different parts of the world or because of ambiguities arising from its
+                    structure. If I say ‘I locked my car keys in my boot’ in England I have
+                    accidentally left my car keys in the boot (trunk) of my car. In America I
+                    have cleverly forced them into a lockable shoe. If I say ‘Green fields like
+
+             syE    a wet blanket’ I could be making a poetic reference to the covering of
+                    dew or rain being helpful for keeping a field green or I could be making
+                    disparaging comments about a cricket fielder called Green. Meanings
+
+                              ngi
+                    associated with language are called semantics whereas its structure forms
+                    the syntax of the language.
+
+
+                                  n
+                       There are reasons for requiring a simpler definition of language to use
+
+
+                                                eer
+                    in formal situations. For instance, there are programming languages used
+                    for writing computer instructions. We would hope that the decision as
+                    to whether a particular sequence of symbols forms a program could be
+
+                                                             ing
+                    exactly determined. Also we would like to reduce any ambiguities as to its
+                    meaning so that any computer faced with the same program might take
+
+
+                                                                          .ne
+                    the same actions. Even in natural language it can be desirable to have
+                    rules that can be applied to the language to produce a generally accepted
+
+
+                                                                              t
+                    version of the language. This can be used for cross-cultural exchange
+                    and such a formalized version of a language can also simplify translation
+                    from one natural language to another.
+                       A formal language consists of a set of sequences of symbols called
+                    sentences. The membership of the language set is usually defined by
+                    using grammar rules. Using the grammar rules to determine whether a
+                    particular string of symbols constitutes a sentence is called parsing. One
+                    way to do this would be to repeatedly use the grammar rules to list all
+                    the sentences in the language and stop if our sentence appears. This is
+                    not very practical because the number of sentences in a languages can
+                    be very large or even infinite. A refinement of this approach would be to
+                    use the grammar rules to find all sentences at least as long as the string
+                    of symbols we are interested in and check whether our sentence appears.
+                    These are called top-down approaches because we start with the rules
+                    and derive sentences. Alternatively, we could try and start with a string
+                    of symbols and test whether it obeys the grammar rules provided. This
+                    is a bottom-up approach which involves applying the grammar rules in
+                    reverse. We find that only certain sorts of grammars are easy, or possible,
+                    to use in reverse in this manner. For these grammars, which are easier
+                    to parse, we can define a procedure to test whether any given string is
+                    a sentence. The procedure that is used is called a parser. Identifying
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,78 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                    Differential equations and difference equations               367
+
+            Example 14.9 Find the current in an initially relaxed LRC circuit with
+            R = 5 %, L = 4 µH, C = 1 µF where the AC voltage source is given by
+            v(t) = 20 sin(10t).
+            Solution The differential equation is given in Section 14.2 as
+
+                d2 i   di i dv
+            L        +R + =
+                dt 2   dt C dt
+            As v = 20 sin(10t)
+            dv
+               = 200 cos(10t)
+            dt
+            and substituting in the given values of L, R, and C we get
+                                                 i
+            (4 × 10−6 )d2 i/dt 2 + 5 di/dt +        = 200 cos(10t)
+                                               10−6
+
+ww          4 × 10−6 d2 i/dt 2 + 5 di/dt + 106 i = 200 cos(10t).
+            Step 1
+
+   w.Ea
+            Solve the homogeneous equation
+                (4 × 10−6 )d2 i/dt 2 + 5 di/dt + 106 i = 0
+
+
+
+       syE  This has auxiliary equation
+            4 × 10−6 λ2 + 5λ + 106 = 0
+
+
+                       ngi
+            with solutions
+                            −5 ±
+                                   
+                                    25 − 4(4 × 10−6 × 106 )
+                                                                              √
+                                                                         −5 ± 9
+                ⇔
+
+                ⇔
+                      λ=
+                           n           2 × 10−6
+
+                                           eer
+                      λ = −4 × 106 ∨ λ = −106 .
+                                                                ⇔     λ=
+                                                                         2 × 10−6
+
+
+            The complementary function is
+
+            i = A e−10 t + B e−4×10 t .
+                        6              6             ing
+            Step 2                                                .ne
+            try
+                                                                      t
+            Find a particular solution. As the forcing function is a cosine function we
+
+
+            i = c cos(10t) + d sin(10t)
+
+            di/dt = −10c sin(10t) + 10d cos(10t)
+                    = −100c cos(10t) − 100d sin(10t).
+            Substituting into
+            (4 × 10−6 )d2 i/dt 2 + 5 di/dt + 106 i = 200 cos(10t)
+            we get
+            4 × 10−6 (−100c cos(10t) − 100d sin(10t))
+                + 5(−10c sin(10t) + 10d cos(10t))
+                + 106 (c cos(10t) + d sin(10t)) = 200 cos(10t)
+                ⇔     −0.0004c cos(10t) − 0.0004d sin(10t) − 50c sin(10t) + 50d cos(10t)
+                + 106 c cos(10t) + 106 d sin(10t).
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

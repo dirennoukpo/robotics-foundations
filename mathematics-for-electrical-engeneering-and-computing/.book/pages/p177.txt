@@ -1,0 +1,88 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+164   The exponential function
+
+                                 Example 8.1 A malfunctioning fridge maintains a temperature of 6◦ C
+                                 which allows a population of bacteria to reproduce such that, on average,
+                                 each bacteria divides every 20 min. Assuming no bacteria die in the time
+                                 under consideration find a differential equation to describe the population
+                                 growth.
+                                 Solution If the population at time t is given by p then the rate of change
+                                 of the population is dp/dt. The increase in the population is such that it
+                                 approximately doubles every 20 min, that is, it increases by p in 20×60 s.
+                                 That gives a rate of increase as p/(20 × 60) per second. Hence, the
+                                 differential equation describing the population is
+                                 dp    p
+                                    =      .
+                                 dt   1200
+
+
+
+
+ww                               Example 8.2 A capacitor, in an RC circuit, has been charged to
+                                 a charge of Q0 . The voltage source has been removed and the
+                                 circuit closed as in Figure 8.1. Find a differential equation that
+
+   w               .Ea
+Figure 8.1 A closed RC
+circuit.
+                                 describes the rate of discharge of the capacitor if C = 0.001 µF and
+                                 R = 10 M.
+                                 Solution The voltage across a capacitor is given by Q/C where C is the
+                                 capacitance and Q is the charge on the capacitor. The voltage across
+
+                      syE        the resistor is given by Ohm’s Law as IR. From Kirchoff’s voltage law,
+                                 the sum of the voltage drops in the circuit must be 0; therefore, as the
+                                 circuit is closed, we get voltage across the resistor + voltage across the
+
+                                        Q
+                                            ngi
+                                 capacitor = 0:
+
+                                 ⇒ IR +
+                                        C
+                                          = 0.
+                                                n             eer
+                                 By definition, the current is the rate of change of charge with respect to
+
+
+                                 R
+                                     dQ Q                                  ing
+                                 time, that is I = dQ/dt giving the differential equation
+
+                                        +   = 0.
+                                     dt   C
+                                 We can rearrange this equation as                      .ne
+                                 R
+                                     dQ
+                                     dt
+                                        =−
+                                           Q
+                                           C
+                                             ⇔
+                                               dQ
+                                               dt
+                                                  =−
+                                                     Q
+                                                     RC
+                                                        .                                   t
+                                 We can see that this is an equation for exponential decay. The rate of
+                                 change of the charge on the capacitor is proportional to the remain-
+                                 ing charge at any point in time with a constant of proportionality
+                                 given by 1/RC. In this case as R = 10 M and C = 0.001 µF,
+                                 we get
+                                 dQ
+                                    = −100Q.
+                                 dt
+
+
+                                 Example 8.3 Radioactivity is the emission of α- or β-particles and
+                                 γ -rays due to the disintegration of the nuclei of atoms. The rate of dis-
+                                 integration is proportional to the number of atoms at any point in time
+                                 and the constant of proportionality is called the radioactivity decay con-
+                                 stant. The radioactive decay constant for Radium B is approximately
+                                 4.3 × 10−4 s−1 . Give a differential equation that describes the decay of
+                                 the number of particles N in a piece of Radium B.
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

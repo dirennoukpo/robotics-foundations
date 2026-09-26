@@ -1,0 +1,102 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+400   Laplace and z transforms
+
+                                 By definition of convolution
+                                                         t
+                                 (6 cos(2t)) ∗ (e3t ) =     6 cos(2τ ) e3(t−τ ) dτ .
+                                                                  0
+
+                                 As this is a real integral we can use the trick of writing cos(2τ ) = Re(ej2τ )
+                                 to make the integration easier. So we find
+                                       t
+                                 I=        6e j2τ e3(t−τ ) dτ
+                                        0
+                                                   t
+                                    = 6e    3t
+                                                        eτ ( j2−3) dτ
+                                                   0
+                                            τ ( j2−3) t
+                                            e
+                                    = 6e    3t
+                                             j2 − 3 0
+                                            t( j2−3)            
+
+ww                                  = 6e 3t e
+                                             j2 − 3
+                                                       −
+                                                             1
+                                                          j2 − 3
+                                        6 e3t (−j2 − 3)(e−3t (cos(2t) + j sin(2t)) − 1)
+
+   w             .Ea
+                                    =
+                                                             4+9
+                                                                                        .
+
+                                 Taking the real part of this result we get the system response as
+                                  t
+
+                    syE           0
+                                     6 cos(2τ )e3(t−τ ) dτ =
+                                                               6
+                                                              13
+                                                                                             18
+                                                                  (−3 cos(2t) + 2 sin(2t)) + e3t
+                                                                                             13
+
+
+                                                  ngi
+                                                                 18            12           18 3t
+                                                           = − cos(2t) +          sin(2t) + e
+                                                                 13            13           13
+
+
+                                                      n
+                                 which confirms the result of the first method.
+
+
+                                                                          eer
+                                 Example 15.20 A system at rest has a constant input of f (t) = 3
+                                 applied at t = 0. The output is found to be u(t)( 23 − 23 e−2t ). Find the
+                                 impulse response of the system.
+                                 Solution Since                                     ing
+                                 y(t) = u(t)
+                                             
+                                               3 3 −2t
+                                                − e
+                                               2 2
+                                                       
+                                                                                               .ne
+                                 we have
+
+                                 y(s) =
+                                            3
+                                               −
+                                                     3
+                                                          =
+                                                            3s + 6 − 3s
+                                                                        =
+                                                                              3
+                                                                                                   t
+                                            2s   2(s + 2)    2s(s + 2)    s(s + 2)
+                                 and as f (t) = 3, we have
+
+                                            3
+                                 F (s) =      .
+                                            s
+                                 Hence
+                                            Y (s)   3/(s(s + 2))    1
+                                 H (s) =          =              =
+                                            F (s)       3/s        s+2
+
+                                 giving
+                                                   
+                                                         1
+                                 h(t) = L−1                      = e−2t .
+                                                        s+2
+
+                                 Hence the impulse response is h(t) = e−2t .
+
+                                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,63 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                Trigonometric functions and waves                    91
+
+
+                                        We can now draw graphs of the functions for all input values t as in
+5.3 Graphs and                          Figures 5.5–5.7.
+important                                  These are all important examples of periodic functions. To show that
+                                        the cos(t) or sin(t) function is periodic, translate the graph to the left or
+properties                              right by 2π . The resulting graph will fit exactly on top of the original
+                                        untranslated graph. 2π is called the fundamental period as translating
+                                        by 4π, 6π, 8π , etc. also results in the graph fitting exactly on top of
+                                        the original function. The fundamental period is defined as the smallest
+                                        period that has this property and all other periods are multiples of the
+                                        fundamental period. This periodic property can be expressed using a
+                                        letter, n, to represent any integer, giving
+
+                                        sin(t + 2π n) = sin(t)
+                                        cos(t + 2π n) = cos(t)
+
+
+ww
+   w                   .Ea
+                          syE           Figure 5.5 The graph of y = sin(t ), where t can take any value.
+
+
+                                                   ngi
+                                        Notice that the function repeats itself every 2π . This shows that the
+                                        function is periodic with period 2π. Notice also that the value of sin(t )
+                                        is never more than 1 and never less than −1. The function is odd as
+                                        sin(−t ) = − sin(t ).
+
+                                                       n             eer
+                                                                                  ing
+                                                                                                .ne
+                                                                                                    t
+                                        Figure 5.6 The graph of x = cos(t ), where t can take any value.
+                                        Notice that the function repeats itself every 2π. This shows that the
+                                        function is periodic with period 2π. Notice also that the value of cos(t )
+                                        is never more than 1 and never less than −1. The function is even as
+                                        cos(−t ) = cos(t ).
+
+
+
+Figure 5.7 The graph of
+z = tan(t ), where t can take
+any value except odd
+multiples of π/2 (for instance
+tan(t ) is not defined for
+t = π/2, 3π/2, 5π/2). Notice
+that the function repeats itself
+every π. This shows that the
+function is periodic with
+period π. The function values
+extend from −∞ to ∞, that is,
+the range of tan(t ) is all the
+real numbers. The function is
+odd as tan(−t ) = − tan(t ).
+
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,69 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                   Differential equations and difference equations                      377
+
+            complex, or equal, where
+                               √
+                        −b ±      b2 − 4ac
+            λ1 , λ2 =
+                                 2a
+
+
+              Case (1): λ1 and λ2 are real and distinct
+
+            yn = a(λ1 )n + b(λ2 )n .
+
+
+              Case (2): λ1 and λ2 are complex. Then we write in exponential form
+            λ1 = r ejθ so λ2 = r e−jθ and the solution can be expressed as
+
+            y = r n (a cos(nθ ) + b sin(nθ)).
+
+
+ww            Case (3): λ1 and λ2 are equal real roots and the solution is yn =
+            (a + bn)λn .
+
+   w.Ea     Step 2
+
+
+       syE
+            Find a particular solution. We use a trial solution which depends on the
+            form of the input sequence fn as suggested by Table 14.2.
+               In this case the input is a constant so we try a constant output. The trial
+            solution is yn = c. Substituting this into
+
+                         ngi
+            6yn − 5yn−1 + yn−2 = 1
+
+                             n
+            gives the equation for c as
+                                             eer
+            6c − 5c + c = 1
+               ⇔        2c = 1                         ing
+            c = 1/2
+                                                                      .ne
+              A particular solution for y is yn = 1/2.
+            Step 3                                                        t
+            The general solution is the sum of the solution of the homogeneous
+            equation and a particular solution giving
+
+                        1 n       n
+            yn = a      3   + b 21 + 21 .
+
+
+            Table 14.2 A table of trial solutions to be used to find a particular
+            solution of a difference equation. The form of the trial solution is
+            suggested by the form of the input sequence fn . The coefficients c0 ,
+            c1, . . . and c and d are to be determined
+
+            Input function                           Trial solution
+
+            Power series fn = n k (k an integer)     y = c0 + c1 n + c2 n 2 + · · · + ck n k
+            An exponential function fn = a n         y = ca n
+            Sine or cosine function                  y = c cos(ωn) + d sin(ωn)
+            fn = cos(ωn) or sin(ωn)
+
+
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,80 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                               Maxima and minima and sketching functions                     247
+
+                                      This gives
+
+                                       dy   2(x 2 − 4x − 5) − (2x + 1)(2x − 4)
+                                          =
+                                       dx             (x 2 − 4x − 5)2
+                                       dy   2x 2 − 8x − 10 − 4x 2 + 6x + 4
+                                          =
+                                       dx           (x 2 − 4x − 5)2
+                                       dy  −2x 2 − 2x − 6
+                                          = 2
+                                       dx  (x − 4x − 5)2
+                                      We now solve dy/dx = 0
+
+                                       −2x 2 − 2x − 6
+                                                       =0
+                                       (x 2 − 4x − 5)2
+                                         ⇒ −2x 2 − 2x − 6 = 0 ⇒ x 2 + x + 3 = 0
+
+
+ww                                    Using the formula to solve the quadratic equation gives
+                                                 √
+                                          −1 ± 12 − 12
+                                                                     √
+                                                               −1 ± −11
+
+   w                 .Ea
+                                      x=
+                                                  2
+                                                            =
+                                                                     2
+                                      Because of the square root of a negative number in this expression we
+                                      can see that there are no real solutions; here, there are no turning points.
+
+
+                        syE             Step 4. When x is large in magnitude then the highest powers of x on
+                                      the top and bottom lines of the function expression will dominate. In this
+                                      case ignore all the other terms. Considering
+
+                                      y=
+                                                   ngi
+                                               2x + 1
+                                           (x + 1)(x − 5)
+                                                          = 2
+                                                              2x + 1
+                                                           x − 4x − 5
+
+
+
+                                      y∼
+                                           2x   2
+                                                       n
+                                      For x large in magnitude
+
+                                              =                    eer
+                                           x2   x
+                                                                                ing
+                                      which tends to 0 and is positive as x → ∞ and tends to 0 and is negative
+
+                                      y → 0− .
+                                                                                             .ne
+                                      as x → −∞. We can say that as x → ∞, y → 0+ and as x → −∞,
+
+
+                                      Figure 11.8.
+                                                                                                 t
+                                         Step 5. Sketch the graph. This is done in two stages, as shown in
+
+
+
+
+Figure 11.8 Sketching the graph of y = (2x + 1)/((x + 1)(x − 5)): (a) first mark the important points as
+found in Example 11.6; (b) join up these points, where relevant, to give the sketch of the function.
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,72 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+
+
+          21                        Probability and
+                                    statistics
+
+21.1                                Consider a system of computers and communication networks supporting
+
+
+ww
+Introduction
+                                    a bank’s cash dispensing machines. The machines provide instant money
+                                    on the street on production of a cash card and a personal identification
+                                    code with the only prerequisite being that of a positive bank balance.
+
+   w                 .Ea
+                                       The communication network must be reliable – that is, not subject too
+                                    often to break downs. The reliability of the system, or each part of the
+                                    system, will depend on each component part.
+                                       A very simple system, with only two components, can be configured
+
+                        syE         in series or in parallel. If the components are in series then the system
+                                    will fail if one component fails (Figure 21.1).
+                                       If the components are in parallel then only one component need func-
+
+                                              ngi
+                                    tion (Figure 21.2) and we have built in redundancy just in case one of the
+                                    components fails.
+
+
+                                                  n
+                                       A network could be made up of tens, hundreds, or even thousands
+
+
+                                                                eer
+                                    of components. It is important to be able to estimate the reliability of
+                                    a complex system and therefore the rate of replacement of components
+                                    necessary and the overall annoyance level of our customers should the
+                                    system fail.
+                                                                            ing
+                                       The reliability will depend on the reliability of each one of the com-
+
+                                    component will last.
+                                                                                         .ne
+                                    ponents but it is impossible to say exactly how long even one single
+
+                                       We would like to be able to answer questions like:
+                                    1.
+                                    2.                                                       t
+                                         What is the likely lifetime of any one element of the system?
+                                         How can we estimate the reliability of the whole system by
+                                         considering the interaction of its component parts?
+
+
+
+Figure 21.1 Component A
+and B must function for the
+system to function.
+
+
+
+
+Figure 21.2 Either
+component A or component B
+must function for the system
+to function.
+
+
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

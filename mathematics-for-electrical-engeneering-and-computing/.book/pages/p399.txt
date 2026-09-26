@@ -1,0 +1,86 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+386    Laplace and z transforms
+
+                                  Symbolic representation of δ(t )
+                                  δ(t) can be represented on a graph by an arrow of height 1. The height rep-
+                                  resents the weight of the delta function. A shifted delta function, δ(t − a),
+                                  is represented by an arrow at t = a. Examples are given in Figure 15.6.
+
+
+
+                                  Rather than finding a Laplace transform from the definition we usually use
+15.4 Laplace                      tables of Laplace transforms. A list of some common Laplace transforms
+transforms of                     is given in Table 15.1. We can then use the properties of the transform
+                                  to find Laplace transforms of many other functions. To find the inverse
+simple                            transform, represented by L−1 { } we use the same table backwards. That
+functions and                     is, look for the function of s on the right-hand column; the left-hand
+                                  column then gives its inverse:
+properties of                                ∞
+
+ ww
+the transform                     F (s) =
+                                             0
+                                                     f (t) e−st dt       f (t) = L−1 {F (s)}.
+
+
+
+    w                  .Ea        Properties of the Laplace transform
+                                  In all of the following, F (s) = L{f (t)}
+
+                          syE      1.   Linearity:
+
+
+
+                                                 ngi
+                                        L{af1 (t) + bf2 (t)} = aF1 (s) + F2 (s)
+
+                                        where a and b are constants.
+                                   2.
+                                                     n
+                                        First translation (or Shift rule):
+
+                                        L{eat f (t)} = F(s − a)        eer
+Figure 15.6 Symbolic
+                                   3.   Second translation:
+                                                                                           ing
+representations of delta
+functions: (a) δ(t ); (b)
+3δ(t − a).
+                                        L{f (t − a)u(t − a)} = e            −as
+                                                                                  F (s).
+                                                                                                 .ne
+                                            Table 15.1
+
+                                            f (t )
+                                                              Common Laplace transforms
+
+                                                                      F (s) = L{f (t)}
+                                                                                                     t
+                                            u(t )                     1/s                       Re(s) > 0
+                                            δ(t )                     1                         Re(s) > 0
+                                              t n−1                    1
+                                                                                                Re(s) > 0
+                                            (n − 1)!                   sn
+                                                                          1
+                                            e−at                                                Re(s) > −a
+                                                                       s+a
+                                            1                              1
+                                              sin(at )                                          Re(s) > 0
+                                            a                          s 2 + a2
+                                                                           s
+                                            cos(at )                                            Re(s) > 0
+                                                                       s 2 + a2
+                                            1                              1
+                                              sinh(at )                                         Re(s) > |a|
+                                            a                          s − a2
+                                                                         2
+
+                                                                           s
+                                            cosh(at )                                           Re(s) > |a|
+                                                                       s 2 − a2
+
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

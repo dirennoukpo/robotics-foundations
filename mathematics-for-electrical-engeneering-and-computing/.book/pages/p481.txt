@@ -1,0 +1,74 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+468   Graph theory
+
+                                     Example 19.1 Find the minimum spanning tree for the graph repre-
+                                     senting communication links between offices as shown in Figure 19.16.
+                                     Solution We start with any vertex and choose the one marked a. Add
+                                     the edge ab which is the cheapest edge of those incident to a.
+                                        Add a new edge in order to form a partial tree and choose bc, which is
+                                     one of the cheapest remaining edges incident either with a or b. Now we
+                                     add edge ad which is the cheapest remaining edge of those incident with
+                                     a or b or c. Continuing in this manner we find the minimum spanning
+                                     tree, as shown in Figure 19.17. The total cost of the communication links
+                                     in our solution is found to be 2 + 3 + 3 + 2 + 4 = 14.
+
+
+
+
+19.5 The                             The weights on a graph may represent delays on a communication net-
+                                     work or travel times along roads. A practical problem that we may wish
+
+ ww
+shortest path
+problem
+                                     to solve is to find the shortest path from any two vertices. The algorithm
+                                     for solving this problem is illustrated in Example 19.2.
+
+
+    w                .Ea
+                                     Example 19.2 The weighted graph in Figure 19.18 represents a com-
+                                     munication network with weights indicating the delays associated with
+                                     each edge. Find the minimum delay path from s to t.
+
+
+                        syE          Solution
+                                     Stage 1
+
+
+                                                ngi
+                                     To find the path we begin at the start vertex s. s is the reference vertex
+                                     for stage 1. Label all the adjacent vertices with the lengths of the paths
+                                     using only one edge. Mark all the other vertices with a very high number
+
+                                                    n
+                                     (bigger than the sum of all the weights in the graph) in this case we choose
+
+                                                                    eer
+                                     100. This is shown in Figure 19.19.
+                                        At the same time start to fill in a table as in Table 19.1.
+
+
+                                                                               ing
+                                                                                               .ne
+Figure 19.18 The graph
+representing a
+                                                                                                   t
+communications network for
+Example 19.2.
+
+
+
+
+                                                              Table 19.1 The lengths of paths using one
+                                                              edge from s
+
+                                                              Reference    a    b    c    d     e      f      t
+                                                              vertex
+
+Figure 19.19 Stage 1 of solving the shortest                  s            4   11    7   100   100    100   100
+path problem of Example 19.2.
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,92 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                                Complex numbers             219
+
+                                       Expressing this is polar form gives Z ≈ 2016∠7◦ . Therefore, from
+                                     V = ZI and given V = 300,
+                                           300     300
+                                     I=        =         ≈ 0.149∠ − 7◦ .
+                                            Z    2016∠7◦
+                                     giving a current of magnitude 0.149 A with a relative phase of −7◦ .
+
+
+                                     Example 10.14 One form of a ‘tuned circuit’ that can be used as a band-
+                                     pass filter is given in Figure 10.14(a). Given that R = 300 , L = 2 mH,
+                                     and C = 10 µF, find the admittance of the circuit at 2 kHz. Given that
+                                     the current source is of amplitude 12 A, find the voltage amplitude and
+                                     its relative phase.
+                                     Solution The admittances of the elements are shown in Figure 10.14(b).
+                                     As the elements are in parallel, we can sum the admittances
+
+
+ww                                   Y =
+                                           1
+                                           R
+                                             + jωC −
+                                                      j
+                                                     ωL
+                                                              where ω = 2 × 103 × 2π
+
+
+   w                 .Ea
+                                     giving
+
+                                     Y =
+                                          1
+                                         300
+                                              + j(2π × 103 × 2 × 10 × 10−6 )
+
+
+                        syE              −
+                                                       j
+                                            2 × 103 × 2π × 2 × 10−3
+Figure 10.14 (a) The circuit
+for Example 10.14(b) The
+admittances of the circuit                     ngi
+                                       ≈ 0.003333 + j0.0859.
+
+                                       Expressing this is polar form gives Y = 0.086∠88◦ . Therefore, from
+elements shown on an
+Argand diagram. As the
+elements are in parallel, the
+resultant is found by taking
+                                                   n
+                                     V = ZI or V = I /Y , we have
+
+                                     V =
+                                               12
+                                                     ≈ 139.6∠−88◦eer
+the sum of the admittances of
+the components.
+                                           0.086∠88◦
+                                                                              ing
+                                     giving a voltage amplitude of 139.6 V with a relative phase of −88◦ .
+
+
+                                                                                           .ne
+10.7 Circular
+motion
+                                                                                               t
+                                     When we introduced the sine and cosine function in Chapter 5, we used
+                                     the example of a rotating rod of length r. We plotted the position of
+                                     the rod, its height, and horizontal distance from the centre against the
+                                     angle through which the rod had rotated. This defined the sine and cosine
+                                     functions. We consider this problem again. This time we specify that
+                                     the circular motion is at constant angular velocity ω. That is, the rate of
+                                     change of the angle θ , dθ/dt, is constant and equals ω. That is:
+                                     dθ
+                                        = ω (where ω is a constant)
+                                     dt
+                                        ⇔ θ = ωt + φ
+
+                                     where φ is the angle when t = 0. If we start with the rod horizontal, then
+                                     φ = 0 and we have θ = ωt. The (x, y) position of the tip of the rod of
+                                     length r is given as a function of time by x = r cos(ωt) and y = r sin(ωt),
+                                     where ω is the constant angular velocity, so the rotating vector is given
+                                     by r = (r cos(ωt), r sin(ωt)) with θ = ωt.
+                                        Consider now a ball on the end of a string with constant angular veloc-
+                                     ity ω. Can we obtain an expression for its acceleration? The acceleration
+                                     is of particular importance because we know from Newton’s second law
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

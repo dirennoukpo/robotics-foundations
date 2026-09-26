@@ -1,0 +1,91 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                      Integration       155
+
+                                             Find A2 by integrating from 0 to 1 and taking the modulus
+                                         1                               1
+                                                               x3   x2            1 1   1
+                                              (x 2 − x) dx =      −           =    − =−
+                                         0                     3    2     0       3 2   6
+                                        Therefore, A2 = 16 .
+                                             Then, the total area is A1 + A2 = 56 + 16 = 1.
+
+
+
+                                        The mean value of a function is the value it would have if it were constant
+7.6 The mean                            over the range but with the same area under the graph, that is, with the
+value and r.m.s.                        same integral (see Figure 7.10).
+                                          The formula for the mean value is
+value                                           1
+                                                     b
+                                        M=               y dx.
+                                              b−a a
+
+ww                                      Example 7.22       Find the mean value of i(t) = 20 + 2 sin(π t) for t = 0
+
+   w                   .Ea
+                                        to 0.5.
+                                        Solution
+                                                1
+                                                  Using the formula a = 0, b = 0.5 gives
+                                                      0.5
+                                        M=                 20 + 2 sin(π t) dt
+
+                          syE                0.5 − 0 0
+                                                 2
+                                        2 20t − cos(π t)
+                                                             0.5              
+                                                                                    2
+                                                                                         
+                                                                 = 2(10 − 0 − 0 − (1) ≈ 21.27
+Figure 7.10 The mean
+value of a function is the value
+it would take if it were
+                                                 π
+                                                    ngi      0                      π
+
+constant over the range but
+with the same integral.
+                                                        n               eer
+                                        The root mean squared (r.m.s) value
+
+                                                                                      ing
+                                        The ‘root mean squared value’ (r.m.s. value) means the square root of
+                                        the mean value of the square of y. The formula for the r.m.s. value of y
+                                        between x = a and x = b is
+
+                                        r.m.s.(y) =
+                                                    
+                                                        1
+                                                              b
+                                                                 y 2 dx                                .ne
+                                                      b−a a
+
+                                                                                                           t
+                                           The advantage of the r.m.s.value is that as all the values for y are
+                                        squared, they are positive, so the r.m.s.value will not give 0 unless we are
+                                        considering the zero function. If the function represents the voltage then
+                                        the r.m.s. value can be used to calculate the average power in the signal.
+                                        In contrast the mean value gives zero if calculated for the sine or cosine
+                                        over a complete cycle, giving no additional useful information.
+
+                                        Example 7.23       Find the r.m.s. value of y = x 2 − 3 between x = 1 and
+                                        x = 3.
+                                                                 3                          3
+                                                           1                            1
+                                        (r.m.s.(y))2 =                (x 2 − 3)2 dx =             (x 4 − 6x 2 + 9) dx
+                                                          3−1    1                      2    1
+                                                                                  3
+                                                          1 x5      6x 3
+                                                      =          −       + 9x
+                                                          2 5        3        1
+                                                                                       
+                                                          1     243                 1
+                                                      =              − 54 + 27 −      −2+9    = 7.2
+                                                          2      5                  5
+                                                                          √
+                                             Therefore, the r.m.s value is 7.2 ≈ 2.683.
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

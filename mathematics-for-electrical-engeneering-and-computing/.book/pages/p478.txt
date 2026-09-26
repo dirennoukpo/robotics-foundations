@@ -1,0 +1,131 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+                                                                                         Graph theory     465
+
+
+
+
+Figure 19.11 (a) A disconnected graph with two
+components. (b) A disconnected graph with three
+components.
+
+                                                         Figure 19.12 (a) A planar graph. (b) A
+                                                         non-planar graph.
+
+
+
+                                    Planar graphs
+ww                                  A planar graph is one which can be drawn in the plane without any edges
+                                    intersecting except at vertices to which they are both incident. There is
+
+   w               .Ea
+                                    an example of a planar graph in Figure 19.12(a) and a non-planar graph
+                                    in Figure 19.12(b).
+
+
+
+19.3 Matrix
+representation
+                      syE           The incidence matrix and
+                                    adjacency matrix
+of a graph                                    ngi
+                                    The incidence matrix of a graph G is a |V | × |E| matrix. The element
+
+
+
+                                    is given by
+                                                  n
+                                    aij = the number of times that vertex vi is incident with the edge ej .
+
+
+                                                                   eer
+                                       The adjacency matrix of G is the |V |×|V | matrix. aij = the number of
+                                    edges joining vi and vj . The incidence matrix for the graph in Figure 19.2
+
+
+
+                                       
+                                         e1    e2   e3   e4   e5   e6   e7    ing
+                                                                             e8   e9
+                                                                                     
+                                    v1 1
+                                    v2  1
+                                       
+                                               0
+                                               1
+                                                    0
+                                                    0
+                                                         0
+                                                         0
+                                                              0
+                                                              1
+                                                                   0
+                                                                   1
+                                                                        1
+                                                                        0
+                                                                             0
+                                                                             0
+                                                                                  0
+                                                                                  1
+                                                                                          .ne
+                                    v3  0
+                                       
+                                    v4  0
+                                    v5  0
+                                    v6 0
+                                               1
+                                               0
+                                               0
+                                               0
+                                                    1
+                                                    1
+                                                    0
+                                                    0
+                                                         0
+                                                         1
+                                                         1
+                                                         0
+                                                              0
+                                                              0
+                                                              1
+                                                              0
+                                                                   0
+                                                                   0
+                                                                   0
+                                                                   1
+                                                                        0
+                                                                        0
+                                                                        0
+                                                                        1
+                                                                             2
+                                                                             0
+                                                                             0
+                                                                             0
+                                                                                  0
+                                                                                  0
+                                                                                  1
+                                                                                  0
+                                                                                     
+                                                                                               t
+                                    and the adjacency matrix by
+
+                                         v1    v2   v3   v4   v5   v6
+                                                                     
+                                    v1   0     1    0    0    0    1
+                                    v2  1     0    1    0    2    1
+                                                                     
+                                    v3  0     1    1    1    0    0
+                                                                     .
+                                    v4  0     0    1    0    1    0
+                                    v5  0     2    0    1    0    0
+                                    v6   1     1    0    0    0    0
+
+
+
+                                    A tree is a connected graph with no cycles. A forest is a graph with no
+19.4 Trees                          cycles but may or may not be connected (i.e. a forest is a graph whose com-
+                                    ponents are trees). Figure 19.13(a) shows a tree, while Figure 19.12(b)
+                                    shows a forest.
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

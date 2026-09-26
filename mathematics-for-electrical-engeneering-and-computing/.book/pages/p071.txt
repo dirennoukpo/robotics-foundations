@@ -1,0 +1,80 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+58   Problem solving and the art of the convincing argument
+
+                              third resistance and V = RI where R = R1 + R2 + R3 , we obtain:
+
+                              12 = (3 + 4 + x)1
+
+                                The expression of the mathematical problem has taken the form of an
+                              equation where we now need to find x, the value of the third resistance.
+                                The main assumptions that have been used to build this mathematical
+                              model are:
+                              (1) There are such things as pure resistors that have no capacitance or
+                                  inductance.
+                              (2) Resistances remain constant and are not affected by any possible
+                                  temperature changes or other environmental effects.
+                              (3) The battery gives a constant voltage that does not deteriorate with
+                                  time.
+                              (4) The battery introduces no resistance to the circuit.
+
+
+ww                               These assumptions are simplifications that are acceptable because
+                              although the real world cannot behave with the simplicity of the
+                              mathematical model, the amount of error introduced by making these
+
+   w              .Ea
+                              assumptions is small.
+                                 Once we have the solution of a mathematical model then it should
+                              be tested against a real-life situation to see whether the model behaves
+                              reasonably closely to reality. Once the model has been accepted then it
+
+                     syE      can be used to predict the behaviour of the system for input values other
+                              than those that it has been tested for.
+                                 The stages in solving a problem are as follows:
+                              (1)
+                                         ngi
+                                  Take to real problem and express it as a mathematical one using any
+                                  necessary scientific rules and assumptions about the behaviour of
+
+
+                                  made.
+                                             n
+                                  the system and using letters to represent any unknown quantities.
+
+                                                            eer
+                                  Include an account of any important assumptions and simplifications
+
+
+                                  mathematics.
+                                                                        ing
+                              (2) Solve the mathematical problem using your knowledge of
+
+                              (3) Translate the mathematical solution back into the setting of your
+                                  original problem.
+                                                                                      .ne
+                              (4) Test the model solutions for some values to check that it behaves
+                                  like the real-life problem.
+                                                                                          t
+                                 Most mathematical problems are expressed by using equations, or
+                              inequalities, differential or difference equations, or by expressing a prob-
+                              lem geometrically or a combination of all of these. We might need to
+                              incorporate a random element which results in the need to use a prob-
+                              abilistic model. In many of the following chapters we will look at the
+                              modelling process in more detail as we come across new mathematical
+                              tools and the situations in which they are used. To perform the entire
+                              modelling cycle properly, we need to be able to test our results in a real-
+                              life situation in order to reconsider assumptions used in the model. This
+                              would require access to engineering situations and tools. For this reason,
+                              engineering mathematics books tend to concentrate on those models that
+                              are commonly used by engineers. Many of the applied problems pre-
+                              sented in the following chapters however do present an opportunity to
+                              move from an English language description of a problem to a mathemati-
+                              cal language description of a problem, which is an important step in the
+                              modelling process.
+                                 In this chapter, we will look at translating a problem into mathematical
+                              language and, for the main part of the chapter, we concentrate on solving
+                              a mathematical problem and the reasoning that is involved in so doing.
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

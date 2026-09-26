@@ -1,0 +1,92 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+530   Probability and statistics
+
+                                         is independent of A. In this case the multiplication law becomes
+                                         p(A ∩ B) = p(A)p(B), where A and B independent events.
+                                   10.   Bayes’s theorem is
+
+                                                     p(A|B)p(B)
+                                         p(B|A) =               .
+                                                        p(A)
+
+                                   11.   The normal, or Gaussian, distribution is a bell-shaped distribu-
+                                         tion. Many things, particularly involving error distributions, have a
+                                         probability distribution that is approximately normal.
+                                   12.   To calculate probabilities using a normal distribution we use areas
+                                         of the standard normal distribution in table form, so the variable
+                                         must be standardized by using the transformation
+                                              x−µ
+                                         z=
+                                               σ
+
+
+ww                                 13.
+                                       where µ is the mean and σ the standard deviation of the distribution.
+                                       The exponential distribution is used to model times to failure.
+
+
+   w              .Ea
+                                   14. The probability density function of the exponential distribution is
+                                       f (t) = λ e−λt and the cumulative density function is given by
+                                       F = 1 − e−λt .
+                                   15. The mean and standard deviation of a continuous distribution can
+
+
+                     syE               be found by
+
+
+                                         µ=
+                                            
+                                                 xf (x) dx    and   σ =
+                                                                       
+                                                                                 ∞
+                                                                                     (x − µ)2 f (x) dx
+
+                                                ngi                          0
+
+
+
+
+                                                    n
+                                         where the integration is over the sample space. For the exponential
+                                         distribution these give µ = 1/λ, that is, the mean time to failure is
+
+                                   16.                           eer
+                                         the reciprocal of the failure rate. Also σ = 1/λ.
+                                         The binomial distribution is a discrete distribution that models
+
+                                                                              ing
+                                         repeated trials where the outcome of each trial is either success
+                                         or failure and each trial is independent of the others. Its probability
+                                         function is
+
+                                         pn (r) =
+                                                    
+                                                     n r
+                                                        θ (1 − θ)n−r                           .ne
+                                         where
+                                          
+                                                     r
+                                                                                                   t
+                                          n               n!       n(n − 1) . . . (n − r + 1)
+                                             = n Cr =            =
+                                          r           (n − r)!r!               r!
+
+                                         and r is the number of successes in n trials.            
+                                   17.   The mean of a discrete   distribution is given by µ =      xp(x) and
+                                         the variance is σ 2 =       (x − µ)2 p(x). The mean of the binomial
+                                         distribution, for n trials,√is nθ, the variance is nθ (1 − θ), and the
+                                         standard deviation σ = nθ(1 − θ).
+                                   18.   For the Poisson distribution the number of incidents occurring in any
+                                         interval depends only on the length of that interval. Its probability
+                                         function is
+                                                λr −λ
+                                         Pr =      e
+                                                r!
+                                         where λ is the expected number of incidents in unit time. The mean
+                                         and the variance are λ.
+
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

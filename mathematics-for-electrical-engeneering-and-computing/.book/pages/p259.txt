@@ -1,0 +1,75 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+246   Maxima and minima and sketching functions
+      Table 11.1 Finding the sign on either side of the asymptotes
+
+      x                             −2         −1             −0.75    −0.5    4       5              6
+
+      y = 2x + 1/[(x + 1)(x − 5)]   −0.4286    Not defined    0.348    0       −1.8    Not defined    0.93
+      Sign of y                     −          Not defined    +        0       −       Not defined    +
+
+
+
+                                     Solution
+                                     Step 1. When x = 0:
+
+                                              2.0 + 1       1
+                                     y=                   =    = −0.2
+                                           (0 + 1)(0 − 5)   −5
+
+                                     When y = 0,
+
+ww                                       2x + 1
+                                                    =0
+
+   w                 .Ea
+                                     (x + 1)(x − 5)
+
+                                     then 2x + 1 = 0 ⇔ x = −0.5
+                                        Step 2. If the bottom line of the function were 0 this would lead to a
+
+                        syE          ‘divide by zero’ which is undefined. This happens when x + 1 = 0, that
+                                     is, x = −1 and when x − 5 = 0, that is, x = 5.
+                                        These are infinite discontinuities, that is, y will tend to plus or minus
+
+                                                 ngi
+                                     infinity as x approaches these values. The lines at x = −1 and x = 5 are
+                                     the asymptotes.
+                                        To find the sign of y on either side of the asymptotes substitute values
+
+                                                     n
+                                     of x on either side of them (avoiding including any values where y = 0).
+
+                                                                   eer
+                                     This can be done using a table, as in Table 11.1.
+                                        Using Table 11.1, we can conclude that as y is negative to the left of
+
+                                                                                ing
+                                     the asymptote at x = −1 and positive to the right, then
+
+                                     as x → −1− , y → −∞
+                                     as x → −1+ , y → +∞                                      .ne
+                                     to the right of it, then
+                                                                                                  t
+                                     Similarly, as y is negative to the left of the asymptote at x = 5 and positive
+
+
+                                     as x → 5− , y → −∞
+                                     as x → 5+ , y → +∞
+
+                                         Step 3. To find the turning points look for points where dy/dx = 0
+
+                                               2x + 1
+                                     y=
+                                           (x + 1)(x − 5)
+
+                                     To differentiate, first multiply out the brackets on the bottom line of
+                                     the expression and then use the formula for finding the derivative of a
+                                     quotient.
+
+                                               2x + 1            2x + 1
+                                     y=                   ⇔ y= 2
+                                           (x + 1)(x − 5)     x − 4x − 5
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

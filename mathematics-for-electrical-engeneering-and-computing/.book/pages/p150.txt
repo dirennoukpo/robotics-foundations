@@ -1,0 +1,96 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                       Integration   137
+
+            We used the trick of replacing (du/dx) dx by du, this can be justified
+            in the following argument. By the definition of the integral as inverse
+            differentiation, if y is differentiated with respect to x and then integrated
+            with respect to x we will get back to y, give or take a constant. This is
+            expressed by
+            
+                dy
+                   dx = y + C.                                                      (7.1)
+                dx
+
+            If y is a composite function that can be written in terms of the variable u,
+            then
+            dy   dy du
+               =       .
+            dx   du dx
+            Substituting the chain rule for dy/dx into Equation (7.1) gives
+
+
+ww          
+              dy du
+              du dx
+                      dx = y + C.                                                    (7.2)
+
+
+
+   w.Ea
+            If y is a function of u, then we could just differentiate with respect to
+            u and then integrate again and we will get back to the same expression,
+            give or take a constant, that is
+            
+
+       syE      dy
+                du
+                   du = y + C.                                                  (7.3)
+
+
+
+                         ngi
+            Considering Equations (7.2) and (7.3) together, we have
+                          
+
+
+                              n
+              dy du           dy
+                     dx =        du
+              du dx           du
+
+                                                 eer
+            so that we can represent this result symbolically by (du/dx) dx = du.
+
+                                                            ing
+               In practice, we make a substitution for u and change the variable of
+            integration by finding du/dx and substituting dx = du/(du/dx).
+                                                      
+            Example 7.4 Find the integral −(4 − 2x)3 dx.
+                                                                       .ne
+              Make the substitution u = 4 − 2x. Then du/dx = −2, so du = −2 dx
+            and dx = −du/2. The integral becomes
+            
+                −u3
+                      
+                          −du
+                                
+                                    =
+                                        
+                                            u3
+                                               du =
+                                                    u4
+                                                       +C
+                                                                           t
+                           2                2       8
+
+            Re-substitute for u = 4 − 2x, giving
+            
+                                 1
+              −(4 − 2x)3 dx = (4 − 2x)4 + C.
+                                 8
+
+            Check: Differentiate the result.
+                               
+             d (4 − 2x)4              1       d
+                           + C = 4(4 − 2x)4 (4 − 2x)
+            dx      8                 8      dx
+                                                1
+                                            =     4(4 − 2x)3 (−2) = −(4 − 2x)3
+                                                8
+            As this is the original expression that we integrated, this has shown that
+            our result was correct.
+
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

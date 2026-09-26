@@ -1,0 +1,87 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                             Differentiation       125
+
+            Example 6.10        Differentiate
+
+                       1
+            y=
+                 (3t 2 + 2t)2
+
+
+            Solution     Rewrite
+
+                       1
+            y=
+                 (3t 2 + 2t)2
+
+            as y = (3t 2 + 2t)−2 , and think of this as y = ( )−2 where ( ) = 3t 2 + 2t.
+               Now differentiate y with respect to ( ) and multiply by the derivative
+            of ( ) with respect to t. That is,
+
+
+
+ww          dy
+            dt
+               =
+                 dy d( )
+                 d( ) dt
+
+
+   w.Ea
+            where ( ) can be any expression. So
+
+            dy                     d
+               = (−2(3t 2 + 2t)−3 ) (3t 2 + 2t)
+
+       syE  dt
+
+               ⇔
+                  dy
+                  dt
+                                   dt
+
+                     = (−2(3t 2 + 2t)−3 )(6t + 2)
+
+               ⇔
+                  dy
+                  dt   ngi
+                     =− 2
+                             12t + 4
+                           (3t + 2t)3
+                                      .
+
+
+                           n               eer
+            Derivative of inverse trigonometric
+            functions                                 ing
+                                                                   .ne
+            By the definition of the inverse function we know that y = sin−1 (x) ⇔
+
+            We can find the derivative of sin−1 (x) as in Example 6.11.
+                                                                       t
+            sin(y) = x, where −1 ≤ x ≤ 1, and therefore the derivatives are related.
+
+            Example 6.11 Given
+
+                                      d
+            y = sin−1 (x)    and        (sin(x)) = cos(x)
+                                     dx
+            find dy/dx.
+            Solution As y = sin−1 (x) then by the definition of the inverse
+            (assuming x is limited to [−1, 1])
+
+            sin(y) = x
+
+            The left-hand side of this is a function of y, which we can call w; hence,
+            w = sin(y) and w = x. By the chain rule:
+
+            dw   dw dy
+               =
+            dx   dy dx
+
+            Differentiating w = x with respect to x gives dw/dx = 1.
+
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

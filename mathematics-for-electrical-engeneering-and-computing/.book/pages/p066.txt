@@ -1,0 +1,60 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                         Functions and their graphs             53
+
+
+
+
+ww
+Figure 2.34 (a) Plot of power against distance (Example 2.14). (b) log10 (power) against log10 (distance). In
+(b), the line is fitted by eye to the data, from which the slope of the graph indicates n in the relationship
+P = Ar n . Two points lying on the line are (0, −0.38) and (0.7, −1.8).
+
+   w                  .Ea              Solution To test whether the relationship is indeed a power relationship,
+                                       we draw a log–log plot. The table of values is found below:
+
+                         syE                log10 (power)      −0.41    −1      −1.3     −1.6   −1.8    −2
+
+                                                  ngi
+                                            log10 (distance)    0        0.3     0.5      0.6    0.7     0.78
+
+
+
+                                                      n              eer
+                                          Graphs of power against distance and log10 (power) against
+                                       log10 (distance) are given in Figure 2.34(a) and (b).
+
+
+                                       In which case, the log–log graph is       ing
+                                          As the second graph is a straight line, we can assume that the relation-
+                                       ship is of the form P = Ar n where P is the power and r is the distance.
+
+
+                                       log10 (P ) = log10 (A) + n log10 (r).
+                                                                                                .ne
+                                          We can measure the slope by calculating
+
+                                        change in log10 (P )
+                                                                                                    t
+                                        change in log10 (r)
+
+                                       and, using the two points that have been found to lie on the line, this gives
+
+                                        −1.8 − (−0.38)
+                                                       = −2.03.
+                                           0.7 − 0
+                                       As this is very near to −2, the inverse square law would appear to be
+                                       justified.
+                                          The value of log10 (A) is given from where the graph crosses the vertical
+                                       axis and this gives
+
+                                       log10 (A) = −0.38       ⇔     A = 10−0.38     ⇔     A = 0.42.
+
+                                       So the relationship between power received and distance is approximately
+
+                                                         0.42
+                                       P = 0.42r −2 =         .
+                                                          r2
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

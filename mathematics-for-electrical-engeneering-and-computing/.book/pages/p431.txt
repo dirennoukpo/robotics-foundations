@@ -1,0 +1,75 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+
+
+     16             Fourier series
+
+16.1                Fourier analysis is the theory behind frequency analysis of signals. This
+                    chapter is concerned with the Fourier analysis of periodic, piecewise con-
+Introduction        tinuous functions. A periodic function can be represented by a Fourier
+                    series. A non-periodic function can be represented by its Fourier trans-
+
+
+ww                  form which we shall not be concerned with here. Discrete functions may
+                    be represented by a discrete Fourier transform, which also we shall not
+                    look at in this book.
+
+   w      .Ea
+                       Any periodic signal is made up of the sum of single frequency
+                    components. These components consist of a fundamental frequency com-
+                    ponent, multiples of the fundamental frequency, called the harmonics and
+                    a bias term, which represents the average off-set from zero. There are three
+
+             syE    ways of representing this information which are equivalent. We can rep-
+                    resent the frequency components as the sum of a sine and cosine terms,
+                    or by considering the amplitude and phase of each component, or we can
+
+                               ngi
+                    represent them using a complex Fourier series. The use of the complex
+                    Fourier series simplifies the calculation.
+
+
+                                   n
+                       Having found the Fourier components we can use the system’s fre-
+
+
+                                                  eer
+                    quency response function, as found in the previous chapter, to find the
+                    steady state response to any periodic signal.
+
+
+
+16.2 Periodic                                                 ing
+                    In Chapter 5 we discussed the property of periodicity of the trigonometric
+
+Functions                                                                   .ne
+                    functions. A periodic function is one whose graph can be translated to the
+                    right or left by an amount, called the period, such that the new graph fits
+
+
+                    in order to fit over the original graph.                    t
+                    exactly on top of the original graph. The fundamental period, also called
+                    the cycle, is the minimum non-zero amount the graph needs to be shifted
+
+                       A periodic function, with period τ , satisfies f (t + τ ) = f (t) for all
+                    values of t. Examples of periodic functions are given in Figure 16.1.
+                       The fundamental frequency of a periodic function is the number of
+                    cycles in an interval of unit length, f = 1/τ . The fundamental angular
+                    frequency is then given by ω0 = 2πf = 2π/τ . A periodic function need
+                    only be defined in one cycle, as the periodicity property will then define
+                    it everywhere. For example, the graph of the periodic square wave
+                             
+                                1/2 0 < t < 1
+                    f (t) =
+                               −1/2 1 < t < 2
+
+                    is drawn in Figure 16.2. First, we draw the section of the graph as given
+                    in the definition and then shift the section along by the period, in this
+                    case 2, and copy the section. By repeatedly shifting and copying in this
+                    way, both to the left and right, we get the graph as shown.
+                       As we mentioned in the introduction there are three ways of expressing
+                    the Fourier series. As a sine and cosine series or in amplitude and phase
+                    form or in complex form.
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

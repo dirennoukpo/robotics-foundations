@@ -1,0 +1,47 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+                                                                                           Boolean algebra         87
+
+4.4 Using Venn diagrams or truth tables find simpler expres-      Example 4.12 to find a minimized expression for r and
+    sions for the following:                                      draw its logic network.
+    (a) ab + a b̄ (b) (ab)(ac)
+    (c) a + abc (d) (ab)a
+4.5 (a) Draw implementations of the following as logic
+        circuits:
+          (i) ā b̄ + a b̄ (ii) a + bc
+        (iii) ā + ab (iv) ā b̄c
+    (b) If a = 1, b = 0 and c = 1, what is the value of each
+        of the expressions in section (a)?
+4.6 Minimize the following expressions and draw their logic
+    circuits:
+    (a) a b̄ c̄ + a b̄ + abc (b) abc(a + b + c) + a
+    (c) (a + c)(a + b) + ab (d) (a + b)(a + d) + abc̄ +
+                                     abd̄ + abcd
+4.7 Obtain a Boolean expression for the logic networks
+
+ww  shown in Figure 4.16.
+4.8 Consider the LED segment labelled r in Figure 4.14         Figure 4.16 (a,b) Logic networks for
+
+
+   wgiven in the text. Follow the method given in
+
+
+
+                        .Ea
+                                                               Exercise 4.7.
+
+
+
+
+                           syE
+                                                      ngi
+                                                          n             eer
+                                                                                    ing
+                                                                                                  .ne
+                                                                                                      t
+
+
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,85 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+198    Vectors
+
+                                      (c) Find the length of (0.5, 1, 0.2) given by x 2 + y 2 + z2 =
+                                      (0.5)2 + 12 + (0.2)2 ≈ 1.13578. Therefore, the unit vector is
+
+                                       1
+                                            (0.5, 1, 0.2) ≈ (0.44, 0.88, 1.176).
+                                    1.13578
+
+
+
+
+9.7 Basis                           Vectors in a plane are made up of a part in the x-direction and a part in
+                                    the y-direction, for example, (2, 3) = (2, 0) + (0, 3). i and j are used to
+vectors                             represent unit vectors in the x-direction and y-direction, that is, i = (1, 0)
+                                    and j = (0, 1).
+                                       Any vector in the plane can be expressed in terms of i and j. i and
+                                    j are called the Cartesian unit basis vectors, which is the name given
+                                    to a co-ordinate system where the axes are at right angles to each other
+
+ ww                                 (orthogonal) (see Figure 9.16):
+
+                                    (2, 3) = 2(1, 0) + 3(0, 1) = 2i + 3j.
+
+    w                 .Ea              The unit vector in the z direction is often given the symbol k; and in
+                                    three dimensions, using rectangular axes we have:
+
+
+plane can be expressed in
+                         syE
+Figure 9.16 Any vector in a
+
+terms of the vectors i and j;
+                                    i = (1, 0, 0)
+
+                                    that is
+                                                    j = (0, 1, 0)     k = (0, 0, 1)
+
+
+for instance, (2, 3) =
+2(1, 0) + 3(0, 1) = 2i + 3j.
+                                                 ngi
+                                    (5, −1, 2) = (5, 0, 0) + (0, −1, 0) + (0, 0, 2)
+
+
+                                                     n
+                                                = 5(1, 0, 0) + (−1)(0, 1, 0) + 2(0, 0, 1)
+                                                = 5i − j + 2k.
+                                                                     eer
+                                                                                    ing
+                                    The vectors i and j form a basis set because all 2D geometrical vectors can
+                                    be expressed in such terms. Similarly, all 3D vectors can be expressed in
+                                    terms of i, j, and k. There are many other sets of vectors that can be used as
+
+                                                                                             .ne
+                                    a basis set: for instance, if we were in a room shaped like a parallelogram
+                                    we could express any position in the room by moving parallel to one of
+
+                                                                                                 t
+Figure 9.17 A room shaped
+as a parallelogram. Any             the sides and then parallel to the other side. This is shown in Figure 9.17.
+position in the room can be         Other basis sets are not as useful for interpreting spatial vectors as they
+found by moving parallel to         do not give the same geometrical results. For instance, the interpretation
+the sides. The basis vectors        of the scalar product, given in Section 9.8, relies on the fact that we use
+used are not at right angles.       Cartesian basis vectors.
+
+
+
+9.8 Products of                     There are two products of vectors that are commonly used: the scalar
+                                    product, which results in a scalar, and the vector or cross product, which
+vectors                             gives a vector as the result. However, both of these products are irre-
+                                    versible: they have no inverse operation. In other words, it is not possible
+                                    to divide by a vector.
+
+                                    Scalar product
+                                    The scalar product of two vectors is defined by
+
+                                    a · b = (a1 , a2 ) · (b1 , b2 ) = a1 b1 + a2 b2 .
+
+                                    Notice that the scalar product gives a simple number as the result.
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,87 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                         Fourier series        421
+
+                                       Step 4
+                                       The Fourier series for f (t) is
+
+                                                        ∞
+                                                 1
+                                       f (t) =     a0 +   an cos(nω0 t) + bn sin(nω0 t)
+                                                 2
+                                                         n=1
+
+                                       in this case giving
+                                                    ∞
+                                                 1  1 − (−1)n
+                                       f (t) =                 sin(nπ t)
+                                                 π       n
+                                                   n=1
+
+                                       Note that the even values of n all give zero coefficients as 1 − (−1)n = 0
+                                       for n even. Odd values give 2/(nπ ). In this case, we can change the
+                                       variable for the summation, using n = 2m − 1, which is always odd. This
+
+ww                                     gives
+
+                                                 1 
+                                                    ∞
+
+
+   w                 .Ea
+                                       f (t) =
+                                                 π
+                                                       2
+                                                     2m − 1
+                                                   m=1
+                                                            sin((2m − 1)π t)
+
+
+                                       It is interesting to plot graphs of the first few partial sums that we obtain
+
+                        syE            from this series. In Figure 16.3 we have plotted the graph given by the
+                                       terms up to n = 3, n = 5, and n = 7:
+
+                                       S3 =
+                                           2
+                                           π       ngi
+                                             sin(π t) +
+                                                         2
+                                                        3π
+                                                           sin(3π t)
+
+                                           2
+                                       S5 = sin(π t) +
+                                           π
+                                           2
+                                       S7 = sin(π t) +
+                                                       n 2
+                                                        3π
+                                                         2
+                                                           sin(3π t) +
+
+                                                                    eer
+                                                           sin(3π t) +
+                                                                        2
+                                                                       5π
+                                                                        2
+                                                                          sin(5π t)
+
+                                                                          sin(5π t) +
+                                                                                       2
+                                                                                         sin(7π t).
+                                           π            3π             5π
+                                                                                 ing  7π
+
+
+
+                                                                                               .ne
+                                                                                                   t
+
+
+
+Figure 16.3   Partial sums of the Fourier series for the square wave.
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,88 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+212   Complex numbers
+
+                            Example 10.8      Find
+                            −3 + j2
+                            10 + j5
+                            in the form x + jy.
+                            Solution Multiply the top and bottom line by the complex conjugate of
+                            10 + j5 to make the bottom line real
+                            −3 + j2   (−3 + j2)(10 − j5)
+                                    =
+                            10 + j5   (10 + j5)(10 − j5)
+                                          (−3)(10) + j2(10) + (−3)(−j5) + (j2)(−j5)
+                                      =
+                                                         (102 + 52 )
+                                        −30 + j20 + j15 − j2 10
+                                      =
+
+
+ww
+                                                 125
+                                        −30 + j20 + j15 + 10
+                                      =
+                                                125
+
+   w            .Ea
+                                      =
+                                        −20 + j35
+                                          125
+                                                  =
+                                                     −20
+                                                     125
+                                                          +
+                                                              j35
+                                                              125
+                                                                  = −0.16 + j0.28.
+
+
+
+
+10.4 Solution of
+                   syE
+quadratic                               ngi
+                            In Chapter 2 of the Background Mathematics Notes available on the com-
+                            panion website for this book, we looked at solutions of ax 2 + bx + c = 0
+                            where a, b and c are real numbers and said that the solutions are given by
+equations                   the formula
+
+                            x=
+                                       √
+                                            n
+                                 −b ± b2 − 4ac
+                                                         eer
+                                         2a
+
+                                                                     ing
+                               We discovered that there are no real solutions if b2 − 4ac < 0 because
+                            we would need to take the square root of a negative
+                                                                                  .ne
+                                                                              √ number. We can now
+                            find complex solutions in this case by using j = −1.
+
+                            Example 10.9
+                            numbers:                                                  t
+                                              Solve the following where x ∈ C, the set of complex
+
+
+                            (a) x 2 + 3x + 5 = 0     (b) x 2 − x + 1 = 0
+                            (c) 4x 2 − 2x + 1 = 0    (d) 4x 2 + 1 = 0
+
+                            Solution (a) To solve x 2 +3x +5 = 0, compare with ax 2 + bx + c = 0.
+                            This gives a = 1, b = 3, and c = 5. Substitute in
+                                       √
+                                 −b ± b2 − 4ac
+                            x=
+                                         2a
+                            to give
+                                                              √
+                                 −3 ±       32 − 4(1)(5)   −3 ± −11
+                            x=                           =
+                                            2(1)               2
+                            We write −11 = (−1) · (11), so
+                            √        √ √                    √
+                             −11 = −1 11 ≈ j3.317 (using j = −1)
+
+                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

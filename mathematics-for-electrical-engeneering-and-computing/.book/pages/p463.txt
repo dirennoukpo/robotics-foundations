@@ -1,0 +1,116 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+450   Vector calculus
+
+                            we see that we find the scalar field by partially differentiating the first
+                            component by x, the second by y, and the third by z, and summing the
+                            result. Hence
+
+                            ∇·F = 4xy + 8yz + 16z.
+
+                            To find ∇×F we use the definition in terms of the determinant and expand
+                            about the first row, which in this case gives:
+                                                          
+                                      i
+                                                 j    k 
+                            ∇ × F = ∂/∂x ∂/∂y ∂/∂z
+                                     2x 2 y 4y 2 z 8z2 
+                                                                                                            
+                                        ∂           ∂                ∂                              ∂
+                                  =        (8z2 ) − (4y 2 z) i −       (8z2 )                   +      (2x 2 y) j
+                                       ∂y           ∂z              ∂x                              ∂z
+                                                               
+                                           ∂            ∂
+
+ww                                  +
+                                          ∂x
+                                             (4y z) −
+                                                  2
+                                                       ∂y
+                                                          (2x y) k
+                                                             2
+
+
+                                        = 4y 2 i − 2x 2 yk = (4y 2 , 0, 2x 2 y).
+
+   w              .Ea
+                     syE    Example 18.4
+
+                            ∇ · ∇×F = 0.
+                                                   Show the vector identity
+
+
+
+
+                                             ngi
+                            Solution Taking F = (Fx , Fy , Fz ), we get from the definition of curl:
+
+
+                            ∇×F =
+                                         
+                                             ∂Fz
+                                             ∂y
+                                                 n
+                                                 −
+                                                   ∂Fy
+                                                    ∂z
+                                                         
+                                                             i+
+                                                                  
+
+                                                                  eer ∂Fx
+                                                                       ∂z
+                                                                          −
+                                                                            ∂Fz
+                                                                            ∂x
+                                                                                   
+                                                                                       j+
+                                                                                            
+                                                                                                ∂Fy
+                                                                                                 ∂x
+                                                                                                    −
+                                                                                                      ∂Fx
+                                                                                                       ∂y
+                                                                                                            
+                                                                                                                k.
+
+
+
+                            product of                                        ing
+                            Now taking the divergence of the resulting vector field we take the dot
+
+
+
+                            ∇=
+                                    
+                                         ∂ ∂ ∂
+                                                     
+                                                                                                 .ne
+                                                                                                     t
+                                          ,  ,
+                                        ∂x ∂y ∂z
+
+                            with the above giving
+                                                                                                 
+                                 ∂ ∂ ∂                  ∂Fz    ∂Fy       ∂Fx      ∂Fz       ∂Fy      ∂Fx
+                                  ,  ,           ·           −         ,       −        ,        −
+                                ∂x ∂y ∂z                 ∂y     ∂z        ∂z      ∂x         ∂x       ∂y
+                                                                               
+                                        ∂ 2 Fz     ∂ 2 Fy       ∂ 2 Fx   ∂ 2 Fz       ∂ 2 Fy    ∂ 2 Fx
+                                =              −            +          −          +           −          .
+                                        ∂x∂y       ∂x∂z         ∂y∂z ∂y∂x             ∂z∂x      ∂z∂y
+
+                                We use the fact that for functions with continuous partial derivatives
+
+                            ∂ 2 Fz   ∂ 2 Fz
+                                   =
+                            ∂y∂x     ∂x∂y
+
+                            that is, the order of differentiation used to calculate higher-order partial
+                            derivatives is not important. Then all the terms in the above cancel out
+                            giving
+
+                            ∇ · ∇×F = 0.
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,90 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                    Laplace and z transforms      413
+
+            the inverse transform of this to find yn . This type of problem is called a
+            convolution problem. The other type of problem is that given any output,
+            yn , and given the input, fn , we can deduce the impulse response of the
+            system. This we do by finding F (z) = Z{fn }, Y (z) = Z{yn } and then
+            H (z) = Y (z)/F (z), thus giving the transfer function. To find the impulse
+            response we find hn = Z−1 {H (z)}.
+
+            Example 15.33 The impulse response of a system is known to be hn =
+            3(0.5)n . Find the response of the system to an input of f (t) = 2un given
+            zero initial conditions.
+            Solution Method 1. We can take z transforms and use
+            Y (z) = H (z)F (z)
+            In this case
+                                                                 3z
+            hn = 3(0.5)n ⇔ H (z) = Z{3(0.5)n } =
+
+ww          f (t) = 2un ⇔ F (z) = Z{2un } =
+                                                        2z
+                                                               z − 0.5
+
+
+
+   w.Ea     Hence,
+
+            Y (z) = H (z)F (z) =
+                                         6z2
+                                                    .
+                                                       z−1
+
+
+
+
+       syE                         (z − 0.5)(z − 1)
+            As we want to find yn , we use partial fractions
+                   6z
+
+                         ngi
+            (z − 0.5)(z − 1)
+                             =
+                                 −6
+                                      +
+                                         12
+                               z − 0.5 z − 1
+
+
+
+                    −1
+                             n
+            (using the ’cover up’ rule). We can know take the inverse transform to
+            find the system response
+
+            yn = Z {Y (z)} = Z    −1
+                                     
+                                          eer
+                                         −6z
+                                              +
+                                                  12z
+                                       z − 0.5 z − 1
+                               = −6(0.5)n + 12un .       ing
+            impulse response function                                    .ne
+            Alternative method. Find yn by taking the convolution of fn with the
+
+            yn = fn ∗ hn = (2un ) ∗ (3(0.5) ).
+            By definition of convolution
+                                                n
+                                                                             t
+                    n                       n
+                                     
+            yn =         2uk 3(0.5)n−k =         6(0.5)n−k .
+                   k=0                     k=0
+
+            Writing out some of these terms we get
+                6,          6(0.5 + 1),              6((0.5)2 + 0.5 + 1),
+              (n = 0)         (n = 1)                      (n = 2)
+            6((0.5)3 + 0.52 + 0.5 + 1).
+                      (n = 3)
+            We see that each term in the sequence is a geometric progression with
+            first term 6 and common ratio 0.5 and n + 1 terms. Hence
+                   6(1 − 0.5)n+1
+            yn =                 = 12(1 − (0.5)n+1 ) = 12 − 12(0.5)(0.5)n
+                      1 − 0.5
+                                 = 12 − 6(0.5)n
+            which confirms the result of the first method.
+
+                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

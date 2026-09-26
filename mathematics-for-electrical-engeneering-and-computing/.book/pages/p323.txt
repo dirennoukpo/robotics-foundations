@@ -1,0 +1,84 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+310    Systems of linear equations, matrices, and determinants
+
+                                       Scaling
+                                       To scale in the x-direction, we multiply the position vectors of the points
+                                        
+                                        x
+                                        y
+
+                                       by a matrix
+                                             
+                                         Sx 0
+                                         0 1
+
+                                       where Sx is the scale factor. Under this transformation, vectors that
+                                       have no x-component will be unaffected. To scale in the y-direction,
+                                       we multiply the position vectors of the points
+                                        
+                                        x
+
+ ww                                     y
+
+                                       by a matrix
+
+    w                  .Ea
+                                       
+                                         1 0
+                                         0 Sy
+                                              
+
+
+
+
+                          syE          where Sy is the scale factor. Under this transformation, vectors that have
+                                       no y-component will be unaffected.
+                                          The effect on the unit square of scaling by 2 in the x-direction is
+
+                                                  ngi
+                                       shown in Figure 13.8(b) and of scaling by 3 in the y-direction is shown
+                                       in Figure 13.8(c).
+
+
+                                                      n
+                                       Combined transformations
+                                                                     eer
+                                                                                 ing
+                                       Example 13.16 Find the coordinates of the vertices of the unit square
+                                       after: (a) rotation about the origin through 50◦ followed by a translation
+
+                                       through 50◦ .
+                                                                                               .ne
+                                       of (−1, 2); (b) translation of (−1, 2) followed by rotation about the origin
+
+                                       Solution
+
+                                       p = Rp + t
+                                                  (a) We can write this combined transformation as
+                                                                                                   t
+                                       where p is the position vector of the image point, p is the position vector
+Figure 13.8 (a) The unit               of the original point, R is the matrix representing the rotation, and t is
+square with vertices A(0,0),           the vector representing the translation.
+B(1,0), C (1,1), D(0,1). (b)              In this case
+The same unit square after                                                               
+scaling in the x-direction by a                cos(50◦ ) − sin(50◦ )        0.643 −0.766
+                                       R=                              ≈
+factor of 2. (c) The unit square               sin(50◦ ) cos(50◦ )          0.766 0.643
+after scaling in the y-direction
+by a factor of 3.
+                                       and
+                                                                     
+                                          −1               x             x
+                                       t=     ,       p =     ,      p=
+                                          2                y             y
+                                       So we have
+                                                                   
+                                        x       0.643     −0.766     x   −1
+                                            =                          +
+                                        y       0.766     0.643      y   2
+
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

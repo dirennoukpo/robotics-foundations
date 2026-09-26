@@ -1,0 +1,109 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                                   Index     549
+
+            tanh, hyperbolic tangent, 174                Vector equation of a line, 202–3
+            Taylor series, 278–80                        Vector field:
+               definition, 278                             differentiating, 449–50
+            Terminal symbol, 480                           divergence of, 449
+            There exists, 72                             Vector product, 201–2
+            Three dimensional (3d) vectors, 197–8,       Vector quantities, 188–9
+                  200                                    Vectors, 188–205
+            Time to failure, 522, 524                      addition of, 191
+            Total derivative, 440                          angle between, 199
+            Transfer function, 397–9, 401–2, 411–14        at right angles, 199–200
+            Transformations:                               basis, 198–9
+               combined, 310–14                            Cartesian form, 189
+               of axes, 307, 310–14                        dimension of, 188–9
+               of coordinates, 307                         direction cosines, 200
+               of graphs, 34–40, 94–6                      direction of, 192–3
+               of the plane, 307                           geometrical, 189, 198
+            Translation:                                   magnitude of, 192–3
+
+
+
+ww
+               of axes, 309                                multiplication by a scalar, 197
+               of coordinates, 309                         parallel, 202
+               of graphs, 35–6                             polar coordinates, 192
+               vectors, 190
+
+
+   w
+                                                           rectangular form, 189
+            Transpose of a matrix, 300, 302–3, 334         scalar product, 198–9
+
+
+    .Ea
+            Trapezoidal rule, 156–7                        subtraction of, 191
+            Trees, 465–7                                   unit, 197
+               parsing, 466, 487                         Vector product, 201–2
+
+
+       syE     properties of, 465
+               spanning, 466–7
+            Trials, 546
+                                                         Velocity, 237
+                                                           average, 117
+                                                           circular motion, 219–23
+
+
+                        ngi
+               independent, 509                            instantaneous, 116
+               not independent, 510                        of a progressive wave, 101
+               repeated, 508–10
+                                                         Venn diagrams, 4, 76–8
+
+
+                            n
+            Triangular wave, 258
+                                                         Vertices, 461
+
+
+                                              eer
+            Trigonometric equations, 110–11
+                                                           adjacent, 461
+            Trigonometric functions, 88–115
+                                                           degree of, 462
+               complex expressions, 227–8
+                                                           in-degree, 462
+               inverses of, 109–12
+               relationship with Hyperbolic functions,
+                     228                                   ing
+                                                           neighbours, 461
+                                                           out-degree, 462
+            Trigonometric identities, 103–5
+               compound angle, 105
+               use in integration, 143–4                                   .ne
+            Truth table, 63, 79
+            Turning points, 239–40, 246–7
+            Two dimensional (2d) vectors, 189–90
+                                                                             W
+                                                                               t
+                                                         Walks, in a graph, 464–5
+                                                         Waves, 97–103, 107–9
+                                                           functions of time, 100
+                                                           functions of distance, 100
+                                                           progressive, 101
+                                U                          standing, 107
+            Undefined function values, 13, 279             superposition, 107–8
+            Undersampling, 257                             triangular, 258
+            Union, 6                                     Well-formed document, 488
+            Unit matrix, 300, 322, 330, 335              wff (well formed formula), 480
+            Unit step function, 384–5, 389, 404, 409
+            Unit vectors, 197
+            Universal Set, 6
+            Upper triangular matrix, 302, 325, 330
+                                                                             X
+                                                         XML, 487–9
+
+
+                                V
+            Valid document, 488
+            Variable, 61                                                     Y
+            Variance, 494, 497–9, 501, 525, 528          YACC (Yet Another Compiler Compiler),
+            Vector calculus, 447–58                         487
+
+
+                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

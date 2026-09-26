@@ -1,0 +1,82 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+412   Laplace and z transforms
+
+                                    To find the impulse response sequence we take the inverse transform
+                                 of the transfer function to find
+                                                                
+                                          −1    z/4        1     3 n
+                                 hn = Z                 =      −
+                                               z + 43      4     4
+
+                                 We can now see why, in the design of digital filters, this is referred to
+                                 as an infinite impulse response (IIR) filter. This impulse response has a
+                                 non-zero value for all n . Hence it represents an IIR system.
+                                    We now discover that we can find the system response to any input
+                                 sequence fn , with zero initial conditions, by using the transfer function.
+
+
+                                 Response of a system with zero initial
+                                 conditions to any input fn
+                                 Assuming all initial conditions are zero, that is, y−1 = 0 and y−2 = 0,
+
+ww                               then the equation
+                                 ayn + byn−1 + cyn−2 = fn
+
+   w             .Ea
+                                 transforms to become
+
+                                 aY (z) + bz−1 Y (z) + cz−2 Y (z) = F (z) ⇔ y(z) =
+                                                                                              F (z)z2
+                                                                                           az2 + bz + c
+                                                                                                          .
+
+
+                    syE          We have just discovered that the transfer function, H (z), is given by
+                                               z2
+                                 H (z) =
+                                               ngi
+                                        az2 + bz + c
+                                 Then we find that
+                                                     .
+
+
+
+                                                   n
+                                 Y (z) = F (z)H (z).
+                                                                  eer
+                                 In order to find the response of the system to the function fn we take the
+
+                                 property of z transforms, which states:    ing
+                                 inverse transform of this expression. We are able to use the convolution
+
+                                    n           
+                                 Z         fk gn−k   = F (z)G(z)
+                                                                                         .ne
+                                     k=0
+
+                                 or equivalently
+
+                                 Z−1 {F (z)G(z)} =
+                                                        n
+                                                             fk gn−k .
+                                                                                             t
+                                                       k=0
+
+                                 So we find that the response of the system with zero initial conditions to
+                                 any input sequence fn is given by the convolution of fn with the system’s
+                                 impulse response:
+                                 yn = Z−1 {F (z)H (z)} = fn ∗ hn .
+                                 We can use this result to solve two types of problems, given zero initial
+                                 conditions. If we know the impulse response function of the system then
+                                 we can find the system response to any input fn either by convolving the
+                                 two sequences
+                                         n
+                                 yn =         fk hn−k = fn ∗ hn
+                                        k=0
+
+                                 or by finding the z transform of fn , F (z), finding the transfer function of
+                                 the system Z{hn } = H (z), then finding Y (z) = H (z)F (z) and taking
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

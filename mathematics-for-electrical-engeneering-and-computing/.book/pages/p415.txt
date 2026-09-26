@@ -1,0 +1,81 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+402   Laplace and z transforms
+
+                                 version of the input. We can find the response to a sine or cosine input by
+
+                                 y(t) = Re(H ( jω)ejωt )    for f (t) = cos(ωt)
+
+                                 and
+
+                                 y(t) = Im(H ( jω)ejωt )    for f (t) = sin(ωt)
+
+                                 Alternatively, we can find the response to ejωt and to e−jωt and use the
+                                 fact that
+
+                                 cos(ωt) = 21 (ejωt + e−jωt )
+                                 sin(ωt) = 2j1 (ejωt − e−jωt )
+
+                                 to write
+
+                                 for f (t) = cos(ωt),     y(t) = 21 (H ( jω)ejωt + H (−jω)e−jωt )
+
+ww                               for f (t) = sin(ωt),    y(t) =
+                                                                  1
+                                                                  2j
+                                                                     (H ( jω)ejωt − H (−jω)e−jωt ).
+
+
+   w             .Ea
+                                 All of these results make use of the principle of superposition for linear
+                                 systems.
+                                    We have seen in this section that the response to a simple sinusoid can
+
+                    syE          be characterized by multiplying the input by a complex constant H ( jω)
+                                 where ω is the angular frequency of the input. The function H ( jω) is
+                                 called the frequency response function. It is this result that motivates us
+
+                                             ngi
+                                 towards the desirability of expressing all signals in terms of cosines and
+                                 sines of single frequencies – a technique known as Fourier analysis. We
+
+
+                                                 n
+                                 shall look at Fourier Analysis for periodic functions in Chapter 16.
+
+                                 Example 15.21
+                                                                 eer
+                                                     A system transfer function is known to be
+
+                                 H (s) =
+                                            1
+                                         3s + 1
+                                                                            ing
+                                 then find the steady state response to the following:
+                                 (a) f (t) = ej2t ;                                        .ne
+                                 (b) f (t) = 3 cos(2t).
+                                                                                               t
+                                 Solution (a) The steady state response to a single frequency ejωt is given
+                                 H ( jω)ejωt . Here f (t) = ej2t , so in this case ω = 2 and H (s) is given as
+                                 1/(3s + 1). Hence we get the steady state response as
+
+                                                      1             ej2t    (1 − j6)ej2t
+                                 H ( j2)ej2t =              ej2t =        =
+                                                 3( j2) + 1        1 + j6       37
+
+                                   (b) Using (1/2)(H ( jω)ejωt +H (−jω)e−jωt ) as the response to cos(ωt)
+                                 and substituting for H and ω = 2 gives
+                                                                  
+                                 1 (1 − 6j)ej2t      (1 + j6) −j2t
+                                                  +          e
+                                 2       37             37
+                                         1
+                                    =      ((1 − j6)(cos(2t) + j sin(2t))
+                                        74
+                                        + (1 + j6)(cos(2t) − j sin(2t))
+                                        1
+                                    =      (cos(2t) + 6 sin(2t)).
+                                        37
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

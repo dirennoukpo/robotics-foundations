@@ -1,0 +1,80 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+62   Problem solving and the art of the convincing argument
+
+                              unknown quantities. Notice that if we simply rewrite a proposition or
+                              predicate we use ‘≡’ or ‘⇔’ to mean ‘is equivalent to’ or ‘is the same as’.
+                                In Equation (3.2) if we substitute 4 for x we get:
+
+                              12 = 11 which is false
+
+                              but, if we substitute 5 for x we get
+
+                              12 = 12    which is true.
+
+
+                              Example 3.3     Assign true or false to the following:
+                              (a) (3x − 2)(x + 5) = 10 where x = 1
+                              (b) 5x 2 − 2x + 1 = 25 where x = −2
+                              (c) y > 5t + 3 where y = 2 and t = −3
+
+
+ww                            Solution
+                              (a)   Substitute x = 1 in the expression and we get:
+
+   w              .Ea               (3 · 1 − 2)(1 + 5) = 10
+                                         ⇔   1(6) = 10
+
+
+                     syE      (b)
+                                         ⇔   6 = 10    which is false.
+
+                                    Substituting x = −2 into 5x 2 − 2x + 1 = 25 gives
+
+                                             ngi
+                                    5(−2)2 − 2(−2) + 1 = 25
+                                         ⇔
+                                         ⇔       n
+                                             20 + 4 + 1 = 25
+                                             25 = 25
+                                                             eer
+                                                          which is true.
+
+                              (c)
+
+                                                                           ing
+                                    Substituting y = 2 and t = −3 into y > 5t + 3 gives
+
+                                    2 > 5(−3) + 3
+                                         ⇔
+                                         ⇔
+                                             2 > −15 + 3
+                                             2 > −12
+                                                                                       .ne
+                                                          which is true.
+
+                                                                                           t
+                                 Like functions, predicates have a domain which is the set of all allowed
+                              inputs to the predicate. For instance, the predicate 1/(x − 1) = 1, where
+                              x ∈ R, has the restriction that x = 1, as letting x equal 1 would lead to
+                              an √
+                                 attempt to divide by 0, which is not defined.
+                                   x − 2 = 25 where x ∈ R has the restriction that x ⩾ 2, as values of
+                              x less than 2 would lead to an attempt to take the square root of a negative
+                              number, which is not defined.
+
+
+
+
+3.4 Operations                Consider the problem given in Example 3.1. Notice that the conditions
+                              that we discovered when writing down the known facts must all be true
+on propositions               in any solution that we come up with. If any one of these conditions is
+                              not true then we cannot accept the solution. The first condition must be
+and predicates                true and the second and the third, etc.
+                                 Here we have an example of an operation on predicates. In Chapter 1,
+                              we defined an operation on numbers is a way of combining two numbers
+                              to give a single number. ‘And’, written as ∧ is an operation on two
+                              predicates or propositions which results a single predicate or proposition.
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

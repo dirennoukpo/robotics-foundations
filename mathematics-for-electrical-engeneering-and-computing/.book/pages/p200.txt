@@ -1,0 +1,136 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                                                        The exponential function                       187
+
+8.7 Exercises
+             d t
+8.1. Using     (e ) = et show that the function 2e3t is a     8.7. Calculate the following and where possible use the
+            dt                                                     appropriate inverse functions to check your result:
+     solution to the differential equation
+     dy                                                           (a) cosh(2.1)                 (b) tanh(3)                  (c) sinh−1 (0.6)
+        = 3y
+     dt                                                           (d) tanh−1 (1.5)              (e) cosh−1 (−1.5)
+8.2. Assuming p = p0 ekt find p0 and k such that
+                                                              8.8. Differentiate the following:
+     dp    p
+        =
+     dt   1200
+                                                                   (a) z = et −2              (b) x = e−t cosh(2t)
+                                                                                    2
+
+     and p = 1 when t = 0.
+                                                                       x2 − 1
+8.3. Assuming N = N0 ekt find N0 and k such that                   (c)                        (d) ln(x 3 − 3x)
+                                                                       sinh(x)
+                                                                   (e) log2 (2x)              (f) a 4t
+     dN
+        = −4.3 × 10−4 N         and   N = 5 × 10 at t = 0.
+                                                6
+                                                                   (g) 2t t 2                 (h) 1/(et−1 )2
+
+ww
+     dt
+8.4. Assuming φ = Aekt + 300 find A and k such that           8.9. Find the following integrals:
+
+
+
+   w dφ
+     dt
+        = −0.1(φ − 300) and
+
+
+                       .Ea
+8.5. Using the definitions of
+                                      φ = 400 when t = 0.
+                                                                   (a)
+
+
+                                                                   (c)
+                                                                         
+
+
+                                                                         
+                                                                                 e4t−3 dt
+
+
+                                                                                 x sinh(2x 2 )dx
+                                                                                                         (b)
+
+
+                                                                                                         (d)
+                                                                                                                3
+
+
+                                                                                                               
+                                                                                                                   2
+                                                                                                                          dt
+                                                                                                                        4t − 1
+
+                                                                                                                       x ln(x)dx
+     cosh(x) =
+
+     and
+                 ex + e−x
+                     2
+                          syE                                      (e)
+                                                                          1
+                                                                                  ex x 2 dx              (f)
+                                                                                                               
+                                                                                                                       sinh(t)
+                                                                                                                               dt
+
+
+                                                     ngi                     0                                         cosh(t)
+               ex − e−x                                                                                       
+     sinh(x) =                                                                     2(x − 1)                                t +1
+                                                                   (g)                        dx         (h)                          dt
+                   2                                                             x 2 − 2x − 4                          (t − 3)(t − 1)
+     show that
+     (a) cosh2 (x) − sinh2 (x) = 1
+     (b) sinh(x − y) = sinh(x) cosh(y) − cosh(x) sinh(y)
+                                                         n         (i)
+                                                                          4
+
+                                                                          eer
+                                                                          2
+                                                                                        −t
+                                                                                  t 2 (t − 1)
+                                                                                                dt
+
+
+8.6. Using y = tanh−1 (x) ⇔ tanh(y) = x, where
+     −1 < x < 1, and                                                                             ing
+                                                             8.10. The charge on a discharging capacitor in an RC circuit
+                                                                   decays according to the expression Q = 0.001e−10t .
+
+     tanh(y) =
+                  y
+                 e −e  −y
+
+                 ey + e−y
+                                                                   Find an expression for the current using I = dQ/dt
+
+                                                                                                                       .ne
+                                                                   and find after how long the current is half of its initial
+                                                                   value.
+     show that
+
+         −1    1
+     tanh (x) = ln
+               2
+                   
+                     1+x
+                     1−x
+                         
+                                                             8.11. A charging capacitor in an RC circuit with a d.c. volt-
+                                                                   age of 5 V charges according to the expression q =
+                                                                   0.005(1 − e−0.5t ). Given that the current i = dq/dt,
+                                                                   calculate the current: (a) when t = 0; (b) after 10 s;
+                                                                                                                           t
+     where −1 < x < 1.                                             and (c) after 20 s.
+
+
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

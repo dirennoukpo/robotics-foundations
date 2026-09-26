@@ -1,0 +1,80 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+360   Differential equations and difference equations
+                                  Table 14.1 A table of trial solutions to be used to find a particular
+                                  solution. The form of the trial solution is suggested by the form of
+                                  the forcing function f (t ). The coefficients c0 , c1 , . . . and c,d are to be
+                                  determined
+
+                                  Input function                                 Trial solution
+
+                                  Polynomial of order n
+                                  f (t ) = a0 + a1 t + a2 t 2 + · · · + an t n   y = c0 + c1 t + c2 t 2 + · · · + cn t n
+                                                                                 (Use all terms up to n for the
+                                                                                   trial solution)
+                                  Exponential function
+                                  f (t ) = a eαt                                 y = c eαt
+                                  Sine or cosine function
+                                  f (t ) = a cos(ωt ) or b sin(ωt ) or           y = c cos(ωt ) + d sin(ωt )
+                                  f (t ) = a cos(ωt ) + b sin(ωt )
+
+
+ ww                               Step 2: Find a particular solution
+
+    w                 .Ea
+                                  The system output, after the effect of any initial conditions have died
+                                  out, we would expect to mimic the system input. To find a particular
+                                  solution we try a trial solution with some undetermined coefficients. Some
+                                  good guesses to use for the trial solution, depending on the type of input
+
+                         syE      function f (t), are given in Table 14.1.
+                                     The coefficients in the trial solution are determined by substituting into
+
+
+
+                                                ngi
+                                  ay  + by = f (t).
+
+                                  These trial solutions will not always work. Laplace transforms may be
+
+                                                    n
+                                  used to find a particular solution in that case (see Chapter 15).
+                                  Step 3: Find the general solution
+                                                                      eer
+                                  The general solution to the equation is given by the sum of the
+
+                                  Step 4: Find the particular solution           ing
+                                  complementary function plus the particular solution.
+
+
+
+                                                                                                  .ne
+                                  The final step is to use the initial condition to find the appropriate value
+                                  of A, the arbitrary constant. This solution is then the particular solution
+
+                                                                                                      t
+                                  which solves the differential equation with the given initial condition.
+
+                                  Example 14.6 The RC circuit in Figure 14.6 is initially relaxed and is
+                                  closed at time t = 0. Hence, applying a DC voltage of v0 the charge of
+                                  the capacitor obeys the differential equation
+
+                                  R dq/dt + q/C = v0 .
+
+                                  Solve for q and find an expression for the voltage across the capacitor at
+Figure 14.6 An RC circuit         a time t after the circuit was closed.
+with an applied DC voltage.
+                                  Step 1
+                                  To find the complementary function we solve the homogeneous equation
+
+                                  R dq/dt + q/C = 0.
+
+                                  Substitute q = A eλt and dq/dt = Aλ eλt to give
+
+                                  RλA eλt + A eλt /C = 0.
+
+                                  Divide by A eλt
+
+                                  Rλ + 1/C = 0           ⇔       λ = −1/(RC).
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

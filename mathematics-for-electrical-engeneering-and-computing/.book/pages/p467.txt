@@ -1,0 +1,85 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+454   Vector calculus
+
+                            Solution We want to find
+                                      
+                               F · dr = Fx dx + Fy dy
+                            C            C
+
+                            which, by Green’s theorem in the plane, is equal to
+                                  ∂Fy   ∂Fx
+                                      −     dx dy.
+                                s  ∂x    ∂y
+
+                            We have F = (3x 2 , −4xy) = (Fx , Fy ) and therefore
+
+                            ∂Fy                            ∂Fx
+                                = −4y            and           = 0.
+                             ∂x                             ∂y
+                               The surface is a rectangle so the limits for the integration are easy to
+
+
+ww                          establish as being for x from 0 to 4 and for y from 0 to 1. Hence, we get
+                            the surface integral.
+                                          1 4           
+
+   w              .Ea       C
+                               F · dr =
+                                             0
+                                                   −4y dx dy.
+                                                       0
+
+
+                               To perform a multiple integral we simply do one integral and then inte-
+
+                     syE    grate the result. The order of performing the integrations will not matter
+                            in this case because the limits of integration are independent of the other
+                            variable and the integrals exists and are continuous in the relevant region.
+
+                                        ngi
+                            We do the inner integration with respect to x. Here we are integrating
+                            −4y, which does not contain a term in x, so we treat it as a constant for
+
+                               1     4      n
+                            the purposes of the first integration giving the integral as −4yx.
+                                               
+                                       −4y dx dy =
+                                                         1
+                                                                  eer
+                                                           [−4yx]x=4
+                                                                   x=0 dy =
+                                                                                1
+                                                                                  −16y dy.
+                                0   0                         0
+
+                            Now, we do the integration in y to give       ing   0
+
+
+
+
+                            [−8y 2 ]10 = −8.
+                                                                                     .ne
+18.5 Surface
+                                                                                         t
+                            Many problems in field theory involve the calculation of flux of a vector
+                            field out of some enclosed surface. This requires us to integrate a vec-
+integrals                   tor field over the surface. Such problems are simplified by using the
+                            divergence theorem, which relates the integral of a vector field over a
+                            bounding surface to the integral of the divergence of the field over the
+                            enclosed volume.
+                            
+                                F · dS = (∇·F) dV .
+                            S            V
+
+                            S is a surface enclosing the volume V . This expresses the relationship
+                            between the amount of source material in a volume and the flux out of
+                            the enclosing surface. An example is the relationship between electric
+                            charge within a volume and the flux of the resulting electric field.
+
+                            Example 18.8 Given F = (x − y + z, 2x 2 y, 1) find the integral of F
+                            over the closed surface consisting of the edges of the cube 0 ⩽ x ⩽ 3,
+                            0 ⩽ y ⩽ 3 and 0 ⩽ z ⩽ 3.
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

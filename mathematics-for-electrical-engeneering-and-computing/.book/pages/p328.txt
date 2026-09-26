@@ -1,0 +1,81 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                          315
+
+            Kirchoff’s current law (KCL): At any point of a circuit, the sum of the
+            in-flowing currents is equal to the sum of the out-flowing currents.
+               By Ohm’s law we know the voltage drop across a resistor is given by
+            V = IR, where R is the resistance of the resistor. Two loops have been
+            identified in Figure 13.12 and by using KVL and Ohm’s law in loop 1
+            we get
+
+            3I2 − 2I3 = 0.
+
+            Now looking at loop 2, we get
+
+            3I1 − 8 + 4I1 + 2I3 = 0
+               ⇔      7I1 + 2I3 = 8.
+
+            Finally, we use the current law at one of the nodes to give
+
+
+ww          I1 = I2 + I3       ⇐⇒      I1 − I 2 − I 3 = 0
+
+
+
+   w
+            Finally, we can list all the equations we have found
+             I1     −    I2    −    I3     =
+
+    .Ea
+                                                0
+                         3I2   −    2I3    =    0
+             7I1               +    2I3    =    8
+
+       syE  and the problem is now to find a solution which satisfies all of these
+            equations simultaneously.
+
+
+                        ngi
+               This is called a system of equations. In many electrical networks, there
+            will be far more than three unknown currents. In such situations, it is
+
+
+                            n
+            impractical to solve the equations without the use of a computer. However,
+
+
+                                           eer
+            we can discover a number of important principles and problems involved
+            in solving systems of linear equations by looking at some simple cases.
+            The first problem we have is that it is possible to get more that these
+
+            the outer loop would give
+                                                         ing
+            three equations from the network given in Figure 13.12. Using KVL in
+
+
+            7I1 + 3I2 = 8
+                                                                       .ne
+            and KCL at the other node gives
+
+            I2 + I3 = I1       ⇔    −I1 + I2 + I3 = 0                      t
+            We therefore have five equations and only three unknowns.
+               Luckily, it is possible to show that these equations are a consistent set,
+            that is, it is possible to find a solution. We shall return to solve for I1 , I2 ,
+            and I3 later. First, we shall examine all the possibilities when we have
+            only two unknown quantities.
+
+            Systems of equations in two unknowns
+            The equation
+
+            ax + by = c
+
+            where a, b, c are constants is a linear equation in two unknowns (or vari-
+            ables) x and y. Because there are two unknowns we need two axes to
+            represent it, and therefore the graph can be drawn in a plane.
+              Because the graph only involves terms in x, y and the constant term and
+            no other powers of either x or y, we know that the graph of the equation
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

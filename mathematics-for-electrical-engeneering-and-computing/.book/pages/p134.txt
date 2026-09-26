@@ -1,0 +1,76 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                      Differentiation      121
+
+
+
+
+Figure 6.3 (a) The
+derivative of a constant, for
+instance y = 3. The slope at
+any point is zero (the line has
+zero gradient everywhere).
+(b) The graph of the derivative
+is given as dy /dx = 0.
+
+
+Figure 6.4 (a) The graph of
+
+ww
+y = cos(x ) with a few
+tangents marked. On
+travelling from left to right,
+
+
+   w
+when we are going uphill the
+slope (and therefore the
+
+                      .Ea
+derivative) must be positive
+and when going downhill the
+
+
+                         syE
+derivative must be negative.
+At the top of the hills and the
+bottom of the troughs the
+slope is 0. Joining up the
+points on the bottom graph
+gives something like an
+upside-down sine wave.                            ngi
+(b) The graph of the derivative
+dy /dx = −sin(x ).
+                                                      n             eer
+                                                                               ing
+                                       Solution To differentiate a power of x we must first write the expression
+                                       in the form x n where n is some number. We can then use the fact that
+                                        d n
+                                           (x ) = nx n−1                                     .ne
+                                                                                                 t
+                                       dx
+                                        from Table 6.2.
+                                       (a) x = x 1 ; therefore, n = 1. Substitute n = 1 in
+
+                                              d n
+                                                (x ) = nx n−1
+                                             dx
+                                             to give
+
+                                              d 1
+                                                (x ) = 1x 1−1 = 1x 0 = 1
+                                             dx
+
+                                             as x 0 = 1. Hence,
+
+                                              d
+                                                (x) = 1
+                                             dx
+                                       (b)
+
+                                              d 5
+                                                (x ) = 5x 5−1 = 5x 4
+                                             dx
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

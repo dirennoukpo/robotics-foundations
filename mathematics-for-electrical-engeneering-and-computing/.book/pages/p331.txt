@@ -1,0 +1,75 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+318   Systems of linear equations, matrices, and determinants
+
+
+
+
+Figure 13.15 The graphs of
+equations x + 2y = 1 and
+2x + 4y = 2 are coincident.
+The graph of one lies on top
+of the other.
+
+
+                                   Substitute this into the first equation to give
+
+                                   3x + 4(−0.5) = 7
+                                      ⇔     3x − 2 = 7
+
+
+ ww                                   ⇔
+                                      ⇔
+                                            3x = 9
+                                            x = 3.
+
+
+    w                .Ea
+                                     The solution is given by x = 3 and y = −0.5, which can be represented
+                                   by the pair of values for (x, y) of (3, −0.5).
+
+
+
+                        syE           The point (3, −0.5) is the point on the graph where the two lines cross.
+                                   This is the only point which lies both on the first graph and the second
+                                   graph. It is the only point which satisfies both equations simultaneously.
+
+
+                                               ngi
+                                   Hence, we say there is a unique solution to the system of equations.
+                                   The system of equations is said to be determined because there is a single
+                                   solution. The system of equations is also said to be consistent because it
+
+                                                   n
+                                   is possible to find a solution.
+
+                                                                  eer
+                                      We could have the system of equations:
+
+                                   x + 2y = 1
+                                   2x + 4y = 2.                                ing
+                                                                                             .ne
+                                   If we plot these lines we find that they are coincident, that is, one line lies
+                                   on top of the other as in Figure 13.15.
+                                                                                                 t
+                                      In this case, the second equation, 2x + 4y = 2, can be obtained
+                                   by multiplying the first equation by 2. We say that the equations are
+                                   dependent. Two equations are dependent if one can be obtained from the
+                                   other by multiplying by a constant or by adding a constant to both sides.
+                                   As any point that lies on x + 2y = 1 also lies on 2x + 4y = 2, there is
+                                   no unique solution to the system of equations.
+                                      We say that the system of equations is indeterminate as there exist any
+                                   number of solutions to the system, that is, the system reduces to only
+                                   one equation. However, the system of equations is said to be consistent,
+                                   because at least one solution exists.
+                                      Example solutions are:
+
+                                   x = 2, y = 0.5 or (2, −0.5)
+                                   x = 3, y = −1 or (3, −1)
+                                   x = 4, y = −1.5 or (4, −1.5)
+
+                                   The solution set can be written as (x, (1 − x)/2), where x can take any
+                                   value or as (1 − 2y, y), where y can take any value.
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

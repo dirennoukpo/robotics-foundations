@@ -1,0 +1,73 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+ 466    Graph theory
+
+
+
+
+Figure 19.13 (a) A tree is a connected graph with no
+cycles. (b) A forest has no cycles, but may or may not
+be connected.
+
+
+
+
+  ww
+     w                 .Ea
+                                                             Figure 19.14 A parsing tree for the sentence
+                                                             ‘Fortune favours the brave’.
+
+
+
+
+                          syE             If T is a tree with at least two vertices, then it has the three properties
+                                        (T1), (T2), and (T3):
+
+
+                                        vertex vj .
+                                                   ngi
+                                        (T1) There is exactly one path from any vertex vi in T to any other
+
+
+
+                                                       n
+                                        (T2) The graph obtained from T by removing any edge has two
+
+
+                                                                      eer
+                                        components, each of which is a tree.
+                                        (T3) |E| = |V | − 1.
+
+
+                                                                                   ing
+                                           Trees have many applications, particularly rooted trees. Decision trees
+                                        are used to represent the possible decisions at each stage of a problem
+
+                                                                                                .ne
+                                        or algorithm. Probability trees can be used to analyse conditional prob-
+                                        abilities, which we shall see in Chapter 21. Another application is to
+
+
+                                                                                                    t
+                                        parsing of a sentence. The tree in Figure 19.14 represents the sentence
+                                        ‘Fortune favours the brave’. The vertices, other than the terminal vertices,
+                                        represent grammatical categories and the terminal vertices represent the
+                                        words of the sentence. The same sort of idea can be used to analyse
+                                        allowed constructs of statements in programming languages and the syn-
+                                        tax of arithmetic expressions. We look at this application of trees in the
+                                        next chapter on language theory.
+
+
+                                        Spanning trees
+                                        A spanning tree of a graph G is a tree T which is a spanning subgraph
+                                        of G. That is, T has the same vertex set as G. Examples of graphs with
+                                        spanning trees marked are given in Figure 19.15.
+
+
+                                        How to grow a spanning tree
+                                        Take any vertex v of G as an initial partial tree. Add edges one by one so
+                                        each new edge joins a new vertex to the partial tree. If there are n vertices
+                                        in the graph G then the spanning tree will have n vertices and n − 1 edges.
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

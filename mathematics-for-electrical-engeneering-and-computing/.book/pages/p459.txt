@@ -1,0 +1,94 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+
+
+     18             Vector calculus
+
+18.1                In the previous chapter, we looked at functions of more than one variable.
+                    For a function of two variables (x, y) we define a function u = f (x, y)
+Introduction        which can be represented by a surface. For each pair of values (x, y) we
+                    can find a single value for u, showing that u is a scalar quantity. For this
+
+
+ww                  reason, a function of spatial coordinates is called a scalar field. We also
+                    saw how to calculate a gradient of a function of two variables and that
+                    the gradient depends on the direction of the path that we choose across
+
+   w       .Ea
+                    the surface. This means that the gradient must be described by both a
+                    magnitude and a direction. From Chapter 9, we know that vectors are
+                    used to represent quantities that have both magnitude and direction and
+                    we shall show in this chapter that we represent the gradient of a scalar
+
+              syE   field as a vector field.
+                       A vector field is a vector function, which means that at each point in
+                    space the function has both magnitude and direction and can be expressed
+
+                               ngi
+                    by a vector with x, y, and z components. In Chapter 6, we quoted
+                    many relationships between physical quantities that involve derivatives.
+
+
+                                   n
+                    There we considered only movement in a single spatial direction. Many
+
+
+                                                  eer
+                    of these equations should properly be described by vector field equations
+                    in space. In order to express these equations, we need to define the opera-
+                    tions of divergence and curl of a vector field. Vector field equations are
+
+                                                              ing
+                    particularly important in electromagnetic field theory.
+                       In this chapter we give an introduction to vector fields and operations
+
+
+                                                                            .ne
+                    on vector fields with applications to evaluating line and surface integrals.
+
+
+
+18.2 The
+gradient of a
+                    We define the gradient of a scalar field as follows
+
+                    ∇φ =
+                          ∂φ
+                           ∂x
+                              i+
+                                  ∂φ
+                                  ∂y
+                                     j+
+                                         ∂φ
+                                         ∂z
+                                             k=
+                                                  
+                                                    ∂φ ∂φ ∂φ
+                                                         ,
+                                                    ∂x ∂y ∂z
+                                                             ,
+                                                                  
+                                                                     .
+                                                                                t
+scalar field        ∇φ is the gradient of φ, or simply ‘grad φ’, ∇ is called the ‘del’ operator.
+                    The meaning of this definition is that we take the partial derivative of the
+                    scalar field with respect to x, y, and z, and these are the components of
+                    our vector field.
+                      This definition is equivalent to
+                                                
+                                ∂      ∂       ∂
+                    ∇φ = i        +j      +k        φ
+                               ∂x     ∂x      ∂x
+                    and also to
+                                     
+                              ∂ ∂ ∂
+                    ∇φ =        , ,     φ.
+                             ∂x ∂x ∂x
+                    If φ is defined for two spatial dimensions (x, y) only then we would have
+                                                     
+                             ∂φ     ∂φ        ∂φ ∂φ
+                    ∇φ =        i+      j=       ,      .
+                             ∂x     ∂y        ∂x ∂y
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

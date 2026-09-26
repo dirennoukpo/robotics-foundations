@@ -1,0 +1,82 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+16   Sets and functions
+
+                              Here 1000(r − 2) cannot be 0, else we would be trying to divide by 0.
+                              Solve the equation for the values that r cannot take
+
+                              1000(r − 2) = 0
+                                     r −2=0
+                                           r=2
+
+                                The function is
+
+                                     r + 1000
+                              R=                    where r = 2
+                                    1000(r − 2)
+
+
+
+                              Example 1.13 Find the values that can be input to the following discrete
+
+
+ww                            functions where the independent variable is an integer
+
+                              (a)   y=
+                                           1
+                                                  where k ∈ Z
+
+   w             .Ea          (b)
+                                          k−4
+
+                                    f (k) =
+                                                     1
+                                              (k − 3)(k − 2.2)
+                                                                   where k ∈ Z
+
+
+
+                    syE       (c)   an = n2     where n ∈ Z
+
+
+                              Solution
+                                           ngi
+                                           1
+                              (a)   y=
+                                          k−4
+                                               n              eer
+                              Here k − 4 cannot be 0 else there would be an attempt to divide by 0. We
+
+
+                                           1                             ing
+                              get k − 4 = 0 when k = 4 so the function is:
+
+                                    y=
+                                          k−4
+                                                  where k  = 4 and k ∈ Z
+
+                                                     1                               .ne
+                              (b)   f (k) =
+                                              (k − 3)(k − 2.2)
+                                                                   where k ∈ Z
+                                                                                         t
+                              Solve for (k − 3)(k − 2.2) = 0 giving k = 3 or k = 2.2. As 2.2 is not an
+                              integer then there is not need to specifically exclude it from the function
+                              input values, so the function is
+
+                                                1
+                              f (k) =                         where k  = 3 and k ∈ Z
+                                         (k − 3)(k − 2.2)
+                              (c)   an = n2 ,    n∈Z
+
+                              Here there are no problems with the function as any integer can be squared.
+                              There are no excluded values from the input of the function.
+
+
+                              Using a recurrence relation to
+                              define a discrete function
+                              Values in a discrete function can also be described in terms of its values
+                              for preceeding integers.
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

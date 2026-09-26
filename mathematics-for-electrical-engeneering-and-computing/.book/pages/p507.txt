@@ -1,0 +1,76 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+494   Probability and statistics
+
+                                   This is just one example of the type of problem for which we need the
+                                   ideas of probability and statistics. Others are, a factory produces 1000
+                                   electronic components each day where we wish to be able to estimate how
+                                   many defective components are produced each day or a company with
+                                   eight telephone lines where we wish to say whether that is a sufficient
+                                   number, in general, for the number of calls likely to be received at any
+                                   one time.
+                                       All of these questions are those that need the ideas of probability and
+                                   statistics. Statistics is used to analyse data and produce predictions about
+                                   it . Probability is the theory upon which statistical models are built.
+                                       For the engineering situations in previous chapters we have considered
+                                   that we know all the factors that determine how a system will behave, that
+                                   is, we have modelled the system deterministically. This is not very realis-
+                                   tic. Any real situation will have some random element. Some problems,
+                                   as the one we have just introduced, contain a large random element so
+                                   that it is difficult to predict the behaviour of each part of the system. How-
+
+ww                                 ever, it is possible to say, for instance, what the average overall behaviour
+                                   would be.
+
+
+   w
+21.2 Population
+                  .Ea              In statistics, we are generally interested in a ‘population’ that is too large
+                                   for us to measure completely. For instance, we could be interested in all
+and sample,
+representation
+of data, mean,
+                     syE           the light bulbs that are produced by a certain manufacturer. The manufac-
+                                   turer may claim that her light bulbs have a lifetime of 1500 h. Clearly this
+                                   cannot be exact but we might be satisfied to agree with the manufacturer
+
+variance and                                   ngi
+                                   if most of the bulbs have a lifetime greater than 1500 h. If the factory
+                                   produces half a million light bulbs per year then we do not have the time
+                                   to test them all. In this case we test a ‘sample’. The larger the sample, the
+standard
+deviation                                          n
+                                   more accurate will be the comparison with the whole population.
+
+                                                                 eer
+                                      We have recorded the lifetimes of samples of light bulbs in Table 21.1.
+                                   We can build up a table to give information about our sample. Columns 8
+
+                                                                              ing
+                                   and 9 are given for comparison with statistical modelling and columns 4,
+                                   6, and 7 are to help with the calculation. The following describes each
+                                   column of Table 21.1, beginning with a list of the ‘raw’ data.
+
+                                   Column 1: the class intervals                            .ne
+                                                                                                t
+                                   Find the minimum and the maximum of the data. The difference between
+                                   these gives the range of the data. Choose a number of class intervals
+                                   (usually up to about 20) so that the class range can be chosen as some
+                                   multiple of 10, 100, 1000, etc. (like the class range of 100 above). The
+                                   data range divided by the class range and then rounded up to the integer
+                                   above gives the number of classes. The class intervals are chosen so that
+                                   the lowest class minimum is less than the minimum data value. In our
+                                   example, the lowest class minimum has been chosen as 900. Add the class
+                                   range of 100 to find the class interval, for example, 900–1000. Carry on
+                                   adding the class range to find the next class interval until you pass the
+                                   maximum value.
+
+                                   Column 2: the class midpoint
+                                   The class midpoint is found by the maximum value in the class interval –
+                                   the minimum value in the class interval divided by 2. For the interval
+                                   1300–1400, the class midpoint is (1400 − 1300)/2 = 1350.
+                                      The class midpoint is taken as a representative value for the class. That
+                                   is, for the sake of simplicity we treat the data in the class 1300–1400 as
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

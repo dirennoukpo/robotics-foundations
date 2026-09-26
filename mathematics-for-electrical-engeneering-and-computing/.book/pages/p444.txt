@@ -1,0 +1,116 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                            Fourier series    431
+
+                                            4.     The complex form of the Fourier series is given by
+                                                               n=∞
+                                                               
+                                                   f (t) =             αn ejnω0 t
+                                                               n=−∞
+
+                                                   where
+                                                                τ/2
+                                                           1
+                                                   αn =                f (t) e−jnω0 t dt
+                                                           τ    −τ/2
+
+                                                   The coefficients are related to an and bn by
+                                                                                                             1
+                                                   an = 2 Re(αn ),         bn = −2 Im(αn ),         αn =       (an − bn )
+                                                                                                             2
+                                                   and to the amplitude and phase form by
+                                                   cn = 2|αn |       and     φn = arg(αn ),        n ⩾ 0.
+
+
+ww
+   w
+16.8 Exercises
+                              .Ea
+For the following periodic functions in Exercises 16.1–16.7,
+                                                                        16.6 f (t) =
+                                                                                       
+                                                                                           cos(2πt) 0 < t < 1
+
+
+f (t) =
+          1       ∞
+                                 syE
+find the Fourier series in trigonometric and complex form
+
+
+          2
+            a0 +   an cos(nω0 t) + bn sin(nω0 t)
+                                                                                       
+                                                                                           0        1<t <2
+
+                                                                                           t − 0.5 0 < t < 1
+
+
+f (t) =
+          ∞
+          
+                  n=1
+
+
+                 αn ejnω0 t                               ngi           16.7 f (t) =
+                                                                                           1.5 − t 1 < t < 2
+
+
+
+                                                              n
+                                                                        16.8 Which of the periodic functions whose graphs are
+          n=−∞
+
+
+
+                                                                                    eer
+                                                                             shown in Figure 16.7 are even, odd, or have half-wave
+and check that 
+               the results are equivalent in each case.                      symmetry. What consequences will such properties
+                 1 0<t <1                                                    have for the Fourier series in trigonometric form?
+ 16.1 f (t) =
+               
+                 0 1<t <4
+
+                 t2 0 < t < 1                                                                    ing
+                                                                        16.9 Find the fundamental period and give the amplitude
+                                                                             and phase spectra of the Fourier series representation
+ 16.2 f (t) =
+                 0 1<t <2
+                                                                             of the following periodic functions
+
+                                                                             (a) f (t) = sin(3t) − sin(t)       .ne
+ 16.3 f (t) = cos2 (t)
+
+ 16.4 f (t) =
+              
+
+
+              
+                t 0<t <1
+                0 1<t <2                                                     (c) f (t) =
+                                                                                         1
+                                                                             (b) g(t) = cos(2t) + 2 − sin(2t)
+                                                                                         2
+                                                                                           
+                                                                                           ∞
+                                                                                                1 jnt
+                                                                                               n2
+                                                                                            n=−∞
+                                                                                                  e
+                                                                                                          1
+                                                                                                          2
+                                                                                                        n=0
+                                                                                                                    t
+                t2          0<t <1
+ 16.5 f (t) =                                                          16.10 Find and plot the amplitude and phase spectra of your
+               1 − (t − 1)2 1 < t < 2                                        results from Exercises 16.1, 16.3, and 16.7.
+
+
+
+
+Figure 16.7        Graphs for Exercise 16.8.
+
+
+                                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,88 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                            Vector calculus   453
+
+              From C to A: r = (0, 1, 1)(1 − t) + (1, 0, −1)t = (t, 1 − t, 1 − 2t). So
+            x = t, y = 1 − t, and z = 1 − 2t, and
+
+            dx               dy                   dz
+               = 1,             = −1,                = −2
+            dt               dt                   dt
+
+                                        t2                                   
+                                                                     dx dy dz
+                         F · dr =            (Fx , Fy , Fz ) ·         , ,      dt
+                C to A              t1                               dt dt dt
+                                        1
+                               =            (2xy, 3z, 12xyz) · (1, −1, −2) dt
+                                    0
+                                        1
+                               =             2xy − 3z − 24xyz dt
+                                    0
+                                        1
+                               =             2t − 2t 2 − 3(1 − 2t) − 24t(1 − t)(1 − 2t) dt
+
+ww                             =
+                                    0
+                                        1
+                                             −48t 3 + 70t 2 − 16t − 3t dt
+
+   w.Ea
+                                    0
+
+
+                               = −12t 4 +
+                                                     70t 3
+                                                      3
+                                                           − 8t − 3t
+                                                                     1
+
+                                                                      0
+
+
+       syE                     = −12 +
+                                                 70
+                                                  3
+                                                         1
+                                                    −8−3= .
+                                                         3
+
+
+                             ngi
+            Therefore, the total integral around the path is given by the sum of the
+            integral along the three sections – that is
+
+            4 − 1 + 13 = 3 13 .  n                    eer
+            Integrals round a closed curve
+                                                                       ing
+            If we are calculating the line integral round a closed curve in a plane
+                                                                                     .ne
+            (where the field is a function of x and y only) we can use Green’s theorem
+            in a plane to convert the integral into a double integral over the enclosed
+            surface. This theorem is as follows
+            
+                    Fx dx + Fy dy =
+                                                 ∂Fy
+                                                     −
+                                                       ∂Fx
+                                                           dx dy.
+                                                                                         t
+                C                              s  ∂x    ∂y
+
+            The left-hand side of this expression represent the integral of F · dr,
+            as before, however now we are limited to considering a plane so that
+            r = (x, y) and also the path of integration must be closed. The fact that
+            C is a closed path is indicated by the small circle on the integral sign.
+
+
+            Example 18.7            Using Green’s theorem find the integral
+            
+                    F · dr
+            C
+
+
+            where F = (3x 2 , −4xy), and C a path clockwise along the perimeter of
+            the rectangle 0 ⩽ x ⩽ 4, 0 ⩽ y ⩽ 1.
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

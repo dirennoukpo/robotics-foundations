@@ -1,0 +1,77 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+370   Differential equations and difference equations
+
+                                  The other part of the solution, where we consider the effect of the
+                               forcing function, is called the steady state solution. For the solution found
+                               in Example 14.8 where
+
+                               y = −1.25 e−0.6t sin(0.8t) + sin(t)
+
+                               we find that −1.25 e−0.6t sin(0.8t) is the transient and sin(t) is the steady
+                               state solution. If we consider the system after some time has passes then
+                               the transient will effectively be zero and we are left with y = sin(t), the
+                               steady state solution.
+                                  We have said that in any truly linear system, as represented, for
+                               instance, by our models in Section 14.2, the constants must be posi-
+                               tive with positive damping. However, we may wish to analyse non-linear
+                               systems by using a locally linear approximation. In this situation they
+                               may exhibit unstable behaviour, where the ‘transients’, instead of dying
+                               out, display positive exponential behaviour and grow very large. This is
+
+
+ww                             then referred to as an unstable system.
+                                  We can analyse systems in the following way:
+                               Stable system:A system is stable if all the solutions to the auxiliary equa-
+
+   w              .Ea
+                                 tion have negative real parts. A system with some purely imaginary
+                                 solutions to the auxiliary equation can also considered to be stable
+                                 although the complementary function does not die out as t → ∞ but
+                                 represents sustained oscillations.
+
+                     syE       Unstable system:A system is unstable if any solutions to the auxiliary
+                                 equation have positive real parts or, for systems of higher order, if
+
+
+                                          ngi
+                                 there is a repeated, purely imaginary, solution.
+
+                               Damped oscillations of a mechanical
+                                              n
+                               system – resonance
+                                                             eer
+                               For damped oscillations of a spring we have the differential equation
+
+                               ⇔     m d2 x/dt 2 + r dx/dt + kx = f (t)
+                                                                          ing
+                                                                                         .ne
+                               as shown in Section 14.2, where m is the mass, r the damping constant,
+                               and k the spring constant. We shall look at the steady state solution in
+
+
+                               resonance.                                                    t
+                               the case where there is a single frequency input. We are interested in the
+                               magnitude of the response in this case in order to analyse the problem of
+
+                                  For simplicity we can regard the single frequency input as a complex
+                               exponential f (t) = F0 ejωt where F0 is a constant. Having found the
+                               response to the complex exponential, then as
+
+                               F0 ejωt = F0 cos(ωt) + jF0 sin(ωt)
+
+                               we can find the response to a cosine function by taking the real part of
+                               the output or to a sine function by taking the imaginary part of the output
+                               (this is an application of the linearity property).
+                                  We have the equation mẍ + r ẋ + kx = F0 ejωt and we want to find the
+                               steady state solution. Try a solution of the form x = c ejωt then
+
+                               ẋ = cjω ejωt
+                               ẍ = −cω2 ejωt
+
+                               and substituting into the differential equation we find
+
+                               −mcω2 ejωt + crjω ejωt + kc ejωt = F0 ejωt .
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

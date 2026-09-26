@@ -1,0 +1,108 @@
+             Downloaded From : www.EasyEngineering.net
+
+
+                                                          Sequences and series                283
+                            Table 12.2 The values in the sequence
+                            Sn =expressed to 3 s.f., 5 s.f., and 7 s.f. Notice
+                            the sequence becomes constant after n = 9 for 3
+                            s.f, after n = 15 for 5 s.f and after n = 22 for 7 s.f.
+
+                            n         Sn (3 s.f.)        Sn (5 s.f.)       Sn (7 s.f.)
+
+                             1           1                 1               1
+                             2           1.5               1.5             1.5
+                             3           1.75              1.75            1.75
+                             4           1.88              1.875           1.875
+                             5           1.94              1.9375          1.9375
+                             6           1.97              1.9688          1.96875
+                             7           1.98              1.9844          1.984375
+                             8           1.99              1.9922          1.992188
+                             9           2                 1.9961          1.996094
+                            10           2                 1.998           1.998047
+                            11           2                 1.999           1.999023
+
+ww                          12
+                            13
+                            14
+                                         2
+                                         2
+                                         2
+                                                           1.9995
+                                                           1.9998
+                                                           1.9999
+                                                                           1.999512
+                                                                           1.999756
+                                                                           1.999878
+
+
+   w     .Ea
+                            15
+                            16
+                            17
+                            18
+                                         2
+                                         2
+                                         2
+                                         2
+                                                           2
+                                                           2
+                                                           2
+                                                           2
+                                                                           1.999939
+                                                                           1.999969
+                                                                           1.999985
+                                                                           1.999992
+
+
+            syE
+                            19           2                 2               1.999996
+                            20           2                 2               1.999998
+                            21           2                 2               1.999999
+                            22           2                 2               2
+
+
+                            ngi
+                            23           2                 2               2
+
+
+
+
+12.8
+                                n               eer
+                  Although we already know how to solve linear equations and quadratic
+
+
+                                                             ing
+                  equations other equations may need to be solved by using a numerical
+Newton–           method. One such method is the Newton–Raphson method. The method
+                  consists of an algorithm which can be expressed as follows:
+Raphson
+method for                                                                 .ne
+                  Step 1: take an equation and write it in the form f (x) = 0, then,
+                  Step 2: take a guess at a solution
+solving
+equations
+                  Step 3: calculate a new value for x using
+
+                           x←x−
+                                      f (x)
+                                      f  (x)
+                                                                               t
+                  Step 4: Repeat Step 3 until come convergence criterion has been sat-
+                          isfied or until it is decided that the method has failed to find a
+                          solution. Here, the ‘←’ symbol has been used to represent the
+                          ‘assignment operator’.
+
+                                      f (x)
+                           x←x−
+                                      f  (x)
+
+                  means replace x by a value found by taking the old value of x and calcu-
+                  lating x − f (x)/f  (x). We will return to the problems in Steps 1 and 4
+                  later; first we will look at a simple example of using the Newton–Raphson
+                  method.
+                                                                                      √
+                  Example 12.34      Use Newton–Raphson method to find                    5 correct
+                  to 7 s.f.
+
+                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

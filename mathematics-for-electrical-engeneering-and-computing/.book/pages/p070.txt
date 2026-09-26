@@ -1,0 +1,63 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+
+
+             3                      Problem solving
+                                    and the art of the
+                                    convincing
+                                    argument
+ww
+   w                 .Ea
+3.1 Introduction                    Mathematics is used by engineers to solve problems. This usually involves
+
+                        syE         developing a mathematical model. Just as when building a working model
+                                    aeroplane we would hope to include all the important features, the same
+                                    thing applies when building a mathematical model. We would also like to
+
+                                              ngi
+                                    indicate the things we have had to leave out because they were too fiddly
+                                    to deal with, and also those details that we think are irrelevant to the
+
+
+                                                  n
+                                    model. In the case of a mathematical model the things that have been left
+
+
+                                                                 eer
+                                    out are listed under assumptions of the model. To build a mathematical
+                                    model, we usually need to use scientific rules about the way things in the
+                                    world behave (e.g. Newton’s laws of motion, conservation of momentum
+
+                                                                              ing
+                                    and energy, Ohm’s law, Kirchoff’s laws for circuits, etc.) and use num-
+                                    bers, variables, equations, and inequalities to express the problem in a
+                                    mathematical language.
+                                                                                           .ne
+                                       Some problems are very easy to describe mathematically. For instance:
+
+
+                                                                                               t
+                                    ‘Three people sitting in a room were joined by two others, how many
+                                    people are there in the room in total?’ This can be described by the sum
+                                    3 + 2 =? and can be solved easily as 3 + 2 = 5.
+                                       The final stage of solving the problem is to translate it back into the
+                                    original setting – the answer is: ‘there are 5 people in the room in total’.
+                                       Assumptions were used to solve this problem. We assumed that no
+                                    one else came in or left the room in the meantime and we made general
+                                    assumptions about the stability of the room, for example, the building
+                                    containing it did not fall down. However, these assumptions are so obvious
+                                    that they do not need to be listed. In more complex problems it is necessary
+                                    to list important assumptions as they may have relevance as to the validity
+                                    of the solution.
+                                       Another example is as follows: ‘There are three resistors in series in a
+                                    circuit, two of the resistors are known to have resistance of 3 and 4 ohm,
+                                    respectively. The voltage source is a battery of 12 V and the current is
+                                    measured as 1 A. What is the resistance of the third resistor?’
+                                       To help express the problem in a mathematical form we may draw a
+                                    circuit diagram as in Figure 3.1.
+                                       The problem can be expressed mathematically by using Ohm’s law
+                                    and the fact that an equivalent resistance to resistances in series is given
+Figure 3.1 A simple circuit.        by the sum of the individual resistances. If x is the unknown value of the
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

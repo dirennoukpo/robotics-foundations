@@ -1,0 +1,128 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                                Index       547
+
+                                 N                   Permutations, 332
+            NAND gate, 81–2                          Phase, 98
+            Napierian logarithm, 169                 Phasors, 195–6, 207
+            Natural logarithm, 169                     rotation by π/2, 206–8
+            Natural numbers, 4                       Piecewise continuous functions 10
+            Networks, 468–72                         Point of inflexion, 238
+              capacity of, 471                       Polar coordinates, conversion to
+              flow function, 471                          rectangular, 194–5
+              maximum flow, 472–4                    Polar form of complex numbers, 216–19
+              shortest path, 468–71                    conversion to rectangular, 217–18
+            Newton’s law of cooling, 165             Poles of the Laplace transform, 392–3
+            Newton’s second law, 224, 347            Poisson distribution, 526–8
+            Newton-Raphson method of solving         Population growth, 163–4
+                 equations, 283–6                    Population, 494
+            Non-terminal symbol, 480                 Position vectors, 203
+            NOR gate, 81                             Power relationships, 53–4
+            Normal distribution, 516–21              Power series, 274–9
+              standardized, 519                      Powers of complex numbers, 225–6, 228
+
+
+ww            area in the tail, 518, 519
+            Normal equations, 343
+            NOT gate, 81
+                                                     Predicates, 61–72
+                                                       applications, 72
+                                                       domain of, 62
+
+
+   w.Ea
+            Null set, 2
+            Number line, 44–7, 49–50
+            Numbers:
+              sets of:
+                 integers, 4
+                                                     Principal root, 232
+                                                     Probability, 501–15
+                                                       addition law of, 504–6
+                                                       of failure of an electrical circuit, 514–16
+                                                       multiplication law of, 512
+
+
+       syE       natural, 4
+                 rationals, 4
+                 reals, 4
+                                                       independent events, 512
+                                                       using a probability density function, 504
+                                                       using the cumulative distribution
+
+
+                         ngi
+              see also Complex numbers
+            Numerical methods:
+              for solving equations, 282–5
+                                                             function, 518
+                                                       where outcomes are equally likely,
+                                                             504–5
+
+
+                             n
+              of integration, 156–7
+
+
+                                 O
+                                               eer
+                                                     Probability density function, 504, 518
+                                                     Probability distribution, 502–3
+                                                     Probability function, 502
+                                                     Probability trees, 508–11
+
+
+                                                        ing
+            Odd functions, 42–3, 92–3, 173, 424
+                                                     Problem solving, 57–61
+            Odd permutation, 334
+                                                     Productions, 480
+            One-to-one functions, 40–1
+                                                     Products of vectors, 198–201
+
+
+                                                                        .ne
+            Operations:
+                                                     Progressive waves, 100–1
+              propositions and predicates, 62–4
+                                                       velocity, 100–1
+              sets, 5–7
+
+
+                                                                            t
+                                                     Proper subsets, 5
+            Operators:
+                                                     Propositions, 61–72
+              Boolean, 78–81
+                                                       as a Boolean Algebra, 78–9
+              linear, 354–6
+                                                     Pushdown recognizer, 484
+            OR gate, 81
+                                                     Pythagoras’s theorem, 90
+            Or:
+              exclusive, 63, 81
+              non-exclusive, 63
+              operation on propositions and
+                                                                          Q
+                                                     Quadratic equations, 32–3
+                    predicates, 63
+                                                       formula, 32
+            Orthogonal axes, 198
+            Oscillating sequence, 287                  complex solutions, 207–8, 212–15
+            Outcome, 502                               roots of, 32–3
+                                                     Quadratic functions, 32–3
+
+                                 P
+            Parallel vectors, 202                                         R
+            Parsers, 484                             Radians, 88–9
+            Partial differentiation, 339, 436–45     Radioactive decay, 164
+            Partial fractions, 184–6                 Ramp functions, 10–11
+            Particular solution, 134                 Rationals, 4
+            Pascal’s triangle, 269–72                Reactance, 218
+            Paths, in a graph, 465                   Real part, of a complex number, 208–11,
+            Period, fundamental, 418                      218, 221, 224, 225
+            Periodic functions, 418                  Real numbers, 4
+
+
+                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

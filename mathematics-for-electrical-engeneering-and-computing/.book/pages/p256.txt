@@ -1,0 +1,84 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+                                              Maxima and minima and sketching functions                   243
+
+                                   Solution    For a maximum value dP /dRL = 0
+
+                                             25RL
+                                   P =
+                                         (2000 + RL )2
+                                   Using the quotient rule to find the derivative we get
+
+                                   dP    25(2000 + RL )2 − 25RL (2)(2000 + RL )
+                                       =
+                                   dRL              (2000 + RL )4
+                                              dP     (2000 + RL )(50 000 + 25RL − 50RL )
+                                         ⇔        =
+                                              dRL                (2000 + RL )4
+                                   As RL is positive 2000 + RL is non-zero so we can cancel the common
+                                   factor of 2000 + RL . Also simplifying the top line gives
+
+                                   dP    50 000 − 25RL
+                                       =
+
+ww                                 dRL    (2000 + RL )3
+                                   Setting dP /dRL = 0 gives
+
+   w                 .Ea
+                                   50 000 − 25RL
+                                    (2000 + RL )3
+                                                  =0
+
+
+
+                        syE        multiplying by (2000 + RL )3 , we get
+
+                                   50 000 − 25RL = 0      ⇔     RL = 2000
+
+
+                                              ngi
+                                     We have shown that there is a stationary value of the function P when
+                                   RL = 2000 but now we need to check that it is in fact a maximum
+
+                                                  n
+                                   value. To do this we substitute values above and below RL = 2000 (say
+
+                                                                eer
+                                   RL = 1000 and RL = 3000) into dP /dRL :
+
+                                         50 000 − 25RL
+
+                                                                             ing
+                                   dP
+                                       =
+                                   dRL    (2000 + RL )3
+
+
+                                                                                           .ne
+                                   when RL = 1000 the top line is positive and the bottom line is positive,
+                                   so the sign of dP /dRL is +/+, which is positive. When RL = 3000 the
+                                   top line is negative and the bottom line is positive, so the sign of dP /dRL
+                                   is −/+, which is negative.
+                                                                                               t
+                                      So the derivative of the power with respect to the load resistance goes
+                                   from positive to 0 to negative when RL = 2000, indicating a maximum
+                                   point.
+                                      We have shown that the maximum power to the load occurs when
+                                   RL = 2000.
+
+
+                                   Example 11.5 A rectangular field is to be surrounded by a fence of
+                                   length 400 m. What is the dimensions of the field such that it has maximum
+                                   area?
+                                   Solution The field is shown in Figure 11.6. Call the length of the sides
+                                   a m and b m. Then the area is given by A = ab.
+                                      The perimeter is given by P = 2a + 2b and as the length of the fence
+                                   is 400 m we get:
+
+Figure 11.6   A rectangular        400 = 2a + 2b ⇔ 200 = a + b
+field.
+                                   We wish to find the maximum area, and to do this we need to be able
+                                   to differentiate A in terms of one of the variables, a or b. We use the
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

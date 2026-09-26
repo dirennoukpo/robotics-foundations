@@ -1,0 +1,54 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+110    Trigonometric functions and waves
+
+
+                                  The solutions to the equations sin(x) = a, cos(x) = a, and tan(x) = a
+5.8 Solving the                   are shown in Figures 5.23–5.25, respectively. Where the lines y = a cross
+trigonometric                     the sine, cosine, or tangent graph gives the solutions to the equations. In
+                                  Figure 5.23, solutions to sin(x) = a are given by values of x where
+equations                         the line y = a crosses the graph y = sin(x). Notice that there are two
+sin x = a,                        solutions in every cycle. The first solution is sin−1 (a) and the second is
+                                  given by π − sin−1 (a). Solutions in the other cycles can be found by
+cos x = a,                        adding a multiple of 2π to these two solutions.
+tan x = a                            In Figure 5.24, solutions to cos(x) = a are given by values of x where
+                                  the line y = a crosses the graph y = cos(x). Notice that there are two
+                                  solutions in every cycle. The two solutions in [−π , π ] are cos−1 (a) and
+                                  − cos−1 (a). Other solutions can be found by adding a multiple of 2π to
+                                  these two solutions.
+                                     In Figure 5.25, solutions to tan(x) = a are given by values of x where
+                                  the line y = a crosses the graph y = tan(x). Notice there is one solution
+
+ ww                               in every cycle. The solution in [0, π ] is tan−1 (a). Solutions in the other
+                                  cycles can be found by adding a multiple of π to this solution.
+
+
+    w                  .Ea
+                                  Example 5.14     Find solutions to sin(x) = 0.5 in the range [2π , 4π ]
+                                  Solution From the graph of y = sin(x) and the line y = 0.5 in
+                                  Figure 5.26, the solutions can be worked out from where the two lines
+
+
+                          syE
+                                             ngi
+Figure 5.22 Graph of
+y = tan−1 (x ).
+                                                 n              eer
+                                                                            ing
+                                                                                          .ne
+Figure 5.23
+sin(x ) = a.
+               Solutions of
+                                                                                              t
+Figure 5.24    Solutions of
+cos(x ) = a.
+
+
+
+
+Figure 5.25    Solutions of
+tan(x ) = a.
+
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

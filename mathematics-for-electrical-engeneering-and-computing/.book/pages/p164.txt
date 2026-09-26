@@ -1,0 +1,31 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                 Integration   151
+
+
+
+
+ww
+   w                  .Ea
+                         syE
+                                               ngi
+                                                   n          eer
+Figure 7.4 (a) The graph of
+y = t /2. (b) The area under
+the graph of y = t /2 starting                                          ing
+from t = −1. (c) The area
+under the graph of y = t /2
+starting from t = 0.                                                              .ne
+                                                                                      t
+Figure 7.5 The area
+between a and b is given by
+the area up to b minus the
+area up to a. The area up to a
+is marked by . The area up
+to b is marked by ///.
+
+
+
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

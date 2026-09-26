@@ -1,0 +1,86 @@
+                 Downloaded From : www.EasyEngineering.net
+
+
+                                                          Laplace and z transforms              411
+
+
+15.9 z                The transfer function and impulse
+transforms and        response function
+systems theory        As before, when considering Laplace transforms, we find that an impor-
+                      tant role is played by the impulse response function in systems theory of
+                      discrete systems. If this case is a sequence, hn , its z transform of is called
+                      the transfer function (or system function). We remember from Chapter 14
+                      that a linear, time-invariant system is represented by a linear difference
+                      equation with constant coefficients, that is, a second-order LTI system
+                      can be represented by
+
+                      ayn + byn−1 + cyn−2 = fn .
+
+                      If we take fn as the delta function δn , we get
+
+
+ww                    ayn + byn−1 + cyn−2 = δn .
+
+                      By definition of the impulse response function we consider all initial
+
+   w     .Ea
+                      conditions to be 0, that is, y−1 = 0, y−2 = 0; taking the z transform we
+                      get
+
+                      aY (z) + bz−1 Y (z) + cz−2 Y (z) = 1
+
+
+            syE       Y (z)(a + bz−1 + cz−2 ) = 1
+
+                      Y (z) =
+                                       1
+
+
+                      Y (z) =
+                                 ngi
+                                a + bz−1 + cz−2
+                                     z2
+
+                                     n
+                                az2 + bz + c
+                                             .
+
+
+                                                    eer
+                      Notice that the poles of this function are found by solving az2 +bz+c = 0,
+
+                      from Chapter 14.
+                                                                 ing
+                      which we recognize as the auxiliary equation or characteristic equation
+
+                         This function, the z transform of the impulse response function, is
+
+
+                      H (z) = z2 /(az2 + bz + c)                               .ne
+                      called the transfer function and is usually denoted by H (z), so we have
+
+
+
+                                                                                   t
+                      and Z−1 {H (z)} = hn , where hn is the impulse response function.
+
+                      Example 15.32 Find the transfer function and impulse response of the
+                      system described by the following difference equation:
+
+                      3yn + 4yn−1 = fn
+
+                      Solution To find the transfer function replace fn by δn and take the z
+                      transform of the resulting equation assuming zero initial conditions:
+
+                      4yn + 3yn−1 = δn .
+
+                      Taking the z transform of both sides of the equation we get
+
+                      4Y + 3(z−1 Y + y−1 ) = 1.
+
+                      As y−1 = 0,
+                               z                z/4
+                      Y =          = H (z) =           .
+                            4z + 3           z + (3/4)
+
+                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

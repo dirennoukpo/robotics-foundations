@@ -1,0 +1,75 @@
+                             Downloaded From : www.EasyEngineering.net
+
+
+516   Probability and statistics
+
+
+
+
+Figure 21.19 Two
+components in parallel and
+one in series (Example
+21.12).
+
+
+
+                                   Solution We denote ‘The probability that A functions’ as p(A).
+                                   The information we have is
+
+                                   p(A) = 23
+                                   p(B) = 23
+
+
+ ww                                p(C ) = 0.001     ⇒     p(C) = 0.999.
+
+                                   The probability we would like to find is p(S ), the probability of failure
+
+    w                .Ea
+                                   of the system and we know that the system will function if (either A or
+                                   B function) and C functions. So
+
+                                   S = (A ∪ B) ∩ C.
+
+                        syE        From the multiplication law for independent events we have:
+
+
+                                               ngi
+                                   p((A ∪ B) ∩ C) = p(A ∪ B)p(C).
+
+
+
+                                                   n
+                                   From the addition law for non-disjoint events (A and B are not disjoint
+
+                                                                 eer
+                                   because both A and B can occur), we have:
+
+                                   p(A ∪ B) = p(A) + p(B) − p(A)p(B)
+
+                                   p(A ∪ B) =
+                                                 2 2 2 2 8
+                                                  + − × = ≈ 0.8889.           ing
+                                                 3 3 3 3 9
+
+                                                                                           .ne
+                                   So p(S) = p(A ∪ B)p(C) = 0.8889 × 0.999 = 0.888. Hence, the
+                                   probability that the system functions is 0.888.
+                                                                                               t
+                                   Suppose, as in Example 21.2, we have tested 5000 resistors and recorded
+21.9 Statistical                   the resistance of each one to an accuracy of 0.01 . We may wish to
+modelling                          quickly decide whether the manufacturers claim of producing 2000-
+                                   resistors is correct. One way of doing this is to divide our resistors into
+                                   class intervals and draw up a table and a histogram. We can then count the
+                                   percentage of resistors that are outside of acceptable limits and assume
+                                   that the population behaviour is the same as the sample behaviour. Hence,
+                                   if 98% of the resistors lie between 2000 ± 0.1% we may be quite happy.
+                                      A quicker way of doing this is to use a statistical model. That is, we can
+                                   guess what the histogram would look like based on our past experience.
+                                   To use such a model we probably only need to know the population mean,
+                                   µ, and the population standard deviation, σ .
+                                      In the rest of this chapter, we will look at four possible ways of
+                                   modelling data, the normal distribution, the exponential distribution,
+                                   both continuous models, and the binomial distribution and the Poisson
+                                   distribution which are discrete models.
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,83 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                    Sequences and series            265
+
+            Example 12.12 The second term of a GP is 2, and the fifth term is
+            0.03125. Find the first term, the common ratio, and the sum of the first
+            10 terms.
+            Solution Let the first term be a and the common ratio r, then the nth
+            term is ar n+1 . The second term is 2 giving the equation
+            ar = 2.                                                               (12.5)
+            The fifth term is 0.03125 giving the equation
+            ar 4 = 0.03125.                                                       (12.6)
+            Dividing Equation (12.6) by Equation (12.5) gives
+            ar 4    0.03125
+                 =            ⇔ r 3 = 0.015625 ⇔ r = (0.015625)1/3 ⇔ r = 0.25.
+             ar        2
+            Substituting this value for r into Equaton (21.5) gives
+
+ww          a(0.25) = 2 ⇔ a = 2/0.25 ⇔ a = 8.
+            Therefore, the first term is 8 and the common ratio is 0.25.
+
+   w.Ea
+              The sum of the first n terms is given by
+
+            Sn =
+                    a(1 − r n )
+                      1−r
+                                .
+
+
+       syE  Substituting a = 8, r = 0.25, and n = 10 gives
+
+            S10 =
+                     a(1 − (0.25)10 )
+                                      = 13.33 to 4 s.f.
+
+                         ngi
+                        1 − 0.25
+
+            Example 12.13 The general term of a series is given by
+                  2n+1
+            an = n .
+                   3         n            eer
+            Show that the terms of the series form a GP and find the sum of the first
+            n terms.
+                                                      ing
+            Solution To show that this is a GP, we must show that consecutive terms
+
+            term. The mth term is                                   .ne
+            have a common ratio. Take two terms, the mth term and the (m + 1)th
+
+            2m+1
+              3m
+                    = am
+                                                                        t
+            and the (m + 1)th term is found by substituting n = m + 1 into the
+            expression for the general term, which gives
+                      2(m+1)+1      2m+2
+            am+1 = (m+1) = m+1 .
+                        3           3
+            We can now spot that am+1 = 23 am , meaning that the (m + 1)th term is
+            found by multiplying the mth term by 23 .
+               Alternatively, we could divide the (m + 1)th term by the mth term
+            am+1       2m+2 /3m+1      2m+2        3m        2
+                    = m+1 m = m+1 × m+1 =
+              am         2    /3       3          2          3
+            giving the common ratio as 23 .
+               To find the sum of n terms, we need to know the first term. To find
+            this, substitute n = 1 into 2n+1 /3n , giving 22 /3 = 43 . Thus, the sum of n
+            terms is given by:
+                     2 n            2 n 
+             3 1− 3
+             4
+                                3 1− 3
+                                4                           2 n 
+                              =                  =  4   1 −   3      .
+                 1 − 23               1
+                                      3
+
+
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

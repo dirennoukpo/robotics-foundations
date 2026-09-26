@@ -1,0 +1,85 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+342   Systems of linear equations, matrices, and determinants
+                                                    
+                                 1  2.6    11.4  1.8
+                               0 23.2 140.8 5.6 
+                                 0 140.8 919.2 58.4
+                              Stage 2
+                                                         
+                                1    2.6     11.4     1.8
+                              0      1     6.069    0.241
+                                0 140.8     919.2    58.4
+                                                          
+                               1    2.6 11.4          1.8
+                              0     1  6.069        0.241 
+                               0     0 64.685       24.467
+                              Stage 3
+                                                        
+                                1 2.6 11.4          1.8
+
+ww                            0 1 6.069
+                                0 0    1
+                                                   0.241
+                                                   0.378
+
+
+   w              .Ea
+                              Back-substitution
+
+                              b0 + 2.6b1 + 11.4b2 = 1.8
+                                     b1 + 6.069b2 = 0.241
+
+                     syE                          b2 = 0.378
+
+
+
+                                         ngi
+                              gives b2 = 0.378, b1 = −2.054, and b0 = 2.831.
+                                 Hence, the best fit parabola is y = 2.831 − 2.054x + 0.378x 2 .
+
+
+
+
+13.9 Summary                  1.
+                                             n               eer
+                                 Matrices are used to represent information in a way suitable for use
+
+
+                                                                        ing
+                                 by a computer. They can represent, among other things, systems
+                                 of linear equations, transformations, and networks. A matrix is a
+                                 rectangular array of numbers of dimension m × n where m is the
+                                 number of rows and n is the number of columns.
+                                                                                     .ne
+                              2. To add or subtract matrices add or subtract each corresponding
+
+
+                                                                                         t
+                                 element. The matrices must be of exactly the same dimension. To
+                                 multiply two matrices, C = AB, the number of columns in matrix A
+                                 must equal the number of rows in matrix B. The i, j th element of C
+                                 is found by multiplying the ith row of A by the j th column of B.
+                              3. The unit matrix, I, leaves any matrix unchanged under multiplication.
+                                            
+                                        1 0
+                                 I=            (2 dimensions)
+                                        1 0
+                                                
+                                        1 0 0
+                                 I = 0 1 0 (3 dimensions)
+                                        0 0 1
+
+                                   IA = AI = A where A is any matrix.
+                              4.   The inverse of a matrix is represented by A−1 and can be found for
+                                   square, non-singular matrices. A matrix is singular if its determinant
+                                   is 0.
+                              5.   The 2 × 2 determinant is defined by
+                                        
+                                   a b 
+                                        
+                                    c d  = ad − cb.
+
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

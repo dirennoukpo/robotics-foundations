@@ -1,0 +1,103 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                          Fourier series   423
+
+            u = t, dv = cos(2π nt) dt, du = dt and v = sin(2π nt)/(2π n)
+                                              1/2               
+                               sin(2π nt) 1/2         sin(2π nt)
+            an = 2           t                −                  dt
+                                  2π n     0     0       2π n
+
+            as sin(πn) = 0 for all n, we get
+                                  
+                         cos(2π nt) 1/2    cos(π n)     1
+            an = 2 0 − −                =2          −
+                           4π 2 n2  0       4π 2 n2   4π 2 n2
+
+
+            cos(πn) is −1 when n is odd and 1 when n is even. This means that
+            cos(πn) = (−1)n . Then
+
+                      ((−1)n − 1)   (−1)n − 1
+            an = 2                =
+                         4π 2 n2      2π 2 n2
+
+ww          Next:
+                         τ/2                                 1/2
+
+   w.Ea
+            bn =
+                    2
+                    τ       −τ/2
+                                   f (t) sin(2π nt) dt = 2
+                                                              0
+                                                                     t sin(2π nt)dt
+
+
+            Integrating by parts, using the formula ∫ u dv = uv−∫ v du and choosing
+
+       syE  u = t, dv = sin(2π nt) dt
+               du = dt, v = − cos(2π nt)/(2π n), we obtain
+
+
+            bn = 2 t −
+                        
+
+                            ngi      
+                        cos(2π nt) 1/2
+                           2π n
+                                          +
+                                             1/2
+                                                  cos(2π nt)
+                                                     2π n
+                                                             dt
+                                                                
+
+
+
+                                n
+                                      0      0
+                                           
+               =2 −
+                    cos(π n)
+                      4π n
+                             +
+                                 sin(2π nt) 1/2
+                                   4π 2 n2 0     eer
+               =2 −
+                             (−1)n
+                              4π n
+                                          =−
+                                               (−1)n
+                                                2π n              ing
+            Step 4                                                             .ne
+            The Fourier series for f (t) is
+
+
+            f (t) =
+                        1
+                          a0 +
+                                   ∞
+                                 an cos(nω0 t) + bn sin(nω0 t)
+                                                                                   t
+                        2
+                                    n=1
+
+            in this case, giving
+                                ∞                                    ∞
+                        1  (−1)n − 1               (−1)n+1
+            f (t) =       +           cos(2π nt) +           sin(2π nt)
+                        8     2π 2 n2                  2π n
+                               n=1                                n=1
+
+
+
+
+            The signal bias: the direct current (DC)
+            component
+            The term 21 a0 is called the bias term, or the DC component (a name
+            adopted from electronic signals), as it corresponds to the average value
+            of the function over a single period.
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

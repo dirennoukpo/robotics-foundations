@@ -1,0 +1,88 @@
+                                       Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                         Integration        161
+
+
+
+
+Figure 7.14     Field on the axis of a solenoid for Exercise 7.7.
+
+
+ 7.2. Given that v = ds/dt = 3 − t, find s in terms of t if          7.9. Find the area bounded by the x-axis and the portion of
+      s = 5 when t = 0. What is the value of s when t = 2?                the curve y = 2(x − 1)(x − 4) which lies below it.
+ 7.3. Find the equation of the curve with the gradient              7.10. Find the total area bounded by the curve y = 2x − x 2 ,
+      dy/dt = −5 which passes through the origin.                         the x-axis and the lines x = −1 and x = 1.
+ 7.4. A curve, y = f (x) passes through the point (0,1) and
+                                                                    7.11. Find the mean value of i(t) = 5 − cos(t/2) for t = 0
+      its gradient at any point is 1 − 2x 2 . Find the function.
+                                                                          to t = 5.
+
+ww
+ 7.5. The voltage across an inductor of inductance 3 H is
+      measured as V = 2 sin(2t − (π/6)).
+      The current at t = 0 is 0. Given that V = L(di/dt)
+                                                                    7.12. Calculate the r.m.s. value of i = 3 cos(50πt) between
+                                                                          t = 0 and t = 0.01.
+
+
+   w  find the current after 10 s.
+
+
+                         .Ea
+ 7.6. The velocity of a spring is found to be V = 6 sin(3πt).
+      Assuming that the spring is perfect, so that v =
+      (1/k)(dF /dt), where k is the spring constant (known
+                                                                    7.13. Approximate:
+                                                                           1
+                                                                                sin(x)
+                                                                                       dx
+
+                            syE
+      to be 0.5), v the velocity, and F the force operating on
+      the spring, find the force, given that it is 0 N initially.
+                                                                           0       x
+
+                                                                          (a) using the trapezoidal rule with h = 0.2 and h =
+
+
+                                                           ngi
+ 7.7. The magnitude of the magnetic flux density at the mid-
+      point of the axis of a solenoid, as in Figure 7.14, can                 0.1; (b) using Simpson’s rule with h = 0.5 and
+      be found by the integral                                                h = 0.25.
+
+
+      B=
+            β2
+
+             β1
+                 µ0 nI
+                   2
+                       sin(β) dβ
+                                                               n    7.14. Find an approximate value of
+
+
+                                                                          A=    eer
+                                                                                 3
+                                                                                      dx
+      where µ0 is the permeability of free space (≈4π ×
+      10−7 H m−1 ), n is the number of turns and I is the cur-
+      rent. If the solenoid is so long that β1 ≈ 0 and β2 ≈ π ,
+                                                                                  1   x
+
+                                                                                            ing
+                                                                          (a) by the trapezoidal rule with N = 6; (b) by
+                                                                              Simpson’s rule with N = 6.
+      show that B = µ0 nI .
+ 7.8. Find the area under the curve y = x + x 2 between the         7.15. Approximate
+                                                                                         1 5
+                                                                                          0 x dx          .ne
+                                                                                                    using Simpson’s rule
+      lines x = 1 and x = 4.                                              with N = 10.
+
+                                                                                                              t
+
+
+
+
+                                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

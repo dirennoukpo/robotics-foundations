@@ -1,0 +1,79 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                      Maxima and minima and sketching functions                     245
+
+              Here are some of the important features. The list is not exhaustive but
+            should be enough to enable someone to reproduce the graph:
+             1. The graph is positive for x < −2 and x > 3 and negative for x
+                between −2 and +3. There are no values of x for which y is zero
+                and when x = 0, y = −0.167.
+             2. The graph is discontinuous at x = −2 and x = 3. y keeps getting
+                larger as x approaches −2 from the left. A more precise way of
+                expressing this is to say that as x tends to −2, with x less than −2,
+                y tends to infinity. The symbol for infinity is ∞ and the symbol for
+                ‘tends to’ is →. x tends to −2, with x less than −2 can be expressed
+                more briefly as x → 2− . This gives
+
+                  as x → −2− , y → ∞.
+
+                  Similarly
+
+ww                as x → −2+ , y → −∞.
+
+
+   w.Ea
+                  For the discontinuity at x = 3 we have:
+
+                  as x → 3− ,       y → −∞
+
+
+       syE
+                              +
+                  as x → 3 ,        y→∞
+
+             3. There is a local maximum at x = 0.5, where y = −0.16.
+
+                       ngi
+             4. For large values of x, y gets nearer to 0. This can be expressed as
+
+                  as x → ∞, y → 0+
+
+                           n
+                  Similarly:
+                                            eer
+                  as x → −∞, y → 0         +
+
+                                                        ing
+            in order to sketch a graph:
+                                                                       .ne
+               This list of important features indicates the steps that should be taken
+
+            Step 1.
+
+
+            Step 2.
+                                                                           t
+                      Find the value of y when the graph crosses the y-axis; that is,
+                      when x = 0. If possible find where the graph crosses the x-axis;
+                      that is, the values of x where y = 0.
+                      Find any discontinuities in the function, that is, are there values
+                      of x where there is no value of y? Infinite discontinuities (a
+                      ‘divide by zero’) will lead to vertical asymptotes. These are
+                      vertical lines which the function approaches but does not meet.
+                      We must decide whether the function is positive or negative on
+                      either side of the asymptote.
+            Step 3.   Find the co-ordinates of the maxima and minima.
+            Step 4.   Find the behaviour of the function as x tends to plus and minus
+                      infinity.
+            Step 5.   Mark these features, found from steps 1 to 4 on the graph and
+                      join them, where appropriate, to give the sketch of the graph.
+
+
+            Example 11.6          Sketch the curve whose equation is
+
+                      2x + 1
+            y=
+                  (x + 1)(x − 5)
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

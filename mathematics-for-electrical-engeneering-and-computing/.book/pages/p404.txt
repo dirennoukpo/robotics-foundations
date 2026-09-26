@@ -1,0 +1,108 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                     Laplace and z transforms                391
+
+            Example 15.12 (Convolution)              Find
+                
+                        1
+            L−1
+                  (s − 2)(s − 3)
+            using the convolution property:
+               1
+            L       f (t)g(t − τ )dτ = F (s)G(s).
+                 0
+
+            Solution
+                  1             1       1
+                           =                 .
+            (s − 2)(s − 3)   (s − 2) (s − 3)
+            Therefore, call
+                     1                  1
+
+ww          F (s) =
+                    s−2
+
+            f (t) = L−1
+                        
+                         ,
+
+                            1
+                              G(s) =
+
+                                = e2t
+                                       s−3
+
+
+
+   w.Ea     g(t) = L−1
+                        
+                           s−2
+                            1
+                           s−3
+                                = e3t .
+
+
+
+       syE  Then by the convolution rule
+
+            L−1
+                
+                         1
+                                   =
+                                       t
+                                          e2τ e3(t−τ ) dτ .
+
+                       ngi
+                  (s − 2)(s − 3)       0
+
+            This integral is an integral over the variable τ . t is a constant as far as the
+
+
+                 
+                           n
+            integration process is concerned. We can use the properties of powers to
+
+                                             eer
+            separate out the terms in τ and the terms in t, giving
+
+                          1
+                                             t                  −τ t
+                                                                   e
+            L−1
+                   (s − 2)(s − 3)
+                                      = e3t
+                                              0
+                                                e−τ dτ = e3t
+
+                                        = e3t (−e−t + 1)
+                                                              ing  −1 0
+
+
+                                        = −e2t + e3t .                     .ne
+            Example 15.13 (Derivatives of the transform)
+            Solution    Using the derivatives of the transform property
+                                                                               t
+                                                                        Find L{t sin(3t)}.
+
+
+            L{t n f (t)} = (−1)n F (n) (s)
+
+            we have f (t) = sin(3t) and
+                               3
+            L{sin(3t)} =             = F (s)
+                            s2 + 9
+            (from Table 15.1).
+               As sin(3t) is multiplied by t in the expression to be transformed, we
+            use the derivative of the transform property with n = 1:
+
+            L{t 1 f (t)} = (−1)1 F (1) (s) = −F (s)
+
+            to give
+                                                
+                               d           3                  6s
+            L{t sin(3t)} = −                         =              .
+                               ds       s2 + 9           (s 2 + 9)2
+
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

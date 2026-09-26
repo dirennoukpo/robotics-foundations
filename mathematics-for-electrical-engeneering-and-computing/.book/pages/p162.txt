@@ -1,0 +1,36 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+                                                                                             Integration      149
+
+
+
+
+ww
+   w                   .Ea
+                          syE
+                                                    ngi
+                                                        n            eer
+                                                                                 ing
+                                                                                              .ne
+                                                                                                  t
+Figure 7.2 The
+area under the graph y = x
+between x = 1 and x = 2: (a)
+divided into strips of width 0.1
+gives 1.45; (b) divided into
+strips of width 0.01 gives
+1.495; (c) divided into strips of
+width 0.001 gives 1.4995.
+
+
+
+
+                                         an integral of y from some starting point, a, up to any point x. Then, the
+                                         area A is
+                                               x
+                                         A=         y dx
+                                               a
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,111 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                     Systems of linear equations, matrices, and determinants                    307
+
+                                     Rotation
+                                     To perform a rotation through an angle θ , we multiply the position vector
+                                     of the point
+                                      
+                                       x
+                                       y
+                                     by a matrix of the form
+                                                        
+                                       cos(θ) − sin(θ )
+                                                           .
+                                       sin(θ ) cos(θ)
+
+                                     Example 13.13 Find and draw the image of the unit square with vertices
+                                     A(0,0), B(1,0), C(1,1), D(0,1) after rotation through 30◦ about the origin.
+                                     Solution Rotation through 30◦ about the origin is found by multiplying
+
+ww                                   the position vectors of the points by
+                                     
+                                       cos(30◦ ) − sin(30◦ )
+                                                               
+                                                                ≈
+                                                                     0.866 −0.5
+                                                                                
+
+
+   w                  .Ea
+                                       sin(30◦ ) cos(30◦ )            0.5 0.866
+                                        To find the image of the unit square, we multiply the position vectors
+                                     of the vertices by this matrix
+                                                        
+
+                         syE         
+                                       0.866 −0.5
+                                         0.5 0.866
+                                                          0
+                                                          0
+                                                        
+                                                              =
+                                                                  0
+                                                                  0
+                                                                        
+Figure 13.2 (a) The unit
+square with vertices A(0,0),                  ngi
+                                       0.866 −0.5
+                                         0.5 0.866
+                                                          1
+                                                          0
+                                                        
+                                                              =
+                                                                  0.866
+                                                                    0.5
+                                                                        
+B(1,0), C (1,1) D(0,1). (b)
+The same unit square after
+rotation by 30◦ .                    
+                                       0.866 −0.5
+                                         0.5 0.866
+                                       0.866 −0.5
+                                                   n      1
+                                                          1
+                                                        
+                                                          0
+                                                              =
+                                                                  0.366
+
+                                                                  eer
+                                                                  1.366
+                                                                  −0.5
+                                                                        
+                                         0.5 0.866        1
+                                                              =
+                                                                  0.866
+                                                                               ing
+                                     This transformation is shown in Figure 13.2.
+
+                                                                                             .ne
+                                        Sometimes, it is useful to be able to rotate the axes rather than the
+                                     object. For instance, the object may be held by a robotic arm and we want
+
+                                     picture for the tea drinking robot in Figure 13.3.
+                                                                                                 t
+                                     the arm to rotate but keep the orientation of the object the same. This is
+
+                                        In this case, if we rotate the axes Ox, Oy, by the position of the object
+                                     remains the same but even so has new coordinates relative to the the
+                                     transformed axes OX, OY . If the axes rotate through 30◦ , then the object
+                                     moves relative to the axes by −30◦ . So to rotate the axes by we multiply
+                                     the position vectors of the points
+                                      
+                                       x
+Figure 13.3 In order not to            y
+spill the tea, the axes –
+defined with reference to the        by the matrix
+lower arm – rotate but the                                                          
+orientation of the tea cup             cos(−θ) − sin(−θ)      cos(θ )           sin(θ)
+must stay the same.                                       =                              .
+                                       sin(−θ) cos(−θ)       − sin(θ)           cos(θ)
+
+
+
+                                     Example 13.14 A unit square has vertices A(0,0), B(1,0), C (1,1),
+                                     D(0,1) relative to axes Ox, Oy. The axes are rotated through 30◦ to
+                                     OX, OY , without moving the square. Find the coordinates of the vertices
+                                     relative to the new axes OX, OY .
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

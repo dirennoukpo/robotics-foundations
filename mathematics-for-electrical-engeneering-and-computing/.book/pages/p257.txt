@@ -1,0 +1,64 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+244   Maxima and minima and sketching functions
+
+                              information given about the length of the perimeter to express a in terms
+                              of b;
+
+                              a = b − 200
+
+                              and substitute this into the expression for the area, giving
+
+                              A = b(200 − b) = 200b − b2
+
+                              To find the maximum value for A differentiate with respect to b:
+
+                              dA
+                                 = 200 − 2b
+                              db
+                              and solve
+                              dA
+
+ ww                           db
+                                 = 0 ⇒ 200 − 2b = 0 ⇔               2b = 200 ⇔        b = 100
+
+                              Check that this is indeed a local maximum value by differentiating a
+
+    w               .Ea
+                              second time: d2 A/db2 = −2, which is negative.
+                                Now we find the length of the other side of the field
+
+                              a = 200 − b = 100
+
+                       syE    Therefore, the field with maximum area is a square of side 100. The area
+                              of the field is 100 × 100 = 10 000 m2 .
+
+                                          ngi
+                                 To check that this agrees with the original condition that 2a+2b = 400,
+                              substitute a = 100 and b = 100 to get 200+200 = 400, which is correct.
+
+
+
+11.3 Graph
+                                              n             eer
+                              To sketch the graph of any function y = f (x), we first analyse the main
+
+sketching by                                                            ing
+                              features of the function’s behaviour. Look at the graph in Figure 11.7 and
+                              list the ‘important features’ of the graph. List these in a way that would
+analysing the
+                                                                                     .ne
+                              enable someone else to sketch the graph from your description.
+
+function
+behaviour
+                                                                                         t
+
+
+
+Figure 11.7 Exercise in
+graph sketching.
+
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

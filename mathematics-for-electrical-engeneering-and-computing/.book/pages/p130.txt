@@ -1,0 +1,105 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+                                                                                              Differentiation     117
+
+
+                                           A ball is thrown from the ground and after t s is at a distance s m from
+6.2 The average                            the ground, where
+rate of change
+                                           s = 20t − 5t 2
+and the gradient
+of a chord                                 Find:
+                                           (a) the average velocity of the ball between t = 1 s and t = 1.1 s;
+                                           (b) the average velocity between t = 1 and t = 1.01 s;
+                                           (c) the average velocity between t = 1 and t = 1.001 s;
+                                           (d) the average velocity between t = 1 and t = 1.0001 s;
+                                           Guess the velocity at t = 1.
+                                           Solution The average velocity is given by the distance moved divided
+                                           by the time taken. That can be represented by
+
+
+ww                                         Average velocity =
+                                                                  change in distance
+                                                                    change in time
+                                                                                     =
+                                                                                       δs
+                                                                                       δt
+                                                                                          =
+                                                                                            s(t2 ) − s(t1 )
+                                                                                               t2 − t 1
+
+
+   w                    .Ea
+                                           where t2 and t1 are the times between which we are finding the average.
+                                           δs (‘delta s’) is used to represent a change in s and δt (‘delta t’) is used
+                                           to represent a change in t. The average velocity δs/δt = ‘delta s over
+                                           delta t’.
+
+                           syE                So, to solve this problem we can use a table, as given in Table 6.1.
+                                              The graph of this function is given in Figure 6.1. If a line that joins
+                                           two points lying on the graph of the function it is drawn it is called a
+
+                                                      ngi
+                                           chord. We found that when t = 1 and s = 15 the point (1, 15) lies on
+                                           the graph. When t = 1.1 and s = 15.95 we can also mark the point
+
+       Table 6.1                                          n                 eer
+                     Calculation of the average velocities over various intervals
+
+       t1   t2               s(t1 ) =
+                             20t1 − 5t12
+                                           s(t2 ) = 20t2 − 5t22   t2 − t1
+                                                                                       ing
+                                                                            s(t2 ) − s(t1 )    Average
+                                                                                               velocity = δs/δt
+
+       1
+       1
+            1.1
+            1.01
+                               15
+                               15
+                                             15.95
+                                             15.0995
+                                                                   0.1
+                                                                   0.01
+                                                                             0.95
+                                                                             0.0995               .ne
+                                                                                                  9.5
+                                                                                                  9.95
+       1
+       1
+            1.001
+            1.0001
+            ..
+             .
+        Velocity at t = 1
+                               15
+                               15
+                                             15.009995
+                                             15.00099995
+                                                                   0.001
+                                                                   0.0001
+                                                                             0.009995
+                                                                             9.9995 × 10−4
+                                                                                                      t
+                                                                                                  9.995
+                                                                                                  9.9995
+                                                                                                  ..
+                                                                                                 10
+                                                                                                   .
+
+
+
+
+Figure 6.1 Part of the graph
+of s = 20t − 5t 2 . The chord
+joining (1, 15) to (1.1, 15.95)
+has gradient δs/δt = 9.5 The
+chord joining (1, 15) to (1.1,
+15.0995) has gradient 9.95.
+
+
+
+                                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

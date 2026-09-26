@@ -1,0 +1,78 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                   Probability and statistics      499
+
+            below. The mean is given by
+            class midpoint
+                  ↓
+            (2 × 950 + 0 × 1050 + 5 × 1150 + 23 × 1250 + 47 × 1350 + 103 × 1450
+             ↑
+            class frequency
+               + 160 × 1550 + 190 × 1650 + 165 × 1750 + 164 × 1850 + 92 × 1950
+               + 49 × 2050)/1000 = 1682.7.
+            The variance is given by
+            class midpoint    sample mean
+                  ↓       ↓
+            (2 × (950 − 1682.7)2 + 0 × (1050 − 1682.7)2 + 5 × (1150 − 1682.7)2
+             ↑
+            class frequency
+               + 23 × (1250 − 1682.7)2 + 47 × (1350 − 1682.7)2
+               + 103 × (1450 − 1682.7)2 + 160 × (1550 − 1682.7)2
+
+ww             + 190 × (1650 − 1682.7)2 + 165 × (1750 − 1682.7)2
+               + 164 × (1850 − 1682.7)2 + 92 × (1950 − 1682.7)2
+
+   w.Ea
+               + 49 × (2050 − 1682.7)2 )/1000 = 39 120 420/1000 ≈ 39120.4.
+            Hence, the standard deviation is
+            √
+
+       syE   39120.4 ≈ 198.
+            Can we agree with the manufacturer’s claim that the light bulbs have a
+
+
+                         ngi
+            lifetime of 1500 h? The number with a lifetime of less than 1500 h is 180
+            (the cumulative frequency up to 1500 h). This represents only 0.18, less
+            than 20% of the sample. However, this is probably an unreasonable num-
+
+                             n
+            ber to justify the manufacturers claim as nearly 20% of the customers will
+
+                                              eer
+            get light bulbs that are not as good as advertised. We might accept a small
+            number, say 5%, failing to live up to a manufacturer’s promise. Hence,
+
+
+                                                        ing
+            it would be better to claim a lifetime of around 1350 h with a relative
+            cumulative frequency between 0.03 and 0.077. Approximately 0.053 or
+            just over 5% would fail to live up to the manufacturer’s amended claim.
+
+                                                                   .ne
+            Example 21.1 A sample of 2000- resistors were tested and their
+            resistances were found as below:
+
+                                                                       t
+            1997 1998 2004 2002 1999 2000 2001 2002 1999 1998 1997 1999 2001
+            2003 2005 1996 2000 2000 1998 1999 1998 2001 2003 2002 1996 2002
+            1995 2000 2000 1999 1997 2004 2001 1999 1999 1998 2002 2003 2002
+            2001 1999 1998 1997 2002 2001 2000 1999 2001 1999 1998 2000 1999
+            1998 2000 2002 1999 2001 2000 2001 2002 2004 1996 2000 2002 2000
+            1998 2000 2005 2000 1999 2000 2000 2001 1999 2001 1997 2002 2001
+            2004 2000 2000 1999 1998 2001 1998 2000 2002 1998 1998 1999 2002
+            1999 2001 2002 2006 2000 2001 2001 2002 2003
+            Group the data in class intervals and represent it using a table and a
+            histogram. Calculate the mean resistance and the standard deviation.
+            Solution We follow the method of building up the table as described
+            previously.
+               Column 1: class intervals. To decide on class intervals look at the range
+            of values presented. The minimum value is 1995 and the maximum is
+            2006. A reasonable number of class intervals would be around 10, and in
+            this case as the data are presented to the nearest whole number, the small-
+            est possible class range we could choose would be 1 . A 1- class range
+            would give 12 classes, which seems a reasonable choice. If we choose
+            the class midpoints to be the integer values then we get class intervals of
+            1994.5–1995.5, 1995.5–1996.5, etc. We can now produce Table 21.2.
+                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

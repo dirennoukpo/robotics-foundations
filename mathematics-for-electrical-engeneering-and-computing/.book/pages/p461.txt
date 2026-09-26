@@ -1,0 +1,91 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+448   Vector calculus
+
+                            Example 18.2 Given φ = z − x 1/2 − y 3/2 , find the vector field that
+                            describes its gradient, where x, y > 0 and find the maximum slope at the
+                            point (4, 9, 1).
+                            Solution We use
+                                    ∂φ    ∂φ    ∂φ
+                            ∇φ =       i+    j+    k.
+                                    ∂x    ∂y    ∂z
+                            Differentiating φ partially with respect to x, y, and z, we find:
+
+                            ∂φ      1
+                               = − x −1/2
+                            ∂x      2
+                            ∂φ      1
+                               = − y −1/2
+                            ∂y      2
+                            ∂φ
+                               = 1.
+
+ww                          ∂z
+                            Therefore, we find that
+
+
+   w              .Ea
+                                                                  
+                            ∇φ = − 21 x −1/2 i − 21 y −1/2 j + k = − 21 x −1/2 , − 21 y −1/2 , 1
+                                                                                                 
+
+
+                            Therefore, the maximum slope at the point (4, 9, 1) is given by substituting
+
+                     syE    x = 4, y = 9, and z = 1 into the above expression for grad φ giving
+                            (−1/4, −1/6, 1). This has a magnitude of
+                            
+
+                                        ngi
+                               1 2  1 2
+                               − 4 + − 6 + 12 ≈ 1.044
+
+
+
+                               1
+                                   
+                                            n
+                            in a direction given by the unit vector
+
+
+                            1.044
+                                        1 1
+                                                
+                                                             eer
+                                     − , − , 1 = (−0.261, −0.174, 1).
+                                        4 6
+
+                                                                           ing
+                            The ∇ (del) operator                                         .ne
+                            We defined
+
+                            ∇φ =
+                                  
+                                     ∂ ∂ ∂
+                                       , ,
+                                    ∂x ∂x ∂x
+                                             
+                                               φ
+                                                                                             t
+                            or equivalently
+                                                    
+                                       ∂     ∂     ∂
+                            ∇φ = i       +j    +k      φ.
+                                      ∂x    ∂x    ∂x
+
+                            We can see that ∇(del) can be considered as an operator defined by
+                                             
+                                   ∂ ∂ ∂
+                            ∇=       ,    ,
+                                  ∂x ∂x ∂x
+
+                            or equivalently
+                                                    
+                                     ∂       ∂     ∂
+                            ∇= i       +j      +k      .
+                                    ∂x      ∂x    ∂x
+
+                            This same operator can be used when differentiating vector fields.
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

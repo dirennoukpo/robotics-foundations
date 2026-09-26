@@ -1,0 +1,85 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+414   Laplace and z transforms
+
+                                 The frequency response
+                                 As in the case of Laplace transforms and continuous systems, we find we
+                                 are able to establish a relationship between the transfer function and the
+                                 steady state response to a single frequency input.
+                                    The steady state response of the system to a sequence representing a
+                                 single frequency input, ejωn , is found to be
+
+                                 Y (z) = H (ejω )ejωn .
+
+                                 We can then see that for a single sinusoidal input the steady state response
+                                 is found by substituting z = ejω into the transfer function for the system
+                                 and multiplying the resulting complex constant by the sinusoidal input.
+                                 In other words, the steady state response is a scaled and phase shifted
+                                 version of the input. The function H (ejω ) is called the frequency response
+                                 function for a discrete system.
+
+ww                               Example 15.34         A system transfer function is known to be
+
+
+   w             .Ea
+                                 H (z) =
+                                              z
+                                           z + 0.2
+                                                   .
+
+                                 Find the steady state response to the following:
+
+                    syE          (a) fn = ej2n ;
+                                 (b) f (t) = cos(2n).
+
+
+                                               ngi
+                                 Solution (a) The steady state response to a single frequency ejωn is given
+                                 by H (ejω )ejωn . fn = ej2n , so in this case ω = 2 and H (z) is given as
+
+
+                                   ej2
+                                                   n
+                                 z/(z + 0.2). Hence, we get the steady state response as
+
+                                         ej2n .
+                                                                 eer
+                                 e + 0.2
+                                  j2
+
+                                                                              ing
+                                   (b) Using 21 H (ejω )ejωt + H (e−jω )e−iωt as the response to cos(ωn) and
+                                 substituting for H and ω = 2 gives
+                                                                                        .ne
+                                 yn =
+                                      1
+                                      2
+                                                ej2 ej2n
+                                                         +
+                                                           e−j2
+                                               ej + 0.2 e−j + 0.2
+                                                 2         2
+                                                                  e−j2n
+
+                                 Expressing this over a real denominator and simplifying gives
+                                                                                              t
+                                 cos(2n)(1 + 0.2 cos(2)) + 0.2 sin(2) sin(2n)
+                                              1.4 + 0.4 cos(2)
+
+                                 Hence, the steady state response to an input of 3 cos(2n) is
+
+                                 3 cos(2n)(1 + 0.2 cos(2)) + 0.6 sin(2) sin(2n)
+                                                                                .
+                                               1.4 + 0.4 cos(2)
+
+
+
+15.10 Summary                    1.    The Laplace transform F (s) of the function f (t) defined for t ⩾ 0 is:
+                                                 ∞
+                                        F (s) =      e−st f (t) dt.
+                                                   0
+                                       The Laplace transform is a function of s, where s is a complex
+                                       variable. Because the integral definition of the Laplace transform
+                                       involves an integral to ∞, it is usually necessary to limit possible
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

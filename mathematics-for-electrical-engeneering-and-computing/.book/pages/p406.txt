@@ -1,0 +1,92 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                     Laplace and z transforms          393
+
+            Substitute s = 1; then 11 + 7 = 2A ⇒ A = 9.
+            Substitute s = −1; then −11 + 7 = −2B ⇒ B = 2.
+            So
+                                          
+                       11s + 7                  9   2
+            L−1                   = L−1           +                = 9et + 2e−t .
+                        s2 − 1                 s−1 s+1
+
+
+            A quick formula for partial fractions
+            There is a quick way of getting the partial fractions expansion, called
+            the ‘cover up’ rule, which works in the case where all the roots of the
+            denominator of F (s) are distinct. If F (s) = P (s)/Q(s) then write Q(s)
+            in terms of its factors Q(s)
+
+
+ww          Q(s) = c(s − s1 )(s − s2 )(s − s3 ) · · · (s − sr ) · · · (s − sn )
+
+            where s1 . . . sn are its distinct roots. Then we can find the constant Ar ,
+
+   w.Ea
+            etc., for the partial fraction expansion from covering up each of the factors
+            of Q in term and substituting s = sr in the rest of the expression:
+
+                                               P (s)
+            F (s) =
+
+       syE  then
+                        c(s − s1 )(s − s2 )(s − s3 ) · · · (s − sr ) · · · (s − sn )
+
+
+
+            F (s) =        ngi
+                           A1
+                                 +
+                                     A2
+                        (s − s1 ) (s − s2 )
+                                            + ··· +
+                                                       Ar
+                                                    (s − sr )
+                                                              + ··· +
+                                                                         An
+                                                                      (s − sn )
+
+            where              n               eer
+                                              P (sr )
+            Ar =
+                                                           ✘−
+                    c(sr − s1 )(sr − s2 )(sr − s3 ) · · · (sr
+                                                              ing
+                                                              ✘sr ) · · · (sr − sn )
+                                                              ✘
+
+            In this case
+                        11s + 7      11s + 7        A   B                    .ne
+            F (s) =
+                         s2 − 1
+                                =
+                                  (s − 1)(s + 1)
+                                                 =    +
+                                                   s−1 s+1
+
+            Then A is found by substituting s = 1 into
+                                                                                 t
+                11s + 7      11 + 7
+                           =        =9
+            (s✘−✘1)(s + 1)     2
+
+            and B is found by substituting s = −1 into
+
+               11s + 7      −11 + 7
+                      ✘   =         = 2.
+                    ✘+ 1)
+            (s − 1)(s         −2
+
+            This gives the partial fraction expansion, as before, as
+
+                         9   2
+            F (s) =        +    .
+                        s+1 s−1
+            This method can also be used for complex poles; for instance,
+
+                       1                         1
+                                  =                           .
+            (s 2 + 4)(s + 3)          (s + 3)(s − j2)(s + j2)
+
+                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

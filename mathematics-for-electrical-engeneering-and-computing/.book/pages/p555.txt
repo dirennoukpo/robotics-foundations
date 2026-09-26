@@ -1,0 +1,105 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+
+
+           Index
+
+
+
+           0 and 1 Laws:                                                 B
+              Boolean Algebra, 78–80                Back-substitution, 328
+                                                    Backus Naur Form, 483
+                                                    Basis vectors, 198–9
+
+
+ww                           A
+                                                    Bayes’s theorem, 556–7
+                                                    Bernoulli trial, 524
+                                                    Best fit line, 341
+
+
+   w
+           Acceleration, 238
+                                                    Bias, 418, 423
+             circular motion, 219–23
+
+
+    .Ea
+                                                    Binary operations, 482
+           Absorption Laws:
+                                                    Binomial:
+             Boolean Algebra, 78–80, 82
+                                                      distribution, 524, 533–4
+           Addition:
+
+
+       syE
+                                                         mean, 525
+             of complex numbers, 209
+                                                         single trial: mean, 525; variance, 525
+             of matrices, 296–7
+                                                      expansion, 271–2, 275
+             of vectors, 191
+                                                      series, 267–72, 275–6
+
+
+                       ngi
+           Adjacency matrix, 465
+           Adjoint matrix, 333–4
+           Admittance, 218
+                                                      theorem, 270–2, 275–6
+                                                    Bison, 487
+                                                    Boolean:
+           Algebra, 76–7
+           Aliasing, 257
+                           n
+           Amplitude, 94, 97, 100–1, 102–3
+           Amplitude modulation, 114       eer
+                                                      Algebra, 76–88
+                                                      operators, 79
+                                                      Set, 77
+
+
+
+                                                       ing
+                                                    Bound Laws:
+           AND gate, 81                               Boolean Algebra, 78–80
+           And, operation on propositions and       Boundary conditions, 352
+                predicates, 62–3
+           Angle between two vectors, 199
+           Angular frequency, 418
+                                                                        .ne
+                                                                         C
+           Anti-differentiation, 133
+           Approximations, 441–2
+           Area function, 150–1
+           Area of a parallelogram, 202
+           Argand diagram, 208
+                                                                            t
+                                                    Capacity of a network, 471–3
+                                                    Cardinality of a finite set, 7
+                                                    Cartesian basis vectors, 198–9
+                                                    Cartesian form:
+                                                      conversion of complex numbers:
+           Argument, of a complex number, 215–17,        from polar form, 216
+                222–6, 229–31                            to exponential form, 223, 224
+           Arithmetic progressions, 259–62            of vectors, 189
+             common difference, 260–1               Central limit theorem, 517
+             general term, 261                      Central tendency, 496
+             sum of n terms, 261–2                  Centripetal force, 222
+           Array, 295                               Chain rule, 124–6, 438–40
+           Arrow diagrams, 8–9                      Characteristic equation, 360
+           Assignment operator, 283                 Chord, gradient of, 117–18
+           Associative laws,                        Circuits, in a graph, 464
+             Boolean Algebra, 78–80                 Circular motion, 220–5
+           Asymptotes, vertical, 242, 245           Class:
+           Augmented matrix, 325, 327                 frequency, 496, 498
+           Auxiliary equation, 359, 364, 376          interval, 494, 499
+           Average:                                   midpoint, 494, 496, 499
+             rate of change, 117                    Codomain, 8
+             speed, 116                             Cofactors, 333–4
+             velocity, 117                          Column vector, 303
+
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

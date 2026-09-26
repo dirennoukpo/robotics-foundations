@@ -1,0 +1,117 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                          333
+
+              Similarly, the number multiplying b1 is the determinant found by
+            crossing out the row and the column in which b1 appears.
+              We could also find the determinant by expanding about the first column
+
+            a1 b2 c3 − a1 b3 c2 − a2 b1 c3 + a2 b3 c1 + a3 b1 c2 − a3 b2 c1
+                  = a1 (b2 c3 − b3 c2 ) − a2 (b1 c3 − b3 c1 ) + a3 (b1 c2 − b2 c1 )
+                                                            
+                       b2 c2          b1 c1         b1 c1 
+                       
+                  = a1          − a2               
+                                                   + a3         .
+                         b3 c3           b 3 c3        b 2 c2 
+
+              Again we see that the minor of a2 , for instance, can be found by crossing
+            out the row and column that a2 appears in from the original array.
+              To find the sign multiplying each term in the expansion for the
+            determinant we can remember the following pattern
+
+            +      −    +
+
+
+ww          −
+            +
+                   +
+                   −
+                        −
+                        +
+
+
+
+   w.Ea
+            To find the determinant we can expand about any row and column,
+            multiplying each term aij by its respective minor and find the sign by
+            multiplying by (−1)i+j .
+
+
+
+       syE  Example 13.29 Find the following determinant
+            
+            −1 2
+            
+                          
+                       3 
+             6 −1 2 
+            
+            4   0 −1
+                          ngi
+                          
+
+
+            Solution Expanding about the first row
+            
+            −1 2
+            
+                          
+                       3 
+                              n 
+                                
+                                          
+                                          
+                                             eer   
+                                                   
+                                                                    
+                                                                 2 
+                                                                              
+                                                                              6
+                                                                                         
+                                                                                      −1
+             6 −1 2  = −1 −1 2  − 2 6
+            
+            4     0 −1
+                                0 −1            4
+                                                           ing   −1
+                                                                         + 3 
+                                                                                4     0
+
+                                 = −1(1 − 0) − 2(−6 − 8) + 3(0 + 4)
+                                 = −1 + 28 + 12 = 39.                    .ne
+             Alternatively, expanding about the first column we get
+               
+               −1 2 
+               
+                         
+                         
+                                 
+                                 2 3 
+                                 
+                                        
+                                        
+                                                 
+                                                  2 3
+                                                 
+                                                          
+                                                          
+                                                                             t
+            − 1             − 6           + 4
+                 0 −1             0 −1          −1 2
+                  = −1(1 − 0) − 6(−2 − 0) + 4(4 − (−3))
+                  = −1 + 12 + 28 = 39.
+
+
+
+            The inverse of a matrix using
+            (Adjoint(A))/|A|
+            We have already seen how to find the inverse of a matrix by using
+            elimination. It is also possible to find the inverse by the following
+            procedure:
+            (1)     Find the matrix of minors.
+            (2)     Multiply the minor for row i and column j by (−1)i+j . This is then
+                    called the matrix of cofactors.
+
+                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

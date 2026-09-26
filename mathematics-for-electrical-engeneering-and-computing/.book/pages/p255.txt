@@ -1,0 +1,88 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+242   Maxima and minima and sketching functions
+
+                              Example 11.3       Find and classify the stationary points of y = −(2−x)4 .
+
+                              Solution
+                                Step 1
+
+                                                        dy
+                              y = −(2 − x)4       ⇒        = 4(2 − x)3
+                                                        dx
+
+                              Stationary points occur where dy/dx = 0:
+
+                              4(2 − x)3 = 0 ⇔ x = 2
+
+                                Step 2. To classify this stationary point, we differentiate again:
+
+                              d2 y
+                                   = −12(2 − x)2
+
+ ww                           dx 2
+
+                              At x = 2, we get d2 y/dx 2 = −12(2 − 2)2 = 0. So the second derivative
+
+    w                .Ea
+                              is zero.
+                                 We cannot use the second derivative test to classify the stationary point
+                              because a zero value is inconclusive, so we go back to the first derivative
+                              and examine its sign at a value of x just less than x = 2 and just greater
+
+                        syE   than x = 2. This can be done with the help of a table. Choose any values
+                              of x less than x = 2 and greater than x = 2, and here we choose x = 1
+                              and x = 3. Be careful if the function is discontinuous at any point not to
+
+                                         ngi
+                              cross the discontinuity
+
+
+
+                                             n
+                                             x
+
+                                                            eer
+                                             dy/dx = 4(2 − x)3
+                                                                        1      2
+
+                                                                                       −4
+                                                                                         3
+
+                                                                        4
+
+                                                                         ing   0
+
+
+
+
+                                                                                      .ne
+                                At x = 1, dy/dx = 4(2 − 1)3 = 4 (positive); at x = 3, dy/dx =
+                              4(2 − 3)3 = −4 (negative). Therefore, near the point x = 2 the derivative
+
+
+                              a maximum value.
+                                                                                          t
+                              goes from positive to zero to negative. Therefore, the graph of the function
+                              goes from travelling uphill to travelling downhill, showing that we have
+
+                                Step 3. Finally, we find the value of the function at the maximum point.
+                              At x = 2, y = 0, that is, there is a maximum at (2, 0).
+
+
+                              Applications of maximum and
+                              minimum values of a function
+
+                              Example 11.4 The power delivered to the load resistance RL for the
+                              circuit shown in Figure 11.5 is defined by
+
+                                        25RL
+                              P =
+                                    (2000 + RL )2
+Figure 11.5 Circuit for
+Example 11.4.
+                              Show that the maximum power delivered to the load occurs for RL =
+                              2000.
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

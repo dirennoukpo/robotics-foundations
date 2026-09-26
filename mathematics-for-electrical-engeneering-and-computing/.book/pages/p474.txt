@@ -1,0 +1,59 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+
+
+          19                        Graph theory
+
+19.1                                A graph consists of points, called vertices, and lines connecting them,
+                                    called edges. They can be used to represent many diverse situations, for
+Introduction                        example five cities and five roads connecting them as in Figure 19.1. The
+
+
+ww                                  same graph could represent some people and the edge connections could
+                                    represent those people who do business with each other.
+                                       Sometimes the relationship is ‘one-way’, for instance, in the case of a
+
+
+   w                .Ea
+                                    network of one-way streets, or a graph representing a circuit where the
+                                    arrows on the edges represent the current flow. In this case, the graph is
+                                    called a directed graph, shortened to ‘digraph’.
+                                       We will look at a few definitions and applications of different types
+
+
+                       syE          of graph and their matrix representations (which we also looked at in
+                                    Chapter 13). We also look applications to the solving of routing problems
+                                    through networks.
+
+
+                                              ngi
+19.2 Definitions                    Graph
+                                                  n              eer
+                                    A graph G consists of a finite set of vertices V (G), which cannot be
+                                    empty and a finite set of edges, E(G), which connect pairs of vertices.
+
+                                                                              ing
+                                    The number of vertices of G is called the order of G. The number of edges
+                                    in G is represented by |E| and the number of vertices by |V |.
+                                       The graph in Figure 19.2 has |V | = 6 and |E| = 9.
+                                                                                           .ne
+                                    Incidence, adjacency, and neighbours
+                                                                                               t
+                                    Two vertices are adjacent if they are joined by an edge. In Figure 19.2, v3
+                                    is adjacent to v4 and is also said to be a neighbour of v4 . The edge which
+                                    joins the vertices is said to be incident to them. That is e3 is incident to
+                                    v3 and v4 .
+
+                                    Multiple edges and loops, simple graphs
+                                    Two or more edges joining the same pair of vertices are multiple edges.
+                                    An edge joining a vertex to itself is called a loop. In Figure 19.2
+
+
+
+
+Figure 19.2 A graph with six        Figure 19.1   Five cities with five roads connecting them represented
+vertices and nine edges.            by a graph.
+
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

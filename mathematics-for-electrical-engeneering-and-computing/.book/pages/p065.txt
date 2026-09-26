@@ -1,0 +1,69 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+52   Functions and their graphs
+
+                                 We can see that the second graph is approximately a straight line and
+                              therefore we can assume that the relationship between the intensity and
+                              time is exponential and could be expressed as I = I0 10kt . The log10 of
+                              this gives
+                              log10 (I ) = log10 (I0 ) + kt.
+                              From the graph in Figure 2.33(b), we can measure the gradient, k. To do
+                              this we calculate
+                              change in log10 (intensity)
+                                   change in time
+                              giving
+                              −2.2 − 0
+                                       = −11 = k.
+                              0.2 − 0
+
+
+ww                                The point at which it crosses the vertical axis gives
+                              log10 (I0 ) = 0 ⇔ I0 = 100 = 1.
+
+
+   w              .Ea
+                              Therefore, the expression I = I0 10kt becomes
+                              I = 10−11t .
+
+
+                     syE
+                                           ngi
+                              Power relationships
+                              Another common type of relationship between quantities is when there
+
+                                               n
+                              is a power of the independent variable involved. In this case, if y = ax n
+
+                                                               eer
+                              where n could be positive or negative then the value of a and n can be
+                              found by drawing a log–log plot.
+                                 This is because taking log10 of both sides of y = ax n gives
+
+                                                                             ing
+                              log10 (y) = log10 (ax n ) = log10 (a) + n log10 (x)
+                              Replacing Y = log10 (y) and X = log10 (x) we get:
+                                                                                       .ne
+                              Y = log10 (a) + nX,
+                                                                                           t
+                              showing that the log–log plot will give a straight line, where the slope of
+                              the line will give the power of x and the position where the line crosses
+                              the vertical axis will give the log10 (a). Having found a and n, they can
+                              be substituted back into the expression
+                              y = ax n .
+
+
+                              Example 2.14 The power received from a beacon antenna is though to
+                              depend on the inverse square of the distance from the antenna and the
+                              receiver. Various measurements, given below, were taken of the power
+                              received against distance r from the antenna. Could these be used to justify
+                              the inverse square law? If so, what is the constant, A, in the expression:
+                                    A
+                              p=
+                                    r2
+
+                                   Power received (W)           0.39   0.1   0.05   0.025   0.015   0.01
+                                   Distance from antenna (km)   1      2     3      4       5       6
+
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

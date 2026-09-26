@@ -1,0 +1,101 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                  Probability and statistics       527
+
+            length h there is either no event or a single event. Therefore, each small
+            interval is approximately behaving like a Bernoulli trial. This means that
+            we can approximate the events in the interval (0, t) by using the Binomial
+            distribution for the number of successes r in n trials. The probability of
+            r incidents in n intervals, where the probability of an incident in any one
+            interval is λh, is given by
+                           
+                             n
+            Pr (t) = lim        (λh)r (1 − λh)n−r .
+                      h→0 r
+
+            Substituting h = t/n gives
+                                                        n−r
+                               n!    λr t r         λt
+            Pr (t) = lim                       1−               .
+                       n→∞ (n − r)!r! nr            n
+            We can reorganize this expression, by taking out of the limit terms not
+            involving n
+
+ww          Pr (t) =
+                     (λt)r
+                           lim
+                                   n!
+                                            
+                                              1−
+                                                      
+                                                   λt n
+                                                          1−
+                                                                  
+                                                              λt −r
+                                                                      .
+
+   w.Ea
+                       r! n→∞ (n − r)!nr           n           n
+            We can rewrite the first term inside the limit to give
+
+                     (λt)r      nn−1         n−r
+                                                                
+                                                             λt n
+                                                                         
+                                                                       λt −r
+
+       syE  Pr (t) =       lim
+                       r! n→∞ n n
+                                         ···
+                                               n
+                                                         1−
+                                                              n
+                                                                    1−
+                                                                       n
+                                                                             .
+
+            Now we notice that the first term inside the limit is made up of the product
+
+                        ngi
+            of r fractional expressions, which each have a term in n on the top and
+            bottom lines. These will all tend to 1 as n tends to ∞. The last term is
+
+
+                           n
+            similar to the limit that we saw in Chapter 7 when calculating the value
+            of e. There, we showed that
+
+             lim 1 +
+                           
+                         1 n
+                              =e
+                                          eer
+            n→∞          n
+            and by a similar argument we could show that ing
+            lim    1+
+                         x n
+                             = ex .                                 .ne
+            n→∞          n
+            It, therefore follows that
+                           
+                         λt n
+                                                                        t
+             lim 1 −           = e−λt .
+            n→∞           n
+            The last expression involves a negative power of (1 − λt/n), which will
+            tend to 1 as n tends to ∞.
+               This gives the Poisson distribution as
+                       (λt)r −λt
+            Pr (t) =        e .
+                         r!
+            This is an expression in both r and t where r is the number of events and
+            t is the length of the time interval being considered. We usually consider
+            the probability of r events in an interval of unit time, which gives the
+            Poisson distribution as
+                   λr −λ
+            Pr =      e
+                   r!
+            where λ is the expected number of incidents in unit time.
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

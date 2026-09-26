@@ -1,0 +1,55 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+94    Trigonometric functions and waves
+
+
+
+
+ ww
+    w
+Figure 5.9 Sketching the
+
+                         .Ea
+graph of 2 cos(2t + 2π/3): (a)
+start with y = cos(t ); (b) shift
+to the left by 2π/3 to give
+y = cos(t + (2π/3)); (c)
+                            syE
+squash the graph in the t-axis
+to give y = cos(2t + (2π/3));
+(d) stretch the graph in the
+y-axis giving
+y = 2 cos(2t + (2π/3)).                             ngi
+                                                        n               eer
+                                        Example 5.4 Sketch the graph of z against q where
+                                           1    
+                                        z = sin π q −
+                                                      π 1
+                                                          − .                        ing
+                                                                                                   .ne
+                                           2          4      2
+
+
+                                          The stages in sketches this graph are given in Figure 5.10.
+
+                                        Amplitude, fundamental period,
+                                        phase, and cycle rate
+                                                                                                       t
+                                        In Figure 5.11 are some examples of functions y = A cos(ax + b) and in
+                                        each case the amplitude, phase, fundamental period, and cycle rate has
+                                        been found. In Figure 5.11(a)
+                                             1              π
+                                        y = cos 5π x +
+                                             2               2
+                                        is drawn, and has a peak value of 0.5 and a trough value of −0.5. There-
+                                        fore, the amplitude is half the difference: (0.5 − (−0.5))/2 = 0.5. The
+                                        period, or cycle length, is the minimum amount the graph needs to be
+                                        shifted to the left or right (excluding no shift) in order to fit over the origi-
+                                        nal graph. In this case the period is 0.4. The phase is found by finding the
+                                        proportion of the cycle that the graph has been shifted to the left. In this
+                                        case the proportion of shift is 1/4. Now multiply that by a standard cycle
+                                        length of 2π to give the phase angle of π /2. The cycle rate is the number of
+                                        cycles in unit length given by the reciprocal of the period = 1/0.4 = 2.5.
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

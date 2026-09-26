@@ -1,0 +1,73 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+486   Language theory
+
+                            4.   Reduce the grammar until there is a single production rule for each
+                                 non-terminal symbol, using optional expressions where necessary.
+
+
+                            Example 20.5       Express the grammar of Example 20.1, that is
+
+                            S → (S)B(S) | (S)BN | NB(S) | (S) | NBN | N
+                            N → 0|1
+                            B → + |·
+
+                            in EBNF.
+                            Solution First, we change the notation, using quotes for literals and the
+                            ::= instead of →
+
+                             S :: = “(”S“)”B“(”S“)” | “(”S“)”BN | NB“(”S“)” | “(”S“)” | NBN | N
+
+ww                          N :: = “0” | “1”
+                            B :: = “ + ” | “ · ”
+
+   w            .Ea            There is no left recursion. We left factor the grammar for the first
+                            expression and use optional expressions to reduce it to a single production
+                            rule. To do left factoring notice that three productions for S begin “(“S”)”
+
+                   syE      and another three begin with N so we have:
+
+                             S :: = “(”S“)”(B(“(”S“)” | N))? | N(B(“(”S“)” | N))?
+
+                                        ngi
+                            N :: = “0” | “1”
+                            B :: = “ + ” | “ · ”
+
+                                            n             eer
+                               where the productions for N and B were already in EBNF.
+                               We can see why this form is easy for a parser to use to develop an
+
+                                                                       ing
+                            algorithm for checking strings for validity by representing each of the
+                            productions in EBNF as a directed tree so that the grammar forms a forest.
+
+
+                                                                                     .ne
+                            We use a different node for each of the non-terminals in the expression
+                            and join following on non-terminal symbols with arcs. If the production
+                            has one or more terminal symbols then label the arc with the terminal
+
+                            node attached. This is pictured in Figure 20.3.              t
+                            symbols. The final symbol in an expression of the production has a halt
+
+                               Strings are checked for validity in the following manner. Start at the
+                            start symbol with an ingoing arc and take a symbol from the left of the
+                            string, which we call ‘t’. If there is an arc marked with ‘t’ then follow
+                            that arc. If not then examine each of the possible nodes at the other end
+                            of an unmarked arc, which we will call N, and check whether ‘t’ would
+                            be accepted by N. To do this use the sub-tree which has a start symbol
+                            N. Continue within that sub-tree until the halt state is reached and then
+                            return to the main sub-tree at our previous position at the node with label
+                            N. Continue in this manner until the string is exhausted or there are no
+                            further legal moves. If, when the string is exhausted, there is an unmarked
+                            arc leading to a halt state or we have already reached a halt state, then the
+                            string is accepted.
+
+
+                            Example 20.6 Use Figure 20.3 to show that (1 · 1) is a valid sentence
+                            in the language.
+                            Solution We begin at the start symbol marked S with an incoming arc.
+                            Take the first symbol from “(1 · 1)” and this is “(”. There is an arc labelled
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

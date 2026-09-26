@@ -1,0 +1,86 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                            Probability and statistics          505
+
+                                        That is, the probability of E is equal to the proportion of the whole sample
+                                        space that is in E, when each of the outcomes are equally likely.
+
+                                        Example 21.4 What is the probability on one throw of a die getting a
+                                        number less than 3?
+                                        Solution Give this event the name A. Then A = {1, 2} and S =
+                                        {1, 2, 3, 4, 5, 6}. The number in A is 2 and the number in S is 6. There-
+                                        fore, as each outcomes is equally likely, p(A), the probability of A is
+                                        2/6 = 1/3.
+                                           This particular result leads to another way of representing probability –
+                                        by using area.
+                                           If we use a rectangle to represent the set of all possible outcomes, S,
+                                        then an event is a subset of S, that is, one section of the rectangle and if
+Figure 21.7 A ⊆ S (A is a               all outcomes are equally likely then its probability can be pictured by the
+subset of S) where all the
+outcomes in S are equally
+                                        proportion of S that is in A. We will put a dotted line around the picture
+
+ww
+likely. The probability of A can
+be pictured as the proportion
+of S than is in A: the ratios of
+                                        representing the set A to indicate the number in A or the area of A (see
+                                        Figure 21.7).
+                                           This way of picturing the probability of an event can help in
+
+   w
+the areas.
+
+
+                       .Ea
+                                        remembering some of the probabilities of combined events.
+
+
+
+                                        Disjoint events
+21.4 Addition
+law of                    syE           Disjoint events are events with no outcomes in common. They cannot
+probability
+                                                    ngi
+                                        happen simultaneously.
+
+                                        Example 21.5 A is the event that a card chosen from a playing pack is
+
+                                                        n
+                                        under 6 (counting ace as low, i.e. = 1) and B is the event of choosing
+
+                                                                     eer
+                                        a picture card (Jack, Queen, or King). Find the probability that a card
+                                        chosen from the pack is under 6 or is a picture card.
+                                        Solution
+                                                                                  ing
+                                        A = {1♥, 2♥, 3♥, 4♥, 5♥, 1♦, 2♦, 3♦, 4♦, 5♦, 1♠, 2♠, 3♠, 4♠, 5♠,
+                                               1♣, 2♣, 3♣, 4♣, 5♣}
+                                        B = {J♥, Q♥, K♥, J♦, Q♦, K♦, J♠, Q♠, K♠, J♣, Q♣, K♣}.
+                                                                                                .ne
+                                        the probabilities are easy to find:
+                                                                                                    t
+                                        A and B are disjoint. As each outcome is considered to be equally likely
+
+                                                   Number in A
+                                        p(A) =                 .
+                                                   Number in S
+                                        There are 52 cards; therefore, 52 possible outcomes in S, so
+                                        p(A) = 20
+                                               52 = 13 .
+                                                     5
+
+
+                                        Also
+                                                   Number in B   12    3
+                                        p(B) =                 =    =    .
+                                                   Number in S   52   13
+                                        We want to find the probability of A or B happening; that is, the probability
+                                        that the card is either under 6 or is a picture card:
+                                        A ∪ B = {1♥, 2♥, 3♥, 4♥, 5♥, 1♦, 2♦, 3♦, 4♦, 5♦,
+                                                      1♠, 2♠, 3♠, 4♠, 5♠, 1♣, 2♣, 3♣, 4♣, 5♣, J♥, Q♥, K♥,
+                                                      J♦, Q♦, K♦, J♠, Q♠, K♠, J♣, Q♣, K♣}
+
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

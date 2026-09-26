@@ -1,0 +1,55 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+                                                                  Probability and statistics         507
+
+                                 Find the probability that the result of one throw of the die is either an
+                               even number or a multiple of 3.
+                               Solution
+
+                               A = {a | a is an even number}
+                               B = {b | b is a multiple of 3}
+
+                               then
+
+                                      A = {2, 4, 6}
+                                      B = {3, 6}
+                               A ∪ B = {2, 3, 4, 6}
+
+
+
+ww                             and
+
+                                      p(A) = 36 = 21
+
+   w               .Ea
+                                      p(B) = 26 = 13
+                               p(A ∪ B) = 46 = 23
+
+
+                      syE      and
+
+
+
+                                           ngi
+                               p(A ∪ B)  = p(A) + p(B).
+
+                               Looking at the problem and using the idea of areas in the set, we can see
+
+                                               n
+                               from Figure 21.10 that the rule becomes
+
+                                                           eer
+                               p(A ∪ B) = p(A) + p(B) − p(A ∩ B)
+
+                                                                        ing
+                                                                                     .ne
+                                                                                         t
+
+
+
+Figure 21.10 (a) A ∪ B.
+(b) p(A ∪ B) =
+p(A) + p(B) − p(A ∩ B).
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

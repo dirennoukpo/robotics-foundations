@@ -1,0 +1,92 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+304   Systems of linear equations, matrices, and determinants
+
+                              Also
+                                           1     1
+                                2 1          3     3
+                                1 −1         1
+                                                 − 23
+                                             3
+                                                                            
+                                        (2) 13 + (1) 13        (2) 13 + (1) − 23
+                                   =                                         
+                                       (1) 13 + (−1) 13       (1) 13 + (−1) − 23
+                                            
+                                       1 0
+                                   =           .
+                                       0 1
+                                 Not all matrices have inverses and only square matrices can possibly
+                              have inverses. A matrix does not have an inverse if its determinant is 0.
+                                 The determinant of
+                                    
+                               a b
+                                c d
+
+ww                            is given by
+                              
+                              a b 
+                                     
+
+   w              .Ea
+                                    
+                               c d  = ad − cb
+
+                                 If the determinant of a matrix is 0 then it has no inverse and the matrix
+                              is said to be singular. If the determinant is non- zero then the inverse
+
+                     syE      exists. The inverse of the 2 × 2 matrix
+                              
+                                a b
+                                      
+
+
+                              is
+                                c d
+                                           ngi
+                                   1
+                                        
+                                          d
+                               (ad − cb) −c    n   −b
+                                                   a
+                                                          
+
+                                                                 eer
+                              determinant.                                  ing
+                              That is, to find the inverse of a 2×2 matrix, we swap the diagonal elements,
+                              negate the off-diagonal elements, and divide the resulting matrix by the
+
+
+                                                                                       .ne
+                                                                                           t
+                              Example 13.11 Find the determinants of the following matrices and
+                              state if the matrix has an inverse or is singular. Find the inverse in the
+                              cases where is exists and check that AA−1 = A−1 A = I
+                                                                        √1    − √1
+                                     −1 3               6 −2
+                              (a)             , (b)               , (c)       2       2
+                                                                                         .
+                                      2 1              −3 1                 √1     √1
+                                                                                   2   2
+
+
+                              Solution
+                                       
+                                   −1 3
+                              (a)      = (−1) × 1 − 2 × 3 = −7.
+                                     2 1
+
+                              As the determinant is not zero the matrix
+                                     
+                                −1 3
+                                2 1
+
+                              has an inverse found by swapping the diagonal elements and negating the
+                              off-diagonal elements, then dividing by the determinant. This gives
+                                                          
+                               1     1 −3         1 −1 3
+                                                =              .
+                              −7 −2 −1            7 2 1
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

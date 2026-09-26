@@ -1,0 +1,82 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+170   The exponential function
+
+                                 Solution
+                                 (a)   To show that y = y0 et are solutions, we first differentiate
+
+                                       d
+                                          (y0 et ) = y0 et
+                                       dt
+
+                                     (as y0 is a constant and d(et )/dt = et ).
+                                        Substitute for dy/dt and for y into the differential equation and
+                                     we get y0 et = y0 et , which is a true statement for all t. Hence the
+                                     solutions to dy/dt = y are y = y0 et .
+                                 (b) Substitute t = 0 in the function y = y0 et and we get y = y0 e0 . As
+                                     any number raised to the power of 0 is 1, we have y = y0 . Hence
+                                     y0 is the value of y at t = 0.
+                                        Using the function of a function rule we can find the derivative
+                                     of ekt , where k is some constant, and show that this function can be
+
+ww                                   used to solve differential equations of the form dy/dt = ky.
+
+
+
+   w             .Ea             The derivative of ekt
+                                 To find the derivative of y = ekt where k is a constant substitute u = kt
+
+                    syE          so that y = eu
+
+                                 du
+                                 dt
+                                    =k
+                                             ngi
+                                            and
+                                                    dy
+                                                    du
+                                                       = eu
+
+
+
+
+                                 dy
+                                                 n
+                                 therefore, using the chain rule,
+
+
+                                    =
+                                      du dy
+                                            = k eu = k ekt
+                                                                eer
+                                 dt   dt du
+                                                                            ing
+                                 (resubstituting u = kt). Therefore,
+
+                                                                                         .ne
+                                                                                             t
+                                 d kt
+                                    (e ) = k ekt
+                                 dt
+
+                                 Notice that if we substitute y for ekt into d(ekt )/dt = k ekt we get dy/dt =
+                                 ky, which was the differential equation we set out to solve for our growth
+                                 or decay problems.
+                                    This tells us that one solution to the equation dy/dt = ky is y = ekt .
+                                 The general solution must involve a constant, so we try y = y0 ekt where
+                                 y0 is the initial size of the population, or initial temperature, etc.
+
+
+                                 Example 8.6
+                                 (a)   Show that any function of the form y = y0 ekt , where y0 is a constant,
+                                       is a solution to the equation
+
+                                       dy
+                                          = ky
+                                       dt
+
+                                 (b)   Show that in the function y = y0 ekt , y = y0 when t = 0.
+
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

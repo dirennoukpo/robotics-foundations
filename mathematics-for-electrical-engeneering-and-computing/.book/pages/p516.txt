@@ -1,0 +1,68 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                         Probability and statistics           503
+
+
+
+
+Figure 21.5 Probability
+distribution for a fair die
+
+
+
+
+ww
+Figure 21.6 The probability
+
+
+   w
+distribution for suits from a
+pack of cards.
+
+                       .Ea
+                          syE        from the pack, where only the suit is recorded. Assume the card is replaced
+                                     each time and the pack is perfectly shuffled.
+
+
+                                                ngi
+                                     Solution If a card is selected, the suit recorded hearts, spades, clubs, or
+                                     diamonds, the card is placed back in the pack and the pack is shuffled.
+
+
+                                                    n
+                                     If this is repeated (say 10 000 times) then we might expect that each suit
+
+
+                                                                   eer
+                                     will occur as often as any other, that is, 1/4 of the time. The probability
+                                     distribution function again is a flat distribution, and has the value of 1/4
+                                     for each of the possible four outcomes. The probability distribution for
+                                     suits is given in Figure 21.6.
+                                                                                ing
+                                        Notice again that in Example 21.3 each probability is less than 1 and
+                                     that the sum of all the probabilities is 1:
+
+                                     4 + 4 + 4 + 4 = 1.
+                                     1   1   1   1                                           .ne
+                                                                                                 t
+                                     We have seen that a probability distribution can be represented using a
+                                     graph. Each item along the x-axis has an associated probability. Prob-
+                                     ability is a function defined on some set. The set is called the sample
+                                     space, S, and contains all possible outcomes of the random system. The
+                                     probability distribution function is often abbreviated to p.d.f.
+
+
+                                     Some definitions
+                                     A trial is a single observation on the random system, for example,
+                                     one throw of a die, one measurement of a resistance in the example
+                                     in Section 21.2.
+                                        The sample space is the set of all possible outcomes, for example, for
+                                     the die it is the set {1, 2, 3, 4, 5, 6}, and for the resistance problem it is
+                                     the set of all possible measured resistances. This set may be discrete or
+                                     continuous. An event is a set of outcomes. For instance, A is the event
+                                     of throwing less than 4 and B is the event of throwing a number greater
+                                     than or equal to 5.
+                                        An event is a subset of the sample space S.
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,75 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+64   Problem solving and the art of the convincing argument
+
+                                 The first part of the compound statement is false and the second part
+                              is true. Overall, as F ∧ T ⇔ F , the proposition is false.
+
+                              (b)   x − 2 = 3 ∨ x 2 = 4 when x = 2
+
+                              Substitute x = 2 into the predicate and we get
+
+                              2 − 2 = 3 ∨ 22 = 4
+
+                                 The first part of the compound statement is false and second part is
+                              true. As F ∨ T ⇔ T , the proposition is true.
+
+                              (c) ¬(x − 4 = 0) when x = 4
+
+                              When x = 4 the expression becomes:
+
+                              ¬(4 − 4 = 0)     ⇔      ¬T    ⇔     F
+
+ww                            (d) ¬((a − b) = 4) ∨ (a + b) = 2 when a = 5, b = 3
+
+
+   w              .Ea
+                                    ¬((a − b) = 4)
+                                      ¬(5 − 3 = 4)
+                                    (a + b) = 2
+                                                       when a = 5, b = 3 gives
+                                                        ⇔    ¬F       ⇔   T
+                                                    when a = 5, b = 3 gives
+
+                     syE              (5 + 3) = 2     ⇔     8=2       ⇔    F
+
+                              Overall, T ∨ F ⇔ T so ¬((a − b) = 4) ∨ (a + b) = 2 when a = 5,
+
+                                         ngi
+                              b = 3 is true.
+
+                              Example 3.5
+                                             nRepresent the following inequalities on a number line:
+                              (a) x > 2 ∧ x ⩽ 4
+                              (b) x < 2 ∨ x ⩾ 4             eer
+                              (c) ¬(x < 2)
+                                                                          ing
+                              Solution
+                                                                                    .ne
+                              (a) x > 2 ∧ x ⩽ 4. To represent the operation of ‘and’, find where
+
+                                  represented by 2 < x ⩽ 4.                             t
+                                  the two regions overlap (Figure 3.3a). x > 2 ∧ x ⩽ 4 can also be
+
+                              (b) x < 2 ∨ x ⩾ 4. To represent the operation of ∨, ‘or’, take all points
+                                  on the first highlighted region as well as all points in the second
+                                  highlighted region and any end points (Figure 3.3b).
+                              (c) ¬(x < 2). To represent the operation of ‘not’ take all the points on
+                                  the number line not in the original region (Figure 3.3c). This can
+                                  also be expressed by x ⩾ 2.
+
+
+
+
+                              We can now express an initial problem in terms of a predicate, probably an
+3.5 Equivalence               equation, a number of equations, or a number of inequalities. However, to
+                              solve the problem we need to be able to move from the original expression
+                              of the problem toward the solution. In Chapter 3 of the Background
+                              Mathematics Notes, available on the companion website for this book,
+                              we discussed how to solve various types of equations and introduced the
+                              idea of equivalent equations. In Chapter 2 we also looked at equivalent
+                              inequalities. In both cases we used the idea that in moving from one
+                              expression to an equivalent expression the set of solutions remained the
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

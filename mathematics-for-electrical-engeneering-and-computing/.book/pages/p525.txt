@@ -1,0 +1,71 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+512   Probability and statistics
+
+
+
+
+Figure 21.15 Probability tree for Example 21.10.
+
+
+                                     Multiplication law of probability
+                                     p(A ∩ B) = p(A)p(B|A)
+                                     This law applies for any two events A and B. It is the law used in finding
+                                     the probabilities of the vertices of the probability trees.
+
+ ww                                  Example 21.10 It is known that 10% of a selection of 100 elec-
+                                     trical components are faulty. What is the probability that the first
+
+    w                .Ea
+                                     two components selected are faulty if the selection is made without
+                                     replacement?
+                                     Solution The probability we are looking for is:
+
+
+                        syE          p(first faulty ∩ second faulty)
+                                        = p(first faulty)p(second faulty | first faulty)
+
+
+                                                   ngi
+                                     Here there are only two possibilities at each stage, faulty or not faulty.
+                                     The probability tree is as shown in Figure 21.15.
+
+
+                                                       n
+                                        Notice that their are only 99 components left after the first trial and
+
+
+                                                                   eer
+                                     whether the first was faulty or not changed the probability that the second
+                                     is faulty or otherwise. Each branch of the tree, after the first layer,
+                                     represents a conditional probability.
+                                        The answer to our problem is therefore
+                                     p(first faulty ∩ second faulty)
+                                                                               ing
+                                        = p(first faulty)p(second faulty | first faulty)
+                                                                                             .ne
+                                        =
+                                          10
+                                             ×
+                                               9
+                                          100 99
+                                                 =
+                                                    1
+                                                   110
+                                                       .
+                                                                                                 t
+                                     Condition of independence
+                                     If two events A and B are independent then
+                                     p(B|A) = p(B).
+                                     Notice that the multiplication law changes in this case, as described below.
+
+
+                                     Multiplication law of probability for
+                                     independent events
+                                     p(A ∩ B) = p(A)p(B).
+                                     There is one other much-quoted law of probability that completes all the
+                                     basic laws from which probabilities can be worked out. That is Bayes’s
+                                     theorem and it comes from the multiplication law.
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

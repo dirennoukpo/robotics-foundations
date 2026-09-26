@@ -1,0 +1,43 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+432    Fourier series
+                                                                       ∞
+                                                                                            ∞
+                                                                                             
+16.11 Considering the functions in Exercises 16.1, 16.2, and             1        π2           (−1)n−1         π2
+                                                                                =      and                 =
+      16.4 show that at the position of the jump discon-                     n2   6                 n2         12
+                                                                       n=1                   n=1
+      tinuities, t = td , the Fourier series converges to the
+      value                                                     16.12 The steady state response to a signal ejωt is given
+      f (td+ ) + f (td− )                                             by H (jω)ejωt . Find the steady state response to the
+               2                                                      function f (t) = cos2 (t) from a system with transfer
+      where f (td+ ) = limt→t + f (t) and                             function 1/(s + 2).
+                                d
+      f (td− ) = limt→t − f (t)
+                       d
+
+      You may assume that:
+      ∞
+          (−1)n−1   π
+                  =
+           2n − 1    4
+       n=1
+
+
+
+
+ ww
+    w                      .Ea
+                              syE
+                                                        ngi
+                                                            n                eer
+                                                                                        ing
+                                                                                                      .ne
+                                                                                                          t
+
+
+
+
+                                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

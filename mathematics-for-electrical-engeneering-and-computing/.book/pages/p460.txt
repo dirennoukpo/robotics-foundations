@@ -1,0 +1,90 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                            Vector calculus      447
+
+            Example 18.1     Given φ = x 2 + xyz, find the vector field that describes
+            its gradient.
+            Solution   We use
+                   ∂φ    ∂φ    ∂φ
+            ∇φ =      i+    j+    k.
+                   ∂x    ∂y    ∂z
+            Differentiating φ partially with respect to x, y, and z, we find:
+            ∂φ
+               = 2x + yz
+            ∂x
+            ∂φ
+               = xz
+            ∂y
+            ∂φ
+               = xy.
+            ∂z
+
+
+ww          Therefore, we find that
+
+            ∇φ = (2x + yz)i + xzj + xyk = (2x + yz, xz, xy).
+
+   w.Ea     Direction of maximum slope
+       syE  We would like to know why this vector function is called the gradient.
+            We saw in the last chapter that a function of more than one variable has
+
+                       ngi
+            many derivatives associated with it, depending on the direction that we
+            choose to measure it. We found that for a function of φ of two variables,
+
+
+            dφ   ∂φ dx     n
+            along a path defined by (x(t), y(t)), the derivative of φ is given by:
+
+
+            dt
+               =
+                 ∂x dt
+                       +
+                         ∂φ dy
+                         ∂y dt
+                               .
+                                         eer
+                                                    ing
+            Using the definition of the scalar product, we can write the above as
+                                                          
+            dφ
+            dt
+                =
+                    ∂φ ∂φ
+                       ,
+                    ∂x ∂y
+                               ·
+                                  dx dy
+                                      ,
+                                   dt dt
+                                             = ∇φ ·
+                                                       dx dy
+                                                          ,
+                                                        dt dt      .ne
+              We also know from Chapter 9 that for two vectors a and b:
+                                                                       t
+            where (dx/dt, dy/dt) has components representing the rate of change of
+            x and y and therefore gives the direction of the path in the (x, y) plane.
+
+
+            a · b = ab cos(θ )
+
+            where a · b is the scalar product of vectors a and b, θ is the angle
+            between them and a, b are their magnitudes. If the direction of b could be
+            chosen in order to maximize this scalar product we would choose θ = 0,
+            because | cos(θ)| ⩽ 1 with the maximum value occurring at θ = 0, where
+            cos(θ ) = 1. So to maximize the scalar product we choose the direction of
+            b to be along a. So the direction of the path which maximizes the scalar
+            product
+                                      
+            dφ       ∂φ ∂φ       dx dy
+                =       ,           ,
+             dt      ∂x ∂y       dt dt
+            will be when the direction of (dx/dt, dy/dt) is the same as that of ∇φ.
+            So ∇φ gives the magnitude and direction of maximum gradient of φ and
+            the slope in any general direction can be found by taking the component
+            of ∇φ in the direction of interest.
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

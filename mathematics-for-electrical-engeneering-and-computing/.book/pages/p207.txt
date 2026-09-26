@@ -1,0 +1,57 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+194    Vectors
+
+                                          −1.816. Therefore, in polar co-ordinates r = 4.123 ∠ −1.816. Note
+                                          that the angle is between −π and −π/2, meaning that the vector
+                                          must lie in the third quadrant, which we can see is correct from the
+                                          diagram.
+                                      (c) r = (1, −2.2) has magnitude r = (1)2 + (−2.2)2 ≈ 2.416 and
+                                          the angle is given by tan−1 (−2.2/1) ≈ −1.144. Therefore, in polar
+                                          co-ordinates r = 2.416 ∠−1.144. Note that the angle is between
+                                          −π/2 and 0, meaning that the vector must lie in the fourth quadrant.
+                                      (d) r = (−2, 5.6) has magnitude r = (−2)2 + (5.6)2 ≈ 5.946 and
+                                          angle given by tan−1 (5.6/ − 2) + π ≈ 1.914. Therefore, in polar
+                                          co-ordinates r = 5.946 ∠1.914. Note that the angle is between π/2
+                                          and π , meaning that the vector must lie in the second quadrant.
+
+                                         Many calculators have a rectangular to polar conversion facility. Look
+                                      this up on the instructions with your calculator and check the results.
+                                      Remember, to get the result in radians you should first put your calculator
+
+ ww                                   into radian mode.
+
+
+
+    w                  .Ea            Conversion from polar co-ordinates to
+                                      rectangular co-ordinates
+                          syE         If a vector is given by its length and angle to the x-axis, that is, r = r∠θ,
+                                      then
+
+                                                 ngi
+                                      x = r cos(θ)
+                                                     n   y = r sin(θ)
+
+
+                                                                    eer
+                                      Hence, in rectangular co-ordinates r = (r cos(θ), r sin(θ)).
+
+                                                                                 ing
+                                        This result can easily be found from the triangle, as shown in
+                                      Figure 9.12; examples are given in Figure 9.13.
+
+
+                                                                                              .ne
+                                                                                                  t
+
+
+Figure 9.12 If a vector, r, is
+known in polar co-ordinates,          Figure 9.13 (a) 4 ∠20◦ in rectangular co-ordinates is given by
+r = r ∠θ then from the triangle       x = 4 cos(20◦ ) ≈ 3.759 and y = 4 sin(20◦ ) ≈ 1.368; therefore, the
+cos(θ ) = x /r ⇔ x = r cos(θ)         vector is (3.759, 1.368). (b) 6.5 ∠1.932 in rectangular co-ordinates is
+and sin(θ ) = y /r ⇔                  given by x = 6.5 cos(1.932) ≈ −2.297 and y = 6.5 sin(1.932) ≈
+y = r sin(θ ).                        6.081; therefore, the vector is (−2.297, 6.081).
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

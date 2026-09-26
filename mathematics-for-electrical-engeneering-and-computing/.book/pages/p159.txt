@@ -1,0 +1,75 @@
+                      Downloaded From : www.EasyEngineering.net
+
+
+146   Integration
+
+                            To find the distance travelled we need to integrate one more time
+
+                                dx
+                          v=       = t + 12    for 0 ≤ t ≤ 10
+                                dt
+                          x = t 2 + 12t + C     for 0 ≤ t ≤ 10.
+
+                            To find the value of C, consider that the distance travelled is 0 at t = 0.
+                          Hence, 0 = C and therefore
+
+                          x = t 2 + 12t   for 0 ≤ t ≤ 10.
+
+                          For t > 10, we have a different expression for the velocity
+
+                              dx
+                          v=      = 22 for t > 10
+                              dt
+
+ww                        x = 22t + C for t > 10.
+
+                            To find the value of C is this expression, we need some information
+
+   w                .Ea
+                          about the distance travelled, for instance, at t = 10. Using x = t 2 + 12t,
+                          we get that at t = 10, x = 100 + 120 = 220 m. Substituting this into
+                          x = 22t + C gives 220 = 22 × 10 + C, which gives C = 0, so x = 22t
+                          for t ≥ 10. The function for x is therefore
+
+                       syEx=
+                                
+                                  t 2 + 12t 0 ≤ t ≤ 10
+                                 22t
+                                      ngi   t > 10.
+
+                          As we now have expressions for v and x, we are in a position to answer
+                          the questions.
+                          (a)
+                                          n             eer
+                                The distance travelled during the acceleration is the distance
+                                after 10 s.
+
+                                x = (10)2 + 12(10) = 220 m.          ing
+                          (b)                                                     .ne
+                                To find the velocity reached after 20 m, we need first to find the time
+                                taken to travel 20 m
+
+                                x = 20 ⇒ 20 = t 2 + 12t
+                                                                                      t
+                                t 2 + 12t − 20 = 0.
+
+                                  Using the formula for solving a quadratic equation:
+                                                                         √
+                                                                  −b ±     b2 − 4ac
+                                at + bt + c = 0 ⇔ t =
+                                  2
+                                                                          2a
+                                          √                √
+                                   −12 ± 144 + 80   −12 ± 224
+                                t=                =
+                                            2            2
+
+                                t ≈ −13.5 or t ≈ 1.5 s.
+                                   As t cannot be negative, t ≈ 1.5 s. Substituting the value for t
+                                into the expression for v gives
+
+                                v = t + 12 = 1.5 + 12 = 13.5 m s−1 .
+
+                                  So the velocity after 20 m is 13.5 ms−1 .
+
+                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

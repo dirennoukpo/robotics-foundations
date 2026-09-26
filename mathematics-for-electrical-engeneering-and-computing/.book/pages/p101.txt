@@ -1,0 +1,71 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+
+
+      5                Trigonometric
+                       functions and
+                       waves
+ww
+   w
+5.1 Introduction
+
+          .Ea
+                       Waves occur naturally in a number of situations: the movement of dis-
+                       turbed water, the passage of sound through the air, vibrations of a plucked
+                       string. If the movement of a particular particle is plotted against time, then
+                       we get the distinctive wave shape, called a sinusoid. The mathematical
+
+
+             syE       expression of a wave is found by using the trigonometric functions, sine
+                       and cosine. In Chapter 6 of the Background Mathematics Notes on the
+                       companion website for this book we looked at right angled triangles and
+
+
+                                   ngi
+                       defined the trigonometric ratios. The maximum angle in a right angled
+                       triangle is 90◦ so to find the trigonometric functions, sin(t), cos(t), and
+                       tan(t) where t can be extended over the real numbers, we need a new
+
+                                       n
+                       way of defining them. This we do by using a rotating rod. Usually the
+
+                                                     eer
+                       function will be used to relate, for instance, the height of the rod to time.
+                       Therefore, it does not always make sense to think of the input to the cosine
+
+
+                                                                  ing
+                       and sine functions as being an angle. This problem is overcome by using
+                       a new measure for the angle called the radian, which easily relates the
+                       angle to the distance travelled by the tip of the rotating rod.
+
+                                                                                .ne
+                          Waves may interfere with each other, as for instance on a plucked
+                       string, where the disturbance bounces off the ends producing a standing
+
+
+                                                                                    t
+                       wave. Amplitude modulation of, for instance, radio waves, works by the
+                       superposition of a message on a higher signal frequency. These situations
+                       require an understanding of what happens when two, or more cosine or
+                       sine functions are added, subtracted, or multiplied and hence we also
+                       study trigonometric identities.
+
+
+
+                       Consider a rotating rod of length 1. Imagine, for instance, that it is a
+5.2                    position marked on a bicycle tyre at the tip of one of the spokes, as the
+Trigonometric          bicycle travels along. The distance travelled by the tip of the rod in 1
+                       complete revolution is 2π (the circumference of the circle of radius 1).
+functions and          The height of the rod (measured from the centre of the wheel), y, can be
+radians                plotted against the distance travelled by the tip as in Figure 5.1.
+                          Similarly, the position to the right or left of the origin, x, can be
+                       plotted against the distance travelled by the tip of the rod as in Figure 5.2.
+                       Figure 5.1 defines the function y = sin(t) and Figure 5.2 defines the
+                       function x = cos(t).
+                          This definition of the trigonometric function is very similar to that
+                       used for the ratios in the triangle, if the hypotenuse is of length 1 unit.
+                       The definitions become the same for angles up to a right angle if radians
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

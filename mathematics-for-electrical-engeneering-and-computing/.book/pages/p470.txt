@@ -1,0 +1,100 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                      Vector calculus          457
+
+                                        6.   The divergence and curl of a vector field are defined by
+
+                                                                      ∂Fx     ∂Fy    ∂Fz
+                                                                           +
+                                                                ∇·F = div F =      +
+                                                                       ∂x      ∂y     ∂z
+                                                                                        
+                                                              ∂Fz   ∂Fy          ∂Fx   ∂Fz
+                                             ∇×F = curl F =       −        i+        −       j
+                                                              ∂y     ∂z           ∂z    ∂x
+                                                                           
+                                                                ∂Fy    ∂Fx
+                                                            +       −         k.
+                                                                 ∂x     ∂y
+
+                                             The expression for curl F can also be represented using a determinant,
+                                             to define the cross product of two vectors. We have that:
+                                                                   
+                                                          ∂ ∂ ∂
+                                             ∇×F =          ,   ,      × (Fx , Fy , Fz )
+                                                         ∂x ∂x ∂x
+                                                                           
+
+ww                                                      i
+                                                                 j
+                                                    = ∂/∂x ∂/∂y ∂/∂z
+                                                        Fx      Fy
+                                                                         k 
+
+                                                                        Fz 
+
+   w                  .Ea               7.   A line integral of a vector field, F , along some path C can be
+                                             calculated by
+
+
+                         syE                 C
+                                                     F · dr =
+                                                                t1
+                                                                    t2
+                                                                         Fx
+                                                                              dx
+                                                                              dt
+                                                                                 + Fy
+                                                                                      dy
+                                                                                      dt
+                                                                                             dz
+                                                                                         + Fz dt
+                                                                                             dt
+
+
+                                                       ngi
+                                           where r = (x(t), y(t), z(t)) is the position vector of a position on
+                                           the curve C represented using a parameter t and values t1 and t2
+
+                                                           n
+                                           correspond to the end points of the path of C.
+
+                                                                                  eer
+                                        8. The line integral around a closed path in two dimensions can be
+                                           converted to a surface integral by using Green’s theorem in two
+                                           dimensions:
+                                           
+                                              Fx dx + Fy dy =
+                                                                   ∂Fy
+                                                                        −
+                                                                           ∂Fx                  ing
+                                             C
+                                                                 s ∂x       ∂y
+                                                                                dx dy.
+
+                                                                                                              .ne
+                                        9.
+                                             This gives a double integral evaluated over the given surface in the
+                                             plane.
+                                             A surface integral around a closed surface in three dimensions can
+                                             be converted to a volume integral over the volume enclosed within
+                                                                                                                  t
+                                             the surface using the divergence theorem
+
+                                                     F · dS =        (∇·F)dV .
+                                                 S
+                                                                V
+
+                                             This then gives a triple integral to be evaluated over the given volume.
+
+
+
+18.7 Exercises
+18.1. Given that φ = x 2 − yz + 5z3 , ψ = x 2 y 2 z, F =                      (d) ∇×G
+      (xy, 3xyz, x − z), and G = (3z, 4x, 2), find                            (e) curl (φi + ψj)
+                                                                              (f ) div(ψG)
+     (a) ∇φ at (1, 1, −2)                                                     (g) The magnitude of the maximum slope and the unit
+     (b) ∇ψ at (0.5, 0.1,0)                                                        vector in the direction of the maximum slope of ψ
+     (c) ∇·F                                                                       at the point (1, 2, 0).
+                                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

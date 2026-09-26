@@ -1,0 +1,74 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+
+
+           10                     Complex numbers
+
+10.1                              In the previous chapter, we have shown that a single frequency wave
+                                  can be represented by a phasor. We begin this chapter with a brief look
+Introduction                      at linear system theory. Such systems, when the input is a single fre-
+
+
+ ww                               quency wave, produce an output at the same frequency which may be
+                                  phase shifted with a scaled amplitude. Using complex numbers the sys-
+                                  tem can be represented by a number which multiplies the input phasor
+
+
+    w                 .Ea
+                                  having the effect of rotating the phasor and scaling the amplitude. We can
+                                  define j as the number which rotates the phasor by π/2 without changing
+                                  the amplitude. If this multiplication is repeated, hence rotating the phasor
+                                  by (π/2) + (π/2) = π , then the system output will be inverted. In this
+
+
+                         syE      way we can get the fundamental definition j2 = −1. j is clearly not a real
+                                  number as any real number squared is positive. j is called an imaginary
+                                  number.
+
+
+                                             ngi
+                                     The introduction of imaginary numbers allows any quadratic equa-
+                                  tion to be solved. In previous chapters we said that the equation
+                                  ax 2 + bx + c = 0 had no solutions when the formula leads to an attempt
+
+                                                 n
+                                  to take the square root of a negative number. The introduction of the num-
+
+                                                                eer
+                                  ber j makes square roots of negative numbers possible and in these cases
+                                  the equation has complex roots. A complex number, z, has a real and
+
+
+                                                                            ing
+                                  imaginary part, z = x + jy where x is the real part and y is the imaginary
+                                  part. Real numbers are represented by points on a number line. Complex
+                                  numbers need a whole plane to represent them.
+
+                                                                                          .ne
+                                     We shall look at operations involving complex numbers, the conversion
+                                  between polar and Cartesian (rectangular) form and the application of
+                                  complex numbers to alternating current theory.
+                                                                                              t
+                                     By looking at the problem of motion in a circle, we show the equiv-
+                                  alence between polar and exponential form of complex numbers and
+                                  represent a wave in complex exponential form. We can also obtain for-
+                                  mulae for the sine and cosine in terms of complex exponentials, and we
+                                  solve complex equations zn = c, where c is a complex number.
+
+
+
+                                  In system theory, a system is represented (Figure 10.1) as a box with
+10.2 Phasor                       an input and an output. We think about the system after it has been in
+rotation by π/2                   operation for a length of time, so any initial switching effects have
+                                  disappeared.
+                                     Of particular importance are systems which, when the input is a single
+                                  frequency wave, produce an output, at the same frequency that can be
+                                  characterized by a phase shift and a change of amplitude of the wave.
+                                  Examples of such systems are electrical circuits which are made up of
+                                  lumped elements, that is, resistors, capacitors, and inductors. Here the
+Figure 10.1 A system is           input and output are voltages. Such a system is shown in Figure 10.2(a).
+characterized by a box with       Equivalent mechanical systems are made up of masses, springs and
+an input and output.              dampers, and the input and output is the external force applied and the
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

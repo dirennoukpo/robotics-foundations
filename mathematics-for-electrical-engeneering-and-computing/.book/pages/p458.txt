@@ -1,0 +1,101 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                                  Functions of more than one variable                    445
+
+                                             4.   If we know the path on which we are travelling across the surface
+                                                  f (x, y), so that x and y are defined in terms of a parameter t, then it
+                                                  is possible to find the total derivative of f with respect to t because
+                                                  the gradient along the path will be unique at each point. It this case
+                                                  we can use:
+                                                  du   ∂u dx   ∂u dy
+                                                     =       +       .
+                                                  dt   ∂x dt   ∂y dt
+                                             5.   Partial derivatives can be used for approximating the value of a
+                                                  function near a known value. For a function of two variables we
+                                                  have:
+                                                         ∂u      ∂u
+                                                  δu ≈      δx +    δy.
+                                                         ∂x      ∂y
+                                                  This can also be used to estimate the maximum error in a calculated
+
+ww                                                value.
+
+
+
+   w
+17.8 Exercises
+                        .Ea
+     following:
+                           syE
+17.1 Find the first-order partial derivatives of the
+
+     (a) f (x, y) = x ln(y 2 )
+                                                                17.5 Given that z = 2x + 3y 2 and x = 3t + 5, y = −2t,
+                                                                     find ∂z/∂x, ∂z/∂y, dx/dt, dy/dt, and dz/dt.
+                                                                17.6 Given u = e−8t (A cos(2x) + B sin(2x)), evaluate
+
+
+                                                         ngi
+                               4x
+     (b) g(x, y) = x + xy −                                          ∂u/∂t and ∂ 2 u/∂x 2 and hence show that u is a solution
+                                y                                    to the partial differential equation ∂u/∂t = 2∂ 2 u/∂x 2 .
+                           
+                             x
+     (c) h(x, y) = tan−1
+
+     (d) f (x, y) =
+                    4x −x 2
+                     y
+                        e .
+                             y
+                                                             n  17.7 Use the approximation
+
+                                                                     δu ≈   eer
+                                                                            ∂u
+                                                                            ∂x
+                                                                               δx +
+                                                                                    ∂u
+                                                                                    ∂y
+                                                                                       δy
+17.2 Use the chain rule to find partial derivatives
+                                                of the fol-
+     lowing in terms of x and y where r = x 2 + y 2 and
+     θ = tan−1 ( yx ).
+                                                                              
+                                                                                         ing
+                                                                     with u =√ x 2 + y 3 near the point (6,4) to estimate the
+
+     (a) u(r, θ ) = sin(θ)/r
+     (b) u(r, θ ) = r 2 + tan(θ).
+                                                                     value of 5.962 + 4.033 .
+
+                                                                                                        .ne
+                                                                17.8 The power delivered to the load resistance RL for the
+
+
+
+
+          ∂u          ∂ 2u
+                                √
+17.3 Given u = (x 2 + y 2 )/ y, find the value of the
+     following partial derivatives at the point (0,4)
+                                      ∂ 2u
+                                                                     circuit is given by
+
+                                                                                      P = 25RL /(R + RL )2  t
+       (a)        (b)          (c)                                   If R = 2000 and RL = 1000 with a possible error of
+          ∂y         ∂x∂y            ∂y∂x                            5% in either, find P and estimate the maximum error
+          ∂ 2u       ∂ 2u                                            in P .
+       (d) 2      (e) 2 .
+          ∂x         ∂y
+                                                                17.9 The height, width, and length of an open box are sub-
+17.4 Given z = x 2 + y 2 and x = r cos(θ), y = r cos(θ),             ject to errors of 1, 2, and 3%, respectively. Estimate
+     find ∂z/∂r and ∂z/∂θ by substitution and by using the           to the nearest percentage the maximum relative error
+     relationships between the partial derivatives. Show that        in calculating the surface area of the box for a desired
+     the results obtained are equal.                                 height of 4 m, width of 3 m, and length of 2 m.
+
+
+
+
+                                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

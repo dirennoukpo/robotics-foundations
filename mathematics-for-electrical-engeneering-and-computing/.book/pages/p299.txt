@@ -1,0 +1,77 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+286   Sequences and series
+
+                             of values:
+                             −0.25, −0.3305084, −0.3247489, −0.3247179, −0.3247179.
+                             Finally, we can check that we have found a good approximation to a
+                             solution of the equation by substituting x = −0.3247179 into the function
+                             f (x) = x 3 −3x 2 +2x +1, which gives 2.441×10−7 . As this value is very
+                             close to 0 this confirms that we have found a reasonable approximation
+                             to a solution of the equation f (x) = 0.
+
+                             The convergence criterion
+                             In Examples 12.34 and 12.35 we decided to stop the calculation when the
+                             last two values found were equal. We had found the limit of the recurrence
+                             relation to 7 s.f. In a computer algorithm, we could test if the last two
+                             calculated values of x differ by a very small amount.
+
+
+ww                           Example 12.36 A convergent sequence is defined by a recurrence rela-
+                             tion. The calculation should stop when the limit has been found to an
+
+
+   w             .Ea
+                             accuracy of at least three decimal places. Give a condition that could be
+                             used in this case.
+                             Solution Assuming two consecutive terms are xn−1 and xn , then the
+                             absolute difference between them is given by |xn − xn−1 |. To test whether
+
+                    syE      this is small enough to accept xn as the limit to three decimal places we
+                             use the fact that a number expressed to three decimal places could have
+                             an absolute error of just less than 0.0005. So the condition we can use
+
+                                          ngi
+                             to stop the algorithm could be |xn − xn−1 | < 0.0005. If this condition is
+                             satisfied we could then assume that xn is the limit to three decimal places.
+
+
+                                              n
+                             To be on the safe side, however, it is better to perform the calculation one
+
+
+                                                            eer
+                             final time and check that it is also true that |xn+1 − xn | < 0.0005 and
+                             then use xn+1 as the value of the limit which should be accurate to at least
+
+
+                                                                        ing
+                             three decimal places.
+
+                             Example 12.37 A convergent sequence is defined by a recurrence rela-
+
+                                                                                     .ne
+                             tion. The calculation should stop when the limit has been found to an
+                             accuracy of at least 4 s.f. Give a condition that could be used in this case.
+
+                                                                                         t
+                             Solution Assuming two consecutive terms are xn−1 and xn then the
+                             absolute difference between them is given by |xn − xn−1 |. To test whether
+                             this is small enough to accept xn as the limit to 4 s.f. use the fact that a
+                             number expressed to 4 s.f. can have an absolute relative error of just
+                             less than 0.00005. As we do not know that value of the limit we must
+                             approximate it by the last value calculated in the sequence, so the absolute
+                             relative error is approximately
+                             |xn − xn−1 |
+                                 |xn |
+                             so an appropriate condition would be
+                             |xn − xn−1 |
+                                          < 0.00005
+                                 |xn |
+                             or
+                             |xn − xn−1 | < 0.00005|xn |.
+                             As in the previous example it would be preferable to test that this condition
+                             holds on at least two successive iterations. Hence, we could also check
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,81 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+204   Vectors
+
+                            angle that the vector makes to the x-axis, also called its argument.
+                            To convert from polar to rectangular co-ordinates use:
+                            x = r cos(θ)     and    y = r sin(θ ).
+                          To add vectors given in polar form they must first be converted to
+                          rectangular form.
+                       6. Waves of a fixed frequency can be represented by phasors giving the
+                          amplitude and phase. f (t) = A cos(ωt + φ) can be represented by
+                          its amplitude and phase A∠φ. Converting this vector to rectangular
+                          form gives (c,d) where
+                            f (t) = c cos(ωt) − d sin(ωt).
+                          Using ideas of conversion from polar to rectangular form and vector
+                          addition, waves of the same frequency can be easily combined.
+                       7. Unit vectors have length 1. To find the unit vector in the same
+
+
+ww
+                          direction as a vector r divide the vector by its length:
+                                r
+                          r̂ =     .
+                               |r|
+
+   w            .Ea
+                       8. Any vectors in the plane can be represented in terms of i = (1, 0)
+                          and j = (0, 1) and in three dimensions by i = (1, 0, 0), j = (0, 1, 0),
+                          and k = (0, 0, 1). These are the Cartesian unit basis vectors and
+
+
+                   syE    they are at right angles to each other.
+                       9. Where a = (a1 , a2 ) and b = (b1 , b2 ) are two vectors, the scalar
+                          product is given by a · b = (a1 , a2 ) · (b1 , b2 ) = a1 b1 + a2 b2 and
+                          a · b = ab cos(θ ), where a, b are the magnitudes of the vectors a
+
+                                  ngi
+                          and b, and θ is the angle between them. The scalar product can be
+                          used to find the angle between two vectors.
+
+                                      n
+                      10. The components of any unit vector give the cosines of the angles
+
+                                                      eer
+                          that the vector makes to each of the Cartesian axes. Then we have
+                          for any vector r:
+
+                          r̂ =
+                                 r
+                                |r|
+                                    = (cos(α), cos(β))
+                                                                     ing
+                            angle it makes to the y-axis. In three dimensions:
+                                                                                   .ne
+                            where α is the angle the vector r makes to the x-axis and β is the
+
+
+                            r̂ =
+                                  r
+                                 |r|
+                                     = (cos(α), cos(β), cos(γ ))
+                                                                                       t
+                          where α is the angle the vector r makes to the x-axis, β is the angle
+                          it makes to the y-axis, and γ is the angle it makes to the z-axis.
+                          cos(α), cos(β), and cos(γ ) are called the direction cosines of the
+                          vector.
+                      11. The scalar product can be used to find the component of a vector in
+                          any given direction. Component of a vector F in the direction of a
+                          vector r = F · (r/|r|).
+                      12. The vector product is given by a × b = ab sin(θ)n̂, where a and b
+                          are the magnitudes of the vectors a and b, θ is the angle between
+                          them, and n̂ is a unit vector normal to the plane of a and b. If a
+                          and b are vectors in the x, y plane, that is, a = (a1 , a2 , 0) and
+                          b = (b1 , b2 , 0), we have
+                            (a1 , a2 , 0) × (b1 , b2 , 0) = (0, 0, a1 b2 − a2 b1 ) = (a1 b2 − a2 b1 )k
+                          where k is the unit vector in the z-direction. The magnitude of the
+                          vector product can be used to find the area of a parallelogram.
+                      13. The vector equation of a line passing through two points a and b is
+                            r = a(1 − λ) + λb        λ∈R
+                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

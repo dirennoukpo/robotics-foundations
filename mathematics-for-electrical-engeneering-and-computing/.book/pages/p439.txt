@@ -1,0 +1,64 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+426    Fourier series
+
+
+
+
+ ww
+    w                   .Ea
+Figure 16.5 (a) An even function satisfies f (−t ) = f (t ), that is reflecting the graph in the y-axis results in the
+same graph. This function has only cosine terms in its Fourier series. (b) An odd function satisfies
+f (−t ) = −f (t ), that is reflecting the graph in the y-axis results in an upside down version of the same graph.
+
+                           syE
+This function has only sine terms in its Fourier series. (c) A function with half-wave symmetry satisfies
+f (t + τ/2) = −f (t ) that is the graph of the function in the second half of the period is the same as the graph of
+the function in the first half reflected in the x-axis. This function has no even harmonics.
+
+                                                      ngi
+16.5 Amplitude
+and phase
+                                                          n
+                                          In Chapter 9, when considering using vectors to represent single fre-
+
+                                                                         eer
+                                          quency waves, we saw that terms like c cos(ωt) − d sin(ωt) can be
+                                          represented by a single cosine term A cos(ωt + φ) where A is the ampli-
+representation
+of a Fourier                                                                          ing
+                                          tude and φ is the phase. The terms A and φ can be found by expressing
+                                          the vector (c, d) in polar form. We can employ this idea to represent
+                                          the Fourier series in amplitude and phase form. This can be very useful
+
+series                                                                                              .ne
+                                          because, for instance, a filter may be designed to attenuate frequencies
+                                          outside of the desired pass band. this requirement specifies its ampli-
+
+                                          separately.
+                                                                                                        t
+                                          tude characteristics. The phase characteristics may then be considered
+
+                                             The Fourier series becomes
+                                                            ∞
+                                                    1      
+                                          f (t) =     a0 +   cn cos(nω0 t + φn )
+                                                    2
+                                                           n=1
+
+                                          where
+
+                                          cn cos(nω0 t + φn ) = an cos(nω0 t) + bn sin(nω0 t)
+
+                                          From the trigonometric identity for cos(A + B), we can expand the left-
+                                          hand side of the above expression to get
+
+                                          cn cos(nω0 ) cos(φn )−cn sin(nω0 ) sin(φn ) = an cos(nω0 t)+bn sin(nω0 t)
+
+                                          Equating terms in cos(nω0 t) and sin(nω0 t), we get
+
+                                            cn cos(φn ) = an
+                                          −cn sin(φn ) = bn
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

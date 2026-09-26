@@ -1,0 +1,82 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+86    Boolean algebra
+
+
+Figure 4.15 (a) A Karnaugh
+map for the segment labelled
+p in Figure 4.14. This has
+been copied from the truth
+table given in Table 4.5 (b) A
+minimization of the Karnaugh
+map. The ‘don’t care’ Xs may
+be treated as 1s if it is
+convenient but they can also
+be treated as 0s.
+
+
+
+
+                                          two rows are encircled giving the term a. Now we look for groups of four.
+                                          The central four squares represent bd and the third column represents
+                                          cd. Finally, we can count the four corner squares as adjacent. This is
+
+ ww                                       because two squares may be considered as adjacent if they are located
+                                          symmetrically with respect to any of the lines which divide the Karnaugh
+
+
+    w                   .Ea
+                                          map into equal halves, quarters, or eighths. This means that squares that
+                                          could be curled round to meet each other, as if the Karnaugh map where
+                                          drawn on a cylinder, are considered adjacent and also the four corner
+                                          squares. Here, the four corner squares represent the term b̄ d̄. Hence, the
+                                          minimization for p gives
+
+                           syE            p = a + cd + bd + b̄ d̄.
+
+
+
+4.5 Summary                               (1)         ngi
+                                              An algebra is a set with operations defined on it. A binary operation
+
+                                                          n
+                                              as a way of combining two elements of the set to result in another
+
+                                                                         eer
+                                              element of the set. A unary operation has only one input element
+                                              producing one output.
+
+
+                                                                                       ing
+                                          (2) A Boolean algebra has the operations of AND, OR, and NOT defined
+                                              on it and obeys the set of laws given in Section 4.3 as (B1)–(B10).
+                                              Examples of a Boolean algebra are: the set of sets in some universal
+
+                                                                                                      .ne
+                                              set E , with the operations of ∩, ∪ and ; the set of propositions with
+                                              the operations of ∧, ∨, and ¬; the set {0, 1} with the operations ‘.’
+                                              +, and −.
+                                                                                                          t
+                                          (3) Logic circuits can be represented as Boolean expressions. Usually,
+                                              a high voltage is represented by 1 or TRUE and a low voltage by
+                                              0 or FALSE. There are three basic gates to represent the operators
+                                              AND (.), OR (+), and NOT (−).
+                                          (4) A Boolean expression may be minimized by first expressing it as a
+                                              sum of products and then using a Karnaugh map to combine terms.
+
+
+
+4.6 Exercises
+4.1 Show the following properties of sets using Venn                    (i) p ∧ q (ii) p ∨ q (iii) ¬p ∨ q
+    diagrams:                                                         (iv) p ∧ ¬q (v) ¬(p ∧ q) (vi) ¬p ∨ ¬q.
+    (a) A ∪ (A ∩ B) = A                                           (b) Given that p is true and q is false, what is the truth
+    (b) A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)                               value of each part of section (a)?
+
+4.2 p = ‘It rained yesterday’
+    q = ‘I used an umbrella yesterday’                        4.3 Show the following properties of propositions using truth
+    (a) Construct English sentences to express, (∧ ⇔ ‘and’,       tables
+        ∨ ⇔ ‘or’, ¬ ⇔ ‘not’)                                      (a) p ∨ (p ∧ q) ⇔ p (b) ¬(p ∨ q) ⇔ ¬p ∧ ¬q.
+
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

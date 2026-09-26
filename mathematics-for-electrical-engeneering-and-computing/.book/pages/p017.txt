@@ -1,0 +1,72 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+
+
+             1                       Sets and functions
+
+
+1.1 Introduction                     Finding relationships between quantities is of central importance in
+
+ww                                   engineering. For instance, we know that given a simple circuit with a
+                                     1000  resistance then the relationship between current and voltage is
+                                     given by Ohm’s law, I = V /1000. For any value of the voltage V we can
+
+   w                 .Ea
+                                     give an associated value of I . This relationship means that I is a function
+                                     of V . From this simple idea there are many other questions that need
+                                     clarifying, some of which are:
+
+
+                        syE          1. Are all values of V permitted? For instance, a very high value of the
+                                        voltage could change the nature of the material in the resistor and the
+                                        expression would no longer hold.
+
+                                               ngi
+                                     2. Supposing the voltage V is the equivalent voltage found from con-
+                                        sidering a larger network. Then V is itself a function of other voltage
+
+
+                                                   n
+                                        values in the network (see Figure 1.1). How can we combine the func-
+
+
+                                                                  eer
+                                        tions to get the relationship between this current we are interested in
+                                        and the actual voltages in the network?
+                                     3. Supposing we know the voltage in the circuit and would like to know
+
+                                                                               ing
+                                        the associated current. Given the function that defines how current
+                                        depends on the voltage can we find a function that defines how the
+
+
+                                                                                            .ne
+                                        voltage depends on the current? In the case where I = V /1000, it is
+                                        clear that V = 1000I . This is called the inverse function.
+
+
+                                                                                                t
+                                        Another reason exists for better understanding of the nature of func-
+                                     tions. In Chapters 5 and 6, we shall study differentiation and integration.
+                                     This looks at the way that functions change. A good understanding of
+                                     functions and how to combine them will help considerably in those
+                                     chapters.
+                                        The values that are permitted as inputs to a function are grouped
+                                     together. A collection of objects is called a set. The idea of a set is very
+                                     simple, but studying sets can help not only in understanding functions
+                                     but also help to understand the properties of logic circuits, as discussed
+                                     in Chapter 10.
+
+
+
+
+Figure 1.1 The voltage V is
+an equivalent voltage found
+by considering the combined
+effect of circuit elements in
+the rest of the network.
+
+
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

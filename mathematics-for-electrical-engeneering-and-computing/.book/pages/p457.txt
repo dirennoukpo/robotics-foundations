@@ -1,0 +1,85 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+444   Functions of more than one variable
+
+                              The partial derivatives ∂ 2 u/∂x 2 , ∂ 2 u/∂y 2 , ∂ 2 u/∂x∂y, and ∂ 2 u/∂y∂x are
+                              called the second-order partial derivatives of u because we have differ-
+                              entiated twice to find them. We can continue differentiating to find third-
+                              and higher-order partial derivatives.
+
+                              Example 17.6
+                              u = x 4 − 2x 3 y + xy 2 .
+                              Find its first- and second-order partial derivatives with respect to x and y
+                              Solution
+                              u = x 4 − 2x 3 y + xy 2
+                               ∂u
+                                  = 4x 3 − 6x 2 y + y 2
+                               ∂x
+                               ∂u
+
+ww                             ∂y
+                                  = −2x 3 + 2xy.
+
+                              We differentiate ∂u/∂x with respect to x, keeping y constant, to find
+
+   w              .Ea          ∂ 2u
+                               ∂x 2
+                                    =
+                                       ∂ ∂u
+                                      ∂x ∂x
+                                            = 12x 2 − 12xy.
+
+
+
+                     syE      We differentiate ∂u/∂y with respect to y, keeping x constant, to find
+
+                               ∂ 2u
+                                    =
+                                       ∂ ∂u
+                                            = 2x.
+                               ∂y 2
+
+                                          ngi
+                                      ∂y ∂y
+                              We differentiate ∂u/∂y with respect to x, keeping y constant, to find
+
+                                ∂ 2u
+                               ∂x∂y
+                                     =
+                                        ∂ ∂u
+                                       ∂x ∂y  n
+                                             = −6x 2 + 2y.
+                                                             eer
+                                ∂ 2u    ∂ ∂u                               ing
+                              We differentiate ∂u/∂x with respect to y, keeping x constant, to find
+
+
+                               ∂y∂x
+                                     =
+                                       ∂y ∂x
+                                             = −6x 2 + 2y.
+
+                                                                                         .ne
+                              Notice that ∂ 2 u/∂x∂y = ∂ 2 u/∂y∂x as expected.
+
+                                                                                             t
+                              1. A function u(x, y) is a function of two variables x and y; u is the
+17.7 Summary                     dependent variable and x and y are the independent variables. The
+                                 graph of this function can be represented on the page of a book or a
+                                 computer screen by using a perspective representation of a surface
+                                 or by using contours to represent the lines where the value of the
+                                 function is constant.
+                              2. A function of two variables f (x, y) has two first-order partial deriva-
+                                 tives. The partial derivative with respect to x is found by considering
+                                 y to be constant and then differentiating with respect to x only. The
+                                 partial derivative with respect to y is found by considering x to be a
+                                 constant and differentiating with respect to y only.
+                              3. The chain rule can be used to change the variables of differentiation.
+                                 Supposing we have a function, u = f (x, y), and x and y are functions
+                                 of s and t so that x = v(s, t), y = w(s, t), and u = F (s, t), then:
+                                   ∂u   ∂u ∂x   ∂u ∂y                 ∂u   ∂u ∂x   ∂u ∂y
+                                      =       +                and       =       +
+                                   ∂s   ∂x ∂s   ∂y ∂s                 ∂t   ∂x ∂t   ∂y ∂t
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

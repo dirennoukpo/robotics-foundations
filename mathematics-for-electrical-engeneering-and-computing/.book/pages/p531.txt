@@ -1,0 +1,82 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+518    Probability and statistics
+
+
+
+
+Figure 21.22 A continuous
+probability density function
+and the probability that the
+outcome lies in the interval a
+⩽ x ⩽ b.
+
+
+
+
+ ww
+    w
+Figure 21.23 The value of
+the cumulative distribution
+
+
+                       .Ea
+F(a) marked as an area on
+the graph of the probability
+density function, f(x), of a
+continuous distribution.
+
+                          syE
+                                                ngi
+                                     To overcome this problem we define the probability of the outcome lying
+                                     in some interval of values, as the area under the graph of the probability
+
+                                                    n
+                                     function between those two values as shown in Figure 21.22.
+
+                                                                   eer
+                                        As we found in Chapter 7, the area under a curve is given by the integral;
+                                     therefore, for a continuous probability distribution, f (x), we define
+
+                                     p(x lies between a and b) =
+                                                                     b
+                                                                                 ing
+                                                                          f (x) dx.
+
+
+                                                                                             .ne
+                                                                     a
+
+                                     The cumulative distribution function gives us the probability of this value
+
+
+
+                                     occur in the distribution up to the current value.
+                                                                                                 t
+                                     or any previous value (it is like the cumulative relative frequency). A
+                                     continuous distribution thus becomes the ‘the area so far’ function and
+                                     therefore becomes the integral from the lowest possible value that can
+
+                                        The cumulative distribution up to a value a is represented by
+                                               a
+                                     F (a) =       f (x) dx
+                                               −∞
+
+                                     and it is the total area under to graph of the probability function up to a;
+                                     this is shown in Figure 21.23.
+                                        We can also use the cumulative distribution function to represent prob-
+                                     abilities of a certain interval. The area between two values can be found
+                                     by subtracting two values of the cumulative distribution function as in
+                                     Figure 21.24.
+                                        However, there is a problem with the normal distribution function in
+                                     that is not easy to integrate! The probability density function for x, where
+                                     x is N (µ, σ 2 ) is given by
+
+                                               1
+                                                   e−(x−µ) /2σ .
+                                                          2   2
+                                     f (x) = √
+                                              2π σ
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

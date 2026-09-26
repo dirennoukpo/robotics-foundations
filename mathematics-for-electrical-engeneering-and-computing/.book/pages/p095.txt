@@ -1,0 +1,68 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+82     Boolean algebra
+
+                                         Example 4.8       Implement abc̄ + a b̄ + a c̄.
+                                         Solution We can use absorption to write this as a b̄ + a c̄ and this can
+                                         be implemented as in Figure 4.4 using AND, OR, and NOT gates. Alter-
+                                         natively, we can use the distributive and De Morgan’s laws to write the
+                                         expression as:
+
+                                         a b̄ + a c̄ = a(b̄ + c̄) = abc
+
+                                         which can be implemented using an AND and a NAND gate.
+
+                                         Minimization and Karnaugh maps
+                                         It is clear that there are numbers of possible implementations of the same
+                                         logic circuit. However, in order to use less components in building the
+                                         circuit it is important to be able to minimize the Boolean expression. There
+
+ ww                                      are several methods for doing this. A popular method is using a Karnaugh
+                                         map. Before using a Karnaugh map, the Boolean expression must be
+                                         written in the form of a ‘sum of products’. To do this, we may either
+
+    w                       .Ea
+                                         use some of the algebraic rules or it may be simpler to produce a truth
+                                         table and then copy the 0s and 1s into the Karnaugh map. Example 4.9 is
+                                         initially in the sum of product form and Example 4.10 uses a truth table
+                                         to find the Karnaugh map.
+
+                               syE       Example 4.9       Minimize the following using a Karnaugh map:
+
+
+                                                     ngi
+                                         ab + āb + a b̄
+
+
+
+                                                         n
+                                         and draw the implementation of the resulting expression as a logic circuit.
+
+                                                                          eer
+                                         Solution Draw a Karnaugh map as in Figure 4.5(a). If there are two
+                                         variables in the expression then there are 22 = 4 squares in the Karnaugh
+
+                                                                                     ing
+                                         map. Figure 4.5(b) shows a Karnaugh map with the squares labelled term
+
+
+
+                                                                                                 .ne
+                                                                                                     t
+Figure 4.4 (a) An
+implementation of
+ab c̄ + a b̄ + a c̄ = a b̄ + a c̄.
+(b) An alternative
+implementation using
+a b̄ + a c̄ = abc.
+
+
+
+
+                                         Figure 4.5 (a) A two-variable Karnaugh map representing
+                                         ab + āb + a b̄ (b) A two-variable Karnaugh map with all the boxes
+                                         labelled. (c) A Karnaugh map is like a Venn diagram. The second row
+                                         represents the set a and the second column represents the set b.
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

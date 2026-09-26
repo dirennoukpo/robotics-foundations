@@ -1,0 +1,71 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                   Differential equations and difference equations                     353
+
+            Example 14.1        Show that x = t 3 is a solution to the differential equation
+            dx/dt = 3t 2 .
+
+            Solution     Replace x by t 3 in the differential equation gives
+
+            d 3
+               (t ) = 3t 2
+            dt
+
+              ⇔        3t 2 = 3t 2
+            As this is true for all values of t, we have shown that x = t 3 is a solution
+            to dx/dt = 3t 2 .
+
+
+
+            Example 14.2        Show that y = t 2 − 3t + 3.5 is a solution to
+
+
+ww          y  + 3y  + 2y = 2t 2 .
+
+
+
+   w.Ea     Solution
+
+            y  = 2t − 3
+                         Set y = t 2 − 3t + 3.5, then differentiating gives
+
+
+
+
+       syE  and differentiating again
+
+            y  = 2
+                         ngi
+                             n              eer
+            We substitute these expressions for y and the derivatives of y into
+
+            y  + 3y  + 2y = 2t 2
+
+                                                         ing
+                                                                      .ne
+            so we get
+
+              2 + 3(2t − 3) + 2(t 2 − 3t + 3.5) = 2t 2
+               ⇔
+               ⇔
+                       2 + 6t − 9 + 2t 2 − 6t + 7 = 2t 2
+                       2t 2 = 2t 2
+                                                                          t
+            which is true for all values of t showing that y = t 2 − 3t + 3.5 is a
+            solution to y  + 3y  + 2y = 2t 2 .
+               A differential equation has many solutions. For instance, the equation
+            dx/dt = 3t 2 has solutions x = t 3 , x = t 3 + 4, x = t 3 − 5, etc.
+            These are called particular solutions. A general solution is one which
+            contains some arbitrary constants and encompasses all possible solutions
+            to the differential equation. This means that by choosing values of these
+            arbitrary constants we are able to find any of the particular solutions of the
+            equation. For instance, x = t 3 + C is a general solution to dx/dt = 3t 2 .
+
+
+
+            Linear differential equations
+            A linear differential equation can be recognized by its form. It is linear
+            if the coefficients of y (the dependent variable) and all order derivatives
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

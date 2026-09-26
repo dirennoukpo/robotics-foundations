@@ -1,0 +1,102 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                              Laplace and z transforms            395
+
+            Here, we have used the derivative property of the Laplace transform,
+            q (t) = sQ(s) − q(0). Solve the algebraic equation
+
+                           0.0015        0.0015
+            (s + 0.5)Q =          ⇔ Q=            .
+                              s        s(s + 0.5)
+
+            We need to find the inverse Laplace transform of this function of s so that
+            we expand using partial fractions, giving
+
+                0.003     0.003
+            Q=        −
+                  s      s + 0.5
+                    
+                      0.003      0.003
+            q = L−1          −              = 0.003 − 0.003e−0.5t .
+                        s       s + 0.5
+
+            The voltage across the capacitor is
+
+
+ww          q(t)
+             c
+                 =
+                   0.003 − 0.003e−0.5t
+                          0.001
+                                       = 3(1 − e−0.5t ).
+
+
+   w.Ea     Example 15.17
+            transforms:
+                              Solve the following differential equation using Laplace
+
+
+
+       syE  d2 x
+            dt 2
+                 +4
+                    dx
+                    dt
+                       + 3x = e−3t
+
+
+                      ngi
+            given x(0) = 0.5 and dx(0)/dt = −2.
+
+
+
+            d2 x          n
+            Solution Transform the differential equation
+
+
+                 +4
+                    dx
+                       + 3x = e−3t      eer
+                                                     ing
+            dt 2    dt
+            to get
+            
+              s X(s) − sx(0) −
+               2               dx
+                                     
+                                  (0) + 4(sX(s) − x(0)) + 3X(s) = .ne
+                                                                   1
+                                                                  s+3
+                                                                      .
+
+
+                                                                      t
+                               dt
+
+            Here we have used
+               2
+               d x                        dx
+            L      2
+                     = s 2 X(s) − sx(0) −    (0)
+                dt                        dt
+
+            and
+              
+                dx
+            L        = sX(s) − x(0).
+                dt
+
+            Substitute x(0) = 0.5 and dx(0)/dt = −2
+
+                      1                                 1
+            s 2 X(s) − s + 2 + 4sX(s) − 2 + 3X(s) =
+                      2                              s+3
+                                            1    1
+                 ⇔ X(s)(s 2 + 4s + 3) =         + s
+                                          s+3 2
+                                       1                  s
+                 ⇔ X(s) =                        +
+                            (s + 3)(s 2 + 4s + 3) 2(s 2 + 4s + 3)
+
+                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

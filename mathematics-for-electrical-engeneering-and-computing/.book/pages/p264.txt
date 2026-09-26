@@ -1,0 +1,82 @@
+               Downloaded From : www.EasyEngineering.net
+
+
+                               Maxima and minima and sketching functions                   251
+
+                    The graph passes through (0, 1) (Step 1) and there are nodiscontinuities
+                    (Step
+                    √     2). The stationary points are at ω = 0 and ω = (2 − c2 )/2 =
+                         √ ≈ 0.98. There is a minimum value at ω = 0 and a maximum at
+                      31/32
+                    ω = 31/32, where
+                                    1
+                    H =√                      ≈ 4.03
+                              31/512 + 1/1024
+                         Case (d): c = 0
+                                           
+                                        1  
+                                 1                     for ω < 1
+                                   = 1 −1 ω
+                                            2
+                    H =
+                         (ω − 1)
+                           2     2  
+                                                       for ω > 1
+                                      ω2 − 1
+                    The graph passes through (0, 1) (Step 1). There is an infinite discontinuity
+                    at ω = 1, and for
+
+ww                  ω → 1− , H → +∞
+                    ω → 1+ , H → +∞
+
+   w    .Ea         The stationary points have to be analysed separately as the general case
+                    always assumed c > 0. Differentiating H we get
+
+
+           syE      dH
+                    dω
+                       = 2
+                           2ω
+                        (ω − 1)2
+                                           ω<1
+
+                    dH
+                    dω
+                       = 2
+                          −2ω
+                        (ω − 1)2ngi        ω>1
+
+
+                                    n
+                    which has a zero value at ω = 0.
+
+                                                 eer
+                       dH /dω is negative for ω just less than 0 and positive for ω just greater
+                    than 0. Therefore, there is a minimum point at ω = 0. We can now sketch
+                    the graphs as in Figure 11.10.
+                                                              ing
+11.4 Summary        1.
+                                                                           .ne
+                          To find and classify stationary values of a function y = f (x), then
+                          Step 1. find dy/dx and solve for x such that dy/dx = 0
+                          Step 2. classify the stationary points.
+                                                                               t
+                               Method 1. By examining the sign of dy/dx near the point, in
+                               which case + → 0 → − indicates a local maximum point,
+                               − → 0 → + indicates a local minimum point, and + → 0 →
+                               + or − → 0 → − indicates a point of inflexion.
+                               Method 2. By finding d2 y/dx 2 at the point.
+                               If d2 y/dx 2 < 0 then there is a local maximum point
+                               If d2 y/dx 2 > 0 then there is a local minimum point
+                               However, if d2 y/dx 2 = 0 then this test is inconclusive and
+                               Method 1 must be used instead.
+                       Substitute the values of x at the stationary points to find the relevant
+                       values of y. Local maxima and minima are also called turning points.
+                    2. If the function, defined for a range of values of x, is continuous, then
+                       the overall maximum and minimum values can be found by finding
+                       the values of y at the local maxima and minima and the values of y
+                       at the boundary points. The maximum of all of these is the global
+                       maximum and the minimum of all of these is the global minimum
+                       value.
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

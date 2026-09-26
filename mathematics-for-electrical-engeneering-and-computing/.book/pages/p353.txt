@@ -1,0 +1,92 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+340   Systems of linear equations, matrices, and determinants
+
+                              For a minimum value we must have ∂E/∂a = 0 and ∂E/∂b = 0 giving
+                                                                        
+                              −2      (yi − a − bxi ) = 0 ⇔   yi −   a−b      xi = 0
+                                        i                                     i            i           i
+                                                                                                            
+                               −2            xi (yi − a − bxi ) = 0 ⇔                 xi yi − a       xi − b       xi2 = 0
+                                        i                                         i               i            i
+
+                              Finally, we get the normal equations
+                                               
+                              an + b      xi =     yi
+                                             i           i
+                                                             
+                              a         xi + b         xi2 =          xi yi
+                                   i              i              i
+
+                              where n is the number of data points.
+
+ww                               Here, we have not attempted to justify that this is actually a minimum
+                              point (we have only shown it to give a stationary point). We can now
+                              illustrate the method for finding the values of a and b which minimize the
+
+   w              .Ea
+                              sum of the squared errors. At the start of this example we had a set of data
+                              which we wish to fit to a function x = a+bt where the dependent variable
+                              is x and the independent variable is t. We wish to find the values of a and
+                              b so that x = a + bt gives a least squares fit to the data. The number of
+
+                     syE      data points is 6, so we have as the normal equations:
+
+                                                 
+                                                 6             
+                                                               6
+                                        6a + b
+                                                 ngi
+                                                 i=1
+                                                       ti =
+                                                               i=1
+                                                                     xi
+
+
+                              a
+                                  
+                                  6
+
+
+                                  i=1
+                                        ti + b
+                                                 
+                                                 6
+
+
+                                                 i=1 n ti2 =
+                                                               
+                                                               6
+
+
+                                                               i=1
+                                                                     ti xi
+                                                                          eer
+                              Make a table from the data, as in Table 13.1.
+                               Then the normal equations become:                           ing
+                                   6a + 75b = 753
+                              75a + 1375b = 10300                                                          .ne
+                              Solving
+
+                              450a+5625b = 56475
+                                                                                                               t
+                              450a+8250b = 61800
+                                            2625b = 5325
+
+
+                                                   Table 13.1 A table made from the data
+                                                   of Example 13.32
+
+                                                   t                 x                t2              tx
+
+                                                   0                 100                 0            0
+                                                   5                 111                25            555
+                                                   10                119               100            1190
+                                                   15                132               225            1980
+                                                   20                151               625            3775
+                                                   75                753              1375            10 300
+
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

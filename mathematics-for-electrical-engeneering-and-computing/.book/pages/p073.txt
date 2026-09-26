@@ -1,0 +1,70 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+60   Problem solving and the art of the convincing argument
+
+                                     100LG . This can be expressed as:
+
+                                     K = 104 000 + 80LW + 100LG .
+
+                                     We need to relate the profit to the other variables. As the profit is 200
+                                     multiplied by the number of jobs minus the total costs, we get:
+
+                                     P = 200L − K
+
+                                     Finally, we must express the mathematical problem that we would like to
+                                     solve. For the web development business to make a profit in the first year
+                                     then the profit must be positive, hence we get the problem expressed as:
+                                     Find the minimum L such that P > 0.
+
+
+ ww                                  Example 3.2 Express the following in mathematical language: A car
+
+    w                .Ea
+                                     brake pedal, as represented in Figure 3.2(a) is pivoted at point A. What
+                                     is the force on the brake cable if a constant force of 900 N is applied by
+                                     the driver’s foot and the pedal is stationary.
+
+
+                        syE          Solution First, we assign letters to the unknowns. Let F = the force on
+                                     the brake cable.
+                                        In order to write down the known facts we need to consider what
+
+                                                ngi
+                                     scientific laws can be used. As the force applied on the pedal initially
+                                     provides a turning motion then we know to use the ideas of moments.
+
+
+                                                    n
+                                     The moment of a force about an axis is the product of the force F and its
+
+
+                                                                   eer
+                                     perpendicular distance, x, to the line of action of the force. Furthermore,
+                                     as the pedal is now stationary, then the moments must be balanced so the
+                                     clockwise moment must equal the anti-clockwise moment.
+
+                                                                               ing
+                                        To use this fact, we need to use two further measurements, currently
+                                     unknown, the perpendicular distance from the line of action of the force
+
+
+                                                                                             .ne
+                                     provided by the driver to the axis, A. This is marked as x1 m on the diagram
+                                     in Figure 3.2(b). The other distance is the perpendicular distance from
+
+
+                                                                                                 t
+                                     the line of action of the force on the cable to the axis A. This is marked
+                                     as x2 m in Figure 3.2(b).
+                                        We can now write down the known facts, involving the unknowns
+                                     x1 , x2 , and F . From the right angle triangle containing x1 , we have
+
+
+
+
+Figure 3.2 (a) A representation of a car brake pedal. (b) The same diagram as (a) with some unknown
+quantities marked and triangles used to formulate the problem.
+
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

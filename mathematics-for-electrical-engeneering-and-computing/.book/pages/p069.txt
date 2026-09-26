@@ -1,0 +1,127 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+56   Functions and their graphs
+
+2.6. Find the values of x such that f (x) = 0 for the           2.9. By substituting x → −x in the following functions
+     following functions                                             determine whether they are odd, even, or neither of
+     (a) f (x) = x 2 − 4,                                            these:
+     (b) f (x) = (2x − 1)(x + 1),                                    (a) y = −x 2 + x12 where x  = 0,
+     (c) f (x) = (x − 3)2 ,
+                                                                     (b) y = |x 3 | − x 2 ,
+     (d) f (x) = (x − 4)(x + 4),
+     (e) f (x) = x 2 + x − 6,                                        (c) y = −1
+                                                                             x + log2 (x) where x > 0,
+      (f) f (x) = x 2 + 7x + 12,                                     (d) y = −1
+                                                                             x +x+x ,
+                                                                                   5
+     (g) f (x) = 12x 2 − 12x − 144.
+     Using the fact that the peak or trough in the parabola,         (e) y = 6 + x 2 ,
+     y = f (x), occurs at a value of x half-way between              (f) y = 1 − |x|.
+     the values where f (x) = 0 then sketch graphs of the      2.10. Draw graphs of the following functions and draw the
+     above quadratic functions.                                      graph of the inverse relation in each case. Is the inverse
+2.7. By considering transformations of simple functions              a function?
+     sketch graphs of the following:                                 (a) f (t) = −t + 2, (b) g(x) = (x − 2)2 ,
+                                                                                     4
+     (a) y = x−(1/2)
+                1
+                     ,        (b) y = 3.2−x ,                        (c) h(w) =          .
+                                                                                  w+2
+
+ww   (c) y = 21 x 3 ,
+     (e) y = (2x − 1)     2
+                              (d) y = −3(1/2)x ,
+                              (f) y = (2x − 1)2 − 2,
+                                                               2.11. Find the range of values for which the following
+                                                                     inequalities hold and represent them on a number line.
+
+
+   w (g) y = log2 (x + 2),
+     (i) y = 4x − x 2 .
+                              (h) y = 6 − 2x ,
+
+
+
+                              .Ea
+2.8. Consider reflections of the graphs given in Figure 2.36
+                                                                     (a) 10t − 2 ⩽ 31,
+                                                                     (c) 3 − 4y ⩾ 11 + y,
+                                                                                                    (b) 10x − 3x > −2,
+                                                                                                    (d) t + 15 < 6 − 2t.
+
+                                                               2.12. Find the range of values for which the following hold
+
+
+                                 syE
+     to determine whether they are even, odd, or neither of          and represent them on a number line:
+     these.                                                          (a) x − 2 > 4 or 1 − x < 12,
+                                                                     (b) 4t + 2 ⩾ 10 and 3 − 2t < 1,
+                                                                     (c) 3u + 10 > 16 or 3 − 2u > 13.
+
+                                                       ngi     2.13. Solve the following inequalities and represent the
+                                                                     solutions on a number line:
+
+
+                                                           n        (a) x 2 − 4 < 5,
+
+
+                                                                               eer
+                                                                                       (b) (2x − 3)(x + 1)(x − 5) > 0,
+                                                                    (c) t 2 + 4t ⩽ 21, (d) 4w 2 + 4w − 35 ⩾ 0.
+                                                               2.14. For the following sets of data, y is thought to depend
+
+
+                                                                     (a)                      ing
+                                                                     exponentially on t. Draw log–linear graphs in each case
+                                                                     and find constants A and k such that y = A10kt .
+
+                                                                           y
+                                                                           t
+                                                                               75
+                                                                               1
+                                                                                     48
+                                                                                     2
+                                                                                              30
+                                                                                              3
+                                                                                                    19
+                                                                                                    4
+                                                                                                         12
+                                                                                                         5    .ne
+                                                                                                               7
+                                                                                                               6
+
+                                                                     (b)
+                                                                           y
+                                                                           t
+                                                                               2
+                                                                               0.1
+                                                                                     4.2
+                                                                                     0.2
+                                                                                              8.5
+                                                                                              0.3
+                                                                                                     18
+                                                                                                      0.4
+                                                                                                              35
+                                                                                                               0.5
+                                                                                                                  t  73
+                                                                                                                      0.6
+
+                                                               2.15 An experiment measuring the change in volume of a
+                                                                    gas as the pressure is decreased gave the following
+                                                                    measurements:
+
+                                                                     P (105 N m−2 ) 1.5 1.4 1.3 1.2 1.1 1
+                                                                     V (m3 )        0.95 1  1.05 1.1 1.16 1.24
+
+                                                                     If the gas is assumed to be ideal and the expansion is
+                                                                     adiabatic then the relationship between pressure and
+                                                                     volume should be:
+                                                                     pV γ = C
+                                                                     where γ and C are constants and p is the pres-
+                                                                     sure and V is the volume. Find reasonable values
+     Figure 2.36 Graphs of functions for                             of γ and C to fit the data and from this expression
+     Exercise 2.7.                                                   find the predicted volume at atmospheric pressure,
+                                                                     p = 1.013 × 105 N m−2 .
+
+
+                                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

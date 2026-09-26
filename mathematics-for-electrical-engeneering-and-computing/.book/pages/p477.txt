@@ -1,0 +1,48 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+464   Graph theory
+
+                                      in the second set. Some examples of complete bipartite graphs are given
+                                      in Figure 19.9(b) and (c).
+
+
+                                      Walks, paths, and circuits
+                                      A sequence of edges of the form
+
+                                      vs vi , vi vj , vj vk , vk vl , vl vt
+
+                                      is a walk of from vs to vt . If these edges are all distinct then the walk is
+                                      called a trail and if the vertices are also distinct then the walk is called a
+                                      path. A walk or trail is closed if vs = vt . A closed walk in which all the
+                                      vertices are distinct except vs and vt is called a cycle or circuit. Examples
+                                      are given in Figure 19.10.
+
+
+ ww                                   Connected graph
+
+    w                 .Ea
+                                      A graph G is connected if there is a path from any one of its vertices to
+                                      any other vertex. A disconnected graph is said to be made up of com-
+                                      ponents. All the graphs we have drawn so far have been connected. In
+                                      Figure 19.11(a), there is a disconnected graph with two components and
+
+
+                         syE          in Figure 19.11(b) a disconnected graph with three components.
+
+
+
+
+                                                      ngi
+                                                          n                     eer
+                                                                                          ing
+                                                                                                     .ne
+                                                                                                         t
+
+
+
+Figure 19.10 (a) A graph G with a walk marked. (b) A graph G with a trail marked. (c) A graph G with a path
+marked. (d) A graph G with a circuit marked.
+
+
+                                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

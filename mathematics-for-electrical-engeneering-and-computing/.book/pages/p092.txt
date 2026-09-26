@@ -1,0 +1,110 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                    Boolean algebra             79
+                       Table 4.2 A truth table to show
+                       (p ∧ q) ∧ r ⇔ p ∧ (q ∧ r ). The fifth column gives
+                       the truth values of (p ∧ q) ∧ r and the seventh
+                       column gives the truth value of p ∧ (q ∧ r ). As
+                       the two columns are the same we can conclude
+                       that (p ∧ q) ∧ r ⇔ p ∧ (q ∧ r )
+
+                       p    q     r       p∧q    (p ∧ q) ∧ r   q ∧r     p ∧ (q ∧ r )
+
+                       T    T     T        T           T            T          T
+                       T    T     F        T           F            F          F
+                       T    F     T        F           F            F          F
+                       T    F     F        F           F            F          F
+                       F    T     T        F           F            T          F
+                       F    T     F        F           F            F          F
+                       F    F     T        F           F            F          F
+                       F    F     F        F           F            F          F
+
+
+ww               Table 4.3 A truth table to show ¬(p ∧ q) ⇔ (¬p) ∨ (¬q).
+                 The fourth column gives the truth values of ¬(p ∧ q) and
+
+   w.Ea
+                 the seventh column gives the truth value of (¬p) ∨ (¬q). As
+                 the two columns are the same we can conclude that
+                 ¬(p ∧ q) ⇔ (¬p) ∨ (¬q)
+
+
+
+       syE       p
+
+                 T
+                        q
+
+                        T
+                                  p∧q
+
+                                      T
+                                                ¬(p ∧ q)
+
+                                                   F
+                                                               ¬p
+
+                                                               F
+                                                                        ¬q
+
+                                                                        F
+                                                                                   ¬p ∨ ¬q
+
+                                                                                       F
+                 T
+                 F
+                 F     ngi
+                        F
+                        T
+                        F
+                                      F
+                                      F
+                                      F
+                                                   T
+                                                   T
+                                                   T
+                                                               F
+                                                               T
+                                                               T
+                                                                        T
+                                                                        F
+                                                                        T
+                                                                                       T
+                                                                                       T
+                                                                                       T
+
+                           n                    eer
+                                Show that for any two propositions p, q:
+
+                                                           ing
+            Example 4.5
+
+            ¬(p ∧ q)       ⇔      (¬p) ∨ (¬q)
+
+                                                                            .ne
+                                                                                t
+            Solution The truth table is given in Table 4.3.
+              It turns out that all the properties we listed for sets are also true for
+            propositions. We list them again, for any three propositions p, q, r
+
+
+             (B1) p ∨ p ⇔ p                      p∧p⇔p                      Idempotent
+             (B2) p ∨ (q ∨ r)                    p ∧ (q ∧ r)                Associative
+                    ⇔ (p ∨ q) ∨ r                 ⇔ (p ∧ q) ∧ r
+             (B3) p ∧ q ⇔ q ∨ p                  p∧q ⇔q∧p                   Commutative
+             (B4) p ∨ (p ∧ q) ⇔ p                p ∧ (p ∨ q) ⇔ p            Absorption
+             (B5) p ∨ (q ∧ r)                    p ∧ (q ∨ r)                Distributive laws
+                    ⇔ (p ∨ q) ∧ (p ∨ r)           ⇔ (p ∧ q) ∨ (p ∧ r)
+             (B6) p ∨ T ⇔ T                      p∧F ⇔F                     Bound laws
+             (B7) p ∨ F ⇔ p                      p∧T ⇔p                     Identity laws
+             (B8) p ∨ ¬p ⇔ T                     p ∧ ¬p ⇔ F                 Complement laws
+             (B9) ¬F ⇔ T                         ¬T ⇔ F                     0 and 1 laws
+             (B10) ¬(p ∨ q) ⇔ ¬p ∧ ¬q            ¬(p ∧ q) ⇔ ¬p ∨ ¬q         De Morgan’s laws
+
+
+               Notice again that all the laws are duals of each other. A dual of a rule
+            is given by replacing ∨ by ∧ and F by T, and vice versa.
+
+
+                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

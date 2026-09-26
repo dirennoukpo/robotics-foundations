@@ -1,0 +1,86 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                               Contents     ix
+
+                     Part 3 Functions of more than one variable
+            17 Functions of more than one variable                         435
+               17.1 Introduction                                           435
+               17.2 Functions of two variables – surfaces                  435
+               17.3 Partial differentiation                                436
+               17.4 Changing variables – the chain rule                    438
+               17.5 The total derivative along a path                      440
+               17.6 Higher-order partial derivatives                       443
+               17.7 Summary                                                444
+               17.8 Exercises                                              445
+
+            18 Vector calculus                                             446
+               18.1 Introduction                                           446
+               18.2 The gradient of a scalar field                         446
+
+
+ww             18.3 Differentiating vector fields
+               18.4 The scalar line integral
+               18.5 Surface integrals
+                                                                           449
+                                                                           451
+                                                                           454
+
+
+   w.Ea
+               18.6 Summary
+               18.7 Exercises
+                                                                           456
+                                                                           457
+
+
+
+
+       syE           Part 4 Graph and language theory
+            19 Graph theory                                                461
+
+
+                     ngi
+               19.1 Introduction
+               19.2 Definitions
+               19.3 Matrix representation of a graph
+                                                                           461
+                                                                           461
+                                                                           465
+               19.4 Trees
+                         n           eer
+               19.5 The shortest path problem
+               19.6 Networks and maximum flow
+                                                                           465
+                                                                           468
+                                                                           471
+               19.7 State transition diagrams
+               19.8 Summary
+               19.9 Exercises                   ing                        474
+                                                                           476
+                                                                           477
+
+                                                            .ne
+                                                                t
+            20 Language theory                                             479
+               20.1 Introduction                                           479
+               20.2 Languages and grammars                                 480
+               20.3 Derivations and derivation trees                       483
+               20.4 Extended Backus-Naur Form (EBNF)                       485
+               20.5 Extensible markup language (XML)                       487
+               20.6 Summary                                                489
+               20.7 Exercises                                              489
+
+
+                     Part 5 Probability and statistics
+            21 Probability and statistics                                  493
+               21.1 Introduction                                           493
+               21.2 Population and sample, representation of data, mean,
+                     variance and standard deviation                       494
+               21.3 Random systems and probability                         501
+               21.4 Addition law of probability                            505
+               21.5 Repeated trials, outcomes, and
+                     probabilities                                         508
+               21.6 Repeated trials and probability trees                  508
+
+                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

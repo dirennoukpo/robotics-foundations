@@ -1,0 +1,92 @@
+                       Downloaded From : www.EasyEngineering.net
+
+
+80   Boolean algebra
+                                       Table 4.4 The operations of AND (.), OR
+                                       (+) and NOT (−) defined for any variables a,
+                                       b taken from the Boolean set {0, 1}
+
+                                       a     b     a.b     a     b     a+b       a     ā
+
+                                       0     0      0       0    0       0       0     1
+                                       0     1      0       0    1       1       1     0
+                                       1     0      0       1    0       1
+                                       1     1      1       1    1       1
+
+
+
+
+                           The Boolean set {0, 1}
+                           The simplest Boolean algebra is that defined on the set {0,1}. The oper-
+                           ations on this set are AND (.), OR (+), and NOT (−) . The operations can
+
+ww                         be defined using truth tables as in Table 4.1, shown again in Table 4.4.
+                           This time notice that the first two are usually ordered in order to mimic
+
+
+   w
+                           binary counting, starting with 0 0, then 0 1, then 1 0, then 1 1. This is
+                           merely a convention and the rows may be ordered any way you like. a
+
+                 .Ea       and b are two variables which may take the values 0 or 1.
+                              This now looks far more like arithmetic. However, beware because
+                           although the operation AND behaves like multiplication, 0.0 = 0, 0.1 =
+
+                    syE    0, 1.0 = 0 and 1.1 = 1 as in ‘ordinary’ arithmetic, the operation OR
+                           behaves differently as 1 + 1 = 1.
+
+
+                                      ngi
+                              All the laws as given for sets and for propositions hold again and they
+                           can be listed as follows:
+                              For any three variables a, b, c ∈ {0, 1}
+
+
+
+                           (B1) a + a = a
+                                          n              eer
+                                                          a.a = a              Idempotent
+                           (B2) a + (b + c)
+                                   = (a + b) + c
+                           (B3) a + b = b + a
+                                                                     ing
+                                                          a.(b.c) = (a.b).c
+
+                                                          a+b =b+a
+                                                                               Associative
+
+
+
+                                                                                 .ne
+                                                                              Commutative
+                           (B4) a + (a.b) = a             a.(a + b) = a       Absorption
+                           (B5) a + (b.c)                 a.(b + c)           Distributive laws
+                                   = (a + b).(a + c)
+                           (B6) a + 1 = 1
+                           (B7) a.1 = a
+                           (B8) a + ā = 1
+                                                            = (a.b) + (a.c)
+                                                          a.0 = 0
+                                                          a+0=a
+                                                          a.ā = 0
+                                                                                     t
+                                                                              Bound laws
+                                                                              Identity laws
+                                                                              Complement laws
+                           (B9) 0̄ = 1                    1̄ = 0              0 and 1 laws
+                           (B10) (a + b) = ā.b̄          (a.b) = ā + b̄     De Morgan’s laws
+
+
+                             We often leave out the ‘.’ so that ‘ab’ means ‘a.b’. We also adopt
+                           the convention that . takes priority over + hence miss out some of the
+                           brackets.
+
+
+                           Example 4.6     Evaluate the following where +, ., and − are Boolean
+                           operators.
+                           (a) 1.1.0 + 0̄.1
+                           (b) (1.1̄) + 1
+                           (c) (1̄ + 1).0 + (1 + 1).0
+
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

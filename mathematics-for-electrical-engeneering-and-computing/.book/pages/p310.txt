@@ -1,0 +1,112 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                    297
+
+            Example 13.1
+
+            A = (2 1)     B = (6        2)
+                     
+                  3 7
+            C=
+                  8 3
+                     
+                  1 2
+            D=
+                  2 1
+                        
+                  8 2 1
+            E=
+                  6 1 3
+                            
+                   2   6   3
+            F=
+                  12 −2 −6
+
+              Find where possible: (a) A + B, (b) C + D, (c) E − F, (d) A + D.
+
+
+ww          Solution
+
+            (a) A + B = (2 1) + (6 2) = (8 3)
+                                            
+
+   w.Ea
+            (b) C + D =
+
+
+             (c) E − F =
+                         
+                          3 7
+                          8 3
+                               +
+
+                           8 2 1
+                                  1 2
+                                  2 1
+                                  
+                                  −
+                                      2
+                                        =
+
+                                          6
+                                             4 9
+                                            10 4
+                                               3
+                                                 
+
+
+       syE             =
+                         
+                           6 1 3
+                            6 −4 −2
+                           −6 3
+                                     12 −2 −6
+                                     
+
+
+
+                           ngi     9
+            (d) A + D cannot be found because the two matrices are of
+
+
+                               n
+                     different dimensions.
+
+
+                                            eer
+            Multiplication of a matrix by a scalar
+                                                      ing
+                                                                   .ne
+            To multiply a matrix by a scalar, every element is multiplied by the scalar.
+
+            Example 13.2
+
+            If A =
+                   
+                    2 5
+                     6 1
+                         
+                                                                       t
+            find 2A and 13 A
+            Solution
+                                          
+                    2 5      4          10
+            2A = 2        =
+                    6 1     12          2
+                           2          5
+                  1 2 5
+            1
+            3 A =         =  3          3
+                  3 6 1      2          1
+                                        3
+
+
+
+
+            Multiplication of two matrices
+            To multiply two matrices, every row is multiplied by every column. For
+            instance, if C = AB, to find the element in the second row and the third
+            column of the product, C, we take the second row of A and the third
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

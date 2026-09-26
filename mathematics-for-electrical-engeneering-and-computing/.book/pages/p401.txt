@@ -1,0 +1,87 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+388   Laplace and z transforms
+
+                                 Solution From Table 15.1
+                                      
+                                   −1    1
+                                 L           = e−4t
+                                        s+4
+
+                                 and
+                                          
+                                     −1         s
+                                 L                      = cos(3t)
+                                              s2 + 9
+
+                                 Therefore
+                                     
+                                         2     4s
+                                 L−1       + 2                    = 2e−4t + 4 cos(3t)
+                                       s+4 s +9
+
+
+
+
+ww                               Example 15.5 (First translation)
+                                 Solution As
+                                                                           Find L{t 2 e−3t }.
+
+
+
+   w             .Ea
+                                 L{t 2 } =
+
+                                 using
+                                                2
+                                                s3
+
+
+
+                    syE          L{e−at f (t)} = F (s − a).
+
+
+
+                                 L{t 2 e−3t } =
+                                                    ngi
+                                 Then multiplying by e−3t in the t domain will shift the function F (s) by 3:
+                                                          2
+
+                                                        n
+                                                       (s + 3)2
+
+                                                                     eer
+                                 Example 15.6 (First translation – inverse transform)           Find
+
+                                 L −1
+                                      
+                                            s+2
+                                        (s + 2)2 + 9
+                                                      .                         ing
+                                 Solution As                                                    .ne
+                                 L−1 2
+                                      
+                                          s
+                                        s +9
+                                             = cos(3t)                                              t
+                                 and as
+                                     s+2
+                                 (s + 2)2 + 9
+
+                                 is s/(s 2 + 9) translated by 2, using the first translation rule this will
+                                 multiply in the t domain by e−2t , so
+                                      
+                                            s+2
+                                 L−1                    = cos(3t)e−2t
+                                        (s + 2)2 + 9
+
+                                 Example 15.7 (Second translation)            Find the Laplace transform of
+                                         
+                                           0          t < 23
+                                 f (t) =
+                                          sin(3t − 2) t ⩾ 23
+
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

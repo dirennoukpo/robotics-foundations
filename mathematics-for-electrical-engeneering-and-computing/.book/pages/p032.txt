@@ -1,0 +1,80 @@
+                             Downloaded From : www.EasyEngineering.net
+
+
+18   Sets and functions
+
+                                 Example 1.15       Find the sum, difference, product, and quotient of the
+                                 functions:
+
+                                 f : x  → x 2 and g : x  → x 6
+
+                                 Solution
+
+                                 (f + g) : x  → x 2 + x 6
+                                 (f − g) : x  → x 2 − x 6
+                                 (f × g) : x  → x 2 × x 6 = x 8
+                                                  x2
+                                 (f /g) : x  →      = x −4
+                                                  x6
+
+
+ ww                                 The specification of the domain of the quotient is not straightforward.
+                                 This is because of the difficulty which occurs when g(x) = 0. When
+                                 g(x) = 0 the quotient function is undefined and we must remove such
+
+    w               .Ea
+                                 elements from its domain. The domain of f /g is R with the values where
+                                 g(x) = 0 omitted.
+
+
+
+                       syE       Composition of functions
+
+                                             ngi
+                                 This method of combining functions is fundamentally different from the
+                                 arithmetical combinations of the previous section. The composition of
+
+
+                                                 n
+                                 two functions is the action of performing one function followed by the
+
+
+                                                                   eer
+                                 other, that is, a function of a function.
+
+
+
+
+                                                                           ing
+                                 Example 1.16 A post office worker has a scale expressed in kilograms
+                                 which gives the cost of a parcel depending on its weight. He also has an
+                                 approximate formula for conversion from pounds (lbs) to kilograms. He
+
+                                   The two functions involved are:                      .ne
+                                 wishes to find out the cost of a parcel which weighs 3 lb.
+
+
+
+
+Figure 1.25 The function
+                                 a : kilograms → money and c : lbs → kilograms
+
+                                 a is defined by Figure 1.25 and the function c is given by
+                                                                                            t
+a : kilograms → money used
+in Example 1.16.                 c : x  → x/2.2
+
+
+                                 Solution The composition ‘a ◦ c’ will be a function from lbs to money.
+                                   Hence, 3 lb after the function c gives 1.364 and 1.364 after the function
+                                 a gives e1.90 and therefore
+
+                                 (a ◦ c)(3) = e1.90.
+
+
+                                 Example 1.17 Supposing f (x) = 2x + 1 and g(x) = x 2 , then we can
+                                 combine the functions in two ways.
+                                    1. A composite function can be formed by performing f first and then
+                                 g, that is, g ◦ f . To describe this function, we want to find what happens
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

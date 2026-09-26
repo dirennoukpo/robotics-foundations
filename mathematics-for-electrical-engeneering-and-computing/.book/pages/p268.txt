@@ -1,0 +1,79 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+                                                                                    Sequences and series      255
+
+                                 and the (. . .) indicates that there is no end to the sequence of values and
+                                 that they carry on in the same fashion.
+                                    The elements of a sequence can be represented using letters, for
+                                 example,
+
+                                 a1 , a2 , a3 , a4 , . . . , an , . . .
+
+                                 The first term is called a1 , the second a2 etc. (Sometimes it is more
+                                 convenient to say that a sequence begins with a zeroth term, a0 ).
+                                    If a rule exists by which any term in the sequence can be found then this
+                                 may be expressed by the ‘general term’ of the sequence, usually called
+                                 an or ar . This rule may be expressed in the form of a recurrence relation,
+                                 giving an+1 in terms of an , an−1 , . . . . In this case, it may be quite difficult
+                                 to find the explicit function definition, that is to solve the recurrence
+                                 relation. We look at solving recurrence relations in Chapter 14.
+                                    A sequence is a function of natural numbers, or integers. The function
+
+
+ww                               expression is given by the general term.
+
+                                 Example 12.1              Find the general term of the sequence of numbers from
+
+   w                 .Ea
+                                 1 to 10
+                                 Solution 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 has the general term an = n, where
+                                 n = 1 to 10.
+
+
+                        syE        We can also write this in ‘standard’ function notation as
+                                 a(n) = n, where n = 1 to 10.
+
+
+
+                                                 ngi
+                                 Check: To check that the correct general term or function expression
+                                 has been found, reproduce a few of the members of the sequence by
+                                 substituting values for n in the general term and check that the sequence
+
+
+
+                                 an = n
+                                                     n
+                                 found is the same as the given values. Wherever n occurs in the function
+
+                                                                            eer
+                                 expression or general term replace it by a value.
+
+
+
+                                 for n = 1 gives a1 = 1                               ing
+                                 for n = 2 gives a2 = 2, etc.
+                                                                                                 .ne
+                                 and also define the sequence in terms of a recurrence relation.
+                                                                                                     t
+                                 Example 12.2 Find the general term of the sequence 1, 4, 9, 16, 25, 36, . . .
+
+                                 Solution Notice that each term in the sequence is a complete square.
+                                 The first term is 12 , the second term 22 , etc. We therefore speculate that
+                                 the general term is
+                                 an = n2 ,        where n = 1 to ∞.
+                                 In function notation this is
+                                 a(n) = n2
+                                    To define the sequence in terms of a recurrence relation means that we
+                                 must find a way of getting to the n + 1th term if we know the nth term.
+                                 There is no prescribed way of doing this: we merely have to try out a few
+                                 ideas as to how to see a pattern in the sequence. In this case, we can best
+                                 see the pattern with the aid of a diagram where we represent the ‘square
+                                 numbers’ using a square as in Figure 12.1. Here we can see that to get
+                                 from 22 to 32 we need to add a row of two dots and a column of three
+                                 dots. To get from 32 to 42 we need to add a row of three dots and a column
+Figure 12.1   The ‘square        of four dots. In general, to get from n2 to (n + 1)2 , we need to add a row
+numbers’.                        of n dots and a column of n + 1 dots.
+
+                                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

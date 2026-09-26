@@ -1,0 +1,77 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+120       Differentiation
+
+                                          Example 6.1      If y = x 2 find dy/dx using
+
+                                          dy       δy
+                                             = lim
+                                          dx  δx→0 δx
+
+
+
+                                          Solution Consider a small change so that x goes from x to x + δx. As
+                                          y = x 2 we can find the function value at x + δx by replacing x by x + δx
+                                          giving y + δy = (x + δx)2 . Therefore, the change in y, δy, is given by
+
+                                          (x + δx)2 − x 2 = x 2 + 2xδx + (δx)2 − x 2 = 2xδx + (δx)2
+
+                                          Therefore,
+
+
+
+ww                                        δy
+                                          δx
+                                             =
+                                               2xδx + (δx)2
+                                                    δx
+
+
+   w                      .Ea
+                                          As long as δx does not actually equal 0 we can divide the top and bottom
+                                          line by δx giving
+
+                                          δy
+
+                             syE          δx
+                                             = 2x + δx
+
+
+                                          and therefore
+                                                       ngi
+                                          dy
+                                          dx
+                                                           n
+                                             = lim 2x + δx = 2x
+                                              δx→0
+
+                                                                         eer
+                                          This has shown that
+
+                                                       dy                             ing
+                                          y = x2 ⇒
+                                                       dx
+                                                          = 2x.
+                                                                                                    .ne
+                                                                                                        t
+6.4 Some                                  We begin by listing derivatives of some simple functions (see Table 6.2).
+                                            We can also express the lines of Table 6.2 using d/dx as an operator
+common                                    giving, for instance,
+derivatives                                d n
+                                             (x ) = nx n−1
+ Table 6.2 The derivative                 dx
+ of some simple functions
+                                          This can be read as ‘the derivative of x n is nx n−1 ’ or ‘d by dx of x n is
+ f (x )            f  (x )               nx n−1 ’.
+                                             To see the validity of a couple of entries in Table 6.2, refer to Figure 6.3
+ C                 0
+                                          for the derivative of a constant, C, and Figure 6.4 for the derivative of
+ xn                nx n−1                 cos(x).
+ cos(x )           −sin(x )
+ sin(x )           cos(x )
+ tan(x )           sec2 (x )              Example 6.2      Differentiate
+                                                                         √             √
+                     = 1/ cos2 (x )       (a) x (b) x 5    (c) 1/x 3 (d) x       (e) 1/ x 3
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

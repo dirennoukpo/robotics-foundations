@@ -1,0 +1,78 @@
+              Downloaded From : www.EasyEngineering.net
+
+
+                                                                           Integration 133
+                                                                                 
+                      2x dx is read ‘the integral of 2x with respect to x’. The notation is
+                   like an ‘s’ representing a sum, and its origin will be explained more when
+                   we look at the definite integral.
+                      The second example gives
+                                                      
+                    d
+                       (sin(x) + C) = cos(x) ⇔           cos(x) dx = sin(x) + C
+                   dx
+                   The derivative of sin(x) + C with respect to x is cos(x), which is the
+                   same as saying that the integral of cos(x) with respect to x is sin(x) + C.
+
+                   Constant of integration
+                   Because the derivative of a constant is zero, it is not possible to
+                   determine the exact integral simply through using inverse differentia-
+                   tion. For instance, the derivatives of x 2 + 1, x 2 − 2, and x 2 + 1000, all
+
+ww                 give 2x. Therefore, we express the integral of 2x as x 2 + C, where C is
+                   some constant called the constant of integration.
+                      To find the value that the constant of integration should take in the
+
+   w      .Ea
+                   solution of a particular problem we use some other known information.
+                   Supposing we know that a ball has velocity v = 20 − 10t. We want to
+                   find the distance travelled in time t and we also know that the ball was
+                   thrown from the ground which is at distance 0. We can work out the
+
+             syE   distance travelled by doing ‘inverse differentiation’ giving the distance
+                   s = 20t − 5t 2 + C, where C is the constant of integration. As we also
+                   know that s = 0 when t = 0 we can substitute these values to give 0 = C,
+
+                              ngi
+                   hence, the solution is that s = 20t − 5t 2 .
+                      In solving this problem we used the fact that v = ds/dt and therefore
+                   we know that ds/dt = 20 − 10t. This is called a differential equation
+
+                                  n              eer
+                   because it is an equation and contains an expression including a derivative.
+                   This is one sort of differential equation which can be solved directly
+                   by integrating. Some other sorts of differential equations are solved in
+                   Chapters 8, 10, and 14.
+                                                              ing
+                      In this case, the solution s = 20t − 5t 2 + C represents all possible
+
+
+                   the particular solution.                                .ne
+                   solutions of the differential equation and is therefore called the general
+                   solution. If a value of C is found to solve a given problem, then this is
+
+
+                   Example 7.1
+                   x = 0.
+                                                                               t
+                                    Find y such that dy/dx = 3x 2 given that y is 5 when
+
+                   Solution We know that x 3 , on differentiation, gives 3x 2 , so
+                                     
+                   dy
+                       = 3x 2 ⇔ y = 3x 2 dx ⇔ y = x 3 + C
+                   dx
+                   where C is some constant. This is the general solution to the differential
+                   equation. To find the particular solution for this example use the fact that
+                   y is 5 when x is 0. Substitute in y = x 3 + C to give 5 = 0 + C, so C = 5
+                   giving the particular solution as y = x 3 + 5.
+
+
+
+                   To find the table of standard integrals we take Table 6.3 for differentiation,
+7.3 Finding        swap the columns, rewrite a couple of the entries in a more convenient
+integrals          form and add on the constant of integration. This gives Table 7.1.
+                      As integration is ‘anti-differentiation’ we can spot the integral in the
+                   standard cases, that is, those listed in Table 7.1.
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

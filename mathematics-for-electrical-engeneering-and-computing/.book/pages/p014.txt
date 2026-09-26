@@ -1,0 +1,44 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+
+
+           Acknowledgements
+
+
+
+           I should like to thank my former colleagues in the School of
+
+
+ww
+           Electrical, Electronic and Computer Engineering at South Bank
+           University who supported and encouraged me with my attempts to
+           re-think approaches to the teaching of engineering mathematics.
+
+
+   w.Ea
+              I should like to thank all the reviewers for their comments and the
+           editorial and production staff at Elsevier Science.
+              Many friends have helped out along the way, by discussing ideas or
+           reading chapters. Above all Gabrielle Sinnadurai who checked the orig-
+
+
+       syE inal manuscript of Engineering Mathematics Exposed, wrote the major
+           part of the solutions manual and came to the rescue again by reading
+           some of the new material in this publication. My partner Michael has
+
+
+                     ngi
+           given unstinting support throughout and without him I would never have
+           found the energy.
+
+
+                         n            eer
+                                                  ing
+                                                              .ne
+                                                                  t
+
+
+
+
+                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

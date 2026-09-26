@@ -1,0 +1,98 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+104    Trigonometric functions and waves
+
+                                     disproved. Take as an example A = 45◦ , B = 45◦ , then
+
+                                     cos(A + B) = cos(45◦ + 45◦ ) = cos(90◦ ) = 0,
+                                     cos(A) + cos(B) = cos(45◦ ) + cos(45◦ ) ≈ 0.707 + 0.707 = 1.414,
+
+                                     showing that
+
+                                     cos(A + B) = cos(A) + cos(B) is FALSE.
+
+                                       The correct expression is
+
+                                     cos(A + B) = cos(A) cos(B) − sin(A) sin(B).
+
+                                       The other compound angle identities are as follows:
+
+                                     sin(A + B) = sin(A) cos(B) + cos(A) sin(B)
+
+
+ ww                                  tan(A + B) =
+                                                     tan(A) + tan(B)
+                                                    1 − tan(A) tan(B)
+                                                                      .
+
+
+
+    w                 .Ea
+                                       There are various ways of showing these to be true, in Figure 5.17
+                                     we show that sin(A + B) = sin(A) cos(B) + cos(A) sin(B) by using
+                                     a geometrical argument. Draw two triangles YZW and YWX so that
+                                     ∠A and ∠B are adjacent angles and the two triangles are right angled as
+
+
+                         syE         shown. Draw the lines XX and YY so that they form right angles to each
+                                     other, as shown. Notice that ∠YXY is also ∠A. From WX X, sin(A +
+                                     B) = XX /XW, and as X Y YZ is a rectangle then X Y = ZY. So
+
+                                                ngi
+                                     sin(A + B) =
+                                                    XY + ZY
+                                                      XW
+                                                            =
+                                                              XY
+                                                                 +
+                                                              XW XW
+                                                                   ZY
+                                                                      =
+                                                                        ZY
+                                                                           +
+                                                                        XW XW
+                                                                             XY
+
+
+                                                    n
+                                     As WY/WY = 1 and XY/XY = 1,
+                                                   ZY WY XY XY     eer
+Figure 5.17 sin(A + B) =
+sin(A) cos(B) + cos(A) sin(B).
+                                     sin(A + B) =        +
+                                                   XW WY XW XY
+                                                   ZY WY XY XY                ing
+                                                 =
+                                                   WY XW
+                                                         +
+                                                           XY XW
+                                                                 .
+
+                                                                                           .ne
+                                     sin(A + B) = sin(A) cos(B) + cos(A) sin(B).
+                                                                                               t
+                                     Looking at the triangles containing these sides we can see that this gives
+
+                                        A similar argument can be used for cos(A + B), and tan(A + B) is
+                                     usually found by using the expressions for sin(A + B), cos(A + B), and
+                                     the definition of the tangent in terms of A and B.
+                                                    sin(A + B)   sin(A) cos(B) + cos(A) sin(B)
+                                     tan(A + B) =              =                               .
+                                                    cos(A + B)   cos(A) cos(B) − sin(A) sin(B)
+                                       Divide the top and bottom lines by cos(A) cos(B), giving
+                                                  sin(A) cos(B)     cos(A) sin(B)
+                                                                 +
+                                                  cos(A) cos(B) cos(A) cos(B)
+                                     tan(A + B) =
+                                                  cos(A) cos(B)     sin(A) sin(B)
+                                                                 −
+                                                  cos(A) cos(B) cos(A) cos(B)
+                                                   tan(A) + tan(B)
+                                     tan(A + B) =                   .
+                                                  1 − tan(A) tan(B)
+                                        From these three identities for sin(A+B), cos(A+B), and tan(A+B)
+                                     we can obtain many other expressions. A list of important trigonometric
+                                     identities is given in Table 5.1.
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

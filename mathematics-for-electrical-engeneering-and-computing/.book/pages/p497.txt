@@ -1,0 +1,82 @@
+                                            Downloaded From : www.EasyEngineering.net
+
+
+484        Language theory
+
+                                                Represent the derivation
+
+                                                S⇒SBba⇒SbBaa⇒SaAba⇒bBaAba
+
+                                                as a digraph.
+                   S
+                                                Solution We draw a digraph with a vertex for the start symbol, for each
+                   r1                           production used and for each symbol on the right-hand side of each step
+       S                                        of the derivation. The productions used in this case are
+                   B        b
+                                        a
+      r5                                             S ⇒ SBba          Using r1
+                            r4
+                                                 SBba ⇒ SbBaa          Using r4
+                    b
+  b        B                B       a           SbBaa ⇒ SaAba          Using r2
+                            r2                  SaAba ⇒ bBaAba         Using r5
+                    a       A       b            This is represented as a digraph in Figure 20.1.
+
+ ww
+Figure 20.1 A digraph
+representing the derivation of
+                                                   Context-free grammars have a single symbol on the left-hand side of
+                                                each production. In this case the derivation graph is always a derivation
+
+
+    w
+Example 20.3.                                   tree. We do not need to include a vertex for each rule, but just for the start
+                                                symbol and for each symbol on the right-hand side of each step of the
+
+                            .Ea                 derivation.
+
+
+
+                               syE              Example 20.4      Using the grammar of Example 20.1:
+
+                                                S → (S)B(S) | (S)BN | NB(S) | (S) | NBN | N
+                                                N → 0|1
+                                                B → +|·     ngi
+                                                S ⇒∗ (1 · 1).
+                                                                n
+                                                draw the derivation tree for
+                                                                               eer
+                    S                           Solution The derivation is as follows:     ing
+           (
+                    S
+                                )               S ⇒ (S)                                                  .ne
+               N
+
+               1
+                        B
+
+                        .
+                            N
+
+                            1
+                                                (S) ⇒ (NBN)
+                                                (NBN) ⇒ (1 · 1)                                              t
+Figure 20.2 The derivation                      The derivation tree is shown in Figure 20.2.
+tree for Example 20.4.                             We are able to show that the derivation of a context-free grammar can
+                                                be represented as a derivation tree. However, we want to efficiently solve
+                                                the problem of deciding whether a particular string is a sentence in a
+                                                context-free language. At the end of Chapter 19, we looked at DFSRs
+                                                as an example of the use of state transition diagrams. These are able to
+                                                decide whether a string is a sentence in some regular language. Regular
+                                                languages are a sub-class of context-free languages where the right-hand
+                                                side of all productions are of the form of either a single terminal or
+                                                a terminal followed by a non-terminal. These languages are useful for
+                                                defining the syntax of regular expressions but are not powerful enough to
+                                                be used to define the syntax of a programming language. To build a parser
+                                                for a context-free language we use the idea of a pushdown recognizer.
+                                                This is a machine with a finite number of states, as before, but it also
+                                                has the use of a stack. A stack can be compared to a stack of plates.
+                                                You can only place plates on the top of the stack, when the operation is
+                                                called pushing, and remove them again from the top, called popping. The
+
+                                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

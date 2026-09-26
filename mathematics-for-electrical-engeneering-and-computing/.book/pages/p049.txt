@@ -1,0 +1,38 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+36   Functions and their graphs
+
+
+
+
+ ww
+    w                 .Ea
+                         syE
+                                                 ngi
+                                                     n              eer
+                                                                                ing
+we use: (a) y = x ; (b) y = x 2 ; (c) y = x 3 ; (d) y = 1/x ; (e) y = a x .                   .ne
+Figure 2.10 To sketch graphs using transformations we begin with known graphs. In the rest of this section
+
+
+
+
+                                      The translation f (x ) → (x ) + A                          t
+                                      Adding A on to the function value leads to a translation of A units upwards.
+                                      Examples are given in Figure 2.12.
+
+
+                                      Reflection about the y -axis, x → −x
+                                      Replacing x by −x in the function has the effect of reflecting the graph
+                                      in the y-axis – that is, as though a mirror has been placed along the axis
+                                      and only the reflection can be seen. Examples are given in Figure 2.13.
+
+
+
+                                      Reflection about the x axis,
+                                      f (x ) → −f (x )
+                                      To find the graph of y = −f (x), reflect the graph of y = f (x) about the
+                                      x-axis. Examples are given in Figure 2.14.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

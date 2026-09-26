@@ -1,0 +1,81 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+112   Trigonometric functions and waves
+
+
+
+
+ ww
+Figure 5.28   Solutions of y = tan(x ) and y = 0.1.
+
+
+
+    w                 .Ea
+                                            in Chapter 6 of the Background Mathematics Notes given on the
+                                            companion website for this book.
+                                               There are 2π radians in a complete revolution (360◦ ) and therefore
+                                            π radians = 180◦ .
+
+
+                         syE                1 radian =
+                                                    π
+                                                         180◦
+                                                          π
+                                            1◦ =
+                                                   ngi
+                                                   180
+                                                       radians.
+
+
+
+                                                       n
+                                               The trigonometric ratios can now be defined using a rotating rod
+                                            of length r and the angle, α, made by the rod to the x axis. Then, if
+
+                                                                     eer
+                                            the tip of the rod is at point (x, y):
+                                                    x
+                                            cos(α) = ,
+                                                    r
+                                                            sin(α) =
+                                                                       y
+                                                                       r
+                                                                         ,
+                                                                                 ing
+                                                                             tan(α) =
+                                                                                        y
+                                                                                        x
+                                                                                          =
+                                                                                            sin(α)
+                                                                                            cos(α)
+
+
+                                                                                              .ne
+                                            α is normally expressed in radians, although engineers often use
+                                            degrees. If degrees are intended, then they must be explicitly marked.
+                                       3.
+
+                                                                                                  t
+                                            sin(t) and tan(t) are odd functions, while cos(t) is an even function.
+                                            This can be expressed by
+
+                                            sin(−t) = − sin(t)
+                                            cos(−t) = cos(t)
+                                            tan(−t) = − tan(t)
+
+                                            sin(t) and cos(t) are periodic with period 2π and tan(t) is periodic
+                                            with period π . This can be expressed by
+
+                                            sin(t + 2π n) = sin(t)
+                                            cos(t + 2π n) = cos(t)
+                                             tan(t + π n) = tan(t)
+
+                                            where n ∈ Z.
+                                       4.   For the function y = A cos(ax + b). A is the amplitude, the cycle
+                                            rate (number of cycles in 1 unit) = a/2π , the fundamental period,
+                                            or cycle length, P = 2π/a, the phase is b.
+                                               For a function of time y = A cos (ωt + φ), ω is the angular
+                                            frequency and is measured in radians s−1 . The number of cycles in
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

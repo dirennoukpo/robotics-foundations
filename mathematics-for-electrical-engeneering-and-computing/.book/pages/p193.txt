@@ -1,0 +1,98 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+180   The exponential function
+
+                                 Derivatives
+                                 Derivatives of the hyperbolic functions can be found by reverting to their
+                                 definitions in terms of the exponential function.
+
+                                 Example 8.11     Show that
+
+                                  d
+                                    (sinh(x)) = cosh(x)
+                                 dx
+
+                                 Solution As
+                                             ex − e−x
+                                 sinh(x) =
+                                                 2
+                                 then
+
+
+ww                                d
+                                 dx
+                                    (sinh(x)) =
+                                                 d
+                                                dx
+                                                      x
+                                                      e − e−x
+                                                         2
+                                                              
+
+
+
+
+   w             .Ea             Therefore
+                                              =
+                                                  ex − (−1)e−x
+                                                        2
+                                                               =
+                                                                 ex + e−x
+                                                                     2
+                                                                          = cosh(x).
+
+
+
+
+                    syE           d
+                                 dx
+                                    (sinh(x)) = cosh(x).
+
+
+                                             ngi
+                                 In a way similar to Example 8.6, we can find
+
+                                  d
+                                 dx
+                                 and
+                                                 n
+                                    (cosh(x)) = sinh(x)
+
+                                                               eer
+                                  d
+                                    (tanh(x)) = sech2 (x).                ing
+                                 dx
+
+                                                                                       .ne
+                                 The derivatives of the inverse hyperbolic functions can be found using
+
+                                 functions (in Chapter 5) and give
+                                                                                           t
+                                 the same method as given for the derivatives of the inverse trigonometric
+
+
+                                  d
+                                    (sinh−1 (x)) = √
+                                                       1
+                                 dx                  1 + x2
+                                  d                   1
+                                    (cosh−1 (x)) = √
+                                 dx                  x −1
+                                                      2
+
+                                  d                  1
+                                    (tanh−1 (x)) =        .
+                                 dx                1 − x2
+
+
+8.5 More                         We are now able to add the functions y = ex and y = ln(x), y = a x , y =
+                                 loga (x), and the hyperbolic and inverse hyperbolic functions to the list
+differentiation                  of functions (Table 8.3). By swapping the columns and rearranging some
+and integration                  of the terms in a more convenient fashion, and adding the constant of
+                                 integration, we get a list of integrals (Table 8.4).
+                                    The methods of differentiation and integration of combined functions,
+                                 discussed in Chapters 12 and 13, can equally be applied to exponential
+                                 and logarithmic functions.
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

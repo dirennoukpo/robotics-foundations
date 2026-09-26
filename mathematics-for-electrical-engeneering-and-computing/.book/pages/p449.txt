@@ -1,0 +1,61 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+436    Functions of more than one variable
+              (a)                                           (b)
+
+
+
+
+ ww           (c)                                           (d)
+
+
+
+    w                   .Ea
+                           syE
+                                                        ngi
+               0
+                    0
+                                                            n     0
+                                                                      0
+
+                                                                            eer
+Figure 17.1 Graphs of φ = 4πε0 q/(x + y ) . (a) A perspective view. (b) Contour representation. (c) A
+                                          2     2 1/2
+
+
+value of x .
+                                                                                        ing
+cross-section parallel to the x -axis for a fixed value of y . (d) A cross-section parallel to the y -axis for a fixed
+
+
+
+
+                                           parallel to either one of the x- or y-axes.                .ne
+                                           air pressure. A third way to picture the functions is to take a cross section
+
+
+
+                                           Graphs of functions of two variables                           t
+                                           The function:
+
+                                                    4πε0 q
+                                           φ=
+                                                 (x + y 2 )1/2
+                                                   2
+
+
+                                           represents the electrical potential field of a point source (where z = 0)
+                                           positioned at the origin. Various graphs of this function are shown in
+                                           Figure 17.1: (a) has a perspective view; (b) has a contour representation;
+                                           and (c) and (d) show x and y cross-sections.
+                                             Graphs of the function h = 4 − 2x 2 + y are shown in Figure 17.2.
+
+
+
+                                           From the graphs of functions that we looked at in the last section we can
+17.3 Partial                               see that we are able to take a cross-section either parallel to the x-axis or
+differentiation                            parallel to the y-axis. Each cross-section can be represented by a function
+                                           of one variable only. If we take a cross-section parallel to the x-axis, then
+
+                                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

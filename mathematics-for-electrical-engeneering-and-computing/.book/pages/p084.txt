@@ -1,0 +1,94 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Problem solving and the art of the convincing argument                       71
+
+            Solution
+
+            (a) ∀a, b ∈ R       a 3 − b3 = (a − b)(a 2 + ab + b2 )
+
+            Looking at the right-hand side of the equality we have
+
+            (a − b)(a 2 + ab + b2 )
+                  = a(a 2 + ab + b2 ) − b(a 2 + ab + b2 )    (taking out the brackets)
+                  = a 3 + a 2 b + ab2 − ba 2 − ab2 − b3
+                     (taking out the remaining brackets)
+                  = a 3 − b3   (simplifying)
+
+            We have shown that the right-hand side is equal to the left-hand side
+            ∀a, b ∈ R      a 3 − b3 = (a − b)(a 2 + ab + b2 ) ⇔ a 3 − b3 = a 3 − b3
+
+ww          which is true. Therefore
+            ∀a, b ∈ R      a 3 − b3 = (a − b)(a 2 + ab + b2 )
+
+   w.Ea     is true.
+            (b) ∀t ∈ R where t = 1, t = −1         1/(t + 1) = (t − 1)/(t 2 − 1)
+
+
+       syE  Take the right-hand side of the equality
+             t −1
+                  =
+                         t −1
+            t −1
+              2
+
+
+                  =
+                         ngi
+                    (t − 1)(t + 1)
+                       1
+                                          (factorizing the bottom line)
+
+                                          (dividing the top and bottom line by t − 1
+
+
+            Hence
+                    (t + 1)
+                             n            eer
+                                           which is allowed as t = 1)
+
+
+              1
+            t +1
+                 = 2
+                    t −1
+                   t −1
+                                  ⇔
+                                          1
+                                        t +1
+                                             =
+                                                 1
+                                               t +1
+                                                       ing
+            which is true. Thus,
+                                                       t −1
+                                                                     .ne
+            ∀t ∈ R where t = 1, t = −1
+
+            is true.
+                                                 1
+                                               t +1
+
+
+                                           x2 − 1
+                                                    = 2
+                                                      t −1
+                                                                         t
+            (c)     ∀x ∈ R where x = 0             =x−1
+                                              x
+            To show this is false, substitute a value for x, for example, x = 2. When
+            x=2
+            x2 − 1
+                   =x−1
+               x
+            becomes
+            4−1          3
+                = 2 − 1 ⇔ = 1 ⇔ F.
+             2           2
+            As the predicate fails for one value of x then
+
+            ∀x ∈ R where x = 0        (x 2 − 1)/x = x − 1
+
+            is false.
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

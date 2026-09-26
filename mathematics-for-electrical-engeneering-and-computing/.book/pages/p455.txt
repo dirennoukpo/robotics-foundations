@@ -1,0 +1,118 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+442   Functions of more than one variable
+
+                              We can approximate the error for f using:
+
+                                     ∂f      ∂f
+                              δf ≈      δp +    δq
+                                     ∂p      ∂q
+
+                              to estimate the maximum error in this value for f . If the error in mea-
+                              surement of p and q could be up to 5%, then the maximum errors for p
+                              and q are given by:
+
+                              δp = p × 5/100, substitute p = 0.1, giving δp = 0.005
+                              δq = q × 5/100, substitute q = 0.025, giving δq = 0.00125
+
+                              We also find the first-order partial derivatives for f from the formula for
+                              f in terms of p and q, which we rewrite as
+
+
+
+ww                              1
+                                f
+                                  =
+                                    q +p
+                                     pq
+                                         ⇔f =
+                                               pq
+                                              p+q
+
+
+   w              .Ea
+                               ∂f
+                               ∂p
+                               ∂f
+                                  =−
+
+
+                                  =−
+                                        pq
+                                     (p + q)
+                                        pq
+                                             2
+
+
+                                              +
+                                               +
+                                                  q
+                                                 p+q
+                                                 p
+                                                    =
+                                                     =
+                                                       qp + q 2 − pq
+                                                         (p + q) 2
+
+                                                      p 2 + pq − pq
+                                                                    =
+                                                                     =
+                                                                          q2
+                                                                       (p + q)2
+                                                                         p2
+                                                                               .
+
+                     syE       ∂q    (p + q)2   p+q       (p + q)2
+
+                              Substituting p = 0.1 and q = 0.025 gives
+                                                                      (p + q)2
+
+
+
+                               ∂f
+                               ∂p         ngi
+                                  (0.1, 0.025) = 0.04    and
+                                                               ∂f
+                                                               ∂q
+                                                                  (0.1, 0.025) = 0.64.
+
+
+                                              n               eer
+                              Finally, we can estimate the error for f from
+
+                              δf ≈
+                                   ∂f
+                                   ∂p
+                                      δp +
+                                           ∂f
+                                           ∂q
+                                              δq.
+                                                                        ing
+                                                                                     .ne
+                              At p = 0.1, q = 0.025, we have δp = 0.005, δq = 0.00125, ∂f /∂p =
+                              0.04, and ∂f /∂q = 0.64, which gives δf ≈ 0.04 × 0.005 + 0.64 ×
+                              0.00125 = 0.001.
+                                                                                         t
+                                 This means that the focal length of the lens is 0.02 m with a maximum
+                              error of approximately 0.001 m.
+                                 The chain rule holds whatever variable name we use in place of t, the
+                              parameter to describe the path in the x, y plane. It also holds whatever
+                              path we choose, that is, whatever the functions used for x = g(t) and
+                              y = h(t) (provided all the derivatives exist and are continuous in the
+                              region of the path). Therefore, we can use mathematical shorthand to
+                              give an expression for the total derivative, du:
+
+                                     ∂u      ∂u
+                              du =      dx +    dy.
+                                     ∂x      ∂y
+
+
+
+                              Example 17.5      Given u = x 3 − 3y 2 x + y 2 and x = 2t, y = 1 − 2t, find
+                              du/dt:
+                              (a)   using the chain rule,
+                              (b)   by direct substitution.
+
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,93 @@
+                                            Downloaded From : www.EasyEngineering.net
+
+
+160    Integration
+                                                                                                            
+                                                          (b) Substitute when the integral is of the form f (u)(du/dx)    dx.
+                                                          (c) Use integration by parts when the integral
+                                                                                                         is of the form   u dv,
+                                                              using the formula u dv = uv − v du.
+                                                       (d) Use trigonometric identities to integrate powers of cos(x) and
+                                                              sin(x).
+                                                    4. Integration has many applications, some of which are listed in
+                                                       section 7.4.
+                                                    5. The definite integral, from x = a to x = b, is defined as the area under
+                                                                                                                   b
+                                                       the curve between those two values. This is written as a f (x) dx.
+                                                    6. The mean value of a function is the value the functions would have
+                                                       if it were constant over the range but with the same area under the
+                                                       graph. The mean value from x = a to x = b of y is
+                                                                       b
+                                                              1
+                                                          M=                y dx.
+                                                             b−a        a
+
+
+
+ww                                                  7.    The root mean squared value (r.m.s. value) is the square root of the
+                                                          mean value of the square of y. The r.m.s. value from x = a to x = b
+                                                          is given by
+
+   w                          .Ea                         r.m.s.(y) =
+                                                                      
+                                                                          1
+                                                                        b−a a
+                                                                               b
+                                                                                  y 2 dx.
+
+
+                                 syE                8.    Two methods of numerical integration are: trapezoidal rule and
+                                                          Simpson’s rule, where
+                                                              
+                                                                  ngi
+                                                          A ≈ f (x) dx.
+
+
+
+                                                                
+                                                                      n
+                                                          Trapezoidal rule
+                                                                                        eer
+                                                          A = h 21 y0 + y1 + y2 + · · · + yN −1 + 21 yN
+                                                                                                        
+
+                                                          Simpson’s rule
+                                                                                                        ing
+                                                                h
+                                                                                                                     .ne
+                                                          A = (y0 + 4y1 + 2y2 + 4y3 + 2y4 + · · · + 2yN −2 + 4yN −1 + yN ).
+                                                                3
+                                                          In both cases, xr = a + rh and N = (b − a)/h. For Simpson’s
+                                                                                                                         t
+                                                          rule, N must be even. h is called the step size and N is the number
+                                                          of steps.
+
+7.9 Exercises
+                                                                                                                
+7.1. Find the following integrals                                                          cos(x)
+                                                                              (k)                     dx   (l)       (x 2 +x−6)(2x+1) dx
+                                                                                      (1 + sin(x))2
+     (a) (x 3 + x 2 ) dx     (b) 2 sin(x)+ sec2 (x) dx                                                           2
+                                                                                            4x 2
+                                                                            (m)                 dx       (n)            x cos(x) dx
+                1                                                                        (x − 7)2
+                                                                                           2
+                                                                                                                     1
+      (c)          dx            (d)       (1 + x + 3x ) dx
+                                                    2         3
+                                                                                                                 4
+                x2                                                                                                         √
+                                                                            (o)       x 2 cos(x) dx      (p)            x x − 1 dx
+      (e)       (1 − 5x) dx      (f)       cos(2 − 4x) dx                                                            2
+                                                                                                                 π/2
+                                      
+                √                               1                             (q)       x(2x − 3)4 dx      (r)              sin5 (x) dx
+      (g)        2x − 1 dx       (h)        √            dx                                                          0
+                                             x+2                                                                
+                                                                           (s)       cos4 (x) dx        (t)           sin(3x) cos(5x)dx.
+      (i)       x(x 2 − 4)3 dx   (j)       x (1 + x 2 ) dx
+
+
+
+
+                                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

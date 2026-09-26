@@ -1,0 +1,51 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+                                                                     Functions and their graphs           31
+
+                                    Example 2.4
+                                    (a)   Sketch the graph of y = 4x − 2.
+                                            To find where the graph crosses the y-axis, substitute x = 0 into
+                                          the equation of the line:
+
+                                          y = 4(0) − 2 = −2.
+
+                                          This means that the graph passes through the point (0,−2).
+                                             To find where the graph crosses the x-axis, substitute y = 0,
+                                          that is,
+
+                                          4x − 2 = 0
+                                             ⇔     4x = 2
+                                                        2
+                                             ⇔     x=     = 0.5.
+                                                        4
+
+ww                                         Therefore, the graph passes through (0.5, 0).
+                                           Mark the points (0,2) and (0.5,0), on the x- and y-axes and join
+
+
+   w                .Ea
+                                        the two points. This is done in Figure 2.3(a).
+                                    (b) Sketch the graph of y = −4x When x = 0 we get y = 0, that is
+                                        the graph goes through the point (0,0). In this case, as the graph
+                                        passes through the origin, we need to choose a different value for x
+                                        for the second point. Taking x = 2 gives y = −8, so another point
+
+                       syE              is (2, −8). These points on marked on the graph and joined to give
+                                        the graph as in Figure 2.3(b).
+
+
+                                              ngi
+                                                  n             eer
+                                                                            ing
+                                                                                         .ne
+                                                                                             t
+
+
+Figure 2.3 (a) The graph of
+y = 4x − 2. (b) The graph of
+y = −4x .
+
+
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

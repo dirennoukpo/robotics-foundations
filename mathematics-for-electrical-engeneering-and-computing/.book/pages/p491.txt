@@ -1,0 +1,68 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+478    Graph theory
+
+
+
+
+Figure 19.31 Graphs for Exercise 19.4.
+
+
+
+
+ ww
+    w                   .Ea
+                           syE
+      Figure 19.32 Graph for Exercise 19.5.
+                                                                     Figure 19.35 The network for
+                                                                     Exercise 19.8.
+
+
+                                                      ngi                ‘money available’ is (TRUE, FALSE) depending
+
+
+                                                          n              on whether the cash available in the machine is
+
+
+                                                                          eer
+                                                                         sufficient for the current request.
+                                                                         ‘card’ is TRUE or FALSE.
+                                                                         ‘PIN number’ is TRUE or FALSE indicating
+
+                                                                         current card
+                                                                                           ing
+                                                                         whether any given pin number matches for the
+
+
+
+
+                                                                                                       .ne
+                                                                         ‘authorization’ is TRUE or FALSE.
+                                                                         ‘display’ is ‘Insert card’, ‘Enter PIN’, ‘Enter
+                                                                         amount’, ‘Take card’, ‘Take Money’, ‘Sorry –
+      Figure 19.33 Graph for Exercise 19.6.                              unable to complete request’.
+                                                                         ‘money issued’ is TRUE or FALSE.
+                                                                                                           t
+                                                                     List all the possible states of the ATM and draw a state
+                                                                     transition diagram.
+
+                                                              19.10. Figure 19.36 shows a deterministic finite state recog-
+                                                                    niser (DFSR) for a language consisting of strings of the
+                                                                    letters a, b, and c. Use the method of Example 19.5 to
+                                                                    determine whether the following strings are accepted
+                                                                    by the DFSR
+
+                                                                                           b
+      Figure 19.34 The network for
+      Exercise 19.7.                                                                   b       B   c
+      flow from s to t. Use the max-flow, min-cut theorem                          S                    H
+      to check you have found the maximum flow.                                                    c
+                                                                                       a       A
+19.9. A bank’s automatic telling machine (ATM) is charac-
+      terized by the following attributes {money available,          Figure 19.36      A DFSR for Exercise 19.10.
+      card, PIN number, authorization, display, money
+      issued}.                                                       (a) bbbc, (b) abc, (c) acb.
+
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,72 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                           Probability and statistics           511
+
+
+21.7                                   The probabilities we have been writing along the branches of the
+                                       probability tree are called conditional probabilities.
+Conditional
+                                       Example 21.9 What is the probability that the first throw of a die will
+probability and                        be a 5 and the second throw will be a 5 or 6?
+probability trees                      Solution A is the set of those outcomes with the first throw a 5 and B
+                                       is the set of those outcomes with the second throw a 5 or 6. We can use a
+                                       probability tree in the following way. After the first throw of the die either
+                                       A is true or not, that is, we have only two possibilities, A or A . After
+                                       that, we are interested in whether B happens or not. Again we either get
+                                       B or B . We get the probability tree as in Figure 21.13.
+                                          Here, p(B|A) means the probability of B given A, similarly p(B|A )
+                                       means the probability of B given (not A). We can fill in the probabilities
+                                       using our knowledge of the fair die. The probability of A is 1/6. The
+
+
+ww                                     second throw of the die is unaffected by the throw first throw of the die;
+                                       therefore
+                                       p(B) = p(throwing a 5 or a 6 on one throw of the die) = 26 = 13 .
+
+   w                  .Ea              Working out the other probabilities gives the probability tree in
+                                       Figure 21.14.
+
+
+                         syE
+                                          The probability that the first throw of a die will be a 5 and the second
+                                       throw will be a 5 or 6 is p(B ∩ A), given from the tree in Figure 21.14 as
+
+                                       6 × 3 = 18 .
+                                       2   1    1
+
+
+                                                  ngi
+                                       Notice that the probability we have calculated is the intersection of the two
+
+
+                                                      n
+                                       events A and B, that is, we calculated the probability that both occurred.
+
+
+                                                                     eer
+                                       When multiplying the probabilities on the branches of the probability tree
+                                       we are using the following:
+                                       p(A ∩ B) = p(A)p(B|A).
+
+                                                                                  ing
+                                       Furthermore, because of independence we have used the fact that
+
+                                                                                               .ne
+                                       p(B|A) = p(B). That is, the probability of B does no depend on whether
+                                       A has happened or not: B is independent of A. We, therefore, have the
+                                       following important results.
+
+                                                                                                   t
+
+Figure 21.13 A probability tree showing conditional probabilities.
+
+
+
+
+Figure 21.14 The
+probability for Example 21.9.
+
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

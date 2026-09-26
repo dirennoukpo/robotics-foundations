@@ -1,0 +1,93 @@
+                      Downloaded From : www.EasyEngineering.net
+
+
+140   Integration
+
+                          Example 7.8       Find
+                          
+                                 3x
+                                           dx.
+                              (x 2 + 3)4
+
+
+                          Solution Substitute u = x 2 + 3. Then du/dx = 2x ⇒ du = 2x dx ⇒
+                          dx = du/2x. The integral becomes
+                                          
+                               3x du             3 −4
+                                      =            u du
+                              (u)4 2x            2
+
+                          which can be integrated, giving
+
+                          3 u−4+1         1
+                                     + C = u−3 + C.
+
+ww                        2 (−4 + 1)      2
+
+                          Re-substituting for u = x 2 + 3 gives
+
+   w                .Ea
+                          
+                                 3x
+                              (x 2 + 3)4
+                                                 1
+                                           dx = − (x 2 + 3)−3 + C = −
+                                                 2
+                                                                           1
+                                                                      2(x + 3)3
+                                                                         2
+                                                                                + C.
+
+
+
+                       syECheck:
+                                           
+                           d
+                          dx
+                                 1 2
+                                        ngi     1                d
+                               − (x + 3) + C = − (−3)(x 2 + 3)−4 (x 2 + 3).
+                                 2
+                                        −3
+                                                2               dx
+
+
+                                            n               eer
+                          Using the function of a function rule, we get
+
+
+
+                                                                       ing
+                           1                                         3x
+                          − (−3)(x 2 + 3)−4 (2x) = 3x(x 2 + 3)−4 = 2       .
+                           2                                      (x + 3)4
+
+
+
+                                                                             .ne
+                          Example 7.9         cos2 (x) sin(x) dx.
+                                            Find
+                                                                                 t
+                          Solution This can be rewritten as (cos(x))2 sin(x) dx. Substitute
+                          u = cos(x), then du/dx = − sin(x), so du = − sin(x) dx, or
+                          dx = −du/ sin(x). The integral becomes
+                                                      
+                                             du
+                              u2 sin(x)            =       −u2 du.
+                                          − sin(x)
+
+                          Integrating gives
+
+                              u3
+                          −      + C.
+                              3
+
+                          Re-substitute for u, giving
+                          
+                                                           cos3 (x)
+                              (cos(x))2 sin(x) dx = −               + C.
+                                                              3
+
+
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

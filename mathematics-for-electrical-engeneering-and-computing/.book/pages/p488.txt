@@ -1,0 +1,127 @@
+                                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                                                                       Graph theory   475
+                    Table 19.8              The states of a telephone
+
+                    State (off-hook, connected, dialing, tone, bell)                                           State name
+
+                    (TRUE, TRUE, FALSE, none, OFF)                                                             Connected
+                    (TRUE, FALSE, TRUE, none, OFF)                                                             In process of dialing
+                    (TRUE, FALSE, FALSE, dial tone, OFF)                                                       Prepared for dialing
+                    (TRUE, FALSE, FALSE, engaged, OFF)                                                         Engaged
+                    (TRUE, FLASE, FALSE, ringing, OFF)                                                         Waiting to connect
+                    (TRUE, FALSE, FALSE, error, OFF)                                                           Incorrect number or timeout
+                    (TRUE, FALSE, FALSE, dead, OFF)                                                            Connection fault
+                    (FALSE, FALSE, FALSE, none, OFF)                                                           Idle
+                    (FALSE, FALSE, FALSE, none, ON)                                                            Incoming call
+
+
+
+                                                                                                             iver
+                                                                                              Pick up rece                            Connection fault
+
+
+ww                                          rn
+                                               umb
+                                                   e  r
+                                                                           Idle                     Replace rece
+                                                                                                                          iver
+
+
+
+   w                So
+                      me
+                         o
+
+                           .Ea
+                           ne
+                              call
+                                  sy
+                                      ou
+
+
+                                      W
+                                       ait                                        Pick up
+                                                                                  receiver
+                                                                                                 lace
+                                                                                             Rep iver
+                                                                                              rece
+                                                                                                        Re
+                                                                                                          pl
+                                                                                                              ac
+                                                                                                                er
+                                                                                                                                 Re
+                                                                                                                                   pla
+                                                                                                                                       ce
+
+
+                              syE
+                                                                                                                     ec                     rec
+                                                                                                                       eiv
+                                                              e receiv                                                    er                   eiv
+          Incoming call                                                                Prepared                                                   er
+                                                                      er                  for                Wa
+                                                                                                                it
+                                                                                        dialing
+
+
+                                                                                    ngi
+                                                                                                                                  Incorrect
+                                        iver                Replac          Dial a                                                 number
+                                       rece         iver                   number                Dial a                          or timeout
+                                                                                                 number
+
+
+
+         Pick up
+                                  Rep
+                                     lace
+                                               lace
+                                             Rep
+                                                   rece
+                                                                           In process
+                                                                           of dialing   n                          Wai
+
+                                                                                                                   eer
+                                                                                                                       t
+
+                                                                                                                            Dial a
+                                                                                                                                                         Engaged
+
+
+
+
+                                                                                                                                            ing
+         receiver                                                                                                           number
+                                                          Dial a                                 Dial a
+                                                          number                                 number
+
+
+                                                    Waiting
+                                                     to be
+                                                                                                                                                         .ne
+                                                                                                                                                             t
+                                                   connected
+                                  Wait
+
+             Connected
+
+
+Figure 19.28 State transition diagram for the telephone as in Example 19.4.
+
+
+                                                            transitions labelled by event names. A state is drawn as a rounded box
+                                                            containing an optional name. A transition is drawn as an arc with the
+                                                            arrow from the receiving state to the target state. The label on the arrow
+                                                            is the name of the event causing the transition. State transition diagrams
+                                                            have a number of applications. They are used in object-oriented modelling
+                                                            techniques to represent the life cycle of an object. They can be used as
+                                                            a finite state recognizer for a regular language, for instance, to describe
+                                                            regular expressions used as variables in computer languages.
+
+                                                            Example 19.4 A telephone has the attributes of off-hook (TRUE,
+                                                            FALSE), connected (TRUE, FALSE), dialing (TRUE, FALSE), tone (dial
+                                                            tone , engaged, ringing, error, dead or none), and bell (ON, OFF). These
+
+                                                                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

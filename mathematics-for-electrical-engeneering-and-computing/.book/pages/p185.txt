@@ -1,0 +1,77 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+172   The exponential function
+
+                                 k = ln(2). As
+
+                                 d kt
+                                    (e ) = kekt
+                                 dt
+
+                                 then
+
+                                 d ln(2)t
+                                    (e    ) = ln(2)et ln(2)
+                                 dt
+
+                                 Using again the fact that eln(2)t = (eln(2) )t = 2t we get
+
+                                 d t      d
+                                    (2 ) = (eln(2)t ) = ln(2)eln(2)t = ln(2)2t
+
+ww                               dt       dt
+
+
+
+   w
+                                 that is
+
+
+                 .Ea             d t
+                                 dt
+                                    (2 ) = ln(2)2t
+
+
+                    syE          Compare this result to that which we found by sketching the derivative of
+                                 y = 2t in Figure 8.2(b). We said that the derivative graph was a squashed
+
+                                              ngi
+                                 version of the original graph. This result tells us that the scaling factor
+                                 is ln(2) ≈ 0.693, which confirms our observation that the scaling factor,
+                                 C < 1.
+                                                  n             eer
+                                    Using the same argument for any exponential function y = a t we find
+                                 that dy/dt = ln(a)a t .
+
+
+                                                                             ing
+                                    In finding these results we have used the fact that an exponential
+                                 function, to whatever base, a, can be written as ekt where k = ln(a).
+
+
+
+                                 The derivative of y = ln(x )
+                                                                                          .ne
+                                                                                              t
+                                 y = ln(x) is the inverse function of f (x) = ex , and therefore we can find
+                                 the derivative in a manner similar to that used to find the derivatives of
+                                 the inverse trigonometric functions in Chapter 5.
+
+
+                                 y = ln(x) where x > 0
+                                   ⇔       ey = eln(x) (take the exponential of both sides)
+                                   ⇔       ey = x (as exp is the inverse function to ln, eln(x) = x)
+
+
+                                 We wish to differentiate both sides with respect to x but the left-hand side
+                                 is a function of y, so we use the chain rule, setting w = ey , thus, equation
+                                 ey = x becomes w = x and dw/dy = ey .
+                                    Differentiating both sides of w = x with respect to x gives dw/dx = 1,
+                                 where
+
+                                 dw   dw dy
+                                    =
+                                 dx   dy dx
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

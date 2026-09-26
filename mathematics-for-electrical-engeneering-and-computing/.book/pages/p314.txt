@@ -1,0 +1,79 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                   301
+
+            Example 13.7              Given
+                                                      
+               2             −1            2        1   8
+            A=                    ,     B=
+               6             3             −1       0   1
+
+            find AT and BT
+
+            Solution The first row of A is (2 − 1) therefore this is the first column
+            of AT . The second row of A is (6 3) therefore this is the second column
+            of AT . This gives AT as follows.
+                                 
+                2               6
+            A = T
+                −1              3
+
+            Similarly
+
+ww               2
+                    
+                              −1
+                                 
+
+
+   w        B = 1            0
+             T
+
+                 8            1
+
+    .Ea
+       syE  Some special types of matrices
+                         ngi
+            A square matrix has the same number of rows as columns.
+            
+                2
+                6
+                    −1
+                    3
+                         
+                             n                    eer
+            is a square matrix of dimension 2.
+                                                             ing
+            
+              8 6
+            −3 1
+                             2
+                             0
+                               
+
+                                                                     .ne
+              3 2            1
+
+            is a square matrix of dimension 3.
+                                                                         t
+               A square matrix has a leading diagonal, which comprises the elements
+            lying along the diagonal from the top left-hand corner to the bottom right-
+            hand corner as marked below. These elements have the same row number
+            as they have column number.
+                         
+              8. . . 6 2
+                    .
+            −3 .1. . . 0
+                        .
+              3 2 1
+
+            The leading diagonal is shown by the dotted line in the above matrix.
+              A diagonal matrix is a square matrix which has zero elements
+            everywhere except, possibly, on its leading diagonal, for example
+                              
+             4       0       0
+            0      −2       0
+             0       0       3
+
+                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

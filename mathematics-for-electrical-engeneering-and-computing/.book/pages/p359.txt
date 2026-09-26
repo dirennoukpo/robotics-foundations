@@ -1,0 +1,67 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+
+
+           14                        Differential
+                                     equations and
+                                     difference
+                                     equations
+ ww
+    w                  .Ea
+14.1                                 In order to model most physical situations we need to simplify their
+
+Introduction              syE        description. The idea of a system is central to this simplification. We
+                                     identify the important elements that interact within the system. The only
+                                     external interactions characterized as system inputs and the outputs are
+
+                                                ngi
+                                     the quantities related to the system behaviour which we are interested
+                                     in measuring. For instance, in examining the suspension system of a car
+
+
+                                                    n
+                                     we consider the system input to be forces exerted on the wheels of the
+
+
+                                                                  eer
+                                     car. The important elements in the system are the mass of the car and the
+                                     springs and dampers used to connect the body of the car to the suspension
+                                     links. We are interested in measuring the amount of vertical movement
+
+                                                                               ing
+                                     of the car and the velocity of that movement in response, mainly, to a
+                                     bumpy road. We can examine the behaviour of the system for various
+
+
+                                                                                            .ne
+                                     external forces – building up a picture of how the system behaves in
+                                     normal driving conditions. We do not need to concern ourselves with an
+
+
+                                                                                                t
+                                     exact model of the surface of the major motorways. In this way we have
+                                     managed to separate the problem of modelling the system from modelling
+                                     the environment in which it is operating. A system with a single input
+                                     and output is pictured in Figure 14.1.
+                                        Dynamic physical processes involve variables which are interdepend-
+                                     ent and constantly changing. When modelling the system we will obtain
+                                     relationships between variables, many of which will be related through
+Figure 14.1 A system has             derivatives. Even in a simple system with a mass, spring, and damper,
+an input f (t ) which produces
+an output response y (t ).
+                                     there are many variables which can be identified, for example the exten-
+                                     sion of the spring, and its velocity and acceleration, the potential energy
+                                     stored in the spring and the force exerted by it, and the force exerted by
+                                     the damper. A choice of variables that completely describe the system is
+                                     an important task in systems analysis. These variables are then called the
+                                     state variables. These can be related to each other and the system inputs
+                                     through a system of first-order differential equations which are found by
+                                     using scientific laws and engineering principles to model the system. The
+                                     system output, which is some quantity that we wish to compare with
+                                     the response of a real system, can then be calculated from the values of
+                                     the state variables.
+                                        A differential equation is one that involves some derivatives of the
+                                     dependent variable, for example, dy/dt = ky is a differential equation.
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

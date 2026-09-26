@@ -1,0 +1,93 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+218    Complex numbers
+
+
+10.6                               An alternating current (AC) electrical circuit consisting of resistors,
+                                   capacitors, and inductors can be analysed using the relationship
+Applications of
+                                   V = ZI
+complex
+                                   where V is the voltage, Z the impedance, and I the current and V , Z, and
+numbers to AC                      I are all complex quantities.
+linear circuits                      Each component has a complex impedance associated with it and for
+                                   two components in series, as in Figure 10.12(a), the resultant impedance
+                                   ZR is found by the formula
+
+                                   ZR = Z1 + Z2
+
+                                     For two components in parallel, as in Figure 10.12(b), the resultant
+                                   impedance is given by
+
+
+ ww                                 1
+                                   ZR
+                                      =
+                                        1
+                                        Z1
+                                           +
+                                             1
+                                             Z2
+
+
+    w
+Figure 10.12
+
+                      .Ea
+(a) Components in series.
+(b) components in parallel.
+                                     In the case of parallel circuit elements, it may be easier to calculate the
+                                   admittance, the reciprocal of the impedance Y = 1/Z. Then use the fact
+                                   that for circuit elements in parallel
+
+                                   YR = Y1 + Y2 and V = I /Y .
+
+                         syE         The real part of Z is called the resistance and the imaginary part is
+                                   called the reactance.
+
+                                   Z = R + jS
+                                                 ngi
+                                                 Z=R
+                                                     n
+                                   where R is the resistance in ohms and S is the reactance in ohms.
+
+                                                                  eer
+                                     The impedances of circuit elements are as follows:
+
+
+
+                                                                              ing
+                                   Resistor                                    No reactive element
+                                   Capacitor     Z = 1/(jωC) = −j/(ωC)         Purely reactive
+                                   Inductor      Z = jωL                       Purely reactive
+
+                                                                                           .ne
+                                   where ω is the angular frequency of the source, ω = 2πf , f is the
+                                   frequency in Hz, R is the resistance (in ohms) , C is the capacitance (in
+                                   farads), and L is the impedance (in henries).
+
+                                   Example 10.13 Find the impedance of the circuit shown in
+                                   Figure 10.13(a) at 20 kHz where L = 2 mH, C = 100 µF, and
+                                                                                               t
+                                   R = 2000 . Assuming a voltage amplitude of 300 V, calculate the
+                                   current I and relative phase.
+                                   Solution The impedances of the elements are shown in Figure 10.13(b).
+                                   As we are given that f , the frequency of the input, is 20 kHz, ω = 2π f =
+                                   2π × 20 × 103 . As the elements are in series, we can sum the impedances
+                                                      j
+                                   Z = R + jωL −
+                                                     ωC
+                                     = 2000 + j2π × 20 × 103 × 2 × 10−3
+Figure 10.13 (a) The circuit
+                                                            j
+for Example 10.13. (b) The              −
+impedances of the circuit                   2π × 20 × 103 × 100 × 10−6
+elements shown on an
+Argand diagram. As the             giving
+elements are in series, the                            
+                                                  1
+resultant is found by taking       2000 + j 80 −            ≈ 2000 + j251.2
+the sum of the impedances of                     4π
+the components.
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

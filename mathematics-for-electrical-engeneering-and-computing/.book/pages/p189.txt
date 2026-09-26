@@ -1,0 +1,84 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+176   The exponential function
+
+                                 into the right-hand side of the expression
+
+                                 cosh(A) cosh(B) + sinh(A) sinh(B)
+                                         (eA + e−A ) (eB + e−B ) (eA − e−A ) (eB − e−B )
+                                     =                                                   .
+                                              2           2           2           2
+
+                                 Multiplying out the brackets gives
+                                     
+                                 1
+                                 4    eA+B + eA−B + e−A+B + e−(A+B)
+                                                                      
+                                     +(eA+B − eA−B − e−A+B + e−(A+B) ) .
+
+                                 Simplifying then gives
+
+
+
+ww
+                                       A+B
+                                 4 (2e
+                                 1
+                                           + 2e−(A+B) ) = 21 (eA+B + e−(A+B) )
+
+                                 which is the definition of cosh(A + B).
+
+   w             .Ea
+                                    We have shown that the right-hand side of the expression is equal to
+                                 the left-hand side, and therefore
+
+                                 cosh(A + B) = cosh(A) cosh(B) + sinh(A) sinh(B).
+
+                    syE
+                                             ngi
+                                 Inverse hyperbolic functions
+                                 The graphs of the inverse hyperbolic functions sinh−1 (x), cosh−1 (x), and
+
+                                                 n
+                                 tanh−1 (x) are given in Figure 8.7.
+
+                                                               eer
+                                    As cosh(x) is not a one-to-one function, it has no true inverse. However,
+                                 if we limit x to zero or positive values only then cosh−1 (x) is indeed the
+
+
+                                 tanh−1 (x) is defined for −1 < x < 1.
+                                                                           ing
+                                 inverse function and cosh−1 (cosh(x)) = x. The sinh−1 (x) function is
+                                 defined for all values of x, but cosh−1 (x) is defined for x ⩾ 1 only and
+
+
+                                                                                         .ne
+                                    As the hyperbolic functions are defined in terms of the exponential
+                                 function we might suspect that the inverse would be defined in terms of
+                                 the logarithm. The logarithmic equivalences are
+                                                     
+                                 sinh−1 (x) = ln x + x 2 + 1 for all x
+                                                                                             t
+                                                     
+                                 cosh−1 (x) = ln x + x 2 − 1 x ⩾ 1
+                                                        
+                                     −1        1     1+x
+                                 tanh (x) = ln              −1<x <1
+                                               2     1−x
+
+
+                                                                                       √
+                                 Example 8.9       Show that sinh−1 (x) = ln(x +           x 2 + 1) using the
+                                 definitions
+
+                                 y = sinh−1 (x) ⇔ sinh(y) = x
+
+                                 and
+
+                                             ey − e−y
+                                 sinh(y) =
+                                                 2
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

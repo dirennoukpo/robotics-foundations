@@ -1,0 +1,79 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                          Integration     157
+
+
+
+
+Figure 7.12 The trapezoidal
+rule is found by approximating
+each of the strips as a
+trapezium.
+
+
+
+
+                                      The formula becomes:
+
+
+                                                                                   
+
+ww                                    A = h 21 y0 + y1 + y2 + · · · + yN −1 + 21 yN
+
+
+
+   w                 .Ea
+                                      where xr = a + rh.
+
+
+
+
+                        syE           yr = f (xr )
+
+                                      N=
+                                              (b − a)
+                                                 h
+                                                      .
+
+                                                      ngi
+                                                          n
+                                      A computer program would more likely use the equivalent recurrence
+
+                                                                       eer
+                                      relation, where Ar is the area up to rth strip (at x = xr )
+
+
+
+                                      Ar = Ar−1 +
+                                                          h
+                                                            (yr−1 + yr )        ing
+                                                          2
+
+                                                                                           .ne
+                                      for r = 1 to N and A0 = 0.
+                                                                                               t
+                                         This is simply stating that the area is found by adding on the area of
+                                      one strip at a time to the previously found area.
+
+
+
+
+                                      Example 7.24          We wish to approximate
+
+
+                                       3
+                                            x 2 dx.
+                                       1
+
+
+
+                                      The limits of the integration are 1 and 3, so a = 1 and b = 3. We choose
+                                      a step size of 0.5, therefore,
+
+
+                                              (b − a)   (3 − 1)
+                                      N=              =         = 4.
+                                                 h        0.5
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

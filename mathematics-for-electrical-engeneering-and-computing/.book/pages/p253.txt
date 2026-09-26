@@ -1,0 +1,88 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+240   Maxima and minima and sketching functions
+
+                                                         stationary point. The classifications are summarized
+                                                         below.
+
+
+
+
+                                      dy /dx before     →   0    →    dy /dx after   Type of stationary point
+
+                                             +          →   0    →          −        Maximum point
+                                             −          →   0    →          +        Minimum point
+                                             +          →   0    →          +        Point of inflexion
+                                             −          →   0    →          −        Point of inflexion
+
+                                      These results are summarized in Figure 11.3.
+
+
+
+
+ ww                                          Method 2    Find the second derivative, d2 y/dx 2 and substitute
+                                                         in turn each of the values of x found in Step 1 (the
+
+
+    w                 .Ea
+                                                         values of x at the stationary points).
+
+                                                         If d2 y/dx 2 is negative, this indicates that there is a
+                                                         maximum point.
+
+stationary points: (a) a syE
+Figure 11.3 Distinguishing
+
+maximum point; (b) a
+                                                         If d2 y/dx 2 is positive, this indicates that there is a
+                                                         minimum point.
+                                                         However, if d2 y/dx 2 = 0, then the test is inconclu-
+minimum point; (c) two points
+of inflexion. The sign of the
+slope of the curve, given by                     ngi     sive and we must revert to Method 1.
+
+dy/dx, are marked on either
+side of the stationary point.
+                                    Step 3
+
+                                    Step 4           n
+                                             Find the values of y at the maximum and minimum points to
+
+
+                                                                  eer
+                                             give the co-ordinates of the turning points.
+                                             The overall maximum or minimum values of the function can be
+                                             found in the following way, as long the function is continuous
+
+                                                                                ing
+                                             over the values of x of interest. Substitute the boundary values
+                                             of x into the function to find the corresponding values for y.
+
+                                             to find the overall maximum and minimum.
+                                                                                            .ne
+                                             Compare the values of y found in Step 3 to these boundary values
+
+
+
+                                                                                                t
+                                    Example 11.2 Find and classify the stationary points of y = x 3 −9x 2 +
+                                    24x +3 and find the overall maximum and minimum value of the function
+                                    in the range x = 0 to x = 5.
+
+                                    Solution
+                                      Step 1. First, we must solve dy/dx = 0
+
+
+                                                                      dy
+                                    y = x 3 − 9x 2 + 24x + 3 ⇒           = 3x 2 − 18x + 24
+                                                                      dx
+
+                                    So we put
+
+
+                                    3x 2 − 18x + 24 = 0
+                                       ⇔     x 2 − 6x + 8 = 0     (dividing by 3)
+                                       ⇔     (x − 2)(x − 4) = 0
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

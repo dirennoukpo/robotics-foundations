@@ -1,0 +1,110 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                               The exponential function          185
+
+            Again, we can use partial fractions. Because of the repeated factor in the
+            denominator we use both a linear and a squared term in that factor. We
+            need to find A, B, and C so that
+
+                   x2             A       B         C
+                             =        +        +
+            (x + 2)(2x − 1)2   (x + 2) (2x − 1) (2x − 1)2
+
+            where this should be true for all values of x.
+              Multiply by (x + 2)(2x − 1)2 to get
+
+            x 2 = A(2x − 1)2 + B(2x − 1)(x + 2) + C(x + 2)
+
+            This is an identity, so we can substitute values for x
+
+            substitute x = 21   giving 0.25 = C(2.5)     ⇔     C = 0.1
+            substitute x = −2    giving 4 = A(−5)   2
+                                                         ⇔     A = 4/25 = 0.16
+
+ww          substitute x = 0    giving 0 = A + B(−1)(2) + C(2).
+
+
+
+   w.Ea
+            Using the fact that A = 0.16 and C = 0.1, we get
+
+            0 = 0.16−2B+0.2 ⇔ 0 = 0.36−2B ⇔ 2B = 0.36 ⇔ B = 0.18.
+
+
+
+       syE  Then we have
+            
+                      x2
+                                dx =
+                                      
+                                           0.16
+                                                 +
+                                                     0.18
+                                                             +
+                                                                  0.1
+                                                                       dx
+
+                       ngi
+               (x + 2)(2x − 1)2
+
+              = 0.16 ln(x + 2) +
+                                  0.18
+                                         (x + 2) (2x − 1) (2x − 1)2
+
+                                       ln(2x − 1) −
+                                                    0.1
+                                                        (2x − 1)−1 + C
+
+                           n       2
+
+
+                                          eer
+              = 0.16 ln(x + 2) + 0.09 ln(2x − 1) −
+                                                     2
+                                                       0.05
+                                                    (2x − 1)
+                                                              + C.
+
+
+            Check:
+               
+                                                     ing     
+             d
+            dx
+                0.16 ln(x + 2) + 0.09 ln(2x − 1) −
+                                                    0.05
+                                                   2x − 1
+                                                          +C
+                                                                     .ne
+               =
+
+               =
+                  d
+                 dx                                                      t
+                    (0.16 ln(x + 2) + 0.09 ln(2x − 1) − 0.05(2x − 1)−1 + C)
+
+                   0.16
+                         +
+                               0.09
+                                     (2) + 0.05(2)(2x − 1)−2
+                 (x + 2) (2x − 1)
+                   0.16        0.18         0.1
+               =         +            +           .
+                 (x + 2) (2x − 1) (2x − 1)2
+
+            Writing this over a common denominator gives
+
+            0.16(2x − 1)2 + 0.18(2x − 1)(x + 2) + 0.1(x + 2)
+                            (x + 2)(2x − 1)2
+                   0.16(4x 2 − 4x + 1) + 0.18(2x 2 + 3x − 2) + 0.1x + 0.2
+               =
+                                      (x + 2)(2x − 1)2
+                   0.64x 2 − 0.64x + 0.16 + 0.36x 2 + 0.54x − 0.36 + 0.1x + 0.2
+               =
+                                         (x + 2)(2x − 1)2
+                          x2
+               =                    .
+                   (x + 2)(2x − 1)2
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

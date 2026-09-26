@@ -1,0 +1,93 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+510    Probability and statistics
+
+
+
+
+Figure 21.12 Probability tree for three trials of picking a ball out of a bag without replacement.
+
+
+
+                                             The first three rules given in the last example apply.
+
+
+ ww                                     1.    The probabilities of outcomes associated with each of the vertices
+                                              can be found by multiplying all the probabilities along the branches
+                                              leading to it from the top of the tree. BRB has the probability:
+
+    w                  .Ea
+                                               10 10
+                                                 ×   ×
+                                               20 19 18
+                                                       9
+                                                         =
+                                                            900
+                                                           6840
+                                                                =
+                                                                   1
+                                                                  76
+                                                                     .
+
+
+
+                          syE           2.    At each level of the tree the sum of all the probabilities on the vertices
+                                              must be 1; for example, at the second level we have
+                                                90   100 100   90   9 + 10 + 10 + 9   38
+
+
+                                        3.
+                                                   +
+                                                     ngi+    +
+                                               380 380 380 380
+                                                                  =
+                                                                           38
+                                                                                    =
+                                                                                      38
+                                                                                         = 1.
+
+                                              The probabilities along branches out of a single vertex must sum to 1;
+
+
+                                              to 1.
+                                                         n
+                                              for example, after picking red on the first trial we have a probability
+
+                                                                        eer
+                                              of 9/19 of picking red and 10/19 of picking black. Together they sum
+
+
+
+                                                                                     ing
+                                        The fourth property is no longer true as the various repeated trials are
+                                        not independent. The result of the first trial has an effect on the possible
+                                        result of the second trial, etc.
+                                                                                                   .ne
+                                           Using the tree we can find the probability of various events as in
+
+
+                                                                                                       t
+                                        Example 21.8.
+
+                                        Example 21.8 Of 20 balls in a bag 10 are red and 10 are black. A ball
+                                        is picked out of the bag, its colour recorded and then it is not replaced
+                                        into the bag. What is the probability that of the first three balls chosen
+                                        exactly two will be red?
+                                        Solution We can use the probability tree in Figure 21.12 to solve this
+                                        problem. We look at the foot of the tree, which gives all the possible
+                                        outcomes after three balls have been selected.
+                                          The ways of getting two red are RRB, RBR, BRR and the associated
+                                        probabilities are
+                                         900 900 900
+                                            ,    ,
+                                        6840 6840 6840
+                                        or
+                                        10 10 10
+                                          , , .
+                                        76 76 76
+                                        Summing these gives the probability of exactly two reds being chosen
+                                        out of the three as 30/76.
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

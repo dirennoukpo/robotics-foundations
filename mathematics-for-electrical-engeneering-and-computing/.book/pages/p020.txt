@@ -1,0 +1,78 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+6 Sets and functions
+
+
+
+
+Figure 1.5 A = {x |x < 5} and A = {x |x ⩾ 5}.
+
+
+
+
+ Figure 1.6 The                 Figure 1.7 The                                                Figure 1.9 The
+                                                          Figure 1.8 The                      intersection of the
+ shaded area                    intersection of two
+                                                          intersection of two sets:
+ represents the                 sets {1, 2, 4} ∩                                              two sets:
+                                                          {a, b, c, d, e} ∩                   {−3, −2, −1} ∩
+ intersection of A              {1, 5, 6} = {1}.
+
+ ww
+ and B.
+                                                          {a, b, c, d, e, f, g, h, i, j} =
+                                                          {a, b, c, d, e}.
+                                                                                              {1, 2} = ∅, the empty
+                                                                                              set, as they have no
+                                                                                              elements in common.
+
+
+    w                 .Ea
+                         syE             Example 1.7 The universal set is the set of real numbers represented
+                                         by a real number line.
+                                            If A is the set of numbers less than 5, A = {x | x < 5} then A is the
+
+                                                      ngi
+                                         set of numbers greater than or equal to 5. A = {x | x ⩾ 5}. These sets
+                                         are shown in Figure 1.5.
+
+
+
+                                         Intersection
+                                                          n               eer
+                                                                                             ing
+                                         A ∩ B represents the intersection of the sets A and B. The intersection
+
+                                         as in Figure 1.6 and examples are given in Figures 1.7–1.10.
+                                                                                                     .ne
+                                         contains those elements that are in A and also in B, this can be represented
+
+                                            Note the following important points:
+
+
+Figure 1.10
+and B.
+              Disjoint sets A                     in Figure 1.8.
+                                                                                                         t
+                                               If A ⊆ B then A ∩ B = A. This is the situation in the example given
+
+                                               If A and B have no elements in common then A ∩ B = ∅ and they
+                                                  are called disjoint. This is the situation given in the example in
+                                                  Figure 1.9. Two sets which are known to be disjoint can be shown
+                                                  on the Venn diagram as in Figure 1.10.
+
+
+
+                                         Union
+                                         A ∪ B represents the union of A and B, that is, the set containing elements
+                                         which are in A or B or in both A and B. On a Venn diagram, the union can
+                                         be shown as in Figure 1.11 and examples are given in Figures 1.12–1.15.
+                                           Note the following important points:
+
+                                               If A ⊆ B, then A ∪ B = B. This is the situation in the example
+                                                  given in Figure 1.13.
+                                               The union of any set with its complement gives the universal set, that
+                                                  is, A ∪ A = E , the universal set. This is pictured in Figure 1.15.
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

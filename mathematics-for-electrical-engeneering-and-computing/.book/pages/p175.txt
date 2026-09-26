@@ -1,0 +1,67 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+
+
+      8                The exponential
+                       function
+
+8.1 Introduction       In Example 2.11, we looked at an acoustical absorption problem. We
+
+
+ww                     found that after a single note on a trombone had been played, the sound
+                       intensity decayed according to the expression I = 10−11t . This is a dying
+                       exponential function. Many other physical situations involve decay or
+
+   w      .Ea
+                       growth in an exponential fashion; for instance, population growth or the
+                       decay of charge on a discharging capacitor. The functions y = a t , where
+                       a can be any positive number, are called exponential functions. In this
+                       chapter, we shall look at how they describe this particular type of growth
+
+             syE       or decay, when the growth or decay is proportional to the current size
+                       of the ‘population’, y. This situation can be described by a differential
+                       equation of the form dy/dt = ky. The special case where k = 1, giving
+
+                                  ngi
+                       the equation dy/dt = y, leads us to define the number e ≈ 2.7182818
+                       and the function y = et , which is called the exponential function. The
+                       inverse function is y = loge (t), which is also refered to as y = ln(t) and
+
+                                      n              eer
+                       called the natural or Napierian logarithm.
+                          The function y = et is neither even nor odd; however, it is possible
+                       to split any real function into an even part and an odd part and in this
+
+                                                                 ing
+                       case we find that this gives the hyperbolic functions. These hyperbolic
+                       functions have properties that are surprisingly similar to the properties of
+
+
+                                                                               .ne
+                       the trigonometric functions and hence have similar names, cosh(t), sinh(t)
+                       (the hyperbolic sine and hyperbolic cosine) from which we can define
+                       also tanh(t), the hyperbolic tangent. We also look at differentiation and
+
+                                                                                   t
+                       integration problems involving the exponential and hyperbolic functions.
+
+
+                       Supposing, following some deed of heroism, the police offered you the
+8.2 Exponential        choice of the following rewards:
+growth and             (a) Tomorrow you receive 1 c and the following day 2 c and after that
+decay                      4 c, then 8 c and each day the amount doubles for the next month.
+                       (b) Tomorrow you receive e2, the following day e4 and the day after
+                           e6, then e8 so that each day you receive e2 more than the day
+                           before. Again you receive payments on every day for the next month.
+                       If, although not motivated by personal greed, you wish to receive the
+                       highest possible reward (in order, presumably, to donate the amount
+                       to charity), which reward should you accept? Option (b) superficially
+                       appears to be the best because at least it starts off with enough money
+                       to buy a small sandwich. However, a closer look reveals the that if you
+                       choose option (a), on the last day (assuming there are 31 days in the month)
+                       you receive in excess of e10 000 000 with the total reward exceeding e20
+                       million. However, option (b) only reaps e62 on the final day with a total
+                       award of only e992.
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

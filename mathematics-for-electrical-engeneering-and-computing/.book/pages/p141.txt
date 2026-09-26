@@ -1,0 +1,85 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+128   Differentiation
+
+
+6.6                         As mentioned in the introduction to this chapter, many physical quantities
+                            important in engineering are related by the derivative. Here is a list of
+Applications of             just some of these.
+differentiation
+                            Mechanics
+                                 dx
+                            v=        , where v = velocity, x = distance, t = time.
+                                  dt
+                                 dv
+                            a=        , where a = acceleration, v = velocity, t = time.
+                                  dt
+                                   dW
+                            F =          , where F = force, W = work done (or energy used), x =
+                                    dx
+                            distance moved in the direction of the force.
+                                  dp
+                            F =        , where F = force, p = momentum, t = time.
+
+ww                          P =
+                                   dt
+                                   dW
+                                    dt
+                                         , where P = power, W = work done (or energy used), t =
+
+
+   w               .Ea
+                            time.
+                            dE
+                             dv
+                                 = p, where E = kinetic energy, v = velocity, p = momentum.
+
+
+
+                      syE   Gases
+                            dW
+                                 = p, where p = pressure, W = work done under isothermal
+                             dV
+                                       ngi
+                            expansion, V = volume.
+
+                            Circuits
+                            I=
+                                dQ         n              eer
+                                    , where I = current, Q = charge, t = time.
+
+                            V = L
+                                 dt
+                                  
+                                      dI
+                                         
+                                                                      ing
+                                           , where V is the voltage drop across an inductor, L =
+                                      dt
+                            inductance, I = current, t = time.
+                                                                                   .ne
+                            Electrostatics
+                            E=−
+                                   dV
+                                   dx
+                                                                                       t
+                                      , where V = potential, E = electric field, x = distance.
+
+                            Example 6.16 A ball is thrown in the air so that the height of the ball
+                            is found to be s = 3t − 5t 2 . Find
+                            (a) the ball’s initial velocity when first thrown into the air;
+                            (b) the time when it returns to the ground;
+                            (c) its final velocity as it hits the ground.
+
+                            Solution
+                            (a)
+                                       ds                       ds
+                                 v=       ,   s = 3t − 5t 2 ⇒      = 3 − 10t
+                                       dt                       dt
+                                 The ball is initially thrown into the air when t = 0, so
+                                  ds
+                                     = 3 − 10(0) = 3 m s−1
+                                  dt
+
+                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

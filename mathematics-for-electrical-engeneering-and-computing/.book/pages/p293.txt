@@ -1,0 +1,89 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+280   Sequences and series
+
+                                We can examine what happens to the function near the indetermi-
+                             nate point by using the power series expansions of the denominator and
+                             numerator. Substituting the series for sin(x)/x into the expression sin(x)
+                             gives
+
+                                                             
+                             sin(x)   1      x3   x5   x7
+                                    =     x−    +    −    ···
+                                x     x      3!   5!   7!
+
+
+                             and therefore
+
+                                                                    
+                                 sin(x)       1       x3    x5
+                             lim        = lim     x−     +     − ···
+                             x→0    x     x→0 x       3!    5!
+                                                                  
+                                                   x2    x4
+
+ww                                      = lim 1 −
+                                          x→0      3!
+                                                       +
+                                                         5!
+                                                             − ···
+
+
+
+   w             .Ea
+                             The last expression is defined at x = 0, so we can substitute x = 0
+                             in order to find the limit. This gives the value 1. L’Hopital’s rule is a
+                             quick way of finding this limit without needing to write out the series
+
+
+                    syE      specifically.
+                                L’Hopital’s rule states that if a function f (x) = g(x)/h(x) is indeter-
+                             minate at x = a then:
+
+
+                                 g(x)   ngi g  (x)
+                                      = lim  .
+
+                                            n
+                             lim
+                             x→a h(x)   x→a h (x)
+
+
+                                                               eer
+                             If g  (x)/h (x) is defined at x = a, we can then use
+
+                                                                            ing
+                                 g  (x)
+                             lim 
+                             x→a h (x)
+                                          g  (a)
+                                         = 
+                                          h (a)                                          .ne
+                                                                                             t
+                             and if g  (x)/h (x) is indeterminate at x = a, we can use the rule again.
+                                We can show this to be true by using Equation (12.13) for the Taylor
+                             series expansion about a:
+
+
+                             g(x)   g(a) + g  (a)(x − a) + (g  (a)/2!)(x − a)2 + · · ·
+                                  =
+                             h(x)   h(a) + h (a)(x − a) + (h (a)/2!)(x − a)2 + · · ·
+
+
+                             and given that g(a) = 0 and h(a) = 0
+
+
+                                 g(x)       g  (a)(x − a) + (g  (a)/2!)(x − a)2 + · · ·
+                             lim      = lim 
+                             x→a h(x)   x→a h (a)(x − a) + (h (a)/2!)(x − a)2 + · · ·
+
+                                                g  (a) + (g  (a)/2!)(x − a) + · · ·
+                                        = lim
+                                            x→a h (a) + (h (a)/2!)(x − a) + · · ·
+
+                                             g  (a)
+                                        =              (if h (a)  = 0).
+                                             h (a)
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

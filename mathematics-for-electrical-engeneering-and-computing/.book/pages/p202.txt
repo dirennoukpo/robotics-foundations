@@ -1,0 +1,86 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                  Vectors      189
+
+                                       they could balance each other out, like two tug-of-war teams in a stale-
+                                       mate struggle. Alternatively, they could operate in the same direction or
+                                       partially in the same direction and cause the object to have an acceleration.
+                                          For the examples of vectors given so far, the maximum dimension of
+                                       the vector is three as there are only three spatial dimensions. However,
+                                       there are many examples when vectors of higher dimension are useful.
+                                       For instance, a path through the network given in Figure 9.2 can be
+Figure 9.2 A network
+                                       represented by a list of 1s and 0s to indicate whether each of the edges is
+consisting of sides a, b, c, d,        included in the path. A path from S to T can be represented by a vector,
+e, f, g, and h.                        for instance:
+                                        a   b   c   d   e     f   g   h
+                                        0   1   0   0   1     0   0   0 represents the path be
+                                        0   0   1   0   0     1   1   0 represents the path cf g.
+
+                                           Although there are many other types of vectors we will concentrate on
+
+
+ww
+                                       vectors of two or three dimensions, called spatial or geometrical vectors,
+                                       used to represent physical quantities in space. Many of the ideas in this
+                                       chapter are only true for geometrical vectors of two and three dimensional.
+
+
+   w                   .Ea
+                                       As 3D vectors can only be correctly represented by making a 3D model,
+                                       it is important to concentrate on understanding 2D vectors as they can be
+                                       drawn on a piece of paper allowing results to be checked easily.
+
+
+
+9.2 Vectors and           syE          A vector is a string of numbers, for example,
+                                       (1, 2, −1)
+vector
+quantities
+                                       (1, 0)
+                                                    ngi
+                                       (3, −4, 2, −6, 8)
+
+                                                        n
+                                       (2.6, 9, −1.2, 0.3).
+                                                                      eer
+                                       The length of the string is called the dimension of the vector. For the
+
+
+                                                                                 ing
+                                       examples given above, the dimensions are 3, 2, 5, and 4, respectively.
+                                       The commas can be left out, so the examples given above can be written as
+                                       (1 2 −1)
+                                       (1 0)                                                   .ne
+                                       (3 −4 2 −6 8)
+                                       (2.6 9 −1.2 0.3).
+                                       Vectors may also be written as columns, giving:
+                                                                                                   t
+                                                   
+                                                    3          
+                                                             2.6
+                                         1   −4
+                                       2 1     2
+                                                         9 
+                                                0   −1.2
+                                                                    .
+                                        −1           −6
+                                                             0.3
+                                                      8
+
+                                       Whether vectors are written as columns or rows only becomes impor-
+                                       tant when we look at matrices (Chapter 13). However, the order of the
+                                       numbers in the vector is important: (0, 1) is a different vector from (1, 0).
+                                          We will mainly deal with 2D or 3D vectors. Vectors are represented
+                                       in a diagram by a line segment with an arrow as in Figure 9.3. In printed
+                                       material vectors can be represented by bold letters: a. They are also rep-
+                                                               −→
+Figure 9.3 A vector is drawn           resented by a or a or AB, where A and B are points at either end of the
+in a diagram as a line                 vector.
+segment with an arrow to
+indicate its direction.
+                                          In the rest of this chapter, we will assume that we are dealing with 2D
+                                       or 3D vectors represented in rectangular form, also called Cartesian form.
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

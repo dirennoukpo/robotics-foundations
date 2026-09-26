@@ -1,0 +1,68 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                               Sequences and series            279
+
+                                         So
+                                                           1   1     1 h2    1 h3
+                                         sin((π/4) + h) = √ + √ h + √      +√      + ···
+                                                            2   2     2 2!    2 3!
+                                         Substituting h = −π/180 radians, we get
+                                                                                            
+                                                      1       π     1  π 2 1  π 3
+                                         sin(44◦ ) = √ 1 −        +            +       + ···
+                                                       2     180 2 180           6 180
+                                                      1
+                                                   = √ (1 − 0.01745 − 0.0001523 + 0.0000009 + · · · )
+                                                       2
+                                                   = 0.69466 to five decimal places.
+
+
+
+
+                                         L’Hopital’s rule
+ww                                       When sketching graphs of functions in Chapter 11, we looked at graphs
+                                         where the function is undefined for some values of x. The function f (x) =
+
+   w                  .Ea
+                                         1/x, for instance, is not defined when x = 0 and tends to −∞ as x → 0−
+                                         and tends to +∞ as x → 0+ . Not all functions that have undefined
+                                         points tend to ±∞ near the point where they are undefined. For example,
+                                         consider the function f (x) = sin(x)/x. The graph of this function is
+
+                         syE             shown in Figure 12.5. The function is not defined for x = 0, which we
+                                         can see by substituting x = 0 into the function expression. This gives
+
+
+                                                    ngi
+                                         a zero in the denominator and hence an attempt to divide by 0 which is
+                                         undefined. However, we can see from the graph that the function, rather
+                                         than tending to plus or minus infinity as x → 0, just tends to 1. This
+
+                                                        n
+                                         is very useful because we are able to ‘patch’ the function by giving it a
+
+                                                                     eer
+                                         value at x = 0 and the new function is defined for all values of x.
+                                            We can define a new function. This particular function is quite famous,
+                                         and is called the sinc function
+                                                    
+                                                     sin(x)
+                                                                 where x  = 0    ing
+                                         sinc(x) =
+                                                    1
+                                                         x
+                                                                 where x = 0
+                                                                                               .ne
+                                                                                                   t
+                                           The points where functions may tend to a finite limit can be identified
+                                         by looking out for points which lead to 0/0. These are called indeterminate
+                                         points, indicating that they are a special type of undefined point.
+
+
+
+
+Figure 12.5   The graph of the function f (x ) = sin(x )/x .
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,83 @@
+                      Downloaded From : www.EasyEngineering.net
+
+
+142   Integration
+
+                          As we found before (du/dx) dx can be replaced by du so (dv/dx) dx
+                          can be replaced by dv, and this gives a compact way of remembering the
+                          formula:
+                                         
+                             u dv = uv − v du.
+
+                          To use the formula, we need to make a wise choice as to which term is
+                          u (which we then need to differentiate to find du) and which term is dv
+                          (which
+                                 we then need to integrate to find v). Note that the second term
+                            v du must be easy to integrate.
+                                                           
+                          Example 7.11             Find        x sin x dx
+                          Solution Use u = x; dv = sin(x) dx. Then
+                                                       
+
+ww
+                          du
+                             = 1 and v =                   sin x dx = − cos(x).
+                          dx
+                                                                  
+
+   w                .Ea
+                          Substitute in
+                          
+                                                  u dv = uv −
+
+
+                              x sin x dx = −x cos(x) −
+                                                                    
+                                                                        v du to give
+
+
+                                                                         − cos(x)1 dx
+
+
+                       syE                    = −x cos(x) + sin(x) + C.
+
+
+                          Check:
+                                          ngi
+                           d
+                          dx                  n                    eer
+                             (−x cos(x) + sin(x) + C) = − cos(x) + x sin(x) + cos(x)
+
+                                                      = x sin(x).
+
+                                                                                 ing
+                          We can now solve the problem that we tried to solve using a substitution,
+                          but had failed.
+                                                                                        .ne
+                          Example 7.12
+                          
+                                   x2
+                                         dx.
+                                                   Find
+                                                                                            t
+                              (x 2 + 1)2
+
+
+                          Solution
+                            We can spot that if we write this as
+                          
+                                      x
+                              x                   dx
+                                  (x 2 + 1)2
+
+                          then the second term in the product can be integrated. We set u = x and
+
+                                          x
+                          dv =                     dx = x(x 2 + 1)−2 dx.
+                                   (x 2 + 1)2
+
+                          Then du = dx and v = − 21 (x 2 + 1)−1 . (To find v we have performed
+                                         
+                          the integration x(x 2 + 1)−2 dx = − 21 (x 2 + 1)−1 . Check this result by
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

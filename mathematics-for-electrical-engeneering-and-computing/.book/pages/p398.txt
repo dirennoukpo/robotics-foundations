@@ -1,0 +1,51 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                            Laplace and z transforms               385
+
+
+
+
+Figure 15.4 (a) The graph of sin(ωt ). (b) The graph of u(t − 1) sin(ωt ). Notice that this function is zero for
+t < 1 and equal to sin(ωt ) for t > 1.
+
+
+
+
+ww
+   w                  .Ea
+                         syE
+Figure 15.5 The sequence                            ngi
+of rectangular pulse functions
+of area 1. Starting from a
+pulse of height 1 and width 1
+we double the height and half
+                                                        n              eer
+the width.
+                                                                                   ing
+                                                                                                .ne
+                                            The delta function, δ(t), is an example of a generalized function. A
+
+                                                                                                    t
+                                         generalized function can be defined in terms of a sequence of functions.
+                                         One way of defining it is as the limit of a rectangular pulse function,
+                                         with area 1, as it halves in width and doubles in height. This sequence
+                                         of functions is shown in Figure 15.5. Although the height of the pulse is
+                                         tending to infinity, the area of the pulse remains 1.
+                                            Two important properties of the delta function are
+                                         1.   δ(t
+                                               ∞− a) = 0 for t = a,
+                                         2.    −∞ δ(t) = 1.
+
+                                         The second property expresses the fact that the area enclosed by the delta
+                                         function is 1.
+                                            The unit step function, u(t), has no derivative at t = 0. Because of the
+                                         sharp edges present in its graph and its jump discontinuity it is impossible
+                                         to define a single tangent at that point. However, if we also consider the
+                                         unit step function as a generalized function (by taking the limit of nice
+                                         smooth, continuous curves as they approach the shape of the unit step
+                                         function), we are able to define its derivative, which turns out to be the
+                                         delta function. This gives the third definition
+                                         3.   du/dt = δ(t).
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

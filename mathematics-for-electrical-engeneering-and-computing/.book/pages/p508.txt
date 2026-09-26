@@ -1,0 +1,136 @@
+                                              Downloaded From : www.EasyEngineering.net
+
+
+
+
+ww
+ Table 21.1 Frequency distribution of the lifetimes of a sample of light bulbs showing method of calculating the mean and standard deviation.
+
+
+
+            w.E
+ N represents the number of classes, n the number in the sample
+
+ (1)               (2)            (3)                    (4)            (5)          (6)                    (7)              (8)         (9)
+ Lifetime       Class         Class                    fi (x )      Cumulative   (xi − x̄ )2          fi (xi − x̄ )2     Relative    Relative
+ (h)            mid-point     frequency                             frequency                                            frequency   cumulative
+
+
+
+               asy  xi             fi                                    Fi                                                 fi /n    frequency
+                                                                                                                                        Fi /n
+
+
+
+
+                                                    En
+  900–1000         950                2                  1900            2       536 849               1 073 698          0.002        0.002
+ 1000–1100        1050                0                      0           2       400 309                       0          0.002        0.002
+ 1100–1200        1150                5                  5750            7       283 769               1 418 845          0.005        0.007
+ 1200–1300        1250               23                 28 750          30       187 229               4 306 267          0.023         0.03
+ 1300–1400
+ 1400–1500
+ 1500–1600
+ 1600–1700
+ 1700–1800
+ 1800–1900
+ 1900–2000
+                  1350
+                  1450
+                  1550
+                  1650
+                  1750
+                  1850
+                  1950
+                                     47
+                                    103
+                                    160
+                                    190
+                                    165
+                                    164
+                                     92
+                                                       gi
+                                                        63 450
+                                                       149 350
+                                                       248 000
+                                                       313 500
+                                                       288 750
+                                                       303 400
+                                                       179 400
+                                                                        77
+                                                                       180
+                                                                       340
+                                                                       530
+                                                                       695
+                                                                       859
+                                                                       951
+                                                                              nee
+                                                                                 110 689
+                                                                                  54 149
+                                                                                  17 609
+                                                                                   1069
+                                                                                   4529
+                                                                                  27 989
+                                                                                  71 449
+                                                                                                       5 202 383
+                                                                                                       5 577 347
+                                                                                                       2 817 440
+                                                                                                         203 110
+                                                                                                         747 285
+                                                                                                       4 590 196
+                                                                                                       6 573 308
+                                                                                                                          0.047
+                                                                                                                          0.103
+                                                                                                                           0.16
+                                                                                                                           0.19
+                                                                                                                          0.165
+                                                                                                                          0.164
+                                                                                                                          0.092
+                                                                                                                                       0.077
+                                                                                                                                        0.18
+                                                                                                                                        0.34
+                                                                                                                                        0.53
+                                                                                                                                       0.695
+                                                                                                                                       0.859
+                                                                                                                                       0.951
+ 2000–2100        2050               49                100 450        1000
+
+                                                                                  r
+                                                                                 134 909
+
+
+
+                                                                                                  ing
+                                                                                                       6 610 541          0.049        1
+
+
+
+
+                                                                                                                                                  Probability and statistics
+                                 1000              1 682 700                                          39 120 420           1
+
+                                                                                                  1                     fi
+
+
+                                                                                                      .
+                                                      1 682 700                                                                        FN
+                                   i fi = n     x̄ =                 FN = n                    σ2 =     fi (xi − x̄ )2        =1          =1
+                                                                                                   n i
+
+
+                                                                                                                         net
+                                                                                                                          i
+                                                        1000                                                                n           n
+                                                       1                                            39 120 420
+                                                 x̄ =       fi xi                               σ2 =
+                                                       n i                                              1000
+                                                                                                    σ ≃ 198
+
+
+
+
+                                                                                                                                                  495
+
+
+
+                                                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,84 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+250   Maxima and minima and sketching functions
+
+                                We wait until specific values of c are substituted in order to analyse the
+                             type of stationary points and the value of H at these points. Also note that
+                             this analysis is not valid for the case c = 0 as this completely changes
+                             the nature of the function H .
+                                Step 4. When ω is large in magnitude
+
+                                 1
+                             H ∼√
+                                  ω4
+
+                             and this tends to 0 for large ω. Therefore, as ω → ∞, H → 0+ .
+                                Step 5. Now we can sketch the graph using the information found and
+                             after substituting the various values of c.
+                                Case (a): c = 2. On substituting c = 2, we have
+
+                                            1
+                             H =
+
+ww
+                                                        .
+                                     4ω2 + (ω2 − 1)2
+
+
+
+   w
+                             The graph passes through (0, 1) (Step 1), and the function is defined for
+                             all ω ⩾ 0 (Step 2). The stationary point is at ω = 0. In this case
+
+                 .Ea         dH
+                                =−
+                                        2ω3 + 2ω
+                                                         = −
+                                                                 2ω(ω2 + 1)
+
+
+                    syE      dω    (4ω2 + (ω2 − 1)2 )3/2     (4ω2 + (ω2 − 1)2 )3/2
+
+                             This is positive for ω < 0 and negative for ω > 0 and therefore there is
+
+                                        ngi
+                             a maximum value at ω = 0.
+                               Case (b): c = 21 . Here
+
+
+                             H =           n1
+                                     ω2 /4 + (ω2 − 1)2          eer
+                                                                        ing
+                             The graph passes through (0, 1) (Step 1), and there are nodiscontinuities
+                                   2). The stationary points are at ω = 0 and ω = (2 − c2 )/2 =
+                             (Step
+                             √
+                               7/8 ≈ 0.935 (Step 3):
+                                                                                     .ne
+                             dH
+                             dω
+                                = 2
+                                    −ω(2ω2 − 7/4)
+                                 (ω /4 + (ω2 − 1)2 )3/2                                  t
+                             dH /dω < 0 for ω < 0 and dH /dω > 0 for ω > 0; therefore, there is a
+                             minimum value at ω = 0,
+                                                             √
+                             dH /dω > 0 for ω just less than 7/8,
+                                                               √
+                             dH /dω < 0 for ω just greater than 7/8.
+                                                                           √
+                             Therefore there is a maximum value of H at ω = 7/8 ≈ 0.935.
+                               At the maximum
+
+                                         1          1
+                             H =√                =√      ≈ 2.06
+                                     7/32 + 1/64   15/64
+
+                               Case (c): c = 41 .
+
+                                              1
+                             H =                           .
+                                     ω2 /16 + (ω2 − 1)2
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

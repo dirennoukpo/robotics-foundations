@@ -1,0 +1,68 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+
+
+      4                Boolean algebra
+
+4.1 Introduction       Boolean algebra can be thought of as the study of the set {0, 1} with the
+                       operations + (or), . (and), and − (not). It is particularly important because
+                       of its use in design of logic circuits. Usually, a high voltage represents
+
+ww                     TRUE (or 1), and a low voltage represents FALSE (or 0). The operation
+                       of OR (+) is then performed on two voltage inputs, using an OR gate,
+
+
+   w
+                       AND(.) using an AND gate and NOT is performed using a NOT gate. This
+                       very simple algebra is very powerful as it forms the basis of computer
+
+          .Ea          hardware.
+                          You will probably have noticed that the operations of ∧ (AND), ∨
+                       (OR), and ¬ (NOT) used in Chapter 3 for propositions are very similar
+
+             syE       to the operations ∩ (AND), ∪ OR, and (NOT) (complement) used for
+                       sets. This connection is not surprising as membership of a set, A, could
+
+
+                                  ngi
+                       be defined using a statements like ‘3 is a member of A’ which is either
+                       TRUE or FALSE. In simplifying logic circuits, use is made of the different
+                       interpretations that can be put upon the operations and variables. We can
+
+                                      n
+                       use truth tables, borrowed from the theory of propositions, as given in
+
+                                                     eer
+                       Chapter 3, or we can use Venn diagrams, borrowed from set theory, as
+                       given in Chapter 1.
+
+
+                                                                  ing
+                          The first thing we shall examine in this chapter is what do we mean by an
+                       algebra and why are we able to skip between these various interpretations.
+                       Then we look at implementing and minimizing logic circuits.
+
+                                                                               .ne
+4.2 Algebra                                                                        t
+                       Before we look at Boolean algebra, we will have a look at some ideas
+                       about algebra:
+
+                       (a)   What is an algebra?
+                       (b)   What is an operation?
+                       (c)   What do we mean by properties (or laws or axioms) of an algebra?
+
+                       An algebra is a set with operations defined on it. In Chapter 1 of the
+                       Background Mathematics Notes, available on the companion website
+                       for this book, we looked at the algebra of real numbers and defined an
+                       operation is a way of combining two numbers to give a single number. We
+                       could therefore define an operation as a way of combining two elements
+                       of the set to result in another element of the set.
+
+
+                       Example 4.1     The set of real numbers, R, has the operations + and ., for
+                       example,
+
+                       3+5=8        and    3 · 4 = 12
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

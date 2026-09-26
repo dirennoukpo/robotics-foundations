@@ -1,0 +1,88 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+248   Maxima and minima and sketching functions
+
+                                  Example 11.7 A spring of modulus of elasticity k has a mass, m, sus-
+                                  pended from it and is subjected to a oscillating force F = F0 cos(ωt),
+                                  where ω > 0. The motion of the mass is damped by the use of a dashpot
+                                  of damping constant c. This is displayed in Figure 11.9. After some time
+                                  the spring force is found to have oscillations of angular frequency ω and
+Figure 11.9 A spring
+                                  of magnitude
+subjected to damped, forced
+motion.
+                                                kF0
+                                  F =
+                                         ω2 c2 + (ω2 m − k)2
+
+                                  Taking m = 1 and k = 1, sketch the graph of F /F0 against ω for
+
+                                   (a) c = 2   (b) c = 21   (c) c = 41   (d) c = 0
+
+                                  Solution We are given that
+
+
+ ww                               F =
+                                                kF0
+                                         ω2 c2 + (ω2 m − k)2
+
+
+    w                .Ea
+                                  Therefore,
+                                  F
+                                  F0
+                                     =
+                                              k
+                                        ω c + (ω2 m − k)2
+                                         2 2
+
+
+                        syE       Substituting m = 1 and k = 1 gives
+                                  F
+                                  F0
+                                     =
+                                             1
+                                               ngi
+                                        ω c + (ω2 − 1)2
+                                         2 2
+
+
+
+                                                   n
+                                  Call this function H .
+
+                                                               eer
+                                     One method to solve this problem would be to consider cases (a), (b),
+                                  (c), and (d) separately. However, it is quicker to leave c as an unknown
+
+                                     Step 1.
+                                                                            ing
+                                  constant and substitute in for the particular cases later.
+
+
+                                  H =
+                                                 1
+                                          ω2 c2 + (ω2 − 1)2                            .ne
+                                  means that H is always ⩾ 0 where it is defined.
+                                                                                           t
+                                  when ω = 0, H = 1. The denominator is a positive square root, which
+
+                                    Step 2. Consider any points where H is not defined
+                                                 1
+                                  H =
+                                          ω2 c2 + (ω2 − 1)2
+
+                                  As the term inside the square root in the expression for H is a sum of
+                                  squares it is always, ⩾ 0. This means that H is always defined, except
+                                  where the denominator is 0. H is not defined when
+                                  
+                                    ω2 c2 + (ω2 − 1)2 = 0
+                                   ⇒ ω2 c2 + (ω2 − 1)2 = 0
+                                  ω2 c2 + ω4 − 2ω2 + 1 = 0
+                                  ω4 + ω2 (c2 − 2) + 1 = 0
+
+                                  By substituting the values of c of interest we see that in case (a) when
+                                  c = 2, in case (b) when c = 1/2, and in case (c) when c = 1/4 there
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

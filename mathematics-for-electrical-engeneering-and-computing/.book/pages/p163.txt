@@ -1,0 +1,79 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+150    Integration
+
+                                       Notice that as we move the final point x, A will change. Now consider
+                                     moving the final value by a small amount, δx, this will increase the area
+                                     by δA and δA is approximately the area of a rectangle of height y and
+                                     width δx. This is shown in Figure 7.3.
+                                       So, we have δA ≈ yδx, that is,
+
+                                     δA
+                                        ≈ y.
+                                     δx
+
+Figure 7.3 The area A is             Taking the limit as δx tends to 0 gives
+given
+x    by the definite integral
+ a y dx and the increase in
+the area, δA = y δx .                       dA
+                                     y=        .
+                                            dx
+
+
+
+ ww                                  This shows that finding the area under the graph does in fact give a function
+                                     which, when differentiated, gives back the function of the original graph,
+                                     that is, the area function gives the ‘inverse’ of differentiation. The area
+
+    w                   .Ea
+                                     function, A, is not unique because different functions will be found by
+                                     moving the position of the starting point for the area, however in each
+                                     case dA/dx will be the original function.
+                                        This is illustrated for the area under y = 21 t in Figure 7.4, where there
+
+
+                           syE       are two area functions, one starting from t = −1 and the other from t = 0.
+                                        The first area function is
+
+
+                                     A=
+                                            t2
+                                            4
+                                               −
+                                                 1
+                                                 4 ngi
+                                     and the second is n           eer
+                                     A=
+                                        t2
+                                        4                                       ing
+                                                                                             .ne
+                                       The definite integral, the area under a particular section of the graph,
+                                     can be found, as in Figure 7.5, by subtracting the areas.
+
+                                                                                                 t
+                                       In practice, we do not need to worry about the starting value for finding
+                                     the area. The effect of any constant of integration will cancel out.
+
+
+                                                             3
+                                     Example 7.17 Find 2 2t dt.                                         
+                                         This is the area under the graph from t = 2 to t = 3. As 2t dt =
+                                     t 2 + C, the area up to 2 is (2)2 + C = 4 + C and the area up to 3 is
+                                     (3)2 + C = 9 + C. The    3 difference in the areas is 9 + C − (4 + C) =
+                                     9 − 4 = 5. Therefore, 2 2t dt = 5.
+                                         The working of a definite integral is usually laid out as follows
+
+                                      3
+                                                      3
+                                           2t dt = t 2 2 = (3)2 − (2)2 = 5.
+                                      2
+
+
+                                     The square brackets indicate that the function should be evaluated at the
+                                     top value, in this case 3, and then have its value at the bottom value, in
+                                     this case 2, subtracted.
+
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

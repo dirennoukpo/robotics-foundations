@@ -1,0 +1,77 @@
+                             Downloaded From : www.EasyEngineering.net
+
+
+192   Vectors
+
+
+
+
+                                 Figure 9.9 (a) To find a − b by using addition, draw a and b. Then
+                                 −b is the vector in the opposite direction. Then add a and −b by
+                                 drawing a parallelogram as in Figure 9.8. (b) Use the triangle OAB.
+                                 −→
+                                 BA gives the vector a − b. To see this imagine walking directly from B
+
+
+ ww                              to A, this is the same as walking from B to O, which is backwards
+                                                                                          −→
+                                 along b and therefore is the vector −b, and then along OA which is
+                                                       −→
+                                 the vector a. Hence, BA = −b + a = a − b.
+
+
+    w               .Ea          Solution
+
+
+                       syE            −→
+                                 (a) OE is the same length as a in the opposite direction; therefore,
+                                      −→
+                                      OE = −a.
+                                      −→
+                                      −→
+                                             ngi
+                                 (b) OC is in the same direction as b, but twice the length; therefore,
+                                      OC
+                                      −→ = 2b.
+                                 (c) BA is in a triangle with a and b. To get from B to A we would walk
+
+                                      a − b.     n                                       −→
+                                      in the reverse direction along b and then along a: BA = −b + a =
+                                      −→        −→              eer
+                                 (d) AB = −BA = −(a − b) = b − a.
+
+                                                                             ing
+Figure 9.10 Using vectors.
+                                      −→                 −→                                    −→
+See Example 9.3.                 (e) AD is parallel to OC in the same direction; therefore, as OC = 2b
+                                           −→
+                                      then AD−→  = 2b.                −→ −→
+                                                                         −→
+                                                                                           .ne
+                                  (f) To find BE we need to know OE.OE is the same length as a in
+                                      the opposite direction; therefore, OE = −a. To get from B to E we
+                                      −→
+                                                                                               t
+                                      could go from B to O (−b) and then from O to E (−a); therefore,
+                                      BE = −b − a.
+                                      −→                          −→
+                                 (g) BF is the same length as AB and in the same direction; therefore,
+                                      −→ −→
+                                      BF = AB = b − a.
+
+
+
+
+9.4 Magnitude                    We have already noted that a vector has magnitude and direction. A
+                                 2D vector can be represented by its length (also called magnitude or
+and direction of                 modulus), r (or |r|), and its angle to the x-axis, also called its argument, θ.
+                                 If the vector is (x, y) then r 2 = x 2 + y 2 , from Pythagoras’s theorem The
+a 2D vector –                    angle is given by tan−1 (y/x) if x is positive and by tan−1 (y/x) + π if
+polar                            x is negative. Hence, r = (r, θ) in polar coordinates, and can also be
+                                 written as r∠θ so it is clear that the second number represents the angle.
+co-ordinates                     As it is usual to give the angle between −π and +π , it may be necessary
+                                 to subtract 2π from the angle given by this formula. (As a rotation of
+                                 2π is a complete rotation this will make no difference to the position of
+                                 the vector.)
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,86 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                Probability and statistics        529
+
+                  then
+
+                         1
+                  x̄ =      f i xi
+                         n
+                             i
+
+                where xi is a representative value for the class, fi is the class
+                frequency, and the summation is over the all classes.
+             2. The standard deviation of a sample of data can be found by using
+                         
+                             1
+                  σ =           (xi − x̄)2
+                             n
+                                 i
+
+                  where the summation is over all sample values, n is the number of
+                  values in the sample, and x̄ is the sample mean. If the sample is
+                  divided into class intervals then
+
+ww                σ =
+                       
+                         1
+                         n
+                                fi (xi − x̄)2
+
+   w.Ea
+                                 i
+
+                where xi is a representative value for the class, fi is the class fre-
+                quency, x̄ is the sample mean, and the summation is over all classes.
+
+
+       syE      The square of the standard deviation is called the variance.
+             3. The cumulative frequency is found by summing the values of the
+                current class and all previous classes. It is the ‘number so far’.
+
+
+                         ngi
+             4. The relative frequency of a class is found by dividing the frequency
+                by the number of values in the data sample – this gives the proportion
+                that fall into that class. The cumulative relative frequency is found
+
+                             n
+                by dividing the relative frequency by the number in the sample.
+
+                                          eer
+             5. In probability theory the set of all possible outcomes of a random
+                experiment is called the sample space. The probability distribution
+
+                that obeys the conditions:
+                                                      ing
+                function, for a discrete sample space, is a function of the outcomes
+
+
+                  0 ⩽ p(xi ) ⩽ 1
+                                                                  .ne
+                  where xi is any outcome in the sample space and
+                  
+                       p(xi ) = 1
+                                                                      t
+                   i
+
+                  where the summation is over all outcomes in the sample space.
+             6.   An event is a subset of the sample space. The probability of an event
+                  (if all outcomes are equally likely) is
+
+                                 The number of outcomes in the event
+                  p(E) =                                                 .
+                              The number of outcomes in the sample space
+
+             7. The addition law of probability is given by P (A ∪ B) = P (A) +
+                P (B) − (A ∩ B) for non-disjoint events.
+                   If A ∩B = ∅ this becomes P (A ∪B) = P (A)+P (B) for disjoint
+                events.
+             8. Multiplication law of probabilities: p(A ∩ B) = p(A)p(B|A) if
+                events A and B are not independent.
+             9. The definition of independence is that B is independent of A if
+                the probability of B does not depend on A: p(B|A) = p(B) if B
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,93 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                               Trigonometric functions and waves           93
+
+                                     ideas of translating functions given in Chapter 2, we get
+                                              π
+                                      sin t +      = cos(t)
+                                                2
+                                              π
+                                     cos t −       = sin(t).
+                                                2
+                                     Other relationships can be shown using triangles as in Figure 5.8 giving
+                                              π                    π       
+                                     cos α −       = sin(α) and sin      − α = cos(α).
+                                               2                       2
+                                       From Pythagoras theorem we also have that
+
+                                     a 2 + b2 = r 2 ,
+Figure 5.8 (a) sin(α) = a/r          dividing both sides by r 2 we get
+and cos(90◦ − α) = a/r . Then
+cos(90◦ − α) = sin(α). As the
+
+ww
+cosine is an even function
+cos(90◦ − α) =
+cos(−(90◦ −α)) = cos(α−90◦ )
+                                     a2
+                                     r2
+                                        +
+                                          b2
+                                          r2
+                                             = 1,
+
+
+
+   w
+which confirms that
+
+
+                    .Ea
+cos(α − 90◦ ) = sin(α).
+cos(α) = b/r and
+sin(90◦ − α) = b/r , so
+                                     and using the definitions of sin(α) = a/r and cos(α) = b/r, we get
+
+                                     cos2 (α) + sin2 (α) = 1.
+
+                                     Rearranging this, we have cos2 (α) = 1 − sin2 (α) or sin2 (α) = 1 −
+cos(α) = sin(90◦ − α).
+
+                       syE           cos2 (α).
+
+                                     Example 5.2 Given sin(A) = 0.5 and 0 ⩽ A ⩽ 90◦ , use trigonometric
+
+                                                ngi
+                                     identities to find:
+
+
+
+                                                    n
+                                     (a) cos(A)
+                                     (b) sin(90◦ − A)
+                                     (c) cos(90◦ − A).
+                                                                    eer
+                                     Solution
+                                     (a)                                        ing
+                                           Using cos2 (A) = 1 − sin2 (A) and sin(A) = 0.5
+
+                                                ⇒       cos2 (A) = 1 − (0.5)2 = 0.75
+                                                                                          .ne
+                                                ⇔       cos(A) ≈ ±0.866.
+                                                                                              t
+                                         As A is between 0◦ and 90◦ , the cosine must be positive giving
+                                         cos(A) ≈ 0.866.
+                                     (b) As sin(90◦ − A) = cos(A), sin(90◦ − A) ≈ 0.866.
+                                     (c) As cos(90◦ − A) = sin(A), cos(90◦ − A) = 0.5.
+
+
+                                     The functions A cos(at + b) + B and
+                                     A sin(at + b) + B
+                                     The graph of these functions can be found by using the ideas of Chapter 2
+                                     for graph sketching.
+
+                                     Example 5.3 Sketch the graph of y against t, where
+                                                      
+                                                    2π
+                                     y = 2 cos 2t +      .
+                                                     3
+                                       The stages in sketching this graph are shown in Figure 5.9.
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

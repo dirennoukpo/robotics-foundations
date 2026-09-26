@@ -1,0 +1,84 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                   Trigonometric functions and waves                113
+
+                                               1 s is the frequency, f = ω/2π and is measured in Hz. The cycle
+                                               length is called the periodic time or period (often represented by
+                                               τ ) = 2π/ω and is measured in seconds. The phase is φ.
+                                                  For a function of distance y = A cos(kx + φ), k is the wave-
+                                               number. The number of cycles in 1 m is the spatial frequency, = k/2π
+                                               wavelengths per metre, the cycle length is called the wavelength
+                                               (often represented by λ) = 2π/k and is measured in metres, and the
+                                               phase is φ.
+                                                  The function y = A cos(ωt −kx) with t > 0 and ωt ⩾ kx is called
+                                               the progressive wave equation and has velocity v = λf m s−1 .
+                                            5. Wave amplitudes are often measured on a logarithmic scale using
+                                               decibels.
+                                            6. There are many trigonometric identities, summarized on Table 5.1.
+                                               Some of the more fundamental ones are:
+
+                                                 cos(A ± B) = cos(A) cos(B) ∓ sin(A) sin(B)
+
+ww                                               sin(A ± B) = sin(A) cos(B) ± cos(A) sin(B)
+
+                                                 tan(A) =
+                                                               sin(A)
+
+   w                   .Ea
+                                                               cos(A)
+                                                 cos2 (A) + sin2 (A) = 1
+
+
+
+                          syE               7.
+                                               from which others can be derived.
+                                               The principle of superposition of waves gives that the effect of a
+                                               number of waves can be found by summing the disturbances that
+
+
+                                                       ngi
+                                               would have been produced by the waves separately. One applica-
+                                               tion of this is the case of stationary waves, which can be explained
+                                               mathematically using trigonometric identities.
+
+                                                           n
+                                            8. sin−1 (x) is the inverse function to sin(x) if the domain of sin(x) is
+
+                                                                            eer
+                                               limited to −π/2 ⩽ x ⩽ π/2, in which case sin−1 (sin(x)) = x.
+                                                  cos−1 (x) is the inverse function to cos(x) if the domain of cos(x)
+                                               is limited to 0 ⩽ x ⩽ π , in which case cos−1 (cos(x)) = x.
+
+                                                                                             ing
+                                                  tan−1 (x) is the inverse function to tan(x) if the domain of tan(x)
+                                               is limited to −π/2 < x < π/2, in which case tan−1 (tan(x)) = x.
+
+                                                                                                         .ne
+                                            9. Inverse trigonometric functions are used in solving trigonometric
+                                               equations. There are many solutions to trigonometric equations and
+                                               graphs can be used to help see where the solutions lie.
+                                                                                                             t
+                                                  sin(x) = a has two solutions: one is x = sin−1 (a) and another is
+                                               π − sin−1 (a). Other solutions can be found by adding or subtracting
+                                               a multiple of 2π .
+                                                  cos(x) = a has two solutions: one is x = cos−1 (a) and another is
+                                               − cos−1 (a). Other solutions can be found by adding or subtracting a
+                                               multiple of 2π .
+                                                  tan(x) = a has one solution: x = tan−1 (a). Other solutions can
+                                               be found by adding or subtracting a multiple of π .
+
+
+
+5.10 Exercises
+5.1. Without using a calculator, express the following            5.2. Without using a calculator, express the following
+     angles in degrees (remember π radians = 180◦ , π ≈                angles in radians:
+     3.142):
+
+   (a) 23 π radians    (b) 4π radians       (c) 35 π radians            (a) 45◦   (b) 135◦   (c) 10◦   (d) 150◦ .
+   (d) 6.284 radians   (e) 1.571 radians.
+
+    Check your answers using a calculator.                              Check your answers using a calculator.
+
+
+                                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,83 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                                        Fourier series     427
+
+                                      giving
+
+                                                
+                                                                                  bn
+                                        cn =     an2 + bn2   and   φn = − tan−1         (±π if an is negative)
+                                                                                  an
+
+                                      We see that cn ∠φn can be found by expressing (an , −bn ) in polar form.
+                                         The amplitudes can be plotted against the frequency f (or angu-
+                                      lar frequency ω) giving the amplitude spectrum and the phases
+                                      can be plotted, giving the phase spectrum. The amplitude gives
+                                      information about the distribution of energy among the different
+                                      frequencies.
+                                         For the unbiased square wave which we considered in Example 16.1
+                                      we found
+
+                                                    ∞                             ∞
+                                                1  1 − (−1)n             1    2
+
+ww                                    f (t) =
+
+                                        am = 0
+                                                π
+                                                   n=1
+                                                        n
+                                                              sin(nπ t) =
+                                                                          π   2m − 1
+                                                                                  m=1
+                                                                                     sin((2m − 1)π t)
+
+
+
+
+   w                 .Ea                bm =
+                                                    2
+                                                (2m − 1)π
+
+
+
+                        syE           So
+                                             
+                                                                 2
+                                      cm =    am
+                                                   ngi
+                                               2 + b2 =
+                                                    m
+                                                             π(2m − 1)
+
+
+
+                                                ∞
+                                                       n
+                                      as there is only a sine term then the phase is given by −π/2. So we get
+
+                                                         2          eer          π
+                                      f (t) =
+                                                m=1
+                                                      π(2m − 1)
+                                                                cos (2m − 1)π t −
+
+                                                                                  ing
+                                                                                  2
+
+                                      where n = 2m − 1.
+                                                                                            .ne
+                                         On plotting these amplitudes and phases we get Figure 16.6. The phases
+
+                                      them as 0.
+                                                                                                t
+                                      are not defined for frequencies with zero amplitude but we can consider
+
+
+
+
+Figure 16.6   (a) The amplitude and (b) phase spectra of the square wave given in Figure 16.1.
+
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

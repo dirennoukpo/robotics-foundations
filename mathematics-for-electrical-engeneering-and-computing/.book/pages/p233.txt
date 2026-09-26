@@ -1,0 +1,77 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+220    Complex numbers
+
+
+
+Figure 10.15 A ball on a
+string is moving round a circle
+with constant angular velocity
+so that θ = ωt . If we observe
+the ball from the position of
+the eye in (a) then we can
+only see the motion in the
+horizontal direction and the
+ball appears to oscillate back
+and forth as shown in (b).
+Also displayed is the graph of
+x against time,
+t : x = r cos(ωt ).
+
+
+
+
+ ww                                   that the force required to maintain the circular motion can be found by
+                                      using F = ma, where F is the force, m is the mass, and a is the accel-
+
+    w                  .Ea
+                                      eration. We assume, in this discussion, that the effects of gravity and air
+                                      resistance are negligible. The ball is being rotated in a plane which is
+                                      vertical to the ground.
+                                         First, imagine lying flat on the ground in a line with the x-axis and
+
+
+                          syE         watching the ball. It appears to oscillate back and forth and its position
+                                      is given by x = r cos(ωt). This is pictured in Figure 10.15.
+                                         Differentiating with respect to t gives the component of the velocity in
+                                      the x-direction
+                                      dx                    ngi
+                                      dt
+                                         = −rω sin(ωt).
+
+                                                                n   eer
+                                      The acceleration is the derivative of this velocity
+
+                                      d
+                                      dt
+                                           
+                                               dx
+                                               dt
+                                                    
+                                                        .                       ing
+                                                                                              .ne
+                                      This is also written as d2 x/dt 2 (read as ‘d two x by dt squared’) and it
+                                      means the derivative of the derivative
+                                      dx
+                                      dt
+                                         = −rω sin(ωt)
+                                                                                                  t
+                                      differentiating again gives
+
+                                      d2 x
+                                           = −rω2 cos(ωt) = −ω2 (r cos(ωt))
+                                      dt 2
+                                      and as x = r cos(ωt)
+
+                                      d2 x
+                                           = −ω2 x.
+                                      dt 2
+                                        This equation tells us that the horizontal acceleration is proportional to
+                                      the horizontal distance from the origin in a direction towards the origin.
+                                      This type of behaviour is called simple harmonic motion.
+                                        We can consider the movement in the y-direction by changing our
+                                      point of view as in Figure 10.16. Again we can find the component of the
+                                      acceleration, this time in the y-direction.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

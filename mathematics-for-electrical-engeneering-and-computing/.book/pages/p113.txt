@@ -1,0 +1,79 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+100   Trigonometric functions and waves
+
+                              Sinusoidal functions of time:
+                              amplitude, frequency, angular
+                              frequency, period, and phase
+                              Waves that represent a displacement from a central fixed position varying
+                              with time can be represented by an expression such as y= A cos(ωt +φ) or
+                              y = A sin(ωt +φ), where t is in seconds. Examples include an alternating
+                              voltage measured across a particular circuit element or the position of the
+                              centre of an ear drum as it vibrates in response to a pure sound wave.
+                              As we saw in the previous section, A represents the wave amplitude, ω
+                              (the Greek letter, omega) is called the angular frequency as it gives the
+                              number of cycles in 2π , it is measured in radians per second. The number
+                              of cycles in 1 s is called the frequency, f = ω/2π and is measured in hertz
+                              (Hz). φ (the Greek letter, phi) is the phase, the cycle length is 2π/ω s. In
+                              the case of a function of time the cycle length is called the periodic time
+
+
+ww                            or just the period and we often use the greek letter, τ (tau), to represent
+                              this, where τ = 2π/ω. Then we have that y = A cos(ωt + φ) can be
+                              rewritten as
+
+
+   w             .Ea
+                              y = A cos(2π f t + φ)
+
+                              using the frequency. As f = 1/τ , this can be written as
+
+
+                    syE       y = A cos
+                                         
+                                           2π
+                                            τ
+                                              t +φ
+                                                   
+
+
+
+
+                              Example 5.5ngi
+                                             n
+                              (a) y = 3 cos(t + 1); find the amplitude, frequency, period, angular
+
+                                                            eer
+                                  frequency, and phase where t is expressed in seconds.
+                                Compare y = 3 cos(t + 1) with y = A cos(ωt + φ). Then we can see
+
+                                                                        ing
+                              that the angular frequency ω = 1, the phase φ = 1, and the amplitude
+                              A = 3. As the frequency, f = ω/2π , f = 1/2π , and the period τ =
+                              1/f = 1/(1/2π ) = 2π s.
+                                                                                      .ne
+                              (b) V = 12 cos(314t + 1.6); find the amplitude, frequency, period,
+
+                                                                                          t
+                                  angular frequency, and phase where t is expressed in seconds.
+
+                                 Compare V = 12 cos(314t + 1.6) with V = A cos(ωt + φ). Then
+                              the angular frequency, ω = 314, the phase φ = 1.6, and the amplitude
+                              A = 12. As f = ω/2π , f = 314/2π ≈ 50 Hz, and the period τ =
+                              1/f = 1/50 = 0.02 s.
+
+
+                              Sinusoidal functions of distance:
+                              amplitude, cycle rate, wavelength,
+                              and phase
+                              Waves that give the displacement from a central fixed position of vari-
+                              ous different points at a fixed moment in time can be represented by an
+                              expression such as y = A cos(kx +φ) or y = A sin(kx +φ), where x is in
+                              metres. Examples include the position of a vibrating string at a particular
+                              moment or the surface of pond in response to a disturbance. As we saw
+                              in the previous section, A represents the wave amplitude; k is called the
+                              wavenumber and represents the number cycles in 2π. The spatial fre-
+                              quency gives the number of cycles in 1 m (= k/2π ). The cycle length
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

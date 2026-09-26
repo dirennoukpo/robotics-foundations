@@ -1,0 +1,58 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                         The exponential function           167
+
+
+
+
+ww
+   w                  .Ea
+y = 2t with some tangentssyE
+Figure 8.2 (a) The graph of
+
+
+
+                                                 ngi
+marked. (b) The graph of the
+derivative (the gradient of the
+tangent at any point on y = 2t
+plotted against t).
+
+                                                     n
+                                       Finding the value of e      eer
+                                                                               ing
+                                       There are various methods for finding the value of e and a graphical
+
+
+                                                                                            .ne
+                                       investigation into finding e to one decimal place is given in the projects
+                                       and investigations available on the companion website for this book. An
+
+
+                                                                                                t
+                                       alternative, numerical, method is to look at the gradient of the chord for
+                                       the function y = et at t = 0:
+                                       δy   f (t + δt) − δt   et+δt − et
+                                          =                 =
+                                       δt         δt              δt
+                                       At t = 0 all functions y = a t have value 1 so that the gradient of the
+                                       chord at t = 0 is
+                                       δy   eδt − 1
+                                          =
+                                       δt      δt
+                                                                               d t
+                                       We defined e as the number for which       (e ) = et so that at the point
+                                                                               dt
+                                       t = 0 the gradient of the tangent is given by dy/dt = 1. For small δt
+                                       the gradient of the tangent is approximately equal to the gradient of the
+                                       chord
+                                       dy     δy
+                                           ≈
+                                        dt    δt
+                                       and therefore
+                                            eδt − 1
+                                       1≈
+                                               δt
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

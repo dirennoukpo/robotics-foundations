@@ -1,0 +1,109 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                      Systems of linear equations, matrices, and determinants                   311
+
+                                        For the coordinates of A substitute x = 0 and y = 0 giving
+
+                                                                        
+                                       x    0.643        −0.766     0   −1   0   −1   −1
+                                         =                            +    =   +    =
+                                       y    0.766        0.643      0   2    0   2    2
+
+                                      for B
+                                                                     
+                                       x     0.643 −0.766    1   −1   0.643    −1
+                                         =                     +    =        +
+                                       y     0.766   0.643   0   2    0.766    2
+                                                   
+                                             −0.357
+                                         =
+                                              2.766
+
+                                      for C
+
+ww                                      
+                                       x
+                                         =
+                                             0.643 −0.766
+                                                              
+                                                            1
+                                                              +
+                                                                −1
+                                                                   =
+                                                                     −0.123
+                                                                              
+                                                                             +
+                                                                               −1
+
+
+   w                 .Ea
+                                       y
+
+                                         =
+                                           
+                                             0.766 0.643
+                                             −1.123
+                                              3.409
+                                                    
+                                                            1   2     1.409    2
+
+
+
+
+                        syE           for D
+                                        
+                                       x
+                                       y
+                                         =
+                                                ngi
+                                             0.643 −0.766
+                                             0.766 0.643
+                                                              
+                                                            0
+                                                            1
+                                                              +
+                                                                −1
+                                                                2
+                                                                   =
+                                                                     −0.766
+                                                                      0.643
+                                                                              
+                                                                             +
+                                                                               −1
+                                                                               2
+
+                                         =
+                                           
+                                             −1.766
+                                              2.643 n
+                                                    
+
+
+                                                                  eer
+                                                                               ing
+                                        The image of the unit square is pictured in Figure 13.9(b).
+                                        (b) We can write this combined transformation as
+
+                                      p = R(p + t)                                          .ne
+                                                                                                t
+                                      where p is the position vector of the image point, p is the position vector
+                                      of the original point, R is the matrix representing the rotation, and t is
+                                      the vector representing the translation. We have put the brackets in to
+
+
+
+
+Figure 13.9 (a) The unit
+square with vertices A(0,0),
+B(1,0), C (1,1) D(0,1). (b)
+The same unit square after
+rotation through 50◦ about the
+origin and translation through
+(−1, 2) and the unit square
+after translation through
+(−1, 2) and then rotation of
+50◦ about the origin.
+
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,83 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+                                                   Maxima and minima and sketching functions                          239
+
+
+
+
+Figure 11.2 (a) The graph
+of Figure 11.1. (b) A sketch of
+its derivative dy/dx = f  (x ).
+Where y = f (x ) has a
+stationary point, that is, where
+the tangent to the curve is flat,
+then dy/dx = 0. Where f (x ) is
+increasing the derivative is
+positive and where f (x ) is
+decreasing the derivative is
+
+
+ww
+negative.
+
+
+
+
+   w                   .Ea
+                                         At C there is a point of inflexion, where the graph goes flat briefly before
+                                         resuming its descent.
+
+
+
+                          syE               Local maxima and minima are also called turning points because the
+                                         function is changing from increasing to decreasing or vice versa.
+                                            By looking at where the graph is going uphill, that is, dy/dx > 0, at
+
+
+                                                    ngi
+                                         where it is going downhill, that is, dy/dx < 0, and especially remem-
+                                         bering to mark the points where dy/dx = 0, the stationary points, we
+                                         can draw a very rough sketch of the derivative of any function just by
+
+                                                        n
+                                         looking at its graph. This we do for our example graph in Figure 11.2. By
+
+                                                                         eer
+                                         examining the graph of dy/dx we can see that at a local minimum point
+                                         dy/dx = 0 and dy/dx is negative just before the minimum and positive
+
+
+                                                                                      ing
+                                         afterwards. For a local maximum point dy/dx = 0 and dy/dx is positive
+                                         just before the maximum and negative afterwards.
+                                            If at the point where dy/dx = 0 and the derivative has the same sign
+
+                                                                                                     .ne
+                                         on either side of the stationary point then it must be a point of inflexion.
+                                         (At point C, dy/dx is negative just before and just after x = c.)
+
+
+                                                                                                         t
+                                            Analysing the sign of dy/dx on either side of a stationary point is
+                                         one way of classifying whether it is a maximum, minimum, or point of
+                                         inflexion. Another, sometimes quicker way, is to use the derivative of the
+                                         derivative, the second derivative, d2 y/dx 2 , also referred to as f  (x).
+                                            To understand how to use the second derivative, examine
+                                         Figure 11.2(b). We can see that at xa , f  (x) is heading uphill; hence,
+                                         its slope, f  (x), is positive. At xb , f  (x) is heading downhill; hence, its
+                                         slope, f  (x), is negative. At xc , f  (x) has zero slope and therefore f  (x)
+                                         is 0.
+                                            We can now summarize the steps involved in finding and classifying
+                                         the stationary points of a function y = f (x) and in finding the overall
+                                         maximum or minimum value of a function.
+                                         Step 1 Find the values of x at the stationary points. First, find dy/dx
+                                                and then solve for x such that dy/dx = 0.
+                                         Step 2 To classify the stationary points there is a choice of method,
+                                                although Method 2 does not always give a conclusive
+                                                result.
+                                                Method 1 For each of the values of x found in Step 1, find
+                                                            out whether the derivative is positive or negative
+                                                            just before the stationary point and just after the
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

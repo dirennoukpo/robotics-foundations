@@ -1,0 +1,66 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                           Graph theory         463
+
+                                      Subgraph
+                                      A subgraph of G is a graph, H, whose vertex set is a subset of G’s vertex
+                                      set, and similarly its edge set is a subset of the edge set of G.
+
+
+                                      V (H) ⊆ V (G)
+                                      E(H) ⊆ E(G)
+
+
+                                      If it spans all of the vertices of G, that is, V (H) = V (G) then H is called a
+                                      spanning subgraph of G. A graph G, a subgraph, and a spanning subgraph
+                                      are shown in Figure 19.7.
+
+
+
+
+ww                                    Complete graph
+
+   w                 .Ea
+                                      A simple graph in which every pair of two vertices is adjacent is called
+                                      a complete graph. Kn is the complete graph with n vertices. Kn has
+                                      2 n(n − 1) edges. Some examples of complete graphs are shown in
+                                      1
+
+                                      Figure 19.8.
+
+
+                        syE           Bipartite graph
+                                                 ngi
+                                      This is a graph whose vertex set can be partitioned into two sets in such a
+
+
+                                                     n
+                                      way that each edge joins a vertex of the first set to a vertex of the second
+
+
+                                                                    eer
+                                      set. Some examples are given in Figure 19.9.
+                                         A complete bipartite graph is a bipartite simple graph in which every
+                                      vertex in the first set is adjacent to every vertex in the second set. Km,n is
+
+                                                                                 ing
+                                      the complete bipartite graph with m vertices in the first set and n vertices
+
+
+
+                                                                                               .ne
+                                                                                                   t
+Figure 19.7 (a) A graph G. (b) A subgraph of G.                  Figure 19.8 Complete graphs (a) K3 ;
+(c) A spanning subgraph of G.                                    (b) K4 ; (c) K5 .
+
+
+
+
+Figure 19.9 Bipartite
+graphs. (b) and (c) are the
+complete bipartite graphs K2,4
+and K3,1 .
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

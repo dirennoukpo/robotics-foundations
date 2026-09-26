@@ -1,0 +1,88 @@
+               Downloaded From : www.EasyEngineering.net
+
+
+                                                              Sequences and series              287
+
+                    that
+
+                    |xn+1 − xn | < 0.00005|xn+1 |
+
+                    and take xn+1 as the limit of the sequence correct to four significant
+                    figures.
+
+
+                    Divergence
+                    A divergent sequence is one that does not tend to a finite limit. Some
+                    examples of divergent sequences are:
+                      (i) 1, 0, 1, 0, 1, 0, 1, 0 . . . which is an oscillating sequence,
+                     (ii) 1, 2, 4, 8, 16 . . . which tends to plus infinity,
+                    (iii) −1, −3, −5, . . . which tends to minus infinity.
+
+
+ww                     Recurrence relations that are used for some numerical method may not
+                    always converge, particularly if the initial value is chosen inappropriately.
+                    To check for this eventuality, it is usual to stop the algorithm after some
+
+
+   w    .Ea
+                    finite number of steps, maybe 100 or 1000 iterations, depending on the
+                    problem. If no convergence has been found after that number of iterations
+                    then it is considered that sequence is failing to converge.
+
+
+
+           syE
+12.9 Summary         1. A sequence is a collection of objects arranged in a definite order. The
+                        elements of a sequence can be represented by a1 , a2 , a3 , . . . , an , . . .
+
+                                  ngi
+                     2. If a rule exists by which any term in the sequence can be found
+                        then this may be used to express the general term of the sequence,
+
+
+                                      n
+                        usually represented by an or a(n). This rule can also be expressed in
+
+
+                                                   eer
+                        the form of a recurrence relation where an+1 is expressed in terms
+                        of an , an−1 , an−2 , . . .
+
+
+                                                                 ing
+                     3. During analog to digital (A/D) conversion, a signal is sampled and
+                        can then be represented by a sequence of numbers. f (t) can be
+                        represented by a(n) = f (nT ), where T is the sampling interval
+
+
+                        represent a frequency of f Hz.                           .ne
+                        and t = nT . The sampling theorem states that the sampling inter-
+                        val must be less than T = 1/(2f ) seconds in order to be able to
+
+
+
+                        the summation process, for example,
+                                                                                     t
+                     4. A series is the sum of a sequence. To represent series we may use
+                        sigma notation, using the capital Greek letter sigma, , to indicate
+
+
+                           n=10
+                                 1
+                                  2n
+                           n=0
+
+                        means ‘sum all the terms 1/2n for n from 0 to 10’.
+                     5. An arithmetic progression (AP) is a sequence where each term is
+                        found by adding a fixed amount, called the common difference, to
+                        the previous term. If the first term is a and the common difference
+                        is d, then the general term is an = a + (n − 1)d and the sum of the
+                        first n terms is given by
+                                  n                                  n
+                           Sn =     (2a + (n − 1)d)     or    Sn =     (a + l)
+                                  2                                  2
+                           where l is the last term in the sequence and n is the number of terms.
+                     6.    An geometric progression (GP) is a sequence where each term is
+                           found by multiplying the previous term by a fixed amount, called
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

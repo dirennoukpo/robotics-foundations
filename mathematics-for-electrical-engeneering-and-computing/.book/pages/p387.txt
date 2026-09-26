@@ -1,0 +1,97 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+374   Differential equations and difference equations
+
+                               the constant terms are now constant vectors.
+
+                               x = c1 t + c0
+                                    ⇒       dx/dt = c1 .
+
+                               Substitute this trial solution into
+
+                               dx/dt = Ax + bt
+
+                               giving
+
+                               c1 = A(c1 t + c0 ) + bt.
+
+                               We can equate vector coefficients of t and the constant terms on both sides
+                               giving
+
+                                0 = Ac1 + b
+
+
+ww                             c1 = Ac0 .
+
+                               We solve these two matrix equations
+
+   w              .Ea
+                               0 = Ac1 + b
+                                    ⇔       Ac1 = −b.
+
+
+                     syE       Pre-multiply by A−1 (if it exists) giving
+
+                               c1 = −A−1 b
+
+                               As
+                                             ngi  
+                               A=
+                                  0
+                                  −4
+
+                               we have
+                                                  n
+                                                  1
+                                                 −5
+                                                                     eer
+                               A   −1
+                                        =
+                                             
+                                          1 −5
+                                          4 4
+                                                      −1
+                                                      0
+                                                         
+                                                         =
+                                                           
+                                                            −1.25
+                                                             1                  ing
+                                                                            −0.25
+                                                                             0
+                                                                                    
+
+
+
+                               and
+                                                                                       .ne
+                               b=
+
+                               so
+                                   0
+                                   1                                                         t
+                                                                         
+                                             −1.25     −0.25        0    0.25
+                               c1 = −                                 =         .
+                                              1         0           1     0
+
+                               To find c0 we can use
+
+                               c1 = Ac0
+
+                               we get
+
+                               c0 = A−1 c1
+                                                                              
+                                      −1.25           0.25        0.25     −0.3125
+                                  =                                     =            .
+                                        1              0           0        0.25
+
+                               Therefore, a particular solution x = c1 t + c0 is given by
+                                                        
+                                     0.25         −0.3125
+                               x=           t+
+                                      0             0.25
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

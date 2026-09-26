@@ -1,0 +1,84 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+156    Integration
+
+
+7.7 Numerical                           Many problems may be difficult to solve analytically. In such cases
+                                        numerical methods may be used. This is often necessary in order to per-
+Methods of                              form integrations. The following integrals could not be solved by the
+                                        methods of integration we have met so far:
+Integration
+                                         3
+                                               sin(x)
+                                                      dx
+                                          2    x2 + 1
+                                         2
+                                               2x dx
+                                                 2
+
+
+                                          −3
+
+
+                                             Numerical methods can usually only give an approximate answer.
+
+
+
+
+ ww                                     General method
+
+    w
+                                        We wish to approximate the integral
+
+
+
+                         .Ea             b
+
+                                         a
+                                              f (x) dx
+
+
+                            syE            Formulae for numerical integration are obtained by considering the
+                                        area under the graph and splitting the area into strips, as in Figure 7.11.
+
+                                                       ngi
+                                        The area of the strips can be approximated using the trapezoidal rule or
+                                        Simpson’s rule. In each case, we assume that the thickness of each strip
+
+
+
+                                        h=
+                                               (b − a)
+                                                           n
+                                        is h and that there are N strips, so that
+
+
+                                                                     eer
+                                                  N
+                                                                                  ing
+                                           Numerical methods are obviously to be used with a computer or pos-
+
+                                                                                               .ne
+                                        sibly a programmable calculator. However, it is a good idea to be able to
+                                        check some simple numerical results, which needs some understanding
+                                        of the algorithms used.
+                                                                                                   t
+                                        The trapezoidal rule
+                                        The strips are approximated to trapeziums with parallel sides of length
+                                        yr−1 and yr as in Figure 7.12. The area of each strip is (h/2)(yr−1 + yr ).
+
+
+
+
+Figure 7.11 Numerical
+integration is performed by
+splitting the area into strips of
+width h. The area of the strips
+is approximated using the
+trapezoidal rule or Simpson’s
+rule.
+
+
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

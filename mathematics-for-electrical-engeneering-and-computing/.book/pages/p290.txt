@@ -1,0 +1,89 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                  Sequences and series           277
+
+            Up to the term in x 3 :
+
+                                                        1     1     1
+            (1 + x)1/2 (1 − x)−1 = 1 + x + x 2 + x 3 + x + x 2 + x 3
+                                                        2     2     2
+                                     1      1        1
+                                   − x2 − x3 + x3
+                                     8      8        16
+                                                              
+                                             1              1 1
+                                 =1+ 1+          x+ 1+ −            x2
+                                             2              2 8
+                                                        
+                                           1 1        1
+                                   + 1+ − +                x3
+                                           2 8 16
+                                                          
+                                       3       11           23
+                                 =1+ x+              x2 +       x3.
+                                       2        8           16
+
+
+
+ww          Approximation
+   w.Ea
+            Power series can be used for approximations.
+
+            Example 12.29
+                                                              √
+                               Use a series expansion to find 1.06 correct to 5 s.f.
+
+       syE  Solution We need to √
+                                        √
+                                  write 1.06 √ in a way that we could use the binomial
+            expansion, so we use 1.06 = 1 + 0.06 = (1 + 0.06)1/2
+
+                       ngi
+              When doing this it is important that the second term, in this case 0.06,
+            should be a small number so that its higher powers will tend towards zero.
+
+
+                           n
+              We can now use the binomial expansion, taking terms up to x 3 ,
+
+
+                                        eer
+            as we estimate that terms beyond that will be very small. Using
+            Equation (12.12), we find
+
+                            1   1     1
+            (1 + x)1/2 = 1 + x − x 2 + x 3 − · · ·
+                            2   8     16            ing
+            Now substitute x = 0.06 giving
+                                                                 .ne
+               √
+              1.06 ≈ 1 +
+                         0.06 (0.06)2
+                           2
+                               −
+                                      8
+                                        +
+                                           (0.06)3
+                                             16
+                   = 1 + 0.03 − 0.00045 + 0.0000135 = 1.0295635
+                                                                     t
+             √
+            ⇒ 1.06 = 1.0296 to 5 s.f.
+
+
+
+
+            Example 12.30 Find sin(0.1) correct to five decimal places by using a
+            power series expansion.
+            Solution At the beginning of this section, we found that the power series
+            expansion for sin(x) was as follows:
+
+                           x3   x5
+            sin(x) = x −      +    − ···
+                           3!   5!
+
+            We substitute x = 0.1 to find sin(0.1) and continue until the next term
+            is small compared to 0.000005 which means that it would not effect the
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

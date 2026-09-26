@@ -1,0 +1,86 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                          Probability and statistics          519
+
+
+
+Figure 21.24 The
+probability p(a < x < b) can
+be found by the difference
+between two values of the
+cumulative distribution
+function F (b) − F (a).
+Compare the difference in
+areas with Figure 21.22.
+
+
+
+
+Figure 21.25 The area in
+tail of the
+         ∞ standardized normal
+
+ww
+curve u f (z ) dz tabulated in
+Table 21.3.
+
+
+
+   w                  .Ea
+                                       It is only integrated by using numerical methods. Hence, the values of
+                                       the integrals can only be tabulated. The values that we have tabulated are
+                                       the areas in the tail of the standardized normal distribution; that is
+
+
+                         syE            ∞
+
+                                        u
+                                             f (z) dz
+
+
+
+                                                 ngi
+                                       where f (z) is the probability distribution with 0 mean (µ = 0) and
+                                       standard deviation of 1 (σ = 1). This is shown in Figure 21.25 and
+
+                                                     n
+                                       tabulated in Table 21.3. In order to use these values we need to use ideas
+
+                                                                    eer
+                                       of transformation of graphs from Chapter 2 to transform any normal
+                                       distribution into its standardized form.
+
+                                       The standardized normal curve             ing
+                                                                                              .ne
+                                       The standardized normal curve is obtained from the normal curve by the
+                                       substitution z = (x − µ)/σ and it converts the original distribution into
+
+
+
+
+                                       Finding the probability that x lies
+                                                                                                  t
+                                       one with zero mean and standard deviation 1. This is useful because we
+                                       can use a table of values for z given in Table 21.3 to perform calculations.
+
+
+
+                                       between a given range of values
+                                       Supposing we have decided that a sample of resistors have a mean of
+                                       10.02 and a standard deviation of 0.06, then what percentage lie inside
+                                       an acceptable tolerance of 10 ± 0.1?
+                                         We want to find the area under the normal curve N (10.02, 0.062 )
+                                       between x = 9.9 and x = 10.1, that is, the shaded area in Figure 21.26.
+                                         First, convert the x values to z values, by using z = (x − µ)/σ :
+
+                                                     9.9 − 10.02
+                                       x = 9.9 ⇒ z =             = −2
+                                                         0.06
+                                                      10.1 − 10.02
+                                       x = 10.1 ⇒ z =              = 1.3333
+                                                           0.06
+                                       So we now want to find the shaded area for z values (which will be the
+                                       same area as above), shown in Figure 23.27.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

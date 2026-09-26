@@ -1,0 +1,89 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+124   Differentiation
+
+                            Note that we always need to make substitutions so that our function is
+                            the composite of the simple functions that we know how to differentiate,
+                            that is, x n , sin(x), cos(x), tan(x) (or a constant times these functions,
+                            or the sum of these functions). One simple way to guess the required
+                            substitution is to look for a bracket.
+
+                            Example 6.7     Differentiate y = (5x − 2)3 .
+                            Solution Substitute u = 5x − 2 (the function in the bracket) so that
+                            y = u3 . Then
+                            du               dy
+                               = 5 and          = 3u2 .
+                            dx               du
+                            Therefore,
+                            dy   dy du
+                               =
+
+ww                          dx
+                            gives
+                                 du dx
+
+
+
+
+   w               .Ea
+                            dy
+                            dx
+                               = 5(3u2 ) = 15(5x − 2)2       (resubstituting u = 5x − 2).
+
+
+
+
+                      syE   Example 6.8     Differentiate y = cos(2x 2 + 3).
+                            Solution Substitute u = 2x 2 + 3, giving y = cos(u). Then
+                            du
+                            dx
+                               = 4x and
+                                         ngi   dy
+                                               du
+                                                  = − sin(u).
+
+                            Therefore,
+                            dy
+                            dx
+                               =
+                                 dy du
+                                 du dx
+                                             n            eer
+                                       = −4x sin(u) = −4x sin(2x 2 + 3).
+
+
+                                                                      ing
+                               Because of the widespread use of the chain rule it is useful to be able
+
+                            that comes with practice (like mental arithmetic).
+                                                                                   .ne
+                            to differentiate a composite function ‘in your head’. This is a technique
+
+
+                            Example 6.9     Differentiate V = 1/(t + 1).
+                                                                                       t
+                            Solution Rewrite V = 1/(t + 1) as V = (t + 1)−1 and think of this as
+                            V = ( )−1 where ( ) = t + 1.
+                               Now differentiate V with respect to ( ) and multiply by the derivative
+                            of ( ) with respect to t. That is,
+
+                            dV   dV d( )
+                               =
+                            dt   d( ) dt
+
+                            where ( ) can be any expression. So
+
+                            dV                  d
+                               = (−1(t + 1)−2 ) (t + 1)
+                            dt                 dt
+                            dV
+                               = (−1(t + 1)−2 )1
+                            dt
+                            dV      −1
+                               =          .
+                            dt   (t + 1)2
+
+
+
+                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

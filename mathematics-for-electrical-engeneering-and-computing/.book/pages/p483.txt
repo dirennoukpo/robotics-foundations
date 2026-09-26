@@ -1,0 +1,120 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+470   Graph theory
+                                                              Table 19.3 The lengths of paths using up to
+                                                              three edges from s
+
+                                                              Reference     a    b    c     d      e      f     t
+                                                              vertex
+
+
+                                                              s            
+                                                                           4 11       7    100   100    100    100
+                                                              a                  11   
+                                                                                      7     12   100     14    100
+                                                              c                  11         11    10     14    100
+
+
+Figure 19.21 Stage 3 of solving the shortest
+path problem.
+                                                              Table 19.4 The lengths of paths using up to
+                                                              four edges from s
+
+                                                              Reference     a    b    c     d      e      f      t
+                                                              vertex
+
+ ww                                                           s            
+                                                                           4 11       7
+                                                                                      
+                                                                                           100   100    100    100
+
+
+    w                .Ea
+Figure 19.22 Stage 4 of solving the shortest
+                                                              a
+                                                              c
+                                                              e
+                                                                                 11
+                                                                                 11
+                                                                                 11
+                                                                                      7 12
+                                                                                            11
+                                                                                            11
+                                                                                                 100
+                                                                                                  
+                                                                                                  10
+                                                                                                         14
+                                                                                                     14 100
+                                                                                                          14
+                                                                                                               100
+
+                                                                                                                15
+
+path problem.
+                        syE                                   Table 19.5 The lengths of paths using up to
+
+
+                                                ngi           five edges from s
+
+                                                              Reference     a    b     c    d      e      f      t
+
+
+                                                    n         vertex
+
+
+                                                              s     eer    
+                                                                           4 11
+                                                                                      
+                                                                                       7   100    100    100   100
+                                                              a
+                                                              c                 ing
+                                                                                
+                                                                                 11
+                                                                                 11
+                                                                                      7 12
+                                                                                            11
+                                                                                                  100
+                                                                                                  
+                                                                                                  10
+                                                                                                          14
+                                                                                                     14 100
+                                                                                                               100
+
+
+
+Figure 19.23 Stage 5 of solving the shortest
+                                                              e
+                                                              b
+                                                                                11          11
+                                                                                            11
+                                                                                                .ne       14
+                                                                                                          14
+                                                                                                                 15
+                                                                                                                 15
+
+
+                                                                                                    t
+path problem.
+
+
+                                     vertices if the paths via b are found to be shorter. The result of this stage
+                                     is shown in Figure 19.23 and Table 19.5.
+
+                                     Stage 6
+                                     Choose d as the new reference vertex and mark its label in bold. The only
+                                     vertices left without permanent labels are t and f. We find that the path
+                                     via d to t gives a smaller value than the current label of 15 and hence
+                                     we change the label to 11 + 2 = 13. The result of this stage is shown in
+                                     Figure 19.24 and Table 19.6.
+
+                                     Stage 7
+                                     The remaining vertex with the smallest label is t. We therefore give t the
+                                     permanent label of 13. As soon as t receives a permanent label we can
+                                     stop the algorithm as this must now represent the length of the shortest
+                                     path from s to t which is the result we set out to find. To find the actual
+                                     path that has this length we move backwards from t looking for consistent
+                                     labels. To get to t we must have gone through d as adding the label on
+                                     d to the length of edge dt gives the correct value of 13. Continuing this
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

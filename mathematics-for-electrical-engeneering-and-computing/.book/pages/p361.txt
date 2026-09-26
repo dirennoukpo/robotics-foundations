@@ -1,0 +1,86 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+348   Differential equations and difference equations
+
+                                  To relate these quantities together we use the fact that the total force
+                               on the mass is made up of the spring force, the damping force, and the
+                               external force FT = FD + FS + f (t).
+                                  If we wish to combine these equations to express them using a single
+                               differential equation we simply substitute for FT in terms of x and the
+                               derivatives of x, giving
+
+
+                                   d2 x       dx
+                               m        = −r     − kx + f (t)
+                                   dt 2       dt
+                                          d2 x    dx
+                                   ⇔ m 2 +r           + kx = f (t)
+                                          dt      dt
+
+
+                               Should we wish to solve the system as a system of first order differential
+
+
+ww                             equations then we choose some state variables, usually the displacement
+                               and the velocity. Called these x1 and x2 , and as x1 is the displacement x1 =
+                               x and as x2 is the velocity this is the derivative of the displacement giving
+
+   w              .Ea
+                               x2 = dx1 /dt.
+                                  As the acceleration is the derivative of the velocity, we can write the
+                               acceleration as the derivative of x2
+
+
+
+                     syE       a=
+                                     d 2 x1
+                                      dt 2
+                                            =
+                                              d dx1
+                                              dt dt
+                                                    =
+                                                      dx2
+                                                       dt
+                                                          .
+
+
+                                           ngi
+                                  Now FT = ma can be written in terms of x2 as FT = m dx2 /dt and the
+
+                               gives           n
+                               force due to the dashpot becomes FD = −rx2 . So FT = FD + FS + f (t)
+
+                                                              eer
+                               m
+                                   dx2
+                                       = −rx2 − kx1 + f (t)               ing
+                                   ⇔
+                                    dt
+                                        dx2     k      r    1
+                                            = − x1 − x2 + f (t).                       .ne
+                                         dt    m       m    m
+
+
+                               So the system of equations that represent the system is
+                                                                                           t
+                               dx1
+                                   = x2
+                                dt
+                               dx2      k  r    1
+                                   = − x1 − x2 + f (t).
+                                dt      m  m    m
+
+
+                                 The first equation expresses the fact that x2 is the velocity and the
+                               second equation was obtained by considering the total force on the mass
+                               and using Newton’s second law.
+                                 This system of equations may be expressed in matrix form as
+
+                                                                  
+                               d     x1    0            1       x1    0
+                                        =                          +       f (t).
+                               dt    x2   −k/m         −r/m     x2   1/m
+
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

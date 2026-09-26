@@ -1,0 +1,102 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+332   Systems of linear equations, matrices, and determinants
+
+                              The determinant of a 3 × 3 matrix
+                              The definition of the (2 × 2) determinant has been given as
+                                      
+                               a 1 b1 
+                                      
+                              a2 b2  = a1 b2 − a2 b1 .
+
+                              Each of the terms on the right-hand side of this definition is of the form
+                              ai bj where i and j are different choices of the numbers 1 and 2. We
+                              can define higher order determinants by using ideas of permutations.
+                              We notice that the term a1 b2 above has a positive sign because the indices
+                              1 and 2 appear in order, whereas the term a2 b1 has a negative sign because
+                              the indices 2,1 are reversed.
+                                 To define
+                                          
+                              a1 b1 c1 
+                                          
+                              a2 b2 c2 
+                                          
+
+ww                             a3 b3 c3 
+
+                              we write down all terms of the form ai bj ck and give each term a + sign
+
+
+   w              .Ea
+                              or a − sign depending on whether the permutation ijk is even or odd.
+                              A permutation of 123 is even if it can be achieved by an even number
+                              of swaps of the numbers, beginning with the order 123. If it can only
+                              be obtained by an odd number of swaps then the permutation is odd.
+
+
+                     syE      For example, 231 is even because we can reach it by first swapping 1
+                              and 2 giving 213 and then swapping 1 and 3. Alternatively, we could
+                              have interchanged 2 and 3 giving 132 and 1 and 3 giving 312, 2 and 1
+
+
+                                             ngi
+                              giving 321, 3 and 2 giving 231. Whatever way we use to get to the order
+                              231 involves an even number of steps. Similarly we say that a permutation
+                              of 123 is odd if it involves an odd number of adjacent interchanges.
+
+                                                n
+                                  This definition gives the determinant of a 3 × 3 array as
+                               a 1 b1 c1 
+                              
+                                            
+                                                                     eer
+                              a2 b2 c2  = a1 b2 c3 − a1 b3 c2 − a2 b1 c3 +a2 b3 c1 + a3 b1 c2 − a3 b2 c1
+                              
+                               a3 b3 c3 
+                                            
+                                                                                       ing
+                                This expression may be written in such a way that it involves 2 × 2
+                              determinants as follows:
+                                                                                                        .ne
+                                                        
+                                                                                 
+                                                                                                            t
+                              a 1 b 2 c 3 − a 1 b 3 c 2 − a 2 b 1 c3 + a 3 b 1 c 2 + a 2 b 3 c 1 − a 3 b 2 c1
+                                  = a1 (b2 c3 − b3 c2 ) − b1 (a2 c3 − a3 c1 ) + c1 (a2 b3 − a3 b2 )
+                                       
+                                       b2 c2 
+                                       
+                                  = a1 
+                                                
+                                                 − b1 
+                                                        
+                                                        a2 c2 
+                                                                 
+                                                                 
+                                                                        
+                                                                        a2 b2 
+                                                                        
+                                                                   + c1         .
+                                         b3 c3           a3 c3          a3 b 3 
+                                 The 2×2 determinants that appear in this expression are called minors.
+                              This formula for the determinant is called the expansion by the first row,
+                              because the numbers a1 , b1 , c1 which multiply the minors are from the
+                              first row of the matrix.
+                                 Note that the minor multiplying a1 is the (2 × 2) determinant obtained
+                              from the original array by crossing out the row and column in which a1
+                              appears, as follows
+                                           
+                               a1 b1 c1 
+                                           
+                              a2 b2 c2 
+                                           
+                               a3 b3 c3 
+
+                              gives the minor of a1 as
+                                     
+                              b2 c2 
+                                     
+                               b3 c3  .
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

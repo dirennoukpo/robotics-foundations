@@ -1,0 +1,83 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                      Maxima and minima and sketching functions                            253
+
+11.5. Find the overall maximum and minimum value of
+      y = x 3 (x − 1) in the range x ∈ [0, 2].
+
+11.6. An open box of variable height and width is to have
+      a length of 3 m. It should not use more than a total of
+      20 m2 of surface area. Find the height and width that
+      gives maximum volume.
+                                                                      Figure 11.11 Crank used to drive a piston
+11.7. An LRC series circuit has an impedance of magnitude             (Exercise 11.8).
+
+           
+                                 2                             11.9. A water wheel is constructed with symmetrical curved
+                           1                                          vanes of angle of curvature θ. Assuming that friction
+      Z=     R2 +    ωL −
+                          ωC                                          can be taken as negligible, the efficiency, η, that is, the
+                                                                      ratio of output power to input power, is calculated as
+      where R is the resistance, L the inductance, C the                    2(V − v)(1 + cos(θ))v
+      capacitance and ω is the angular frequency of the volt-         η=
+                                                                                     V2
+
+ww    age source. Sketch Z against ω for the case where
+      R = 200 , C = 0.03 µF, L = 2 mH.                                where V is the velocity of the jet of water as it strikes
+                                                                      the vane, v is the velocity of the vane in the direc-
+
+
+   w
+11.8. A crank is used to drive a piston as in Figure 11.11.
+      The angular velocity of the crank shaft is the rate of
+
+                        .Ea
+      change of the angle θ , ω = dθ/dt. The piston moves
+      horizontally with velocity vp and acceleration ap . The
+      crankpin performs circular motion with a velocity of vc
+                                                                      tion of the jet, and θ is constant. Find the ratio v/V
+                                                                      that gives maximum efficiency and find the maximum
+                                                                      efficiency.
+                                                                11.10. Power is transmitted by a fluid of density ρ moving
+
+
+                           syE
+      and centripetal acceleration of ω2 r. The acceleration
+      ap of the piston varies with θ and is related by
+                                                                      with positive velocity V along a pipeline of con-
+                                                                      stant cross-section area A. Assuming that the loss
+                                                                      of power is mainly attributable to friction and that
+               
+      ap = ω2 r cos(θ) +
+                         r cos(2θ )
+                             l
+                                                       ngi            the friction coefficient f can be taken to be a con-
+                                                                      stant, then the power transmitted is given by P ,
+                                                                      P = ρgA(hV − cV 3 ), where, g is acceleration due to
+
+
+
+      of the connecting rod. Substituting r = 150 mm and
+                                                           n
+      where r is the length of the crank and l is the length
+                                                                      gravity and h is the head (the energy per unit weight).
+
+
+                                                                           eer
+                                                                      c = 4f l/2gd where l is the length of the pipe and d
+                                                                      is the diameter of the pipe. Assuming h is a constant
+                                                                      find the value of V which gives a maximum value for
+      l = 375 mm find the maximum and minimum values
+      of the acceleration ap .                                                           ing
+                                                                      P , and given the input power is Pi = ρgAV h, find
+                                                                      the maximum efficiency.
+
+
+                                                                                                         .ne
+                                                                                                             t
+
+
+
+
+                                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

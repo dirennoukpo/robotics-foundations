@@ -1,0 +1,57 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                          Graph theory         473
+
+                                          We spot another flow-augmenting path, s, c, d, t with a possible flow
+                                       of 10 (the minimum of 14, 19, and 10). We add 10 to the flow function
+                                       along this path to give Figure 19.27(c).
+                                          We identify the flow-augmenting path s, a, b, t with a possible
+                                       flow of 8 (the minimum of the values of the spare capacities of 14,
+                                       8 and 15). We add 8 to the flow function along this path to give
+                                       Figure 19.27(d).
+                                          Another flow-augmenting path is s, a, c, d, b, t with a possible
+                                       flow of 6 (the minimum of the values of the spare capacities of 6,
+                                       14, 9, 6, 7). We add 6 to the flow function along this path to give
+                                       Figure 19.27(e).
+                                          There are no more entirely forward paths but we can see one that
+                                       involves an arc in the backward direction, that has a non-zero flow
+                                       function. This path is s, c, a, e, t where ca is in the backward direc-
+                                       tion. We take the minimum of the spare capacity in the forward direction
+                                       along with the value of the flow in the backward direction. This gives 2
+
+ww                                     as the minimum of 4, 6, 3, and 2. We add 2 to the flows on the arcs in
+                                       the forward direction and subtract 2 from the flow on ca which is in the
+                                       backward direction. Note that this process is equivalent to redirecting the
+
+   w                   .Ea
+                                       flow. We have now reached Figure 19.27(f). We are unable to identify
+                                       any more flow-augmenting paths. We can confirm that this is in fact a
+                                       solution to the maximum flow problem by using the max-flow, min-cut
+                                       theorem. If we look at the cut marked we see that this has a capacity of
+
+                          syE          38. To find this we add the capacities of all the arcs which cross the cut
+                                       from the ‘s end’ to the ‘t end’, that is, db, with a capacity of 6, dt with a
+                                       capacity of 10 and et with a capacity of 14. This cut has a capacity of 38
+
+                                                  ngi
+                                       in total which is the value of the flow we have found.
+
+
+
+                                                      n             eer
+                                                                                 ing
+                                                                                               .ne
+                                                                                                   t
+
+Figure 19.27 (a) The
+network for Example 19.3.
+The solution is presented in
+(b) – (f ). (f ) also shows the
+minimum cut which confirms
+that the maximum flow of 38
+has been found.
+
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

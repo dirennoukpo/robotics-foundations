@@ -1,0 +1,82 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+476   Graph theory
+
+                                      can be represented as a list (off-hook, connected, dialing, tone, bell)
+                                      which can take a selection of values to indicate the current state of the
+                                      telephone, for example, TRUE, FALSE, FALSE, engaged, OFF indicates
+                                      that the phone is off-hook, it is not connected, it is not dialing it has the
+                                      engaged tone, and the bell is OFF. Use your knowledge of the operation
+                                      of a telephone to give a full list of the possible states of the phone. Draw
+                                      a state transition diagram to represent the life-cycle of the phone.
+                                      Solution The possible states are given in Table 19.8.
+                                         The possible events are: Pick up receiver, replace receiver, wait, dial
+                                      a number, someone calls your number. The events that are possible and
+                                      the transitions that they cause depend on the current state of the phone.
+                                      The state transition diagram is shown in Figure 19.28.
+
+          b       b       c
+      S       A       B       H       Example 19.5 Figure 19.29 shows a deterministic finite state recognizer
+a
+
+
+ww                b       c           (DFSR) for a language consisting of strings of the letters a, b, and c. To
+                                      test whether a certain string is accepted by the DFSR:
+Figure 19.29 A DFSR for
+Example 19.5.                         1. Start at the start state, labelled as S.
+
+   w                  .Ea
+                                      2. Take a letter from the left of the string. If possible, move along a
+                                         transition arc labelled with that letter.
+                                      3. Repeat step 2 moving through the DFSR until either you find that
+                                         you cannot move because there is no appropriately labelled arc or the
+
+                         syE             string is exhausted. If, when the string is exhausted you have reached
+                                         the halt state (marked as H in a square box) then the string has been
+                                         accepted. If, when the string is exhausted you have not reached the
+
+                                                   ngi
+                                         halt state, or if at any point there are no legal moves, then the string
+                                         is not accepted.
+
+
+                                                       n
+                                         (a) show that abbc is an acceptable string,
+
+
+                                                                      eer
+                                         (b) show that abbb is not an acceptable string,
+                                         (c) show that ababab is not an acceptable string.
+
+                                      Solution
+                                      (a)                                          ing
+                                          We find a path from S to H along arcs labelled abbc. To do this, we
+
+                                                                                                .ne
+                                          travel along arcs in the following order SS, SA, AB, BH. As this
+                                          path begins with S and ends with H we have shown that the DFSR
+                                          recognizes the string abbc.
+                                                                                                    t
+                                      (b) We look at the path labelled abbb beginning at S. The only possible
+                                          path is: SSAB. As this path does not end at H we have shown that
+                                          the DFSR does not recognize the string abbb.
+                                      (c) We look for a path labelled ababab. No such path exists as it would
+                                          begin with the arcs SS, SA and then there is no arc out of A labelled
+                                          ‘b’. As there are no more legal moves we have shown that the string
+                                          is not accepted.
+
+
+
+                                      1.    A graph consists of a set of vertices, V and a set of edges, E. A digraph
+19.8 Summary                                is a directed graph, with arcs instead of edges. Various definitions
+                                            for different types of graphs are given in Section 19.2.
+                                      2.    Graphs can be represented by an incidence matrix or an adjacency
+                                            matrix.
+                                      3.    Various optimization algorithms have been demonstrated in this
+                                            chapter, including the greedy algorithm for the minimum spanning
+                                            tree and the solution to the minimum path problem. For these two
+                                            examples, the weights on the graph represent lengths, costs, or delays.
+                                            We have also looked at one solution to the maximum flow problem.
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

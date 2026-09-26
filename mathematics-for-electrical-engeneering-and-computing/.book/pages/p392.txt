@@ -1,0 +1,88 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                   Differential equations and difference equations                 379
+
+             3. If a function, y = g(t), is a solution to a differential equation in y
+                then if, in the differential equation, we replace y and by g(t) and
+                all the derivatives of y by the corresponding derivatives of g(t) then
+                the result should be an identity for t. That is, it should be true for
+                all values of t.
+             4. To solve linear differential equations with constant coefficients, we
+                solve the homogeneous equation (with f (t) = 0), thus finding the
+                complementary function. This leads to the auxiliary equation which,
+                for a second-order system is
+
+                  aλ2 + bλ + c = 0.
+
+                  This gives three possibilities for the complementary function,
+                  depending on the roots for λ.
+                                 √
+                            −b ± b2 − 4ac
+
+ww                λ1 , λ2 =
+                                  2a
+
+                  Case (1): Real distinct roots: y = A eλ1 t + B eλ2 t
+
+   w.Ea
+                  Case (2): Complex roots: y = ekt (A cos(ω0 t) + B sin(ω0 t))
+                  Case (3): The roots are equal, then λ = k = −b/2a, y = (At +
+                                B)ekt .
+
+
+       syE        We then find a particular solution to the equation by using a trial
+                  solution as suggested in Table 14.1. The sum of the complemen-
+                  tary function and a particular solution gives the general solution of
+
+
+             5.        ngi
+                  the differential equation. The initial conditions are used to find the
+                  arbitrary constants A and B.
+                  For a truly linear system, the complementary function dies out as
+
+                           n
+                  t → ∞ and is called the transient solution, The other part of the
+
+                                         eer
+                  solution, in response to the input f (t), is called the steady state
+                  solution. When analysing a system as locally linear, we say that
+
+
+                                                      ing
+                  the system is unstable if the roots of the complementary function
+                  have a positive real part. In these circumstances, the complementary
+                  function → ∞ as t → ∞. Higher order systems are also unstable
+
+             6.
+                  if there is a repeated purely imaginary root.
+                                                                   .ne
+                  Resonance occurs when, in an underdamped system, the forcing
+
+             7.
+
+             8.
+                                                                       t
+                  frequency approaches the natural frequency of the system.
+                  Systems of differential equations may be solved using a matrix
+                  method.
+                  Discrete systems may be represented by difference equations (also
+                  called recurrence relations). A second-order linear system is rep-
+                  resented by ayn + byn−1 + cyn−2 = fn . To solve this equation
+                  we find the solution to the homogeneous system (setting fn = 0),
+                  which leads to the auxiliary equation
+
+                  aλ2 + bλ + c = 0.
+
+                  This leads to three possibilities for the complementary function
+                  depending on the roots for λ:
+                                 √
+                            −b ± b2 − 4ac
+                  λ1 , λ2 =
+                                   2a
+
+                  Case (1):   λ1 and λ2 are real and distinct.
+
+                              yn = a(λ1 )n + b(λ2 )n .
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

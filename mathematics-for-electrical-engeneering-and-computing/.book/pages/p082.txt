@@ -1,0 +1,92 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Problem solving and the art of the convincing argument                  69
+
+            Solution
+
+            (a) x 2 − 9 = 0 · · · x = −3
+
+            Solving x 2 − 9 = 0 gives
+
+            x2 − 9 = 0       ⇔     (x − 3)(x + 3) = 0
+                             ⇔     x = 3 ∨ x = −3.
+
+            Hence, −3 is only one of the solutions of the first equation so the correct
+            expression is
+
+            x 2 − 9 = 0 ⇐ x = −3.
+
+            (b) x = − 21 . . . (1/(2x − 5)(x + 1)) = − 13 where x ∈ R, x = 5,
+            x = −1
+
+ww          Solving
+
+
+
+   w.Ea
+                   1
+            (2x − 5)(x + 1)
+
+            gives
+                            =−
+                               1
+                               3
+
+
+
+
+       syE         1
+            (2x − 5)(x + 1)
+                            =−
+                               1
+                               3
+                                          ⇔    −3 = (2x − 5)(x + 1)
+
+
+
+               ⇔        ngi
+              (multiplying both sides by (2x−5)(x + 1) and as x = 5, x = 1)
+                       −3 = 2x 2 − 3x − 5     (multiplying out the brackets)
+               ⇔
+                            n
+                       2x − 3x − 2 = 0
+                         2
+
+
+                                          eer
+                       (adding 3 on to both sides of the equation)
+
+               ⇔       x=
+                                 √
+                            3 ± 9 + 16
+                                  4                   ing
+                             3±5                                  .ne
+                       (using the quadratic formula to solve the equation)
+
+               ⇔
+
+               ⇔
+                       x=
+                              4
+                       x = 2 ∨ x = − 21                               t
+              The second predicate
+
+                   1           1
+                            =−
+            (2x − 5)(x + 1)    3
+
+            has more solutions than the first predicate x = − 21 . Thus, the correct
+            expression is:
+
+                    1          1           1
+            x=−       ⇒                 =−
+                    2   (2x − 5)(x + 1)    3
+               where x ∈ R, x = 5, x = −1.
+
+            (c) (x − 3)(x − 1) > 0 · · · x > 3 ∨ x < 1
+            Solve the inequality on the left by firstly solving f (x) = 0:
+
+            (x − 3)(x − 1) = 0       ⇔     x =3∨x =1
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

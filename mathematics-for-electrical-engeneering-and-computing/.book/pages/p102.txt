@@ -1,0 +1,70 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                Trigonometric functions and waves               89
+
+
+
+
+Figure 5.1 The function y = sin(t ), where t is the distance travelled by the tip of a rotating rod of length
+1 unit and y is the height of the rod.
+
+
+
+
+ww
+Figure 5.2 The function x = cos(t ), where t is the distance travelled by the tip of a rotating rod of length
+
+
+   w
+1 unit and x is the position to the right or left of the origin.
+
+
+
+                      .Ea
+                         syE
+                                                   ngi
+Figure 5.3 (a) 360◦ = 2π radians. (b) 90◦ = π/2 radians. (c) 60◦ = π/3 radians.
+
+
+
+                                                       n             eer
+                                        are used as a measure of the angle in the triangle instead of degrees.
+                                        Instead of 360◦ making a complete revolution 2π radians make a complete
+                                        revolution. Some examples of degree to radian conversion are given in
+                                        Figure 5.3.
+                                                                                  ing
+                                           To convert degrees to radians use the fact that 360◦ is the same as 2π
+
+
+                                        degrees multiply by 180/π .                            .ne
+                                        radians or equivalently that 180◦ is the same as π radians. Hence, to
+                                        convert degrees to radians multiply by π/180 and to convert radians to
+
+
+
+
+                                        multiply by 57.3 (i.e. 1 radian ≈ 57.3◦ ).
+                                                                                                   t
+                                           Remember that π is approximately 3.1416 so these conversions can
+                                        be expressed approximately as: to convert degrees to radians multiply
+                                        by 0.01745 (i.e. 1◦ ≈ 0.01745 radians) and to convert radians to degrees
+
+
+
+                                        Example 5.1
+                                        (a)   Express 45◦ in radians.
+                                              Multiply 45 by π/180 giving π/4 ≈ 0.785. Hence, 45◦ ≈
+                                              0.785 radians.
+                                        (b)   Express, 17◦ in radians.
+                                              Multiply 17 by π/180 giving 17π/180 ≈ 0.297. Hence 17◦ ≈
+                                              0.297 radians.
+                                        (c)   Express 120◦ in radians.
+                                              Multiply 120 by π/180 giving 2π/3 ≈ 2.094. Hence, 120◦ ≈ 2.094.
+                                        (d)   Express 2 radians in degrees.
+                                              Multiply 2 by 180/π giving 114.6. Hence, 2 radians ≈114.6◦ .
+                                        (e)   Express (5π/6) radians in degrees.
+                                              Multiply 5π/6 by 180/π giving 150. Hence, (5π/6) radians =
+                                              150◦ .
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

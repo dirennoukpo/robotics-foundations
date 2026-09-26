@@ -1,0 +1,83 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+                                       Differential equations and difference equations                   347
+
+                                 We have already looked at a number of examples of differential equations.
+                                 The simplest case, when the solution can be found by integration, was
+                                 looked at in Chapter 7 and then we found that exponential functions are
+                                 solutions to differential equations of the form dy/dt = ky in Chapter 8
+                                 and in Chapter 10 we looked at the problem of circular motion and found
+                                 that exponential functions are also solutions to equations of the form
+                                 d2 y/dt2 = −ω2 y. In simple equations, we look for a solution which is a
+                                 number. When solving a differential equation our idea of a solution is to
+                                 find an explicit function for y in terms of t.
+                                    We will only be concerned with single input, single output (SISO)
+                                 systems in which case there are two ways of proceeding in order to solve
+                                 the system of differential equations. The system may be reduced to a
+                                 single differential equation and then solved, or the system may be solved
+                                 directly. These two methods correspond, in systems theory, to the transfer
+                                 function description of the system or a state variable description.
+                                    The types of differential equations we shall look at are all linear; that
+
+ww                               is, they involve no powers of y, the independent variable or powers of the
+                                 derivative or products of any of these. Any real system will, of course have
+                                 some non-linear behaviour. However, we usually assume that either the
+
+   w              .Ea
+                                 non-linearities present are not very important or that it is possible to ana-
+                                 lyse a system as locally linear. Another important assumption used is that
+                                 time invariance, that is, operating the system now or in an hours time with
+                                 exactly the same input and initial conditions will yield the same result.
+
+                     syE            The method of solution we use for finding a particular solution of
+                                 differential equations in this chapter is called the method of unknown
+                                 coefficients. An alternative method, using Laplace transforms, is more
+
+                                            ngi
+                                 widely applied, and we shall look at them in the next chapter.
+                                    Differential equations are used to analyse systems that are subject to
+
+
+                                                n
+                                 continuous or piecewise continuous inputs. It may be necessary, or prefer-
+
+
+                                                              eer
+                                 able, to develop a discrete model of the system. A discrete model may be
+                                 used if the exact nature of the system is unknown and we attempt to predict
+                                 its nature by recording its response to various inputs. The recording of the
+
+                                                                           ing
+                                 system inputs and response will generally be stored in digital form and
+                                 the data processed in digital form. Another major application of digital
+
+
+                                                                                         .ne
+                                 systems is for digital filter design. Here we wish to design digital filters
+                                 with certain desirable characteristics. We can find the characteristics of
+
+
+                                                                                             t
+                                 digital systems by solving difference equations. We give a method of
+                                 solution of simple difference equations. More frequently, z-transforms
+                                 are used and these are discussed in the next chapter.
+
+
+
+14.2 Modelling                   Damped forced motion of a spring
+simple systems                   A spring of length l has a mass m attached to it and a dashpot damping the
+                                 motion. It is subject to a force f (t) forcing the motion (see Figure 14.2).
+                                    The input to this system is the forcing function f (t) and the output
+                                 is the displacement of the spring from its original length, x. In order to
+                                 model this system we make a number of assumptions about its behaviour.
+                                 1. We assume Newton’s second law, FT = ma where a = m d2 x/dt 2
+                                    and FT is the total force operating on the mass: m is the mass on the
+                                    spring.
+                                 2. The spring does not become distorted, that is, it is perfectly elastic.
+Figure 14.2 Damped forced           This means, from Hooke’s Law, that FS = −kx, where x is the
+motion of a spring.                 displacement from the original spring length l and k is the spring
+                                    constant.
+                                 3. The damping force due to the dashpot is FD = −r dx/dt
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

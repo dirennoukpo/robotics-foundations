@@ -1,0 +1,67 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                           Sets and functions       15
+
+              Often, we assume that we are considering functions of a real variable
+            and only need to indicate the values that are not allowed as inputs for the
+            function. So we may write
+
+            f (x) = 1/x    where x = 0
+
+              Things to look out for as values that are not allowed as function
+            inputs are :
+            1. Numbers that would lead to an attempt to divide by zero
+            2. Numbers that would lead to negative square roots
+            3. Numbers that would lead to negative inputs to a logarithm.
+              Examples 1.12(a) and (b) require solutions to inequalities which we
+            shall discuss in greater detail in Chapter 2. Here, we shall only look at
+            simple examples and use the same rules as used for solving equations. We
+
+ww          can find equivalent inequalities by doing the same thing to both sides, with
+            the extra rule that, for the moment, we avoid multiplication or division
+            by a negative number.
+
+   w.Ea     Example 1.12 Find the values that cannot be input to the following
+            functions, where the independent variable (x or r) is real:
+                       √
+
+       syE  (a) y = 3 x − 2 + 5
+            (b) y = 3 log10 (2 − 4x)
+
+            (c) R =
+                        ngi
+                        r + 1000
+                       1000(r − 2)
+
+            Solution
+                     √
+                            n               eer
+            (a) y = 3 x − 2 + 5
+
+                                                      ing
+            Here x − 2 cannot be negative as we need to take the square root of it.
+
+            x−2⩾0⇔x ⩾2                                             .ne
+            therefore, the function is
+                √
+                                                                       t
+            y =3 x−2+5             where x ⩾ 2
+
+
+            (b) y = 3 log10 (2 − 4x).
+
+            Here 2 − 4x cannot be 0 or negative else we could not take the logarithm.
+
+            2 − 4x > 0      ⇔      2 > 4x     ⇔    2/4 > x
+
+            or equivalently, x < 21 . So the function is
+
+            y = 3 log10 (2 − 4x)     where x < 0.5
+
+
+                        r + 1000
+            (c) R =
+                       1000(r − 2)
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

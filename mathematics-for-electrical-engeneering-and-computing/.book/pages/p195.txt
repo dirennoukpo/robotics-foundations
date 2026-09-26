@@ -1,0 +1,92 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+182   The exponential function
+                                                
+                                 Solution (a) xex +2 dx. Here, we have a function of a function e(x +2)
+                                                      2                                               2
+
+
+                                 multiplied by a term that is something like the derivative of the term in
+                                 the bracket.
+                                    Try a substitution, u = x 2 + 2
+
+                                      du             du
+                                 ⇒       = 2x ⇒ dx =
+                                      dx             2x
+                                 then
+                                                           
+                                       x 2 +2         u du            1 u      1 u
+                                    xe        dx = xe      =          2 e du = 2 e + C
+                                                        2x
+
+                                 resubstituting u = x 2 + 2 gives
+                                 
+                                    xex +2 dx = 21 ex +2 + C
+                                       2             2
+
+
+
+
+ww                                                
+                                   (b) To find sinh(t) cosh2 (t) dt we remember that cosh2 (t) =
+
+
+   w             .Ea
+                                 (cosh(t))2 , so
+                                                         
+                                    sinh(t) cosh2 (t) dt = sinh(t)(cosh(t))2 dt
+
+
+                    syE          sinh(t) is the derivative of the function in the bracket, cosh(t), so a
+                                 substitution, u = cosh(t), should work:
+
+                                 u = cosh(t) ⇒
+                                               ngi du
+                                                   dt
+                                                       = sinh(t)
+
+
+                                                   n
+                                                 ⇒ dt =
+                                                           du
+                                                        sinh(t)
+                                                                  eer
+                                 
+                                     sinh(t) cosh2 (t) dt =
+                                                              
+                                                                  sinh(t)u2     ing
+                                                                                du
+                                                                              sinh(t)
+                                                                                      =
+                                                                                          
+                                                                                              u2 du
+
+                                                         = u3 + C
+                                                                                                .ne
+                                 resubstituting u = cosh(t) gives
+                                 
+                                     sinh(t) cosh2 (t) dt =
+                                                              cosh3 (t)
+                                                                        +C
+                                                                                                    t
+                                                                 3
+                                           
+                                     (c)xex dx. Use integration by parts
+                                               
+                                   u dv = uv − v du
+
+                                 and choose u = x and dv = ex dx giving
+                                                    
+                                 du
+                                     = 1 and v = ex dx = ex
+                                 dx
+
+                                 Then
+                                                
+                                   xex dx = xex − ex dx
+
+                                               = xex − ex + C
+
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

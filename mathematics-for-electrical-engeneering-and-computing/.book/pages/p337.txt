@@ -1,0 +1,95 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+324   Systems of linear equations, matrices, and determinants
+
+
+                              Gauss elimination is a structured process for the elimination of variables
+13.5 Gauss                    in one of the equations. It is easy to generalize to larger systems of
+elimination                   equations and it is relatively numerically stable, making it suitable for
+                              use with a computer.
+                                 Gauss elimination is performed in stages. At Stage 1, we concentrate on
+                              the first column, the coefficients of x. The idea is to make the coefficient
+                              of the first equation 1 and eliminate the variable from the other equation(s)
+                              by using multiples of the first equation. Equation 1 is therefore the pivotal
+                              equation for Stage 1.
+
+
+                              Example 13.25        Solve
+
+                              3x + 4y = 7
+                              5x − 8y = 8
+
+ww                            using Gauss elimination.
+
+   w              .Ea
+                              Solution We can either write out the equation each time we perform
+                              a step or we can abbreviate the solution by expressing the equations in
+                              short hand as an augmented matrix
+
+
+                     syE      
+                                  3 4 7
+                                  5 −8 8
+                                         
+                                           .
+
+
+                                              ngi
+                                 We shall present both notations at the same time. We shall refer to the
+
+                                                n
+                              elements in the augmented matrix by
+
+                                  a11
+                                  a21
+                                        a12
+                                        a22
+                                              b1
+                                              b2
+                                                   .                eer
+                                                                                       ing
+                                  For the first step, the first equation is the pivotal equation:
+
+                              3x + 4y = 7
+                                                       
+                                                        3      4      7
+                                                                        
+                                                                          .                  .ne
+                              5x − 8y = 8
+
+                              Stage 1
+                                                        5      −8     8
+
+
+                              Step 1: Divide the first equation by a11 :
+                                                                                                 t
+                                                                          
+                               x + 43 y = 73               1    4
+                                                                3
+                                                                       7
+                                                                       3       .
+                              5x − 8y = 8                  5   −8     8
+
+                              Step 2: Take 5 times the first equation away from the second equation in
+                              order to eliminate the term in x in the second equation:
+
+                              x + 43 y = 73
+                                   − 8y − ( 43 y × 5) = 8 − 73 × 5
+
+                              which is the same as
+
+                              x + 43 y = 73                1    4
+                                                                3
+                                                                            7
+                                                                            3
+                                                                                   .
+                                − 44
+                                   3 y =− 3
+                                         11
+                                                           0   − 44
+                                                                  3        − 11
+                                                                              3
+
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

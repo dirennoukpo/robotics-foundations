@@ -1,0 +1,81 @@
+               Downloaded From : www.EasyEngineering.net
+
+
+                                                                Laplace and z transforms                  403
+
+                    Hence, the steady state response to an input of 3 cos(2t) is
+
+                    37 (cos(2t) + 6 sin(2t)).
+                     3
+
+
+
+
+15.7                z transforms are used to solve problems in discrete systems in a man-
+                    ner similar to the use of Laplace transforms for piecewise continuous
+z transforms        systems. We take z transforms of sequences. We shall assume that our
+                    sequences begin with the zeroth term and have terms for positive n .
+                    f0 , f1 , f2 , . . . , fn , . . . is an input sequence to the system. However, when
+                    considering the initial conditions for a difference equation it is conve-
+                    nient to assign them to y−j , . . . , y−2 , y−1 , etc., where j is the order of
+                    the difference equation. So, in that case, we shall allow some elements
+                    in the sequence with negative subscript. Our output sequence will be
+
+ww                  of the form y−j , . . . , y−2 , y−1 , y0 , y1 , y2 , . . . , yn , . . . where the difference
+                    equation describing the system only holds for n ⩾ 0.
+
+
+   w      .Ea
+                    z transform definition
+                    The z transform of a sequence f0 , f1 , f2 , . . . , fn , . . . is given by
+
+
+             syE    F (z) =
+                               ∞
+
+
+                              n=0
+                                    fn z−n .
+
+
+                                 ngi
+                    As this is an infinite summation it will not always converge. The set of
+                    values of z for which it exists is called the region of convergence. The
+
+                                     n
+                    sequence, f0 , f1 , f2 , . . . , fn , . . . is a function of an integer, however, its z
+
+                                                         eer
+                    transform is a function of a complex variable z. The operation of taking
+                    the z transform of the sequence fn is represented by Z{fn } = F (z).
+
+                    Example 15.22                                      ing
+                                           Find the z transform of the finite sequence 1, 0, 0.5, 3.
+                    Solution We multiply the terms in the sequence by z−n , where n =
+                    0, 1, 2, . . . and then sum the terms, giving                     .ne
+                    F (z) = 1 + 0z−1 + 0.5z−2 + 3z−3 = 1 +
+                                                                           0.5
+                                                                           z2
+                                                                                 3
+                                                                               + 3.
+                                                                                z
+                                                                                          t
+                    Example 15.23 Find the z transform of the geometric sequence a0 r n
+                    where n = 0, 1, . . .
+                    Solution
+                               ∞                   ∞           n
+                                                               r
+                    F (z) =         a0 r n z−n =         a0        .
+                                                               z
+                              n=0                  n=0
+
+                    Writing this out we get
+                                            2       3
+                                     r        r         r
+                    F (z) = a0 + a0     + a0      + a0      + ···
+                                     z        z         z
+
+                    From this we can see that we have another geometric progression with
+                    zeroth term a0 and common ratio r/z; hence, we can sum to infinity
+
+                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,77 @@
+               Downloaded From : www.EasyEngineering.net
+
+
+
+
+     15            Laplace and
+                   z transforms
+
+15.1               In this chapter, we will present a quick review of Laplace transform
+
+
+ww
+Introduction
+                   methods for continuous and piecewise continuous systems and z trans-
+                   form methods for discrete systems. The widespread application of these
+                   methods means that engineers need increasingly to be able to apply these
+
+   w      .Ea
+                   techniques in multitudes of situations.
+                      Laplace transforms are used to reduce a differential equation to a simple
+                   equation in s-space and a system of differential equations to a system of
+                   linear equations. We discover that in the case of zero initial conditions,
+
+             syE   we can solve the system by multiplying the Laplace transform of the input
+                   function by the transfer function of the system. Furthermore, if we are
+                   only interested in the steady state response, and we have a periodic input,
+
+                                 ngi
+                   we can find the response by simply adding the response to each of the
+                   frequency components of the input signal. In Chapter 16, we therefore
+
+
+                                     n
+                   look at finding the frequency components of a periodic function by finding
+
+
+                                                 eer
+                   its Fourier series.
+                      Similar ideas apply to z transform methods applied to difference
+                   equations representing discrete systems.
+
+                                                              ing
+                      The system transfer function is the Laplace transform of the impulse
+                   response function of the system. The impulse response is its response to an
+
+
+                                                                            .ne
+                   impulse function also called a delta function. Inputting an impulse func-
+                   tion can be though of as something like giving the system a short kick
+                   to see what happens next. The impulse function is an idealized kick, as
+
+
+
+                   famous example of a generalized function.
+                                                                                t
+                   it lasts for no time at all and has energy of exactly 1. Because of these
+                   requirements, we find that the delta function is not a function at all, in the
+                   sense that we defined functions in Chapter 1. We find that it is the most
+
+
+
+
+                   The Laplace transform F (s) of the function f (t) defined for t > 0 is
+15.2 The                    ∞
+Laplace            F (s) =     e−st f (t) dt.
+                             0
+transform –
+                   The Laplace transform is a function of s where s is a complex variable.
+definition         Because the integral definition of the Laplace transform involves an inte-
+                   gral to ∞ it is usually necessary to limit possible values of s so that the
+                   integral converges (i.e. does not tend to ∞). Also, for many functions the
+                   Laplace transform does not exist at all.
+                      L{ } is the symbolic representation of the process of taking a Laplace
+                   transform (LT). Therefore,
+                   L{f (t)} = F (s).
+
+                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,111 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+546   Index
+
+                    Integration (continued)                      Logic circuits, 81
+                       using substitution, 135–41, 182–4         Logic gates, 81–2
+                       using trigonometric identities, 143–4     Loop, 462
+                    Intersection, 6                              LRC circuits, 349–51
+                    Inverse differentiation, 132–3
+                    Inverse function, 21–3
+                       existence of, 40–2                                           M
+                       derivatives of, 125–6                     Maclaurin series, 273–5
+                       graphs, 109, 110                           definition, 273–5
+                       of linear functions, 22                   Many-to-one functions, 38, 42
+                       of hyperbolic functions, 176              Mapping, 306
+                          graphs, 176                            Markup, 487
+                          logarithmic equivalences, 176          Mathematical model, 57–8
+                       of trigonometric functions, 109–11        Matrices, 295–314
+                    Inverse:                                      addition, 296
+                       of a matrix, 303–5, 322–3, 330–1, 333–5    adjoint, 334
+                       of a power, 51                             diagonal, 301
+
+
+
+ww
+                                                                  dimension of, 296–7
+                                                                  eigenvalues and eigenvectors, 338–41
+                                        J                         Hermitian, 302–3
+
+
+
+   w
+                    j, 206–7                                      inverse of, 303–5, 322–3, 330–1, 333–5
+                    JavaCC (Java Compiler Compiler), 487             a 2x2 matrix, 303–5
+
+
+              .Ea                       K
+                                                                     existence of, 303
+                                                                     finding:
+                                                                        by elimination, 330–1
+
+
+                 syEKarnaugh maps, 82–7
+                    Kirchhoff’s current law (KCL), 315
+                    Kirchhoff’s voltage law (KVL), 314
+                                                                        by using the adjoint, 333–5
+                                                                  lower triangular, 302
+                                                                  multiplication, 297–9
+
+
+
+                                 ngi
+                                                                  notation, 296
+                                                                  skew-symmetric, 302
+                                                                  solving equations, 305–6
+
+
+
+                                     n
+                                        L                         square, 301
+
+
+
+                                                       eer
+                    L’Hopital’s rule, 279–81                      subtraction, 296
+                    Languages, 479–90                             symmetric, 302
+                      context-free, 483–5                         to represent graphs, 466
+                    Laplace transforms, 382–402
+                      and systems theory, 397–402
+                      application to solving differential           ing
+                                                                  transpose of, 302
+                                                                  unit, 300
+                                                                  upper triangular, 302
+                            equations, 394–6
+                      convolution property, 387, 391, 398–9
+                      definition, 382–3                                            .ne
+                                                                  used for transformations, 306–16
+                                                                 Max-flow, min-cut theorem, 472
+                                                                 Maxima, 237–44
+                      existence, 383
+                      inverse, 386–9
+                      poles of, 394
+                      properties of, 386–91
+                                                                 Maximum power, 243
+                                                                 Mean value, 155
+                                                                                       t
+                                                                 Mean, 496–9, 501, 516–17, 519, 520, 523,
+                                                                     525, 528
+                      table of, 386                               of a continuous distribution, 523
+                      using partial fractions, 392–4              of a single trial, 525
+                    Least squares data fitting, 338–42            of binomial distribution, 525
+                    LIFO, 485                                     of Poisson distribution, 528
+                    Limits, 259, 266–7, 282–3                    Mechanical system:
+                      finite, 287                                 damped oscillations, 370–2
+                    Line fitting, 40–1, 338                       rotational, 351–2
+                    Linear differential equations, 353–4         Minima, 237–44
+                    Linear relationships, 40–1                   Minimization, 82
+                    Linear time invariant systems (LTI), 356     Minimum spanning tree, 467
+                    Linearity:                                   Minimum squared error, 338
+                      of Laplace transforms, 386–7, 390          Minors, 332–4
+                      of z transforms, 405–6                     Models of growth, 163
+                    Linear functions, 22–3                       Modulus:
+                    Logarithms:                                   function, 41
+                      Napierian, 169                              of a complex number, 212, 216, 225
+                      natural, 169                               Multiplication:
+                    Logarithmic functions, derivative of,         of complex numbers, 210, 219, 228
+                         172–3                                    of matrices, 297–9
+
+
+                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

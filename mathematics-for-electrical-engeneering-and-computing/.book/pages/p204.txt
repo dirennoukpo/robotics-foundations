@@ -1,0 +1,70 @@
+                              Downloaded From : www.EasyEngineering.net
+
+
+                                                                                             Vectors      191
+
+                                   the resultant force acting on the body can be found and therefore the
+                                   direction in which the body will travel can be found together with the size
+                                   of the acceleration. Other quantities with both magnitude and direction are
+                                   velocity, acceleration, and moment. Quantities that only have magnitude
+                                   and no direction are called scalar quantities and can be represented using
+                                   a number, for example, mass and length.
+
+
+
+9.3 Addition                       Addition
+and subtraction                    To add two vectors, add the corresponding elements of the vectors.
+of vectors
+                                   Example 9.1
+                                   a = (2, 3) b = (4, 2)
+
+
+ww                                 a + b = (2, 3) + (4, 2) = (2 + 4, 3 + 2) = (6, 5)
+                                   c = (1, 3, 1.5) d = (5, −2, 1)
+                                   c + d = (1, 3, 1.5) + (5, −2, 1) = (1 + 5, 3 + (−2), 1.5 + 1) = (6, 1, 2.5).
+
+   w                .Ea            If the vectors are represented in the plane then the vector sum can be found
+                                   using the parallelogram law, as in Figure 9.8. The resultant or vector sum
+                                   of a and b is found by drawing vector a and then drawing vector b from
+
+                       syE         the tip of vector a which gives the point C. Then a + b can be found by
+                                   drawing a line starting at O to the point C. If we imagine walking from
+                                   O to A, along vector a, and then from A to C, along vector b, this has the
+
+                                             ngi
+                                   same effect as walking direct from O to C, along vector c. We can also
+                                   use the parallelogram to show that a + b = b + a. To find b + a, start
+
+
+                                                 n
+                                   with vector b and draw vector a from the tip of vector b; this also gives
+Figure 9.8 The resultant or
+
+                                                                eer
+                                   the point C. Then if we walk from O to B along vector b and then from
+vector sum of a and b.             B to C along vector a, this has the same effect as walking along the other
+                                   two sides of the parallelogram or walking direct from O to C. Hence
+
+                                   a+b=b+a =c
+                                                                             ing
+                                                                                          .ne
+                                   Subtraction                                                t
+                                   To subtract one vector from another, subtract the corresponding elements
+                                   of the vectors.
+
+                                   Example 9.2
+                                   a = (2, 3) b = (4, 2)
+                                   a − b = (2, 3) − (4, 2) = (2 − 4, 3 − 2) = (−2, 1).
+                                   Using a vector diagram we can perform vector subtraction in two ways.
+                                   Draw a and −b and add as before or simply draw vectors a and b from
+                                   the same point and the line joining the tip of b to the tip of a gives the
+                                   vector a − b. These methods are explained in Figure 9.9.
+
+                                                               −→          −→
+                                   Example 9.3 In Figure 9.10, OA = a and OB = b. OB = BC, OA =
+                                   EO, and AD is parallel to OC and EF. Write the following vectors in
+                                   terms of a and b:
+                                       −→       −→      −→       −→      −→        −→       −→
+                                   (a) OE (b) OC (c) BA (d) AB (e) AD (f) BE (g) BF .
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

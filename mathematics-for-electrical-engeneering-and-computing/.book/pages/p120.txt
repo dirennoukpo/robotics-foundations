@@ -1,0 +1,75 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+                                              Trigonometric functions and waves              107
+
+                     Example 5.13         Using sin(90◦ ) = 1 and cos(90◦ ) = 0, find sin(45◦ )
+                     Solution     Using
+
+                     sin2 (A) = 21 (1 − cos(2A))
+
+                     and putting A = 45◦ , 2A = 90◦ , we get
+
+                     sin2 (45◦ ) = 21 (1 − cos(90◦ )) = 21    (as cos(90◦ ) = 0)
+                                             
+                        ⇔ sin(45◦ ) = ± 21 .
+
+                        From the knowledge of the graph of the sine function we know that
+                     sin(45◦ ) > 0, hence,
+                                 
+                     sin(45◦ ) = 21 .
+
+
+ww
+5.6
+   w     .Ea
+Superposition
+                     The principle of superposition of waves states that the effect of a number
+                     of waves can be found by summing the disturbances that would have
+                     been produced by the individual waves separately. This behaviour is quite
+                     different from that of travelling particles, which will bump into each other,
+
+            syE      thereby altering the velocity of both.
+                        The idea of superposition is used to explain the behaviour of:
+                     1.
+
+                     2.          ngi
+                           stationary waves formed by two wave trains of the same amplitude
+                           and frequency travelling at the same speed in opposite directions.
+                           Interference of coherent waves from identical sources.
+                     3.
+
+                     4.
+                                     n
+                           Two wave trains of close frequency travelling at the same speed,
+                           causing beats.
+                           Diffraction effects.      eer
+                                                                 ing
+                          We look at some examples of these applications.
+
+                     Standing waves
+                                                                              .ne
+                                                                                  t
+                     Suppose that a wave is created by plucking a string of a musical instru-
+                     ment; when the wave reaches the end of the string it is reflected back.
+                     The reflected wave will have the same frequency as the initial wave but a
+                     different phase and will be travelling in the opposite direction.
+                        The sum of the incident and reflected wave forms a standing wave. An
+                     example is shown in Figure 5.18. Figure 5.18(a) shows the incident wave
+                     in a string at some instant in time. Its phase is 18◦ . Beyond the barrier
+                     is shown the hypothetical continuation of the wave as if there were no
+                     barrier. The reflected wave is found by turning this section upside down
+                     and reflecting it, as shown in Figure 5.18(b). The reflected wave has
+                     phase (180◦ − phase of the incident wave) = 180◦ − 18◦ = 162◦ . In
+                     Figure 5.18(c), the sum of the incident and reflected wave produces a
+                     standing wave. The maximum and minimum values on this are called
+                     antinodes and the zero values are called nodes. As the string is fixed at
+                     both ends there must be nodes at the ends.
+                        At different moments in time, the phase of the incident wave will be
+                     different. This changes the amplitude of the standing wave but does not
+                     change the position of the nodes or antinodes (for a given frequency of
+                     wave). Only waves whose wavelengths exactly divide into 2l (twice the
+                     length of the string) can exist on the string because their amplitude must
+                     be 0 at the two end points. Each possible wavelength defines a mode of
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

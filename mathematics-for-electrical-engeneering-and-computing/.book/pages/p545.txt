@@ -1,0 +1,76 @@
+                                          Downloaded From : www.EasyEngineering.net
+
+
+532     Probability and statistics
+              Table 21.6       Data for Exercise 21.20
+
+              Number of defects in              Number of CDs with r            Chosen model          Chosen model
+              74 min of recording time          defects                         probabilities         frequencies
+
+              0                                             23
+              1                                             32
+              2                                             26
+              3                                             12
+              4                                              5
+              5                                              2
+              6+                                             0
+
+
+
+        (d) of a group of five components the probability that         21.20. One hundred CDs, each containing 74 min of record-
+            exactly two fail in an hour.                                      ing time, were tested for defects. The frequency
+
+
+ ww
+21.18. A certain town has 50 cash dispenser machines but
+       due to inaccessibility is only visited for repairs once
+       a week after which all the machines are working. The
+                                                                              of defects is given in Table 21.6. Calculate the
+                                                                              mean number of defects per 74 min of recording
+                                                                              time and choose an appropriate probability model.
+
+
+    w  failure rate of the machines is approximately 0.05 per                 Using your model copy, complete the two empty
+       24 h. A town councillor makes a public complaint in                    columns of the table. Comment on the agreement
+
+
+                            .Ea
+       a newspaper that on average at least one in 10 of the
+       machines does not function. Assume an exponential
+                                                                              between the number of incidents and the chosen
+                                                                              model frequencies.
+
+
+
+                               syE
+       model and calculate the number that are not function-           21.21. Telephone calls are received at a call centre at a rate of
+       ing 1 day, 2 days, . . . , 7 days after the day of the visit.          0.2 per second on average. Calculate the probability
+       Take the mean of these results to assess whether the                   that more than 11 calls are received in 1 min.
+       councillor is correct.
+21.19. A bag contains two red balls and eight green balls. A
+       ball is repeatedly chosen at random from the bag, its   ngi     21.22. Tankers arrive at a dock at a rate of four per day.
+                                                                              Assume that the arrivals are a Poisson process and
+       colour recorded and then replaced. Find the following
+       probabilities:
+       (a) the first three picked were green;
+       (b) in a selection of five there were exactly two red
+                                                                   n          find the following:
+
+
+                                                                                   eer
+                                                                               (a) the probability that less than five tankers arrive
+                                                                                   during 1 day;
+                                                                               (b) the probability that there are over five arrivals;
+           balls;
+       (c) there were no more than three red balls out of the                                     ing
+                                                                               (c) the probability that there is exactly five arrivals;
+                                                                               (d) The probability that there are between two and
+           first 10.                                                               five inclusive, arrivals.
+
+                                                                                                                 .ne
+                                                                                                                     t
+
+
+
+
+                                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

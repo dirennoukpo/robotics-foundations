@@ -1,0 +1,80 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+200    Vectors
+
+                                    Example 9.16       Show that (1, −1) and (−2, −2) are at right angles.
+                                    Solution
+                                    (1, −1) · (−2, −2) = (1)(−2) + (−1)(−2) = −2 + 2 = 0
+                                    Hence, they are at right angles.
+
+
+                                    Direction cosines
+                                    We have seen that the scalar product of two vectors a and b, a · b =
+                                    ab cos(θ). We can use this result to show that the components of a unit
+                                    vector are the direction cosines of the vector, that is,
+                                    r̂ = (cos(α), cos(β))
+                                    where α is the angle that the vector makes to the x-axis and β is the angle
+
+
+ ww                                 that the vector makes to the y-axis.
+                                       To show this, consider a unit vector r̂ = (x, y) = xi + yj. If we take
+                                    the scalar product with the unit vector along the x-axis, i = (1, 0), we
+
+    w                   .Ea
+                                    will get
+                                    r̂ · i = (x, y) · (1, 0) = x
+                                    and we know that r̂ ·i = |r̂||i| cos(α), where |r̂| and |i| are the magnitudes
+
+                           syE      of r̂ and i, respectively, and α is the angle between them. In this case,
+                                    as we have two unit vectors their magnitudes are 1. This means that
+                                    r̂ · i = cos(α), where α is the angle between the two vectors. In this case,
+
+                                                 ngi
+                                    α is the angle that the vector, r̂, makes to the x-axis. We have shown that
+                                    r̂ · i = cos(α) and we know that r̂ · i = x, so we have that x = cos(α),
+
+
+                                                     n
+                                    where α is the angle to the x-axis. By considering r̂ · j, we find that
+
+
+                                                                      eer
+                                    y = cos(β), where β is the angle that the vector r̂ makes to the y-axis.
+                                    So we have that the components of any unit vector r̂ are the direction
+                                    cosines of the vector.
+
+                                                                                 ing
+                                         If we consider any vector r we can find that a unit vector is the same
+                                    direction as r by dividing by the magnitude of r. Hence, we have that:
+
+                                    r̂ =
+                                            r
+                                           |r|
+                                               = (cos(α), cos(β))
+                                                                                             .ne
+   y
+                                    the vector r makes to the y-axis (see Figure 9.19).          t
+                                    where α is the angle the vector r makes to the x-axis and β is the angle
+
+                                       In three dimensions we get:
+                                           r
+                    r               r̂ =       = (cos(α), cos(β), cos(γ ))
+                                           |r|
+                                    where α is the angle the vector r makes to the x-axis, β is the angle it
+                                   makes to the y-axis, and γ the angle it makes to the z-axis.
+                            x
+                                    Example 9.17 Find the angle that the following vectors make to the
+Figure 9.19                         axes: (a) (3, 6); (b) (−1, −4, 5).
+r̂ = (cos(α), cos(β)) where α
+is the angle the vector r           Solution (a) r/|r| = (cos(α), cos(β)), where α and β are the angles
+makes to the x -axis and β is       made to the x and y axes. Therefore,
+the angle the vector r makes
+to the y-axis.                                               (3, 6)       (3, 6)
+                                    (cos(α), cos(β)) = √                = √      ≈ (0.44721, 0.89443).
+                                                             32 + 6 2        45
+                                    The angle made to the x-axis is α = cos−1 (0.44721) ≈ 1.107 and the
+                                    angle made to the y-axis is β = cos−1 (0.89443) ≈ 0.463. The angles
+                                    made to the x and y axes are 1.107 and 0.463 radians, respectively.
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

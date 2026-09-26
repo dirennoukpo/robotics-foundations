@@ -1,0 +1,70 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                       Sequences and series          275
+
+
+
+            Example 12.26        Expand f (x) = 1/(1 + x) in powers of x.
+
+            Solution     Find all order derivatives of f (x) and substitute x = 0
+
+                      1
+           f (x) =       = (1 + x)−1 ,         f  (x) = (−1)(1 + x)−2
+                     1+x
+           f  (x) = (−1)(−2)(1 + x)−3 ,        f  (x) = (−1)(−2)(−3)(1 + x)−4
+            f (0) = 1     f  (0) = −1     f  (0) = 2!   f  (0) = −3!.
+
+            Then
+
+             1           2!   3!
+
+ww          1+x
+                = 1 − x + x2 − x3 · · ·
+                         2!   3!
+                     = 1 − x + x 2 − x 3 · · · (−1)x n · · ·
+
+   w.Ea     As 1/(1 + x) is not defined at x = −1 we can only use this series for
+            |x| < 1.
+
+
+       syE  The binomial theorem revisited
+                         ngi
+            The binomial theorem, as stated in the previous section, was only given
+
+
+                             n
+            for n as a whole positive number. We can now find the binomial expansion
+
+
+                                            eer
+            for (1 + x)n for all values of n using the Maclaurin series.
+
+
+            f (x) = (1 + x)n .
+                                                           ing
+            Then
+                                                                        .ne
+             f  (x) = n(1 + x)n−1
+            f  (x) = n(n − 1)(1 + x)n−2
+                                                                            t
+            f  (x) = n(n − 1)(n − 2)(1 + x)n−3 .
+
+
+            Substituting x = 0, we get
+
+
+            f (0) = 1,     f  (0) = n,    f  (0) = n(n−1),     f  (0) = n(n−1)(n−2).
+
+
+            Therefore, using Equation (12.11) for the Maclaurin series, we find:
+
+                                      n(n − 1) 2 n(n − 1)(n − 2) 3
+            (1 + x)n = 1 + nx +               x +               x ···
+                                         2!            3!
+
+               Notice that n can take fractional or negative values, but if n is negative,
+            |x| < 1 (as found in Example 12.26). For many fractional values of n we
+            also need to keep to the restriction |x| < 1.
+
+                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

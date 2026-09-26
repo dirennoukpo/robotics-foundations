@@ -1,0 +1,40 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+168    The exponential function
+
+
+
+
+ ww
+    w                  .Ea
+                          syE
+                                                 ngi
+                                                     n             eer
+                                                                               ing
+Figure 8.3 (a) The graph of
+y = 3t with some tangents                                                                    .ne
+marked. (b) The graph of the
+derivative (the gradient of the
+tangent at any point on y = 3t
+plotted against t).
+                                                                                                 t
+                                         Rearranging this equation gives e ≈ (1+δt)1/δt for small δt. Replacing
+                                      δt by 1/n, with n large, gives
+                                                  
+                                                 1 n
+                                      e≈ 1+
+                                                 n
+                                      for large n.
+                                         Let n tend to infinity and this gives the well-known limit
+                                                        
+                                                       1 n
+                                      e = lim 1 +            .
+                                           n→∞         n
+                                      We can use the expression
+                                                 
+                                                1 n
+                                      e≈ 1+
+                                                n
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

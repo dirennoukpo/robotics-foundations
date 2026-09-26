@@ -1,0 +1,82 @@
+                            Downloaded From : www.EasyEngineering.net
+
+
+526   Probability and statistics
+
+                                   Solution Call 1 the outcome of a bit being in error and 0 that it is correct.
+                                   We are given that in 1024 (n) trials there were 16 errors. Taking 16 as the
+                                   mean over 1024 trials and using
+                                   1024θ = 16
+                                         16     1
+                                   θ=        =    .
+                                        1024   64
+                                   Errors go undetected if there are 2, 4, 6, etc. The probability of two errors
+                                   in 9 bits is given by
+                                                                     2  7
+                                                9 2               9!     1        63
+                                   P9 (2) =        θ (1 − θ)7 =                         = 0.0078717.
+                                                2                7!2! 64          64
+                                   Multiplying by the number of data bytes of 4000 gives approximately 31
+                                   undetected errors.
+
+
+ww
+                                     The probability of four errors will obviously be much less.
+                                                                   4  5
+                                             9 4                9!     1      63
+                                   P9 (4) =     θ (1 − θ)5 =                        = 0.0000008.
+
+   w              .Ea
+                                             4                 4!5! 64        64
+                                   This probability is too small to show up only 4000 bytes. As the prob-
+                                   ability of six or eight errors is even smaller then they can safely be
+                                   ignored.
+
+                     syE             The probable number of undetected errors is 31.
+
+
+
+
+21.13 The                                     ngi
+                                   The Poisson distribution is used to model processes where the distribution
+
+Poisson
+distribution
+                                                  n
+                                   of the number of incidents occurring in any interval depends only on the
+
+
+                                                                 eer
+                                   length of that interval. Examples of such systems are:
+                                   1.   incoming telephone calls to an exchange during a busy period;
+                                   2.
+
+                                   3.                                         ing
+                                        customers arriving at a checkout counter in a supermarket from 4 to
+                                        6 p.m.;
+                                        accidents on a busy stretch of the M1;
+                                   4.   number of misprints in a book.
+                                                                                           .ne
+                                   When modelling situations in a Poisson process we use four assump-
+                                   tions:
+                                   1.                                                          t
+                                      If A is the event of n incidents in an interval and B the event of
+                                      m incidents in another non-overlapping interval then A and B are
+                                      independent, that is, p(A ∩ B) = p(A)p(B).
+                                   2. If A is the event of n incidents in an interval then P (A) depends only
+                                      on the length of the interval – not on the starting point of the interval.
+                                   3. The probability of exactly one incident in a small interval is approx-
+                                      imately proportional to the length of that interval, that is, P1 (t) ≈ λt
+                                      for small t.
+                                   4. The probability of more than one incident in a small interval is
+                                      negligible. Thus, for small t, P2 (t) ≈ 0 and we can also say that
+                                            Pn (t)
+                                        lim        =0     for n > 1.
+                                        t→0   t
+                                   It follows that P0 (t) + P1 (t) ≈ 1 and as by assumption (3), P1 (t) ≈ λt,
+                                   we get P0 (t) ≈ 1 − λt. We now think about the number of incidents in
+                                   an interval of time of any given length, (0, t), where t is no longer small.
+                                   We can divide the interval into pieces of length h, where h is small, and
+                                   use the assumptions above. We can see that in each small interval of
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

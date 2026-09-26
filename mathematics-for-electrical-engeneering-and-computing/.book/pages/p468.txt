@@ -1,0 +1,110 @@
+                                           Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                                                     Vector calculus   455
+
+                                                Solution We want to use the divergence theorem
+                                                
+                                                   F · dS = (∇·F) dV
+                                                                                  V
+                                                S
+
+                                                so we need to find the divergence of the vector field F = (x − y + z,
+                                                2x 2 y, 1) giving Fx = x − y + z, Fy = 2x 2 y, and Fz = 1 and
+
+                                                                     ∂Fx   ∂Fy   ∂Fz
+                                                ∇·F =                    +     +     = 1 + 2x 2
+                                                                      ∂x    ∂y    ∂z
+
+                                                The integral is
+                                                                                                           3       3       3
+                                                        F · dS =                  (∇·F) dV =                                    1 + 2x 2 dx dy dz.
+                                                                                                        0       0       0
+
+
+ww                                              S                             V
+
+                                                We can now perform each of the integrations one after the other. We begin
+                                                with, the integration over x, which gives
+
+   w                         .Ea                    0
+                                                        3
+
+                                                             0
+                                                                 3
+
+                                                                      0
+                                                                          3
+                                                                              1 + 2x dx dy dz =
+                                                                                      2
+                                                                                                                0
+                                                                                                                    3
+
+                                                                                                                        0
+                                                                                                                            3
+                                                                                                                                 x+
+                                                                                                                                    x3
+                                                                                                                                    3
+                                                                                                                                         3
+
+                                                                                                                                          0
+                                                                                                                                              dy dz
+
+
+                                syE             and evaluating the limits for x, this gives:
+
+
+                                                    0
+                                                        3
+
+                                                             0
+                                                                 3
+
+
+                                                                          ngi
+                                                                     21 dy dz =
+                                                                                          0
+                                                                                              3
+                                                                                                  [21y]30 dz,
+
+
+
+                                                        3
+                                                                              n
+                                                now evaluating the limits for y, we get:
+
+
+                                                            63 dz = [63z]30 = 189.
+                                                                                                      eer
+                                                    0
+                                                                                                                                ing
+                                                                                                                                              .ne
+                                                Example 18.9 Use the divergence therem to evaluate the surface inte-
+                                                gral of F where R = e−(x+y+z) and S is the surface of a tetrahedron
+                                                defined by the vertices (0,0,0), (1,0,0), (0,1,0), and (0,0,1).
+                                                Solution We use
+                                                                                                                                                  t
+                                                
+                                                   F · dS = (∇·F) dV
+                                                S                             V
+               z
+      (0,0,1)
+                                                but in order to express the limits of the integration we need to consider
+                                                the geometry of the given tetrahedron. This is shown in Figure 18.1.
+                                                   We can see from the figure that the sides of the tetrahedron lie along
+                                                the x, y- and z-axes and the fourth side is the plane ABC, given by the
+                                                equation x + y + z = 1. In this simple case, we can guess the equation
+                                       y
+                                                of this plane and check that it is correct by substituting the values for the
+                   (0,0,0)   (0,1,0)
+                                                points A (1,0,0), B (0,1,0), and C (0,0,1). We need to choose the limits
+                                                of integration so that we integrate correctly over this tetrahedron. x must
+ (1,0,0)
+           x
+                                                start from 0 and go up to values lying on the plane ABC. This means that
+                                                x is from 0 to 1 − y − z. If we integrate for x first then when considering
+Figure 18.1 Tetrahedron for                     the integration for y, we will have eliminated the x variable and will be
+Example 18.9.
+                                                left with the y, z plane. So y goes between y = 0 and the line BC, given
+
+                                                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

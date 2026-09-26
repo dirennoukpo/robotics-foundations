@@ -1,0 +1,68 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                                  Complex numbers            209
+
+                                      Check by substituting a = 8 and b = 2 into
+
+                                      a − 2 + jb = 6 + j2
+
+                                      which gives
+
+                                      8 − 2 + j2 = 6 + j2
+                                                 ⇔ 6 + j2 = 6 + j2
+
+                                      which is correct
+
+
+                                      Addition of complex numbers
+                                      To add complex numbers, add the real parts and the imaginary parts.
+
+ww                                    Example 10.2       Given z1 = 3 + j4 and z2 = 1 − j2, find z1 + z2 .
+
+
+   w                 .Ea
+                                      Solution
+
+                                      z1 + z2 = 3 + j4 + 1 − j2 = (3 + 1) + j(4 − 2) = 4 + j2
+
+
+                        syE           On the Argand diagram, the numbers add like vectors by the parallelogram
+                                      law as in Figure 10.5.
+
+
+                                                 ngi
+                                      Subtraction of complex numbers
+                                                     n              eer
+                                      To subtract complex numbers, we subtract the real and imaginary parts.
+
+                                      Example 10.3
+                                      Solution                                  ing
+                                                         Given z1 = 3 + j4 and z2 = 1 − j2, find z1 − z2 .
+
+
+Figure 10.5 Adding two
+complex numbers using the                                                                    .ne
+                                      z1 − z2 = 3 + j4 − (1 − j2) = 3 − 1 + j(4 − (−2)) = 2 + j6.
+parallelogram law.
+
+                                                                                                 t
+                                      On the Argand diagram, reverse the vector z1 to give −z2 and then add
+                                      z1 and −z2 as in Figure 10.6.
+
+
+                                      Multiplication of complex numbers
+                                      To multiply complex numbers multiply out the brackets, as for any other
+                                      expression, and remember that j2 = −1.
+
+                                      Example 10.4       Given z1 = 3 + j4 and z2 = 1 − j2, find z1 · z2 .
+                                      Solution
+
+                                      z1 z2 = (3 + j4)(1 − j2) = 3 + j4 + 3(−j2) + (j4)(−j2)
+Figure 10.6 To find z1 − z2
+on an Argand diagram,                      = 3 + j4 − j6 − j2 8
+reverse vector z2 to give −z2
+and then add giving z1 + −z2 .             = 3 − j2 + 8     (using j2 = −1)
+                                           = 11 − j2.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

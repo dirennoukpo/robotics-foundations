@@ -1,0 +1,79 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                         Functions and their graphs            33
+
+
+
+
+Figure 2.5 Three quadratic
+functions with two roots to the
+equation f (x ) = 0. Each
+satisfies b 2 − 4ac > 0.(a)
+y = 2x 2 − 3, a = 2, b = 0,
+c = −3, b 2 − 4ac =
+0 − 4(2)(−3) = 24.
+(b) y = −x 2 + 5, a = −1,
+
+
+ww
+b = 0, c = 5, b 2 − 4ac =
+0 − 4(−1)(5) = 20.(c)
+y = −3(x − 2)2 + 1 ⇔ y =
+
+
+   w
+−3x 2 + 12x − 11, a = −3,
+b = 12, c = −11, b 2 − 4ac =
+(12)2 − 4(−3)(−11) =
+144 − 132 = 12.
+                      .Ea
+                         syE
+                                                  ngi
+                                       From the graph, we can see there are three possibilities:
+
+                                       1.   In Figure 2.4(a) where there are two solutions, that is, the graph
+
+
+                                                      n
+                                            crosses the x-axis for two values of x. For this to happen, the square
+
+
+                                                                    eer
+                                            root part of the formula above must be greater than zero:
+
+
+                                            b − 4ac > 0
+                                             2
+
+                                                                                 ing
+                                       2.
+                                          Examples are given in Figure 2.5.
+                                                                                              .ne
+                                          Only one unique solution, as in Figure 2.4(b). The graph touches the
+
+
+
+                                          Examples of these are given in Figure 2.7.
+                                                                                                  t
+                                          x-axis in one place only. For this to happen, the square root part of the
+                                          formula must be exactly 0. Examples of this are given in Figure 2.6.
+                                       3. No real solutions, that is, the graph does not cross the x-axis.
+
+
+
+
+                                       The function y = 1/x has the graph as in Figure 2.8. This is called
+2.4 The                                a hyperbola. Notice that the domain of f (x) = 1/x does not include
+function y = 1/x                       x = 0. The graph does not cross the x-axis so there are no solutions to
+                                       1/x = 0.
+
+
+
+
+                                       Graphs of exponential functions, y = a x , are shown in Figure 2.9. The
+2.5 The                                functions have the same shape for all a > 1. Notice that the function is
+functions y = a x                      always positive and the graph does not cross the x-axis so there are no
+                                       solutions to the equation a x = 0.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

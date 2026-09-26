@@ -1,0 +1,72 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+306   Systems of linear equations, matrices, and determinants
+
+                              Example 13.12 Given that A, B, and C are matrices and AB = C where
+                              A and B are non-singular, find expressions for B and A.
+                              Solution In this case, we are told that A and B are invertible, so they
+                              must be square and therefore C must also be square and of the same
+                              dimension. To find B we wish to ‘get rid’ of the A term on the left-hand
+                              side. We pre-multiply both sides of the equation by A−1
+                                 AB = C and given A is invertible
+                              ⇔     A−1 AB = A−1 C.
+                              Now using A−1 A = I, the unit matrix, we have
+                              IB = A−1 C.
+                              As the unit matrix multiplied by any matrix leaves it unchanged, we have
+                              ⇔     B = A−1 C.
+
+
+ww                            To find an expression for A, use
+                              AB = C
+
+
+   w              .Ea
+                              given that B is invertible, we post-multiply by B−1
+                              ⇔     ABB−1 = CB−1 .
+                              Now using BB−1 = I, the unit matrix, we have
+
+                     syE      AI = CB−1 .
+
+
+
+                                          ngi
+                              As the unit matrix multiplied by any matrix leaves it unchanged, we have
+                              ⇔     A = CB−1 .
+
+
+                                              n             eer
+                                Remember that it is always important to specify whether you are
+                              pre- or post-multiplying when solving matrix equations. A term like
+
+                              would do with numbers.                     ing
+                              B−1 AB cannot be simplified because we cannot swap the order, as we
+
+
+
+
+13.3                                                                                   .ne
+                                                                                           t
+                              On a computer graphics screen an object is represented by a set of coor-
+                              dinates, either with reference to the screen origin or with reference to
+Transformations               the origin of some window created by the graphical user interface (GUI).
+                              We may wish to move the object around inside its window. We shall
+                              consider in this section only two-dimensional objects as dealing with
+                              three-dimensional objects would add the complication of needing to rep-
+                              resent a perspective view. Ideas about transformations are also important
+                              when considering movement of a robotic arm.
+                                 There are three ways of moving an object without affecting its overall
+                              size or shape: rotation, reflection and translation. We could also stretch it
+                              or compress it in some direction – the operation of scaling.
+                                 We shall look at how to perform these operations using matrices and
+                              vectors. We can check that the operations performed are those that we
+                              expected by looking at the effect on some simple shapes. In most of these
+                              examples, we look at the effect of a unit square at the origin, defined by the
+                              points A (0,0), B(1,0), C (1,1), D (0,1). The outcome of the transformation
+                              is called the image which we will represent by the points A , B , C , D .
+                              The transformation, T, is a function whose domain and codomain is the
+                              plane (which is referred to as R2 ). The term ‘mapping’ is also used in this
+                              context. It has exactly the same meaning as function, but is more often
+                              used when referring to geometrical problems.
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

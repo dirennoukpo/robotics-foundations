@@ -1,0 +1,88 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+268   Sequences and series
+
+                             Pascal’s triangle
+                             Consider a simpler case of (1 + x)5 . To work this out, we would first start
+                             with (1 + x) and multiply by (1 + x) to get (1 + x)2 . We then multiply
+                             (1 + x)2 by (1 + x) to get (1 + x)3 , etc. continuing this process gives the
+                             following
+                             1+x                                          (1)
+                             1 + 2x + x 2                                 (2)
+                             1 + 3x + 3x 2 + x 3                          (3)
+                             1 + 4x + 6x 2 + 4x 3 + x 4                   (4)
+                             1 + 5x + 10x 2 + 10x 3 + 5x 4 + x 5          (5)
+                             If we write out the coefficients of each line of this in a triangular form,
+                             we get
+
+
+
+ww
+                                                1        1                      (1)
+
+
+                                            1        2        1                 (2)
+
+
+   w             .Ea                    1       3        3        1             (3)
+
+
+
+
+                    syE
+                                    1       4        6        4       1         (4)
+
+
+                                1       5       10       10       5         1   (5)
+
+
+                                            ngi
+                                Notice that each line can be found from the line above by adding pairs
+
+
+                                                n
+                             of numbers, where the outer numbers are always 1. That is, looking at line
+
+
+                                                              eer
+                             5, the first number is 1, the others are found by adding the two numbers
+                             above, 5 = 1 + 4, 10 = 4 + 6, 10 = 6 + 4, 5 = 4 + 1, and the last
+                             number is 1.
+
+                             Example 12.17
+                                                                            ing
+                                                Expand (1 + x)7 in powers of x.
+
+                             to find the coefficients in the expansion, giving
+                                                                                      .ne
+                             Solution Write out the first seven lines of the Pascal’s triangle in order
+
+                                       11
+                                      121
+                                     1331
+                                    14641
+                                                  (1)
+                                                  (2)
+                                                  (3)
+                                                  (4)
+                                                                                          t
+                                  1 5 10 10 5 1   (5)
+                                1 6 15 20 15 6 1  (6)
+                              1 7 21 35 35 21 7 1 (7)
+                               Now write out the expansion with the powers of x, giving
+
+                             1 + 7x + 21x 2 + 35x 3 + 35x 4 + 21x 5 + 7x 6 + x 7 .
+
+                             As we can now easily find expansions of the form (1 + x)n , we now move
+                             on to the more difficult problem of expressions such as (1 + 2y)5 . We
+                             can find this by substituting x = 2y into the expression for (1 + x)5
+
+                             (1 + 2y)5 = 1 + 5(2y) + 10(2y)2 + 10(2y)3 + 5(2y)4 + (2y)5 .
+
+                             Remembering to take the powers of 2 as well as y this gives
+
+                             (1 + 2y)5 = 1 + 10y + 40y 2 + 80y 3 + 80y 4 + 32y 5 .
+
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,86 @@
+              Downloaded From : www.EasyEngineering.net
+
+
+                                                                           Integration       159
+
+                   where
+                                                            (b − a)
+                   xr = a + rh,      yr = f (xr ),     N=
+                                                               h
+                   as before.
+                      Again, a computer program would more likely use the recurrence
+                   relation to define the area
+                                       h
+                   A2n = A2(n−1) +       (y2n−2 + 4y2n−1 + y2n )
+                                       3
+                   where r = 1, . . . , N /2 and A0 = 0.
+                                             3
+                                             1 x
+                   Example 7.25       Find         2 dx using Simpson’s rule with h = 0.5.
+
+                   Solution     From the limits of the integral we find that a = 1 and b = 3.
+
+
+ww
+                   So,
+                           (b − a)   (3 − 1)
+                   N=              =         = 4.
+                              h
+
+   w
+                                       0.5
+                        Using xr = a + rh and yr = f (xr ), which in this case gives
+
+        .Ea        yr = xr2
+
+
+           syE     we get
+                     x0 = 1   y0 = (1)2 = 1
+
+                     x2 = 2
+                               ngi
+                     x1 = 1.5 y1 = (1.5)2 = 2.25
+                              y2 = (2)2 = 4
+                     x3 = 2.5 y3 = (2.5)2 = 6.25
+                     x4 = 3
+                   Hence,          n
+                              y4 = (3)2 = 9.
+
+                                                    eer
+                   A=
+                      0.5
+                       3
+                                                               ing
+                          (1 + 4(2.25) + 2(4) + 4(6.25) + 9) ≈ 8.66667.
+
+
+                   for rounding errors).
+                                                                            .ne
+                      In this case, as we are integrating a parabola the result is exact (except
+
+
+
+
+7.8 Summary        1.
+                                                                                t
+                         Integration can be defined as the inverse process of differentiation.
+                         If y = f (x) then
+                                                   
+                         dy                           dy
+                              = f  (x) ⇔ y =             dx = f (x) + C
+                         dx                           dx
+                         or equivalently
+                         
+                            dy
+                               dx = y + C.
+                            dx
+                         This is called indefinite integration and C is the constant of
+                         integration.
+                   2.    A table of standard integrals can be found as in Table 7.1 by swapping
+                         the columns of Table 6.3, rearranging them in a more convenient form
+                         and adding the constant of integration.
+                   3.    Integrals of combinations of the functions given in Table 7.1 cannot
+                         always be found but some methods can be tried as follows.
+                         (a) Substitute u = ax + b to find f (ax + b) dx.
+
+                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

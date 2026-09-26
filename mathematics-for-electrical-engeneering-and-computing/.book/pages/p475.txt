@@ -1,0 +1,83 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+462    Graph theory
+
+                                    edges e5 and e9 are multiple edges and e8 is a loop. A graph containing
+                                    no multiple edges or loops is called a simple graph. There is an example
+                                    of a simple graph in Figure 19.3.
+
+
+                                    Isomorphism
+                                    Graphs are isomorphic to each other if one can be obtained from a
+Figure 19.3   A simple graph.       redrawing of the other one. Some isomorphic graphs are shown in
+                                    Figure 19.4.
+
+
+                                    Weighted graph
+                                    A weighted graph has a number assigned to each of its edges, called its
+Figure 19.4 Some                    weight. The weight can be used to represent distances or capacities. A
+
+
+ ww
+isomorphic graphs.                  weighted graph is shown in Figure 19.5.
+
+
+
+
+    w                  .Ea
+                                    Digraphs
+                                    A digraph is a directed graph, that is, instead of edges in the definition of
+                                    graphs we have arcs join pairs of vertices in a specified order. A digraph
+
+Figure 19.5
+graph.
+              A weighted
+                          syE       is shown in Figure 19.6(a).
+
+
+                                    Underlying graph
+                                                ngi
+                                    The underlying graph of a digraph D is the graph obtained by replacing
+
+
+
+                                    Degrees
+                                                    n
+                                    each arc by an (undirected) edge as in Figure 19.6(b).
+
+                                                                     eer
+                                                                               ing
+                                    The number of times edges are incident to a vertex, v, is called its degree,
+
+                                    degree 4.
+                                                                                            .ne
+                                    denoted by d(v). In Figure 19.2 vertex v5 has degree 3 and vertex v3 has
+
+                                       A vertex of a digraph has an in-degree d− (v) and an out-degree, d+ (v).
+Figure 19.6 (a) A digraph;
+and (b) its underlying graph.                                                                   t
+                                    In Figure 19.6(a) v5 has in-degree of 1 and out-degree of 2. Vertex v1 has
+                                    in-degree 1 and out-degree 1.
+                                       The sum of the values of the degree, d(v), over all the vertices of a
+                                    graph totals to twice the number of edges:
+
+                                    
+                                         d(vi ) = 2|E|
+                                     i
+
+
+                                    where |E| is the number of edges.
+                                      Checking this result for Figure 19.2, we find that the degrees are
+                                    d(v1 ) = 2, d(v2 ) = 5, d(v3 ) = 4, d(v4 ) = 2, d(v5 ) = 3, and d(v6 ) = 2.
+                                    Summing these gives 18, which is the same as twice the number of edges.
+                                      For a digraph we get
+
+                                                               
+                                         d− (vi ) = |A|   and        d+ (vi ) = |A|
+                                     i                           i
+
+
+                                    where |A| is the number of arcs.
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

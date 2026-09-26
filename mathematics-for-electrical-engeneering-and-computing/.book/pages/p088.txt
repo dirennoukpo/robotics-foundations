@@ -1,0 +1,41 @@
+                                       Downloaded From : www.EasyEngineering.net
+
+
+                                              Problem solving and the art of the convincing argument                   75
+
+3.8. A road has a bend with radius of curvature 100 m. The
+     road is banked at an angle of 10◦ . At what speed should
+     a car take the bend in order not to experience any side
+     thrust on the tyres? Use the following assumptions:
+     (a) The sideways force needed on the vehicle in order to
+         maintain it in circular motion (called the centripetal
+         force) = mv 2 /r where r is the radius of curvature
+         of the bend, v the velocity, and m the mass of the
+         vehicle.
+     (b) The only force with a component acting sideways
+         on the vehicle, is the reactive force of the ground.       Figure 3.8 A vehicle rounding a banked bend
+         This acts in a direction normal to the ground (i.e. we     in the road. R is the reactive force of the ground
+         assume no frictional force in a sideways direction).       on the vehicle. The vehicle provides a force of
+     (c) The force due to gravity of the vehicle is mg, where       mg, the weight of the vehicle, operating vertically
+         m is the mass of the vehicle and g is the acceleration     downwards. The vehicle needs a sideways force
+         due to gravity (≈ 9.8 m s−2 ). This acts vertically        of mv 2 /r in order to maintain the locally circular
+         downwards. The forces operating on the vehicle and         motion.
+
+
+ww       ground, in a lateral or vertical direction, are pictured
+         in Figure 3.8.
+
+
+
+   w                      .Ea
+                             syE
+                                                           ngi
+                                                               n         eer
+                                                                                      ing
+                                                                                                    .ne
+                                                                                                        t
+
+
+
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

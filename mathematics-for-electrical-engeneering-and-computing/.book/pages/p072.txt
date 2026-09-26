@@ -1,0 +1,80 @@
+                 Downloaded From : www.EasyEngineering.net
+
+
+                      Problem solving and the art of the convincing argument                   59
+
+                      To solve the problem using your knowledge of mathematics, we need to
+                      use the ideas of mathematical statements and how to decide whether, and
+                      express the fact that, one statement leads logically on to the next. We
+                      shall mainly use examples of solving equations and inequalities although
+                      the same ideas apply to the solving of all problems.
+
+
+
+
+                      The stages in expressing a problem in mathematical language can be
+3.2 Describing        summarized as:
+a problem in          (1) Assign letters to represent the unknown quantities.
+mathematical          (2) Write down the known facts using equations and inequalities, and
+                          using drawings and diagrams where necessary.
+language              (3) Express the problem to be solved mathematically.
+
+ww                       This is not a simple process because it involves a great deal of inter-
+                      pretation of the original problem. It is useful to try to limit the number
+
+   w      .Ea
+                      of unknowns used as much as possible, or the problem may appear more
+                      difficult than necessary.
+
+
+
+
+             syE      Example 3.1 Express the following problem mathematically: A web
+                      development company employs a freelance web designer and a freelance
+
+                                ngi
+                      graphic designer to put up listings for new businesses on to their virtual
+                      business park website. Business customers are charged e200 per year
+
+
+                                    n
+                      for a listing. The fixed costs of the web development company amount
+
+
+                                                   eer
+                      to e2000 per week over 52 weeks in the year. The web designer charges
+                      e80 per listing and the graphic designer e100 per listing and both can
+
+
+                                                                ing
+                      prepare these at the rate of 2.4 listings in a day. The freelancers work for
+                      up to 200 days per year. How many listings does the company need in
+                      the first year to break even?
+
+
+                                                                             .ne
+                      Solution The mathematical problem can be expressed by firstly assign-
+
+
+                                                                                 t
+                      ing letters to some of the unknown quantities and then write down all the
+                      known facts as equations or inequalities.
+                         First assign letters: Total number of listings of businesses on the park
+                      in the first year is L. LW is the number of listings prepared by the web
+                      designer and LG is the number of listings prepared by the graphic designer.
+                      The costs are K per year and the profit is P . The known facts can be
+                      expressed as follows:
+
+                      L = LW + L G
+
+                      This expresses the fact that the total number of listings L is made up of
+                      those prepared by the web designer and those prepared by the graphic
+                      designer. As there are up to 200 working days in a year and they both do
+                      a maximum of 2.4 listings per day.
+
+                      0 ⩽ LW ⩽ 480,      0 ⩽ LG ⩽ 480
+
+                      The costs, K, are; fixed costs of 2000 × 52, plus the cost of the freelance
+                      web designer at 80LW , plus the cost of the freelance graphic designer at
+
+                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,63 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+366   Differential equations and difference equations
+
+                               Step 3
+                               The general solution is given by the sum of the complementary function
+                               and a particular solution, so
+                               y = e−0.6t (A sin(0.8t) + B cos(0.8t)) + sin(t).
+                               Step 4
+                               Use the given initial conditions to find values for the constants A and B.
+                               Substituting y = 0 when t = 0 into
+                               y = e−0.6t (A cos(0.8t) + B sin(0.8t)) + sin(t)
+                               then
+                               0 = e0 (A cos(0) + B sin(0)) + sin(0)
+                                     ⇔     0 = A.
+                               To use the other condition, that y  = 0 when t = 0, we need to differ-
+
+ww                             entiate the general solution to find an expression for y  . Differentiating
+                               (using the product rule):
+                               y = e−0.6t (A cos(0.8t) + B sin(0.8t)) + sin(t)
+
+   w              .Ea                ⇒ y  = −0.6 e−0.6t (A cos(0.8t) + B sin(0.8t))
+                                     + e−0.6t (−0.8A sin(0.8t) + 0.8B cos(0.8t)) + cos(t)
+
+                     syE       and using y  = 0 when t = 0 gives
+                               0 = −0.6A + 0.8B + 1.
+
+                                             ngi
+                               We have already found A = 0 from the first condition, so
+
+
+                                                 n
+                               B = −1/(0.8) = −1.25.
+                               Therefore, the solution is
+                                                                 eer
+                               y = −1.25 e−0.6t sin(0.8t) + sin(t).
+                               Check                                          ing
+                                y = −1.25 e
+                                 
+                                y = 0.75 e
+                                                −0.6t
+
+                                              −0.6t
+                                                        sin(0.8t) + sin(t)
+                                                                                          .ne
+                                                      sin(0.8t) − e−0.6t cos(0.8t) + cos(t)
+                               y  = −0.45 e−0.6t sin(0.8t) + 0.6 e−0.6t cos(0.8t)
+                                       + 0.6 e−0.6t cos(0.8t) + 0.8 e−0.6t sin(0.8t) − sin(t).
+                                                                                              t
+                               Substitute into
+                               5y  + 6y  + 5y = 6 cos(t)
+                               giving
+                               5(−0.45 e−0.6t sin(0.8t) + 0.6 e−0.6t cos(0.8t)
+                                     + 0.6 e−0.6t cos(0.8t) + 0.8 e−0.6t sin(0.8t) − sin(t))
+                                     + 6(0.75 e−0.6t sin(0.8t) − e−0.6t cos(0.8t) + cos(t))
+                                     + 5(−1.25 e−0.6t sin(0.8t) + sin(t)) = 6 cos(t)
+                                     ⇔     e−0.6t sin(0.8t)(1.75 + 4.5 − 6.25) + e−0.6t cos(0.8t)(6 − 6)
+                                     + sin(t)(−5 + 5) + 6 cos(t) = 6 cos(t)
+                               which is true for all values of t.
+                                 We can also check that the solution satisfies the given initial conditions.
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

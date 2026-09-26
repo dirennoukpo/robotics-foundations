@@ -1,0 +1,33 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+96   Trigonometric functions and waves
+
+
+
+
+ ww
+    w                  .Ea
+                          syE
+                                                     ngi
+                                                         n               eer
+                                                                                       ing
+                                                                                                     .ne
+                                                                                                         t
+Figure 5.10 Sketching the graph of z = 12 sin(π q − (π/4)) − 12 : (a) start with z = sin(q); (b) shift to the
+right by π/4 to give z = sin(q − (π/4)); (c) squash the graph in the q-axis to give z = sin(πq − (π/4));
+(d) squash the graph in the z-axis giving z = 12 sin(πq − (π/4)); (e) translate in the z direction by 12 to get
+z = 12 sin(π q − (π/4)) − 21 .
+
+
+                                            The fundamental period, P , or cycle length is the smallest, non-zero,
+                                         distance that the graph can be shifted to the right or left so that it lies on top
+                                         of the original graph. This can be found by looking for two consecutive
+                                         values where the function takes its maximum value, that is when the
+                                         cosine takes the value 1. Using the fact that cos(0) = 1 and cos(2π ) = 1,
+                                          cos(ax + b) becomes cos(0) when ax + b = 0 ⇔ x = −b/a
+                                          cos(ax + b) becomes cos(2π ) when ax + b = 2π ⇔ x = 2π/a − b/a
+                                         and the difference between them is 2π/a; giving the fundamental period
+                                         of the function cos(ax + b) as 2π/a.
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

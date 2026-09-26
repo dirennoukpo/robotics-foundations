@@ -1,0 +1,67 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+354   Differential equations and difference equations
+
+                               of y, are functions of t, or constant terms, only.
+
+                               dy/dt = 4t
+                               d2 y/dt 2 = 6t
+                               t dy/dt = 6
+                               ay  + by  + cy = f (t)
+                               3 d2 y/dt 2 + t 2 dy/dt + 6y = t 5
+
+                               are all linear.
+
+                               (dy/dt)2 + 3 = 12t + y dy/dt − t 2
+                               θ  + k sin(θ) = 0
+                               u − (1 − u2 )u + u = 0
+
+ww                             are all non-linear.
+
+
+   w              .Ea          Linearity and superposition of solutions
+
+                     syE       The property of linearity is very important. We have applied the term
+                               linear to equations whose graphs are straight lines. However, in an alge-
+                               braic sense the term does not mean that everything represents a straight
+
+
+                                           ngi
+                               line! The property of linearity is defined for an operator, which we shall
+                               call O. A linear operator is one that, when operating on the sum of two
+                               terms gives the same result as operating on the terms and then taking the
+
+                                               n
+                               sum. This can be expressed as
+
+                               O(f1 + f2 ) = O(f1 ) + O(f2 ).eer
+                               The other condition is that
+                                                                         ing
+                               O(af ) = aO(f )
+                                                                                     .ne
+                                                                                         t
+                                  The two conditions can be combined to say that a linear operation
+                               on a linear combination of inputs produces a linear combination of the
+                               outputs. A linear combination of f1 and f2 is af1 + bf2 , where a and b
+                               are constants and therefore if an operator, O, is linear then
+
+                               O(af1 + bf2 ) = aO(f1 ) + bO(f2 )
+
+                               Examples of linear operators are:
+
+                               Matrices
+                               A(x1 + x2 ) = Ax1 + Ax2 and A(ax) = a(Ax) where a is a number and
+                               A is a matrix and x1 , x2 , and x are vectors
+                               The differential operator
+
+                               d                 d     d
+                                  (3t + t 2 ) = 3 (t) + (t 2 ).
+                               dt                dt    dt
+
+                               The integral operator
+                                                      
+                                 (3t + t 2 )dt = 3t dt + t 2 dt
+
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

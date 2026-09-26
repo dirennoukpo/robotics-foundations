@@ -1,0 +1,97 @@
+                                       Downloaded From : www.EasyEngineering.net
+
+
+74    Problem solving and the art of the convincing argument
+
+                                             (4)   The three main operations on predicates and propositions are
+                                                   ∧, ∨, ¬, and these can be defined using truth tables as in
+                                                   Tables 3.1–3.3.
+                                             (5)   Two predicates, p, q, are equivalent (p ⇔ q) if they are true for
+                                                   exactly the same set of values.
+                                             (6)   p ⇒ q means ‘p implies q’, that is, q is true whenever p is true. If
+                                                   p, q are equations or inequalities and p ⇒ q then all solutions of p
+                                                   are also solutions of q and q may have more solutions besides.
+                                             (7)   The symbol ∀ stands for ‘for all’ or ‘for every’ and can be used
+                                                   with a predicate to make it into a simple proposition, for example,
+                                                   ∀a, b ∈ R, a 2 − b2 = (a + b)(a − b), which is true.
+                                             (8)   The symbol ∃ stands for ‘there exists’ and can also be used with a
+                                                   predicate to make it into a simple proposition, for example, ∃x ∈ R,
+                                                   3x = 45, which is true.
+
+
+
+
+ ww
+    w
+3.10 Exercises
+                          .Ea
+3.1. Assign T or F to the following
+     (a) 2x + 2 = 10 when x = 1
+                                                                        (i) w/(w2 − 1) = 1 · · · 1/(w − 1) = 1 where w = 1
+                                                                            and w = −1
+
+                             syE
+     (b) 2x + 2 = 10 when x = 2
+     (c) 3x 2 + 3x − 6 = 0 when x = 1
+     (d) 1 − t 2 = −3 when t = −2
+                                                                        (j) (x − 1)(x − 3) < 0 · · · (x − 3) < 0 ∨ (x − 1) < 0
+                                                                       (k) x > 2 ∨ x < −2 · · · x 2 > 4.
+     (e) t − 5 = 6.5 ∧ t + 4 = 2.5 when t = 1.5
+      (f) u + 3 = 6 ∧ 2u − 1 = 4 when u = 3
+     (g) 3y + 2 = −2.5 ∨ 1 − y = 1 when y = −1.5
+                                                          ngi     3.5. Determine whether the following statements are true or
+                                                                       false and justify your answer.
+     (h) ¬(x 2 − x + 2 = 0) when x = −1
+      (i) ¬(t − 2 = 4 ∧ t = 3)
+      (j) ¬(t − 2 = 4) ∧ (t = 3)     
+                                                              n        (a) ∀a, b ∈ R, a 4 − b4 = (a − b)(a 3 − a 2 b + ab2 − b3 )
+
+
+                                                                              eer
+                                                                       (b) ∀a, b ∈ R, a 3 + b3 = (a + b)3
+                                                                       (c) ∀x ∈ R, x = 0 1/(1/x) = x
+                                                                       (d) ∃t, t ∈ R, t 2 − 3 = 4
+     (k) ¬ 3t − 4 = 6 ∨ 1 − t = −2 13 when t = 3 13 .
+
+3.2. Solve the following, justifying each stage of the solution                             ing
+                                                                       (e) ∃t, t ∈ R, t 2 + 3 = 0.
+
+                                                                  3.6. Write the following conditions using mathematical
+     and checking the result.
+     (a) 3 − 2x = −1, (b) 1 − 2t 2 = 1 − 10t
+     (c) 50t − 11 = −25t 2 , (d) 30y − 13 = 8y 2
+                                                                       symbols:
+                                                                       (a) x is not divisible by 3,
+                                                                                                           .ne
+                                                                       (b) y is a number between 3 and 60 inclusive,
+     (e) 10t − 4 ⩽ −3, (f) 10 − 4x > 12.
+
+3.3. Find the range of values for which the following hold
+     and represent them on a number line.
+                                                                       (c) w is an even number greater than 20,
+                                                                                                               t
+                                                                       (d) t differs from tn−1 by less than 0.001.
+
+                                                                  3.7. Express the following problems mathematically and
+     (a) x +3 ⩾ 5∨1−2x > 3, (b) 2−4t ⩽ 3∧2−t < 1                       solve them:
+     (c) ¬(2x + 3 ⩽ 9).                                                (a) A set of screwdrivers cost e10 and hammers
+                                                                           e6.50. Find the possible combinations of maximum
+3.4. Fill the correct sign ⇒, ⇐ or ⇔ or indicate none                      numbers of screwdriver and hammer sets that can
+     of these. Assume the domain is R unless indicated                     be bought for e40.
+     otherwise.                                                        (b) An object is thrown vertically upwards from the
+     (a) 3x 2 − 1 = 0 · · · x = √13                                        ground with an initial velocity of 10 m s−1 . The
+          √                                                                mass of the object is 1 kg. Find the maximum height
+     (b) x − 1 = 5 · · · x = 26 (where x ⩾ 1)                              that the object can reach using
+     (c) t 2 − 5t = 36 · · · (t − 4)(t − 9) = 0                              (i) Kinetic energy (KE) is given by 21 mv 2 , where
+                                                                                 m is its mass and v its velocity.
+     (d) (2x − 2)/(x − 3) = 1 · · · 3x + 4 = −x (where                      (ii) The potential energy (PE) is mgh, where m is
+          x = 3)                                                                 the mass, g is the acceleration due to gravity
+     (e) 3x = 4 · · · (3x)2 = (4)2                                               (which can be taken as 10 m s−2 ), and h is the
+                                                                                 height.
+      (f) t + 1 = 5 · · · (t + 1)3 = 53                                    (iii) Assuming that no energy is lost as heat due to
+     (g) (x +1)(x −3) = (x −3)(x +2) · · · (x +1) = (x +2)                       friction, then the conservation of energy law
+                            √
+     (h) x − 1 = 25 · · · x − 1 = 5 where x ⩾ 1                                  gives KE + PE = constant.
+
+
+                                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

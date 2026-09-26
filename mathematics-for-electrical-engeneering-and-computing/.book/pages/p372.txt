@@ -1,0 +1,78 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                   Differential equations and difference equations                 359
+
+            that any order derivative of an exponential function is a scaled version of
+            the original function. Consider
+
+            dy/dt = ky.
+
+            Differentiating this equation gives
+
+            d2 y/dt 2 = k dy/dt.
+
+            Substituting dy/dt = ky we get
+
+            d2 y/dt 2 = k 2 y
+
+            and hence the second derivative is a scaled version of the original
+            exponential function with scaling factor k 2 . Differentiating again, we get
+
+            d3 y/dt 3 = k 2 dy/dt
+
+ww          and on substituting dy/dt = ky, we get
+
+
+   w.Ea
+            d3 y/dt 3 = k 3 y
+
+            and hence the third derivative is a scaled version of the original function
+            with scaling factor k 3 . We use this property of exponential functions to
+
+       syE  solve the homogeneous equation by trying a solution of the form y =
+            C eλt . We then find value(s) for λ which are appropriate for the equation
+
+
+                       ngi
+            under consideration.
+               The equations we found in Section 14.2 were all second-order equa-
+            tions or systems of equations involving more than one state variable.
+
+
+            to give
+                           n
+            However, in some circumstances, we get simple first order equations. For
+
+                                         eer
+            instance if their is no inductor present in an LRC circuit we can put L = 0
+
+
+            R dq/dt + q/C = v(t),
+                                                      ing
+            which is first order in q.
+                                                                   .ne
+              The method of solution can be characterized by four steps. To find the
+            solution to ay  + by = f (t):
+            Step 1: Find the complementary function
+            The solution of the homogeneous equation
+                                                                       t
+            ay  + by = 0
+
+            is found by assuming a solution of the form y = A eλt . Hence, y  =
+            Aλ eλt and substituting into ay  + by = 0 we get
+
+            aAλ eλt + bA eλt = 0
+
+            We are not interested in the trivial solution A = 0 and eλt is never zero,
+            so we can divide through by A eλt giving
+
+            λa + b = 0
+
+            which is called the auxiliary, or characteristic equation.
+              The auxiliary equation has the solution λ = −b/a. Hence, the comple-
+            mentary function is
+
+            y = A e−(b/a)t .
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,90 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+288   Sequences and series
+
+                                   the common ratio. If the first term is a and the common ratio is r,
+                                   then the general term is an = ar n−1 , and the sum of the first n terms
+                                   is given by
+
+                                          a(1 − r n )
+                                   Sn =               .
+                                            1−r
+                                   The sum to infinity of a GP can be found if |r| < 1 and is given by
+                                            a
+                                   S∞ =        .
+                                           1−r
+                              7.   The binomial expansion gives
+
+                                                               n(n − 1) n−2 2
+                                   (a + b)n = a n + na n−1 b +         a b
+                                                                  2!
+                                                  n(n − 1)(n − 2) n−3 3
+
+ww                                              +
+                                                        3!
+                                                                 a b + ···
+
+                                   where n can be a whole number or a fraction.
+
+   w             .Ea
+                              8.   The Maclaurin series is a series expansion of a function about x = 0.
+                                   If a function f (x) is defined for values of x around x = 0, within
+                                   some radius R, that is, for −R < x < R (or |x| < R) and if all its
+                                   derivatives are defined then:
+
+                    syE            f (x) = f (0) + f  (0)x +
+                                                                 f  (0) 2 f  (0) 3
+                                                                    2!
+                                                                         x +
+                                                                               3!
+                                                                                     x
+
+
+                                          ngi
+                                            + ··· +
+                                                      f (n) (0) n
+                                                         n!
+                                                               x + ···
+
+
+                                              n              eer
+                                   This gives a power series with coefficient sequence:
+
+                                          f (n) (0)
+                                   an =
+                                             n!
+                                                                           ing
+                                 where f (n) (0) is found by calculating the nth derivative of f (x)
+                                 with respect to x and then substituting x = 0.
+                                                                                          .ne
+                              9. Maclaurin’s series is just a special case of Taylor series. A Taylor
+
+
+
+                                 and if all its derivatives are defined, then:
+                                                                                              t
+                                 series is a series expansion of a function not necessarily taken around
+                                 x = 0. If a function f (x) is defined for values of x around x = a,
+                                 within some radius R, that is, for a−R < x < a+R (or |x−a| < R)
+
+
+                                                                         f  (a)
+                                   f (x) = f (a) + f  (a)(x − a) +               (x − a)2
+                                                                            2!
+                                              f  (a)                      f (n) (a)
+                                            +           (x − a)3 + · · · +             (x − a)n + · · ·
+                                                 3!                             n!
+                                   or, substituting x = a + h, where h is usually considered to be a
+                                   small value, we get
+
+                                                                       f  (a) 2 f  (a) 3
+                                   f (a + h) = f (a) + f  (a)h +              h +         h
+                                                                          2!         3!
+                                                           f (n) (a) n
+                                                 + ··· +            h + ··· .
+                                                              n!
+                             10.   L’Hopital’s rule is a way of finding the limit of a function at a
+                                   point where it is undetermined (i.e. it gives 0/0 at the point). The
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

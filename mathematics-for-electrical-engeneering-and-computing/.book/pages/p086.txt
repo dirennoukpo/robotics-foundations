@@ -1,0 +1,75 @@
+              Downloaded From : www.EasyEngineering.net
+
+
+                   Problem solving and the art of the convincing argument                    73
+
+                   Solution Pseudo-code is a system of writing algorithms which is similar
+                   to some computer languages but not in any particular computer language.
+                   We can use any symbols we like as long as the meaning is clear.
+                      y is a multiple of x means that if y is divided by x then the result is an
+                   integer. This can be expressed as
+                   y
+                     ∈Z
+                   x
+                   The condition that x must lie between 1 and 100 can be expressed as
+                   x ⩾ 1 and x ⩽ 100. Combining these conditions gives the following
+                   interpretation for the algorithm:
+                      y                           
+                   if     ∈ Z ∧ x ⩾ 1 ∧ x ⩽ 100      then
+                       x
+                      print x, y
+
+
+ww
+                   endif
+
+
+                   Example 3.12 A program is designed to take a given whole positive
+
+   w    .Ea
+                   number, x, greater than 1, and find two factors of x, a and b, which
+                   multiplied together give x. a and b should be whole positive numbers
+                   different from 1, unless x is prime. Express the pre- and post-conditions
+                   for the program.
+
+           syE     Solution Pre-condition is x ∈ N ∧ x > 1.
+                      The post-condition is slightly more difficult to express. Clearly ab = x
+
+                              ngi
+                   is a statement of the fact that a and b must multiply together to give x.
+                   Also a and b must be elements of N. a and b cannot be 1 unless x is
+                   prime, this can be expressed by
+
+                                  n             eer
+                   (a = 1 ∧ b = 1) ∨ (x is prime).
+
+                   Finally, we have the post-condition as
+                                                             ing
+                   a · b = x ∧ (a ∈ N) ∧ (b ∈ N) ∧ ((a = 1 ∧ b = 1) ∨ (x is prime)).
+
+
+                                                                           .ne
+3.9 Summary        (1)
+                                                                               t
+                       The stages in solving a real-life problem using mathematics are:
+                       (a) Express the problem as a mathematical one, using any neces-
+                            sary scientific rules and assumptions about the behaviour of the
+                            system and using letters to represent any unknown quantities.
+                            This is called a mathematical model.
+                       (b) Solve the mathematical problem by moving from one state-
+                            ment to an equivalent statement justifying each stage by using
+                            relevant mathematical knowledge.
+                       (c) Check the mathematical solution(s) by substituting them into
+                            the original formulation of the mathematical problem.
+                       (d) Translate the mathematical solution back into the setting of the
+                            original problem.
+                       (e) Test the model solutions for some realistic values to see how
+                            well the model correctly predicts the behaviour of the system.
+                            If it is acceptable, then the model can be used to predict more
+                            results.
+                   (2) A predicate is a mathematical statement containing a variable.
+                       Examples of predicates are equations and inequalities.
+                   (3) If values are substituted into a predicate it becomes a simple
+                       proposition which is either true or false.
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

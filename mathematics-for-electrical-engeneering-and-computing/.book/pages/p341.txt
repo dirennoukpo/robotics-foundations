@@ -1,0 +1,86 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+328   Systems of linear equations, matrices, and determinants
+
+                              the first column so we leave it alone. We take Row 3 − (7) × (Row 1).
+                                                
+                                1 −1 −1 0
+                              0 3 −2 0
+                                0 7         9 8
+
+                                The calculations performed here was: Row 2 − 7 × (Row 1)
+                                     7       0    2   8
+                              −7 × (1 −1 −1 0)
+
+                                     0       7    9   8
+                              Stage 2
+
+                              Stage 2 concerns the second column. We use the second row to eliminate
+                              the elements below a22 .
+
+ww                            Step 1: Divide the second equation by the coefficient of a22 .
+                              
+                                1 −1 −1 0
+                                                 
+
+
+   w              .Ea
+                              0 1 − 23 0
+                                0 7       9 8
+                              Step 2: Eliminate the element in the second column below a22 by taking
+
+
+                     syE      away multiples of Row 2 from Row 3.
+                              
+                                1 −1 −1 0
+                              0 1 − 23 0
+                                                 
+
+
+                                0 0
+                                          ngi
+                                          41
+                                           3   8
+
+
+                              was as follows:
+                                              n
+                                Here the calculation was Row 3 − (7) × (Row 2), and the calculation
+
+
+                                     0    7      9    8         eer
+                              −7 × (0     1 − 23 0)
+                                                                             ing
+                                     0   0       41
+                                                  3   8
+                                                                                         .ne
+                                                                                             t
+                              Stage 3
+                              Divide the third equation by the coefficient of z:
+                                                  
+                                1 −1 −1 0
+                              0 1 − 2 0 
+                                            3
+                                                24
+                                0 0        1    41
+
+                              Back-substitution: We have now finished the elimination stage and we
+                              can easily solve the equations using back substitution.
+                                From the third equation, I3 = 2441 . Find I2 from the second equation:
+                                  2
+                              I2 − I3 = 0
+                                  3
+                                  2 24                                16
+                              I2 − ×      =0              ⇔    I2 =      .
+                                  3 41                                41
+                              Substitute into the first equation to find I1 :
+                                     16 24                             40
+                              I1 −     −   =0             ⇔     I1 =
+                                     41 41                             41
+                                                                                            
+                                                                                    40 16 24
+                              So the solution of the system of equations is           , ,      .
+                                                                                    41 41 41
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

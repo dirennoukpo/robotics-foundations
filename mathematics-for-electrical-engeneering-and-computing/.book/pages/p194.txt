@@ -1,0 +1,145 @@
+                                              Downloaded From : www.EasyEngineering.net
+
+
+                                                                                         The exponential function              181
+  Table 8.3 The derivatives                        Example 8.12       Find derivatives of the following:
+  of some simple functions
+                                                                                                            sinh(x)
+                                                     (a) y = e−2t +3       (b) x = e−t cos(3t)
+                                                                  2
+
+  f (x )                       f  (x )                                                           (c) y =           x  = 0.
+                                                                                                               x
+
+  C                            0
+                                                   Solution (a) To differentiate y = e−2t +3 using the function of a
+                                                                                                  2
+
+  xn                           nx n−1              function rule think of this as y = e( ) (‘y = e to the bracket’).
+  cos(x )                      − sin(x )              Now differentiate y with respect to ( ) and multiply by the derivative
+  sin(x )                      cos(x )             of ( ) with respect to t. That is, use
+  tan(x )                      sec2 (x )
+                                  √
+  sin−1 (x )                   1/ 1 − x 2          dy   dy d( )
+                                   √                  =
+  cos−1 (x )                   −1/ 1 − x 2         dt   d( ) dt
+  tan−1 (x )                   1/(1 + x 2 )        where ( ) represents the expression in the bracket
+  ex                           ex
+  ax                           (ln(a)a x )         dy          d
+                                                      = e−2t +3 (−2t 2 + 3) = e−2t +3 (−4t) = −4te−2t +3 .
+                                                            2                     2                  2
+
+
+
+
+wwln(x )
+  loga (x )
+  cosh(x )
+                               1/x
+                               1/(ln(a)x )
+                               sinh(x )
+                                                   dt          dt
+                                                     (b) To find the derivative of x = e−t cos(3t), write x = uv so that
+
+   w
+  sinh(x )
+  tanh(x )
+  sinh     −1
+                (x )
+                               cosh(x )
+
+
+                                .Ea
+                               sech2 (x )
+                                 √
+                               1/ 1 + x 2
+                                 √
+                                                   u = e−t and v = cos(3t); then,
+                                                   du
+                                                   dt
+                                                      = −e−t
+                                                                  dv
+                                                                  dt
+                                                                     = −3 sin(3t)
+  cosh−1 (x )
+  tanh−1 (x )
+                                   syE
+                               1/ x 2 − 1
+                               1/(1 − x 2 )
+                                                   where we have used the chain rule to find both these derivatives.
+                                                     Now use the product rule
+
+Table 8.4 Some standard
+integrals
+                                                   dx
+                                                   dt
+                                                      =u
+                                                         dv
+                                                         dt  ngi
+                                                            +v
+                                                               du
+                                                               dt
+
+f (x )
+                       
+                           f (x )dx f (x )
+                                                   dx
+                                                   dt            n                eer
+                                                       = −e−t cos(3t) − e−t 3 sin(3t) = −e−t cos(3t) − 3e−t sin(3t).
+
+1
+x n (n = −1)
+sin(x )
+                       x +C
+                       (x n+1 )/(n + 1) + C
+                       − cos(x ) + C               y=
+                                                     (c) To find the derivative of
+                                                        sinh(x)                               ing
+cos(x )
+sec2 (x )
+                       sin(x ) + C
+                       tan(x ) + C
+                                                           x
+                                                                                                             .ne
+                                                   we use the formula for the quotient of two functions where y = u/v, u =
+   √
+1/ 1 − x 2
+      √
+−1/ 1 − x 2
+1/(1 + x 2 )
+                       sin−1 (x ) + C
+                       cos−1 (x ) + C
+                       tan−1 (x ) + C
+                                                   sinh(x), v = x, and
+                                                   dy
+                                                   dx
+                                                      =
+                                                        v(du/dx) − u(dv/dx)
+                                                                 v2
+                                                                                                                 t
+ex                     ex + C
+ax                     (a x / ln(a)) + C           Hence, we get
+1/x                    ln(x ) + C                             
+                                                    d sinh(x)      x cosh(x) − sinh(x) · 1
+cosh(x )               sinh(x ) + C                              =
+sinh(x )               cosh(x ) + C                dx      x                 x2
+sech2 (x )             tanh(x ) + C                                       x cosh(x) − sinh(x)
+  √                                                                   =                       .
+1/ 1 + x 2             sinh   −1
+                                   (x ) + C                                       x2
+  √
+1/ x 2 − 1             cosh−1 (x ) + C
+1/(1 − x 2 )           tanh−1 (x ) + C
+                                                   Example 8.13 Find the following integrals:
+                                                                                               
+                                                    (a) xex +2 dx (b) sinh(t) cosh2 (t) dt    (c) xex dx
+                                                            2
+
+                                                                                      
+                                                       2                  3x 2 + 2x
+                                                    (d) 1 ln(x) dx (e)                    dx
+                                                                           x3 + x2 + 2
+
+
+
+                                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

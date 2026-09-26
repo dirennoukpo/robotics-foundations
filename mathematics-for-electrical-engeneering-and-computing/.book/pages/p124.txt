@@ -1,0 +1,78 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                               Trigonometric functions and waves                    111
+
+
+
+
+Figure 5.26 Solutions of
+y = sin(x ) and y = 0.5.
+
+
+
+
+Figure 5.27   Solutions of y = cos(x ) and y = 0.3.
+
+ww                                     cross. The solution nearest x = 0 is given by sin−1 (0.5) ≈ 0.524. The
+
+   w                 .Ea
+                                       other solution in [0, 2π ] is given by π − 0.524 ≈ 2.62. Any multiple of
+                                       2π added on to these solutions will also give a solution. Therefore, in the
+                                       range [2π, 4π ] the solutions are 3.64 and 8.9.
+
+
+                        syE            Example 5.15
+                                       [−480◦ , 480◦ ].
+                                                           Find solutions to cos(x)           =
+
+                                       Solution From the graph of y = cos(x) and the line y = 0.3 in
+                                                                                                    0.3 in the range
+
+
+
+
+                                                  ngi
+                                       Figure 5.27, the solutions can be worked out from where the two lines
+                                       cross. The solution nearest x = 0 is given by cos−1 (0.3) ≈ 73◦ . The
+
+                                                      n
+                                       other solution in [0◦ , 360◦ ] is given by −73◦ . Any multiple of 360◦
+
+                                                                       eer
+                                       added on to these solutions will also give a solution. Therefore, in the
+                                       range [−480◦ , 480◦ ] the solutions are −433◦ , −287◦ , −73◦ , 73◦ , 287◦ ,
+                                       and 433◦ (approximately).
+
+                                                                                    ing
+                                                          Find solutions to tan(x) = 0.1 in the range [360◦ , 540◦ ].
+                                       Example 5.16
+
+                                                                                                   .ne
+                                       Solution From the graph of y = tan(x) and the line y = 0.1 in
+
+
+                                                                                                       t
+                                       Figure 5.28, the solutions can be worked out from where the two lines
+                                       cross. The solution nearest x = 0 is given by tan−1 (0.1) ≈ 6◦ . Any mul-
+                                       tiple of π added on to this solution will also give a solution. Therefore,
+                                       in the range [360◦ , 540◦ ] there is only one solution, that is, 366◦ .
+
+
+
+                                       1.   Trigonometric functions can be defined using a rotating rod of
+5.9 Summary                                 length 1. The sine is given by plotting the height of the tip of the
+                                            rod against the distance travelled. The cosine is given by plotting the
+                                            position that the tip of the rod is to the left or right of the origin against
+                                            the distance travelled. Hence, if the tip of the rod is at point (x, y) and
+                                            the tip has travelled a distance of t units, then sin(t) = y, cos(t) = x,
+                                            and the tangent is given by
+
+                                                       sin(t)  y
+                                            tan(t) =          = .
+                                                       cos(t)  x
+                                       2.   If angles are measured in radians, then this definition is the same
+                                            for angles between 0 and π/2 as that given by defining the cosine,
+                                            sine, and tangent from the sides of a triangle (of hypotenuse 1) as
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,104 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                Functions of more than one variable                439
+
+
+
+            As long as δx, δy are not actually equal to 0 we can multiply the first term
+            by δx/δx and the second term by δy/δy. As δs → 0, so also δx → 0 and
+            δy → 0, hence we get
+
+            ∂u             u(x + δx, y + δy) − u(x, y + δy)      δx
+               =    lim                                      lim
+            ∂s   δx→0,δy→0                δx                δs→0 δs
+
+                               u(x, y + δy) − u(x, y)      δy
+                  + lim lim                            lim    .
+                     δx→0 δy→0           δy           δs→0 δs
+
+            In the first term, we can take the limit as δy → 0 to get:
+
+            ∂u       u(x + δx, y) − u(x, y)      δx
+               = lim                         lim
+            ∂s  δx→0           δx           δs→0 δs
+
+
+ww                + lim
+                          u(x, y + δy) − u(x, y)
+                                    δy
+                                                  lim
+                                                      δy
+                                                 δs→0 δs
+                                                         .
+
+   w
+                     δy→0
+
+
+
+
+    .Ea     Using our previous definitions of the partial derivative we take the limits
+            to find:
+
+
+       syE  ∂u
+            ∂s
+               =
+                 ∂u ∂x
+                 ∂x ∂s
+                       +
+                         ∂u ∂y
+                         ∂y ∂s
+                               .
+
+
+
+                      ngi
+            Similarly, we can show that
+
+            ∂u
+            ∂t
+               =
+                 ∂u ∂x
+                 ∂x ∂t
+                       +
+                          n
+                         ∂u ∂y
+                         ∂y ∂t
+                               .
+
+                                          eer
+            find ∂h/∂r and ∂h/∂θ .
+                                                      ing
+            Example 17.3 Given h = 4 − 2x 2 + y and x = r cos(θ), y = r sin(θ),
+
+
+            Solution We can find the following partial derivatives:.ne
+            ∂h
+            ∂x
+               = −4x
+                          ∂h
+                          ∂y
+                             =1                                        t
+            ∂x              ∂y
+               = cos(θ)        = sin(θ )
+            ∂r              ∂r
+            ∂x                  ∂y
+               = −r sin(θ )        = r cos(θ).
+            ∂θ                  ∂θ
+            To find ∂h/∂r we use the chain rule:
+
+            ∂h   ∂h ∂x    ∂h ∂y
+               =       +
+            ∂r   ∂x ∂r    ∂y ∂r
+            ∂h
+               = −4x cos(θ ) + sin(θ)
+            ∂r
+            and substituting for x and y gives
+
+            ∂h
+               = −4r cos2 (θ) + sin(θ )
+            ∂r
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

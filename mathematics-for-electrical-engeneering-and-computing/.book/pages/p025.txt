@@ -1,0 +1,46 @@
+                                    Downloaded From : www.EasyEngineering.net
+
+
+                                                                                       Sets and functions          11
+
+
+
+
+ww
+   w                   .Ea
+                          syE
+                                                    ngi
+Figure 1.22 Examples of
+discrete functions. (a) A digital
+ramp; (b) a digital wave; (c) a
+digital square wave.
+                                                        n              eer
+                                                                                    ing
+                                                                                                 .ne
+                                         the input values and it is possible merely to list the output values in order.
+
+                                                                                                     t
+                                         Hence the ramp function can be expressed by 0, 1, 2, 3, 4, 5, 6, . . .
+                                            Time sequences are often referred to as ‘series’. This terminology is
+                                         not usual in mathematics books, however, as the description ‘series’ is
+                                         reserved for describing the sum of a sequence. Sequences and series are
+                                         dealt with in more detail in Chapter 18.
+
+                                         Example 1.10       Plot the following analog signals over the values of t
+                                         given (t real):
+                                         (a)   x = t3   t ⩾0
+                                         (b)      
+                                                  
+                                                  0          t ⩽3
+                                               y = t −3       3<t ⩽5
+                                                  
+                                                  2          t >5
+
+                                                   1
+                                         (c) z =           t >0
+                                                   t2
+
+                                         Solution In each case, choose some values of t and calculate the function
+                                         values at those points. Plot the points and join them.
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

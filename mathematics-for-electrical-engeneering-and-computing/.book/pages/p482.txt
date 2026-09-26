@@ -1,0 +1,91 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+                                                                                           Graph theory        469
+                                                               Table 19.2 The lengths of paths using up to
+                                                               two edges from s
+
+                                                               Reference     a    b    c     d      e      f      t
+                                                               vertex
+
+
+                                                               s            
+                                                                            4 11 7 100 100 100 100
+                                                               a                  11   7     12   100     14    100
+
+
+
+Figure 19.20 Stage 2 of solving the shortest
+path problem.
+
+
+                                     Stage 2
+                                     Choose the vertex with the smallest label, that has not already been a
+
+
+ww
+                                     reference vertex, so that this becomes the new reference vertex. In this
+                                     case we choose vertex a. Once a vertex has been used as a reference
+                                     vertex it gains a permanent label and for this reason we circle the label in
+
+
+   w                .Ea
+                                     bold, as in Figure 19.20 and circle the label in the table as in Table 19.2.
+                                     This label represents the length of the shortest path from s to the new
+                                     reference vertex. Consider any vertex adjacent to the new reference vertex
+                                     and calculate the length of the path via a to this vertex. If this is less than
+
+
+                       syE           the current temporary label on the vertex then change the label on the
+                                     vertex. For instance, b is adjacent to vertex a. The length of the path to b
+                                     via a is 4 + 9 = 13. This is not less than the current label of 11, so we
+
+
+                                                ngi
+                                     keep the current label. However, looking at vertex d, which is adjacent
+                                     to a, the length of the path via a is 4 + 8 = 12, which is shorter than the
+                                     current label of d, hence we change the current label. Considering also
+
+
+
+                                     Stage 3
+                                                    n
+                                     the vertices b and f, we end up at the end of Stage 2, with the labels as
+
+                                                                   eer
+                                     given in Figure 19.20 and in Table 19.2.
+
+
+
+                                                                                 ing
+                                     Choose the vertex with the smallest label that has not already been a
+                                     reference vertex; this becomes the new reference vertex. In this case we
+
+
+                                                                                              .ne
+                                     choose vertex c, so this gains a permanent label which we circle in bold
+                                     as in Figure 19.21; we also circle the label as in Table 19.3. This label
+                                     represents the length of the shortest path from s to c. Consider any vertex
+
+                                                                                                  t
+                                     adjacent to c which does not have a permanent label, and calculate the
+                                     length of the path via c to this vertex. If this is less than the current
+                                     temporary label on the vertex then change the label on the vertex. For
+                                     instance, d is adjacent to vertex c. The length of the path to d via c is
+                                     7 + 4 = 11. This is less than the current label of 12 so we change the
+                                     label. However, looking at vertex b, which is adjacent to c, the length
+                                     of the path via c is 7 + 5 = 12 which is longer than the current label of
+                                     11, so we keep the current label. Considering also the vertex e we end
+                                     up, at the end of Stage 3, with the labels as given in Figure 19.21 and
+                                     Table 19.3.
+                                     Stage 4
+                                     Choose e as the new reference vertex and mark its label in bold. Compare
+                                     paths via e to the labels on any adjacent vertices and re-label the vertices
+                                     if the paths via e are found to be shorter. The result of this stage is shown
+                                     in Figure 19.22 and Table 19.4.
+                                     Stage 5
+                                     Choose b as the new reference vertex (we could choose d instead but this
+                                     would make no difference to the final result) and circle its label in bold.
+                                     Compare paths via b to the labels on any adjacent vertices and relabel the
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

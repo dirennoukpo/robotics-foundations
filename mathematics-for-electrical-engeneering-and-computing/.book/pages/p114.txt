@@ -1,0 +1,75 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                 Trigonometric functions and waves                101
+
+            is called the wavelength and we often use the greek letter λ (lambda), to
+            represent this. The phase is φ.
+               The expression for y can be written, using the wavelength, as
+                                 
+                            2π
+            y = A cos          x+φ .
+                             λ
+
+
+
+            Example 5.6
+            (a) y = 4 cos(x + 0.5); find the amplitude, wavelength, wavenumber,
+                spatial frequency, and phase where x is expressed in metres.
+              Compare y = 4 cos(x + 0.5) with y = A cos(kx + φ). Then the
+            wavenumber k = 1, the phase = 0.5, and the amplitude A = 4. As
+            spatial frequency = k/2π , this gives 1/2π wavelengths per metre and the
+
+ww          wavelength λ = 2π/k = 2π/1 = 2π m.
+            (b) y = 2 sin(2π x); find the amplitude, wavelength, wavenumber,
+
+   w.Ea
+                spatial frequency, and phase where x is expressed in metres.
+
+              Using sin(θ ) = cos(θ − (π/2)), we get 2 sin(2π x) = cos(2π x −
+
+
+       syE  (π/2)). Compare y = cos(2π x − (π/2)) with y = A cos(kx + φ). We
+            can see that the wavenumber k = 2π , φ the phase = −π/2, and the
+            amplitude A = 2. As spatial frequency = k/2π, this gives 1 wavelength
+
+
+                      ngi
+            per metre, and the wavelength λ = 2π/k = 2π/2π = 1 m.
+
+
+
+                          n
+            Waves in time and space
+                                         eer
+            The two expressions for a wave function of time and space can be
+            combined as
+                                                     ing
+            y = A cos(ωt − kx)
+
+                                                                  .ne
+            and this is called a progressive wave equation. The − sign is used to give
+
+            with ωt ⩾ kx.                                             t
+            a wavefront travelling from left to right and t should be taken as positive
+
+               Notice that if we look at the movement of a particular point by fixing
+            x, then we replace x by x0 and this just gives a function of time, y =
+            A cos(ωt + φ) where φ = −kx0 .
+               If we look at the wave at a single moment in time, then we fix time
+            and replace t by t0 and this just gives a function of distance x, y =
+            A cos(kx + φ) where φ = −ωt0 .
+               Waves are of two basic types. Mechanical waves need a medium
+            through which to travel, for example, sound waves, water waves, and
+            seismic waves. Electromagnetic waves can travel through a vacuum, for
+            example, light rays, X-rays. In all cases where they can be expressed as
+            a progressive or travelling wave, the frequency, wavelength, etc. can be
+            found from the expression of the wave in the same way.
+               Figure 5.15 shows three snapshot pictures of the progressive wave
+            y = cos(15t − 3x) at t = 0, t = 2, and t = 5. This wave has angular
+            frequency ω = 15, and wavenumber, k = 3 and therefore the frequency
+            f is 2π/15 and the wavelength λ = 2π/3. By considering the amount
+            the wavefront moves in a period of time, we are able to find the wave
+            velocity.
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

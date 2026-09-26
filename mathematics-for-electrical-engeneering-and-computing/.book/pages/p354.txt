@@ -1,0 +1,104 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+            Systems of linear equations, matrices, and determinants                      341
+
+                 ⇒ b ≈ 2.03
+            6a + 75(2.03) = 754 ⇒ a ≈ 100.14
+            We have a = 100.14 and b = 2.03. Hence, the line of best fit is
+            x = 100.14 + 2.03t.
+
+            Curve fitting
+            The same method for fitting a straight line can be generalized to fit any
+            polynomial. For example, it could appear that our data would be better
+            fitted to a parabola.
+            y = b0 + b1 x + b2 x 2
+            The normal equations in this case are
+                                               
+
+ww               b0 n + b1
+
+                 
+                              xi + b 2
+                                  i
+                                  
+                                           xi2 =
+                                                  i
+                                                  
+                                                   yi
+                                                              i
+                                                              
+
+   w.Ea
+            b0
+
+
+            b0
+                 
+                  i
+                       xi + b 1
+
+
+                       xi2 + b1
+                                  i
+                                  
+                                      xi2 + b2
+
+
+                                      xi3 + b2
+                                                  i
+                                                  
+                                                      xi3 =
+
+
+                                                      xi4 =
+                                                              i
+                                                              
+                                                                   xi y i
+
+
+                                                                   xi2 yi
+
+
+       syE        i               i               i           i
+
+            We can solve these system of equations using Gaussian elimination.
+
+
+                          ngi
+            Example 13.34 Find the best fit parabola by the method of least squares
+            for (0,3) (1,1) (2,0) (4,1) (6,4).
+            Solution
+                              n
+                           The data are given in Table 13.2. The normal equations are:
+                      5b0 + 13b1 + 57b2 = 9
+                 13b0 + 57b1 + 289b2 = 29
+                                                  eer
+            57b0 + 289b1 + 1569b2 = 161
+                                                                  ing
+            Solving these using Gauss elimination gives
+                                                                               .ne
+                                                                                     t
+               5   13     57     9
+            13 57 289 29 
+              57 289 1569 161
+            Stage 1
+                                             
+               1 2.6         11.4         1.8
+            13 57            289          29 
+              57 289         1569         161
+
+                            Table 13.2 Table made from the data of
+                            Example 13.34
+
+                            x         y      x2       x3          x4        xy    x 2y
+
+                            0         3      0        0           0         0
+                            1         1      1        1           1         1     1
+                            2         0      4        8           16        0     0
+                            4         1      16       64          256       4     16
+                            6         4      36       216         1296      24    144
+                            13        9      57       289         1569      29    161
+
+
+                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

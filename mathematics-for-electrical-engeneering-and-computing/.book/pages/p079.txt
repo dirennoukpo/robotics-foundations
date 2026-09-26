@@ -1,0 +1,83 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+66   Problem solving and the art of the convincing argument
+
+                              Solution
+                              x − 3 = 5 − 2x
+                                    ⇔    x + 2x − 3 = 5       (adding 2x to both sides)
+                                    ⇔    3x = 8               (adding 3 to both sides)
+                                    ⇔    x = 83               (dividing both sides by 3).
+                              Check by substituting x = 8/3 into the original equation:
+
+                               3 −3=5−2× 3
+                               8             8
+
+
+                                 ⇔ − 13 = − 13 ,         which is true.
+                                 We looked at methods of solving inequalities in Chapter 2. The rules
+                              for finding equivalent inequalities were: ‘Perform the same operation to
+                              both sides’; but in the case of a negative number when multiplying or
+
+ww                            dividing the direction of the inequality sign must be reversed. To solve
+                              more complex inequalities, such as f (x) > 0, f (x) < 0, where f (x) is
+                              a continuous but non-linear function, then we solve f (x) = 0 and then
+
+   w              .Ea
+                              use a number line to mark regions where f (x) is positive, negative or
+                              zero. The important thing in the process is to present a short justification
+                              of the equivalence. Finally, when the set of solutions has been found,
+                              some of the solutions can be substituted into the original expression of
+
+                     syE      the problem in order to check that no mistakes have been made.
+
+                              Example 3.7
+
+                                             ngi
+                              (a) 3x − 1 < 6x + 2
+                              (b) x 2 − 5x > −6
+                                                  Solve the following inequalities:
+
+
+
+
+                              Solution           n             eer
+                              (a)   3x − 1 < 6x + 2
+                                         ⇔    −1 < 6x + 2 − 3x             ing
+                                                                      (subtracting 3x from both sides)
+                                         ⇔    −1 − 2 < 3x
+                                               3    3x                                    .ne
+                                                                      (subtracting 2 from both sides)
+
+                                         ⇔
+
+                                         ⇔
+                                         ⇔
+                                              −
+                                               3
+                                                 <
+
+                                              −1 < x
+                                              x > −1
+                                                     3
+                                                                                              t
+                                                                      (dividing both sides by 3)
+
+
+
+
+                              Check: Test a few values from the set x > −1 and substitute into
+                              3x − 1 < 6x + 2
+                              Try x = 0: this gives −1 < 2 ⇔ T
+                              Try x = 2: this gives 3(2) − 1 < 6(2) + 2 ⇔ 5 < 14 ⇔ T
+                              (b)   x 2 − 5x > −6
+                                Write the inequality with 0 on one side of the inequality sign
+                              x 2 − 5x > −6         ⇔     x 2 − 5x + 6 > 0    (adding 6 to both sides)
+                              Find the solutions to f (x) = 0 where f (x) = x 2 − 5x + 6 and mark
+                              them on a number line as in Figure 3.4.
+                                                                 √
+                                                             5 ± 25 − 24
+                              x 2 − 5x + 6 = 0 ⇔ x =
+                                                                   2
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

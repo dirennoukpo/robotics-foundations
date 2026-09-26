@@ -1,0 +1,83 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+130   Differentiation
+
+
+6.7 Summary                 (1)   The average rate of change of a function over a certain interval is
+                                  the same as the gradient of the chord drawn on the graph of the
+                                  function. This chord gradient, for a function, y = f (x), is given by
+
+                                  δy   change in y
+                                     =
+                                  δx   change in x
+
+                            (2)   If the chord is very short then the gradient of the chord is approxi-
+                                  mately the gradient of the tangent to the graph at a particular spot,
+                                  that is, the slope of the graph at that point. The slope of the graph
+                                  gives the instantaneous rate of change of the function with respect to
+                                  its independent variable, known as its derivative. This is represented
+                                  by dy/dx. Then we have the definition
+
+                                           δy       f (x + δx) − f (x)
+
+ww                                dy
+                                  dx
+                                     = lim
+                                      δx→0 δx
+                                              = lim
+                                               δx→0         δx
+
+
+
+   w               .Ea
+                                This is read as ‘dy by dx is the limit, as delta x tends to 0, of delta
+                                y over delta x’. The derivative of y = f (x), dy/dx, (‘dy by dx’),
+                                can also be represented by f  (x) (read as ‘f dashed of x’).
+                            (3) Derivatives of simple functions are given in Table 6.3. Rules are
+
+                      syE       used to differentiate combinations of these functions. These are:
+
+                                  Product with a constant
+
+                                   d
+                                  dx    ngi
+                                     (af (x)) = af  (x)
+
+                                  Sum       n
+                                  If y = u + v then
+                                                           eer
+                                  dy   du dv                          ing
+                                  dx
+                                     =
+                                       dx
+                                          +
+                                            dx
+                                                                                    .ne
+                                  If y = f (x) where y = h(u) and u = g(x) then
+                                                                                        t
+                                  Composite function (function of a function) called the chain rule
+
+
+                                  dy   dy du
+                                     =
+                                  dx   du dx
+
+                                  Product
+                                  If y = uv then
+
+                                  dy    dv    du
+                                     =u    +v
+                                  dx    dx    dx
+
+                                  Quotient
+                                  If y = u/v then
+
+                                  dy   v(du/dx) − u(dv/dx)
+                                     =
+                                  dx            v2
+
+                            (4)   There are many applications of differentiation in all areas of
+                                  engineering, some of which are listed in Section 6.6.
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

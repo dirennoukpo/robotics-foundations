@@ -1,0 +1,91 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+50   Functions and their graphs
+
+                                      When x = 2.5
+
+                                    (x − 2)(x + 2)(x + 1) gives (2.5 − 2)(2.5 + 2)(2.5 + 1)
+                                       = (0.5)(4.5)(3.5) = 7.875, giving f (x) > 0.
+
+                                       These regions are marked on the number line as in Figure 2.31 and
+                                    the solution is given by those regions where f (x) > 0. Looking for the
+                                    regions where f (x) > 0 gives the solution as −2 < x < −1 or x > 2.
+
+
+
+
+2.10 Using                          Linear relationships
+graphs to find                      Linear relationships are the easiest ones to determine from experimental
+                                    data. The points are plotted on a graph and if they appear to follow a
+an expression                       straight line then a line can be drawn by hand and the equation can be
+
+ ww
+for the function
+from
+                                    found using the method given in Section 2.2.
+
+
+
+
+dataw
+experimental
+                      .Ea
+                                    Example 2.12 A spring is stretched by hanging various weights on it
+                                    and in each case the length of the spring is measured.
+
+                                             Mass (kg)       0.125    0.25 0.5        1     2       3
+
+
+                         syE                 Length (m)      0.4      0.41 0.435      0.5   0.62    0.74
+
+                                      Approximate the length of the spring when no weight is hung from it
+
+
+                                                ngi
+                                    and find the expression for the length in terms of the mass.
+                                    Solution First, draw a graph of the given experimental data. This is done
+                                    in Figure 2.32.
+                                                    n                eer
+                                       A line is fitted by eye to the data. The data does not lie exactly on a line
+                                    due to experimental error and due to slight distortion of the spring with
+
+
+                                                                                ing
+                                    heavier weights. From the line we have drawn we can find the gradient
+                                    by choosing any two points on the line and calculating
+                                    change in y
+                                    change in x
+                                                .
+                                                                                              .ne
+                                    0.58 − 0.38
+                                                                                                  t
+                                      Taking the two points as (0,0.28) and (2,0.58), we get the gradient as
+
+
+                                       2−0
+                                                =
+                                                  0.2
+                                                   2
+                                                      = 0.1.
+
+                                      The point where it crosses the y-axis, that is, where the mass hung
+                                    on the spring is 0 can be found by extending the line until it crosses the
+                                    y-axis. This gives 0.38 m.
+                                      Finally, the expression for the length in terms of the mass of the attached
+                                    weight is given by y = mx + c, where y is the length and x is the mass,
+
+
+
+Figure 2.32 The data for
+length of spring against mass
+of the weight as given in the
+Example 2.11. The line is a
+fitted by eye to the
+experimental data and the
+equation of the line can be
+found using the method of
+Section 2.2.
+
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

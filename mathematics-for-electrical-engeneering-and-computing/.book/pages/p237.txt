@@ -1,0 +1,79 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+224   Complex numbers
+
+                            Example 10.15 Show that z = 2 ej3t is a solution to d2 z/dt 2 = −9z
+                            where z = 2 when t = 0 and dz/dt = j6 when t = 0.
+                            Solution If z = 2 ej3t , then when t = 0, z = 2 e0 = 2
+
+                            dz
+                               = 2( j3)ej3t = j6ej3t
+                            dt
+
+                            when t = 0
+
+                            dz
+                               = j6e0 = j6.
+                            dt
+
+                            Hence
+
+                            d2 z
+                                 = j6(j3)ej3t
+
+ww                          dt 2
+
+                                ⇒
+                                     d2 z
+                                          = −18ej3t
+
+   w            .Ea
+                                     dt 2
+
+                            Substituting into d2 z/dt 2 = −9z gives −18 ej3t = −9(2 ej3t ) ⇔
+                            −18 ej3t = −18 ej3t , which is true.
+
+
+                   syE      Example 10.16       Express z = 3 + j4 in exponential form.
+
+
+                               
+                                        ngi
+                            Solution The modulus r if given by
+                                         √
+
+                                            n
+                            r = 32 + 42 = 25 = 5
+
+                                                           eer
+                            The argument is tan−1 (4/3) ≈ 0.9273. Hence, z ≈ 5 ej0.9273 .
+
+                                                                      ing
+                            Example 10.17
+                                                                                   .ne
+                                                Find the real and imaginary parts of the following
+
+                            (a) 3 ej(π/2)
+                            (d) e−j( j−1)
+                                            (b) e−j
+                                            (e) jj
+                                                      (c) e3+j2
+                                                                                       t
+                            Solution (a) Use r ejθ = r cos(θ ) + jr sin(θ) · 3 ej(π/2) has r = 3 and
+                            θ = π/2
+
+                            3 ej(π/2) = 3 cos(π/2) + j3 sin(π/2)
+                                     = 3.0 + j(3)(1) = j3
+
+                            The real part is 0 and the imaginary part is 3.
+                               (b) Comparing e−j with rejθ gives r = 1 and θ = −1. Using r ejθ =
+                            r cos(θ ) + jr sin(θ)
+
+                            e−j = 1 cos(−1) + j sin(−1)
+                                 ≈ 0.5403 − j0.8415
+
+                            So the real part of e−j is approximately 0.5403 and the imaginary part is
+                            approximately −0.8415.
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

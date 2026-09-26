@@ -1,0 +1,110 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+544   Index
+
+                    Digital:                                        growth and decay, 162–6
+                      circuits, 81                                  mean, 523
+                      signals, 257–9                                standard deviation, 523
+                      ramp, 11                                      relationships, 51–2
+                      signals, 10, 12, 14                         Extended Backus Naur Form (EBNF),
+                      square wave, 11                                  485–7
+                      wave, 11                                    Extensible Markup Language (XML),
+                    Digraphs, 462                                      487–8
+                      underlying graph, 462
+                      see also arcs, vertices
+                    Dimension of matrices, 298
+                    Direct current (dc) component of a signal,                        F
+                         423                                      Failure rate, 521, 523
+                    Discontinuities, infinite, 245–6              Fibonacci sequence, 256
+                    Discrete functions, 10, 16                    Finite impulse response (FIR), 377
+                    Discrete systems, 375                         Finite state machine, 474
+                    Distributive Law:                             Finite state recognisers, 476
+                      Boolean Algebra, 78–80                      Flow augmenting path, 473
+
+
+ww                  Divergence, 286
+                    Divide by zero, 246
+                    Division of complex numbers, 211–12,
+                                                                  Flow function of a network, 473
+                                                                  For all, 70
+                                                                  Forcing function, 347, 348, 360, 367,
+
+
+   w          .Ea
+                         217, 226
+                    Document Type Definition (DTD), 488
+                    Domain:
+                      of a function, 9, 13
+                                                                       370–3
+                                                                  Fourier:
+                                                                    amplitude and phase form, 426–7
+                                                                    analysis, 418
+                                                                    complex form, 428–30
+
+
+                 syE  of a predicate, 62
+                                                                    partial sums, 421
+                                                                    series, 418–32
+                                                                    sine and cosine form, 419–21
+
+
+                                  ngi   E
+                                                                  Frequency analysis, 418
+                                                                  Frequency distribution, 500–2, 517
+                                                                  Frequency response, 401–2, 414
+
+
+                                      n
+                    e, 162, 166–9
+                    Echelon form, 325                             Function of a function, 123
+                    Edges, incidence with a vertex, 461
+                    Edges, multiple, 461
+                                                        eer       Functions, 1, 8–23
+                                                                    codomain of, 7
+                                                                    combining, 17–22
+
+
+                                                                     ing
+                    Eigenvalues and eigenvectors, 335–8,
+                                                                    composite:
+                          372–3
+                                                                       derivative of, 123–5
+                    Electrical circuits, 349–61
+                                                                    composition, 18
+                    Elements, 4
+                    Empty set, 4
+                    Equality:
+                                                                    decomposing, 20–1
+                                                                    difference, 117
+                                                                                     .ne
+                                                                                         t
+                                                                    domain of, 8, 13
+                       of complex numbers, 208
+                                                                    exponential, 33–4, 162–89
+                    Equations:
+                                                                    image under, 8
+                       matrix, 305–6                                inverse, 21–3
+                       quadratic, 32                                   existence of, 40–1
+                       trigonometric, 110–11                        linear, 22–3
+                       see also Differential equations, Systems     many-to-one, 40–1
+                             of linear equations                    mean value of, 155–6
+                    Equivalence, of predicates, 64–5                modulus, 41
+                    Even functions, 42, 92, 172, 424–5              of more than one variable, 435–5
+                    Even permutation, 332                           one-to-one, 40–1
+                    Events, 501–2, 504–5                            periodic, 418–19
+                       disjoint, 504                                product of, 17
+                       non-disjoint, 505                               derivative of, 126
+                    EXOR gate, 81                                      integral of, 139–43
+                    exp, 167                                        quadratic, 31–3
+                    Exponent, 226                                   quotient of, 17
+                    Exponential:                                       derivative of, 127
+                       conversion to rectangular, 225               range, 23
+                       derivative of, 170–1                         real, 9
+                       distribution, 521–3                          r.m.s. value of, 155
+                       form of complex numbers, 223–31              sum, 17
+                       function, The, 166–72                           derivative of, 123
+                       functions, 32–4, 162–89                         integral of, 135
+
+
+                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

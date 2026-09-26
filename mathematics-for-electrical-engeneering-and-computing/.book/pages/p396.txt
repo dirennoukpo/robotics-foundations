@@ -1,0 +1,110 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                        Laplace and z transforms          383
+
+            Example 15.1          Find from the definition L{e3t }.
+            Solution
+                           ∞                      ∞                      (3−s)t ∞
+                                 3t −st                     (3−s)t         e
+            L{e } =
+                 3t
+                                e e        dt =         e            dt =             .
+                          0                        0                        3−s 0
+
+            Now e(3−s)t → 0 as t → ∞ only if the real part of (3 − s) is negative,
+            that is, Re(s) > 3. Then the upper limit of the integration gives 0. Hence
+                           1
+            L{e3t } =
+                          s−3
+            where Re{s} > 3.
+
+            Example 15.2          Find, from the definition, L{cos(at)}.
+            Solution We need to find the integral
+
+ww          I=
+                 ∞
+                     e−st cos(at) dt.
+
+
+   w
+                      0
+
+            We employ integration by parts twice until we find an expression that
+
+    .Ea     involves the original integral, I . We are then able to express I in terms
+            of a and s.                                                
+
+       syE     Integrating by parts, using the formula u dv = uv − v du, where
+            u = cos(at), dv = e−st dt, du = −a sin(at) dt and v = e−st /(−s),
+            gives
+
+            I=
+                  −st
+                   −e
+                     s    ngi
+                          cos(at)
+                                  ∞  ∞ −st
+                                      −
+                                               e
+                                                 s
+                                                   a sin(at) dt.
+
+
+                              n
+                                   0      0
+
+            The expression [e−st cos(at)]∞
+                                                  eer
+                                         0 only has a finite value if e
+                                                                        −st → 0 as
+
+            t → ∞. This will only be so if Re(s) > 0. With that proviso we get
+
+            I= −
+                       
+                1 a ∞ −st
+                s    s 0
+                            e sin(at) dt
+                                                                     ing
+            where this time u = sin(at), dv = e−st dt, du = a cos(at) dt, v =   .ne
+            integrating the remaining integral on the right-hand side, again by parts,
+
+            e−st /(−s), gives
+
+            I= −
+                  1
+                  s
+                      
+                        −a −st
+                         s2
+                            e  sin(at)
+                                       ∞
+
+                                        0
+                                           −
+                                                 
+                                              a 2 ∞ −st
+                                              s2 0
+                                                       e cos(at) dt
+                                                                                    t
+                          
+                  1 a 2 ∞ −st
+              = − 2           e cos(at) dt.
+                  s   s 0
+            We see that the remaining integral is the integral we first started with,
+            which we called I . Hence
+                  1 a2
+            I=      − 2I
+                  s  s
+            and solving this for I gives
+                      
+                    a2                     s
+            I 1 + 2 = 1/s, I = 2                .
+                    s                    s + a2
+            So we have that
+                                   s
+            L{cos(at)} =                   ,    where Re(s) > 0.
+                                s 2 + a2
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,86 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                                 Vectors       201
+
+                                        (b) r/|r| = (cos(α), cos(β), cos(γ )), where α, β and γ are the angles
+                                       made to the x, y, and z axes. Therefore,
+
+                                                                          (−1, −4, 5)            (−1, −4, 5)
+                                       (cos(α), cos(β), cos(γ )) =                           =     √
+                                                                      (−1)2 + (−4)2 + 52              42
+                                                                 ≈ (−0.1543, −0.61721, 0.77151).
+
+                                       The angles made to axes in the x, y, and z directions are found by
+                                       taking the inverse cosines of the above: 1.726, 2.236, 0.6896 radians,
+                                       respectively.
+
+
+                                       Vector components
+                                       The scalar product can be used to find the component of a vector in a
+
+ww                                     given direction. This is a useful idea, for instance, if we are resolving
+                                       forces and we want to add up all the forces acting in a certain direction.
+                                       We can use the dot product with a unit vector in the direction of interest
+
+   w                       .Ea
+                                       to find the component in that direction. The component of a vector F in
+                                       the direction of a vector r is F · (r/|r|)
+
+
+
+                              syE      Example 9.18 A removal company wants to move a piano from the
+                                       upstairs window of a small house. A smooth plank is placed against a
+                                       wall near the window so that it touches the wall at a height of 4 m and the
+
+                                                  ngi
+                                       base of the plank is 1.5 m from the building. The piano, of mass 800 kg, is
+                                       to be slid down the plank while attached by a rope. Taking the acceleration
+                                       due to gravity to be g ≈ 9.81 m s−2 , what force is required on the other
+
+                                                      n
+                                       end of the rope to hold the piano steady while it is on the plank?
+
+                                                                     eer
+                                       Solution We draw the situation as in Figure 9.20 using x and y axes.
+
+                       T
+                                                                                 ing
+                                       The vector that represents the plank goes from (0, 0) to (1.5, 4). This is
+                                       the direction vector p = (1.5, 4) − (0, 0) = (1.5, 4).
+                                          The acceleration due to gravity is in a vertical direction and is a =
+
+                 g
+                             4m
+                                                                                              .ne
+                                       (0, −g). From Newton’s second law the force due to gravity is
+
+
+
+                                                                                                  t
+             0k
+            80
+                     800 g
+                                       F = ma = 800 × (0, −9.81).
+
+              1.5 m                    The component of the force due to gravity acting along the direction of the
+                                       plank is the scalar product of the force with a unit vector in the direction
+Figure 9.20 Piano on a
+plank for Example 9.18.                of the plank, that is
+
+                                             p        (0, −9.81).(1.5, 4)       −39.24
+                                       F·       = 800                     = 800 √       = −7348 N to 4 s.f.
+                                            |p|            (1.5)2 + 42            18.25
+
+                                       The − sign indicates that the component of the force due to gravity is
+                                       in the opposite direction to the vector p along the plank. In order to hold
+                                       the piano steady on the plank, we would need to have a force of equal
+                                       magnitude in the opposing direction to be provided by the rope. That is,
+                                       we would require a force of 7348 N on the rope.
+
+
+                                       Vector (or cross) product
+                                       The vector product of a and b is defined by a × b = ab sin(θ)n̂, where n̂
+                                       is the unit vector normal to the plane of a and b and θ is the angle between
+                                       a and b.
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

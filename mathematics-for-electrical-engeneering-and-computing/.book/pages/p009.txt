@@ -1,0 +1,93 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                  Contents   vii
+
+            9   Vectors                                                      188
+                9.1     Introduction                                         188
+                9.2     Vectors and vector quantities                        189
+                9.3     Addition and subtraction of vectors                  191
+                9.4     Magnitude and direction of a 2D vector – polar
+                        co-ordinates                                         192
+                9.5     Application of vectors to represent waves
+                        (phasors)                                            195
+                9.6     Multiplication of a vector by a scalar and unit
+                        vectors                                              197
+                9.7     Basis vectors                                        198
+                9.8     Products of vectors                                  198
+                9.9     Vector equation of a line                            202
+                9.10 Summary                                                 203
+                9.12 Exercises                                               205
+
+
+ww          10 Complex numbers
+               10.1 Introduction
+               10.2 Phasor rotation by π/2
+                                                                             206
+                                                                             206
+
+
+   w.Ea
+               10.3 Complex numbers and operations
+               10.4 Solution of quadratic equations
+               10.5 Polar form of a complex number
+                                                                             206
+                                                                             207
+                                                                             212
+                                                                             215
+
+
+       syE     10.6 Applications of complex numbers to AC linear
+                     circuits
+               10.7 Circular motion
+                                                                             218
+                                                                             219
+
+
+                     ngi
+               10.8 The importance of being exponential
+               10.9 Summary
+               10.10 Exercises
+                                                                             226
+                                                                             232
+                                                                             235
+
+                         n             eer
+            11 Maxima and minima and sketching functions
+               11.1 Introduction
+                                                                             237
+                                                                             237
+
+                    minima
+                                                   ing
+               11.2 Stationary points, local maxima and
+                                                                             237
+
+
+                                                               .ne
+               11.3 Graph sketching by analysing the function
+                    behaviour                                                244
+               11.4 Summary                                                  251
+               11.5 Exercises
+
+            12 Sequences and series
+               12.1 Introduction
+                                                                   t         252
+
+                                                                             254
+                                                                             254
+               12.2 Sequences and series definitions                         254
+               12.3 Arithmetic progression                                   259
+               12.4 Geometric progression                                    262
+               12.5 Pascal’s triangle and the binomial series                267
+               12.6 Power series                                             272
+               12.7 Limits and convergence                                   282
+               12.8 Newton–Raphson method for solving
+                     equations                                               283
+               12.9 Summary                                                  287
+               12.10 Exercises                                               289
+
+
+
+
+                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

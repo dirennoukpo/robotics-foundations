@@ -1,0 +1,55 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+216   Complex numbers
+
+
+
+
+ ww
+    w                .Ea
+                        syE
+                                               ngi
+Figure 10.9 Conversion to polar form: (a) 3 + j2 ≈ 3.61∠0.59; (b) − 2 − j5 ≈ 5.39∠−1.95;
+(c) −4 + j2 ≈ 4.47∠2.68; (d ) 4 − j2 ≈ 4.47∠−0.46.
+
+
+                                                   n            eer
+                                                                   
+                                     (b) −2 − j5 has modulus r = (−2)2 + (−5)2 ≈ 5.39 and the angle is
+                                         given by tan−1 (−5/(−2))+π ≈ 4.332. As this angle is bigger than
+                                         2π, subtract 2π (a complete revolution) to give −1.95. Therefore,
+
+                                                                            ing
+                                         in polar form −2 − j5 ≈ 5.39∠ − 1.95. Note that the angle is
+                                         between −π and −π/2, meaning that the number must lie in the
+                                         third quadrant, which we can
+                                                                                        .ne
+                                                                     see is correct from the diagram.
+                                     (c) −4 + j2 has modulus r = (−4)2 + 22 ≈ 4.47 and the angle is
+
+
+
+                                         which we can see is correct
+                                                                                            t
+                                         given by tan−1 (2/(−4)) + π ≈ −0.46 + π ≈ 2.68. Therefore, in
+                                         polar form −4+j2 ≈ 4.47∠2.68. Note that the angle is between π/2
+                                         and π, meaning that the number must lie in the second quadrant,
+                                                                   from the diagram.
+                                     (d) 4 − j2 has modulus r = (4)2 + (−2)2 ≈ 4.47 and the angle is
+                                         given by tan−1 (−2/4) ≈ −0.46. Therefore, in polar form 4 − j2 ≈
+                                         4.47∠ − 0.46. Note that the angle is between −π/2 and 0 meaning
+                                         that the number must lie in the fourth quadrant, which we can see
+                                         is correct from the diagram.
+
+                                        Check the calculations by using the rectangular to polar conversion
+                                     facility on your calculator.
+
+                                     Conversion from polar form to
+                                     Cartesian (rectangular) form
+                                     If a number is given by its modulus and argument, in polar form, r∠θ ,
+                                     we can convert back to Cartesian (rectangular) form using:
+
+                                     x = r cos(θ) and y = r sin(θ)
+
+                                                             Downloaded From : www.EasyEngineering.netTLFeBOOK

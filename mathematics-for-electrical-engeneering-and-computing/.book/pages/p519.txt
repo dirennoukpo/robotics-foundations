@@ -1,0 +1,68 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+506    Probability and statistics
+
+
+
+
+Figure 21.8 The two events A and B are disjoint; that is, they have no outcomes in common. On a Venn
+diagram, as in (a), they do not intersect. The probability of either A or B can be found by
+P (A ∪ B) = P (A) + P (B), as in (b).
+
+
+ ww
+    w                .Ea
+Figure 21.9
+p(A ) = 1 − p(A).      syE
+                                                 ngi
+                                     We can see that:
+
+                                     p(A ∪ B) =
+                                                     n
+                                                Number in A ∪ B
+                                                  Number in S
+                                     Number in A + number in B
+                                                               =
+                                                                 =
+                                                                   32
+                                                                      =
+
+                                                                    eer
+                                                                   52
+                                                                         8
+                                                                        13
+                                                                 Number in A Number in B
+                                                                              +
+                                            Number in S
+                                     p(A ∪ B) = p(A) + p(B)
+                                                                  Number in S
+                                                                                  ing
+                                                                                Number in S
+
+
+                                     13 = 13 + 13 .
+                                      8   5     3
+
+                                                                                                .ne
+                                     A are disjoint.
+                                                                                                    t
+                                     We can also see this by using the idea of area to picture it, as in Figure 21.8.
+                                       We can also consider the probability of A not happening; that is, the
+                                     probability of the complement of A, which we represent by A . As A and
+
+
+                                     p(A ) + p(A) = 1
+                                     p(A ) = 1 − p(A).
+
+                                     This is shown in Figure 21.9.
+
+
+                                     Non-disjoint events
+
+                                     Example 21.6       Consider one throw of a die
+
+                                     A = {a | a is an even number}
+                                     B = {b | b is a multiple of 3}.
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

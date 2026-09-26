@@ -1,0 +1,107 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                     Sequences and series           271
+
+            binomial expansion of (1 + x)n is expressed by n Cr or
+             
+              n        n!
+                 =
+              r    (n − r)!r!
+            where ‘!’ is the factorial sign. The factorial function is defined by
+
+            n! = n(n − 1)(n − 2) · · · 1
+
+            For example,
+
+            3! = 3 × 2 × 1 = 6,       6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.
+
+            The binomial expansion then gives
+                                                 
+                             n        n 2       n 3    n 4
+            (1 + x)n = 1 +      x+       x +      x +    x
+                             1        2         3      4
+                                
+
+ww                     + ··· +
+                                n r
+                                r
+                                   x + · · · + xn
+
+
+
+   w.Ea
+            and
+
+            (a + b)n = a n +
+                                
+                                n n−1
+                                1
+                                   a b+
+                                            
+                                             n n−2 2
+                                             2
+                                                a b +
+                                                        
+                                                          n n−3 3
+                                                          3
+                                                             a b
+                                         
+
+       syE                +
+                             n 4
+                             4
+                                b + ··· +
+                                           n n−r r
+                                           r
+                                               a b + · · · + bn .
+
+
+
+                        ngi
+            This can also be written as
+
+            (1 + x)n = 1 + nx +
+                                     n(n − 1) 2 n(n − 1)(n − 2) 3
+                                             x +               x + · · · + xn
+
+                            n           2!
+
+                                              eer
+            and the expansion for (a + b)n becomes
+                                                      3!
+
+
+                    n
+            (a + b) = a + nan      n−1   n(n − 1) n−2 2
+                                         b+
+                                            2!
+                                                 a b
+                                                         ing
+                          +
+                            n(n − 1)(n − 2) n−3 3
+                                  3!
+                                           a b + · · · + bn .
+                                                                   .ne
+            Example 12.21        Expand (1 + x)4 .
+            Solution Using the binomial expansion
+                                                                       t
+                                     n(n − 1) 2 n(n − 1)(n − 2) 3
+            (1 + x)n = 1 + nx +              x +               x + · · · + xn.
+                                        2!            3!
+            Substituting n = 4 gives
+                                     4(3) 2 4(3)(2) 3
+            (1 + x)4 = 1 + 4x +          x +       x + x4
+                                      2!      3!
+                        = 1 + 4x + 6x 2 + 6x 3 + x 4 .
+
+
+
+            Example 12.22        Expand
+                  
+                 1 5
+              2−     .
+                 x
+
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

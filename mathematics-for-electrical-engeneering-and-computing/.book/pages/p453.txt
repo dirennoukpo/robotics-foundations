@@ -1,0 +1,83 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+440   Functions of more than one variable
+
+                              Similarly, to find ∂h/∂θ we use the chain rule:
+
+                               ∂h   ∂h ∂x      ∂h ∂y
+                                  =        +
+                               ∂θ   ∂x ∂θ      ∂y ∂θ
+                               ∂h
+                                  = 4xr sin(θ ) + r cos(θ)
+                               ∂θ
+
+                              and substituting for x and y gives
+
+                               ∂h
+                                  = 4r 2 cos(θ) sin(θ) + r cos(θ ).
+                               ∂θ
+                              Check: We should get the same result by substituting for x and y in h
+                              and then directly finding ∂h/∂r and ∂h/∂θ .
+                                 Substituting x = r cos(θ) and y = r sin(θ) into h = 4 − 2x 2 + y
+                              gives
+
+ww                            h = 4 − 2r 2 cos2 (θ ) + r sin(θ ).
+
+
+   w              .Ea
+                              Differentiating h with respect to r and keeping θ constant gives:
+
+                               ∂h
+                                  = −4r cos2 (θ ) + sin(θ).
+                               ∂r
+
+                     syE      Differentiating h with respect to θ and keeping r constant gives:
+
+                               ∂h
+                               ∂θ         ngi
+                                  = 2r 2 2 cos(θ ) sin(θ) + r cos(θ) = 4r 2 cos(θ) sin(θ) + r cos(θ )
+
+
+                                              n                eer
+                              and we see that these are the same results as before.
+
+
+
+
+17.5 The total                                                           ing
+                              We have found the derivatives in the x- and y-directions for some function
+
+derivative along                                                                        .ne
+                              u = f (x, y). We would now like to consider the derivative along any
+                              given path, where for instance x = g(t) and y = h(t), that is, both x and
+a path
+                                                                                            t
+                              y are a function of t. Consider a small change in u, δu, in the direction of
+                              the path, with a change in t of δt. Then we can define the total derivative
+                              along the path as:
+
+                               du        u(x + δx, y + δy) − u(x, y)
+                                  = lim                              .
+                               dt   δt→0             δt
+
+                              Substituting u(x + δy, y + δy) = u(x + δx, y + δy) − u(x, x + δy) +
+                              u(x, y + δy) and multiplying the first term by δx/δx and the second term
+                              by δy/δy gives:
+
+                               du             u(x + δx, y + δy) − u(x, y + δy)      δx
+                                  =    lim                                      lim
+                               dt   δx→0,δy→0                δx                δt→0 δt
+
+                                                     u(x, y + δy) − u(x, y)      δy
+                                     +      lim                              lim    .
+                                         δx→0,δy→0             δy           δt→0 δt
+
+
+                              As x and y are functions of t only,
+
+                                   δx   dx                   δy   dy
+                               lim    =           and    lim    =
+                              δt→0 δt   dt              δt→0 δt   dt
+
+                                                          Downloaded From : www.EasyEngineering.netTLFeBOOK

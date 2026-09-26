@@ -1,0 +1,87 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                  Trigonometric functions and waves                  105
+                     Table 5.1    Summary of important trigonometric
+                     identities
+
+                     cos(A ± B) = cos(A) cos(B) ∓ sin(A) sin(B)
+                     sin(A ± B) = sin(A) cos(B) ± cos(A) sin(B)
+                                     tan(A) ± tan(B)
+                     tan(A ± B) =
+                                    1 ∓ tan(A) tan(B)
+                                                                        
+                     sin(X ) + sin(Y ) = 2 sin 12 (X + Y ) cos 12 (X − Y )
+                                               1               1        
+                     sin(X ) − sin(Y ) = 2 cos 2 (X + Y ) sin 2 (X − Y )
+                                                                          
+                     cos(X ) + cos(Y ) = 2 cos 12 (X + Y ) cos 12 (X − Y )
+                                                   1              1        
+                     cos(X ) − cos(Y ) = −2 sin 2 (X + Y ) sin 2 (X − Y )
+                     sin(2A) = 2 sin(A) cos(A)
+                     cos(2A) = cos2 (A) − sin2 (A)
+                                2 tan(A)
+                     tan(2A) =
+                               1 − tan(A)
+
+
+ww                   cos(2A) = 2 cos2 (A) − 1
+                     cos(2A) = 1 − 2 sin2 (A)
+
+
+   w.Ea
+                     cos2 (A) + sin2 (A) = 1
+                     cos2 (A) = 12 (cos(2A) + 1)
+                     sin2 (A) = 12 (1 − cos(2A))
+                              π
+
+
+       syE           cos A −
+                        
+                     sin A +
+                                2
+                               π
+                               2
+                                     = sin(A)
+
+                                    = cos(A)
+
+
+                        ngi
+                            n
+            Example 5.10 Using cos(2A) = cos2 (A) − sin2 (A) and cos2 (A) +
+
+
+                                            eer
+            sin2 (A) = 1, show that cos2 (A) = 21 (cos(2A) + 1).
+            Solution From cos2 (A) + sin2 (A) = 1, sin2 (A) = 1 − cos2 (A)
+            (subtracting cos2 (A) from both sides).
+               Substitute this into
+                                                         ing
+            cos(2A) = cos2 (A) − sin2 (A)
+            cos(2A) = cos2 (A) − (1 − cos2 (A))                        .ne
+               ⇔
+               ⇔
+                    cos(2A) = cos (A) − 1 + cos (A)
+                                    2
+
+
+                    cos(2A) = 2 cos2 (A) − 1
+                                                         2
+                                                                           t
+               ⇔    cos(2A) + 1 = 2 cos2 (A)           (adding 1 on to both sides)
+               ⇔    cos2 (A) = 21 (cos(2A) + 1)         (dividing by 2)
+            Hence
+            cos2 (A) = 21 (cos(2A) + 1)
+
+
+
+            Example 5.11     From
+            cos(A ± B) = cos(A) cos(B) ∓ sin(A) sin(B)
+            sin(A ± B) = sin(A) cos(B) ± cos(A) sin(B),
+            show that
+                                       1          
+            sin(X) + sin(Y ) = 2 sin    2 (X + Y )     cos( 21 (X − Y )).
+
+
+                                       Downloaded From : www.EasyEngineering.netTLFeBOOK

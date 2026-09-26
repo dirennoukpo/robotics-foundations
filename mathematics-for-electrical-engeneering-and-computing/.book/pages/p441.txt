@@ -1,0 +1,95 @@
+                       Downloaded From : www.EasyEngineering.net
+
+
+428   Fourier series
+
+
+16.6 Fourier               The most useful form of the Fourier series is the amplitude and phase
+                           form of the previous section. cn and φn can often be calculated more
+series in                  simply by considering the complex form of the Fourier series. We can
+complex form               find this by taking the expression from the previous section:
+
+                                               ∞
+                                      1
+                           f (t) =      a0 +   cn cos(nω0 t + φn )
+                                      2
+                                               n=1
+
+                           and expressing the cosine terms as the sums of complex exponentials:
+                                                       cn j(nω0 t+φn )
+                           cn cos(nω0 t + φn ) =         (e            + e−j(nω0 t+φn ) )
+                                                       2
+                                                       cn jφn jnω0 t cn −jφn −jnω0 t
+                                                     =   e e         + e          e
+                                                       2                2
+
+ww                         Then setting
+                                  cn jφn                        cn −jφn
+
+   w              .Ea
+                           αn =
+
+                           we get
+                                  2
+                                    e         and     α−n =
+                                                                2
+                                                                  e
+
+
+
+
+                     syE   f (t) =
+                                      1
+                                      2
+                                        a0 +
+                                               ∞
+                                               αn ejnω0 t + α−n e−jnω0 t
+
+
+                                        ngi
+                                               n=1
+                                                     n=∞
+                                                     
+                                      ⇒ f (t) =             αn ejnω0 t
+
+
+                           where α0 = 21 a0
+                                            n        n=−∞
+
+
+                                                                eer
+                           αn =
+                                  cn jφn
+                                  2
+                                    e          and     α−n =
+                                                                  cn −jφn
+                                                                  2
+                                                                    e       ing
+                                                         cn
+                           as cn is real |αn | = |α−n | = , and αn∗ = α−n .                 .ne
+                                                         2
+
+                                                                                                t
+                              Therefore, αn (n > 0) is a complex coefficient of the Fourier series
+                           with amplitude cn /2 and phase φn .
+                              The complex form is generally the most convenient form of the Fourier
+                           series because in the expression
+                                       ∞
+                                       
+                           f (t) =            αn ejnω0 t
+                                      n=−∞
+
+                           the complex Fourier components can be found from
+                                       τ/2
+                                  1
+                           αn =               f (t) e−jnω0 t dt
+                                  τ    −τ/2
+
+                           and hence involve performing only a single integration.
+                              This form of the Fourier series gives apparent negative frequencies
+                           but for any real function of time the coefficients of negative frequencies
+                           have equal amplitude to the equivalent positive frequencies and negative
+                           phase. Thus, only the positive frequency coefficients need be given to
+                           totally specify the function.
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

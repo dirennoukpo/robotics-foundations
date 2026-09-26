@@ -1,0 +1,39 @@
+                                Downloaded From : www.EasyEngineering.net
+
+
+                                                                         The exponential function           177
+
+
+
+
+ww
+   w                 .Ea
+                        syE
+                                                 ngi
+Figure 8.7 (a) The graph of
+                                                     n             eer
+y = cosh−1 (x ), x ⩾ 1. (b)
+The graph of y = sinh−1 (x ).                                                  ing
+(c) The graph of
+tanh−1 (x ), −1 ⩽ x ⩽ 1.
+                                                                                            .ne
+                                     Solution                                                   t
+                                     y = sinh−1 (x) ⇔ sinh(y) = x
+
+                                       Using
+
+                                                 ey − e−y
+                                     sinh(y) =
+                                                     2
+                                     to substitute on the left-hand side, we get
+
+                                     ey − e−y
+                                              =x
+                                         2
+                                        ⇔ ey − e−y = 2x           (multiplying by 2)
+                                        ⇔       e2y − 1 = 2xey     (multiplying by ey and using properties of
+                                                                     powers to write ey · ey = e2y )
+                                        ⇔       e2y − 2xey − 1 = 0     (subtracting 2xey from both sides)
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

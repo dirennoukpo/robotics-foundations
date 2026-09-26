@@ -1,0 +1,75 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                                    Complex numbers             225
+
+                                          (c) Notice that e3+j2 is not in the form r ejθ because the exponent has a
+                                       real part. We therefore split the exponent into its real and imaginary bits
+                                       by using the rules of powers:
+
+                                       e3+j 2 = e3 ej2
+
+                                       e3 ≈ 20.09 is a real number, and the remaining exponent j2 is purely
+                                       imaginary:
+
+                                       e3 ej2 ≈ 20.09 ej2
+
+                                       Comparing e3 ej2 with rej θ gives r = e3 and θ = 2. Using rejθ =
+                                       r cos(θ) + jr sin(θ) gives
+
+                                       e3 ej2 = e3 cos(2) + je3 sin(2)
+
+ww                                           ≈ −8.359 + j18.26
+
+
+
+   w                  .Ea
+                                       The real part of e3+j2 is approximately −8.359 and the imaginary part is
+                                       approximately 18.26.
+                                          (d) For e−j(j−1) we need first to write the exponent in a form that allows
+                                       us to split it into its real and imaginary bits. So, we remove the brackets
+
+                         syE           to give
+
+                                       e−j(j−1) = e−j +j
+                                                         2
+
+
+
+
+                                                  ngi
+                                       Using j2 = −1, this gives
+
+                                       e−j(j−1) = e1+jn              eer
+                                       Now, using the rules of powers we can write
+                                                                                  ing
+                                         e1+j = e1 ej . e1 is a real number and the exponent of ej is purely
+                                       imaginary. Comparing e1 ej with rejθ gives r = e1 and θ = 1. Using
+                                       rejθ = r cos(θ) + jr sin(θ ) gives
+                                                                                               .ne
+                                       e1 ej1 = e1 cos(1) + je1 sin(1)
+                                             ≈ 1.469 + j2.287                                      t
+                                           The real part of e−j(j−1) is approximately 1.469 and the imaginary part
+                                       is approximately 2.287
+                                           (e) jj looks a very confusing number as we have only dealt with complex
+                                       powers when the base is e. We therefore begin by looking for a way of
+                                       rewriting the expression so that its base is e. To do this, we write the base,
+                                       j, in exponential form. From the Argand diagram in Figure 10.18, as j is
+                                       represented by the point (0,1) we can see that that it has modulus 1 and
+                                       argument π/2. Hence, j = ej(π/2) .
+                                           Use this to replace the base in the expression jj so that
+                                                         j
+                                           jj = ej(π/2) = ej (π/2) = e−π/2 . We can now see that jj is in fact a
+                                                                 2
+
+
+Figure 10.18 j is                      real number!
+represented by the point (0, 1)
+in the complex plane.
+Therefore, it has modulus 1
+                                       jj = e−π/2 ≈ 0.2079.
+and argument π/2, that is,
+j = ej(π/2) .                          The real part of jj is approximately 0.2079 and the imaginary part is 0.
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

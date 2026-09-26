@@ -1,0 +1,182 @@
+                                          Downloaded From : www.EasyEngineering.net
+
+
+540      Answers to exercises
+
+                                                                  17.6. ∂u/∂t = −8 e−8t (A cos(2x) + B sin(2x)),
+                                                                        ∂ 2 u/∂x 2 = e−8t (−4A cos(2x) − 4B sin(2x)).
+                              ∞
+                               n(1 − (−1)n )
+16.6.     0 + 21 cos(2πt) +                        sin(nπt)       17.7.    10.048.
+                                       π(n2 − 4)
+                              n=1
+                               n =2                              17.8.    2.315 × 10−4 .
+
+16.7.     0 + 41 (ej2π t + e−j2π t )                              17.9.    3%.
+                 ∞
+                         nj ((−1)n − 1) jnπ t
+            +                          e                          Chapter 18
+                n=−∞
+                          2π(n2 − 4)
+               n =0,2,−2
+
+
+             ∞                                                  18.1.    (a) (2x, −z, −y + 15z2 ), (b) (0,0,0.26),
+                  ((−1)n − 1)                                             (c) ∇·F = y + 3xz − 1, (d) (0,3,4),
+          0+   2               cos(nπt)
+                      n2 π 2                                               (e) k(2xy 2 z − z), (f) 6xy 2 z2 + 8x 3 yz + 2x 2 y 2 ,
+               n=1
+                                                                           (g) maximum slope is 4 in direction (0,0,1).
+                ∞
+                    ((−1)n − 1) jnπ t
+          0+                   e                                  18.3.    (a) −2, (b) 13 13 .
+               n=−∞
+                       n2 π 2
+                                                                           31 21 .
+
+ ww
+                n =0                                             18.4.
+16.8.     (a) Odd, (b) Even, (c) Odd.                             18.5.    (a) 0, (b) 0, (c) 2.644.
+          (a) 2π, c1 = 1, c3 = 1, cn = 0 for all other n,                  (a) (a 4 /2) − (a 3 /2), (b) −8/3, (c) 1/12.
+
+    w
+16.9.                                                             18.6.
+          φ1 = π/2, φ3 =√ −π/2, φn = 0 for all other n,
+
+
+                            .Ea
+          (b) π, c1 = 1/ 2, cn = 0 for all other n,
+          φ1 = π/4, φn = 0 for all other n,
+          (c) 2π, cn = 2/n2 , n = 0, c0 = 0, φn = 0 for all n.
+                                                                  Chapter 19
+
+16.10.    (16.1)
+                
+                
+                 0
+                               syE
+                              when n = 4m for some m
+                                                                  19.1.
+
+
+                                                                  19.3.
+                                                                            (a), (e), and (g) are isomorphic; (d) and (i) are
+                                                                            isomorphic.
+                                                                            Kn is planar for n ⩽ 4.
+
+          cn =
+                √2/nπ
+                
+
+                
+                
+                
+                              when n = 4m + 1 or
+                               n = 4m + 3 for some m          ngi 19.4.
+                                                                            Kmn is planar for m ⩽ 2 or n ⩽ 2.
+                                                                            (a)
+                
+                
+                
+                
+                
+                 2/πn
+
+                  0
+                −π/4
+                              when n = 4m + 2 for some m
+
+                             when n = 4m for some m
+                             when n = 4m + 1 for some m
+                                                                  n         Incidence matrix
+                                                                            
+                                                                                  eer
+                                                                              1 0 0 1 0 1
+                                                                                           
+                                                                                                      Adjacency matrix
+                                                                                                       
+                                                                                                         0 1 0 1 1
+                                                                                                                   
+
+          φn =
+                
+                
+                
+                
+                  −π/2
+                  −3π/4
+                             when n = 4m + 2 for some m
+                             when n = 4m + 3 for some m
+                                                                            1 1 1 0 0 0 
+                                                                            
+                                                                            0 1 0 0 0 0
+                                                                            0 0 1 1 1 0 
+                                                                                           
+                                                                                                 ing   1 0 1 1 0 
+                                                                                                       
+                                                                                                       0 1 0 0 0
+                                                                                                       1 1 0 0 1
+                                                                                                                   
+
+
+
+          (16.3) c1 = 1/2, cn = 0 for all other n, φn = 0
+                 for all n.
+                                                                            
+                                                                              0 0 0 0 1 1
+                                                                              1 1 1 0 0 0
+                                                                                                       
+                                                                                                               .ne
+                                                                                                         1 0 0 1 0
+                                                                                                          0 1 1 1
+                                                                                                                  
+
+          (16.7)
+
+
+          cn =
+                
+                  0         when n is even
+                  4/(πn)2 when n is odd
+                                                                            1 0 0 1 0 1
+                                                                            
+                                                                            0 1 0 0 1 1
+
+                                                                            
+                                                                              0 0 1 1 1 0
+                                                                              1 1 0 0 0 0
+                                                                                           
+
+
+                                                                                                      
+                                                                                                        1 0 1 1
+                                                                                                        
+                                                                                                        1 1 0 1
+                                                                                                          1 1 1 0
+                                                                                                         0 0 0 1 1
+                                                                                                                  
+                                                                                                                   t
+                                                                                                                   
+                                                                           0 0 1 1 0 0              0 0 0 1 1
+                  0 when n is even                                                                              
+                                                                            0 0 0 0 1 1              0 0 0 1 1
+          φn =                                                              1 0 1 0 1 0              1 1 1 0 0 
+                  π when n is odd
+                                                                              0 1 0 1 0 1                1 1 1 0 0
+16.12.    (1/4) + (1/8)(cos(2t) + sin(2t)).
+                                                                            (c) (3 3 1 3 2), (3 3 3 3), (2 2 2 3 3)
+Chapter 17                                                                  These represent the degrees of the vertices.
+                                                                  19.5.     A minimum spanning tree has total weight 21.
+17.1.    ∂f /∂x = ln(y 2 ), ∂f /δy = 2xy/y 2 .                              There are more than one.
+17.2. (a) ∂u/δx = −2yx/(x 2 + y 2 )2 ,                            19.6.     The shortest path is sbdt. It has length 15.
+          ∂u/∂y = −x 2 − y 2 /(x 2 + y 2 )2 ;
+      (b) ∂u/δx = 2x − y/x 2 , ∂u/∂y = 2y + (1/x)                 19.7.     Maximum flow is 18.
+
+17.3. (a) 3, (b) 0, (c) 0, (d) 1, (e) 3/8.                        19.8.     Maximum flow is 6.
+
+17.4. ∂z/∂r = 2t, ∂z/∂θ = 0.                                      19.10.    (a) Path SB, BB, BB, BH accepted; (b) Path begins
+                                                                                SA, then no more legal moves. Not accepted;
+17.5.    6 + 24t                                                            (c) Path begins with arcs SA, AH. No more legal
+
+
+                                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

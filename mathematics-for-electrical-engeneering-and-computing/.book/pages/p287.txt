@@ -1,0 +1,86 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+274   Sequences and series
+
+                             are defined then:
+
+                                                          f  (0) 2 f  (0) 3
+                             f (x) = f (0) + f  (0)x +           x +         x + ···
+                                                             2!         3!
+                                          f (n) (0) n
+                                      +            x + ···                                          (12.11)
+                                             n!
+
+                             Notice that this is a power series with coefficient sequence:
+
+
+                                    f (n) (0)
+                             an =
+                                       n!
+
+                             where f (n) (0) is found by finding the nth derivative of f (x) with respect
+
+
+ww                           to x and then substituting x = 0.
+
+
+
+
+   w             .Ea
+                             Example 12.24 Find the Maclaurin series for f (x) = ex and give the
+                             range of values of x for which the series is valid.
+
+                             Solution     Find all order derivatives of f (x) and substitute x = 0
+
+                    syE      f (x) = ex , f  (x) = ex , f  (x) = ex , f  (x) = ex , f (iv) (x) = ex
+
+
+                                          ngi
+                             f (0) = e0 = 1, f  (0) = 1, f  (0) = 1, f  (0) = 1, f (iv) (0) = 1.
+
+
+
+                                              n
+                               Substituting into Equation (12.11), the Maclaurin series is
+
+                                                x2   x3   x4 eer     xn
+                             ex = 1 + x +
+                                                2!
+                                                   +
+                                                     3!
+                                                        +
+                                                          4!
+                                                             + ··· +
+                                                                     n!
+                                                                         ing
+                                                                        + ···
+
+
+
+                                                                                       .ne
+                             As ex exists for all values of x, we can use this series for all values of x.
+
+
+
+                             x for which it is valid.                                      t
+                             Example 12.25 Find a power series for sinh(x) and give the values of
+
+
+                             Solution Find all order derivatives of sinh(x) and substitute x = 0 in
+                             each one.
+
+                             f (x) = sinh(x), f  (x) = cosh(x), f  (x) = sinh(x), f  (x) = cosh(x),
+                                  etc.
+                             f (0) = sinh(0) = 0, f  (0) = 1, f  (0) = 0, f  (0) = 1, f (iv) (0) = 0
+
+                             Then
+
+                                                x3   x5
+                             sinh(x) = x +         +    + ···
+                                                3!   5!
+
+                             As sinh(x) is defined for all values of x then the series is valid for all
+                             values of x.
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,86 @@
+                           Downloaded From : www.EasyEngineering.net
+
+
+352   Differential equations and difference equations
+
+                               Initial conditions and boundary values
+                               To solve these equations we also need knowledge of the state of the
+                               system at some moment or moments in time. This is usually given
+                               in terms of the initial displacement and the initial velocity, that is, x
+                               and dx/dt at t = 0. This is then called an initial value problem. If
+                               two values of the displacement are given at different times or if the
+                               velocity and the displacement are given at different times, then the
+                               problem is called a boundary value problem. Boundary value problems
+                               are more difficult to specify correctly to ensure that they determine a
+                               solution.
+
+
+
+
+14.3 Ordinary                  An ordinary differential equation is an equation which involves deriva-
+                               tives of y (the dependent variable) as well as functions of y and t.
+
+ww
+differential
+equations                      dy
+                                     = cos(t)
+
+   w              .Ea
+                                dt
+                               d2 y
+                                dt 2
+                                     + 9t = 0
+
+                                  d3 y dy
+
+                     syE       t2 3
+                                  dt dt
+                                          + et = t
+
+
+
+                                           ngi
+                               are all ordinary differential equations.
+                                  The other sort of differential equations, which are introduced in
+                               Chapter 17, are partial differential equations which are used to describe a
+
+                                               n
+                               dependency on two independent variables and involve partial derivatives
+
+                                                              eer
+                               like ∂y/∂t (read as ‘partial dy by dt’).
+
+
+                               The order of differential equations          ing
+                               of y (the dependent variable) in the equation.            .ne
+                               The order of the differential equation is the order of the highest derivative
+
+
+
+                               R
+                                dq
+                                 dt
+                                      q
+                                    + =3
+                                      C
+                                                         is first order in q.
+                                                                                             t
+                               dθ
+                                  = sin(θ)               is first order in θ .
+                               dt
+                               x  + 4t 2 = 0           is second order in x.
+                               d3 u du
+                                    −    + u = 4t 4      is third order in u.
+                               dt 3   dt
+
+
+
+
+                               The solution of a differential equation
+                               If a function, y = g(t), is a solution to a differential equation in y then if,
+                               in the differential equation, we replace y and by g(t) and all the derivatives
+                               of y by the corresponding derivatives of g(t) then the resulting predicate
+                               should be an identity for t. That is, it should be true for all values of t
+                               where it is defined.
+
+                                                           Downloaded From : www.EasyEngineering.netTLFeBOOK

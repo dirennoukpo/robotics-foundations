@@ -1,0 +1,60 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+
+
+            Preface
+
+
+
+            This book is based on my notes from lectures to students of electrical, elec-
+            tronic, and computer engineering at South Bank University. It presents
+
+
+ww          a first year degree/diploma course in engineering mathematics with an
+            emphasis on important concepts, such as algebraic structure, symme-
+            tries, linearity, and inverse problems, clearly presented in an accessible
+
+
+   w.Ea
+            style. It encompasses the requirements, not only of students with a good
+            maths grounding, but also of those who, with enthusiasm and motiva-
+            tion, can make up the necessary knowledge. Engineering applications
+            are integrated at each opportunity. Situations where a computer should
+
+
+       syE  be used to perform calculations are indicated and ‘hand’ calculations
+            are encouraged only in order to illustrate methods and important special
+            cases. Algorithmic procedures are discussed with reference to their effi-
+
+
+                       ngi
+            ciency and convergence, with a presentation appropriate to someone new
+            to computational methods.
+               Developments in the fields of engineering, particularly the extensive
+
+                           n
+            use of computers and microprocessors, have changed the necessary sub-
+
+                                         eer
+            ject emphasis within mathematics. This has meant incorporating areas
+            such as Boolean algebra, graph and language theory, and logic into
+
+
+                                                      ing
+            the content. A particular area of interest is digital signal processing,
+            with applications as diverse as medical, control and structural engineer-
+            ing, non-destructive testing, and geophysics. An important consideration
+
+                                                                    .ne
+            when writing this book was to give more prominence to the treatment
+            of discrete functions (sequences), solutions of difference equations and z
+
+            approach to engineering problems.
+                                                                        t
+            transforms, and also to contextualize the mathematics within a systems
+
+
+
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

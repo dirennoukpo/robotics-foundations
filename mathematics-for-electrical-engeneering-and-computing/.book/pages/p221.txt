@@ -1,0 +1,67 @@
+                               Downloaded From : www.EasyEngineering.net
+
+
+208   Complex numbers
+                                                                                       √
+                                      If we introduce new numbers by using j = −1, then a solution to
+                                   x 2 + 4 = 0 is x = j2. j2 is an imaginary number. To check that j2 is in
+                                   fact a solution to x 2 + 4 = 0, substitute it into the equation x 2 + 4 = 0,
+                                   to give
+
+                                   (j2)2 + 4 = 0 ⇔ j2 (2)2 + 4 = 0
+                                                   ⇔ (−1)(4) + 4 = 0 using j2 = −1
+                                                   ⇔ 0=0
+
+                                   which is true.
+                                     Therefore, x = j2 is a solution. In order to solve all possible quadratic
+                                   equations we need to use complex numbers, that is numbers that have
+                                   both real and
+                                             √ imaginary parts. Mathematicians often use i instead of j to
+                                   represent −1. However, j is used in engineering work to avoid confusion
+                                   with the symbol for the current.
+
+ ww                                Real and imaginary parts and
+    w                 .Ea
+                                   the complex plane
+                                   A complex number, z, can be written as the sum of its real and imaginary
+                                   parts:
+
+                         syE       z = a + jb
+
+
+                                                ngi
+                                   where a and b are real numbers.
+                                     The real part of z is a (Re(z) = a). The imaginary part of z is
+                                   b(Im(z) = b).
+                                                    n            eer
+                                     Complex numbers can be represented in the complex plane (often
+                                   called an Argand diagram) as the points (x, y) where
+
+Figure 10.4 The number
+z = 1 − j2. The real part is
+                                   z = x + jy
+                                                                             ing
+plotted along the x-axis and
+the imaginary part along the                                                               .ne
+                                   for example, z = 1 − j2 is shown in Figure 10.4. The methods used for
+                                   visualizing and adding and subtracting complex numbers is the same as
+y-axis.                            that used for two-dimensional vectors in Chapter 9.
+
+                                   Equality of two complex numbers
+                                                                                               t
+                                   Two complex numbers can only be equal if their real parts are equal and
+                                   their imaginary parts are equal.
+
+                                   Example 10.1 If a − 2 + jb = 6 + j2, where a and b are known to be
+                                   real numbers, then find a and b
+                                   Solution
+
+                                   a − 2 + jb = 6 + j2
+
+                                   We know that a and b are real, so
+
+                                   a−2=6        (real parts must be equal)
+                                    ⇔a=8
+                                       b=2      (imaginary parts must be equal)
+
+                                                              Downloaded From : www.EasyEngineering.netTLFeBOOK

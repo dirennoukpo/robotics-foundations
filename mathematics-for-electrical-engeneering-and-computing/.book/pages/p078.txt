@@ -1,0 +1,57 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                       Problem solving and the art of the convincing argument                   65
+
+
+
+
+ww
+Figure 3.3 The operations (a)∧ (and); (b) ∨ (or); and (c) ¬ (not).
+
+
+
+
+   w                 .Ea
+                                       same. In general, two predicates are equivalent if they are true for exactly
+                                       the same set of values. We use our knowledge of mathematics to determine
+                                       what operations can be performed that will maintain that equivalence.
+                                       The rule that can be used to move from one equation to another was
+
+                        syE            given as: ‘Equations remain equivalent if the same operation is performed
+                                       to both sides of the equation’. In the case of quadratic equations we
+                                       can also use a formula for the solution or use a factorization and the
+                                       fact that:
+                                                 ngi
+                                       ab = 0     ⇔
+                                                     n  a=0      or b = 0.
+
+                                                                     eer
+                                       In passing from one equation to an equivalent equation we should use the
+
+                                                                                 ing
+                                       equivalence symbol. This then makes a mathematical sentence:
+
+                                       x+5=3
+                                          ⇔     x =3−5                                        .ne
+                                                                                                  t
+                                       can be read as ‘The equation x + 5 = 3 is equivalent to x = 3 − 5’.
+                                          In all but the most obvious cases, it is a good practice to list a short
+                                       justification for the equivalence by the side of the expression.
+
+                                       x+5=3
+                                          ⇔     x =3−5        (subtracting 5 from both sides)
+                                          ⇔     x = −2.
+
+                                       Because of the possibility of making a mistake, the solution(s) should
+                                       be checked by substituting the values into the original expression of the
+                                       problem. To check, substitute x = −2 into the original equation giving
+                                       −2 + 5 = 3 which is true, indicating that the solution is correct.
+
+
+                                       Example 3.6     Solve the following equation:
+
+                                       x − 3 = 5 − 2x.
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

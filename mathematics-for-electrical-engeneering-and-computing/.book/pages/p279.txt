@@ -1,0 +1,90 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+266    Sequences and series
+
+                                         The sum to infinity of a geometric
+                                         progression
+                                         Consider Example 12.13 concerning the series whose general term is
+                                         2n+1 /3n . This can be written as
+                                                                            n+1 
+                                         4 4       2    4 2 2 4 2 3 4 2 4           2
+                                          +           +      +      +      + ··· +         + ···
+                                         3 3       3    3 3    3 3    3 3            3n
+
+                                         and the sum of n terms is 4(1 − (2/3)n ).
+                                            We can write out this sum for various values of n to 7 s.f. as in
+                                         Table 12.1.
+                                            After 40 terms, the sum has become 4 to 7 s.f. and however many more
+                                         terms are considered the sum is found to be 4 to 7 s.f. This shows that the
+                                         limit of the sum is 4 to 7 s.f. The limit of the sum of n terms as n tends
+
+
+    ww                                   to infinity is called the sum to infinity.
+                                            We can see that the limit is exactly 4 in this case by looking what
+                                         happens to 4(1 − (2/3)n ) as n tends to infinity.
+
+
+       w               .Ea
+                                         4(1 − (2/3)n ) = 4 − 4(2/3)n .
+
+                                           The second term becomes smaller and smaller as n gets bigger and
+
+                          syE            bigger, and we can see that (2/3)n → 0 as n → ∞, therefore
+
+                                         S∞ = lim Sn = lim (4 − 4(2/3)n ) = 4.
+
+                                                       ngi
+                                                  n→∞          n→∞
+
+                                             This approach can also be applied to the general GP, where
+
+                                         Sn =              n
+                                                 a(1 − r n )
+                                                   1−r
+                                                             =
+                                                                a
+                                                               1−r
+                                                                   −
+                                                                     ar n
+                                                                     1−r
+                                                                          .
+                                                                             eer
+                                         If |r| < 1, we have
+                                                                                         ing
+                                         n→∞
+                                            lim (r n ) = 0
+                                                                                                     .ne
+                                         which gives
+
+
+                                         n→∞
+                                            lim Sn = lim
+                                                             a
+                                                       n→∞ 1 − r
+                                                                 − lim
+                                                                       ar n
+                                                                  n→∞ 1 − r
+                                                                            =
+                                                                               a
+                                                                              1−r
+                                                                                  .
+                                                                                                         t
+                                         We can write
+                                                   a
+                                         S∞ =                |r| < 1.
+                                                  1−r
+
+
+                                         Example 12.14 Find the sum to infinity of a GP with first term −10
+                                         and common ratio 0.1.
+
+Table 12.1   The sum of the first n terms of the GP expressed to 7 s.f., for various values of n
+
+n              5          10           15             20                25          30          35          40 45 50
+
+4(1 − (2/3)n ) 3.47325     3.930634     3.990865        3.998797         3.999842    3.999979    3.999997   4   4   4
+
+
+
+                                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

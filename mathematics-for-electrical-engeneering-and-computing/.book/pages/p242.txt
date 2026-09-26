@@ -1,0 +1,81 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                            Complex numbers             229
+
+            Solution We use the fact that sin(3θ) = Im(cos(3θ) + j sin(3θ)), where
+            Im( ) represents ‘the imaginary part of’. Hence
+
+            sin(3θ ) = Im(ej3θ )
+                      = Im((cos(θ) + j sin(θ ))3 ).
+
+            Expanding
+
+            (cos(θ) + j sin(θ ))3 = (cos(θ) + j sin(θ ))(cos(θ) + j sin(θ))2
+                 = (cos(θ) + j sin(θ ))(cos2 (θ ) + 2j cos(θ ) sin(θ) + j2 sin2 (θ))
+                 = cos3 (θ ) + j sin(θ) cos2 (θ ) + 2j cos2 (θ ) sin(θ)
+                   + j2 cos(θ ) sin2 (θ) + 2j2 cos(θ) sin2 (θ ) + j3 sin3 (θ)
+                 = cos3 (θ ) + 3j sin(θ) cos2 (θ) − 3 cos(θ) sin2 (θ) − j sin3 (θ)
+
+
+ww               = cos3 (θ ) − 3 cos(θ ) sin2 (θ) + j(3 sin(θ ) cos2 (θ) − sin3 (θ)).
+
+            As sin(3θ) = Im((cos(θ) + j sin(θ ))3 ), we take the imaginary part of the
+
+   w.Ea
+            expression we have found to get
+
+            sin(3θ) = 3 sin(θ) cos2 (θ) − sin3 (θ).
+
+
+       syE  Example 10.20        Express cos3 (θ) in terms of cosines of multiples of θ .
+
+
+
+                         
+                          ngi
+            Solution Using cos(θ) = (1/2)(ejθ +e−jθ ) and the expansion (a+b)3 =
+            a 3 + 3a 2 b + 3ab2 + b3 :
+                                         3
+            cos3 (θ ) =
+                              n
+                           1 jθ
+                           2
+                             (e + e−jθ )
+
+                           1 j3θ            eer
+                      =
+                           23
+                              (e + 3ejθ + 3e−jθ + e−j3θ )
+                              
+                          1 1 j3θ       −j3θ    3 θ      ing
+                                                          −jθ
+                                                              
+
+                          22 2
+                                (e + e       ) + (ej + e ) .
+                                                2
+                                                                          .ne
+            As
+
+            cos(θ ) = 21 (ejθ + e−jθ ) and cos(3θ) = 21 (ej3θ + e−j3θ )
+
+            we get
+                                                                              t
+            cos3 (θ ) = 41 cos(3θ) + 43 cos(θ ).
+
+               The exponential form can be used to solve complex equations of the
+            form zn = c, where c is a complex number. A particularly important
+            example is the problem of finding all the solutions of zn = 1, called the
+            n roots of unity.
+
+
+            The n roots of unity
+            To solve the equation zn = 1, we use the fact that 1 is a complex number
+            with modulus 1 and argument 0, as can be seen in Figure 10.19(a). How-
+            ever, we can also use an argument of 2π , 4π , 6π , or any other multiple of
+            2π. As 2π is a complete revolution, adding 2π on to the argument of any
+            complex number does not change the position of the vector representing
+            it and therefore does not change the value of the number.
+
+                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

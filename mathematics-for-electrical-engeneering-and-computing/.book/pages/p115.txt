@@ -1,0 +1,51 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+102    Trigonometric functions and waves
+
+
+
+
+ ww
+    w                  .Ea
+                          syE
+Figure 5.15 The progressive wave given by the function y = cos(15t − 3x ) where t > 0 and
+3x < 15t , y = 0 otherwise. (a) No wave at t = 0; (b) t = 2 gives y = cos(30 − 3x ) = cos(3x − 30) for
+3x < 30, that is, x < 10; (c) t = 5 gives y = cos(75 − 3x ) = cos(3x − 75) for 3x < 75, that is, x < 25.
+Notice that the wavefront has moved 25 m in 5 s giving a velocity of 25/5 = 5 m s−1 .
+
+                                                   ngi
+                                        Velocity of a progressive wave
+                                                       n             eer
+                                        The progressive wave y = A cos(ωt − kx) vibrates f times per second
+                                        and the length of each cycle, the wavelength, is λ. In which case the
+
+                                        hence the velocity v is given by         ing
+                                        wavefront must move through a distance of λf metres per second and
+
+
+                                        v = fλ
+                                                                                              .ne
+                                        where f = ω/2π and λ = 2π/k; hence, v = ω/k.
+                                                                                                  t
+                                        Example 5.7 A wave is propagated from a central position as in
+                                        Figure 5.16 and is given by the function y = 2 cos(6.28t − 1.57r) where
+                                        t > 0 and 1.57r ⩽ 6.28t. Find the frequency, periodic time, spatial
+                                        frequency, wavenumber, and wavelength.
+                                           The wave is pictured for t = 5 in Figure 5.16.
+                                        Solution Comparing y = 2 cos(6.28t −1.57r) with y = A cos(ωt −kr)
+                                        gives A = 2, angular frequency ω = 6.28, wavenumber k = 1.57. Hence,
+                                        frequency f = ω/2π = 6.28/2π ≈ 1 Hz, periodic time τ = 1/f = 1 s,
+Figure 5.16                             spatial frequency = k/2π = 1.57/2π ≈ 41 , wavelength λ = 2π/k =
+y = 2 cos(6.28t − 1.57r )               2π/1.57 ≈ 4 m and velocity = f λ = 1 × 4 = 4 ms−1 .
+where 1.57r ⩽ 6.28t when
+t = 5 giving y =
+2 cos(31.4 − 1.57r ), r < 20.
+The concentric circles                  Measuring amplitudes – decibels
+represent the peak
+amplitudes of the wave. The             In Chapter 2 we looked at sound decay in a room and found that the
+wavefront has moved to                  expression was exponential and could be expressed by using a power of
+r = 20 at t = 5 giving a wave           10. Because of this property of sound decay, and decay of other wave
+velocity of 20/5 = 4 m s−1 .            forms, and also because of the need to have a unit which can be used
+
+                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

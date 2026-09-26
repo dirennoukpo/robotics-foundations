@@ -1,0 +1,50 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+40   Functions and their graphs
+
+
+
+
+ ww
+    w                  .Ea
+                          syE
+                                                    ngi
+is only one value of y for each value of x. (b) (i) y =
+                                                        n              eer
+Figure 2.17 Reflections in the line y = x produce the inverse relation. (a) (i) y = 2x ; (ii) y = log2 (x ). The
+                                                                      √ y = x . The inverse is a function as there
+second graph is obtained from the first by reflecting in the dotted line
+                                                      √ x ; (ii) y = ± x . The second graph is found by reflecting
+
+                                                                                    ing
+                                                         2
+
+the first graph in the line y = x . Notice that y = ± x is not a function as there is more that one possible
+value of y for each value of x > 0.
+
+
+                                                                                                 .ne
+                                                                                                     t
+                                            In Chapter 1, we defined the inverse function as taking any image
+                                         back to its original value. Check this with the graph of y = 2x in
+                                         Figure 2.17(a): x = 1 gives y = 2. In the inverse function, y = log2 (x),
+                                         substitute 2, which gives the result of 1, which is back to the original
+                                         value.                                    √
+                                            However, the inverse of y = x 2 , y ± x, shown in Figure 2.17(b), is
+                                         not a function as there is more than one y value for a single value of x.
+                                            To understand this problem more fully, perform the following exper-
+                                         iment. On a calculator enter −2 and square it (x 2 ) giving 4. Now take
+                                         the square root. This gives the answer 2, which is not the number we first
+                                         started with, and hence we can see that the square root is not a true inverse
+                                         of squaring. However, we get away with calling it the inverse because it
+                                         works if only positive values of x are considered. To test if the inverse
+                                         of any function exists, draw a line along any value of y = constant.
+                                         If, wherever the line is drawn, there is ever more than one x value
+                                         which gives the same value of y then the function has no inverse func-
+                                         tion. In this situation, the function is called a ‘many-to-one’ function.
+                                         Only ‘one-to-one’ functions have inverses. Figure 2.18 has examples
+                                         of functions with an explanation of whether they are ‘one-to-one’ or
+                                         ‘many-to-one’.
+
+                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

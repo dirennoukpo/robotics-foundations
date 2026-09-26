@@ -1,0 +1,82 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                               Fourier series   429
+
+              From the complex form, we can easily find the amplitude and phase
+            spectra. If we write the coefficients in exponential form, |αn |ejθ , we find
+            cn = 2|αn | and φn = θn = arg(αn ), n ⩾ 0.
+              We can also easily find the sine and cosine form of the Fourier series
+            by using
+
+            an = 2|αn | cos(φn ) = 2 Re(αn )
+            bn = −2|αn | sin(φn ) = −2 Im(αn ).
+
+
+
+            Example 16.3 Find the complex Fourier series for a function defined
+            in the interval 0 < t < 1 by
+
+                      
+
+ww          f (t) =
+                       t
+                       0
+                             0 < t < 1/2
+                             1/2 < t < 1
+
+
+   w.Ea     Solution
+
+
+       syE  Step 1
+
+            We have already plotted the graph as shown in Figure 16.4.
+
+            Step 2
+                          ngi
+            Step 3            n
+            The fundamental period of this is τ = 1 so that ω0 = 2π .
+
+                                                      eer
+            Calculate αn . We find
+                       τ/2                                  1/2     ing
+            αn =
+                 1
+                 τ        −τ/2
+                                 f (t) e   −jnω0 t
+                                                     dt =
+                                                             0
+                                                                    t e−j2πnt dt
+                                                                                   .ne
+            To find
+                                                                          
+                                                             parts using u dv =
+                   this integral, we perform integration by −j2πnt
+            uv − v du. In this case we choose u = t, dv = e         dt, du = dt and
+                                                                                       t
+                 e−j2πnt    e−j2πnt
+            ν=           =j
+                 −j2πn       2π n
+
+            giving
+
+                    1/2                      1/2  1/2 −j2πnt
+                                              
+                                    t e−j2πnt
+                                 −j2πnt                     je
+            αn =      te      = j                  −                dt
+                  0                    2π n    0       0     (2π n)
+                                           1/2
+                  e−jπn         e−j2πnt             j e−jπn    e−jπn − 1
+               =j       − j                       =          +
+                   4πn      (2π n)(−j2π n) 0          4π n       4π 2 n2
+
+            Since e−jπn = (−1)n , this means
+
+                     (−1)n − 1    (−1)n
+            αn =               +j
+                       4π n
+                         2  2      4π n
+
+                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

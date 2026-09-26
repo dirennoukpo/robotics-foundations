@@ -1,0 +1,76 @@
+                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                      Language theory         483
+
+                        Similarly, we can start with S → (S) and then substitute S → N followed
+                        by N → 0 or N → 1, to give:
+
+                        S⇒∗ (0)    S⇒∗ (1)
+
+                        So the language consists of only the following sentences of length less
+                        than or equal to 4
+
+                        0+0       0+1        1+0      1+1       0·0      0·1      1·0      1·1
+                        0         1          (0)      (1)
+
+                        We can see that the string 1 · 10 does not appear in this list of sentences
+                        and so 1 · 10 is not a sentence.
+                        (b) To show that (1.1) is a sentence we need to look at sentences of five
+                        symbols. In our solution to (a) we already found (1.1) to be a sentence
+                        as we derived S⇒∗ (1.1) by using S → (S) followed by S → NBN with
+
+ww                      N replaced by ‘1’ on both occurrences and B replaced by ‘·’ So we have
+                        the derivation S⇒(S)⇒(NBN)⇒(1.1). We have shown that S⇒∗ (1.1).
+                        This string contains only terminal symbols and therefore (1.1) is a
+
+   w      .Ea
+                        sentence.
+
+
+                        Context-free languages
+             syE        Formal grammars were studied by a linguist, Noam Chomsky, in the
+                        1950s. Chomsky proposed a classification of grammars of which the most
+
+                                  ngi
+                        important classification, for our current interest, is that of context-free
+                        languages. Grammars that allow only a single non-terminal and nothing
+
+
+                                      n
+                        else on the left-hand side of the rule are called context free.
+
+
+                                                     eer
+                           Chomsky proposed a transformation procedure to transform gram-
+                        mars of context-free languages to Chomsky Normal Form. His work
+                        influenced John Backus, who realized that programming languages are
+
+                                                                 ing
+                        mostly context free. He used context-free grammars to describe the syn-
+                        tax of programs, and developed what is now called ‘Backus Normal
+
+
+                                                                               .ne
+                        Form’ or ‘Backus Naur Form’. It has since been further revised and
+                        extended so nowadays programming language specifications are written
+                        in EBNF, Extended Backus-Naur Form. Before looking at EBNF we look
+                        at derivation graphs and derivation trees.
+                                                                                   t
+                        A derivation can be represented using a digraph. We draw a vertex for the
+20.3                    start symbol, a vertex for each production at each step of the derivation
+Derivations and         and a vertex for each symbol on the right-hand side of each step of the
+                        derivation. The following example is for a context-sensitive language.
+derivation trees
+                        Example 20.3 A language is defined over the symbols {a,b} with the
+                        following productions (labelled r1 –r5 ):
+
+                        r1 : S → SBba
+                        r2 : bBa → aAb
+                        r3 : bA → AB
+                        r4 : Bb → bBa
+                        r5 : S → bB
+                        r6 : B → a
+
+
+                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

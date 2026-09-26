@@ -1,0 +1,28 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+474   Graph theory
+
+
+
+
+ ww
+    w               .Ea
+                       syE
+                                          ngi
+                                              n             eer
+                                                                         ing
+                                                                                       .ne
+                                                                                           t
+
+Figure 19.27 continued.
+
+
+
+19.7 State                    A state transition diagram is used to represent a finite state machine.
+                              These are used to model objects which have a finite number of possible
+transition                    states and whose interaction with the outside world can be described by
+diagrams                      its state changes in response to a finite number of events. A state transition
+                              diagram is a digraph whose nodes are states and whose directed arcs are
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

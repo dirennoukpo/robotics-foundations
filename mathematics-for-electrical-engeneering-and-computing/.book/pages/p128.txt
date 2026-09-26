@@ -1,0 +1,41 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                                  Trigonometric functions and waves                    115
+
+
+
+
+ww
+   w
+Figure 5.30     Two sinusoids y = 2 sin(6.14t ) and 2 sin(6.19t ) for Exercise 5.12.
+
+
+                         .Ea
+      (d) sin(41◦ ) sin(22◦ ) − cos(41◦ ) cos(22◦ )            5.18. Find all the solutions to the following equations in the
+
+
+                            syE
+      (e) sin(2x) cos(x) + cos(2x) sin(x)
+      (f) cos2 (x) − sin2 (x).
+5.17. Express cos(x +y +z) in terms of the sines and cosines
+                                                                     interval [0, 6π]:
+                                                                     (a) sin(x) = −1/2
+                                                                     (c) cos(x) = −0.8
+                                                                                                      (b) tan(x) = 1/3
+                                                                                                      (d) sin2 (x) = 0.25
+      of x, y, and z.
+                                                      ngi            (e) cos(x) + 2 cos2 (x) = 0 (f) sin2 (x) − 2 = 2.
+
+
+
+
+                                                          n               eer
+                                                                                        ing
+                                                                                                      .ne
+                                                                                                          t
+
+
+
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

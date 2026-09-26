@@ -1,0 +1,59 @@
+                                   Downloaded From : www.EasyEngineering.net
+
+
+                                                                             Functions and their graphs                 41
+
+
+
+
+ww
+   w                   .Ea
+                          syE
+Figure 2.18 (a) (i) y = x 3 . This function has only one x value for each value of y as any line y = constant
+
+                                                     ngi                                                       √
+only cuts the graph once. In this case, the function is one-to-one and it has an inverse function (ii) y = 3 x is
+the inverse function of y = x 3 . (b) y = 1/x , x  = 0, has only one x value for each value of y as any line
+
+
+
+the graph twice at x = 2 and at x = −2). This
+                                                         n
+y = constant only cuts the graph once. It therefore is one-to-one and has an inverse function – in fact, it is
+its own inverse! (to see this reflect it in the line y = x and we get the same graph after the reflection).
+
+                                                                        eer
+(c) (i) y = x 4 . This function has two values of x for each value of y when y is positive (e.g. the line y = 16 cuts
+                                                  √ shows that there is no inverse function as the function is
+many-to-one. (ii) The inverse relation y = ± 4 x .
+
+                                                                                     ing
+2.7 The                                                                                            .ne
+                                          The modulus function y = |x|, often written as y = abs(x) (short for the
+                                          absolute value of x) is defined by
+modulus
+function,                                 y=
+                                              
+                                                x x ⩾ 0 (x positive or zero)
+                                                −x x < 0 (x negative)
+                                                                                                       t
+y = |x | or
+y = abs(x )                               The output from the modulus function is always a positive number or zero.
+
+                                          Example 2.5 Find | − 3|.
+                                          Here x = −3, which is negative, therefore
+
+                                          y = −x = −(−3) = +3.
+
+                                          An alternative way of thinking of it is to remember that the modulus
+                                          is always positive, or zero, so simply replacing any negative sign by a
+                                          positive one will give a number’s modulus or absolute value.
+
+                                          | − 5| = 5,    | − 4| = 4,    |5| = 5,    |4| = 4.
+
+                                          The graph of the modulus function can be found from the graph of y = x
+                                          by reflecting the negative x part of the graph to make the function values
+                                          positive. This is shown in Figure 2.19.
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,75 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+72   Problem solving and the art of the convincing argument
+
+                                Another useful symbol is ∃, which means, ‘there exists’. This can
+                              be used to express the fact that every real number has an inverse under
+                              addition. Hence, we get
+
+                              ∀a ∈ R, ∃b,     a + b = 0.
+
+                                  If the symbol ∃ is used with a predicate about its free variable, it
+                              becomes a simple proposition which is either true or false. In the case
+                              of the example given concerning the inverse, this is an axiom of the
+                              real numbers and we can just state it is true. Other statements involving
+                              existence will need some justification. Proving existence is simpler than
+                              disproving it. If I were to state ‘There exists a blue moon in the universe’,
+                              to prove this to be true I only need to find one blue moon but to disprove
+                              it I must find all the moons in the universe and show that not one of them
+                              is blue.
+                                  In other words, to show that some value exists which makes a certain
+
+ww                            predicate into a true proposition then we only need to find that value and
+                              demonstrate that the resulting proposition is true. To show that no value
+                              exists, however, is more difficult and if the domain of interest is a set of
+
+   w              .Ea
+                              numbers we need to present an argument about any member of the set.
+
+
+                              Example 3.10      Are the following true or false? Justify your answer.
+
+                     syE      (a) ∃x ∈ R, (x + 2)(x − 1) = 0
+                              (b) ∃x ∈ R, x 2 + 4 < 0
+
+                              Solution
+                                          ngi
+                              (a)
+                                              n
+                                     ∃x ∈ R, (x + 2)(x − 1) = 0
+
+                                                              eer
+                              To show this is true, we only need find one value of x which makes the
+                              equality correct. For instance, take x = −2: when x = −2, (x + 2)(x −
+
+                                                                         ing
+                              1) = 0 becomes (−2 + 2)(−2 − 1) = 0 ⇔ 0 = 0, which is true.
+                                Therefore, ∃x ∈ R, (x + 2)(x − 1) = 0 is true.
+                              (b)    ∃x ∈ R, x 2 + 4 < 0
+                                                                                      .ne
+                              Trying a few values for x (e.g. −1, 0, 20, −2) we might suspect that
+
+                              convince ourselves of this.                                 t
+                              this statement is false. We need to present a general argument in order to
+
+                                 x 2 is always positive or zero, that is, x 2 ⩾ 0 for all x. If we then add
+                              on 4, then for all x, x 2 + 4 ⩾ 4 and as 4 is bigger than 0.
+                              x 2 + 4 > 0 for all x; hence,
+                              ∃x ∈ R, x 2 + 4 < 0 is false.
+
+
+
+
+3.8 Other                     Predicates are often used in software engineering. Some simpler appli-
+                              cations are:
+applications of                (a)To express the condition under which a program block will be carried
+predicates                        out (or a loop will continue execution).
+                              (b) To express a program specification in terms of its pre- and post-
+                                  conditions.
+
+
+                              Example 3.11 Express the following in pseudo-code: print x and y if
+                              y is a multiple of x and x is an integer between 1 and 100 inclusive.
+
+                                                         Downloaded From : www.EasyEngineering.netTLFeBOOK

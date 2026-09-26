@@ -1,0 +1,106 @@
+                         Downloaded From : www.EasyEngineering.net
+
+
+262   Sequences and series
+
+                                This is the second of the two formulae that may be used to find the sum
+                             of the first n terms of an AP.
+
+                             Example 12.8 Find the sum of an AP whose first term is 3 and has 12
+                             terms ending with −15.
+                                                      n
+                                Using the formula Sn = (a +l), and then substituting n = 12, a = 3,
+                                                      2
+                             and l = −15:
+                                          12
+                             Sn =            (3 − 15) = 6(−12) = −72.
+                                          2
+
+                             Example 12.9              Find
+
+                                              r
+                             r=9 
+                             
+                                         1−      .
+                                              4
+
+ww                           r=1
+
+                             Write out the series by substituting values for r
+                                                                                   
+
+   w
+                             r=9 
+                                      r           1             2             3       4
+                                   1−      = 1−         + 1−          + 1−         + 1−
+
+                 .Ea         r=1
+                                    
+                                  + 1−
+                                       4
+                                            5
+                                               
+                                                + 1−
+                                                    4
+                                                        6
+                                                          
+                                                                  4
+                                                                      
+                                                             + ··· + 1 −
+                                                                            9
+                                                                               
+                                                                                4       4
+
+
+
+                    syE           =
+                                            4
+                                          3 1 1     1 1
+                                                        4
+
+                                           + + + 0 − − ··· −
+                                                             5
+                                                                            4
+
+                                          4 2 4
+
+                                                ngi 4 2      4
+                             This is the sum of an arithmetic progression with nine terms where a = 43
+                             and d = − 41 . Using
+
+                             Sn =
+                                   n
+                                   2
+                                     (2a + (n − 1)d)n                eer
+                                                             9 6 8
+                             gives Sn = 29 2 × 43 + (9 − 1) − 41
+                                                                                  ing
+                                                                 = 2 4 − 4 = − 49 .
+
+
+                                                                                        .ne
+12.4 Geometric
+progression                                                                                 t
+                             A geometric progression (GP) is a sequence where each term is found
+                             by multiplying the previous term by a fixed number. This fixed number
+                             is called the common ratio, r. We have already come across examples
+                             of geometric progressions in Chapter 8, where we looked at exponential
+                             growth. There we had the example of e1 deposited in a bank with a real
+                             rate of growth of 3% so we get the sequence 1, 1.03, 1.09, 1.13, 1.16,
+                             1.19, . . . (expressed to the nearest cent) where each year the amount in
+                             the bank is multiplied by 1.03.
+                                Some more examples of GPs are
+
+                             1.         16, 8, 4, 2, 1, 0.5, 0.25, 0.125, . . .
+
+                             Notice that successive terms can be found by multiplying the previous
+                             term by 0.5:
+
+                             16 × 0.5 = 8
+                              8 × 0.5 = 4
+                              4 × 0.5 = 2
+                                   ..
+                                    .
+
+
+                                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

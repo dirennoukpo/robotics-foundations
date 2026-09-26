@@ -1,0 +1,92 @@
+                                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                          Functions of more than one variable                437
+
+                      0                                                                  0   5   10   15   20
+                                                                                     0
+                   –200
+                                                                                     5
+                   –400                                                             10
+
+                   –600                                                             15
+                                           10    10
+                                  5                                                 20
+                     0
+                      0
+                              5       10
+             (a)                            15   20                           (b)
+
+                    25
+
+                    20
+
+                    15
+
+
+
+ww                  10
+
+
+
+
+   w
+                     5
+
+
+             (c)          0
+                              .Ea     5          10    15      20             (d)
+
+Figure 17.2 Graphs of h = 4 − 2x 2 + y . (a) A perspective view. (b) Contour representation. (c) A
+
+value of x .
+                                 syE
+cross-section parallel to the x -axis for a fixed value of y . (d) A cross-section parallel to the y -axis for a fixed
+
+
+                                                      we have fixed y and only x is varying. In this case, we can differentiate
+
+                                                                ngi
+                                                      the function as a function of one variable.
+                                                        It is this idea that is used for partial differentiation. We can find the
+
+                                                                    n
+                                                      derivative along a line parallel to the x-axis by ‘freezing’ y and differ-
+
+                                                                                         eer
+                                                      entiation with respect to x only. We can find the derivative along a line
+                                                      parallel to the y-axis by ‘freezing’ x and differentiation with respect to y
+
+                                                      ∂u       u(x + δx, y) − u(x, y)                 ing
+                                                      only. Partial derivatives of the function u = f (x, y) are defined by:
+
+                                                         = lim
+                                                      ∂x
+                                                      ∂u
+                                                          δx→0
+
+                                                         = lim
+                                                                         δx
+                                                               u(x, y + δy) − u(x, y)                           .ne
+                                                      ∂y  δy→0           δy
+                                                                                                                    t
+                                                      ∂u/∂x reads as ‘partial du by dx’ and ∂u/∂y reads as ‘partial du by dy’.
+
+                                                      Example 17.1
+                                                      u = x 3 − 3x 2 y + y.
+                                                      Find its partial derivatives ∂u/∂x and ∂u/∂y.
+                                                      Solution To find ∂u/∂x, we differentiate, u with respect to x and treat
+                                                      y as though it were a constant
+                                                      ∂u
+                                                          = 3x 2 − 3(2)xy = 3x 2 − 6xy.
+                                                      ∂x
+                                                      To find ∂u/∂y, we differentiate u with respect to y and treat x as though
+                                                      it were a constant
+                                                      ∂u
+                                                          = −3x 2 + 1.
+                                                      ∂y
+                                                      We can substitute particular values for x and y in order to find the slope
+                                                      of the graph parallel to the x- and parallel to the y-axes.
+
+
+                                                                                    Downloaded From : www.EasyEngineering.netTLFeBOOK

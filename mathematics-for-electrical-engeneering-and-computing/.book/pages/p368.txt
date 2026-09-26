@@ -1,0 +1,75 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                    Differential equations and difference equations                 355
+
+            An example of a non-linear operator is the sine function as
+
+            sin(A + B)  = sin(A) + sin(B)
+
+            For a differential equation the fact that it is linear leads to the fact that
+            if a solution to the differential equation with input function f1 (t) is y1
+            and a solution to the differential equation with input f2 (t) is y2 , then
+            one solution to the equation with an input function af1 + bf2 , is ay1 +
+            by2 , where a and b are constants. This result is central to the method of
+            solving differential equations used in this chapter and also to the Laplace
+            transform method of the next chapter.
+
+            Example 14.3       A differential equation
+
+            d2 x/dt 2 + 9x = f (t)
+
+
+ww          is found to have a particular solution x = t/9 when f (t) = t and a
+            particular solution
+
+
+   w.Ea
+            1
+            5 sin(2t)    whenf (t) = sin(2t).
+
+            Suggest a particular solution when f (t) = t + 5 sin(2t) and check that
+            your hypothesis is correct.
+
+       syE  Solution As the differential equation is linear, if we sum the input
+            functions then we should be able to sum the solutions. Hence, a solution to
+
+                        ngi
+            d2 x/dt 2 + 9x = t + 5 sin(2t)
+
+
+
+
+            x=
+                 t
+                            n
+            should be given by
+
+                        1         t        eer
+                   + 5 × sin(2t) = + sin(2t)
+                 9      5         9
+                                                         ing
+            Check:
+
+                     x = t/9 + sin(2t)                              .ne
+              dx/dt = (1/9) + 2 cos(2t)
+            d2 x/dt 2 = −4 sin(2t)
+                                                                        t
+            Then substituting these into
+
+            d2 x/dt 2 + 9x = t + 5 sin(2t)
+
+            gives
+
+            −4 sin(2t) + 9((t/9) + sin(2t)) = t + 5 sin(2t)
+                    −4 sin(2t) + t + 9 sin(2t) = t + 5 sin(2t)
+
+            which is true for all values of t, showing that
+
+            x = (t/9) + sin(2t)
+
+            is a solution to
+
+            d2 x/dt 2 + 9x = t + 5 sin(2t).
+
+                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,92 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+406   Laplace and z transforms
+
+                                 Example 15.25 (Linearity and the inverse transform)                    Find the inverse
+                                 z transform of
+                                  2z   3z
+                                     +    .
+                                 z−1 z−2
+
+                                 Solution From Table 15.2
+                                      
+                                         z
+                                 Z−1         = un
+                                        z−1
+                                      
+                                   −1    z
+                                 Z           = 2n (r = 2)
+                                        z−2
+
+                                 So
+                                          
+                                     −1        2z   3z
+                                 Z                +          = 2un + 3 × 2n
+
+ww                                            z−1 z−2
+
+
+
+   w             .Ea
+                                 Example 15.26 (Change of scale)
+                                     z
+                                 (z − 2)2
+                                                                                   Find the inverse z transform of
+
+
+
+
+                    syE          Solution
+
+
+                                                ngi
+                                               2 (z/2)
+                                               1
+                                     z
+                                          =              .
+                                 (z − 2)2   ((z/2) − 1)2
+                                 From Table 15.2
+
+                                 Z −1
+                                      
+                                            z
+                                        (z − 1)2
+                                                 =n
+                                                    n             eer
+                                 Using the change of scale property and linearity:     ing
+                                 Z−1
+                                     
+                                           2 (z/2)
+                                           1
+
+                                       ((z/2) − 1)
+                                                     
+                                                          1
+                                                       = n(2)n = n2n−1 .                           .ne
+                                                                                                       t
+                                                   2      2
+
+
+                                 Example 15.27 (Convolution)             Find the inverse z transform of
+                                  z  z
+                                 z−1z−4
+
+                                 Solution Note that
+                                                                          
+                                   −1    z                            −1        z
+                                 Z           = un and             L                       = 4n .
+                                        z−1                                    z−4
+                                 Hence, using convolution
+                                                                              n
+                                     −1        z  z
+                                 Z                         = un ∗ 4 n =             uk 4n−k .
+                                              z−1z−4
+                                                                           k=0
+
+                                 Writing out this sequence for n = 0, 1, 2, 3, . . .
+
+                                    1,          (1 + 4),   1 + 4 + 16,         1 + 4 + 16 + 64, . . .
+                                 (n = 0)        (n = 1)      (n = 2)                 (n = 3)
+
+                                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

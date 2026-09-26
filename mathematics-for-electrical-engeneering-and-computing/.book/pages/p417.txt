@@ -1,0 +1,86 @@
+                          Downloaded From : www.EasyEngineering.net
+
+
+404   Laplace and z transforms
+
+                                 provided |r/z| < 1, giving
+                                              a0        a0 z
+                                 F (z) =             =
+                                           1 − (r/z)   z−r
+
+                                 where
+                                  r
+                                    < 1 or      |z| > |r|
+                                  z
+
+                                 We can see that in the case of infinite sequences there will be a region of
+                                 convergence for the z transform.
+
+                                 The impulse function and
+                                 the step function
+                                 The impulse function or delta function for a discrete system is the
+
+ww                               sequence
+                                      
+                                        1 n=0
+
+   w             .Ea
+                                 δn =
+                                        0 n = 0.
+
+                                   The step function is the function
+
+
+                    syE          un =
+                                      
+                                        1 n⩾0
+                                        0 n<0
+
+                                             ngi
+                                 and the shifted unit step function is
+
+
+                                 un−j =
+                                         
+                                           1 n⩾j
+                                                 n
+                                           0 n < j.
+                                                               eer
+                                                                           ing
+                                 As we are mainly considering sequences defined for n ⩾ 0, we could
+                                 consider that all of the sequences are multiplied by the step function un .
+                                 That is, they are all ’switched on’ at n = 0.
+                                                                                         .ne
+                                    Rather than always using the definition to find the z transform, we will
+
+
+                                 z transforms is given in Table 15.2.                        t
+                                 usually make use of a table of well-known transforms and properties of
+                                 the z transform to discover the transform of various sequences. A list of
+
+
+                                                 Table 15.2    z transforms
+
+                                                 fn         F (z )
+
+                                                               z
+                                                 un                               |z | > 1
+                                                            z −1
+                                                 δn         1
+                                                                 z
+                                                 n                                |z | > 1
+                                                            (z − 1)2
+                                                               z
+                                                 rn                               |z | > |r |
+                                                            z −r
+                                                                z (z − cos(θ))
+                                                 cos(θn)                          |z | > 1
+                                                            z 2 − 2z cos(θ) + 1
+                                                                    z sin(θ)
+                                                 sin(θn)                          |z | > 1
+                                                            z 2 − 2z cos(θ) + 1
+                                                                z
+                                                 e j θn                           |z | > 1
+                                                            z − e jθ
+
+                                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

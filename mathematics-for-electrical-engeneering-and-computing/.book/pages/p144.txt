@@ -1,0 +1,75 @@
+                                      Downloaded From : www.EasyEngineering.net
+
+
+                                                                                               Differentiation           131
+
+6.9 Exercises
+                                                                                                            √
+6.1 A car is travelling such that its distance, s (m), from its   (17) cos2 (5x)                    (18) x 3 x + 1
+    starting position after time t (s) is
+                                                                  (19) 5x cos(x)                    (20) 6x 2 sin(x)
+           1 3
+    s=        t + 2t,              0 < t < 10
+          15                                                      (21) (3x + 1) tan(5x)             (22) x 3 cos−1 (x)
+    s = 22(t − 10) + 86.67, t ≥ 10
+                                                                  (23) x 3 / cos(x)                 (24) 1/ sin2 (x)
+    (a) What is its average velocity in the first 10 s?
+    (b) Give the velocity as a function of time.                  (25) sin(x)/(2x + 10)             (26) x 2 / tan(x)
+    (c) What is the instantaneous velocity when (i) t = 5,                   √
+         (ii) t = 10, and (iii) t = 15?                           (27) 3x 2 / x − 1                 (28) (5x 2 −1)/(5x 2 +1)
+    (d) What is the average acceleration for the first 10 s?
+    (e) What is the average acceleration between t = 10           (29) (x−1) cos(x)/(x 2 −1)        (30) sin−1 (x 2 )
+         and t = 15?                                                      √
+                                                                  (31) x 2 x − 1 sin(x)             (32) cos2 (x 2 )
+     (f) Give the acceleration as a function of time.                        √
+    (g) What is the instantaneous acceleration when               (33) tan2 ( 5x − 1)
+
+ww       (i) t = 5, (ii) t = 10, and (iii) t = 15?
+6.2 Differentiate the following:                                  12.3 A current i is travelling through a single turn loop
+                                                                  of radius 1 m. A four-turn search coil of effective area
+
+
+   w(1) 3x 2 + 6x − 12
+        
+    (3) 2x 3 − (5/6x 2 ) .Ea
+                                    (2) x 1/2 − x −1/2
+
+                                    (4) sin(3x 3 + x)
+                                                                  0.03 m2 is placed inside the loop. The magnetic flux
+                                                                  linking the search coil is given by
+
+                                                                  φ = µ0
+                                                                           iA
+                                                                              Wb
+    (5) 2 cos(6x − 2)
+
+    (7) 1/(2x − 3)          syE     (6) tan(x 2 )
+
+                                    (8) (4x − 5)6
+                                                                           2r
+                                                                   where r (m) is the radius of the current carrying loop,
+                                                                  A (m2 ) is the area of the search coil and µ0 is the perme-
+           
+     (9) 1/ x 2 − 1                (10) sin−1 (5 − 2x)
+                                                        ngi      ability of free space = 4 × 10−7 H m−1 . Find the e.m.f.
+                                                                  induced in the search coil, given by ε = −N (dφ/dt),
+                                                                  where N is the number of turns in the search coil and the
+    (11) tan(1/x)
+
+    (13) (x + 4)−3/2
+                                   (12) x 2 + 2
+
+                                   (14) sin2 (x)             n    current is given by i = 20 sin(20πt) + 50 sin(30πt).
+
+
+                                                                         eer
+    (15) 5 cos3 (x)                (16) 1/ sin3 (x)
+
+                                                                                       ing
+                                                                                                     .ne
+                                                                                                         t
+
+
+
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

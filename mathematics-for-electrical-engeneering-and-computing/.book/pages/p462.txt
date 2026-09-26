@@ -1,0 +1,127 @@
+                  Downloaded From : www.EasyEngineering.net
+
+
+                                                                               Vector calculus         449
+
+
+                       We now consider vector fields, which represent a vector at each point in
+18.3                   space. Therefore, we have the field F which has components in the x, y,
+Differentiating        and z directions, all of which are also functions of x, y, and z, that is
+vector fields
+                       F(x, y, z) = iFx + jFy + kFz = (Fx , Fy , Fz )
+
+
+                       where Fx , Fy , Fz are all functions of x, y, and z.
+                          There are two important fields that can be found by differentiating
+                       vector fields. The divergence of a vector field produces a scalar field and
+                       the curl of a vector field produces a vector field. These are defined as
+                       follows
+
+                                      ∂Fx    ∂Fy      ∂Fz
+                        ∇·F = div F =      +      +
+
+ww                     ∇×F = curl F =
+                                      
+                                       ∂x
+                                        ∂Fz
+                                         ∂y
+                                             −
+                                               ∂y
+                                                ∂Fy
+                                                 ∂z
+                                                     
+                                                       ∂z
+
+                                                       i+
+                                                           
+                                                             ∂Fx
+                                                              ∂z
+                                                                 −
+                                                                   ∂Fz
+                                                                   ∂x
+                                                                       
+                                                                         j
+
+
+   w       .Ea                        +
+                                         
+                                           ∂Fy
+                                            ∂x
+                                                −
+                                                   ∂Fx
+                                                    ∂y
+                                                        
+                                                          k.
+
+
+
+              syE      The last expression can also be represented by using a determinant to
+                       define the cross-product of a vector. We have that
+
+                                  ngi ∂ ∂ ∂
+                                                    
+                                                                             
+                                                                              i
+                                                                             
+                                                        × (Fx , Fy , Fz ) = ∂/∂x
+                                                                                       j     k 
+                                                                                                 
+
+                                                                                            ∂/∂z .
+                       ∇×F =
+                                       n,  ,
+                                      ∂x ∂x ∂x
+
+                                                           eer                Fx
+                                                                                     ∂/∂y
+                                                                                      Fy     Fz 
+
+
+
+                                                                        ing
+                       There is one more operator that is used in many equations of electromag-
+                       netic fields. This is the ‘del squared’ operator ∇ 2 which operates on a
+
+
+                                                                                      .ne
+                       scalar field. This is defined by
+
+                                                                      
+                       ∇2 = ∇ · ∇ =
+                                                  ∂ ∂ ∂
+                                                   ,  ,
+                                                 ∂x ∂y ∂z
+                                                             ·
+                                                                 ∂ ∂ ∂
+                                                                  ,  ,
+                                                                ∂x ∂y ∂z
+                                                                           =
+                                                                             ∂2
+                                                                             ∂x
+                                                                                +
+                                                                                  ∂2
+                                                                                  ∂y
+                                                                                      ∂2
+                                                                                     + .
+                                                                                      ∂z
+                                                                                          t
+                       All of these operators are important in describing vector field relation-
+                       ships. For instance
+
+
+                                      ∂ 2φ
+                       ∇2 φ = k2
+                                      ∂t 2
+
+                       represents the three-dimensional wave equation.
+
+
+                       Example 18.3          For F = (2x 2 y, 4y 2 z, 8z2 ) find ∇·F and ∇×F.
+
+                       Solution       From the definition
+
+                               ∂Fx   ∂Fy   ∂Fz
+                       ∇·F =       +     +
+                                ∂x    ∂y    ∂z
+
+                                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

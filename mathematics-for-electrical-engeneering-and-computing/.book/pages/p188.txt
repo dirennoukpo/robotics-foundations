@@ -1,0 +1,69 @@
+                                 Downloaded From : www.EasyEngineering.net
+
+
+                                                                          The exponential function           175
+
+
+
+
+ww
+   w                 .Ea
+Figure 8.6 (a) The graph of y = cosh(x ). (b) The graph of y = sinh(x ). (c) The graph of y = tanh(x ).
+
+
+
+
+                        syE                   Table 8.2   Summary of important hyperbolic identities
+
+
+
+                                                  ngi
+                                              cosh(x ) = (ex + e−x )/2
+                                              sinh(x ) = (ex − e−x )/2
+                                              tanh(x ) = sinh(x )/ cosh(x ) = (ex − e−x )/(ex + e−x )
+
+
+                                                      n
+                                              cosh(x ) + sinh(x ) = ex
+
+
+                                                                   eer
+                                              cosh(x ) − sinh(x ) = e−x
+                                              cosh(A ± B) = cosh(A) cosh(B) ± sinh(A) sinh(B)
+                                              sinh(A ± B) = sinh(A) cosh(B) ± cosh(A) sinh(B)
+
+
+                                                                                ing
+                                              tanh(A ± B) = (tanh(A) ± tanh(B))/(1 ± tanh(A) tanh(B))
+
+
+
+
+                                       Hyperbolic identities                                 .ne
+                                       A list of the more important ones is given in Table 8.2.
+                                                                                                 t
+                                       The hyperbolic identities are similar to those for trigonometric functions.
+
+
+
+                                       Example 8.8 Show that cosh(A + B)                =   cosh(A) cosh(B) +
+                                       sinh(A) sinh(B).
+
+                                       Solution   Substitute
+
+
+                                                 eA + e−A
+                                       cosh(A) =
+                                                     2
+                                                 e − e−A
+                                                  A
+                                       sinh(A) =
+                                                     2
+                                                 eB + e−B
+                                       cosh(B) =
+                                                     2
+                                                 eB − e−B
+                                       sinh(B) =
+                                                     2
+
+                                                                Downloaded From : www.EasyEngineering.netTLFeBOOK

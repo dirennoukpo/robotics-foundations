@@ -1,0 +1,73 @@
+                                     Downloaded From : www.EasyEngineering.net
+
+
+                                                                               Functions and their graphs                55
+
+                                             9. Simple inequalities can be solved by finding equivalent inequalities.
+                                                Inequalities remain equivalent if both sides of the inequality have the
+                                                same expression added or subtracted. They may also be multiplied
+                                                or divided by a positive number but if they are multiplied or divided
+                                                by a negative number then the direction of the inequality sign must
+                                                be reversed.
+                                            10. To solve the inequalities f (x) > 0, f (x) < 0, f (x) ⩽ 0, or f (x) ⩾
+                                                0, where f (x) is a continuous function, solve f (x) = 0 and choose
+                                                any value for x around the roots to find the sign of f (x) for each
+                                                region of values for x.
+                                            11. Graphs can be used to find relationships in experimental data. First,
+                                                plot the data then:
+                                                (a) If the data lies on an approximate straight line then draw a
+                                                      straight line through the data and find the equation of the line.
+                                                (b) If it looks exponential, then take the log of the values of
+                                                      the dependent variable and draw a log–linear graph. If this
+
+ww                                                    looks approximately like a straight line then assume there is
+                                                      an exponential relationship y = y0 10kt , where k is given by
+                                                      the gradient of the line and log10 (y0 ) is the value where the
+
+   w                    .Ea
+                                                      graph crosses the vertical axis.
+                                                (c) If the relationship looks something like a power relationship,
+                                                      y = Ax n , then take the log of both sets of data and draw
+                                                      a log–log graph. If this is approximately like a straight line,
+
+                           syE                        then assume there is a power relationship and n is given by the
+                                                      gradient of the line and log10 A is the value where the graph
+                                                      crosses the vertical axis.
+
+
+2.12 Exercises
+                                                       ngi
+2.1. Sketch the graphs of the following:
+                                                           n              eer
+     (a) y = 3x − 1,
+     (c) y = −5x,
+                        (b) y = 2x + 1,
+                        (d) y = 21 x − 3.
+                                                                                           ing
+     In each case state the gradient of the line.
+2.2. A straight line passes through the pair of points given.                                         .ne
+     Find the gradient of the line in each case.
+     (a) (0, 1), (1, 4)
+     (c) (−1, −1), (6, 3)
+                            (b) (1, 1), (2, −4)
+                            (d) (1, 4), (3, 4)
+                                                                                                          t
+2.3. A straight line graph has gradient −5 and passes
+     through (1,6). Find the equation of the line.
+2.4. In Figure 2.35 are various graphs drawn to the scale
+     1 unit = 1 cm. By finding the gradients of the lines
+     and where they cross the y-axis, find the equation of
+     the line.
+                                                                     Figure 2.35 Straight line graphs for
+                                                                     Exercise 2.4.
+
+
+
+                                                                2.5. A straight line passes through the pair of points given.
+                                                                     Find the equation of the line in each case.
+                                                                     (a) (0, 1), (−1, 4)   (b) (1, 1), (−2, −4)
+                                                                     (c) (1, 1), (6, 3)    (d) (−1, −4), (−3, −4)
+
+
+
+                                                                      Downloaded From : www.EasyEngineering.netTLFeBOOK

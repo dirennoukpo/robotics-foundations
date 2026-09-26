@@ -1,0 +1,55 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+32   Functions and their graphs
+
+
+                                       y = ax 2 + bx + c is a general way of writing a function in which the
+2.3 The                                highest power of x is a squared term. This is called the quadratic function
+quadratic                              and its graph is called a parabola as shown in Figure 2.4.
+                                          All the graphs, in this figure, cross the y-axis at (0, c). To find where
+function:                              they cross the x-axis can be more difficult. These values, where f (x) = 0,
+y = ax 2 + bx + c                      are called the roots of the equation. There is a quick way to discover
+                                       whether the function crosses the x-axis, only touches the x-axis, or does
+                                       not cross or touch it. In the latter case there are no solutions to the equation
+                                       f (x) = 0. The three possibilities are given in Figure 2.4.
+
+
+
+
+                                       Crossing the x -axis
+                                       The function y = ax 2 + bx + c crosses the x-axis when y = 0, that is,
+
+ ww                                    when ax 2 +bx +c = 0. The solutions to ax 2 +bx +c = 0 are examined in
+                                       the Background Mathematics Notes available on the companion website
+
+
+    w
+                                       for this book and are given by the formula
+
+
+                      .Ea              x=
+                                            −b ±
+                                                   √
+                                                     b2 − 4ac
+
+
+                         syE                        2a
+
+
+
+
+                                                   ngi
+                                                       n              eer
+                                                                                    ing
+                                                                                                  .ne
+                                                                                                      t
+
+
+Figure 2.4 (a) The function y = ax 2 + bx + c. (a) Case 1 where there are 2 solutions to f (x ) = 0. (b) Case
+2 where there is only one solution to f (x ) = 0. (c) Case 3, where there are no real solutions to f (x ) = 0.
+
+
+
+
+                                                                   Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,68 @@
+                                  Downloaded From : www.EasyEngineering.net
+
+
+10   Sets and functions
+
+
+
+
+ ww
+Figure 1.21 Continuous and piecewise functions where time is represented by a real number > 0. (a) A
+
+
+    w
+ramp function; (b) a wave (c) a square wave. (a) and (b) are continuous, while (c) is piecewise continuous.
+
+
+                      .Ea                 A continuous function is one whose graph can be drawn without taking
+
+
+                         syE           your pen off the paper. A piecewise continuous function has continuous
+                                       bits with a limited number of jumps. In Figure 1.21, (a) and (b) are
+                                       continuous functions and (c) is a piecewise continuous function. If we
+
+
+                                                      ngi
+                                       have a digital signal, then its values are only known at discrete moments
+                                       of time. Digital signals can be obtained by using an analog to digital
+                                       (A/D) convertor on an originally continuous signal. Digital signals are
+
+                                                          n
+                                       represented by discrete functions as in Figure 1.22(a)–(c)
+
+                                                                       eer
+                                          A digital signal has a sampling interval, T , which is the length of
+                                       time between successive values. A digital functions is represented by a
+
+                                       represented by the numbers
+                                                                                   ing
+                                       discrete function. For example, in Figure 1.22(a) the digital ramp can be
+
+
+                                       0, 1, 2, 3, 4, 5, . . .
+                                                                                                .ne
+                                       0, T, 2T, 3T, 4T, 5T, . . .                                  t
+                                       If the sample interval T is different from 1 then the values would be
+
+
+
+                                       This is a discrete function also called a sequence. It can be represented
+                                       by the expression f (t) = t, where t = 0, 1, 2, 3, 4, 5, 6, . . . or using the
+                                       sampling interval, T , g(n) = nT , where n = 0, 1, 2, 3, 4, 5, 6, . . .
+                                         Yet another common way of representing a sequence is by using a
+                                       subscript on the letter representing the image, giving
+
+                                       fn = n, where n = 0, 1, 2, 3, 4, 5, . . .
+
+                                       or, using the letter a for the image values,
+
+                                       an = n, where n = 0, 1, 2, 3, 4, 5, . . .
+
+                                       Substituting some values for n into the above gives
+
+                                       a0 = 0, a1 = 1, a2 = 2, a3 = 3, . . .
+
+                                         As a sequence is a function of the natural numbers and zero (or if
+                                       negative input values are allowed, the integers) there is no need to specify
+
+                                                                     Downloaded From : www.EasyEngineering.netTLFeBOOK

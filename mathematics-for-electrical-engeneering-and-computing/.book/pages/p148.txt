@@ -1,0 +1,79 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                      Integration   135
+
+            Check: Differentiate 2x 1/2 + C to give 2(1/2)x (1/2)−1 = x −1/2 .
+                      
+              (d) Find 1 dx.
+                           
+            From Table 7.1, 1 dx = x + C.
+            Check: Differentiate x + C to give 1.
+               We can also find integrals of some combinations of the functions listed
+            in Table 7.1. To do this, we need to use rules similar to those for differen-
+            tiation. However, because when integrating we are working ‘backwards’,
+            the rules are not so simple as those used to perform differentiation and
+            furthermore, they will not always give a method that will work in finding
+            the desired integral.
+
+            Integration of sums and af (x )
+            We can use the fact that
+                                          
+
+ww            (f (x) + g(x)) dx = f (x) dx + g(x) dx
+
+
+
+   w
+            and also that
+                          
+
+
+    .Ea       af (x) dx = a f (x) dx.
+
+
+
+       syE  Example 7.3
+                  
+            (a)
+                           ngi
+                      (3x 2 + 2x − 1) dx = x 3 + x 2 − x + C.
+
+            Check:
+             d 3
+            dx
+                               n               eer
+               (x + x 2 − x + C) = 3x 2 + 2x − 1.
+
+
+
+            (b)
+                  
+                                                          ing
+                      3 sin(x) + cos(x)dx = −3 cos(x) + sin(x) + C.
+
+                                                                       .ne
+            Check:
+             d
+            dx
+               (−3 cos(x) + sin(x) + C) = 3 sin(x) + cos(x).               t
+                  
+                           1             2
+            (c)       √            −          dx = sin−1 (x) − 2 tan−1 (x) + C.
+                          1 − x2       1 + x2
+
+            Check:
+             d                                     1        2
+               (sin−1 (x) − 2 tan−1 (x) + C) = √        −        .
+            dx                                   1 − x2   1 + x2
+
+
+            Changing the variable of integration
+            In Chapter 6 we looked at differentiating composite functions. If y =
+            f (x) where we can make a substitution in order to express y in terms of
+            u, that is, y = g(u), where u = h(x), then
+            dy   dy du
+               =       .
+            dx   du dx
+
+                                            Downloaded From : www.EasyEngineering.netTLFeBOOK

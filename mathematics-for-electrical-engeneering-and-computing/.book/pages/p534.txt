@@ -1,0 +1,73 @@
+               Downloaded From : www.EasyEngineering.net
+
+
+                                                         Probability and statistics           521
+
+
+
+
+                    Figure 21.27 The area
+                    under the standardized
+                    normal curve of mean 0 and
+                    standard deviation 1 between
+                    z = −2 and z = 1.333. The             Figure 21.28 The area outside
+                    area is equivalent to that            of the tolerance limits as given in
+                    shown in Figure 21.26.                Figure 21.27.
+
+
+
+ww                     In order to use Table 21.3, we need to express the problem in terms of
+                    the proportion that lies outside of the tolerance limits, as in Figure 21.28.
+                       We use the table of the standardized normal distribution to find the
+
+   w       .Ea
+                    proportion less than z = −2. As the curve is symmetric this will be the
+                    same as the proportion greater than z = 2. From the table this gives
+                    0.02275.
+                       The proportion greater than z = 1.33 from the table is 0.09176. Hence,
+
+              syE   the proportion that lies outside of our limits is
+                    0.02275 + 0.09176 = 0.11451.
+
+
+                    0.88549.   ngi
+                    As the total area is 1, the proportion within the limits is 1 − 0.11451 =
+
+
+
+21.11 The                          n              eer
+                    The exponential distribution is also named as the failure rate function, as
+                    it can be used to model the rate of failure of components.
+exponential
+distribution                                                   ing
+                       Consider a set of 1000 light bulbs, a similar make to those tested in
+                    Section 21.1. However, now consider a batch of bulbs at random that
+
+
+                                                                             .ne
+                    have already been in use for some, unknown time. They are, therefore,
+                    of mixed ages. On measuring the time of failure we get Table 21.4.
+
+
+                                                                                 t
+                       These data are represented in a histogram given in Figure 21.29, giving
+                    the frequencies and relative frequencies, and Figure 21.30, giving the
+                    cumulative frequencies and relative cumulative frequencies.
+                       Notice that Figure 21.29 looks like a dying exponential. This is not
+                    unreasonable as we might expect failure rates to be something like the
+                    problem of radioactive decay of Chapter 8, that is, a dying exponential.
+                       We could think of it in a similar way to a population problem. The pro-
+                    portion that have failed after time t is given by the cumulative distribution
+                    function F . The proportion that are still functioning is therefore 1 − F .
+                    The increase in the total proportion of failures is given by the failure rate
+                    multiplied by the number still functioning, if λ is the failure rate this gives
+                    dF
+                       = λ(1 − F ).
+                    dt
+                    This differential equation can be solved to give:
+                    F = 1 − A e−λt .
+                    Using the fact that at time 0 there are no failures then we find A = 1.
+                    This gives the cumulative distribution of the exponential distribution as
+                    F = 1 − e−λt
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,82 @@
+                Downloaded From : www.EasyEngineering.net
+
+
+                                                                   Language theory          485
+
+                     bottom of the pile is inaccessible. In this way, any number of symbols
+                     can be pushed onto the top of the stack. When they are popped off again
+                     the last one pushed will be the first one popped. Stacks are often referred
+                     to as LIFOs (last in, first out).
+                        Efficient parsers can be written if the grammar of the context-free
+                     language is converted to Extended Backus-Naur Form.
+
+
+
+                     Any grammar in EBNF is context-free. Each rule of the grammar defines
+20.4 Extended        one symbol of the form.
+Backus-Naur
+                     symbol ::= expression
+Form (EBNF)
+                        In the above symbol and expression are non-terminals and represent
+                     syntactic categories. Terminal symbols, or string literals, are given inside
+
+
+ww                   quotes, for example “string” or ‘string’ is a literal string as given inside
+                     the quotes. Brackets (. . .) can be used to group constituents.
+                        Symbols may be combined to represent more complex patterns as in
+
+   w     .Ea
+                     Table 20.1.
+                        Not all grammars can be converted to EBNF and a full description of
+                     methods of conversion, when possible, is outside the scope of this book.
+                     The following procedure works in simple cases.
+
+            syE      1.
+                        To convert a grammar to EBNF:
+                          Remove left recursion, that is
+
+
+                                ngi
+                          N ::= E | NF
+
+                        replace by N ::= E | EF∗ .
+
+                                    n             eer
+                           We can see that applying the rule N ::= NF twice gives N := NFF.
+                        As this is a recursive rule we can continue applying it any number of
+                        times, giving N ::= NFFF, N ::= NFFFF, N ::= NFFFFF, and so
+
+
+                        finally we get N ::= E | EF∗ .
+                                                               ing
+                        on. The only way to have a right-hand side which does not include
+                        N, that is, to remove the left recursion is to replace the N by E and
+
+                     2. Left factor the grammar
+                                                                            .ne
+                     3.
+                          N ::= EFG | EF G
+
+                          replace by N ::= E(F | F )G.
+                                                                                t
+                          If N ::= E is not recursive remove it and replace all occurrences of
+                          N in the grammar with E.
+
+                              Table 20.1 Symbol patterns and their meaning in
+                              EBNF, where A and B are simple expressions
+
+                              Symbols                      Represents
+
+                              A?         A or nothing and is referred to as ‘optional A’
+                              A B        A followed by B
+                              A|B        A or B but not both. This operator has lower
+                                         precedence than followed by thus A B | C D
+                                         is identical to (A B) | (C D)
+                              A−B        any string that matches A but does not
+                                         match B
+                              A+         one or more repetitions of A
+                              A*         zero or more repetitions of A
+
+
+
+                                               Downloaded From : www.EasyEngineering.netTLFeBOOK

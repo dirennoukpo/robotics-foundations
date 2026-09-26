@@ -1,0 +1,85 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                   Integration       141
+
+            Check:
+             1                1
+            − cos3 (x) + C = − (cos(x))3 + C.
+             3                3
+            Differentiate
+                                     
+             d     1                   1
+                 − (cos(x))3 + C = −3     (cos(x))2 (− sin(x))
+            dx     3                   3
+                                         = cos2 (x) sin(x).
+
+               This method of integration will only work when the integral is of the
+            form
+            
+                    du
+               f (u) dx
+                    dx
+
+ww          that is, there is a function of a function multiplied by the derivative of the
+            substituted variable, or where the substituted variable is a linear function.
+
+   w.Ea
+               Sometimes you may want to try to perform this method of integration
+            and discover that it fails to work, in this case, another method must be
+            used.
+
+
+       syE  Example 7.10
+            
+                                 Find
+
+                     x2
+                       ngi
+                (x 2 + 1)2
+                           dx.
+
+
+
+            becomes        n              eer
+            Substitute u = x 2 + 1, then du/dx = 2x ⇒ dx = du/2x. The integral
+
+             2          
+               x du
+               u 2x
+                2
+                      =
+                            x
+                           2u2
+                                du.
+                                                       ing
+                                                                    .ne
+            This substitution has not worked. We are no nearer being able to perform
+            the integration. There is still a term in x involved in the integral, so we
+
+               In some of these cases, integration by parts may be used.t
+            are not able to perform an integration with respect to u only.
+
+
+
+            Integration by parts
+            This can be useful for integrating some products, for example,
+               x sin(x) dx. The formula is derived from the formula for differentiation
+             of a product.
+
+             d          du       dv
+               (uv) =      v+u
+            dx          dx       dx
+                    d         du      dv
+               ⇔      (uv) −     v=u
+                   dx         dx      dx
+                 (subtracting (du/dx) v from both sides)
+                   dv     d        du
+                ⇔u     =    (uv) −    v
+                   dx    dx        dx
+                                  
+                      dv                du
+                ⇒ u dx = uv − v            dx         (integrating both sides)
+                      dx                dx
+
+                                        Downloaded From : www.EasyEngineering.netTLFeBOOK

@@ -1,0 +1,87 @@
+       Downloaded From : www.EasyEngineering.net
+
+
+                                                                                    Fourier series        425
+
+            graph of the function in the second half of the period is the same as
+            the graph of the function in the first half turned upside down. A function
+            with half-wave symmetry has no even harmonics. This can be shown by
+            considering one of the even terms where n = 2m. Then
+
+                            τ/2
+                  2
+            b2m =                     f (t) sin(2mω0 t) dt
+                  τ            −τ/2
+                            0                                          τ/2
+                   2                                       2
+                 =                  f (t) sin(2mω0 t) dt +                         f (t) sin(2mω0 t) dt
+                   τ           −τ/2                        τ            0
+
+
+
+            Substitute t  = t − (1/2)τ in the second term, so that dt  = dt, giving
+
+                 0
+                                       τ                τ
+
+ww
+            2
+                          f t +         sin 2mω0 t  +                     dt 
+            τ    −τ/2                  2                2
+
+
+
+   w.Ea
+            As τ = 2π/ω0
+
+
+                                       τ                         ω0 2π
+
+       syE  sin 2mω0 t  +
+                                       2
+                                               = sin 2mω0 t  + 2m
+                                                                 
+                                                                  ω0 2
+                                               = sin 2mω0 t + 2mπ = sin 2mω0 t 
+                                                           
+                                                                                 
+
+
+                            ngi
+            As f (t  + 21 τ ) = −f (t  ), the second term in b2m becomes
+
+
+            2
+                 0             n                  eer
+                          −f (t  ) sin(2mω0 t  ) dt 
+            τ    −τ/2
+                                                                    ing
+            which cancels the first term, giving b2m = 0.
+              A similar argument shows that the coefficients of the cosine terms for     .ne
+            even n are also zero. In this case also it is only necessary to consider the
+            half-cycle, as
+
+                 τ/2                                      τ/2
+                                                                                             t
+            2                                        4
+                          f (t) sin(nω0 t) dt =                   f (t) sin(nω0 t) dt         n odd
+            τ    −τ/2                                τ     0
+
+
+            To summarize, for a function with half wave symmetry
+
+                           τ/2
+                 4
+            an =                  f (t) cos(nω0 t) dt          n odd
+                 τ         0
+                           τ/2
+                      4
+            bn =                  f (t) sin(nω0 t) dt       n odd
+                      τ    0
+            an = bn = 0               n even
+
+
+            An even function, an odd function, and a function with half-wave
+            symmetry are shown in Figure 16.5.
+
+                                                 Downloaded From : www.EasyEngineering.netTLFeBOOK

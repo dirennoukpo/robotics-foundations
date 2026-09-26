@@ -1,0 +1,156 @@
+                                            Downloaded From : www.EasyEngineering.net
+
+
+
+
+                                                                                                                                                  500
+
+
+
+
+                                                                                                                                                  Probability and statistics
+ww
+ Table 21.2   Frequency distribution of resistances of a sample of resistors. N represents the number of classes, n the number in the sample
+
+ (1)
+       w.E
+ Resistance ( )
+                       (2)
+                    Class
+                    mid-point
+                                     (3)
+                                 Class
+                                 frequency
+                                                          (4)
+                                                        fi (x )
+                                                                        (5)
+                                                                    Cumulative
+                                                                    frequency
+                                                                                     (6)
+                                                                                 (xi − x̄ )2
+                                                                                                            (7)
+                                                                                                      fi (xi − x̄ )2
+                                                                                                                             (8)
+                                                                                                                         Relative
+                                                                                                                         frequency
+                                                                                                                            fi /n
+                                                                                                                                         (9)
+                                                                                                                                     Relative
+                                                                                                                                     cumulative
+
+
+
+
+          asy
+                        xi            fi                                 Fi                                                          frequency
+                                                                                                                                        Fi /n
+
+ 1994.5–1995.5        1995             1              1995               1        26.52                  26.52             0.01        0.01
+
+
+
+                                                 En
+ 1995.5–1996.5        1996             3              5988               4        17.22                  51.66             0.03        0.04
+ 1996.5–1997.5        1997             5              9985               9         9.92                   49.6             0.05        0.09
+ 1997.5–1998.5        1998            13             25 974             22         4.62                  60.06             0.13        0.22
+ 1998.5–1999.5        1999            17             33 983             39         1.32                  22.44             0.17        0.39
+ 1999.5–2000.5
+ 2000.5–2001.5
+ 2001.5–2002.5
+ 2002.5–2003.5
+ 2003.5–2004.5
+ 2004.5–2005.5
+                      2000
+                      2001
+                      2002
+                      2003
+                      2004
+                      2005
+                                      19
+                                      16
+                                      15
+                                       4
+                                       4
+                                       2
+                                                    gi
+                                                     38 000
+                                                     32 016
+                                                     30 030
+                                                      8012
+                                                      8016
+                                                      4010
+                                                                        58
+                                                                        74
+                                                                        89
+                                                                        93
+                                                                        97
+                                                                        99   nee
+                                                                                   0.02
+                                                                                   0.72
+                                                                                   3.42
+                                                                                   8.12
+                                                                                  14.82
+                                                                                  24.52
+                                                                                                           0.38
+                                                                                                         11.52
+                                                                                                          51.3
+                                                                                                         32.48
+                                                                                                         59.28
+                                                                                                         47.04
+                                                                                                                           0.19
+                                                                                                                           0.16
+                                                                                                                           0.15
+                                                                                                                           0.04
+                                                                                                                           0.04
+                                                                                                                           0.02
+                                                                                                                                       0.58
+                                                                                                                                       0.74
+                                                                                                                                       0.89
+                                                                                                                                       0.93
+                                                                                                                                       0.97
+                                                                                                                                       0.99
+
+
+
+                                                                                 r
+ 2005.5–2006.5        2006             1              2006             100        34.22                  34.22             0.01        1
+
+
+
+                                  
+                                      100
+
+
+                                    i fi = n
+                                                    200 015
+
+                                                 x̄ =
+                                                       200 015
+                                                                     FN = n                      ing
+                                                                                               σ2 =
+                                                                                                   1
+                                                                                                         446.5
+
+                                                                                                        fi (xi − x̄ )2
+                                                                                                                           1
+
+                                                                                                                          fi
+                                                                                                                              =1
+                                                                                                                                      FN
+                                                                                                                                         =1
+
+
+                                                                                                     .
+                                                                                                   n i                    i
+                                                         100                                                                n          n
+                                                 x̄ =
+                                                       1
+                                                       n i
+                                                            fi xi
+                                                  x̄ = 2000.15
+                                                                                                  σ2 =
+                                                                                                       446.5
+                                                                                                        100
+                                                                                                   σ = 2.11
+                                                                                                                         net
+                                                                                                  Downloaded From : www.EasyEngineering.netTLFeBOOK

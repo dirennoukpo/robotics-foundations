@@ -1,0 +1,34 @@
+                        Downloaded From : www.EasyEngineering.net
+
+
+                                                    Trigonometric functions and waves                95
+
+
+
+
+ww
+   w               .Ea
+                      syE
+                                       ngi
+                                           n              eer
+                                                                       ing
+                                                                                    .ne
+Figure 5.9 Continued.
+                                                                                        t
+                                In Figure 5.11(b) y = 3 cos(2x − 1), has a peak value of 3 and a
+                             trough value of −3. Therefore, the amplitude is half the difference =
+                             (3 − (−3))/2 = 3. The period is the minimum amount the graph needs
+                             to be shifted to the left or right (excluding no shift) in order to fit over
+                             the original graph. In this case the period is π . The phase is found by
+                             finding the proportion of the cycle that the graph has been shifted to the
+                             left. In this case the proportion of shift is −0.5/π . Now multiply that by
+                             a standard cycle length of 2π to give the phase angle of −1. The cycle
+                             rate is the number of cycles in unit length given by the reciprocal of the
+                             period 1/π ≈ 0.32.
+                                We can generalize from these examples to say that for the function
+                             y = A cos(ax + b), A positive, we have the following.
+                                The amplitude is half the difference between the function values at the
+                             peak and the trough of the wave and in case where y = A cos(ax + b) is
+                             given by A.
+
+                                                       Downloaded From : www.EasyEngineering.netTLFeBOOK
